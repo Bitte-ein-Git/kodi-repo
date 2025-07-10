@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
-  id="pvr.magenta"
+  id="pvr.magenta.linux"
   version="21.9.4"
-  name="Magenta PVR Client"
+  name="Magenta PVR Client (linux)"
   provider-name="Nirvana">
   <requires>
     
@@ -26,7 +26,7 @@
     <assets>
       <icon>icon.png</icon>
     </assets>
-    <summary lang="de_DE">Magenta PVR Client</summary>
+    <summary lang="de_DE">Magenta PVR Client (linux)</summary>
     <summary lang="en_GB">Magenta PVR Client</summary>
     <summary lang="en_US">Magenta PVR Client</summary>
     <description lang="de_DE">Magenta PVR Client</description>
