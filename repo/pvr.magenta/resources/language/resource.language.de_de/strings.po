@@ -1,0 +1,155 @@
+# Kodi Media Center language file
+# Addon Name: PVR Hrti Client
+# Addon id: pvr.hrti
+# Addon Provider: Pulse-Eight Ltd.
+msgid ""
+msgstr ""
+"Project-Id-Version: KODI Main\n"
+"Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de_de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgctxt "Addon Summary"
+msgid "Hrti PVR Client"
+msgstr "Hrti PVR Client"
+
+msgctxt "Addon Description"
+msgid "PVR Client for HRTi platform which allows you to watch live HRT TV channels and listening HRT radio stations."
+msgstr ""
+
+msgctxt "Addon Disclaimer"
+msgid "Inofficial Addon - Use on own risk"
+msgstr "Inoffizielles Addon - Benutzung auf eigene Gefahr"
+
+#. Setting to set used stream username
+#: pvr.hrti/resources/settings.xml
+msgctxt "#30000"
+msgid "Username"
+msgstr "Benutzername"
+
+#. Setting to set used stream password
+#: pvr.hrti/resources/settings.xml
+msgctxt "#30001"
+msgid "Password"
+msgstr "Passwort"
+
+msgctxt "#30002"
+msgid "IP Address"
+msgstr "IP Adresse"
+
+msgctxt "#30003"
+msgid "Token"
+msgstr "Token"
+
+msgctxt "#30004"
+msgid "Device ID"
+msgstr "Device ID"
+
+#. Settings group label
+#: pvr.hrti/resources/settings.xml
+msgctxt "#30015"
+msgid "Settings"
+msgstr "Einstellungen"
+
+msgctxt "#30010"
+msgid "PVR client menu hook item (settings) called."
+msgstr ""
+
+msgctxt "#30011"
+msgid "PVR client menu hook item (all items) called"
+msgstr ""
+
+msgctxt "#30012"
+msgid "PVR client menu hook item (channels) called"
+msgstr ""
+
+msgctxt "#30014"
+msgid "General"
+msgstr "Allgemein"
+
+msgctxt "#30020"
+msgid "Hide not subscribed channels"
+msgstr "Nur abonnierte Sender anzeigen"
+
+msgctxt "#30021"
+msgid "Prefer higher resolution"
+msgstr "Bessere Auflösung bevorzugen"
+
+msgctxt "#30022"
+msgid "Use categories"
+msgstr "Sender Gruppen anzeigen"
+
+msgctxt "#30023"
+msgid "Use custom channel numbers"
+msgstr "Eigene Senderreihenfolge nutzen"
+
+msgctxt "#30024"
+msgid "Use white channel logos"
+msgstr "Weiße Senderlogos verwenden"
+
+msgctxt "#30025"
+msgid "Show only cloud recordings"
+msgstr "Nur Cloud Aufnahmen anzeigen"
+
+msgctxt "#30026"
+msgid "Deactivate hidden channels"
+msgstr "Versteckte Sender deaktivieren"
+
+msgctxt "#30033"
+msgid "First channel number"
+msgstr "Erste Sendernummer"
+
+msgctxt "#30041"
+msgid "Device Type"
+msgstr "Endgerätetyp"
+
+msgctxt "#30042"
+msgid "Android TV"
+msgstr "Android TV"
+
+msgctxt "#30043"
+msgid "MagentaTV Stick"
+msgstr "MagentaTV Stick"
+
+msgctxt "#30046"
+msgid "Please enter OTP to register device"
+msgstr "Bitte OTP eingeben um das Gerät zu registrieren"
+
+msgctxt "#30047"
+msgid "Bitte in telekom.de/tv-login einloggen und den 8-stelligen Code eingeben. Mit OK beenden. Sie haben noch "
+msgstr ""
+
+msgctxt "#30048"
+msgid "min Zeit."
+msgstr ""
+
+msgctxt "#30049"
+msgid "Single recording delete policy"
+msgstr "Speicherdauer von Einzelaufnahmen"
+
+msgctxt "#30050"
+msgid "Delete when full"
+msgstr "Bis der Speicher voll ist"
+
+msgctxt "#30051"
+msgid "Manually delete"
+msgstr "Bis manuell löschen speichern"
+
+msgctxt "#30052"
+msgid "Keep last 5 episodes"
+msgstr "Neueste 5 Episoden speichern"
+
+msgctxt "#30053"
+msgid "Keep last 10 episodes"
+msgstr "Neueste 10 Episoden speichern"
+
+msgctxt "#30054"
+msgid "Serial recording delete policy"
+msgstr "Speicherdauer von Serienaufnahmen"

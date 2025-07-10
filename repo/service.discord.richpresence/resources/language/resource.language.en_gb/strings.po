@@ -1,0 +1,87 @@
+# XBMC Media Center language file
+msgid ""
+msgstr ""
+
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+
+msgctxt "#32001"
+msgid "General"
+msgstr ""
+
+msgctxt "#32002"
+msgid "Show presence while not playing"
+msgstr ""
+
+msgctxt "#32003"
+msgid "Playing ..."
+msgstr ""
+
+msgctxt "#32004"
+msgid "Kodi"
+msgstr ""
+
+msgctxt "#32005"
+msgid "Movies"
+msgstr ""
+
+msgctxt "#32006"
+msgid "TV"
+msgstr ""
+
+msgctxt "#32007"
+msgid "Auto (Movies/TV)"
+msgstr ""
+
+msgctxt "#32010"
+msgid "Customize"
+msgstr ""
+
+msgctxt "#32011"
+msgid "Movie"
+msgstr ""
+
+msgctxt "#32012"
+msgid "Bottom text"
+msgstr ""
+
+msgctxt "#32013"
+msgid "Genre"
+msgstr ""
+
+msgctxt "#32014"
+msgid "Title"
+msgstr ""
+
+msgctxt "#32015"
+msgid "None"
+msgstr ""
+
+msgctxt "#32016"
+msgid "Top text"
+msgstr ""
+
+msgctxt "#32017"
+msgid "Directors"
+msgstr ""
+
+msgctxt "#32020"
+msgid "Episode"
+msgstr ""
+
+msgctxt "#32021"
+msgid "Episode"
+msgstr ""
+
+msgctxt "#32022"
+msgid "Show title"
+msgstr ""
+
+msgctxt "#32023"
+msgid "Display time"
+msgstr ""
+
+msgctxt "#32024"
+msgid "Use ID lookup - disable if name is correct but id is not TMDB or IMDB"
+msgstr ""
