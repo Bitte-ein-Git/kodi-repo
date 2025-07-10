@@ -62,5 +62,6 @@ The Kodi wiki has a good walk-through guide to installing add-ons via the [Add-o
 
 Distributed under the MIT License. See [LICENSE][] for more information.
 
-[repo zip file]: https://raw.githubusercontent.com/Bitte-Ein-Git/kodi-repo/master/zips/repository.heyfordy/repository.heyfordy-1.0.zip
+[repo zip file]: 
+https://kodi.heyfordy.de/repo/zips/repository.heyfordy/repository.heyfordy-1.0.zip
 [add-on manager]: https://kodi.wiki/view/Add-on_manager
