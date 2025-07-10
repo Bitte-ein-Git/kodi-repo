@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <settings version="1">
   <section id="pvr.magenta">
+    <category id="credentials" label="30057">
+      <group id="1" label="30058">
+        <setting id="username" type="string" label="30000">
+          <level>0</level>
+          <default></default>
+          <constraints>
+            <allowempty>true</allowempty>
+          </constraints>
+          <control type="edit" format="string" />
+        </setting>
+        <setting id="password" type="string" label="30001">
+          <level>0</level>
+          <default></default>
+          <constraints>
+            <allowempty>true</allowempty>
+          </constraints>
+          <control type="edit" format="string">
+            <hidden>true</hidden>
+          </control>
+        </setting>
+      </group>
+    </category>
     <!-- general -->
     <category id="general" label="30014">
       <group id="1" label="30015">
@@ -19,6 +41,8 @@
             <options>
               <option label="30042">0</option> <!-- Android TV -->
               <option label="30043">1</option> <!-- Magenta Stick -->
+              <option label="30059">2</option> <!-- Web -->
+              <option label="30060">3</option> <!-- Android Mobile -->
             </options>
           </constraints>
           <control type="list" format="integer" />
@@ -52,6 +76,11 @@
           <default>true</default>
           <control type="toggle" />
         </setting>
+        <setting id="ismagentatwo" type="boolean" label="30055">
+          <level>0</level>
+          <default>true</default>
+          <control type="toggle" />
+        </setting>
         <setting id="customchannels" type="boolean" label="30023">
           <level>0</level>
           <default>true</default>
@@ -63,6 +92,11 @@
           <control type="toggle" />
         </setting>
         <setting id="onlycloud" type="boolean" label="30025">
+          <level>0</level>
+          <default>false</default>
+          <control type="toggle" />
+        </setting>
+        <setting id="isonlyfavorites" type="boolean" label="30061">
           <level>0</level>
           <default>false</default>
           <control type="toggle" />
@@ -115,6 +149,14 @@
           <control type="edit" format="string" />
         </setting>
         <setting id="csrftoken" type="string" label="30014">
+          <level>4</level>
+          <default></default>
+          <constraints>
+            <allowempty>true</allowempty>
+          </constraints>
+          <control type="edit" format="string" />
+        </setting>
+        <setting id="personaltoken" type="string" label="30056">
           <level>4</level>
           <default></default>
           <constraints>

@@ -29,13 +29,13 @@ msgid "Inofficial Addon - Use on own risk"
 msgstr "Inoffizielles Addon - Benutzung auf eigene Gefahr"
 
 #. Setting to set used stream username
-#: pvr.hrti/resources/settings.xml
+#: pvr.magenta/resources/settings.xml
 msgctxt "#30000"
 msgid "Username"
 msgstr "Benutzername"
 
 #. Setting to set used stream password
-#: pvr.hrti/resources/settings.xml
+#: pvr.magenta/resources/settings.xml
 msgctxt "#30001"
 msgid "Password"
 msgstr "Passwort"
@@ -123,12 +123,12 @@ msgid "Please enter OTP to register device"
 msgstr "Bitte OTP eingeben um das Gerät zu registrieren"
 
 msgctxt "#30047"
-msgid "Bitte in telekom.de/tv-login einloggen und den 8-stelligen Code eingeben. Mit OK beenden. Sie haben noch "
-msgstr ""
+msgid "Please log into telekom.de/tv-login and enter the above 8-digit code. Click OK when finished. You have "
+msgstr "Bitte in telekom.de/tv-login einloggen und den 8-stelligen Code eingeben. Mit OK beenden. Sie haben noch "
 
 msgctxt "#30048"
-msgid "min Zeit."
-msgstr ""
+msgid "min left."
+msgstr "min Zeit."
 
 msgctxt "#30049"
 msgid "Single recording delete policy"
@@ -153,3 +153,31 @@ msgstr "Neueste 10 Episoden speichern"
 msgctxt "#30054"
 msgid "Serial recording delete policy"
 msgstr "Speicherdauer von Serienaufnahmen"
+
+msgctxt "#30055"
+msgid "Magenta 2.0"
+msgstr "Magenta TV 2.0"
+
+msgctxt "#30056"
+msgid "Persona Token"
+msgstr "Personatoken"
+
+msgctxt "#30057"
+msgid "Credentials"
+msgstr "Zugangsdaten"
+
+msgctxt "#30058"
+msgid "Username / Password"
+msgstr "Benutzername / Passwort"
+
+msgctxt "#30059"
+msgid "Web Device"
+msgstr "Web"
+
+msgctxt "#30060"
+msgid "Android Mobile"
+msgstr "Android Mobile"
+
+msgctxt "#30061"
+msgid "Load only favorite channels"
+msgstr "Nur Favoriten laden"

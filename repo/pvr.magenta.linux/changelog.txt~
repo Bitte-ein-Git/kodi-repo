@@ -1,0 +1,43 @@
+v20.5.0
+- Initial release
+v20.6.0
+- Add Recordings Playback
+v20.6.1
+- Fix deleted recordings
+v20.7.0
+- Add single-shot timers / delete single-shot timers
+- Delete recordings
+- Restart of current event (begin of Timeshift Buffer only)
+v20.7.1
+- Add device replace mechanism when 5 OTT devices are registered
+v20.7.2
+- Make Terminal Type configurable
+v20.7.3
+- Read out user defined channellist
+- Make Channel Logos selectable
+- Play series recordings from directories
+- Option to deactivate hidden channels
+v20.7.4
+- Introduce mygenres.json for mapping Magenta GenreIds to Kodi EPG genres
+v20.7.5
+- Genres in recordings
+v20.7.6
+- Fix Timeshifting
+v20.8.0
+- Update timers
+- Fix Playback with bookmark
+- More EPG details (year, cast, imdb number, ...)
+- Serial recordings (add, update, delete)
+- Fix recording margins
+v21.8.0
+- Adapt for Omega
+v21.8.1
+- Init some variables
+v21.9.0
+- Implement Magenta TV 2.0
+v21.9.1
+- Fix EPG bug
+v21.9.2
+- Personal Channel list
+v21.9.3
+- Favorite Channel list

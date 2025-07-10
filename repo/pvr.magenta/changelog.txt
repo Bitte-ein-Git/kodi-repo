@@ -31,3 +31,15 @@ v20.8.0
 - Fix recording margins
 v21.8.0
 - Adapt for Omega
+v21.8.1
+- Init some variables
+v21.9.0
+- Implement Magenta TV 2.0
+v21.9.1
+- Fix EPG bug
+v21.9.2
+- Personal Channel list
+v21.9.3
+- Favorite Channel list
+v21.9.4
+- Protect against empty thumbnails
