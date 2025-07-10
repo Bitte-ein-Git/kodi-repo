@@ -24,7 +24,7 @@ You can use the easy method to install my repository directly through Kodi, or u
 1. Settings
 2. File manager
 3. Add source
-   1. Select `<None>` and type: `https://kodi.heyfordy.de`
+   1. Select `<None>` and type: `http(s)://kodi.heyfordy.de`
    2. Select OK.
    3. Move down and enter `heyFordy’s Repository` as the source name.
    4. Move down and select OK.
