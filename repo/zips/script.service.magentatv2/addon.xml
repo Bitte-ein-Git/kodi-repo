@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.service.magentatv2" name="Magenta TV 2.0 Streamer" version="1.0.3" provider-name="Jan-Luca Neumann">
+  <requires>
+      <import addon="xbmc.python" version="3.0.0"/>
+      <import addon="script.module.beautifulsoup4"/>
+      <import addon="script.module.requests"/>
+      <import addon="script.module.bottle"/>
+      <import addon="script.module.xmltodict"/>
+  </requires>
+  <extension point="xbmc.service" library="service.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Magenta TV</summary>
+    <description lang="en_GB">Service addon providing the Magenta Live TV streams
+    
+M3U URL for IPTV Simple: http://localhost:4700/api/file/channels.m3u</description>
+    <description lang="de_DE">Service-Addon zur lokalen Bereitstellung der Magenta Live TV-Streams
+    
+M3U URL für IPTV Simple: http://localhost:4700/api/file/channels.m3u</description>
+    <disclaimer lang="en_GB">Widevine is required to watch the streams.</disclaimer>
+    <disclaimer lang="de_DE">Widevine wird für das Abspielen der Streams benötigt.</disclaimer>
+    <platform>all</platform>
+    <license>GPL-3.0-or-later</license>
+    <website>https://web.magentatv.de</website>
+    <email>sunsettrack4@gmail.com</email>
+    <source>http://github.com/sunsettrack4/script.service.magentatv2</source>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
