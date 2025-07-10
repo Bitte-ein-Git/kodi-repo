@@ -24,7 +24,7 @@ You can use the easy method to install my repository directly through Kodi, or u
 1. Settings
 2. File manager
 3. Add source
-   1. Select `<None>` and type: `http(s)://kodi.heyfordy.de`
+   1. Select `<None>` and type: `https://kodi.heyfordy.de`
    2. Select OK.
    3. Move down and enter `heyFordy’s Repository` as the source name.
    4. Move down and select OK.
@@ -63,5 +63,5 @@ The Kodi wiki has a good walk-through guide to installing add-ons via the [Add-o
 Distributed under the MIT License. See [LICENSE][] for more information.
 
 [repo zip file]: 
-https://kodi.heyfordy.de/repo/zips/repository.heyfordy/repository.heyfordy-1.0.zip
+https://kodi.heyfordy.de/repo/zips/repository.heyfordy/repository.heyfordy-1.1.zip
 [add-on manager]: https://kodi.wiki/view/Add-on_manager
