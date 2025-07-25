@@ -26,13 +26,13 @@ You can use the easy method to install my repository directly through Kodi, or u
 3. Add source
    1. Select `<None>` and type: `https://kodi.heyfordy.de`
    2. Select OK.
-   3. Move down and enter `heyFordy’s Repository` as the source name.
+   3. Move down and enter `heyFordy's Kodi Repository` as the source name.
    4. Move down and select OK.
 4. Go back to System
 5. Add-ons
 6. Install from zip file
-7. Select `heyFordy’s Repository` in the list.
-8. Finally select the `repository.heyfordy.zip` file.
+7. Select `heyFordy's Kodi Repository` in the list.
+8. Finally select the `repository.heyfordy-x.x.zip` file.
 
 ### Manual installation
 
@@ -51,7 +51,7 @@ Once the repository ZIP file is installed, you can install the individual add-on
 1. Settings
 2. Add-ons
 3. Install from repository
-4. Demartini’s Repository
+4. heyFordy's Kodi Repository
 5. Select the add-on category
 6. Select the add-on
 7. Install
