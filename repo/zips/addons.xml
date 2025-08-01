@@ -78,7 +78,7 @@
 			<icon>icon.jpg</icon>
 		</assets>
 	</extension>
-</addon><addon id="repository.heyfordy" name="heyFordy's Kodi Repository" version="1.1" provider-name="heyFordy">
+</addon><addon id="repository.heyfordy" name="heyFordy's Kodi Repository" version="1.2" provider-name="heyFordy">
     <extension point="xbmc.addon.repository" name="heyFordy's Kodi Repository">
         <dir>
             <info compressed="false">https://kodi.heyfordy.de/repo/zips/addons.xml</info>
@@ -432,4 +432,19 @@ M3U URL für IPTV Simple: http://localhost:4700/api/file/channels.m3u</descripti
   <platform>all</platform>
   <source>https://github.com/Hiumee/service.discord.richpresence</source>
 </extension>
+</addon><addon id="service.discordbot.activity" name="Discord Bot Activity" version="1.0.0" provider-name="Bitte-ein-Git!">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+    <import addon="script.module.websocket" />
+  </requires>
+  <extension point="xbmc.service" library="service.py" start="login" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Discord Bot Activity for Kodi</summary>
+    <description lang="en_GB">Kodi playback information for DC Bots</description>
+    <platform>all</platform>
+    <license>MIT</license>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
 </addon></addons>
