@@ -9,6 +9,7 @@
     <summary lang="en_GB">Discord Bot Activity for Kodi</summary>
     <description lang="en_GB">Kodi playback information for DC Bots</description>
     <platform>all</platform>
+    <source>https://github.com/Bitte-ein-Git/service.discordbot.activity</source>
     <license>MIT</license>
     <assets>
       <icon>icon.png</icon>
