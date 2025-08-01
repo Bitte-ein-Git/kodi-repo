@@ -433,7 +433,7 @@ M3U URL für IPTV Simple: http://localhost:4700/api/file/channels.m3u</descripti
   <platform>all</platform>
   <source>https://github.com/Hiumee/service.discord.richpresence</source>
 </extension>
-</addon><addon id="service.discordbot.activity" name="Discord Bot Activity" version="1.0.1" provider-name="Bitte-ein-Git!">
+</addon><addon id="service.discordbot.activity" name="Discord Bot Activity" version="1.0.2" provider-name="Bitte-ein-Git!">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.websocket" />
