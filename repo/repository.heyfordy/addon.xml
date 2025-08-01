@@ -12,6 +12,7 @@
         <description>heyFordy's custom repo</description>
         <disclaimer></disclaimer>
         <platform>all</platform>
+        <source>https://github.com/Bitte-ein-Git/kodi-repo</source>
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
