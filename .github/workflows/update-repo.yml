@@ -41,7 +41,8 @@ jobs:
         run: |
           git submodule update --init --recursive --checkout --remote -f
           git config --global user.name "GitHub Action"
-          git config --global user.email "noreply@github.com"      - name: Copy latest repo zip to root
+          git config --global user.email "noreply@github.com"
+      - name: Copy latest repo zip to root
         run: cp "$(ls -t ./repo/zips/repository.heyfordy/*.zip | head -n 1)" ./repository.heyfordy.zip
       - name: Commit
         run: |
