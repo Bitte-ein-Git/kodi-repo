@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <settings>
-  <category label="Discord API">
-    <setting id="discord_app_id" type="text" label="Discord Application ID" default=""/>
-    <setting id="discord_user_token" type="text" label="Discord User Token" option="hidden" default=""/>
+  <category label="Discord Activity Config">
+    <setting id="discord_app_id" type="text" label="Application ID" default=""/>
+    <setting id="discord_user_token" type="text" label="Discord (Bot) User Token" option="hidden" default=""/>
   </category>
 </settings>
