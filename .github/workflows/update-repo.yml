@@ -23,11 +23,6 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - name: Update pip
         run: python -m pip install --upgrade pip
-      - name: Update Submodules
-        run: |
-          git submodule update --init --recursive --checkout --remote -f
-          git config --global user.name "GitHub Action"
-          git config --global user.email "noreply@github.com"
       - name: Repo Generator
         run: python ./_repo_generator.py
   copy-latest-repo-zip-and-commit:
@@ -42,7 +37,11 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           submodules: recursive
           fetch-depth: 0
-      - name: Copy latest repo zip to root
+      - name: Update Submodules
+        run: |
+          git submodule update --init --recursive --checkout --remote -f
+          git config --global user.name "GitHub Action"
+          git config --global user.email "noreply@github.com"      - name: Copy latest repo zip to root
         run: cp "$(ls -t ./repo/zips/repository.heyfordy/*.zip | head -n 1)" ./repository.heyfordy.zip
       - name: Commit
         run: |
