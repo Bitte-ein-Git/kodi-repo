@@ -1,0 +1,32 @@
+name: Update Rwpo .zip 🗿
+
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types: update
+
+jobs:
+  update-zip:
+  runs-on: ubuntu-latest
+    needs: update
+    strategy:
+      matrix:
+        python-version: ["3.10"]
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          submodules: recursive
+          fetch-depth: 0
+      - name: Update Submodules
+        run: |
+          git submodule update --init --recursive --checkout --remote -f
+          git config --global user.name "GitHub Action"
+          git config --global user.email "noreply@github.com"
+      - name: Copy latest repo zip to root
+        run: cp "$(ls -t ./repo/zips/repository.heyfordy/*.zip | head -n 1)" ./repository.heyfordy.zip
+      - name: Commit
+        run: |
+          git add .
+          git commit -m ":package::bookmark: - Update ${{github.event.client_payload.module}} to ${{github.event.client_payload.tag}}"
+          git push
