@@ -8,7 +8,6 @@ on:
 jobs:
   update-zip:
   runs-on: ubuntu-latest
-    needs: update
     strategy:
       matrix:
         python-version: ["3.10"]
