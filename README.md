@@ -32,7 +32,7 @@ You can use the easy method to install my repository directly through Kodi, or u
 5. Add-ons
 6. Install from zip file
 7. Select `heyFordy's Kodi Repository` in the list.
-8. Finally select the `repository.heyfordy-x.x.zip` file.
+8. Finally select the `repository.heyfordy.zip` file.
 
 ### Manual installation
 
@@ -59,5 +59,5 @@ Once the repository ZIP file is installed, you can install the individual add-on
 The Kodi wiki has a good walk-through guide to installing add-ons via the [Add-on manager][].
 
 [repo zip file]: 
-https://kodi.heyfordy.de/repo/zips/repository.heyfordy/repository.heyfordy-1.1.zip
+https://kodi.heyfordy.de/repo/zips/repository.heyfordy/repository.heyfordy.zip
 [add-on manager]: https://kodi.wiki/view/Add-on_manager
