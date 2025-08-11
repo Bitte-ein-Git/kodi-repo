@@ -53,8 +53,11 @@ jobs:
           git submodule update --init --recursive --checkout --remote -f
           git config --global user.name "GitHub Action"
           git config --global user.email "noreply@github.com"
-      - name: Copy latest repo zip to root
-        run: cp "$(ls -t /home/runner/work/kodi-repo/kodi-repo/repo/zips/repository.heyfordy/*.zip | head -n 1)" /home/runner/work/kodi-repo/kodi-repo/repository.heyfordy.zip
+
+      - name: Copy latest zip to root
+      run: |
+        SOURCE_FILE=$(ls -t repo/zips/repository.heyfordy/*.zip | head -n 1)
+        cp "$SOURCE_FILE" repository.heyfordy.zip
       - name: Commit
         run: |
           git add .
