@@ -2,8 +2,6 @@ name: Update Repo .zip 🗿
 
 on:
   workflow_dispatch:
-  repository_dispatch:
-    types: update
 
 jobs:
   update-zip:
@@ -23,7 +21,7 @@ jobs:
           git config --global user.name "GitHub Action"
           git config --global user.email "noreply@github.com"
       - name: Copy latest repo zip to root
-        run: cp "$(ls -t /home/runner/work/repository.heyfordy/repository.heyfordy/repo/zips/repository.heyfordy/*.zip | head -n 1)" /home/runner/work/repository.heyfordy/repository.heyfordy/repository.heyfordy.zip
+        run: cp "$(ls -t /home/runner/work/kodi-repo/kodi-repo/repo/zips/repository.heyfordy/*.zip | head -n 1)" /home/runner/work/kodi-repo/kodi-repo/repository.heyfordy.zip
       - name: Commit
         run: |
           git add .
