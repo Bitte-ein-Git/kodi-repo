@@ -1,4 +1,4 @@
-name: Update Rwpo .zip 🗿
+name: Update Repo .zip 🗿
 
 on:
   workflow_dispatch:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   update-zip:
-  runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         python-version: ["3.10"]
@@ -23,7 +23,7 @@ jobs:
           git config --global user.name "GitHub Action"
           git config --global user.email "noreply@github.com"
       - name: Copy latest repo zip to root
-        run: cp "$(ls -t ./repo/zips/repository.heyfordy/*.zip | head -n 1)" ./repository.heyfordy.zip
+        run: cp "$(ls -t /home/runner/work/repository.heyfordy/repository.heyfordy/repo/zips/repository.heyfordy/*.zip | head -n 1)" /home/runner/work/repository.heyfordy/repository.heyfordy/repository.heyfordy.zip
       - name: Commit
         run: |
           git add .
