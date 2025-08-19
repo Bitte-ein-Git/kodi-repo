@@ -1,5 +1,5 @@
 <addon id="service.dc_ha_presence"
-       name="DC Rich Presence x HA Sensors"
+       name="Discord Presence x HA Sensors"
        version="2.0.0"
        provider-name="Bitte-ein-Git!">
     <requires>
@@ -10,8 +10,6 @@
     <extension point="xbmc.service" library="default.py" start="startup"/>
     <extension point="xbmc.addon.metadata">
         <summary>Zeigt HA Sensoren als Discord Rich Presence.</summary>
-        <description>Zur Nutzung mit custom component "kodi_helpers" geeignet.</description>
-        <description>--- https://github.com/Bitte-ein-Git/ha_kodi_helpers ---</description>
         <description> Work in progress! — Discord User Token required.</description>
         <platform>all</platform>
     <source>https://github.com/Bitte-ein-Git/service.dc_ha_presence</source>
