@@ -106,8 +106,8 @@ class DiscordHAService(xbmc.Monitor):
             (False, "App name"):    (details_val, state_val, 0),
             (False, "Media title"): (details_val, state_val, 2),
             (True, "App name"):      (details_val, state_val, 0),
-            (True, "Channel name"):  (state_val, details_val, 2),
-            (True, "TV-show title"): (details_val, state_val, 2)
+            (True, "Channel name"):  (details_val, state_val, 2),
+            (True, "TV-show title"): (state_val, details_val, 2)
         }
         
         mode_label = self.pvr_display_mode if is_pvr else self.media_display_mode
@@ -128,6 +128,7 @@ class DiscordHAService(xbmc.Monitor):
         if is_paused:
             assets["small_image"] = "1407207956851982336"
             assets["small_text"] = "Paused"
+            state = "››› 𝗣𝗔𝗨𝗦𝗘"
         
         payload["assets"] = assets
         
