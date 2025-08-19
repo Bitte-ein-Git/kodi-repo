@@ -9,4 +9,9 @@
         <setting id="sensor_detail" type="text" label="Sensor für Details" default="sensor.details"/>
         <setting id="sensor_state" type="text" label="Sensor für State" default="sensor.state"/>
     </category>
+    <category label="Customization">
+        <setting id="app_name" type="text" label="App Name" default="Kodi"/>
+        <setting id="media_display_mode" type="select" label="Media display mode" values="disabled|App name|Media title" default="1"/>
+        <setting id="pvr_display_mode" type="select" label="PVR display mode" values="disabled|App name|Channel name|TV-show title" default="0"/>
+    </category>
 </settings>

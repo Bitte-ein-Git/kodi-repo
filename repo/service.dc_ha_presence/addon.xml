@@ -1,6 +1,6 @@
 <addon id="service.dc_ha_presence"
-       name="Discord Rich Presence via Home Assistant"
-       version="1.0.1"
+       name="DC Rich Presence x HA Sensors"
+       version="1.9.0"
        provider-name="Bitte-ein-Git!">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
@@ -9,8 +9,10 @@
     </requires>
     <extension point="xbmc.service" library="default.py" start="startup"/>
     <extension point="xbmc.addon.metadata">
-        <summary>Zeigt Kodi-Wiedergabeinfos als Discord Rich Presence, Werte aus Home Assistant.</summary>
-        <description>DC RPC mit Daten aus zwei HA-Sensoren</description>
+        <summary>Zeigt HA Sensoren als Discord Rich Presence.</summary>
+        <description>Zur Nutzung mit custom component "kodi_helpers" geeignet.</description>
+        <description>--- https://github.com/Bitte-ein-Git/ha_kodi_helpers ---</description>
+        <description> Work in progress! — Discord User Token required.</description>
         <platform>all</platform>
     <source>https://github.com/Bitte-ein-Git/service.dc_ha_presence</source>
     <license>MIT</license>
