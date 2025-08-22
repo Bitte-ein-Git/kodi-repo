@@ -3,6 +3,7 @@ import xbmcaddon
 import xbmcgui
 import time
 import requests
+import json
 from resources.lib.discord_gateway import DiscordClient
 
 ADDON = xbmcaddon.Addon()
@@ -16,6 +17,40 @@ def get_ha_sensor_state(url, token, entity_id):
     except requests.exceptions.RequestException as e:
         xbmc.log(f"[DiscordRPC] Error fetching {entity_id}: {e}", xbmc.LOGERROR)
     return ""
+
+def get_playing_addon():
+    try:
+        rpc_query = json.dumps({
+            "jsonrpc": "2.0",
+            "method": "Player.GetItem",
+            "params": {"playerid": 1, "properties": ["file"]},
+            "id": 1
+        })
+        rpc_response_str = xbmc.executeJSONRPC(rpc_query)
+        rpc_data = json.loads(rpc_response_str)
+        file_path = rpc_data.get('result', {}).get('item', {}).get('file')
+
+        if not file_path: return ""
+        if 'jellyfin' in file_path: return "Jellyfin"
+        if 'amazon' in file_path: return "Prime Video"
+        if 'disney' in file_path: return "Disney+"
+        if 'dmax' in file_path: return "DMAX Mediathek"
+        if 'discovery' in file_path: return "Discovery+"
+        if 'joyn' in file_path: return "Joyn"
+        if 'xstream' in file_path or 'tmdb' in file_path: return "xStream"
+        if file_path.startswith('plugin://'):
+            parts = file_path.split('/')
+            return parts[2] if len(parts) > 2 else ""
+    except Exception as e:
+        xbmc.log(f"[DiscordRPC] Could not get playing addon name: {e}", xbmc.LOGWARNING)
+    return ""
+
+def time_obj_to_seconds(time_dict):
+    if not isinstance(time_dict, dict): return 0
+    return (time_dict.get('hours', 0) * 3600 +
+            time_dict.get('minutes', 0) * 60 +
+            time_dict.get('seconds', 0) +
+            time_dict.get('milliseconds', 0) / 1000.0)
 
 class DiscordHAService(xbmc.Monitor):
     def __init__(self):
@@ -32,6 +67,7 @@ class DiscordHAService(xbmc.Monitor):
         self.sensor_detail_id = ADDON.getSettingString("sensor_detail")
         self.sensor_state_id = ADDON.getSettingString("sensor_state")
         self.app_name = ADDON.getSettingString("app_name")
+        self.display_addon_name = ADDON.getSettingBool("display_addon_name")
         self.media_display_mode = ADDON.getSettingString("media_display_mode")
         self.pvr_display_mode = ADDON.getSettingString("pvr_display_mode")
         xbmc.log("[DiscordRPC] Settings loaded.", xbmc.LOGINFO)
@@ -61,7 +97,7 @@ class DiscordHAService(xbmc.Monitor):
             is_playing = xbmc.Player().isPlaying()
             is_paused = xbmc.getCondVisibility('Player.Paused')
             is_pvr = xbmc.getCondVisibility("Pvr.IsPlayingTv")
-            
+
             mode = self.pvr_display_mode if is_pvr else self.media_display_mode
             if not is_playing or mode == "disabled":
                 if last_payload_str:
@@ -73,8 +109,9 @@ class DiscordHAService(xbmc.Monitor):
 
             details_val = get_ha_sensor_state(self.ha_url, self.ha_token, self.sensor_detail_id)
             state_val = get_ha_sensor_state(self.ha_url, self.ha_token, self.sensor_state_id)
+            addon_name = get_playing_addon()
 
-            payload = self.build_payload(is_pvr, details_val, state_val, is_paused)
+            payload = self.build_payload(is_pvr, details_val, state_val, is_paused, addon_name)
 
             if not payload:
                 if self.waitForAbort(5): break
@@ -95,8 +132,12 @@ class DiscordHAService(xbmc.Monitor):
         if self.settings_changed:
             self.settings_changed = False
 
-    def build_payload(self, is_pvr, details_val, state_val, is_paused):
-        payload = { "name": self.app_name, "type": 3, "application_id": self.app_id }
+    def build_payload(self, is_pvr, details_val, state_val, is_paused, addon_name):
+        app_name_str = self.app_name
+        if self.display_addon_name and addon_name and not is_pvr:
+            app_name_str += f" • {addon_name}"
+
+        payload = { "name": app_name_str, "type": 3, "application_id": self.app_id }
         
         mode_map = {
             (False, "App name"):    (details_val, state_val, 0),
@@ -115,6 +156,32 @@ class DiscordHAService(xbmc.Monitor):
         payload["state"] = config[1]
         payload["status_display_type"] = config[2]
 
+        try:
+            rpc_query = json.dumps({
+                "jsonrpc": "2.0",
+                "method": "Player.GetProperties",
+                "params": {"playerid": 1, "properties": ["time", "totaltime"]},
+                "id": 1
+            })
+            rpc_response_str = xbmc.executeJSONRPC(rpc_query)
+            rpc_data = json.loads(rpc_response_str)
+
+            if 'result' in rpc_data:
+                time_data = rpc_data['result']
+                current_time_sec = time_obj_to_seconds(time_data.get('time'))
+                total_time_sec = time_obj_to_seconds(time_data.get('totaltime'))
+
+                if total_time_sec > 0:
+                    now_ts = time.time()
+                    start_ts = now_ts - current_time_sec
+                    end_ts = start_ts + total_time_sec
+                    payload["timestamps"] = {
+                        "start": int(start_ts * 1000),
+                        "end": int(end_ts * 1000)
+                    }
+        except Exception as e:
+            xbmc.log(f"[DiscordRPC] Failed to set timestamps via JSONRPC: {e}", xbmc.LOGWARNING)
+
         assets = {
             "small_image": "1407207956877021236" if is_pvr else "1407207958294564884",
             "large_text": state_val if is_pvr else details_val
@@ -123,7 +190,10 @@ class DiscordHAService(xbmc.Monitor):
         if is_paused:
             assets["small_image"] = "1407207956851982336"
             assets["small_text"] = "Paused"
-            payload["state"] = "››› 𝗣𝗔𝗨𝗦𝗘"
+            payload["state"] = "› ⏸️ 𝗣𝗔𝗨𝗦𝗘"
+
+            if "timestamps" in payload:
+                del payload["timestamps"]
         
         payload["assets"] = assets
         
