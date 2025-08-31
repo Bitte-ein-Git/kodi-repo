@@ -31,13 +31,17 @@ def get_playing_addon():
         file_path = rpc_data.get('result', {}).get('item', {}).get('file')
 
         if not file_path: return ""
-        if 'jellyfin' in file_path: return "Jellyfin"
-        if 'amazon' in file_path: return "Prime Video"
+        if '154ca21497fd425d1677bfea175b4771' in file_path or 'f72cfc62f132f99d731c292481870375' in file_path: return "Prime Video DE" # test: my jellyfin db id for amazon .strm files
+        if 'rtla9855e4a9f748ce5bc33cbb76cd52949group' in file_path or '48495193c8f9599c52bf17a174921de4' in file_path: return "TMDb Helper" # test: my jellyfin db id for tmdb helper exports
+        if 'amazon' in file_path: return "Prime Video DE"
         if 'disney' in file_path: return "Disney+"
         if 'dmax' in file_path: return "DMAX Mediathek"
-        if 'discovery' in file_path: return "Discovery+"
+        if 'discoveryplus' in file_path: return "Discovery +"
         if 'joyn' in file_path: return "Joyn"
-        if 'xstream' in file_path or 'tmdb' in file_path: return "xStream"
+        if 'rtlgroup' in file_path or 'tvnow' in file_path: return "RTL +"
+        if 'themoviedb' in file_path or 'xstream' in file_path or 'tmdb' in file_path: return "TMDb Helper"
+        if 'jellyfin' in file_path: return "Jellyfin"
+        if 'pvr://' in file_path: return "IPTV"
         if file_path.startswith('plugin://'):
             parts = file_path.split('/')
             return parts[2] if len(parts) > 2 else ""
