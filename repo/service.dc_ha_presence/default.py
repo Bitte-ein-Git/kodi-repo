@@ -39,9 +39,10 @@ def get_playing_addon():
         if 'discoveryplus' in file_path: return "Discovery +"
         if 'joyn' in file_path: return "Joyn"
         if 'rtlgroup' in file_path or 'tvnow' in file_path: return "RTL +"
-        if 'themoviedb' in file_path or 'xstream' in file_path or 'tmdb' in file_path: return "TMDb Helper"
+        if 'xship' in file_path return "xShip | TMDb Helper"
+        if 'xstream' in file_path return "xStream | TMDb Helper" 
+        if 'themoviedb' in file_path or 'tmdb' in file_path: return "TMDb Helper"
         if 'jellyfin' in file_path: return "Jellyfin"
-        if 'pvr://' in file_path: return "IPTV"
         if file_path.startswith('plugin://'):
             parts = file_path.split('/')
             return parts[2] if len(parts) > 2 else ""
@@ -140,6 +141,8 @@ class DiscordHAService(xbmc.Monitor):
         app_name_str = self.app_name
         if self.display_addon_name and addon_name and not is_pvr:
             app_name_str += f" • {addon_name}"
+        if self.display_addon_name and is_pvr:
+            app_name_str += f" • TV"
 
         payload = { "name": app_name_str, "type": 3, "application_id": self.app_id }
         
@@ -194,7 +197,7 @@ class DiscordHAService(xbmc.Monitor):
         if is_paused:
             assets["small_image"] = "1407207956851982336"
             assets["small_text"] = "Paused"
-            payload["state"] = "› ⏸️ 𝗣𝗔𝗨𝗦𝗘"
+            payload["state"] = "⏸️ 𝗣𝗔𝗨𝗦𝗘"
 
             if "timestamps" in payload:
                 del payload["timestamps"]

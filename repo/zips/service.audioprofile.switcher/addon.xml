@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="service.audioprofile.switcher" name="Audio Profile Switcher" version="1.0.1" provider-name="Bitte-ein-Git!">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.audio.profiles" version="1.0.0"/>
+  </requires>
+  <extension point="xbmc.service" library="service.py" start="login"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Automatically switch audio profiles based on channel count.</summary>
+    <description lang="en_GB">Simple audio profile switcher using Add-on:Audio Profiles.. 2ch Audio = Profile2 / Multichannel = Profile1</description>
+    <platform>all</platform>
+    <license>MIT</license>
+    <source>https://github.com/Bitte-ein-Git/kodi-repo/repo/service.audioprofile.switcher</source>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>

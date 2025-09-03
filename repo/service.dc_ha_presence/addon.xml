@@ -1,6 +1,6 @@
 <addon id="service.dc_ha_presence"
        name="Discord Presence x HA Sensors"
-       version="2.2.0"
+       version="2.2.1"
        provider-name="Bitte-ein-Git!">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
