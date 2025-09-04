@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.heyfordy" name="heyFordy's Kodi Repository" version="2.0.2" provider-name="Bitte ein Git!">
-    <extension point="xbmc.addon.repository" name="heyFordy's Kodi Repository">
+<addon id="repository.heyfordy" name="» [B][COLOR goldenrod]heyFordy's[/COLOR][/B] [COLOR blue]Kodi[/COLOR] Repository" version="2.1.0" provider-name="Bitte ein Git!">
+    <extension point="xbmc.addon.repository" name="» [B][COLOR goldenrod]heyFordy's[/COLOR][/B] [COLOR blue]Kodi[/COLOR] Repository">
         <dir>
             <info compressed="false">https://kodi.heyfordy.de/repo/zips/addons.xml</info>
             <checksum>https://kodi.heyfordy.de/repo/zips/addons.xml.md5</checksum>

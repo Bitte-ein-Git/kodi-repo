@@ -34,15 +34,16 @@ def get_playing_addon():
         if '154ca21497fd425d1677bfea175b4771' in file_path or 'f72cfc62f132f99d731c292481870375' in file_path: return "Prime Video DE" # test: my jellyfin db id for amazon .strm files
         if 'rtla9855e4a9f748ce5bc33cbb76cd52949group' in file_path or '48495193c8f9599c52bf17a174921de4' in file_path: return "TMDb Helper" # test: my jellyfin db id for tmdb helper exports
         if 'amazon' in file_path: return "Prime Video DE"
-        if 'disney' in file_path: return "Disney+"
+        if 'disney' in file_path: return "Disney +"
         if 'dmax' in file_path: return "DMAX Mediathek"
         if 'discoveryplus' in file_path: return "Discovery +"
         if 'joyn' in file_path: return "Joyn"
         if 'rtlgroup' in file_path or 'tvnow' in file_path: return "RTL +"
-        if 'xship' in file_path return "xShip | TMDb Helper"
-        if 'xstream' in file_path return "xStream | TMDb Helper" 
+        if 'xship' in file_path: return "xShip"
+        if 'xstream' in file_path: return "xStream"
         if 'themoviedb' in file_path or 'tmdb' in file_path: return "TMDb Helper"
         if 'jellyfin' in file_path: return "Jellyfin"
+        if 'pvr://' in file_path: return "IPTV"
         if file_path.startswith('plugin://'):
             parts = file_path.split('/')
             return parts[2] if len(parts) > 2 else ""
@@ -75,6 +76,7 @@ class DiscordHAService(xbmc.Monitor):
         self.display_addon_name = ADDON.getSettingBool("display_addon_name")
         self.media_display_mode = ADDON.getSettingString("media_display_mode")
         self.pvr_display_mode = ADDON.getSettingString("pvr_display_mode")
+        self.icon_color = ADDON.getSettingString("icon_color")
         xbmc.log("[DiscordRPC] Settings loaded.", xbmc.LOGINFO)
 
     def onSettingsChanged(self):
@@ -141,8 +143,6 @@ class DiscordHAService(xbmc.Monitor):
         app_name_str = self.app_name
         if self.display_addon_name and addon_name and not is_pvr:
             app_name_str += f" • {addon_name}"
-        if self.display_addon_name and is_pvr:
-            app_name_str += f" • TV"
 
         payload = { "name": app_name_str, "type": 3, "application_id": self.app_id }
         
@@ -189,22 +189,41 @@ class DiscordHAService(xbmc.Monitor):
         except Exception as e:
             xbmc.log(f"[DiscordRPC] Failed to set timestamps via JSONRPC: {e}", xbmc.LOGWARNING)
 
-        assets = {
-            "small_image": "1407207956877021236" if is_pvr else "1407207958294564884",
-            "large_text": state_val if is_pvr else details_val
-        }
-        
-        if is_paused:
-            assets["small_image"] = "1407207956851982336"
-            assets["small_text"] = "Paused"
-            payload["state"] = "⏸️ 𝗣𝗔𝗨𝗦𝗘"
+        if self.icon_color == 'Greyscale':
+            assets = {
+                "small_image": "1407207956877021236" if is_pvr else "1407207958294564884",
+                "large_text": state_val if is_pvr else details_val
+            }
+            
+            if is_paused:
+                assets["small_image"] = "1407207956851982336"
+                assets["small_text"] = "⏸️ 𝗣𝗔𝗨𝗦𝗘"
+                payload["state"] = "⏸️ 𝗣𝗔𝗨𝗦𝗘"
 
-            if "timestamps" in payload:
-                del payload["timestamps"]
-        
-        payload["assets"] = assets
-        
-        return payload
+                if "timestamps" in payload:
+                    del payload["timestamps"]
+            
+            payload["assets"] = assets
+            
+            return payload
+
+        if self.icon_color == 'Colored':
+            assets = {
+                "small_image": "1407207958252884149" if is_pvr else "1407207956914634772",
+                "large_text": state_val if is_pvr else details_val
+            }
+            
+            if is_paused:
+                assets["small_image"] = "1407207957422411849"
+                assets["small_text"] = "⏸️ 𝗣𝗔𝗨𝗦𝗘"
+                payload["state"] = "⏸️ 𝗣𝗔𝗨𝗦𝗘"
+
+                if "timestamps" in payload:
+                    del payload["timestamps"]
+            
+            payload["assets"] = assets
+            
+            return payload
 
 if __name__ == "__main__":
     xbmc.log("[DiscordRPC] Addon starting.", xbmc.LOGINFO)

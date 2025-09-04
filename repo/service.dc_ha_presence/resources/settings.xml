@@ -1,6 +1,6 @@
 <settings>
     <category label="Discord">
-        <setting id="app_id" type="text" label="Discord App ID" default="123456789012345678"/>
+        <setting id="app_id" type="text" label="Discord App ID" default="1244203892145786992"/>
         <setting id="user_token" type="text" label="Discord User Token" option="hidden"/>
     </category>
     <category label="Home Assistant">
@@ -10,9 +10,10 @@
         <setting id="sensor_state" type="text" label="Sensor für State" default="sensor.state"/>
     </category>
     <category label="Customization">
-        <setting id="app_name" type="text" label="App Name" default="🍿 Kodi"/>
+        <setting id="app_name" type="text" label="App Name" default="Kodi"/>
         <setting id="display_addon_name" type="bool" label="Display video addon name" default="false"/>
         <setting id="media_display_mode" type="select" label="Media display mode" values="disabled|App name|Media title" default="1"/>
         <setting id="pvr_display_mode" type="select" label="PVR display mode" values="disabled|App name|Channel name|TV-show title" default="0"/>
+        <setting id="icon_color" type="select" label="Icon Color" values="Greyscale|Colored" default="0"/>
     </category>
 </settings>
