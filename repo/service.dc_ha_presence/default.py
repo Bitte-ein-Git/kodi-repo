@@ -29,6 +29,7 @@ def get_playing_addon():
         rpc_response_str = xbmc.executeJSONRPC(rpc_query)
         rpc_data = json.loads(rpc_response_str)
         file_path = rpc_data.get('result', {}).get('item', {}).get('file')
+        pb_type = rpc_data.get('result', {}).get('item', {}).get('type')
 
         if not file_path: return ""
         if '154ca21497fd425d1677bfea175b4771' in file_path or 'f72cfc62f132f99d731c292481870375' in file_path: return "Prime Video DE" # test: my jellyfin db id for amazon .strm files
@@ -43,7 +44,7 @@ def get_playing_addon():
         if 'xstream' in file_path: return "xStream"
         if 'themoviedb' in file_path or 'tmdb' in file_path: return "TMDb Helper"
         if 'jellyfin' in file_path: return "Jellyfin"
-        if 'pvr://' in file_path: return "IPTV"
+        if 'channel' in pb_type: return "IPTV"
         if file_path.startswith('plugin://'):
             parts = file_path.split('/')
             return parts[2] if len(parts) > 2 else ""
@@ -141,7 +142,7 @@ class DiscordHAService(xbmc.Monitor):
 
     def build_payload(self, is_pvr, details_val, state_val, is_paused, addon_name):
         app_name_str = self.app_name
-        if self.display_addon_name and addon_name and not is_pvr:
+        if self.display_addon_name and addon_name:
             app_name_str += f" • {addon_name}"
 
         payload = { "name": app_name_str, "type": 3, "application_id": self.app_id }
@@ -197,8 +198,8 @@ class DiscordHAService(xbmc.Monitor):
             
             if is_paused:
                 assets["small_image"] = "1407207956851982336"
-                assets["small_text"] = "⏸️ 𝗣𝗔𝗨𝗦𝗘"
-                payload["state"] = "⏸️ 𝗣𝗔𝗨𝗦𝗘"
+                assets["small_text"] = "𝗣𝗔𝗨𝗦𝗘 ⏸️"
+                payload["state"] = "𝗣𝗔𝗨𝗦𝗘 ⏸️"
 
                 if "timestamps" in payload:
                     del payload["timestamps"]
@@ -215,8 +216,8 @@ class DiscordHAService(xbmc.Monitor):
             
             if is_paused:
                 assets["small_image"] = "1407207957422411849"
-                assets["small_text"] = "⏸️ 𝗣𝗔𝗨𝗦𝗘"
-                payload["state"] = "⏸️ 𝗣𝗔𝗨𝗦𝗘"
+                assets["small_text"] = "𝗣𝗔𝗨𝗦𝗘 ⏸️"
+                payload["state"] = "𝗣𝗔𝗨𝗦𝗘 ⏸️"
 
                 if "timestamps" in payload:
                     del payload["timestamps"]

@@ -6,12 +6,12 @@
     <category label="Home Assistant">
         <setting id="ha_url" type="text" label="Home Assistant URL" default="http://homeassistant.local:8123"/>
         <setting id="ha_token" type="text" label="Home Assistant Long-Lived Token" option="hidden"/>
-        <setting id="sensor_detail" type="text" label="Sensor für Details" default="sensor.details"/>
-        <setting id="sensor_state" type="text" label="Sensor für State" default="sensor.state"/>
+        <setting id="sensor_detail" type="text" label="Sensor - Details" default="sensor.details"/>
+        <setting id="sensor_state" type="text" label="Sensor - State" default="sensor.state"/>
     </category>
     <category label="Customization">
-        <setting id="app_name" type="text" label="App Name" default="Kodi"/>
-        <setting id="display_addon_name" type="bool" label="Display video addon name" default="false"/>
+        <setting id="app_name" type="text" level="4" label="App Name" default="Kodi"/>
+        <setting id="display_addon_name" type="bool" label="Display video addon name" default="true"/>
         <setting id="media_display_mode" type="select" label="Media display mode" values="disabled|App name|Media title" default="1"/>
         <setting id="pvr_display_mode" type="select" label="PVR display mode" values="disabled|App name|Channel name|TV-show title" default="0"/>
         <setting id="icon_color" type="select" label="Icon Color" values="Greyscale|Colored" default="0"/>
