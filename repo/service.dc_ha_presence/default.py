@@ -7,8 +7,10 @@ import json
 from resources.lib.discord_gateway import DiscordClient
 
 ADDON = xbmcaddon.Addon()
+UNAVAILABLE_STATES = ["unavailable", "unknown", "No Playback", "Keine Wiedergabe", "Kodi offline"]
 
 def get_ha_sensor_state(url, token, entity_id):
+    # fetch ha sensor state
     try:
         headers = {"Authorization": f"Bearer {token}", "Content-Type": "application/json"}
         response = requests.get(f"{url}/api/states/{entity_id}", headers=headers, timeout=5)
@@ -19,21 +21,35 @@ def get_ha_sensor_state(url, token, entity_id):
     return ""
 
 def get_playing_addon():
+    # get playing addon name
     try:
         rpc_query = json.dumps({
             "jsonrpc": "2.0",
             "method": "Player.GetItem",
-            "params": {"playerid": 1, "properties": ["file"]},
+            "params": {"playerid": 1, "properties": ["file", "type", "studio"]},
             "id": 1
         })
         rpc_response_str = xbmc.executeJSONRPC(rpc_query)
         rpc_data = json.loads(rpc_response_str)
-        file_path = rpc_data.get('result', {}).get('item', {}).get('file')
-        pb_type = rpc_data.get('result', {}).get('item', {}).get('type')
+        item = rpc_data.get('result', {}).get('item', {})
+        
+        file_path = item.get('file')
+        pb_type = item.get('type')
+        check_tv = xbmc.getCondVisibility("Pvr.IsPlayingTv")
+        studios = [s.lower() for s in item.get('studio', [])]
 
         if not file_path: return ""
-        if '154ca21497fd425d1677bfea175b4771' in file_path or 'f72cfc62f132f99d731c292481870375' in file_path: return "Prime Video DE" # test: my jellyfin db id for amazon .strm files
-        if 'rtla9855e4a9f748ce5bc33cbb76cd52949group' in file_path or '48495193c8f9599c52bf17a174921de4' in file_path: return "TMDb Helper" # test: my jellyfin db id for tmdb helper exports
+
+        # studio checks
+        if any(s in ['disney', 'pixar'] for s in studios): return "Disney +"
+        if any(s in ['paramount', 'viacom', 'nickelodeon'] for s in studios): return "Paramount +"
+        
+        # type check
+        if check_tv: return "IPTV"
+
+        # file path checks
+        if '154ca21497fd425d1677bfea175b4771' in file_path or 'f72cfc62f132f99d731c292481870375' in file_path: return "Prime Video DE"
+        if 'rtla9855e4a9f748ce5bc33cbb76cd52949group' in file_path or '48495193c8f9599c52bf17a174921de4' in file_path: return "TMDb Helper"
         if 'amazon' in file_path: return "Prime Video DE"
         if 'disney' in file_path: return "Disney +"
         if 'dmax' in file_path: return "DMAX Mediathek"
@@ -44,15 +60,18 @@ def get_playing_addon():
         if 'xstream' in file_path: return "xStream"
         if 'themoviedb' in file_path or 'tmdb' in file_path: return "TMDb Helper"
         if 'jellyfin' in file_path: return "Jellyfin"
-        if 'channel' in pb_type: return "IPTV"
+        
+        # plugin path check
         if file_path.startswith('plugin://'):
             parts = file_path.split('/')
             return parts[2] if len(parts) > 2 else ""
+            
     except Exception as e:
         xbmc.log(f"[DiscordRPC] Could not get playing addon name: {e}", xbmc.LOGWARNING)
     return ""
 
 def time_obj_to_seconds(time_dict):
+    # convert time object to seconds
     if not isinstance(time_dict, dict): return 0
     return (time_dict.get('hours', 0) * 3600 +
             time_dict.get('minutes', 0) * 60 +
@@ -67,6 +86,7 @@ class DiscordHAService(xbmc.Monitor):
         self.load_settings()
 
     def load_settings(self):
+        # load addon settings
         self.app_id = ADDON.getSettingString("app_id")
         self.user_token = ADDON.getSettingString("user_token")
         self.ha_url = ADDON.getSettingString("ha_url").rstrip("/")
@@ -81,13 +101,16 @@ class DiscordHAService(xbmc.Monitor):
         xbmc.log("[DiscordRPC] Settings loaded.", xbmc.LOGINFO)
 
     def onSettingsChanged(self):
+        # handle settings changes
         xbmc.log("[DiscordRPC] Settings changed. Triggering restart.", xbmc.LOGINFO)
         self.settings_changed = True
 
     def is_config_valid(self):
+        # validate configuration
         return all([self.app_id, self.user_token, self.ha_url, self.ha_token, self.sensor_detail_id, self.sensor_state_id])
 
     def run_service(self):
+        # main service loop
         if not self.is_config_valid():
             xbmc.log("[DiscordRPC] Configuration is incomplete. Halting addon.", xbmc.LOGERROR)
             xbmcgui.Dialog().notification("Discord Presence", "Configuration incomplete!", xbmcgui.NOTIFICATION_ERROR, 5000)
@@ -116,10 +139,21 @@ class DiscordHAService(xbmc.Monitor):
                 continue
 
             details_val = get_ha_sensor_state(self.ha_url, self.ha_token, self.sensor_detail_id)
-            state_val = get_ha_sensor_state(self.ha_url, self.ha_token, self.sensor_state_id)
-            addon_name = get_playing_addon()
-
-            payload = self.build_payload(is_pvr, details_val, state_val, is_paused, addon_name)
+            
+            payload = None
+            if details_val in UNAVAILABLE_STATES:
+                payload = {
+                    "name": "Kodi",
+                    "type": 3,
+                    "application_id": self.app_id,
+                    "status_display_type": 0,
+                    "details": "🍿 Kodi",
+                    "state": "📺 Live TV" if is_pvr else " "
+                }
+            else:
+                state_val = get_ha_sensor_state(self.ha_url, self.ha_token, self.sensor_state_id)
+                addon_name = get_playing_addon()
+                payload = self.build_payload(is_pvr, details_val, state_val, is_paused, addon_name)
 
             if not payload:
                 if self.waitForAbort(5): break
@@ -141,6 +175,7 @@ class DiscordHAService(xbmc.Monitor):
             self.settings_changed = False
 
     def build_payload(self, is_pvr, details_val, state_val, is_paused, addon_name):
+        # build discord payload
         app_name_str = self.app_name
         if self.display_addon_name and addon_name:
             app_name_str += f" • {addon_name}"
@@ -225,6 +260,7 @@ class DiscordHAService(xbmc.Monitor):
             payload["assets"] = assets
             
             return payload
+        return None
 
 if __name__ == "__main__":
     xbmc.log("[DiscordRPC] Addon starting.", xbmc.LOGINFO)

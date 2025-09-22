@@ -78,8 +78,8 @@
 			<icon>icon.jpg</icon>
 		</assets>
 	</extension>
-</addon><addon id="repository.heyfordy" name="» [B][COLOR goldenrod]heyFordy's[/COLOR][/B] [COLOR blue]Kodi[/COLOR] Repository" version="2.2.0" provider-name="Bitte ein Git!">
-    <extension point="xbmc.addon.repository" name="» [B][COLOR goldenrod]heyFordy's[/COLOR][/B] [COLOR blue]Kodi[/COLOR] Repository">
+</addon><addon id="repository.heyfordy" name=" » [B][COLOR goldenrod]heyFordy's[/COLOR][/B] [COLOR blue]Kodi[/COLOR] Repository" version="2.2.0" provider-name="Bitte ein Git!">
+    <extension point="xbmc.addon.repository" name=" » [B][COLOR goldenrod]heyFordy's[/COLOR][/B] [COLOR blue]Kodi[/COLOR] Repository">
         <dir>
             <info compressed="false">https://kodi.heyfordy.de/repo/zips/addons.xml</info>
             <checksum>https://kodi.heyfordy.de/repo/zips/addons.xml.md5</checksum>
@@ -411,7 +411,7 @@ M3U URL für IPTV Simple: http://localhost:4700/api/file/channels.m3u</descripti
       <icon>icon.png</icon>
     </assets>
   </extension>
-</addon><addon id="service.dc_ha_presence" name="Discord Presence x HA Sensors" version="2.3.1" provider-name="Bitte-ein-Git!">
+</addon><addon id="service.dc_ha_presence" name="Discord Presence x HA Sensors" version="3.0.0" provider-name="Bitte-ein-Git!">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" version="2.25.1" />
