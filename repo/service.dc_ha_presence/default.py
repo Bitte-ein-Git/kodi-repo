@@ -7,7 +7,7 @@ import json
 from resources.lib.discord_gateway import DiscordClient
 
 ADDON = xbmcaddon.Addon()
-UNAVAILABLE_STATES = ["unavailable", "unknown", "No Playback", "Keine Wiedergabe", "Kodi offline"]
+UNAVAILABLE_STATES = ["unavailable", "unknown", "no playback", "keine wiedergabe", "kodi offline"]
 
 def get_ha_sensor_state(url, token, entity_id):
     # fetch ha sensor state
@@ -20,8 +20,11 @@ def get_ha_sensor_state(url, token, entity_id):
         xbmc.log(f"[DiscordRPC] Error fetching {entity_id}: {e}", xbmc.LOGERROR)
     return ""
 
-def get_playing_addon():
+def get_playing_addon(is_pvr):
     # get playing addon name
+    if is_pvr:
+        return "IPTV"
+        
     try:
         rpc_query = json.dumps({
             "jsonrpc": "2.0",
@@ -34,8 +37,6 @@ def get_playing_addon():
         item = rpc_data.get('result', {}).get('item', {})
         
         file_path = item.get('file')
-        pb_type = item.get('type')
-        check_tv = xbmc.getCondVisibility("Pvr.IsPlayingTv")
         studios = [s.lower() for s in item.get('studio', [])]
 
         if not file_path: return ""
@@ -44,9 +45,6 @@ def get_playing_addon():
         if any(s in ['disney', 'pixar'] for s in studios): return "Disney +"
         if any(s in ['paramount', 'viacom', 'nickelodeon'] for s in studios): return "Paramount +"
         
-        # type check
-        if check_tv: return "IPTV"
-
         # file path checks
         if '154ca21497fd425d1677bfea175b4771' in file_path or 'f72cfc62f132f99d731c292481870375' in file_path: return "Prime Video DE"
         if 'rtla9855e4a9f748ce5bc33cbb76cd52949group' in file_path or '48495193c8f9599c52bf17a174921de4' in file_path: return "TMDb Helper"
@@ -141,7 +139,7 @@ class DiscordHAService(xbmc.Monitor):
             details_val = get_ha_sensor_state(self.ha_url, self.ha_token, self.sensor_detail_id)
             
             payload = None
-            if details_val in UNAVAILABLE_STATES:
+            if not details_val or details_val.lower() in UNAVAILABLE_STATES:
                 payload = {
                     "name": "Kodi",
                     "type": 3,
@@ -152,7 +150,7 @@ class DiscordHAService(xbmc.Monitor):
                 }
             else:
                 state_val = get_ha_sensor_state(self.ha_url, self.ha_token, self.sensor_state_id)
-                addon_name = get_playing_addon()
+                addon_name = get_playing_addon(is_pvr)
                 payload = self.build_payload(is_pvr, details_val, state_val, is_paused, addon_name)
 
             if not payload:
