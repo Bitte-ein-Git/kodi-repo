@@ -166,4 +166,3 @@ class DiscordClient:
         }
         self.send(payload)
         self.last_payload = None
-

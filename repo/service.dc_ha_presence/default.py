@@ -27,14 +27,11 @@ def get_ha_sensor_state(url, token, entity_id):
 
 def get_playing_addon(is_pvr):
     # get playing addon name
-    if is_pvr:
-        return "IPTV"
-        
     try:
         rpc_query = json.dumps({
             "jsonrpc": "2.0",
             "method": "Player.GetItem",
-            "params": {"playerid": 1, "properties": ["file", "type", "studio"]},
+            "params": {"playerid": 1, "properties": ["file", "type", "studio", "art"]},
             "id": 1
         })
         rpc_response_str = xbmc.executeJSONRPC(rpc_query)
@@ -44,6 +41,14 @@ def get_playing_addon(is_pvr):
         file_path = item.get('file', "")
         if not file_path:
             return ""
+
+        if is_pvr:
+            icon_url = item.get('art', {}).get('icon', '').lower()
+            if 'pluto.tv' in icon_url:
+                return "Pluto.TV"
+            elif 't-online' in icon_url or 'telekom' in icon_url:
+                return "MagentaTV"
+            return "IPTV"
 
         # Check if it's a plugin path first, as it's the most reliable
         if file_path.startswith('plugin://'):
@@ -230,6 +235,9 @@ class DiscordHAService(xbmc.Monitor):
         payload["state"] = config[1]
         payload["status_display_type"] = config[2]
 
+        if addon_name == "Pluto.TV":
+            payload["state"] = "Livestream - Pluto.TV"
+
         try:
             rpc_query = json.dumps({
                 "jsonrpc": "2.0",
@@ -257,8 +265,10 @@ class DiscordHAService(xbmc.Monitor):
             xbmc.log(f"[DiscordRPC] Failed to set timestamps via JSONRPC: {e}", xbmc.LOGWARNING)
 
         assets = {}
-        large_image_key = "1407207958294564884" if self.icon_color == 'Greyscale' else "1407207956914634772"
-        small_image_key = "1407207956877021236" if self.icon_color == 'Greyscale' else "1407207958252884149"
+        if is_pvr:
+            small_image_key = "1407207956877021236" if self.icon_color == 'Greyscale' else "1407207958252884149"
+        large_image_key = "1405130772981223454" if self.icon_color == 'Greyscale' else "1405130772981223454"
+        small_image_key = "1407207958294564884" if self.icon_color == 'Greyscale' else "1407207956914634772"
         pause_image_key = "1407207956851982336" if self.icon_color == 'Greyscale' else "1407207957422411849"
 
         assets["large_image"] = large_image_key

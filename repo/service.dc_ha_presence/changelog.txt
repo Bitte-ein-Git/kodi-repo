@@ -1,3 +1,5 @@
+v3.2.0
+- added check for pvr provider in presence field "name"
 v3.1.0
 - fixed service/addon name or "IPTV" in presence field "name"
 - fixed error handling on connection fail
