@@ -1,0 +1,28 @@
+v3.1.0
+- fixed service/addon name or "IPTV" in presence field "name"
+- fixed error handling on connection fail
+- added notification on error / invalid config
+- added changelog file (with older version info)
+v3.1.0-COMMIT-REVERT
+- **COMMIT REVERTED**
+    ** Revert "dc_ha_presence v3.1 FIX" **
+    - Error / crashes on dc connection fail not fixed,
+    - service/addon name or "IPTV" in presence field "name" not fully fixed.
+- ** Original changes: **
+    - Some fixes
+v3.0.0
+- fixed typos
+- fixed PVR "IPTV" display in app name
+- added check for studio name to set dummy addon name in app name
+- removed customization options for app name and app id
+- added fallback presence if sensor state is not valid
+v2.3.1
+- iptv app name fix
+v2.3.0
+- Added new setting for "small_image" item color
+v2.2.1
+- Added more addon names for "show in app name"-feature
+v2.2.0
+- Added addon names for "show in app name"-feature
+v2.1.0
+- Added new setting "Display video addon"

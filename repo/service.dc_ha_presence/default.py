@@ -4,10 +4,14 @@ import xbmcgui
 import time
 import requests
 import json
-from resources.lib.discord_gateway import DiscordClient
+from resources.lib.discord_gateway import DiscordClient, DiscordConnectionError
 
 ADDON = xbmcaddon.Addon()
-UNAVAILABLE_STATES = ["unavailable", "unknown", "No Playback", "Keine Wiedergabe", "Kodi offline"]
+UNAVAILABLE_STATES = ["unavailable", "unknown", "no playback", "keine wiedergabe", "kodi offline"]
+
+def show_notification(title, message, icon=xbmcgui.NOTIFICATION_INFO, duration=5000):
+    # display a notification in kodi
+    xbmcgui.Dialog().notification(title, message, icon, duration)
 
 def get_ha_sensor_state(url, token, entity_id):
     # fetch ha sensor state
@@ -18,10 +22,14 @@ def get_ha_sensor_state(url, token, entity_id):
         return response.json().get("state", "")
     except requests.exceptions.RequestException as e:
         xbmc.log(f"[DiscordRPC] Error fetching {entity_id}: {e}", xbmc.LOGERROR)
+        show_notification("Home Assistant Error", f"Could not reach {entity_id}", xbmcgui.NOTIFICATION_ERROR)
     return ""
 
-def get_playing_addon():
+def get_playing_addon(is_pvr):
     # get playing addon name
+    if is_pvr:
+        return "IPTV"
+        
     try:
         rpc_query = json.dumps({
             "jsonrpc": "2.0",
@@ -33,38 +41,36 @@ def get_playing_addon():
         rpc_data = json.loads(rpc_response_str)
         item = rpc_data.get('result', {}).get('item', {})
         
-        file_path = item.get('file')
-        pb_type = item.get('type')
-        check_tv = xbmc.getCondVisibility("Pvr.IsPlayingTv")
+        file_path = item.get('file', "")
+        if not file_path:
+            return ""
+
+        # Check if it's a plugin path first, as it's the most reliable
+        if file_path.startswith('plugin://'):
+            addon_id = file_path.split('/')[2]
+            try:
+                # Use addon.xml to get a user-friendly name
+                addon_obj = xbmcaddon.Addon(addon_id)
+                addon_name = addon_obj.getAddonInfo('name')
+                return addon_name
+            except RuntimeError:
+                # Fallback to addon_id if getting info fails
+                return addon_id
+
+        # Fallback to studio and file path checks if not a direct plugin path
         studios = [s.lower() for s in item.get('studio', [])]
-
-        if not file_path: return ""
-
-        # studio checks
-        if any(s in ['disney', 'pixar'] for s in studios): return "Disney +"
-        if any(s in ['paramount', 'viacom', 'nickelodeon'] for s in studios): return "Paramount +"
+        if any(s in ['disney', 'pixar'] for s in studios): return "Disney+"
+        if any(s in ['paramount', 'viacom', 'nickelodeon'] for s in studios): return "Paramount+"
         
-        # type check
-        if check_tv: return "IPTV"
-
-        # file path checks
         if '154ca21497fd425d1677bfea175b4771' in file_path or 'f72cfc62f132f99d731c292481870375' in file_path: return "Prime Video DE"
-        if 'rtla9855e4a9f748ce5bc33cbb76cd52949group' in file_path or '48495193c8f9599c52bf17a174921de4' in file_path: return "TMDb Helper"
+        if 'rtla9855e4a9f748ce5bc33cbb76cd52949group' in file_path or '48495193c8f9599c52bf17a174921de4' in file_path: return "RTL+"
         if 'amazon' in file_path: return "Prime Video DE"
-        if 'disney' in file_path: return "Disney +"
         if 'dmax' in file_path: return "DMAX Mediathek"
-        if 'discoveryplus' in file_path: return "Discovery +"
+        if 'discoveryplus' in file_path: return "Discovery+"
         if 'joyn' in file_path: return "Joyn"
-        if 'rtlgroup' in file_path or 'tvnow' in file_path: return "RTL +"
-        if 'xship' in file_path: return "xShip"
-        if 'xstream' in file_path: return "xStream"
+        if 'rtlgroup' in file_path or 'tvnow' in file_path: return "RTL+"
         if 'themoviedb' in file_path or 'tmdb' in file_path: return "TMDb Helper"
         if 'jellyfin' in file_path: return "Jellyfin"
-        
-        # plugin path check
-        if file_path.startswith('plugin://'):
-            parts = file_path.split('/')
-            return parts[2] if len(parts) > 2 else ""
             
     except Exception as e:
         xbmc.log(f"[DiscordRPC] Could not get playing addon name: {e}", xbmc.LOGWARNING)
@@ -113,59 +119,84 @@ class DiscordHAService(xbmc.Monitor):
         # main service loop
         if not self.is_config_valid():
             xbmc.log("[DiscordRPC] Configuration is incomplete. Halting addon.", xbmc.LOGERROR)
-            xbmcgui.Dialog().notification("Discord Presence", "Configuration incomplete!", xbmcgui.NOTIFICATION_ERROR, 5000)
+            show_notification("Discord Presence", "Configuration incomplete!", xbmcgui.NOTIFICATION_ERROR)
             return
 
-        xbmc.log("[DiscordRPC] Starting Discord client...", xbmc.LOGINFO)
-        self.client = DiscordClient(self.app_id, self.user_token)
-        self.client.connect()
-        time.sleep(5)
-        xbmc.log("[DiscordRPC] Service initialized.", xbmc.LOGINFO)
+        try:
+            xbmc.log("[DiscordRPC] Starting Discord client...", xbmc.LOGINFO)
+            self.client = DiscordClient(self.app_id, self.user_token)
+            self.client.connect()
+            time.sleep(5)
+            xbmc.log("[DiscordRPC] Service initialized.", xbmc.LOGINFO)
+        except DiscordConnectionError as e:
+            xbmc.log(f"[DiscordRPC] Initial connection failed: {e}", xbmc.LOGERROR)
+            show_notification("Discord Presence", "Connection failed. Check token.", xbmcgui.NOTIFICATION_ERROR)
+            return
 
         last_payload_str = ""
 
         while not self.abortRequested() and not self.settings_changed:
-            is_playing = xbmc.Player().isPlaying()
-            is_paused = xbmc.getCondVisibility('Player.Paused')
-            is_pvr = xbmc.getCondVisibility("Pvr.IsPlayingTv")
+            try:
+                if not self.client or not self.client.connected:
+                    xbmc.log("[DiscordRPC] Not connected. Attempting to reconnect...", xbmc.LOGWARNING)
+                    show_notification("Discord Presence", "Connection lost. Reconnecting...")
+                    self.client.reconnect()
+                    time.sleep(5) # give it time to reconnect
+                    if not self.client.connected:
+                        if self.waitForAbort(15): break
+                        continue
 
-            mode = self.pvr_display_mode if is_pvr else self.media_display_mode
-            if not is_playing or mode == "disabled":
-                if last_payload_str:
-                    xbmc.log("[DiscordRPC] Clearing presence (stopped).", xbmc.LOGINFO)
-                    self.client.clear_activity()
-                    last_payload_str = ""
+                is_playing = xbmc.Player().isPlaying()
+                is_paused = xbmc.getCondVisibility('Player.Paused')
+                is_pvr = xbmc.getCondVisibility("Pvr.IsPlayingTv")
+
+                mode = self.pvr_display_mode if is_pvr else self.media_display_mode
+                if not is_playing or mode == "disabled":
+                    if last_payload_str:
+                        xbmc.log("[DiscordRPC] Clearing presence (stopped).", xbmc.LOGINFO)
+                        self.client.clear_activity()
+                        last_payload_str = ""
+                    if self.waitForAbort(5): break
+                    continue
+
+                details_val = get_ha_sensor_state(self.ha_url, self.ha_token, self.sensor_detail_id)
+                
+                payload = None
+                if not details_val or details_val.lower() in UNAVAILABLE_STATES:
+                    payload = {
+                        "name": "Kodi",
+                        "type": 3,
+                        "application_id": self.app_id,
+                        "status_display_type": 0,
+                        "details": "🍿 Kodi",
+                        "state": "📺 Live TV" if is_pvr else " "
+                    }
+                else:
+                    state_val = get_ha_sensor_state(self.ha_url, self.ha_token, self.sensor_state_id)
+                    addon_name = get_playing_addon(is_pvr)
+                    payload = self.build_payload(is_pvr, details_val, state_val, is_paused, addon_name)
+
+                if not payload:
+                    if self.waitForAbort(5): break
+                    continue
+                
+                current_payload_str = str(payload)
+                if current_payload_str != last_payload_str:
+                    xbmc.log(f"[DiscordRPC] Updating presence: {payload.get('details')} | Paused: {is_paused}", xbmc.LOGINFO)
+                    self.client.set_activity(payload)
+                    last_payload_str = current_payload_str
+
                 if self.waitForAbort(5): break
-                continue
-
-            details_val = get_ha_sensor_state(self.ha_url, self.ha_token, self.sensor_detail_id)
             
-            payload = None
-            if details_val in UNAVAILABLE_STATES:
-                payload = {
-                    "name": "Kodi",
-                    "type": 3,
-                    "application_id": self.app_id,
-                    "status_display_type": 0,
-                    "details": "🍿 Kodi",
-                    "state": "📺 Live TV" if is_pvr else " "
-                }
-            else:
-                state_val = get_ha_sensor_state(self.ha_url, self.ha_token, self.sensor_state_id)
-                addon_name = get_playing_addon()
-                payload = self.build_payload(is_pvr, details_val, state_val, is_paused, addon_name)
-
-            if not payload:
-                if self.waitForAbort(5): break
-                continue
+            except DiscordConnectionError as e:
+                xbmc.log(f"[DiscordRPC] Connection error in main loop: {e}", xbmc.LOGERROR)
+                last_payload_str = "" # force update after reconnect
+                if self.waitForAbort(15): break
             
-            current_payload_str = str(payload)
-            if current_payload_str != last_payload_str:
-                xbmc.log(f"[DiscordRPC] Updating presence: {payload.get('details')} | Paused: {is_paused}", xbmc.LOGINFO)
-                self.client.set_activity(payload)
-                last_payload_str = current_payload_str
-
-            if self.waitForAbort(5): break
+            except Exception as e:
+                xbmc.log(f"[DiscordRPC] Unhandled error in loop: {e}", xbmc.LOGERROR, exc_info=True)
+                show_notification("Discord Presence", "An error occurred. Restarting...", xbmcgui.NOTIFICATION_ERROR)
+                if self.waitForAbort(30): break
         
         if self.client:
             xbmc.log("[DiscordRPC] Stopping service or restarting.", xbmc.LOGINFO)
@@ -214,7 +245,7 @@ class DiscordHAService(xbmc.Monitor):
                 current_time_sec = time_obj_to_seconds(time_data.get('time'))
                 total_time_sec = time_obj_to_seconds(time_data.get('totaltime'))
 
-                if total_time_sec > 0:
+                if total_time_sec > 0 and not is_paused:
                     now_ts = time.time()
                     start_ts = now_ts - current_time_sec
                     end_ts = start_ts + total_time_sec
@@ -225,42 +256,25 @@ class DiscordHAService(xbmc.Monitor):
         except Exception as e:
             xbmc.log(f"[DiscordRPC] Failed to set timestamps via JSONRPC: {e}", xbmc.LOGWARNING)
 
-        if self.icon_color == 'Greyscale':
-            assets = {
-                "small_image": "1407207956877021236" if is_pvr else "1407207958294564884",
-                "large_text": state_val if is_pvr else details_val
-            }
-            
-            if is_paused:
-                assets["small_image"] = "1407207956851982336"
-                assets["small_text"] = "𝗣𝗔𝗨𝗦𝗘 ⏸️"
-                payload["state"] = "𝗣𝗔𝗨𝗦𝗘 ⏸️"
+        assets = {}
+        large_image_key = "1407207958294564884" if self.icon_color == 'Greyscale' else "1407207956914634772"
+        small_image_key = "1407207956877021236" if self.icon_color == 'Greyscale' else "1407207958252884149"
+        pause_image_key = "1407207956851982336" if self.icon_color == 'Greyscale' else "1407207957422411849"
 
-                if "timestamps" in payload:
-                    del payload["timestamps"]
-            
-            payload["assets"] = assets
-            
-            return payload
-
-        if self.icon_color == 'Colored':
-            assets = {
-                "small_image": "1407207958252884149" if is_pvr else "1407207956914634772",
-                "large_text": state_val if is_pvr else details_val
-            }
-            
-            if is_paused:
-                assets["small_image"] = "1407207957422411849"
-                assets["small_text"] = "𝗣𝗔𝗨𝗦𝗘 ⏸️"
-                payload["state"] = "𝗣𝗔𝗨𝗦𝗘 ⏸️"
-
-                if "timestamps" in payload:
-                    del payload["timestamps"]
-            
-            payload["assets"] = assets
-            
-            return payload
-        return None
+        assets["large_image"] = large_image_key
+        assets["large_text"] = details_val if not is_pvr else state_val
+        assets["small_image"] = small_image_key
+        assets["small_text"] = "Live TV"
+        
+        if is_paused:
+            assets["small_image"] = pause_image_key
+            assets["small_text"] = "PAUSE ⏸️"
+            payload["state"] = "PAUSE ⏸️"
+            if "timestamps" in payload:
+                del payload["timestamps"]
+        
+        payload["assets"] = assets
+        return payload
 
 if __name__ == "__main__":
     xbmc.log("[DiscordRPC] Addon starting.", xbmc.LOGINFO)
@@ -268,12 +282,18 @@ if __name__ == "__main__":
     
     while not xbmc.Monitor().abortRequested():
         try:
-            service.load_settings()
+            service.load_settings() # reload settings in case they changed
             service.run_service()
         except Exception as e:
-            xbmc.log(f"[DiscordRPC] Unhandled error, restarting in 30s: {e}", xbmc.LOGERROR, exc_info=True)
-            if xbmc.Monitor().waitForAbort(30): break
-        else:
-            if xbmc.Monitor().waitForAbort(2): break
-    
+            xbmc.log(f"[DiscordRPC] Unhandled exception, restarting in 30s: {e}", xbmc.LOGERROR, exc_info=True)
+            show_notification("Discord Presence", "Addon crashed! Restarting...", xbmcgui.NOTIFICATION_ERROR)
+            if xbmc.Monitor().waitForAbort(30):
+                break
+        
+        if service.settings_changed:
+            xbmc.log("[DiscordRPC] Restarting due to settings change.", xbmc.LOGINFO)
+        elif not xbmc.Monitor().abortRequested():
+            if xbmc.Monitor().waitForAbort(2):
+                break
+
     xbmc.log("[DiscordRPC] Addon has been shut down.", xbmc.LOGINFO)
