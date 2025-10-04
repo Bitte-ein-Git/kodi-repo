@@ -453,4 +453,19 @@ M3U URL für IPTV Simple: http://localhost:4700/api/file/channels.m3u</descripti
       <icon>icon.png</icon>
     </assets>
     </extension>
+</addon><addon id="service.pyftpd.simple" name="Simple [B]FTP[/B]-Server" version="1.0" provider-name="Bitte ein Git!">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>pyftpd</summary>
+    <description>
+    </description>
+    <disclaimer>
+    </disclaimer>
+    <platform>all</platform>
+  </extension>
 </addon></addons>
