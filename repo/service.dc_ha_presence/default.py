@@ -9,6 +9,50 @@ from resources.lib.discord_gateway import DiscordClient, DiscordConnectionError
 ADDON = xbmcaddon.Addon()
 UNAVAILABLE_STATES = ["unavailable", "unknown", "no playback", "keine wiedergabe", "kodi offline"]
 
+CHANNEL_LOGO_MAP = {
+    "sixx": "1408572619518775438",
+    "sat-1": "1408572629958398054",
+    "axn-black": "1408572682936778782",
+    "nick-comedy-central": "1408572683280453674",
+    "sport1": "1408572687424553132",
+    "kika": "1408572763161100448",
+    "comedy-central": "1408572766554427443",
+    "nitro": "1408572770144489472",
+    "zdfinfo": "1408572774079008941",
+    "kabel-eins-doku": "1408572829204742174",
+    "mtv": "1408572834531246152",
+    "zdfneo": "1408572838503383232",
+    "rtlzwei": "1408572838964756570",
+    "disney-channel": "1408572839946092564",
+    "national-geographic": "1408572840256475278",
+    "magentatv-info": "1408572840730431561",
+    "prosieben-fun": "1408572841791848578",
+    "das-erste": "1408572918430171318",
+    "vox": "1408572919394598982",
+    "n-tv": "1408572919935664412",
+    "zdf": "1408572920749621450",
+    "prosieben": "1408572920975982743",
+    "discovery-channel-sky": "1408572921752064073",
+    "arte": "1408572923836629143",
+    "welt": "1408572923903610982",
+    "kabel-eins": "1408572926709469184",
+    "the-history-channel-sky": "1408572927950983328",
+    "3sat": "1408572930161508413",
+    "tele-5": "1408572930752774234",
+    "magenta-musik-1": "1408572931008757861",
+    "dmax": "1408572931226730629",
+    "kabel-eins-classics": "1408572931738701927",
+    "prosieben-maxx": "1408572932321706015",
+    "wetter-com-tv": "1408572933277880370",
+}
+
+def get_channel_logo_id(channel_name):
+    normalized_channel_name = channel_name.lower().replace('-', '').replace(' ', '')
+    for name, logo_id in CHANNEL_LOGO_MAP.items():
+        if name.replace('-', '') in normalized_channel_name:
+            return logo_id
+    return None
+
 def show_notification(title, message, icon=xbmcgui.NOTIFICATION_INFO, duration=5000):
     # display a notification in kodi
     xbmcgui.Dialog().notification(title, message, icon, duration)
@@ -265,10 +309,16 @@ class DiscordHAService(xbmc.Monitor):
             xbmc.log(f"[DiscordRPC] Failed to set timestamps via JSONRPC: {e}", xbmc.LOGWARNING)
 
         assets = {}
-        if is_pvr:
-            small_image_key = "1407207956877021236" if self.icon_color == 'Greyscale' else "1407207958252884149"
         large_image_key = "1405130772981223454" if self.icon_color == 'Greyscale' else "1405130772981223454"
-        small_image_key = "1407207958294564884" if self.icon_color == 'Greyscale' else "1407207956914634772"
+        if is_pvr:
+            channel_name = details_val if self.pvr_display_mode == "Channel name" else state_val
+            logo_id = get_channel_logo_id(channel_name)
+            if logo_id:
+                large_image_key = logo_id
+            small_image_key = "1407207956877021236" if self.icon_color == 'Greyscale' else "1407207958252884149"
+        else:
+            small_image_key = "1407207958294564884" if self.icon_color == 'Greyscale' else "1407207956914634772"
+        
         pause_image_key = "1407207956851982336" if self.icon_color == 'Greyscale' else "1407207957422411849"
 
         assets["large_image"] = large_image_key
