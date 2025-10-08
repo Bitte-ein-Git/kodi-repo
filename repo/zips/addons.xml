@@ -436,7 +436,7 @@ M3U URL für IPTV Simple: http://localhost:4700/api/file/channels.m3u</descripti
       <icon>icon.png</icon>
     </assets>
   </extension>
-</addon><addon id="service.dc_ha_presence" name="Discord Presence x HA Sensors" version="3.2.1" provider-name="Bitte-ein-Git!">
+</addon><addon id="service.dc_ha_presence" name="Discord Presence x HA Sensors" version="3.2.2" provider-name="Bitte ein Git!">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" version="2.25.1" />

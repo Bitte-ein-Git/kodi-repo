@@ -29,7 +29,7 @@ CHANNEL_LOGO_MAP = {
     "prosieben-fun": "1408572841791848578",
     "das-erste": "1408572918430171318",
     "vox": "1408572919394598982",
-    "n-tv": "1408572919935664412",
+    "ntv": "1408572919935664412",
     "zdf": "1408572920749621450",
     "prosieben": "1408572920975982743",
     "discovery-channel-sky": "1408572921752064073",
@@ -47,9 +47,11 @@ CHANNEL_LOGO_MAP = {
 }
 
 def get_channel_logo_id(channel_name):
+    # get channel logo id from map
     normalized_channel_name = channel_name.lower().replace('-', '').replace(' ', '')
     for name, logo_id in CHANNEL_LOGO_MAP.items():
-        if name.replace('-', '') in normalized_channel_name:
+        name_parts = name.split('-')
+        if all(part in normalized_channel_name for part in name_parts):
             return logo_id
     return None
 
@@ -94,19 +96,15 @@ def get_playing_addon(is_pvr):
                 return "MagentaTV"
             return "IPTV"
 
-        # Check if it's a plugin path first, as it's the most reliable
         if file_path.startswith('plugin://'):
             addon_id = file_path.split('/')[2]
             try:
-                # Use addon.xml to get a user-friendly name
                 addon_obj = xbmcaddon.Addon(addon_id)
                 addon_name = addon_obj.getAddonInfo('name')
                 return addon_name
             except RuntimeError:
-                # Fallback to addon_id if getting info fails
                 return addon_id
 
-        # Fallback to studio and file path checks if not a direct plugin path
         studios = [s.lower() for s in item.get('studio', [])]
         if any(s in ['disney', 'pixar'] for s in studios): return "Disney+"
         if any(s in ['paramount', 'viacom', 'nickelodeon'] for s in studios): return "Paramount+"
@@ -190,7 +188,7 @@ class DiscordHAService(xbmc.Monitor):
                     xbmc.log("[DiscordRPC] Not connected. Attempting to reconnect...", xbmc.LOGWARNING)
                     show_notification("Discord Presence", "Connection lost. Reconnecting...")
                     self.client.reconnect()
-                    time.sleep(5) # give it time to reconnect
+                    time.sleep(5)
                     if not self.client.connected:
                         if self.waitForAbort(15): break
                         continue
@@ -239,7 +237,7 @@ class DiscordHAService(xbmc.Monitor):
             
             except DiscordConnectionError as e:
                 xbmc.log(f"[DiscordRPC] Connection error in main loop: {e}", xbmc.LOGERROR)
-                last_payload_str = "" # force update after reconnect
+                last_payload_str = ""
                 if self.waitForAbort(15): break
             
             except Exception as e:
@@ -342,7 +340,7 @@ if __name__ == "__main__":
     
     while not xbmc.Monitor().abortRequested():
         try:
-            service.load_settings() # reload settings in case they changed
+            service.load_settings()
             service.run_service()
         except Exception as e:
             xbmc.log(f"[DiscordRPC] Unhandled exception, restarting in 30s: {e}", xbmc.LOGERROR, exc_info=True)
