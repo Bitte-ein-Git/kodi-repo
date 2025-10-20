@@ -1,0 +1,82 @@
+# Kodi Media Center language file
+# Addon Name: sendtokodi
+# Addon id: plugin.video.sendtokodi
+# Addon Provider: firsttris, nullket
+msgid ""
+msgstr ""
+"Project-Id-Version: Kodi Addons\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2021-12-29 13:00+0000\n"
+"PO-Revision-Date: 2021-12-29 13:00+0000\n"
+"Last-Translator: nullket\n"
+"Language-Team: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#32000"
+msgid "General"
+msgstr ""
+
+msgctxt "#32001"
+msgid "URL Resolver"
+msgstr ""
+
+msgctxt "#32020"
+msgid "Resolve with"
+msgstr ""
+
+msgctxt "#32021"
+msgid "youtube-dl"
+msgstr ""
+
+msgctxt "#32022"
+msgid "yt-dlp (kodi 19+ only)"
+msgstr ""
+
+msgctxt "#33000"
+msgid "Adaptive"
+msgstr ""
+
+msgctxt "#33010"
+msgid "Check if my kodi supports adaptive streaming"
+msgstr ""
+
+msgctxt "#33011"
+msgid "Use original manifest (experimental)"
+msgstr ""
+
+msgctxt "#33020"
+msgid "Use DASH manifest builder (kodi 19+ only) (experimental)"
+msgstr ""
+
+msgctxt "#33030"
+msgid "Maximum resolution"
+msgstr ""
+
+msgctxt "#33031"
+msgid "7680x4320 (8k)"
+msgstr ""
+
+msgctxt "#33032"
+msgid "3840x2160 (4k)"
+msgstr ""
+
+msgctxt "#33033"
+msgid "2560x1440 (2k)"
+msgstr ""
+
+msgctxt "#33034"
+msgid "1920x1080 (FHD)"
+msgstr ""
+
+msgctxt "#33035"
+msgid "1280x720 (HD)"
+msgstr ""
+
+msgctxt "#33036"
+msgid "854x480 (SD)"
+msgstr ""
+
