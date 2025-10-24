@@ -1,0 +1,21 @@
+<addon id="service.dc_ha_presence-dev"
+       name="Discord x HA Gateway [COLORred][DEV][/COLOR]"
+       version="1.0.0-dev"
+       provider-name="Bitte ein Git!">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests" version="2.25.1"/>
+        <import addon="script.module.websocket" version="0.57.0"/>
+    </requires>
+    <extension point="xbmc.service" library="default.py" start="startup"/>
+    <extension point="xbmc.addon.metadata">
+        <summary>Discord Gateway,Presence updates via Home Assistant sensors.</summary>
+        <description>Mainly used for presence update experiments, actual activity details/state fetched via HA! Work in progress! </description>
+        <platform>all</platform>
+    <source>https://github.com/Bitte-ein-Git/kodi-repo/tree/master/repo/service.dc_ha_presence-dev</source>
+    <license>MIT</license>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+    </extension>
+</addon>

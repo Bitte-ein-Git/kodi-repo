@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.heyfordy" name=" » [B][COLOR goldenrod]heyFordy's[/COLOR][/B] [COLOR blue]Kodi[/COLOR] Repository" version="2.2.0" provider-name="Bitte ein Git!">
+<addon id="repository.heyfordy" name=" » [B][COLOR goldenrod]heyFordy's[/COLOR][/B] [COLOR blue]Kodi[/COLOR] Repository" version="2.2.1" provider-name="Bitte ein Git!">
     <extension point="xbmc.addon.repository" name=" » [B][COLOR goldenrod]heyFordy's[/COLOR][/B] [COLOR blue]Kodi[/COLOR] Repository">
         <dir>
             <info compressed="false">https://kodi.heyfordy.de/repo/zips/addons.xml</info>
@@ -10,7 +10,7 @@
     <extension point="xbmc.addon.metadata">
         <summary>heyFordy's Kodi Repository</summary>
         <description>Bitte ein Git!</description>
-        <disclaimer></disclaimer>
+        <disclaimer>Many things w.i.p. or not maintained by me</disclaimer>
         <platform>all</platform>
         <source>https://github.com/Bitte-ein-Git/kodi-repo</source>
         <assets>

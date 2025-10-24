@@ -1,5 +1,45 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="plugin.video.heyfordy.rtlplus" version="1.0.0" name="[COLOR dodgerblue]R[/COLOR][COLOR deepskyblue]T[/COLOR][COLOR darkorchid]L[/COLOR] [B]+[/B]" provider-name="Bitte ein Git!">
+<addons><addon id="plugin.video.amazon-test" name="[COLOR cornflowerblue]Prime Video[/COLOR]" version="1.1.7-dev" provider-name="Bitte ein Git!, Sandmann79, Varstahl">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+    <import addon="script.module.beautifulsoup4" version="4.6.3+matrix.1" />
+    <import addon="script.module.mechanicalsoup" version="0.12.0+matrix.1" />
+    <import addon="script.module.pyxbmct" version="1.3.1+matrix.1" />
+    <import addon="script.module.inputstreamhelper" version="0.4.4+matrix.1" />
+    <import addon="script.module.requests" version="2.22.0+matrix.1" />
+    <import addon="script.module.kodi-six" version="0.1.3.1" />
+    <import addon="script.module.pyautogui" version="0.9.49+matrix.1" />
+    <import addon="script.module.amazoncaptcha" version="0.5.11+matrix.1" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <summary lang="en_GB">Amazon Prime Video Streaming</summary>
+    <summary lang="de_DE">Amazon Prime Instant Video</summary>
+    <summary lang="es_ES">Vídeo a demanda de Amazon Prime</summary>
+    <summary lang="ua_UA">Потокове відео Amazon Prime</summary>
+    <description lang="en_GB">Movies and Television Shows for Prime Members</description>
+    <description lang="de_DE">Filme und Serien für Amazon Prime Mitglieder</description>
+    <description lang="es_ES">Películas y Series para Miembros de Amazon Prime</description>
+    <description lang="ua_UA">Фільми та серіали для підписників Prime</description>
+    <disclaimer lang="en_GB">Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
+    <disclaimer lang="de_DE">Möglicherweise sind einge Teile dieses Addons in Ihrem Land illegal, Sie sollten dies unbedingt vor der Installation überprüfen.</disclaimer>
+    <disclaimer lang="es_ES">Algunas partes de este addon pueden que sean illegales en tu país de residencia - por favor, compruébalo antes de la instalación.</disclaimer>
+    <disclaimer lang="ua_UA">Деякі частини цього плагіну можуть бути незаконні в країні вашого проживання - будь ласка, перевірте це перед встановленням.</disclaimer>
+    <forum>http://www.kodinerds.net/index.php/Thread/44211-Release-Amazon-Prime-Instant-Video</forum>
+    <source>https://github.com/Sandmann79/xbmc</source>
+    <license>GPL-3.0-or-later</license>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.png</fanart>
+      <clearlogo>clearlogo.png</clearlogo>
+    </assets>
+  </extension>
+</addon><addon id="plugin.video.heyfordy.rtlplus" version="1.0.0" name="[COLOR dodgerblue]R[/COLOR][COLOR deepskyblue]T[/COLOR][COLOR darkorchid]L[/COLOR] [B]+[/B]" provider-name="Bitte ein Git!">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" version="2.27.0" />
@@ -35,6 +75,39 @@
 - added: Timeshift-Funktion zu-/ab-schaltbar für TV-Live und EventStreams (settings: default=abgeschaltet)
 		</news>
 	</extension>
+</addon><addon id="plugin.video.joyn" name="[COLOR crimson]Joyn[/COLOR]" version="2.5.40-dev" provider-name="Bitte ein Git!, knaerzche, Maven">
+	<requires>
+		<import addon="inputstream.adaptive" version="2.5.0" />
+		<import addon="script.module.inputstreamhelper" version="0.4.4" />
+		<import addon="script.module.simplejson" version="3.3.0" optional="true" />
+		<import addon="xbmc.python" version="3.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="login" />
+	<extension point="xbmc.addon.metadata">
+		<reuselanguageinvoker>true</reuselanguageinvoker>
+		<summary lang="en_GB">Joyn Video On Demand  and Live TV</summary>
+		<summary lang="de_DE">Joyn Video On Demand and Live TV</summary>
+		<description lang="en_GB">Watch VOD content und Live TV provided by Joyn</description>
+		<description lang="de_DE">Video On Demand und Live TV von Joyn</description>
+		<disclaimer lang="en_GB">The use of this addon may violate the terms and conditions of Joyn GmbH - especially, but not exclusively, if it is used outside of Germany.</disclaimer>
+		<disclaimer lang="de_DE">Die Nutzung dieses Addon verstösst eventuell gegen die AGB der Joyn GmbH - insbesondere, aber nicht ausschliesslich, wenn es außerhalb von Deutschland verwendet wird</disclaimer>
+		<platform>all</platform>
+		<license>GPL-2.0-only</license>
+		<forum>https://www.kodinerds.net/index.php/Thread/66679-Pre-Release-Joyn-VOD-Live/?postID=537817</forum>
+		<website>https://www.joyn.de/</website>
+		<source>https://github.com/Maven85/plugin.video.joyn</source>
+		<assets>
+			<icon>resources/media/icon.png</icon>
+			<fanart>resources/media/fanart.jpg</fanart>
+			<clearlogo>resources/media/logo.gif</clearlogo>
+			<screenshot>resources/media/screenshot01.jpg</screenshot>
+			<screenshot>resources/media/screenshot02.jpg</screenshot>
+			<screenshot>resources/media/screenshot03.jpg</screenshot>
+		</assets>
+	</extension>
 </addon><addon id="plugin.video.sendtokodi" name="SendToKodi" version="100.0.0" provider-name="Bitte ein Git!">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
@@ -58,7 +131,7 @@
       <icon>icon.png</icon>
     </assets>
   </extension>
-</addon><addon id="plugin.video.xship" version="2025.08.11" name="xShip" provider-name="Bitte ein Git!">
+</addon><addon id="plugin.video.xship" version="2025.10.0" name="» [COLOR goldenrod]xShip[/COLOR]" provider-name="Bitte ein Git!">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -75,8 +148,8 @@
     </extension>
     <extension point="xbmc.service" library="service.py" start="startup" />
     <extension point="xbmc.addon.metadata">
-        <summary lang="de_DE">xShip: Der Fake</summary>
-        <summary lang="en_GB">xShip: The Fake</summary>
+        <summary lang="de_DE">xShip: umbenannt</summary>
+        <summary lang="en_GB">xShip: renamed</summary>
         <assets>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
@@ -162,7 +235,7 @@
 			<icon>icon.jpg</icon>
 		</assets>
 	</extension>
-</addon><addon id="repository.heyfordy" name=" » [B][COLOR goldenrod]heyFordy's[/COLOR][/B] [COLOR blue]Kodi[/COLOR] Repository" version="2.2.0" provider-name="Bitte ein Git!">
+</addon><addon id="repository.heyfordy" name=" » [B][COLOR goldenrod]heyFordy's[/COLOR][/B] [COLOR blue]Kodi[/COLOR] Repository" version="2.2.1" provider-name="Bitte ein Git!">
     <extension point="xbmc.addon.repository" name=" » [B][COLOR goldenrod]heyFordy's[/COLOR][/B] [COLOR blue]Kodi[/COLOR] Repository">
         <dir>
             <info compressed="false">https://kodi.heyfordy.de/repo/zips/addons.xml</info>
@@ -173,7 +246,7 @@
     <extension point="xbmc.addon.metadata">
         <summary>heyFordy's Kodi Repository</summary>
         <description>Bitte ein Git!</description>
-        <disclaimer />
+        <disclaimer>Many things w.i.p. or not maintained by me</disclaimer>
         <platform>all</platform>
         <source>https://github.com/Bitte-ein-Git/kodi-repo</source>
         <assets>
@@ -495,7 +568,7 @@ M3U URL für IPTV Simple: http://localhost:4700/api/file/channels.m3u</descripti
       <icon>icon.png</icon>
     </assets>
   </extension>
-</addon><addon id="service.dc_ha_presence" name="Discord Presence x HA Sensors" version="3.2.3" provider-name="Bitte ein Git!">
+</addon><addon id="service.dc_ha_presence" name="Discord x HA Gateway (stable)" version="4.0.0" provider-name="Bitte ein Git!">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" version="2.25.1" />
@@ -503,10 +576,27 @@ M3U URL für IPTV Simple: http://localhost:4700/api/file/channels.m3u</descripti
     </requires>
     <extension point="xbmc.service" library="default.py" start="startup" />
     <extension point="xbmc.addon.metadata">
-        <summary>(DE:)Zeigt HA Sensoren als Discord Rich Presence.</summary>
-        <description> Work in progress! — Discord User Token required.</description>
+        <summary>Discord Gateway,Presence updates via Home Assistant sensors.</summary>
+        <description>Mainly used for presence update experiments, actual activity details/state fetched via HA! Work in progress! </description>
         <platform>all</platform>
     <source>https://github.com/Bitte-ein-Git/kodi-repo/tree/master/repo/service.dc_ha_presence</source>
+    <license>MIT</license>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+    </extension>
+</addon><addon id="service.dc_ha_presence-dev" name="Discord x HA Gateway [COLORred][DEV][/COLOR]" version="1.0.0-dev" provider-name="Bitte ein Git!">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" version="2.25.1" />
+        <import addon="script.module.websocket" version="0.57.0" />
+    </requires>
+    <extension point="xbmc.service" library="default.py" start="startup" />
+    <extension point="xbmc.addon.metadata">
+        <summary>Discord Gateway,Presence updates via Home Assistant sensors.</summary>
+        <description>Mainly used for presence update experiments, actual activity details/state fetched via HA! Work in progress! </description>
+        <platform>all</platform>
+    <source>https://github.com/Bitte-ein-Git/kodi-repo/tree/master/repo/service.dc_ha_presence-dev</source>
     <license>MIT</license>
     <assets>
       <icon>icon.png</icon>
