@@ -3,7 +3,7 @@
   <img src="./repo/repository.heyfordy/icon.png" alt="Logo" width="200">
   <br><br>
 
-  <h1>heyFordy's’s Kodi Repository</h1>
+  <h1>heyFordy's Kodi Repository</h1>
   <h4>My personal custom repo.</h4>
   <br>
 
