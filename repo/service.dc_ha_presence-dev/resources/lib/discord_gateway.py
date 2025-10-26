@@ -3,6 +3,7 @@ import json
 import threading
 import time
 import xbmc
+import requests
 
 class DiscordConnectionError(Exception):
     pass
@@ -35,9 +36,7 @@ class DiscordClient:
         self.stop_threads.clear()
         if not self._connect_websocket():
             raise DiscordConnectionError("Failed to establish initial websocket connection.")
-            
-        self.listen_thread = threading.Thread(target=self._listen)
-        self.listen_thread.daemon = True
+        self.listen_thread = threading.Thread(target=self._listen, daemon=True)
         self.listen_thread.start()
 
     def disconnect(self):
@@ -60,7 +59,7 @@ class DiscordClient:
         # attempt to reconnect
         self.disconnect()
         xbmc.log("[DiscordRPC] Attempting to reconnect...", xbmc.LOGINFO)
-        time.sleep(5) # wait before reconnecting
+        time.sleep(5)
         try:
             self.connect()
             if self.last_payload:
@@ -78,17 +77,13 @@ class DiscordClient:
                         xbmc.log("[DiscordRPC] Empty message received, connection might be lost.", xbmc.LOGWARNING)
                         self.connected.clear()
                     break
-                
                 payload = json.loads(message)
-                if payload['op'] == 10:  # Hello
+                if payload.get('op') == 10:  # Hello
                     interval = payload['d']['heartbeat_interval'] / 1000.0
                     self._identify()
-                    if self.heartbeat_thread is None or not self.heartbeat_thread.is_alive():
-                        self.heartbeat_thread = threading.Thread(target=self._heartbeat, args=(interval,))
-                        self.heartbeat_thread.daemon = True
+                    if not self.heartbeat_thread or not self.heartbeat_thread.is_alive():
+                        self.heartbeat_thread = threading.Thread(target=self._heartbeat, args=(interval,), daemon=True)
                         self.heartbeat_thread.start()
-                elif payload['op'] == 0: # Dispatch
-                    pass # handle other events if needed
             except (websocket.WebSocketConnectionClosedException, BrokenPipeError, OSError) as e:
                 if not self.stop_threads.is_set():
                     xbmc.log(f"[DiscordRPC] Connection closed unexpectedly: {e}", xbmc.LOGWARNING)
@@ -134,13 +129,46 @@ class DiscordClient:
         try:
             self.ws.send(json.dumps(payload))
             if not is_heartbeat:
-                 xbmc.log(f"[DiscordRPC] Sent payload OP {payload['op']}", xbmc.LOGDEBUG)
+                xbmc.log(f"[DiscordRPC] Sent payload OP {payload['op']}", xbmc.LOGDEBUG)
         except (websocket.WebSocketConnectionClosedException, BrokenPipeError, OSError) as e:
             self.connected.clear()
             raise DiscordConnectionError(f"Failed to send payload: {e}")
 
+    def _process_image(self, image_url):
+        # convert external URL into Discord external asset path
+        if not image_url:
+            return None
+        if image_url.startswith("mp:") or "discordapp.net" in image_url:
+            return image_url
+        try:
+            url = f"https://discord.com/api/v9/applications/{self.app_id}/external-assets"
+            response = requests.post(
+                url,
+                headers={
+                    "Authorization": self.user_token,
+                    "Content-Type": "application/json"
+                },
+                json={"urls": [image_url]},
+                timeout=10
+            )
+            data = response.json()
+            if isinstance(data, list) and "external_asset_path" in data[0]:
+                path = data[0]["external_asset_path"]
+                xbmc.log(f"[DiscordRPC] External asset registered: {path}", xbmc.LOGINFO)
+                return f"mp:{path}"
+        except Exception as e:
+            xbmc.log(f"[DiscordRPC] External asset upload failed: {e}", xbmc.LOGWARNING)
+        return image_url
+
     def set_activity(self, activity_payload):
-        # set discord activity
+        # convert image if dynamic artwork is used
+        try:
+            assets = activity_payload.get("assets", {})
+            if "large_image" in assets and isinstance(assets["large_image"], str):
+                assets["large_image"] = self._process_image(assets["large_image"])
+        except Exception as e:
+            xbmc.log(f"[DiscordRPC] Asset processing failed: {e}", xbmc.LOGWARNING)
+
         payload = {
             'op': 3,
             'd': {

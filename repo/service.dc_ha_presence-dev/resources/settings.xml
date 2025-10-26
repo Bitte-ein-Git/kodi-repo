@@ -1,14 +1,16 @@
 <settings>
-    <category label="Discord (User Presence)">
+    <category label="Discord">
         <setting id="app_id" type="text" label="Discord App ID" default="1244203892145786992" visible="false"/>
-        <setting id="user_token" type="text" label="Discord User Token (Presence)" option="hidden"/>
+        <setting id="user_token" type="text" label="Discord User Token" option="hidden"/>
     </category>
+
     <category label="Home Assistant">
         <setting id="ha_url" type="text" label="Home Assistant URL" default="http://homeassistant.local:8123"/>
         <setting id="ha_token" type="text" label="Home Assistant Long-Lived Token" option="hidden"/>
         <setting id="sensor_detail" type="text" label="Sensor - Details" default="sensor.details"/>
         <setting id="sensor_state" type="text" label="Sensor - State" default="sensor.state"/>
     </category>
+
     <category label="Customization">
         <setting id="app_name" type="text" label="App Name" default="Kodi" visible="false"/>
         <setting id="display_addon_name" type="bool" label="Display service or video addon name" default="true"/>
@@ -16,9 +18,9 @@
         <setting id="pvr_display_mode" type="select" label="PVR display mode" values="disabled|App name|Channel name|TV-show title" default="0"/>
         <setting id="icon_color" type="select" label="Icon Color" values="Greyscale|Colored" default="0"/>
     </category>
-    <category label="Bot Artwork Upload">
-        <setting id="enable_bot_art" type="bool" label="Enable dynamic artwork upload (via Bot)" default="false"/>
-        <setting id="bot_token" type="text" label="Discord Bot Token (Uploads)" option="hidden"/>
-        <setting id="upload_channel_id" type="text" label="Discord Channel ID for Uploads" default=""/>
+
+    <category label="Dynamic Artwork">
+        <setting id="enable_dynamic_artwork" type="bool" label="Enable Dynamic Artwork (Upload to imgbb)" default="false"/>
+        <setting id="imgbb_api_key" type="text" label="imgbb API Key" option="hidden"/>
     </category>
 </settings>

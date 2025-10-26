@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+  <setting label="Discord User Token" type="text" id="discord_token" default="" option="hidden"/>
+  <setting label="imgbb API Key" type="text" id="imgbb_key" default=""/>
+  <setting label="Log Level (DEBUG)" type="bool" id="debug_logging" default="false"/>
+</settings>

@@ -1,5 +1,5 @@
 <addon id="service.dc_ha_presence-dev"
-       name="Discord x HA Gateway [COLORred][DEV][/COLOR]"
+       name="Discord Presence x HA Sensors [COLORred][DEV][/COLOR]"
        version="1.0.0-dev"
        provider-name="Bitte ein Git!">
     <requires>
