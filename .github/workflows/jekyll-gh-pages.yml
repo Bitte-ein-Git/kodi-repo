@@ -2,6 +2,9 @@
 name: Deploy GitHub Pages
 
 on:
+  schedule:
+    - cron: "1 * * * *"
+
   # Runs on pushes targeting the default branch
   push:
     branches: ["master"]
