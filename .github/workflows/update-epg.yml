@@ -1,0 +1,159 @@
+name: "🧰 EPG .xml Updater"
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+jobs:
+  update-epg:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: pip install requests lxml
+
+      - name: Generate EPG XML
+        run: |
+          python - <<'PY'
+          import re
+          import requests
+          from lxml import etree
+          import os
+
+          m3u_channels = {
+              "Das Erste.de": "Das Erste FHD",
+              "ZDF.de": "ZDF HD",
+              "SR Fernsehen.de": "SR Fernsehen FHD",
+              "ARTE.de": "ARTE HD",
+              "ZDFneo.de": "ZDFneo HD",
+              "tagesschau24.de": "Tagesschau24 HD",
+              "ZDFinfo.de": "ZDFinfo HD",
+              "Red Bull TV.de": "Red Bull TV FHD",
+              "10001": "Red Bull TV FHD (English)",
+              "More Than Sports TV.de": "More Than Sports TV FHD",
+              "WELT.de": "WELT FHD",
+              "Welt der Wunder.de": "Welt der Wunder FHD",
+              "SWR Fernsehen RP.de": "SWR Rheinland-Pfalz FHD"
+          }
+
+          source_map = {
+              "Das Erste.de": ("de", "Das Erste.de"),
+              "ZDF.de": ("de", "ZDF.de"),
+              "SR Fernsehen.de": ("de", "SR Fernsehen.de"),
+              "ARTE.de": ("de", "ARTE.de"),
+              "ZDFneo.de": ("de", "ZDFneo.de"),
+              "tagesschau24.de": ("de", "tagesschau24.de"),
+              "ZDFinfo.de": ("de", "ZDFinfo.de"),
+              "Red Bull TV.de": ("de", "Red Bull TV.de"),
+              "10001": ("en", "10001"),
+              "More Than Sports TV.de": ("de", "More Than Sports TV.de"),
+              "WELT.de": ("de", "WELT.de"),
+              "Welt der Wunder.de": ("de", "Welt der Wunder.de"),
+              "SWR Fernsehen RP.de": ("de", "SWR Fernsehen RP.de")
+          }
+          
+          urls = {
+              "de": "https://www.open-epg.com/files/germany3.xml",
+              "en": "https://nzxmltv.com/iptv/redbull.xml"
+          }
+
+          allowed_tags = {"title","sub-title","desc","icon","url","category","date","credits","director","actor","episode-num","rating"}
+
+          def fetch_xml(url):
+              print(f"[fetch] {url}")
+              r = requests.get(url, timeout=30)
+              r.raise_for_status()
+              return etree.fromstring(r.content)
+
+          def copy_channel_element(target_id, display_name, src_icon_url):
+              ch = etree.Element("channel", id=target_id)
+              dn = etree.SubElement(ch, "display-name")
+              dn.text = display_name
+              if src_icon_url:
+                  ic = etree.SubElement(ch, "icon")
+                  ic.set("src", src_icon_url)
+              return ch
+
+          def copy_programme(src_prog, target_channel_id):
+              prog = etree.Element("programme")
+              for attr in ("start","stop","channel"):
+                  if src_prog.get(attr):
+                      if attr == "channel":
+                          prog.set("channel", target_channel_id)
+                      else:
+                          prog.set(attr, src_prog.get(attr))
+              for child in src_prog:
+                  tag = etree.QName(child).localname
+                  if tag in allowed_tags:
+                      prog.append(child)
+              return prog
+
+          trees = {}
+          for k,url in urls.items():
+              try:
+                  trees[k] = fetch_xml(url)
+              except Exception as e:
+                  print(f"[warn] Fehler beim Laden {url}: {e}")
+                  trees[k] = None
+
+          tv = etree.Element("tv", attrib={"generator-info-name":"custom-merge-script-v5"})
+
+          source_icons = {}
+          for key, tree in trees.items():
+              if tree is None: continue
+              for ch in tree.findall("channel"):
+                  src_id = ch.get("id")
+                  if src_id:
+                      icon = ch.find("icon")
+                      if icon is not None and icon.get("src"):
+                          source_icons[(key, src_id)] = icon.get("src")
+
+          for final_id, nice_name in m3u_channels.items():
+              src_key, src_id = source_map.get(final_id, (None, None))
+              
+              if src_key is None:
+                  print(f"[missing] {final_id} nicht in source_map definiert.")
+                  tv.append(copy_channel_element(final_id, nice_name, None))
+                  continue
+
+              icon_url = source_icons.get((src_key, src_id))
+              tv.append(copy_channel_element(final_id, nice_name, icon_url))
+              
+              print(f"[mapped] {final_id} (als '{nice_name}') <= {src_key}:{src_id}")
+
+              src_tree = trees.get(src_key)
+              if src_tree is None:
+                  print(f"[warn] Source '{src_key}' für {final_id} nicht geladen.")
+                  continue
+                  
+              for prog in src_tree.findall("programme"):
+                  if prog.get("channel") == src_id:
+                      new_prog = copy_programme(prog, final_id)
+                      tv.append(new_prog)
+
+          tree_out = etree.ElementTree(tv)
+          out_path = "iptv/guide.xml"
+          os.makedirs(os.path.dirname(out_path), exist_ok=True)
+          tree_out.write(out_path, encoding="utf-8", xml_declaration=True, pretty_print=True)
+          print(f"[ok] geschrieben: {out_path}")
+          PY
+
+      - name: Commit and push updated EPG
+        run: |
+          git config user.name "EPG Updater Bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add iptv/guide.xml
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "🧰 Update EPG guide.xml"
+            git push
+          fi
