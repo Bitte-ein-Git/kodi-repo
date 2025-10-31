@@ -3120,169 +3120,7 @@
     <display-name>Red Bull TV FHD (English)</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20251028142943 +0000" stop="20251028145609 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
-<sub-title lang="en">Tarragona P1 Premier Padel highlights</sub-title>
-<desc lang="en">Watch the action from Tarragona, Spain as the world's best padel players tackle the P1 Premier Padel.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:videos:f8fa449d-dc3a-4356-a76f-ab520c20c9d3/rbtv_display_art_portrait"/>
-<url>https://www.redbull.com/int-en/videos/premier-padel-2025-spain-p1-highlights</url>
-<episode-num system="redbull.com">episode/rrn:content:videos:f8fa449d-dc3a-4356-a76f-ab520c20c9d3</episode-num>
-<episode-num system="original-air-date">2025-09-02 11:00:53</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20251028145609 +0000" stop="20251028154703 +0000" channel="10001"><title lang="en">A Biker's Ballad</title>
-<sub-title lang="en">Exploring MTB’s roots: A must-see for every rider</sub-title>
-<desc lang="en">14 riders. 7 years. This mountain biking epic takes a two-wheeled journey back to where the sport began in Crested Butte, Colorado, to celebrate its deep-rooted culture.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:films:9c4a954f-0fbc-4b19-86f4-471620a9ca71/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/a-bikers-ballad</url>
-<episode-num system="redbull.com">episode/rrn:content:films:9c4a954f-0fbc-4b19-86f4-471620a9ca71</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20251028154703 +0000" stop="20251028163920 +0000" channel="10001"><title lang="en">More than a Dive</title>
-<sub-title lang="en">The heart of European cliff diving</sub-title>
-<desc lang="en">When the nature challenges the human spirit, it’s time for Red Bull Cliff Diving. Polignano a Mare delivered again: waves, wind and pure sportive excellence.</desc>
-<category lang="en">Cliff Diving</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:83c82ea1-0042-4fdb-8c75-ac3bb1135656/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/more-than-a-dive-2025-e2</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:1f25e1a1-8ba7-42a4-aaae-059e43a63e2d</episode-num>
-<episode-num system="xmltv_ns">2.1.0</episode-num>
-<episode-num system="original-air-date">2025-09-02 14:09:56</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:83c82ea1-0042-4fdb-8c75-ac3bb1135656</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20251028163920 +0000" stop="20251028173427 +0000" channel="10001"><title lang="en">Resilience</title>
-<sub-title lang="en">Triathlete Els Visser's story</sub-title>
-<desc lang="en">Follow Els Visser's journey from surviving a ship wreck to becoming a triathlon and Ironman athlete. description : How does surviving a ship wreck lead to someone becoming a successful triathlete? Learn about Els Visser's journey from medical student to sporting success via a life-threatening disaster at sea.</desc>
-<category lang="en">Triathlon</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:55603c14-a305-4657-9092-086fd7c34df0/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/resilience</url>
-<episode-num system="redbull.com">episode/rrn:content:films:55603c14-a305-4657-9092-086fd7c34df0</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20251028173427 +0000" stop="20251028182756 +0000" channel="10001"><title lang="en">More than a Dive</title>
-<sub-title lang="en">Keeper of the Old Bridge</sub-title>
-<desc lang="en">At Mostar’s historic Old Bridge, Red Bull Cliff Diving history was made. The season’s first 10s, the most wildcards, an unexpected title fight, and centuries of tradition in one unforgettable stop.</desc>
-<category lang="en">High Diving</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:83c82ea1-0042-4fdb-8c75-ac3bb1135656/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/more-than-a-dive-2025-e3</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:201c1896-6723-402c-8eed-942a69e85e85</episode-num>
-<episode-num system="xmltv_ns">2.2.0</episode-num>
-<episode-num system="original-air-date">2025-10-02 03:08:58</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:83c82ea1-0042-4fdb-8c75-ac3bb1135656</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20251028182756 +0000" stop="20251028185356 +0000" channel="10001"><title lang="en">For Reals</title>
-<sub-title lang="en">From a pinball human to 93kph speed skating</sub-title>
-<desc lang="en">Speed skating into the record books at 93kph. Office skateboarding. BASE jumping on Mount Everest. Diving into crocodile waters. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e3</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:8864b788-5908-493e-83ec-3421aa40df59</episode-num>
-<episode-num system="xmltv_ns">0.2.0</episode-num>
-<episode-num system="original-air-date">2024-10-20 23:46:52</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20251028185356 +0000" stop="20251028192032 +0000" channel="10001"><title lang="en">For Reals</title>
-<sub-title lang="en">From freerunning Greek isles to skiing the Streif</sub-title>
-<desc lang="en">A gnarly shipping container BMX set-up. Freerunning in Santorini. Taking on the Streif at night. Enduro riding on a volcano. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e8</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:ff4396fb-683e-449c-a211-427bd260059d</episode-num>
-<episode-num system="xmltv_ns">0.7.0</episode-num>
-<episode-num system="original-air-date">2024-10-21 23:21:36</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20251028192032 +0000" stop="20251028194632 +0000" channel="10001"><title lang="en">For Reals</title>
-<sub-title lang="en">From skydiving with skis to flying into a volcano</sub-title>
-<desc lang="en">Flying a plane 245kph through a tunnel. A wingsuit flight across the crater of an active volcano. A record-breaking truck jump in a ghost town. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e4</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:f2cb2ce7-09e1-4656-a37f-a10c80b56502</episode-num>
-<episode-num system="xmltv_ns">0.3.0</episode-num>
-<episode-num system="original-air-date">2024-10-21 00:13:28</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20251028194632 +0000" stop="20251028201308 +0000" channel="10001"><title lang="en">For Reals</title>
-<sub-title lang="en">From BASE jumping a cave to a flying mega swing </sub-title>
-<desc lang="en">Wingsuit flying through London’s Tower Bridge at 246kph. Swinging from a hot air balloon. Slacklining the length of two football fields. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e7</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:2664328f-b440-42e2-9241-b99235650fb9</episode-num>
-<episode-num system="xmltv_ns">0.6.0</episode-num>
-<episode-num system="original-air-date">2024-10-21 22:55:36</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20251028201308 +0000" stop="20251028210030 +0000" channel="10001"><title lang="en">La Liste</title>
-<sub-title lang="en">Skiing phenom takes on the steepest peaks in the Alps</sub-title>
-<desc lang="en">Skiing phenom Jérémie Heitz challenges himself to ski 15 steepest 4,000m peaks in the Alps in just two ski seasons. To do so requires enormous physical endurance and superior mental fortitude!</desc>
-<category lang="en">Skiing</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:eb0ef879-d863-5042-9d4b-7dd5459a3590/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/la-liste</url>
-<episode-num system="redbull.com">episode/rrn:content:films:eb0ef879-d863-5042-9d4b-7dd5459a3590</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20251028210030 +0000" stop="20251028212706 +0000" channel="10001"><title lang="en">For Reals</title>
-<sub-title lang="en">From a paper plane contest to diving off ruins </sub-title>
-<desc lang="en">Swamp buggy racing. Sprinting down from the peak of a mountain on a bike. High diving off ancient ruins. Getting the perfect surf shot. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e5</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:6a64ab5e-c10a-4065-9f16-0c91a4bc226d</episode-num>
-<episode-num system="xmltv_ns">0.4.0</episode-num>
-<episode-num system="original-air-date">2024-10-21 00:39:28</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20251028212706 +0000" stop="20251028215306 +0000" channel="10001"><title lang="en">For Reals</title>
-<sub-title lang="en">From soapbox madness to skydiving with an FMX bike</sub-title>
-<desc lang="en">Snowboarding – or, rather sandboarding – in the desert. Rally cars on frozen lakes. The wackiness of soapbox racing. Skydiving with a motocross bike. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e9</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:25bd9023-2792-464f-a774-984f840f4a4e</episode-num>
-<episode-num system="xmltv_ns">0.8.0</episode-num>
-<episode-num system="original-air-date">2024-10-21 23:48:12</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20251028215306 +0000" stop="20251028221942 +0000" channel="10001"><title lang="en">For Reals</title>
-<sub-title lang="en">From wingsuits to parachutes</sub-title>
-<desc lang="en">Freethrow master vs robot. High-flying action from wingsuits to parachutes. Wakeboarding in Chile. Barrel racing with a dirtbike. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e10</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:00ea3330-3896-488e-ad9a-35fcee77cee4</episode-num>
-<episode-num system="xmltv_ns">0.9.0</episode-num>
-<episode-num system="original-air-date">2024-10-22 00:14:12</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20251028221942 +0000" stop="20251028235815 +0000" channel="10001"><title lang="en">Valley Uprising</title>
+  <programme start="20251031132332 +0000" stop="20251031150242 +0000" channel="10001"><title lang="en">Valley Uprising</title>
 <sub-title lang="en">Pushing the limits of climbing</sub-title>
 <desc lang="en">Valley Uprising is the riveting, unforgettable tale of the bold rock climbing tradition in Yosemite National Park: half a century of struggle against the laws of gravity -- and the laws of the land.</desc>
 <category lang="en">Climbing Lead</category>
@@ -3293,7 +3131,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20251028235815 +0000" stop="20251029002420 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
+  <programme start="20251031150242 +0000" stop="20251031152846 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
 <sub-title lang="en">Bordeaux Premier Padel P2 highlights</sub-title>
 <desc lang="en">Watch the highlights from the Bordeaux Premier Padel P2 tournament at Bordeaux Mériadeck ice rink in France.</desc>
 <icon src="https://resources.redbull.tv/rrn:content:videos:21db7e59-5dd6-4b58-9df2-9afd4b766ea5/rbtv_display_art_portrait"/>
@@ -3304,7 +3142,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20251029002420 +0000" stop="20251029005009 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
+  <programme start="20251031152846 +0000" stop="20251031155435 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
 <sub-title lang="en">Gijón Premier Padel highlights</sub-title>
 <desc lang="en">Watch the action from Spain as the world's best padel players tackle the Gijón Premier Padel P2 at Palacio de Deportes de la Guía-Presidente Adolfo Suárez.</desc>
 <icon src="https://resources.redbull.tv/rrn:content:videos:14c38628-f16c-4a47-89cd-092bf40590bf/rbtv_display_art_portrait"/>
@@ -3315,7 +3153,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20251029005009 +0000" stop="20251029011634 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
+  <programme start="20251031155435 +0000" stop="20251031162101 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
 <sub-title lang="en">Italy Major Premier Padel highlights</sub-title>
 <desc lang="en">Watch the highlights from the Italy Major Premier Padel tournament from Foro Italico in Rome.</desc>
 <icon src="https://resources.redbull.tv/rrn:content:videos:459e11d8-af61-400f-87ea-1905c5956cfe/rbtv_display_art_portrait"/>
@@ -3326,7 +3164,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20251029011634 +0000" stop="20251029014227 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
+  <programme start="20251031162101 +0000" stop="20251031164653 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
 <sub-title lang="en">Germany Premier Padel P2 highlights</sub-title>
 <desc lang="en">Watch the highlights from the Germany Premier Padel P2 tournament.</desc>
 <icon src="https://resources.redbull.tv/rrn:content:videos:73f8f95c-0068-4771-b4c3-d671119fe120/rbtv_display_art_portrait"/>
@@ -3337,7 +3175,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20251029014227 +0000" stop="20251029023536 +0000" channel="10001"><title lang="en">More than a Dive</title>
+  <programme start="20251031164653 +0000" stop="20251031174002 +0000" channel="10001"><title lang="en">More than a Dive</title>
 <sub-title lang="en">Pressure in paradise</sub-title>
 <desc lang="en">The 2025 season opens in El Nido, one of the rawest natural settings on tour. Iffland hits her 50th podium. Hunt returns as wildcard to win again – paradise challenges every diver’s mind and body.</desc>
 <category lang="en">Cliff Diving</category>
@@ -3351,7 +3189,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20251029023536 +0000" stop="20251029030146 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
+  <programme start="20251031174002 +0000" stop="20251031180612 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
 <sub-title lang="en">Buenos Aires Premier Padel highlights</sub-title>
 <desc lang="en">Watch the action from the Buenos Aires Premier Padel P1 in Argentina, where the sport took centre stage at Parque Roca in one of the leading countries of the padel scene.</desc>
 <icon src="https://resources.redbull.tv/rrn:content:videos:d8edbb85-e49e-480d-9782-ed7614597776/rbtv_display_art_portrait"/>
@@ -3362,7 +3200,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20251029030146 +0000" stop="20251029032813 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
+  <programme start="20251031180612 +0000" stop="20251031183239 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
 <sub-title lang="en">Brussels P2 Premier Padel highlights</sub-title>
 <desc lang="en">Watch the action from the Brussels P2 Premier Padel in Belgium, where the sport continues to grow in popularity.</desc>
 <icon src="https://resources.redbull.tv/rrn:content:videos:981dabaf-4d46-4acf-8cd0-2a5cb398fd4a/rbtv_display_art_portrait"/>
@@ -3373,7 +3211,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20251029032813 +0000" stop="20251029035415 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
+  <programme start="20251031183239 +0000" stop="20251031185841 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
 <sub-title lang="en">Asunción Premier Padel highlights</sub-title>
 <desc lang="en">Watch the action from Paraguay as the world's best padel players tackled the Asunción Premier Padel P2.</desc>
 <icon src="https://resources.redbull.tv/rrn:content:videos:6b4cf9d1-36e9-4d29-bf43-44d3d5309deb/rbtv_display_art_portrait"/>
@@ -3384,7 +3222,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20251029035415 +0000" stop="20251029042053 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
+  <programme start="20251031185841 +0000" stop="20251031192519 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
 <sub-title lang="en">Miami Premier Padel highlights</sub-title>
 <desc lang="en">Watch the action from the Miami Premier Padel P1 as it joined the padel tournament for the first time in 2025.</desc>
 <icon src="https://resources.redbull.tv/rrn:content:videos:02d02b4b-cd97-4da2-9b7a-7ec04b8dfe40/rbtv_display_art_portrait"/>
@@ -3395,7 +3233,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20251029042053 +0000" stop="20251029052535 +0000" channel="10001"><title lang="en">Emerald Storm</title>
+  <programme start="20251031192519 +0000" stop="20251031203001 +0000" channel="10001"><title lang="en">Emerald Storm</title>
 <sub-title lang="en">The history of Irish downhill mountain biking</sub-title>
 <desc lang="en">Across four decades and five generations, watch the evolution of Irish MTB, from casual rides with friends to fierce battles on the world’s biggest stage: the UCI Downhill World Cup.</desc>
 <category lang="en">Mountain Bike Downhill</category>
@@ -3406,7 +3244,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20251029052535 +0000" stop="20251029055142 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
+  <programme start="20251031203001 +0000" stop="20251031205608 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
 <sub-title lang="en">Madrid P1 Premier Padel highlights</sub-title>
 <desc lang="en">Watch the action from the Madrid P1 Premier Padel in Spain.</desc>
 <icon src="https://resources.redbull.tv/rrn:content:videos:7b56e002-5d6a-4e93-a5c4-49e501f4fae4/rbtv_display_art_portrait"/>
@@ -3417,20 +3255,18 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20251029055142 +0000" stop="20251029060000 +0000" channel="10001"><title lang="en">In Plain Sight</title>
-<sub-title lang="en">Race &amp; surfing: a brief history</sub-title>
-<desc lang="en">Selema Masekela sits us down for a brief but important history lesson on the intersection of race and surfing over time, starting in Ghana in 1640 and taking us all the way to the present day.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:f9abdea4-5747-450f-817e-8313705d9442/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/in-plain-sight-s1-e1</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:4271ac43-824a-46f5-b780-c0fe337deff1</episode-num>
-<episode-num system="xmltv_ns">0.0.0</episode-num>
-<episode-num system="original-air-date">2024-06-16 20:12:29</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:f9abdea4-5747-450f-817e-8313705d9442</episode-num>
+  <programme start="20251031205608 +0000" stop="20251031212236 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
+<sub-title lang="en">Cancun Premier Padel highlights</sub-title>
+<desc lang="en">Watch the action from Mexico as the world's best padel players tackle the Cancun Premier Padel P2.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:videos:ea9b4a62-6b33-44dd-8429-8857165c9106/rbtv_display_art_portrait"/>
+<url>https://www.redbull.com/int-en/videos/premier-padel-2025-cancun-p2-highlights</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:ea9b4a62-6b33-44dd-8429-8857165c9106</episode-num>
+<episode-num system="original-air-date">2025-04-03 03:34:20</episode-num>
 <rating system="Red Bull TV">
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20251029060000 +0000" stop="20251029062607 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
+  <programme start="20251031212236 +0000" stop="20251031214843 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
 <sub-title lang="en">Malaga Premier Padel P1 highlights</sub-title>
 <desc lang="en">Watch the highlights from the Malaga Premier Padel P1 tournament in Spain.</desc>
 <icon src="https://resources.redbull.tv/rrn:content:videos:941eaf4f-f98e-4d02-b03b-b5c5621ef92f/rbtv_display_art_portrait"/>
@@ -3441,7 +3277,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20251029062607 +0000" stop="20251029071858 +0000" channel="10001"><title lang="en">More than a Dive</title>
+  <programme start="20251031214843 +0000" stop="20251031224134 +0000" channel="10001"><title lang="en">More than a Dive</title>
 <sub-title lang="en">Passion, power and precision </sub-title>
 <desc lang="en">The season reaches its peak: Iffland aims for a flawless year, while Hunt and Popovici duel for the King Kahekili Trophy in an unforgettable showdown that rewrites Red Bull Cliff Diving history.</desc>
 <category lang="en">Cliff Diving</category>
@@ -3455,7 +3291,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20251029071858 +0000" stop="20251029074335 +0000" channel="10001"><title lang="en">Making History: The Women of Freeride</title>
+  <programme start="20251031224134 +0000" stop="20251031230611 +0000" channel="10001"><title lang="en">Making History: The Women of Freeride</title>
 <sub-title lang="en">Elite female riders fight for equality in their sport</sub-title>
 <desc lang="en">Follow elite female mountain bikers as they make freeride history, taking on Red Bull Rampage's toughest terrain. Their story reveals their drive, push for equality and lasting impact on their sport.</desc>
 <icon src="https://resources.redbull.tv/rrn:content:films:7bf0f583-f1bf-4ae4-82cf-f8ec6e587994/rbtv_cover_art_portrait"/>
@@ -3465,7 +3301,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20251029074335 +0000" stop="20251029080923 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
+  <programme start="20251031230611 +0000" stop="20251031233159 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
 <sub-title lang="en">Riyadh Premier Padel highlights</sub-title>
 <desc lang="en">Watch the action from the season opener in Saudi Arabia as the world's best padel players tackle the Riyadh Premier Padel P1.</desc>
 <icon src="https://resources.redbull.tv/rrn:content:videos:80a36d96-1d8b-4ccd-9445-baab2f595d44/rbtv_display_art_portrait"/>
@@ -3476,7 +3312,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20251029080923 +0000" stop="20251029083604 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
+  <programme start="20251031233159 +0000" stop="20251031235840 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
 <sub-title lang="en">Paris Major Premier Padel highlights</sub-title>
 <desc lang="en">Watch the highlights from the Paris Major Premier Padel tournament in France at Roland-Garros stadium.</desc>
 <icon src="https://resources.redbull.tv/rrn:content:videos:f0fa6fec-b31a-4830-8112-51bcdf3bc1a9/rbtv_display_art_portrait"/>
@@ -3487,7 +3323,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20251029083604 +0000" stop="20251029095432 +0000" channel="10001"><title lang="en">Against Gravity</title>
+  <programme start="20251031235840 +0000" stop="20251101011708 +0000" channel="10001"><title lang="en">Against Gravity</title>
 <sub-title lang="en">Pro surfer Leon Glatzer’s journey of resilience</sub-title>
 <desc lang="en">Born in the water, shaped by the ocean: surf pro Leon Glatzer shares how the sea shaped his life. Full of ups and downs, his story is all about the search for freedom.</desc>
 <category lang="en">Surfing</category>
@@ -3498,7 +3334,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20251029095432 +0000" stop="20251029102036 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
+  <programme start="20251101011708 +0000" stop="20251101014312 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
 <sub-title lang="en">Santiago Premier Padel highlights</sub-title>
 <desc lang="en">Watch the action from Chile as the world's best padel players tackle the Santiago Premier Padel P1.</desc>
 <icon src="https://resources.redbull.tv/rrn:content:videos:b7cff96c-a427-4e65-96d1-bd0d300a2334/rbtv_display_art_portrait"/>
@@ -3509,7 +3345,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20251029102036 +0000" stop="20251029104712 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
+  <programme start="20251101014312 +0000" stop="20251101020948 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
 <sub-title lang="en">Valladolid Premier Padel P2 highlights </sub-title>
 <desc lang="en">Watch the highlights from the Valladolid Premier Padel P2 tournament from Polideportivo Pisuerga arena in Spain.</desc>
 <icon src="https://resources.redbull.tv/rrn:content:videos:6e4e8f71-5f01-4394-99f1-59c239951813/rbtv_display_art_portrait"/>
@@ -3520,7 +3356,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20251029104712 +0000" stop="20251029111320 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
+  <programme start="20251101020948 +0000" stop="20251101023556 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
 <sub-title lang="en">Qatar Major Premier Padel highlights</sub-title>
 <desc lang="en">Watch the action from the Qatar Major Premier Padel in Doha, where the sport continues to grow in popularity.</desc>
 <icon src="https://resources.redbull.tv/rrn:content:videos:f9de6231-769e-4a74-921c-272314e4c8ff/rbtv_display_art_portrait"/>
@@ -3531,7 +3367,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20251029111320 +0000" stop="20251029113946 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
+  <programme start="20251101023556 +0000" stop="20251101030222 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
 <sub-title lang="en">Tarragona P1 Premier Padel highlights</sub-title>
 <desc lang="en">Watch the action from Tarragona, Spain as the world's best padel players tackle the P1 Premier Padel.</desc>
 <icon src="https://resources.redbull.tv/rrn:content:videos:f8fa449d-dc3a-4356-a76f-ab520c20c9d3/rbtv_display_art_portrait"/>
@@ -3542,7 +3378,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20251029113946 +0000" stop="20251029123040 +0000" channel="10001"><title lang="en">A Biker's Ballad</title>
+  <programme start="20251101030222 +0000" stop="20251101035316 +0000" channel="10001"><title lang="en">A Biker's Ballad</title>
 <sub-title lang="en">Exploring MTB’s roots: A must-see for every rider</sub-title>
 <desc lang="en">14 riders. 7 years. This mountain biking epic takes a two-wheeled journey back to where the sport began in Crested Butte, Colorado, to celebrate its deep-rooted culture.</desc>
 <icon src="https://resources.redbull.tv/rrn:content:films:9c4a954f-0fbc-4b19-86f4-471620a9ca71/rbtv_cover_art_portrait"/>
@@ -3552,7 +3388,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20251029123040 +0000" stop="20251029132257 +0000" channel="10001"><title lang="en">More than a Dive</title>
+  <programme start="20251101035316 +0000" stop="20251101044533 +0000" channel="10001"><title lang="en">More than a Dive</title>
 <sub-title lang="en">The heart of European cliff diving</sub-title>
 <desc lang="en">When the nature challenges the human spirit, it’s time for Red Bull Cliff Diving. Polignano a Mare delivered again: waves, wind and pure sportive excellence.</desc>
 <category lang="en">Cliff Diving</category>
@@ -3566,7 +3402,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20251029132257 +0000" stop="20251029141804 +0000" channel="10001"><title lang="en">Resilience</title>
+  <programme start="20251101044533 +0000" stop="20251101054040 +0000" channel="10001"><title lang="en">Resilience</title>
 <sub-title lang="en">Triathlete Els Visser's story</sub-title>
 <desc lang="en">Follow Els Visser's journey from surviving a ship wreck to becoming a triathlon and Ironman athlete. description : How does surviving a ship wreck lead to someone becoming a successful triathlete? Learn about Els Visser's journey from medical student to sporting success via a life-threatening disaster at sea.</desc>
 <category lang="en">Triathlon</category>
@@ -3577,21 +3413,54 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20251029141804 +0000" stop="20251029151132 +0000" channel="10001"><title lang="en">More than a Dive</title>
-<sub-title lang="en">Keeper of the Old Bridge</sub-title>
-<desc lang="en">At Mostar’s historic Old Bridge, Red Bull Cliff Diving history was made. The season’s first 10s, the most wildcards, an unexpected title fight, and centuries of tradition in one unforgettable stop.</desc>
-<category lang="en">High Diving</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:83c82ea1-0042-4fdb-8c75-ac3bb1135656/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/more-than-a-dive-2025-e3</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:201c1896-6723-402c-8eed-942a69e85e85</episode-num>
-<episode-num system="xmltv_ns">2.2.0</episode-num>
-<episode-num system="original-air-date">2025-10-02 03:08:58</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:83c82ea1-0042-4fdb-8c75-ac3bb1135656</episode-num>
+  <programme start="20251101054040 +0000" stop="20251101055217 +0000" channel="10001"><title lang="en">Red Bull Hardline 2024</title>
+<sub-title lang="en">Top 3 runs – Wales</sub-title>
+<desc lang="en">Enjoy the best runs – featuring Juanfer Vélez, Bernard Kerr and Ronan Dunne – from the world's hardest mountain bike race, Red Bull Hardline.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:videos:e5710b3d-8552-426a-be74-1288f2f2fa18/rbtv_display_art_portrait"/>
+<url>https://www.redbull.com/int-en/videos/red-bull-hardline-2024-uk-top-3-runs</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:e5710b3d-8552-426a-be74-1288f2f2fa18</episode-num>
+<episode-num system="original-air-date">2025-03-07 01:36:21</episode-num>
 <rating system="Red Bull TV">
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20251029151132 +0000" stop="20251029153732 +0000" channel="10001"><title lang="en">For Reals</title>
+  <programme start="20251101055217 +0000" stop="20251101060000 +0000" channel="10001"><title lang="en">In Plain Sight</title>
+<sub-title lang="en">Race &amp; surfing: a brief history</sub-title>
+<desc lang="en">Selema Masekela sits us down for a brief but important history lesson on the intersection of race and surfing over time, starting in Ghana in 1640 and taking us all the way to the present day.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:f9abdea4-5747-450f-817e-8313705d9442/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/in-plain-sight-s1-e1</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:4271ac43-824a-46f5-b780-c0fe337deff1</episode-num>
+<episode-num system="xmltv_ns">0.0.0</episode-num>
+<episode-num system="original-air-date">2024-06-16 20:12:29</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:f9abdea4-5747-450f-817e-8313705d9442</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20251101060000 +0000" stop="20251101062614 +0000" channel="10001"><title lang="en">Asa Vermette's Ascent</title>
+<sub-title lang="en">A rookie’s breakout year in downhill MTB</sub-title>
+<desc lang="en">One of mountain biking’s most exciting young riders, Asa Vermette, has secured a Junior world title. Follow his journey as he faces downhill’s toughest race in his debut Red Bull Hardline season.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:films:2f27123f-6b9a-46a6-8be1-03cbdb5992e7/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/asa-vermette-ascent</url>
+<episode-num system="redbull.com">episode/rrn:content:films:2f27123f-6b9a-46a6-8be1-03cbdb5992e7</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20251101062614 +0000" stop="20251101065214 +0000" channel="10001"><title lang="en">For Reals</title>
+<sub-title lang="en">From F1 desert racing to a skatepark in the sky </sub-title>
+<desc lang="en">Wakeskating off a Dubai skyscraper. F1 drivers racing on Floridan waters and in the Nevada desert. Riding a skatepark attached to a hot air balloon. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e1</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:cff46697-c2b7-46aa-a674-e152be37dbe4</episode-num>
+<episode-num system="xmltv_ns">0.0.0</episode-num>
+<episode-num system="original-air-date">2024-10-20 22:54:52</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20251101065214 +0000" stop="20251101071850 +0000" channel="10001"><title lang="en">For Reals</title>
 <sub-title lang="en">From a pinball human to 93kph speed skating</sub-title>
 <desc lang="en">Speed skating into the record books at 93kph. Office skateboarding. BASE jumping on Mount Everest. Diving into crocodile waters. It's all in a day's work for Red Bull athletes!</desc>
 <icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
@@ -3604,7 +3473,33 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20251029153732 +0000" stop="20251029160408 +0000" channel="10001"><title lang="en">For Reals</title>
+  <programme start="20251101071850 +0000" stop="20251101074450 +0000" channel="10001"><title lang="en">For Reals</title>
+<sub-title lang="en">From skateboarding out a plane to 180m wall climb</sub-title>
+<desc lang="en">Touring a town in style on a snowmobile. Freerunning through an airport. Skateboarding out of a flying plane. Ice climbing Niagra Falls. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e6</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:da0954da-ca98-4cec-8425-06146469e566</episode-num>
+<episode-num system="xmltv_ns">0.5.0</episode-num>
+<episode-num system="original-air-date">2024-10-21 01:05:28</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20251101074450 +0000" stop="20251101081126 +0000" channel="10001"><title lang="en">For Reals</title>
+<sub-title lang="en">From a paper plane contest to diving off ruins </sub-title>
+<desc lang="en">Swamp buggy racing. Sprinting down from the peak of a mountain on a bike. High diving off ancient ruins. Getting the perfect surf shot. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e5</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:6a64ab5e-c10a-4065-9f16-0c91a4bc226d</episode-num>
+<episode-num system="xmltv_ns">0.4.0</episode-num>
+<episode-num system="original-air-date">2024-10-21 00:39:28</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20251101081126 +0000" stop="20251101083726 +0000" channel="10001"><title lang="en">For Reals</title>
 <sub-title lang="en">From freerunning Greek isles to skiing the Streif</sub-title>
 <desc lang="en">A gnarly shipping container BMX set-up. Freerunning in Santorini. Taking on the Streif at night. Enduro riding on a volcano. It's all in a day's work for Red Bull athletes!</desc>
 <icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
@@ -3617,7 +3512,46 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20251029160408 +0000" stop="20251029163008 +0000" channel="10001"><title lang="en">For Reals</title>
+  <programme start="20251101083726 +0000" stop="20251101090402 +0000" channel="10001"><title lang="en">For Reals</title>
+<sub-title lang="en">From wingsuits to parachutes</sub-title>
+<desc lang="en">Freethrow master vs robot. High-flying action from wingsuits to parachutes. Wakeboarding in Chile. Barrel racing with a dirtbike. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e10</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:00ea3330-3896-488e-ad9a-35fcee77cee4</episode-num>
+<episode-num system="xmltv_ns">0.9.0</episode-num>
+<episode-num system="original-air-date">2024-10-22 00:14:12</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20251101090402 +0000" stop="20251101093002 +0000" channel="10001"><title lang="en">For Reals</title>
+<sub-title lang="en">From soapbox madness to skydiving with an FMX bike</sub-title>
+<desc lang="en">Snowboarding – or, rather sandboarding – in the desert. Rally cars on frozen lakes. The wackiness of soapbox racing. Skydiving with a motocross bike. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e9</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:25bd9023-2792-464f-a774-984f840f4a4e</episode-num>
+<episode-num system="xmltv_ns">0.8.0</episode-num>
+<episode-num system="original-air-date">2024-10-21 23:48:12</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20251101093002 +0000" stop="20251101095638 +0000" channel="10001"><title lang="en">For Reals</title>
+<sub-title lang="en">From BASE jumping a cave to a flying mega swing </sub-title>
+<desc lang="en">Wingsuit flying through London’s Tower Bridge at 246kph. Swinging from a hot air balloon. Slacklining the length of two football fields. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e7</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:2664328f-b440-42e2-9241-b99235650fb9</episode-num>
+<episode-num system="xmltv_ns">0.6.0</episode-num>
+<episode-num system="original-air-date">2024-10-21 22:55:36</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20251101095638 +0000" stop="20251101102238 +0000" channel="10001"><title lang="en">For Reals</title>
 <sub-title lang="en">From skydiving with skis to flying into a volcano</sub-title>
 <desc lang="en">Flying a plane 245kph through a tunnel. A wingsuit flight across the crater of an active volcano. A record-breaking truck jump in a ghost town. It's all in a day's work for Red Bull athletes!</desc>
 <icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
@@ -3630,15 +3564,169 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20251029163008 +0000" stop="20251029165644 +0000" channel="10001"><title lang="en">For Reals</title>
-<sub-title lang="en">From BASE jumping a cave to a flying mega swing </sub-title>
-<desc lang="en">Wingsuit flying through London’s Tower Bridge at 246kph. Swinging from a hot air balloon. Slacklining the length of two football fields. It's all in a day's work for Red Bull athletes!</desc>
+  <programme start="20251101102238 +0000" stop="20251101104914 +0000" channel="10001"><title lang="en">For Reals</title>
+<sub-title lang="en">From F1 soapbox racing to breaking world records</sub-title>
+<desc lang="en">Breaking world records – it's all in a day's work for Red Bull athletes! See Felix Baumgartner jump from space, 65 women skydive together and one BMXer conquer the globe's biggest full loop.</desc>
 <icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e7</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:2664328f-b440-42e2-9241-b99235650fb9</episode-num>
-<episode-num system="xmltv_ns">0.6.0</episode-num>
-<episode-num system="original-air-date">2024-10-21 22:55:36</episode-num>
+<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e2</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:90e91a7d-74bb-42b7-b9b3-078865d7b451</episode-num>
+<episode-num system="xmltv_ns">0.1.0</episode-num>
+<episode-num system="original-air-date">2024-10-20 23:20:52</episode-num>
 <episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20251101104914 +0000" stop="20251101111518 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
+<sub-title lang="en">Bordeaux Premier Padel P2 highlights</sub-title>
+<desc lang="en">Watch the highlights from the Bordeaux Premier Padel P2 tournament at Bordeaux Mériadeck ice rink in France.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:videos:21db7e59-5dd6-4b58-9df2-9afd4b766ea5/rbtv_display_art_portrait"/>
+<url>https://www.redbull.com/int-en/videos/premier-padel-2025-bordeaux-p2-highlights</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:21db7e59-5dd6-4b58-9df2-9afd4b766ea5</episode-num>
+<episode-num system="original-air-date">2025-09-02 10:08:41</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20251101111518 +0000" stop="20251101114145 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
+<sub-title lang="en">Brussels P2 Premier Padel highlights</sub-title>
+<desc lang="en">Watch the action from the Brussels P2 Premier Padel in Belgium, where the sport continues to grow in popularity.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:videos:981dabaf-4d46-4acf-8cd0-2a5cb398fd4a/rbtv_display_art_portrait"/>
+<url>https://www.redbull.com/int-en/videos/premier-padel-2025-brussels-p2-highlights</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:981dabaf-4d46-4acf-8cd0-2a5cb398fd4a</episode-num>
+<episode-num system="original-air-date">2025-05-11 06:31:10</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20251101114145 +0000" stop="20251101120740 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
+<sub-title lang="en">Rotterdam Premier Padel P1 highlights</sub-title>
+<desc lang="en">Watch the highlights from the Rotterdam Premier Padel P1 tournament in the Netherlands.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:videos:4872fd50-d65f-4c5e-b832-7bdc75b016fe/rbtv_display_art_portrait"/>
+<url>https://www.redbull.com/int-en/videos/premier-padel-2025-rotterdam-p1-highlights</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:4872fd50-d65f-4c5e-b832-7bdc75b016fe</episode-num>
+<episode-num system="original-air-date">2025-11-02 00:41:45</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20251101120740 +0000" stop="20251101123338 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
+<sub-title lang="en">Milano Premier Padel P1 highlights</sub-title>
+<desc lang="en">Watch the highlights from the Milano Premier Padel P1  tournament as the world's best padel players showcased amazing technique on the world stage.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:videos:87bfab49-7dd2-468b-afc9-a8e73564ad92/rbtv_display_art_portrait"/>
+<url>https://www.redbull.com/int-en/videos/premier-padel-2025-milano-p1-highlights</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:87bfab49-7dd2-468b-afc9-a8e73564ad92</episode-num>
+<episode-num system="original-air-date">2025-11-02 01:07:40</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20251101123338 +0000" stop="20251101125940 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
+<sub-title lang="en">Asunción Premier Padel highlights</sub-title>
+<desc lang="en">Watch the action from Paraguay as the world's best padel players tackled the Asunción Premier Padel P2.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:videos:6b4cf9d1-36e9-4d29-bf43-44d3d5309deb/rbtv_display_art_portrait"/>
+<url>https://www.redbull.com/int-en/videos/premier-padel-2025-asuncion-p2-highlights</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:6b4cf9d1-36e9-4d29-bf43-44d3d5309deb</episode-num>
+<episode-num system="original-air-date">2025-06-02 08:02:04</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20251101125940 +0000" stop="20251101132626 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
+<sub-title lang="en">Buenos Aires Premier Padel highlights</sub-title>
+<desc lang="en">Watch the action from the Buenos Aires Premier Padel P1 in Argentina, where the sport took centre stage at Parque Roca in one of the leading countries of the padel scene.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:videos:d8edbb85-e49e-480d-9782-ed7614597776/rbtv_display_art_portrait"/>
+<url>https://www.redbull.com/int-en/videos/premier-padel-2025-buenos-aires-p1-highlights</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:d8edbb85-e49e-480d-9782-ed7614597776</episode-num>
+<episode-num system="original-air-date">2025-09-02 08:50:05</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20251101132626 +0000" stop="20251101135228 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
+<sub-title lang="en">Miami Premier Padel highlights</sub-title>
+<desc lang="en">Watch the action from the Miami Premier Padel P1 as it joined the padel tournament for the first time in 2025.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:videos:02d02b4b-cd97-4da2-9b7a-7ec04b8dfe40/rbtv_display_art_portrait"/>
+<url>https://www.redbull.com/int-en/videos/premier-padel-2025-miami-p1-highlights</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:02d02b4b-cd97-4da2-9b7a-7ec04b8dfe40</episode-num>
+<episode-num system="original-air-date">2025-04-03 04:00:12</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20251101135228 +0000" stop="20251101141856 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
+<sub-title lang="en">Cancun Premier Padel highlights</sub-title>
+<desc lang="en">Watch the action from Mexico as the world's best padel players tackle the Cancun Premier Padel P2.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:videos:ea9b4a62-6b33-44dd-8429-8857165c9106/rbtv_display_art_portrait"/>
+<url>https://www.redbull.com/int-en/videos/premier-padel-2025-cancun-p2-highlights</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:ea9b4a62-6b33-44dd-8429-8857165c9106</episode-num>
+<episode-num system="original-air-date">2025-04-03 03:34:20</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20251101141856 +0000" stop="20251101144503 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
+<sub-title lang="en">Malaga Premier Padel P1 highlights</sub-title>
+<desc lang="en">Watch the highlights from the Malaga Premier Padel P1 tournament in Spain.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:videos:941eaf4f-f98e-4d02-b03b-b5c5621ef92f/rbtv_display_art_portrait"/>
+<url>https://www.redbull.com/int-en/videos/premier-padel-2025-malaga-p1-highlights</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:941eaf4f-f98e-4d02-b03b-b5c5621ef92f</episode-num>
+<episode-num system="original-air-date">2025-09-02 10:34:45</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20251101144503 +0000" stop="20251101151108 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
+<sub-title lang="en">Paris Major Premier Padel highlights</sub-title>
+<desc lang="en">Watch the highlights from the Paris Major Premier Padel tournament in France at Roland-Garros stadium.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:videos:f0fa6fec-b31a-4830-8112-51bcdf3bc1a9/rbtv_display_art_portrait"/>
+<url>https://www.redbull.com/int-en/videos/premier-padel-2025-paris-major-highlights</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:f0fa6fec-b31a-4830-8112-51bcdf3bc1a9</episode-num>
+<episode-num system="original-air-date">2025-10-01 21:32:05</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20251101151108 +0000" stop="20251101153657 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
+<sub-title lang="en">Italy Major Premier Padel highlights</sub-title>
+<desc lang="en">Watch the highlights from the Italy Major Premier Padel tournament from Foro Italico in Rome.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:videos:459e11d8-af61-400f-87ea-1905c5956cfe/rbtv_display_art_portrait"/>
+<url>https://www.redbull.com/int-en/videos/premier-padel-2025-italy-major-highlights</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:459e11d8-af61-400f-87ea-1905c5956cfe</episode-num>
+<episode-num system="original-air-date">2025-09-02 09:16:15</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20251101153657 +0000" stop="20251101160326 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
+<sub-title lang="en">Germany Premier Padel P2 highlights</sub-title>
+<desc lang="en">Watch the highlights from the Germany Premier Padel P2 tournament.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:videos:73f8f95c-0068-4771-b4c3-d671119fe120/rbtv_display_art_portrait"/>
+<url>https://www.redbull.com/int-en/videos/premier-padel-2025-germany-p2-highlights</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:73f8f95c-0068-4771-b4c3-d671119fe120</episode-num>
+<episode-num system="original-air-date">2025-10-02 17:34:36</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20251101160326 +0000" stop="20251101162930 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
+<sub-title lang="en">Santiago Premier Padel highlights</sub-title>
+<desc lang="en">Watch the action from Chile as the world's best padel players tackle the Santiago Premier Padel P1.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:videos:b7cff96c-a427-4e65-96d1-bd0d300a2334/rbtv_display_art_portrait"/>
+<url>https://www.redbull.com/int-en/videos/premier-padel-2025-santiago-p1-highlights</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:b7cff96c-a427-4e65-96d1-bd0d300a2334</episode-num>
+<episode-num system="original-air-date">2025-05-02 00:54:24</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20251101162930 +0000" stop="20251101165536 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
+<sub-title lang="en">Madrid P1 Premier Padel highlights</sub-title>
+<desc lang="en">Watch the action from the Madrid P1 Premier Padel in Spain.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:videos:7b56e002-5d6a-4e93-a5c4-49e501f4fae4/rbtv_display_art_portrait"/>
+<url>https://www.redbull.com/int-en/videos/premier-padel-2025-madrid-p1-highlights</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:7b56e002-5d6a-4e93-a5c4-49e501f4fae4</episode-num>
+<episode-num system="original-air-date">2025-10-01 23:17:38</episode-num>
 <rating system="Red Bull TV">
 <value>NR</value>
 </rating>
