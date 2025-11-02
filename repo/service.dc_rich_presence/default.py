@@ -19,7 +19,7 @@ CHANNEL_LOGO_MAP = {
     "arte": "1408572923836629143",
     "3sat": "1408572930161508413",
     "kabel-eins": "1408572926709469184",
-    "sat.1": "1408572629958398054",
+    "sat.1": "1405130772981223454",
     "sport1": "1408572687424553132",
     "nick": "1408572683280453674",
     "kika": "1408572763161100448",
@@ -75,7 +75,7 @@ class DiscordKodiService(xbmc.Monitor):
             rpc_query = json.dumps({
                 "jsonrpc": "2.0",
                 "method": "Player.GetItem",
-                "params": {"playerid": 1, "properties": ["title", "showtitle", "season", "episode", "album", "artist", "genre", "streamdetails", "art", "duration", "channel"]},
+                "params": {"playerid": 1, "properties": ["title", "showtitle", "season", "episode", "album", "artist", "genre", "streamdetails", "art", "duration", "channel", "year"]},
                 "id": 1
             })
             rpc_response = xbmc.executeJSONRPC(rpc_query)
@@ -115,9 +115,14 @@ class DiscordKodiService(xbmc.Monitor):
 
     def build_payload(self, info, is_pvr, is_paused, current_time, total_time):
         # build the discord activity payload
-        details = info.get("title") or info.get("label") or "Unbekannter Titel"
+        title = info.get("title") or info.get("label") or "Unbekannter Titel"
+        year = info.get("year", 0) or 0
+        details = f"{title} ({year})" if year > 0 else title
+        
         state = ""
         assets = {}
+        art = info.get("art", {})
+        art_url = None
         
         # select assets based on icon color setting
         if self.icon_color == 'Greyscale':
@@ -139,25 +144,56 @@ class DiscordKodiService(xbmc.Monitor):
             logo_id = get_channel_logo_id(channel_name)
             if logo_id:
                 large_image_key = logo_id
-            state = f"📺 {channel_name}"
+            else:
+                art_url = art.get("thumb")
+            state = channel_name
         else:
-            state = "🎬 " + (info.get("showtitle") or "Film / Addon")
+            art_url = art.get("fanart") or art.get("poster") or art.get("thumb")
+            
+            showtitle = info.get("showtitle")
+            season = info.get("season", 0) or 0
+            episode = info.get("episode", 0) or 0
+            
+            if showtitle and season > 0 and episode > 0:
+                # series
+                state = f"🎞️ » S{season:02d}E{episode:02d}"
+            else:
+                # movie or addon
+                genres = info.get("genre", [])
+                if genres:
+                    state = "🎭 » " + ", ".join(genres)
+                else:
+                    state = "🎬 Movie"
+            
             small_image_key = small_image_key_media
             small_text = "Playing"
 
-        # dynamic artwork upload
-        if self.enable_dynamic_artwork and self.imgbb_api_key:
-            try:
-                art = info.get("art", {})
-                art_url = art.get("thumb") if is_pvr else art.get("fanart") or art.get("poster")
-                decoded = decode_kodi_image_url(art_url)
-                if decoded and os.path.exists(decoded):
-                    uploaded = upload_to_imgbb(decoded, self.imgbb_api_key)
-                    if uploaded:
-                        large_image_key = uploaded
-                        xbmc.log(f"[DiscordRPC] Uploaded artwork: {uploaded}", xbmc.LOGINFO)
-            except Exception as e:
-                xbmc.log(f"[DiscordRPC] Dynamic artwork failed: {e}", xbmc.LOGWARNING)
+        # dynamic artwork processing
+        if art_url:
+            decoded_url = decode_kodi_image_url(art_url)
+            
+            if decoded_url:
+                is_local_file = not (decoded_url.startswith("http://") or decoded_url.startswith("https://"))
+                
+                if self.enable_dynamic_artwork and self.imgbb_api_key and is_local_file:
+                    # local file with imgbb enabled
+                    try:
+                        if os.path.exists(decoded_url):
+                            uploaded = upload_to_imgbb(decoded_url, self.imgbb_api_key)
+                            if uploaded:
+                                large_image_key = uploaded
+                                xbmc.log(f"[DiscordRPC] Uploaded local artwork to imgbb: {uploaded}", xbmc.LOGINFO)
+                        else:
+                             xbmc.log(f"[DiscordRPC] Decoded path does not exist (imgbb): {decoded_url}", xbmc.LOGWARNING)
+                    except Exception as e:
+                        xbmc.log(f"[DiscordRPC] Dynamic artwork local upload failed: {e}", xbmc.LOGWARNING)
+
+                elif not is_local_file:
+                    # remote url (http/https), pass to discord gateway
+                    large_image_key = decoded_url
+                    xbmc.log(f"[DiscordRPC] Using decoded remote URL: {decoded_url}", xbmc.LOGINFO)
+                
+                # else: local file, but imgbb disabled. fallback to default icon.
 
         # handle pause state
         if is_paused:

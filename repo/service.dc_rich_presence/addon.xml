@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="service.dc_rich_presence"
        name="[COLOR royalblue]Discord Rich Presence[/COLOR] (Token Auth)"
-       version="2.0.0"
+       version="2.1.0"
        provider-name="Bitte ein Git!">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
