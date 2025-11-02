@@ -1,4 +1,7 @@
 ﻿
+[B]Version 2.0.0  (02.11.2025)[/B] by bitte-ein-git
+- fixed: watchlist, auch ohne premium account
+
 [B]Version 1.1.1+matrix  (28.09.2025)[/B] by realvito
 - fixed: Wenn 'TokenRenewFailed' im LOG auftaucht ist ein erneuter Login nicht möglich (ERROR: navigation.py has no command self.login())
 - added: Timeshift-Funktion zu-/ab-schaltbar für TV-Live und EventStreams (settings: default=abgeschaltet)

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<addon id="plugin.video.tvnow.de" version="1.3.0" name="[COLOR dodgerblue]R[/COLOR][COLOR deepskyblue]T[/COLOR][COLOR darkorchid]L[/COLOR] +" provider-name="Bitte ein Git!">
+<addon id="plugin.video.tvnow.de" version="2.0.0" name="[COLOR dodgerblue]R[/COLOR][COLOR deepskyblue]T[/COLOR][COLOR darkorchid]L[/COLOR] +" provider-name="Bitte ein Git!">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.requests" version="2.27.0"/>

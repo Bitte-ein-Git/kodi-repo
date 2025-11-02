@@ -75,7 +75,7 @@ class Navigation():
 			self._favour = favour
 
 	def mainMenu(self):
-		if self._showVodsPay:
+		if self.user != "":
 			addDir({'action': 'listFavorites'}, create_entries({'Title': translation(30601), 'Image': f"{artpic}watchlist.png"}))
 		addDir({'action': 'topicworldOverview', 'case_id': 'SPORTS'}, create_entries({'Title': translation(30602)}))
 		addDir({'action': 'listOverviews', 'case_id': 'SHOW', 'species': SHOWS_FILE}, create_entries({'Title': translation(30603)}))
@@ -93,7 +93,7 @@ class Navigation():
 		xbmcplugin.endOfDirectory(ADDON_HANDLE)
 
 	def listFavorites(self):
-		if self._showVodsPay:
+		if self.user != "":
 			xbmcplugin.setContent(ADDON_HANDLE, 'tvshows')
 			favorites = []
 			for item in sorted(self.api.getWatchlist(), key=lambda en: cleanUmlaut(en.get('title', 'zorro').lower())):
@@ -143,7 +143,7 @@ class Navigation():
 				continue
 			PLOT = f"{each[9]}{each[10]}{each[11]}{each[5]}"
 			FETCH_UNO = create_entries({'Title': each[3], 'TvShowTitle': each[4], 'Plot': PLOT, 'Genre': each[16], 'Image': each[20], 'Poster': each[21]})
-			if self._showVodsPay:
+			if self.user != "":
 				self._addContextMenuFav(each[0], each[3], FETCH_UNO)
 			addDir({'action': action, 'id': each[0], 'series_title': each[4]}, FETCH_UNO)
 		if default == 0:
@@ -303,7 +303,7 @@ class Navigation():
 					continue
 				PLOT = f"{each[9]}{each[10]}{each[11]}{each[5]}"
 				FETCH_UNO = create_entries({'Title': each[3], 'TvShowTitle': each[4], 'Plot': PLOT, 'Genre': each[16], 'Image': each[20], 'Poster': each[21]})
-				if self._showVodsPay:
+				if self.user != "":
 					self._addContextMenuFav(each[0], each[3], FETCH_UNO)
 				addDir({'action': action, 'id': each[0], 'series_title': each[4]}, FETCH_UNO)
 		if default == 0:
@@ -333,7 +333,7 @@ class Navigation():
 					continue
 				PLOT = f"{each[9]}{each[10]}{each[11]}{each[5]}"
 				FETCH_UNO = create_entries({'Title': each[3], 'TvShowTitle': each[4], 'Plot': PLOT, 'Genre': each[16], 'Image': each[20], 'Poster': each[21]})
-				if self._showVodsPay:
+				if self.user != "":
 					self._addContextMenuFav(each[0], each[3], FETCH_UNO)
 				addDir({'action': action, 'id': each[0], 'series_title': each[4]}, FETCH_UNO)
 		if default == 0:
