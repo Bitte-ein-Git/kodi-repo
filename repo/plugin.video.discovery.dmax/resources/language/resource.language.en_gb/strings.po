@@ -1,0 +1,250 @@
+﻿# Kodi Media Center language file
+# Addon Name: DMAX Mediathek
+# Addon id: plugin.video.discovery.dmax
+# Addon Provider: realvito
+msgid ""
+msgstr ""
+"Project-Id-Version: KODI-Addons\n"
+"Report-Msgid-Bugs-To: alanwww1@kodi.org\n"
+"POT-Creation-Date: 2020-06-26 17:00+0000\n"
+"PO-Revision-Date: 2025-04-19 16:00+0000\n"
+"Last-Translator: realvito\n"
+"Language-Team: ENGLISH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# strings start
+# SETTINGS-CATEGORIES
+
+msgctxt "#30000"
+msgid "General"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Advanced"
+msgstr ""
+
+# empty strings from id 30002 to 30109
+# SETTINGS-BUTTONS
+
+msgctxt "#30110"
+msgid "[B][COLOR yellow]STOP[/COLOR][/B] playback at the end of the video [B][COLOR yellow]force[/COLOR][/B] (otherwise Provider control)"
+msgstr ""
+
+msgctxt "#30111"
+msgid "Sorting of Episodes"
+msgstr ""
+
+msgctxt "#30112"
+msgid "Highest Episodenumber display on top"
+msgstr ""
+
+msgctxt "#30113"
+msgid "Other methods to choose from"
+msgstr ""
+
+msgctxt "#30114"
+msgid "Use Thumb as Background-Fanart"
+msgstr ""
+
+msgctxt "#30115"
+msgid "Show Addon-Settings in the overview"
+msgstr ""
+
+msgctxt "#30116"
+msgid "Detailed Addon-Debug (otherwise only Minimal-Log)"
+msgstr ""
+
+# empty strings from id 30117 to 30229
+# SETTINGS-TITLES
+
+msgctxt "#30230"
+msgid "[B][COLOR ff0099ff]PLAYBACK-STOP[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30231"
+msgid "[B][COLOR ff0099ff]EPISODES[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30232"
+msgid "[B][COLOR ff0099ff]FANART[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30233"
+msgid "[B][COLOR ff0099ff]SETTINGS[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30234"
+msgid "[B][COLOR ff0099ff]LOG[/COLOR][/B]"
+msgstr ""
+
+# empty strings from id 30235 to 30350
+# SETTINGS-DESCRIPTIONS
+
+msgctxt "#30351"
+msgid "[COLOR yellow]Often the VoD-Streams are not stopped at the end of the specified runtime ![/COLOR][CR][COLOR chartreuse]To avoid this in principle '[B]STOP playback force[/B]' switch on.[/COLOR][CR][B][COLOR orange]Attention: Proper functioning is guaranteed when using any function of the player or seek run up to max. 2 minutes before the end of the running time...[/COLOR][/B]"
+msgstr ""
+
+# empty strings from id 30352 to 30500
+# WARNING/INFORMATION-MESSAGES-OK
+
+msgctxt "#30501"
+msgid "[COLOR orangered]ATTENTION : ... the required Addon ►[/COLOR][COLOR yellow]{}[/COLOR][COLOR orangered]◄ can NOT be activated automatically !!![/COLOR]"
+msgstr ""
+
+msgctxt "#30502"
+msgid "[COLOR orangered]ATTENTION : ... the required Addon ►[/COLOR][COLOR yellow]{}[/COLOR][COLOR orangered]◄ is NOT installed !!![/COLOR]"
+msgstr ""
+
+# empty strings from id 30503 to 30520
+# WARNING/INFORMATION-MESSAGES-NOTIFICATION
+
+msgctxt "#30521"
+msgid "DMAX : [COLOR orangered]!!! {}[/COLOR][COLOR blue]{}[/COLOR][COLOR orangered] - ERROR !!![/COLOR]"
+msgstr ""
+
+msgctxt "#30522"
+msgid "[COLOR orangered]An error has occured, please check *LOG* ![/COLOR]"
+msgstr ""
+
+msgctxt "#30523"
+msgid "ERROR = [COLOR orangered]{} ![/COLOR]"
+msgstr ""
+
+msgctxt "#30524"
+msgid "[COLOR orangered]Required additional Data could NOT be resolved (LOG) ![/COLOR]"
+msgstr ""
+
+msgctxt "#30525"
+msgid "[COLOR orangered]Currently NO videos of :[/COLOR]"
+msgstr ""
+
+msgctxt "#30526"
+msgid "[B]≡ [COLOR blue]{}[/COLOR] ≡ in the DMAX-Mediathek[/B]"
+msgstr ""
+
+msgctxt "#30527"
+msgid "[COLOR orangered]The requested *VideoLink* does NOT exist ![/COLOR]"
+msgstr ""
+
+msgctxt "#30528"
+msgid "[COLOR yellow]There are still NO entries :[/COLOR]"
+msgstr ""
+
+msgctxt "#30529"
+msgid "[B][COLOR yellow]In your DMAX Favourites ...[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30530"
+msgid "My DMAX - Favourites :"
+msgstr ""
+
+msgctxt "#30531"
+msgid "[B]≡ [COLOR blue]{}[/COLOR] ≡ [COLOR lime]successfully added !!![/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30532"
+msgid "[B]≡ [COLOR blue]{}[/COLOR] ≡ [COLOR orangered]has been deleted !!![/COLOR][/B]"
+msgstr ""
+
+# empty strings from id 30533 to 30600
+# PLUGIN-MAIN and SIDEMENU
+
+msgctxt "#30601"
+msgid "[B][COLOR chartreuse]★ My DMAX Favourites ★[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30602"
+msgid "[COLOR deepskyblue]•[/COLOR] New Shows (Series)"
+msgstr ""
+
+msgctxt "#30603"
+msgid "[COLOR deepskyblue]•[/COLOR] New Shows (Episodes)"
+msgstr ""
+
+msgctxt "#30604"
+msgid "Last Chance"
+msgstr ""
+
+msgctxt "#30605"
+msgid "Topics"
+msgstr ""
+
+msgctxt "#30606"
+msgid "Listing from A-Z"
+msgstr ""
+
+msgctxt "#30607"
+msgid "All Shows"
+msgstr ""
+
+msgctxt "#30608"
+msgid "DMAX Settings"
+msgstr ""
+
+msgctxt "#30609"
+msgid "Inputstream Settings"
+msgstr ""
+
+# empty strings from id 30610 to 30619
+
+msgctxt "#30620"
+msgid "{}  [COLOR gold][{}][/COLOR]"
+msgstr ""
+
+msgctxt "#30621"
+msgid "{}[COLOR orangered]  (ending soon)[/COLOR]"
+msgstr ""
+
+msgctxt "#30622"
+msgid "{}[COLOR lime]  (new)[/COLOR]"
+msgstr ""
+
+msgctxt "#30623"
+msgid "[COLOR lime]Next Page ({})  >>>[/COLOR]"
+msgstr ""
+
+msgctxt "#30624"
+msgid "[COLOR lime]  (new)[/COLOR]"
+msgstr ""
+
+msgctxt "#30625"
+msgid "[COLOR orangered]  (ending soon)[/COLOR]"
+msgstr ""
+
+msgctxt "#30626"
+msgid "[COLOR orange]S{}E{}:[/COLOR]"
+msgstr ""
+
+msgctxt "#30627"
+msgid "[COLOR chartreuse]S{}E{}:[/COLOR]"
+msgstr ""
+
+msgctxt "#30628"
+msgid "From [COLOR chartreuse]{}[/COLOR] to [COLOR orangered]{}[/COLOR][CR][CR]"
+msgstr ""
+
+msgctxt "#30629"
+msgid "From [COLOR chartreuse]{}[/COLOR][CR][CR]"
+msgstr ""
+
+msgctxt "#30630"
+msgid "From Age {}"
+msgstr ""
+
+msgctxt "#30631"
+msgid "without age restriction"
+msgstr ""
+
+# empty strings from id 30632 to 30650
+
+msgctxt "#30651"
+msgid "[B][COLOR chartreuse]Add to DMAX-Favourites ...[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30652"
+msgid "[B][COLOR orange]... Remove from DMAX-Favourites[/COLOR][/B]"
+msgstr ""

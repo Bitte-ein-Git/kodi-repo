@@ -1,0 +1,30 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="" tvg-name="RTL Group" tvg-language="German" tvg-country="DE" tvg-shift="" radio="false" group-title="RTL Group"
+#EXTINF:-1 tvg-id="RTL.de" tvg-name="RTL" tvg-language="German" tvg-country="DE" tvg-shift="" radio="false" group-title="RTL Group",RTL HD
+plugin://plugin.video.tvnow.de/?action=playVod&id=rrn:watch:videohub:station:1
+#EXTINF:-1 tvg-id="Vox.de" tvg-name="VOX" tvg-language="German" tvg-country="DE" tvg-shift="" radio="false" group-title="RTL Group",VOX HD
+plugin://plugin.video.tvnow.de/?action=playVod&id=rrn:watch:videohub:station:4
+#EXTINF:-1 tvg-id="RTL2.de" tvg-name="RTLZWEI" tvg-language="German" tvg-country="DE" tvg-shift="" radio="false" group-title="RTL Group",RTL II HD
+plugin://plugin.video.tvnow.de/?action=playVod&id=rrn:watch:videohub:station:2
+#EXTINF:-1 tvg-id="RTLNitro.de" tvg-name="NITRO" tvg-language="German" tvg-country="DE" tvg-shift="" radio="false" group-title="RTL Group",RTL NITRO HD
+plugin://plugin.video.tvnow.de/?action=playVod&id=rrn:watch:videohub:station:3
+#EXTINF:-1 tvg-id="ntv.de" tvg-name="n-tv" tvg-language="German" tvg-country="DE" tvg-shift="" radio="false" group-title="RTL Group",N-TV HD
+plugin://plugin.video.tvnow.de/?action=playVod&id=rrn:watch:videohub:station:11
+#EXTINF:-1 tvg-id="RTLup.de" tvg-name="RTLup" tvg-language="German" tvg-country="DE" tvg-shift="" radio="false" group-title="RTL Group",RTLup HD
+plugin://plugin.video.tvnow.de/?action=playVod&id=rrn:watch:videohub:station:12
+#EXTINF:-1 tvg-id="VOXup.de" tvg-name="VOXup" tvg-language="German" tvg-country="DE" tvg-shift="" radio="false" group-title="RTL Group",VOXup HD
+plugin://plugin.video.tvnow.de/?action=playVod&id=rrn:watch:videohub:station:15
+#EXTINF:-1 tvg-id="SuperRTL.de" tvg-name="Super RTL" tvg-language="German" tvg-country="DE" tvg-shift="" radio="false" group-title="RTL Group",Super RTL HD
+plugin://plugin.video.tvnow.de/?action=playVod&id=rrn:watch:videohub:station:5
+#EXTINF:-1 tvg-id="TOGGOplus.de" tvg-name="TOGGO plus" tvg-language="German" tvg-country="DE" tvg-shift="" radio="false" group-title="RTL Group",TOGGO plus HD
+plugin://plugin.video.tvnow.de/?action=playVod&id=rrn:watch:videohub:station:6
+#EXTINF:-1 tvg-id="NowUS.uk" tvg-name="NOW!" tvg-language="German" tvg-country="DE" tvg-shift="" radio="false" group-title="RTL Group", NOW! HD
+plugin://plugin.video.tvnow.de/?action=playVod&id=rrn:watch:videohub:station:16
+#EXTINF:-1 tvg-id="RTLCrime.de" tvg-name="RTL Crime" tvg-language="German" tvg-country="DE" tvg-shift="" radio="false" group-title="RTL Group",RTL Crime HD
+plugin://plugin.video.tvnow.de/?action=playVod&id=rrn:watch:videohub:station:8
+#EXTINF:-1 tvg-id="RTLPassion.de" tvg-name="RTL Passion" tvg-language="German" tvg-country="DE" tvg-shift="" radio="false" group-title="RTL Group",RTL Passion HD
+plugin://plugin.video.tvnow.de/?action=playVod&id=rrn:watch:videohub:station:9
+#EXTINF:-1 tvg-id="RTLLiving.de" tvg-name="RTL Living" tvg-language="German" tvg-country="DE" tvg-shift="" radio="false" group-title="RTL Group",RTL Living HD
+plugin://plugin.video.tvnow.de/?action=playVod&id=rrn:watch:videohub:station:7
+#EXTINF:-1 tvg-id="GEOTV.de" tvg-name="GEO" tvg-language="German" tvg-country="DE" tvg-shift="" radio="false" group-title="RTL Group",GEO Television HD
+plugin://plugin.video.tvnow.de/?action=playVod&id=rrn:watch:videohub:station:10

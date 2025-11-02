@@ -39,42 +39,109 @@
       <clearlogo>clearlogo.png</clearlogo>
     </assets>
   </extension>
-</addon><addon id="plugin.video.heyfordy.rtlplus" version="1.0.1" name="[COLOR dodgerblue]R[/COLOR][COLOR deepskyblue]T[/COLOR][COLOR darkorchid]L[/COLOR] [B]+[/B]" provider-name="Bitte ein Git!">
+</addon><addon id="plugin.video.discovery.dmax" name="DMAX" version="3.4+matrix.1" provider-name="Bitte ein Git!">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" version="2.27.0" />
 		<import addon="inputstream.adaptive" version="19.0.5" />
-		<import addon="script.module.routing" version="0.2.3+matrix.1" />
-		<import addon="script.module.inputstreamhelper" version="0.5.5+matrix.1" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="de_DE">Web-Plugin für RTL+ Deutschland</summary>
-		<summary lang="en_GB">Web-Plugin for RTL+ Germany</summary>
-		<description lang="de_DE">Bei RTL+ finden sich viele populäre Formate der deutschsprachigen Fernsehlandschaft. Ob Dschungelcamp, DSDS oder Love Island: RTL+ hat sie alle![CR]Ebenso sehen Sie auf RTL+ einmalige Event-Streams und ein großes Angebot an Live-Kanälen.</description>
-		<description lang="en_GB">RTL+ offers many popular formats from the German-speaking television landscape. Whether it's Dschungelcamp, DSDS or Love Island: RTL+ has them all![CR]You can also watch unique event streams and a wide range of live channels on RTL+.</description>
+		<summary lang="de_DE">DMAX.de Mediathek</summary>
+		<summary lang="en_GB">DMAX.de Mediathek</summary>
+		<description lang="de_DE">Egal ob unterhaltsame Doku-Soaps über schillernde Autotuner oder spannende Survival-Abenteuer von Schatzsuchern und Goldgräbern, bei DMAX wird Fernsehen zum Abenteuer.[CR]DMAX dokumentiert den Job-Alltag hart arbeitender Frauen und Männer in ganz Deutschland, die täglich alles am Laufen halten oder sogar ihr Leben für uns riskieren.[CR]DMAX - Bleibt echt !</description>
+		<description lang="en_GB">Whether entertaining docu-soaps about dazzling car tuners or exciting survival adventures of treasure hunters and gold diggers, on DMAX television becomes an adventure.[CR]DMAX documents the everyday job life of hard-working men and women all over Germany who keep everything going every day or even risk their lives for us.[CR]DMAX - Stay real !</description>
 		<disclaimer lang="de_DE">Die von diesem Addon dargestellten Inhalte werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Anbietern des Inhalts.</disclaimer>
 		<disclaimer lang="en_GB">The content displayed by this Addon is not hosted or distributed by the creators of the Addon, nor do the creators have any affiliation with the providers of the content.</disclaimer>
 		<language />
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
-		<forum>https://www.kodinerds.net/thread/57646-release-tvnow-rtl-watchbox-vox-ntv-nowus-rtl2-nitro/</forum>
-		<website>https://plus.rtl.de</website>
+		<forum>https://www.kodinerds.net/thread/55451-l0res-blog-realvitos-fixing-thread/</forum>
+		<website>https://dmax.de/</website>
 		<email />
 		<mainsource>https://github.com/Collabsvito/REpo-AiO/</mainsource>
-		<source>https://github.com/Collabsvito/REpo-AiO/tree/master/MATRIX/plugin.video.heyfordy.rtlplus</source>
+		<source>https://github.com/Collabsvito/REpo-AiO/tree/master/MATRIX/plugin.video.discovery.dmax</source>
 		<assets>
 			<icon>resources/media/icon.png</icon>
 			<fanart>resources/media/fanart.jpg</fanart>
 		</assets>
 		<news>
-[B][COLOR orangered]Version 1.1.1+matrix  (28.09.2025)[/COLOR][/B] by realvito
-- fixed: Wenn 'TokenRenewFailed' im LOG auftaucht ist ein erneuter Login nicht möglich (ERROR: navigation.py has no command self.login())
-- added: Timeshift-Funktion zu-/ab-schaltbar für TV-Live und EventStreams (settings: default=abgeschaltet)
+[B][COLOR orangered]Version 3.3.1+matrix.1  (25.05.2025)[/COLOR][/B]
+- fixed: Rubrik = Neue Sendungen (Serien), Sortierung nach Datum der neuesten Serien-Episode (absteigend)
 		</news>
 	</extension>
+</addon><addon id="plugin.video.jellyfin" name="Fordy-Media" version="1.2.0+py3" provider-name="Bitte ein Git!">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+    <import addon="script.module.requests" version="2.22.0+matrix.1" />
+    <import addon="script.module.dateutil" version="2.8.1+matrix.1" />
+    <import addon="script.module.addon.signals" version="0.0.5+matrix.1" />
+    <import addon="script.module.websocket" version="1.6.4" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video audio image</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup">
+	</extension>
+  <extension point="kodi.context.item">
+    <menu id="kodi.core.main">
+      <item library="context.py">
+        <label>30401</label>
+        <visible>[!String.IsEmpty(ListItem.DBID) + !String.IsEqual(ListItem.DBID,-1) |
+					!String.IsEmpty(ListItem.Property(jellyfinid))] +
+					!String.IsEmpty(Window(10000).Property(jellyfin_context))</visible>
+      </item>
+      <item library="context_play.py">
+        <label>30402</label>
+        <visible>[[!String.IsEmpty(ListItem.DBID) + !String.IsEqual(ListItem.DBID,-1) |
+					!String.IsEmpty(ListItem.Property(jellyfinid))] + [String.IsEqual(ListItem.DBTYPE,movie) |
+					String.IsEqual(ListItem.DBTYPE,episode)]] +
+					!String.IsEmpty(Window(10000).Property(jellyfin_context_transcode))</visible>
+      </item>
+    </menu>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <forum>https://forum.jellyfin.org</forum>
+    <website>https://jellyfin.org/</website>
+    <source>https://github.com/jellyfin/jellyfin-kodi</source>
+    <summary lang="en_GB">Fork - addom name/ui changed</summary>
+    <description lang="en">Welcome to Jellyfin for Kodi!
+A whole new way to manage and view your media library. The Jellyfin addon for Kodi combines the best of Kodi - ultra smooth navigation, beautiful UIs and playback of any file under the sun, and Jellyfin - the most powerful fully open source multi-client media metadata indexer and server.
+
+Jellyfin for Kodi is the absolute best way to enjoy the incredible Kodi playback engine combined with the power of Jellyfin's centralized database. Features:
+* Direct integration with the Kodi library for native Kodi speed
+* Instant synchronization with the Jellyfin server
+* Full support for Movie, TV and Music collections
+* Jellyfin Server direct stream and transcoding support - use Kodi when you are away from home!</description>
+    <news>v1.1.1 (2025-10-20):
+Bug Fixes
+---------
++ Escape null character in log output (#1055) @oddstr13
++ Remove setting of (#1051) @bossanova808
+
+Code or Repo Maintenance
+------------------------
++ Remove angelblue05 from the plugin provider name (#1054) @oddstr13
++ Split and index in a way that gracefully falls back to no split (#1053) @oddstr13
++ Misc cleanup and refractoring (#1045) @oddstr13
+
+Documentation updates
+---------------------
++ Remove angelblue05 from the plugin provider name (#1054) @oddstr13
+
+CI &amp; build changes
+------------------
++ Update github/codeql-action action to v4 (#1050) @[renovate[bot]](https://github.com/apps/renovate)</news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+    </assets>
+  </extension>
 </addon><addon id="plugin.video.joyn" name="[COLOR darkturquoise]Jo[/COLOR][COLOR mediumspringgreen]yn[/COLOR]" version="2.5.50" provider-name="Bitte ein Git!, knaerzche, Maven">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
@@ -139,7 +206,74 @@
       <icon>icon.png</icon>
     </assets>
   </extension>
-</addon><addon id="plugin.video.xship" version="2025.10.0" name="» [COLOR goldenrod]xShip[/COLOR]" provider-name="Bitte ein Git!">
+</addon><addon id="plugin.video.themoviedb.helper" version="9.9.9~dev" name="[COLOR darkorange]Allgemeine Suche[/COLOR] " provider-name="Bitte ein Git!">
+<requires>
+  <import addon="xbmc.python" version="3.0.1" />
+  <import addon="script.module.requests" version="2.9.1" />
+  <import addon="script.module.pil" version="1.1.7" />
+  <import addon="script.module.addon.signals" version="0.0.6" />
+  <import addon="script.module.jurialmunkey" version="0.2.2" />
+  <import addon="script.module.infotagger" version="0.0.5" />
+  <import addon="script.module.beautifulsoup4" version="4.9.3" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="resources/plugin.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.python.script" library="resources/script.py" />
+<extension point="xbmc.service" library="resources/service.py" />
+<extension point="xbmc.python.module" library="resources/modules" />
+<extension point="xbmc.addon.metadata">
+  <reuselanguageinvoker>false</reuselanguageinvoker>
+  <summary lang="en_GB">Fork - addom name/ui changed</summary>
+  <description lang="en_GB">TMDb Helper provides details about movies, tvshows and actors from TMDb. Users can access a variety of lists from TMDb TVDb MDbList and Trakt.</description>
+  <disclaimer lang="en_GB">Data provided by TMDb TVDb MDbList OMDb FanartTV and Trakt. Some of the information is provided by TheTVDB.com. Please consider supporting them. https://thetvdb.com/subscribe</disclaimer>
+  <license>GPL-3.0-or-later</license>
+  <website>https://github.com/jurialmunkey/plugin.video.themoviedb.helper</website>
+  <forum>https://forum.kodi.tv/showthread.php?tid=345847</forum>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+    <screenshot>resources/screenshot-01.jpg</screenshot>
+    <screenshot>resources/screenshot-02.jpg</screenshot>
+  </assets>
+</extension>
+</addon><addon id="plugin.video.tvnow.de" version="1.2.0" name="[COLOR dodgerblue]R[/COLOR][COLOR deepskyblue]T[/COLOR][COLOR darkorchid]L[/COLOR] [B]+[/B]" provider-name="Bitte ein Git!">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+		<import addon="script.module.requests" version="2.27.0" />
+		<import addon="inputstream.adaptive" version="19.0.5" />
+		<import addon="script.module.routing" version="0.2.3+matrix.1" />
+		<import addon="script.module.inputstreamhelper" version="0.5.5+matrix.1" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">Web-Plugin für RTL+ Deutschland</summary>
+		<summary lang="en_GB">Web-Plugin for RTL+ Germany</summary>
+		<description lang="de_DE">Bei RTL+ finden sich viele populäre Formate der deutschsprachigen Fernsehlandschaft. Ob Dschungelcamp, DSDS oder Love Island: RTL+ hat sie alle![CR]Ebenso sehen Sie auf RTL+ einmalige Event-Streams und ein großes Angebot an Live-Kanälen.</description>
+		<description lang="en_GB">RTL+ offers many popular formats from the German-speaking television landscape. Whether it's Dschungelcamp, DSDS or Love Island: RTL+ has them all![CR]You can also watch unique event streams and a wide range of live channels on RTL+.</description>
+		<disclaimer lang="de_DE">Die von diesem Addon dargestellten Inhalte werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Anbietern des Inhalts.</disclaimer>
+		<disclaimer lang="en_GB">The content displayed by this Addon is not hosted or distributed by the creators of the Addon, nor do the creators have any affiliation with the providers of the content.</disclaimer>
+		<language />
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
+		<forum>https://www.kodinerds.net/thread/57646-release-tvnow-rtl-watchbox-vox-ntv-nowus-rtl2-nitro/</forum>
+		<website>https://plus.rtl.de</website>
+		<email />
+		<mainsource>https://github.com/Collabsvito/REpo-AiO/</mainsource>
+		<source>https://github.com/Collabsvito/REpo-AiO/tree/master/MATRIX/plugin.video.heyfordy.rtlplus</source>
+		<assets>
+			<icon>resources/media/icon.png</icon>
+			<fanart>resources/media/fanart.jpg</fanart>
+		</assets>
+		<news>
+[B][COLOR orangered]Version 1.1.1+matrix  (28.09.2025)[/COLOR][/B] by realvito
+- fixed: Wenn 'TokenRenewFailed' im LOG auftaucht ist ein erneuter Login nicht möglich (ERROR: navigation.py has no command self.login())
+- added: Timeshift-Funktion zu-/ab-schaltbar für TV-Live und EventStreams (settings: default=abgeschaltet)
+		</news>
+	</extension>
+</addon><addon id="plugin.video.xship" version="2025.11.0" name="[COLOR goldenrod]» xShip[/COLOR]" provider-name="Bitte ein Git!">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -157,7 +291,7 @@
     <extension point="xbmc.service" library="service.py" start="startup" />
     <extension point="xbmc.addon.metadata">
         <summary lang="de_DE">xShip: umbenannt</summary>
-        <summary lang="en_GB">xShip: renamed</summary>
+        <summary lang="en_GB">Fork - addom name/ui changed</summary>
         <assets>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
@@ -532,6 +666,26 @@
       <fanart>fanart.jpg</fanart>
     </assets>
   </extension>
+</addon><addon id="script.module.xstreamscraper" name="[COLOR darkorange]» Autom. Quellen-Suche[/COLOR]" provider-name="Bitte-ein-Git!" version="2025.11.01">
+	<requires>
+		<import addon="plugin.video.vavooto" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.six" />
+        <import addon="script.module.resolveurl" />
+        <import addon="plugin.video.xstream" />
+        <import addon="script.module.pyaes" />
+        <import addon="script.module.pydevd" optional="true" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup" />
+    <extension point="xbmc.addon.metadata">
+        <assets>
+            <icon>icon.png</icon>
+            <screenshot>icon.png</screenshot>
+        </assets>
+    </extension>
 </addon><addon id="script.service.magentatv2" name="Magenta TV 2.0 Streamer" version="1.0.3" provider-name="Jan-Luca Neumann">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />

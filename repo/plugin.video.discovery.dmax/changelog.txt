@@ -1,0 +1,119 @@
+﻿
+[B]Version 3.3.1+matrix.1  (25.05.2025)[/B]
+- fixed: Rubrik = Neue Sendungen (Serien), Sortierung nach Datum der neuesten Serien-Episode (absteigend)
+
+[B]Version 3.3.0+matrix.1  (20.04.2025)[/B]
+- removed: Funktion = Serie zur Kodi-Bibliothek hinzufügen und Einträge autom. aktualisieren (bitte auf das Addon 'plugin.video.osmosis' ausweichen)
+
+[B]Version 3.2.9+matrix.1  (11.01.2025)[/B]
+- fixed: Fehler bei durch den Benutzer ausgelösten Player-Stopp nach Pausierung eines Videos (Error Type: class 'RuntimeError')
+- optimized: Neue Playerparameter für MPD-Streams in KODI-Omega/Piers
+
+[B]Version 3.2.8+matrix.1  (21.07.2024)[/B]
+- fixed: Durch Umstrukturierung der 'settings.xml' der vorherigen Addon-Version funktioniert der forcierte Player-Stopp teilweise nicht - deshalb müssen alle Einstellungen jetzt neu gesetzt werden !
+
+[B]Version 3.2.7+matrix.1  (14.07.2024)[/B]
+- fixed: Rubrik = Themen kann nicht geöffnet werden (400 Client Error: Bad Request)
+- added: Gesamtanzahl der verfügbaren Videos einer Sendung anzeigen
+- optimized: Genre- und Poster-Image- Anzeige der Sendungen durch zusätzliche Abfrage der zweiten Provider-API
+- removed: Rubrik = Sendungen sortiert nach Beliebtheit (wird von der Provider-API nicht mehr angeboten)
+- removed: Script-Anforderung/Sortierung für den Ordner 'Neue Sendungen' erzwingen (settings - jetzt automatisch)
+
+[B]Version 3.2.6+matrix.1  (26.05.2024)[/B]
+- fixed: Bei Auswahl diverser Playerfunktionen während der Wiedergabe z.B. Pause oder schnelles Vorspulen (nicht Suchlauf) wird der Timer für den forcierten Player-Stopp mit einem Fehler abgebrochen !
+- comment: *My Fault - diese Funktionen wurden von mir in der vorherigen Addon-Version v.3.2.5 nicht berücksichtigt !*
+- fixed: Wenn eine Playliste abgespielt wird funktioniert der forcierte Player-Stopp nicht (Funktion: Ab hier wiedergeben und zur Abspielliste hinzufügen)
+
+[B]Version 3.2.5+matrix.1  (12.05.2024)[/B]
+- fixed: Sämtliche Videos laufen trotz Laufzeitende endlos weiter (Player-Stopp bei Laufzeitende erzwingen - settings)
+- comment: *Leider werden die VoD-Streams von Discovery seit dem Update Ihrer Player-API nicht mehr am Ende der Laufzeit gestoppt, die Ursache dafür ist leider nicht feststellbar !*
+
+[B]Version 3.2.4+matrix.1  (28.04.2024)[/B]
+- fixed: Sämtliche Videos sind nicht mehr abspielbar (API.v2 zur Abfrage der Videos abgeschaltet, es gibt jetzt nur noch die v3)
+
+[B]Version 3.2.3+matrix.1  (28.02.2024)[/B]
+- fixed: Serienordner können unter NEXUS/OMEGA nicht geöffnet werden (AttributeError: 'xbmc.InfoTagVideo' object has no attribute 'setTVShowTitle')
+
+[B]Version 3.2.2+matrix.1  (28.02.2024)[/B]
+- fixed: Beim Abspielen eines Videos wird nur der 'TVShowTitle' angezeigt und der 'EpisodesTitle' ist nicht sichtbar(Addon-Code Fehler)
+- optimized: Token-Abfrage separiert um fehlerhafte Abfragen zu minimieren
+
+[B]Version 3.2.1+matrix.1  (10.09.2023)[/B]
+- fixed: In Kodi Nexus/Omega funktioniert die Sortierung der Episoden nach Datum nicht
+- removed on OMEGA: listitem.setProperty('inputstream.adaptive.manifest_type') = DEPRECATED
+- added: Bibliothek = Thumb für Staffeln und Fanart für Episoden
+
+[B]Version 3.2.0+matrix.1  (29.05.2023)[/B]
+- fixed: Manchmal können Videos nicht abgespielt werden
+- added: Anpassungen an Änderungen von KODI - Nexus/Omega
+
+[B]Version 3.1.9+matrix.1  (07.11.2022)[/B]
+- fixed: Rubrik = Neue Sendungen (Serien) Fehler und nicht öffnender Ordner bei Sortierung nach neuestem Datum (TypeError: '<' not supported between instances of 'str' and 'NoneType')
+
+[B]Version 3.1.8+matrix.1  (02.07.2022)[/B]
+- added: Rubrik = 'Neue Sendungen (Episoden)' (z.Zt. zuverlässigste Methode um alle Episoden der vergangenen 7 Tage zu erfassen, aktuell nach Onlinestellung)
+- comment: *Leider ist die neue Methode die Rubrik: 'Neue Sendungen (Serien)' nach dem Eintrag: 'newestEpisodePublishStart' abzufragen auch nicht zu 100% ausfallsicher (z.B. bei TLC fehlte eine Serie z.Zt. der Prüfung) !!!*
+
+[B]Version 3.1.7+matrix.1  (21.06.2022)[/B]
+- fixed: Die Funktion Videos zur Bibliothek hinzufügen und autom. aktualisieren schlägt fehl
+- fixed: Es werden überhaupt KEINE Videos im Ordner 'Neue Sendungen ' angezeigt (API oder Anbieter Fehlprogrammierung)
+- added: Script-Anforderung/Sortierung für den Ordner 'Neue Sendungen' erzwingen (settings)
+- optimized: Alle Ordner werden jetzt schneller geöffnet durch neue *asynchrone* Abfragemethode
+- comment: *Leider kämpft Discovery in letzter Zeit mit teilweisen Aussetzern in Ihrer API, ob das an der Programmierung von deren Server oder an dem Menschen davor liegt ist leider nicht feststellbar ?!*
+- comment: *Dies hat gerade der komplette Ausfall der Rubrik 'Neue Sendungen' deutlich gemacht - die Hoffnung stirbt zuletzt ODER... ?!*
+
+[B]Version 3.1.6+matrix.1  (12.02.2022)[/B]
+- removed: Tele5-Sendungen/Inhalte
+
+[B]Version 3.1.5+matrix.1  (02.02.2022)[/B]
+- fixed: Videos werden nicht abgespielt (Error Contents: No JSON object could be decoded)
+
+[B]Version 3.1.4+matrix.1  (30.12.2021)[/B]
+- added: Unterordner Series für Einträge der KODI-Bibliothek erstellen (settings)
+
+[B]Version 3.1.3+matrix.1  (05.11.2021)[/B]
+- optimized: FSK-Anzeige ab 0 Jahren = ohne Altersbeschränkung
+
+[B]Version 3.1.2+matrix.1  (06.06.2021)[/B]
+- optimized: Ausgabe des APi-Json-Formats jetzt direkt über das 'requests Modul'
+- added: Meldung beim Abspielen für Videos eingebaut für die Ausgabe vom 'Code 404' (Video nicht vorhanden)
+
+[B]Version 3.1.1+matrix.1  (15.05.2021)[/B]
+- fixed: DRM geschützte Videos werden nicht gelistet
+- changed: Aufgrund des neu eingeführten DRM-Schutzes werden alle Videos nur noch mit 'Inputstream.Adaptive' abgespielt
+
+[B]Version 3.1.0+matrix.1  (11.04.2021)[/B]
+- fixed: Addon kann auf manchen Systemen nicht geöffnet werden (IOError: could not determine default encoding)
+
+[B]Version 3.0.9+matrix.1  (22.03.2021)[/B]
+- fixed: ERROR auf Android 32bit Systemen - kann Unix-Zeitstempel nicht grösser als das Jahr 2038 konvertieren (ValueError: timestamp out of range for platform time_t)
+- optimized: DMAX-Favoriten werden jetzt im übersichtlichen json-Format gespeichert (altes Format wird autom. konvertiert)
+
+[B]Version 3.0.8+matrix.1  (28.12.2020)[/B]
+- fixed: Error beim anlegen von Addon-Favoriten
+
+[B]Version 3.0.7+matrix.1  (05.12.2020)[/B]
+- optimized: Code cleanup
+
+[B]Version 3.0.6+matrix.1  (04.10.2020)[/B] = only MATRIX
+- fixed: Notwendige Codeanpassungen für neue Matrix-Versionen (exceptions)
+- optimized: Abfrage für versteckte Genres und Bilder verbessert
+
+[B]Version 3.0.5+matrix.1  (10.09.2020)[/B]
+- fixed: Es werden überhaupt KEINE Serien- und Episodenbilder angezeigt (API-Struktur verändert)
+
+[B]Version 3.0.4+matrix.1  (04.08.2020)[/B]
+- fixed: Addon-Favoriten können nicht mehr hinzugefügt werden (TypeError: 'errors' is an invalid keyword argument for this function)
+
+[B]Version 3.0.3+matrix.1  (02.08.2020)[/B]
+- fixed: endet bald|neu erscheint beim Speichern in Kodi-Bibliothek im Pfadnamen
+- fixed: Manchmal erscheint keine Hinweismeldung beim Speichern einer Serie in der Kodi-Bibliothek
+- fixed: Encodingfehler in Addon-Favoriten
+
+[B]Version 3.0.2+matrix.1  (10.07.2020)[/B]
+- fixed: Schon gespeicherte DMAX-Favoriten können mehrfach gespeichert werden
+- fixed: Doppelter Hinweis im Titel bei Specials
+- fixed: Übersicht und Einrückungen beim PLOT wenn kein Enddatum vorhanden ist
+
+[B]Version 3.0.1+matrix.1  (26.06.2020)[/B] by @realvito
+- Komplette Neuauflage des DMAX-Addons nach Webseitenerneuerung (Initial Release)

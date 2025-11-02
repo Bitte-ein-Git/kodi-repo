@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<addon id="plugin.video.discovery.dmax" name="DMAX" version="3.4+matrix.1" provider-name="Bitte ein Git!">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.requests" version="2.27.0"/>
+		<import addon="inputstream.adaptive" version="19.0.5"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">DMAX.de Mediathek</summary>
+		<summary lang="en_GB">DMAX.de Mediathek</summary>
+		<description lang="de_DE">Egal ob unterhaltsame Doku-Soaps über schillernde Autotuner oder spannende Survival-Abenteuer von Schatzsuchern und Goldgräbern, bei DMAX wird Fernsehen zum Abenteuer.[CR]DMAX dokumentiert den Job-Alltag hart arbeitender Frauen und Männer in ganz Deutschland, die täglich alles am Laufen halten oder sogar ihr Leben für uns riskieren.[CR]DMAX - Bleibt echt !</description>
+		<description lang="en_GB">Whether entertaining docu-soaps about dazzling car tuners or exciting survival adventures of treasure hunters and gold diggers, on DMAX television becomes an adventure.[CR]DMAX documents the everyday job life of hard-working men and women all over Germany who keep everything going every day or even risk their lives for us.[CR]DMAX - Stay real !</description>
+		<disclaimer lang="de_DE">Die von diesem Addon dargestellten Inhalte werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Anbietern des Inhalts.</disclaimer>
+		<disclaimer lang="en_GB">The content displayed by this Addon is not hosted or distributed by the creators of the Addon, nor do the creators have any affiliation with the providers of the content.</disclaimer>
+		<language></language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
+		<forum>https://www.kodinerds.net/thread/55451-l0res-blog-realvitos-fixing-thread/</forum>
+		<website>https://dmax.de/</website>
+		<email></email>
+		<mainsource>https://github.com/Collabsvito/REpo-AiO/</mainsource>
+		<source>https://github.com/Collabsvito/REpo-AiO/tree/master/MATRIX/plugin.video.discovery.dmax</source>
+		<assets>
+			<icon>resources/media/icon.png</icon>
+			<fanart>resources/media/fanart.jpg</fanart>
+		</assets>
+		<news>
+[B][COLOR orangered]Version 3.3.1+matrix.1  (25.05.2025)[/COLOR][/B]
+- fixed: Rubrik = Neue Sendungen (Serien), Sortierung nach Datum der neuesten Serien-Episode (absteigend)
+		</news>
+	</extension>
+</addon>
