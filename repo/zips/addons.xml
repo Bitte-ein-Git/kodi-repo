@@ -237,7 +237,7 @@ CI &amp; build changes
     <screenshot>resources/screenshot-02.jpg</screenshot>
   </assets>
 </extension>
-</addon><addon id="plugin.video.tvnow.de" version="1.2.0" name="[COLOR dodgerblue]R[/COLOR][COLOR deepskyblue]T[/COLOR][COLOR darkorchid]L[/COLOR] [B]+[/B]" provider-name="Bitte ein Git!">
+</addon><addon id="plugin.video.tvnow.de" version="1.3.0" name="[COLOR dodgerblue]R[/COLOR][COLOR deepskyblue]T[/COLOR][COLOR darkorchid]L[/COLOR] [B]+[/B]" provider-name="Bitte ein Git!">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" version="2.27.0" />
@@ -666,7 +666,7 @@ CI &amp; build changes
       <fanart>fanart.jpg</fanart>
     </assets>
   </extension>
-</addon><addon id="script.module.xstreamscraper" name="[COLOR darkorange]» Autom. Quellen-Suche[/COLOR]" provider-name="Bitte-ein-Git!" version="2025.11.01">
+</addon><addon id="script.module.xstreamscraper" name="[COLOR darkorange]» Autom. Quellen-Suche[/COLOR]" provider-name="Bitte-ein-Git!" version="2025.11.02">
 	<requires>
 		<import addon="plugin.video.vavooto" />
         <import addon="script.module.requests" />
@@ -747,7 +747,7 @@ M3U URL für IPTV Simple: http://localhost:4700/api/file/channels.m3u</descripti
       <icon>icon.png</icon>
     </assets>
     </extension>
-</addon><addon id="service.dc_ha_presence-dev" name="Discord Presence x HA Sensors [COLORred][DEV][/COLOR]" version="1.0.0-dev" provider-name="Bitte ein Git!">
+</addon><addon id="service.dc_ha_presence-dev" name="Discord Presence x HA Sensors [COLORred][DEV][/COLOR]" version="1.1.0-dev" provider-name="Bitte ein Git!">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" version="2.25.1" />

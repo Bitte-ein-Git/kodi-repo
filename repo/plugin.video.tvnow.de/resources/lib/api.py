@@ -379,8 +379,10 @@ class API(): # LAST EDITED = 23.08.2025 @realvito
 		res = self.getRequest(requestURL, self.token)
 		jsonData = json.loads(res)
 		debug_MS(f"(api.getWatchlist[1]) ### JSON_RESULTS : {jsonData} ###")
-		for element in APIParser.getElement(jsonData, ["data", "getFavoritesV3", "elements"]):
-			watches.append(element)
+		elements = APIParser.getElement(jsonData, ["data", "getFavoritesV3", "elements"], True)
+		if elements:
+			for element in elements:
+				watches.append(element)
 		return watches
 
 	def modifyWatchlist(self, wish_id, action):

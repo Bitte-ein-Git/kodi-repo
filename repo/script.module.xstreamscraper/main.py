@@ -23,7 +23,7 @@ def main():
 	elif repair:
 		tools.repair(True)
 	elif action:
-		xbmcaddon.Addon("plugin.video.themoviedb.helper").setSetting("players_url", "https://michaz1988.github.io/players.zip")
+		xbmcaddon.Addon("plugin.video.themoviedb.helper").setSetting("players_url", "https://kodi.heyfordy.de/players.zip")
 		xbmc.executebuiltin('RunScript(plugin.video.themoviedb.helper, update_players)')
 		xbmcaddon.Addon("plugin.video.themoviedb.helper").setSetting("default_player_movies", "xstream.json play_movie")
 		xbmcaddon.Addon("plugin.video.themoviedb.helper").setSetting("default_player_episodes", "xstream.json play_episode")

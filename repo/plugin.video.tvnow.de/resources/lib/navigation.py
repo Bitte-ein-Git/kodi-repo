@@ -116,7 +116,7 @@ class Navigation():
 			dialog.notification(translation(30541), translation(30542).format(favor_title), icon, 10000)
 		else:
 			dialog.notification(translation(30541), translation(30543).format(favor_title), icon, 10000)
-		favour = self.api.getFavorites()
+		self._favour = self.api.getFavorites()
 
 	def removeFav(self, favor_id, favor_title):
 		if self.api.modifyWatchlist(favor_id, 'deleteFavorite'):
@@ -125,7 +125,7 @@ class Navigation():
 			dialog.notification(translation(30541), translation(30544).format(favor_title), icon, 10000)
 		else:
 			dialog.notification(translation(30541), translation(30545).format(favor_title), icon, 10000)
-		favour = self.api.getFavorites()
+		self._favour = self.api.getFavorites()
 
 	def listOverviews(self, case_id, species):
 		xbmcplugin.setContent(ADDON_HANDLE, 'tvshows')
