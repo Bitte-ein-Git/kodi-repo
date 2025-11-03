@@ -115,7 +115,7 @@ def searchGlobal(sSearchText, searchtitles, isSerie, _type, _id, season, episode
             elif w != "serienstream":
                 aPlugins.append({'id': w, 'name': w.capitalize()})
 
-    dialog.create("xStream Scraper Suche gestartet ...", "Suche ...")
+    dialog.create("[COLOR darkorange]» Autom. Quellen-Suche gestartet ...[/COLOR]", "Suche ...")
 
     def _wrapped_pluginSearch(pluginEntry):
         _pluginSearch(pluginEntry, sSearchText, isSerie, oGui)

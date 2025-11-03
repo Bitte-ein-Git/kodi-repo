@@ -3,50 +3,29 @@ import xbmcaddon
 import xbmcgui
 import json
 import time
-import os
-import requests
+import urllib.parse
 from resources.lib.discord_gateway import DiscordClient, DiscordConnectionError
-from resources.lib.image_uploader import decode_kodi_image_url, upload_to_imgbb
 
 ADDON = xbmcaddon.Addon()
-
-CHANNEL_LOGO_MAP = {
-    "das-erste": "1408572918430171318",
-    "zdf": "1408572920749621450",
-    "prosieben": "1408572920975982743",
-    "rtl": "1408572926709469184",
-    "vox": "1408572919394598982",
-    "arte": "1408572923836629143",
-    "3sat": "1408572930161508413",
-    "kabel-eins": "1408572926709469184",
-    "sat.1": "1405130772981223454",
-    "sport1": "1408572687424553132",
-    "nick": "1408572683280453674",
-    "kika": "1408572763161100448",
-    "zdfneo": "1408572838503383232",
-    "ntv": "1408572919935664412",
-    "dmax": "1408572931226730629",
-    "discovery": "1408572921752064073",
-    "national-geographic": "1408572840256475278",
-    "redbulltv": "1425598699836407858"
-}
-
 
 def show_notification(title, message, icon=xbmcgui.NOTIFICATION_INFO, duration=4000):
     # display notification
     xbmcgui.Dialog().notification(title, message, icon, duration)
 
-
-def get_channel_logo_id(channel_name):
-    # map channel name to discord asset id
-    if not channel_name:
+def decode_kodi_image_url(image_url):
+    # decode kodi image url
+    if not image_url:
         return None
-    normalized = channel_name.lower().replace('-', '').replace(' ', '').replace('.', '')
-    for name, logo_id in CHANNEL_LOGO_MAP.items():
-        if name.replace('-', '').replace('.', '') in normalized:
-            return logo_id
-    return None
-
+    try:
+        if image_url.startswith("image://"):
+            clean_url = image_url[len("image://"):]
+            if clean_url.endswith("/"):
+                clean_url = clean_url[:-1]
+            return urllib.parse.unquote(clean_url)
+        return image_url
+    except Exception as e:
+        xbmc.log(f"[DiscordRPC] Image decode failed: {e}", xbmc.LOGWARNING)
+        return None
 
 class DiscordKodiService(xbmc.Monitor):
     def __init__(self):
@@ -59,9 +38,6 @@ class DiscordKodiService(xbmc.Monitor):
         # load addon settings
         self.app_id = ADDON.getSettingString("app_id")
         self.user_token = ADDON.getSettingString("user_token")
-        self.app_name = ADDON.getSettingString("app_name")
-        self.enable_dynamic_artwork = ADDON.getSettingBool("enable_dynamic_artwork")
-        self.imgbb_api_key = ADDON.getSettingString("imgbb_api_key")
         self.icon_color = ADDON.getSettingString("icon_color")
         xbmc.log("[DiscordRPC] Settings loaded.", xbmc.LOGINFO)
 
@@ -75,7 +51,7 @@ class DiscordKodiService(xbmc.Monitor):
             rpc_query = json.dumps({
                 "jsonrpc": "2.0",
                 "method": "Player.GetItem",
-                "params": {"playerid": 1, "properties": ["title", "showtitle", "season", "episode", "album", "artist", "genre", "streamdetails", "art", "duration", "channel", "year"]},
+                "params": {"playerid": 1, "properties": ["title", "showtitle", "season", "episode", "album", "artist", "genre", "streamdetails", "art", "duration", "channel", "year", "uniqueid"]},
                 "id": 1
             })
             rpc_response = xbmc.executeJSONRPC(rpc_query)
@@ -141,14 +117,17 @@ class DiscordKodiService(xbmc.Monitor):
 
         if is_pvr:
             channel_name = info.get("channel", "")
-            logo_id = get_channel_logo_id(channel_name)
-            if logo_id:
-                large_image_key = logo_id
+            season = info.get("season", 0) or 0
+            episode = info.get("episode", 0) or 0
+            
+            if season > 0 and episode > 0:
+                state = f"🎞️ S{season:02d}E{episode:02d} • {channel_name}"
             else:
-                art_url = art.get("thumb")
-            state = channel_name
+                state = channel_name
+                
+            art_url = art.get("thumb")
         else:
-            art_url = art.get("fanart") or art.get("poster") or art.get("thumb")
+            art_url = art.get("poster") or art.get("tvshow.poster") or art.get("thumb")
             
             showtitle = info.get("showtitle")
             season = info.get("season", 0) or 0
@@ -172,28 +151,10 @@ class DiscordKodiService(xbmc.Monitor):
         if art_url:
             decoded_url = decode_kodi_image_url(art_url)
             
-            if decoded_url:
-                is_local_file = not (decoded_url.startswith("http://") or decoded_url.startswith("https://"))
-                
-                if self.enable_dynamic_artwork and self.imgbb_api_key and is_local_file:
-                    # local file with imgbb enabled
-                    try:
-                        if os.path.exists(decoded_url):
-                            uploaded = upload_to_imgbb(decoded_url, self.imgbb_api_key)
-                            if uploaded:
-                                large_image_key = uploaded
-                                xbmc.log(f"[DiscordRPC] Uploaded local artwork to imgbb: {uploaded}", xbmc.LOGINFO)
-                        else:
-                             xbmc.log(f"[DiscordRPC] Decoded path does not exist (imgbb): {decoded_url}", xbmc.LOGWARNING)
-                    except Exception as e:
-                        xbmc.log(f"[DiscordRPC] Dynamic artwork local upload failed: {e}", xbmc.LOGWARNING)
-
-                elif not is_local_file:
-                    # remote url (http/https), pass to discord gateway
-                    large_image_key = decoded_url
-                    xbmc.log(f"[DiscordRPC] Using decoded remote URL: {decoded_url}", xbmc.LOGINFO)
-                
-                # else: local file, but imgbb disabled. fallback to default icon.
+            if decoded_url and (decoded_url.startswith("http://") or decoded_url.startswith("https://")):
+                # remote url (http/https), pass to discord gateway
+                large_image_key = decoded_url
+                xbmc.log(f"[DiscordRPC] Using decoded remote URL: {decoded_url}", xbmc.LOGINFO)
 
         # handle pause state
         if is_paused:
@@ -214,7 +175,7 @@ class DiscordKodiService(xbmc.Monitor):
         assets["small_text"] = small_text
 
         payload = {
-            "name": self.app_name or "Kodi",
+            "name": "Kodi",
             "type": 3,
             "application_id": self.app_id,
             "details": details,

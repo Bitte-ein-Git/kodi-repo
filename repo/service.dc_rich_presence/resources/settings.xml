@@ -5,15 +5,6 @@
     </category>
 
     <category label="Customization">
-        <setting id="app_name" type="text" label="App Name" default="Kodi" visible="false"/>
-        <setting id="display_addon_name" type="bool" label="Display service or video addon name" default="true" visible="false"/>
-        <setting id="media_display_mode" type="select" label="Media display mode" values="disabled|Kodi|Auto (Movie/TV-Show title)" default="1" visible="false"/>
-        <setting id="pvr_display_mode" type="select" label="PVR display mode" values="disabled|Kodi|PVR Channel name|Auto (Movie/TV-Show title)" default="0" visible="false"/>
         <setting id="icon_color" type="select" label="Icon Color" values="Greyscale|Colored" default="0"/>
-    </category>
-
-    <category label="Dynamic Artwork">
-        <setting id="enable_dynamic_artwork" type="bool" label="Enable Dynamic Artwork (Upload to imgbb)" default="false"/>
-        <setting id="imgbb_api_key" type="text" label="imgbb API Key" option="hidden" enable="eq(-1,true)"/>
     </category>
 </settings>
