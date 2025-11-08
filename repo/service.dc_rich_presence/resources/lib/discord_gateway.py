@@ -22,7 +22,7 @@ class DiscordClient:
     def _connect_websocket(self):
         # establish websocket connection
         try:
-            self.ws = websocket.create_connection("wss://gateway.discord.gg/?v=6&encoding=json", timeout=10)
+            self.ws = websocket.create_connection("wss://gateway.discord.gg/?v=6&encoding=json", timeout=4)
             self.connected.set()
             xbmc.log("[DiscordRPC] Connected to Discord Gateway", xbmc.LOGINFO)
             return True
@@ -85,14 +85,14 @@ class DiscordClient:
                     if not self.heartbeat_thread or not self.heartbeat_thread.is_alive():
                         self.heartbeat_thread = threading.Thread(target=self._heartbeat, args=(interval,), daemon=True)
                         self.heartbeat_thread.start()
-            except (websocket.WebSocketConnectionClosedException, BrokenPipeError, OSError) as e:
+            except (websocket.WebSocketConnectionClosedException, BrokenPipeError, OSError, websocket.WebSocketTimeoutException) as e: # MODIFIED
                 if not self.stop_threads.is_set():
                     xbmc.log(f"[DiscordRPC] WebSocket closed: {e}", xbmc.LOGWARNING)
                     self.connected.clear()
                 break
             except Exception as e:
                 if not self.stop_threads.is_set():
-                    xbmc.log(f"[DiscordRPC] Listen thread error: {e}", xbmc.LOGERROR, exc_info=True)
+                    xbmc.log(f"[DiscordRPC] Listen thread error: {e}", xbmc.LOGERROR) # MODIFIED
                     self.connected.clear()
                 break
 
@@ -139,8 +139,16 @@ class DiscordClient:
         # upload external image url to discord assets
         if not image_url:
             return None
-        if image_url.startswith("mp:") or "discordapp.net" in image_url:
+
+        # if it's not a URL, it's a static asset key. return it.
+        if not (image_url.startswith("http://") or image_url.startswith("https://")):
+            xbmc.log(f"[DiscordRPC] Using static asset key: {image_url}", xbmc.LOGDEBUG)
             return image_url
+
+        # if it's already a discord url, return it.
+        if image_url.startswith("mp:") or "discordapp.net" in image_url or "discord.com" in image_url:
+            return image_url
+            
         try:
             url = f"https://discord.com/api/v9/applications/{self.app_id}/external-assets"
             response = requests.post(
@@ -150,7 +158,7 @@ class DiscordClient:
                     "Content-Type": "application/json"
                 },
                 json={"urls": [image_url]},
-                timeout=10
+                timeout=4
             )
             response.raise_for_status()
             data = response.json()
@@ -160,7 +168,21 @@ class DiscordClient:
                 return f"mp:{path}"
         except Exception as e:
             xbmc.log(f"[DiscordRPC] External asset upload failed: {e}", xbmc.LOGWARNING)
-        return image_url
+        
+        # fallback for tmdb api redirect
+        if "api.heyfordy.de" in image_url:
+            try:
+                # try to resolve redirect manually
+                head_resp = requests.head(image_url, allow_redirects=True, timeout=2)
+                if head_resp.ok and "image.tmdb.org" in head_resp.url:
+                    xbmc.log(f"[DiscordRPC] Resolved TMDB URL: {head_resp.url}", xbmc.LOGINFO)
+                    return self._process_image(head_resp.url) # recursive call
+                else:
+                    xbmc.log(f"[DiscordRPC] TMDB URL resolve failed or not tmdb: {head_resp.url}", xbmc.LOGWARNING)
+            except Exception as e:
+                xbmc.log(f"[DiscordRPC] TMDB URL resolve exception: {e}", xbmc.LOGWARNING)
+
+        return image_url # return original if processing fails
 
     def set_activity(self, activity_payload):
         # process images before sending

@@ -1,7 +1,13 @@
-v2.2.1
-- fix typo
+v2.3.0
+- addon fixed
+- Reworked artwork logic to use custom TMDB API
+- Removed imgbb dependency
+- Removed static channel logos
+- Removed unused settings
+- Added EPG S/E info to PVR state
+- Added Kodi tag removal for titles
 v2.2.0
-- added tmdb artworks
+BROKEN
 v2.1.0
 - assets fix
 v2.0.0

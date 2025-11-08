@@ -3,29 +3,24 @@ import xbmcaddon
 import xbmcgui
 import json
 import time
-import urllib.parse
-import re
+import os
 import requests
+import re
+import urllib.parse
 from resources.lib.discord_gateway import DiscordClient, DiscordConnectionError
 
 ADDON = xbmcaddon.Addon()
-IMAGES_URL = "https://api.heyfordy.de/tmdb" # global var for artwork lookup
+TMDB_API_URL = "https://api.heyfordy.de/tmdb"
 
 def log(msg, level=xbmc.LOGINFO):
     # helper for logging
     xbmc.log(f"[DiscordRPC] {msg}", level)
 
-def show_notification(title, message, icon=xbmcgui.NOTIFICATION_INFO, duration=4000):
-    # display notification
-    log(f"Notification: {title} - {message}", xbmc.LOGDEBUG)
-    xbmcgui.Dialog().notification(title, message, icon, duration)
-
 def removeKodiTags(text):
-    # remove kodi color/style tags from string
+    # remove kodi color/format tags
     if not text:
         return ""
     
-    log(f"Removing tags for: {text}", xbmc.LOGDEBUG)
     validTags = ["I", "B", "LIGHT", "UPPERCASE", "LOWERCASE", "CAPITALIZE", "COLOR"]
     
     for tag in validTags:
@@ -38,33 +33,12 @@ def removeKodiTags(text):
     r = re.compile(r"\[\s*/?\s*COLOR\s*?.*?\]")
     text = r.sub("", text)
 
-    log(f"Removed tags. Result: {text}", xbmc.LOGDEBUG)
     return text
 
-def decode_kodi_image_url(image_url):
-    # decode kodi image url and strip suffixes
-    if not image_url:
-        return None
-    
-    clean_url = image_url
-    
-    try:
-        if clean_url.startswith("image://"):
-            clean_url = clean_url[len("image://"):]
-            if clean_url.endswith("/"):
-                clean_url = clean_url[:-1]
-            clean_url = urllib.parse.unquote(clean_url)
-        
-        # remove kodi's appended user-agent string if present
-        if "|" in clean_url:
-            clean_url = clean_url.split("|", 1)[0]
-            log(f"Removed pipe suffix from URL. Result: {clean_url}", xbmc.LOGDEBUG)
+def show_notification(title, message, icon=xbmcgui.NOTIFICATION_INFO, duration=4000):
+    # display notification
+    xbmcgui.Dialog().notification(title, message, icon, duration)
 
-        return clean_url
-        
-    except Exception as e:
-        log(f"Image decode failed: {e}", xbmc.LOGWARNING)
-        return None
 
 class DiscordKodiService(xbmc.Monitor):
     def __init__(self):
@@ -78,7 +52,7 @@ class DiscordKodiService(xbmc.Monitor):
         self.app_id = ADDON.getSettingString("app_id")
         self.user_token = ADDON.getSettingString("user_token")
         self.icon_color = ADDON.getSettingString("icon_color")
-        log("Settings loaded.", xbmc.LOGINFO)
+        log("Settings loaded.")
 
     def is_config_valid(self):
         # check required settings
@@ -90,7 +64,11 @@ class DiscordKodiService(xbmc.Monitor):
             rpc_query = json.dumps({
                 "jsonrpc": "2.0",
                 "method": "Player.GetItem",
-                "params": {"playerid": 1, "properties": ["title", "showtitle", "season", "episode", "album", "artist", "genre", "streamdetails", "art", "duration", "channel", "year", "uniqueid"]},
+                "params": {"playerid": 1, "properties": [
+                    "title", "showtitle", "season", "episode", "album", 
+                    "artist", "genre", "streamdetails", "art", "duration", 
+                    "channel", "year", "imdbnumber", "type"
+                ]},
                 "id": 1
             })
             rpc_response = xbmc.executeJSONRPC(rpc_query)
@@ -131,112 +109,86 @@ class DiscordKodiService(xbmc.Monitor):
     def build_payload(self, info, is_pvr, is_paused, current_time, total_time):
         # build the discord activity payload
         title = info.get("title") or info.get("label") or "Unbekannter Titel"
-        year = info.get("year", 0) or 0
+        title = removeKodiTags(title)
         
-        details = ""
+        year = info.get("year", 0) or 0
+        details = f"{title} ({year})" if year > 0 else title
+        
         state = ""
         assets = {}
-        art = info.get("art", {})
-        art_url = None
-        
-        # artwork search metadata
-        search_name = ""
-        search_id = info.get("uniqueid", {}).get("imdb", "") # use IMDB ID if available
-        search_type = "movie"
         
         # select assets based on icon color setting
         if self.icon_color == 'Greyscale':
-            large_image_key = "1405130772981223454"
+            large_image_key_default = "1405130772981223454"
             small_image_key_pvr = "1407207956877021236"
             small_image_key_media = "1407207958294564884"
             pause_image_key = "1407207956851982336"
         else: # colored
-            large_image_key = "1405130772981223454"
+            large_image_key_default = "1405130772981223454"
             small_image_key_pvr = "1407207958252884149"
             small_image_key_media = "1407207956914634772"
             pause_image_key = "1407207957422411849"
             
         small_image_key = small_image_key_pvr
         small_text = "Live TV"
-        default_large_image_key = large_image_key # save default asset
+        large_image_key = large_image_key_default
+
+        # get common media info
+        showtitle = info.get("showtitle")
+        season = info.get("season", 0) or 0
+        episode = info.get("episode", 0) or 0
 
         if is_pvr:
             channel_name = info.get("channel", "")
-            clean_title = removeKodiTags(title)
-            details = f"{clean_title} ({year})" if year > 0 else clean_title
             
-            season = info.get("season", 0) or 0
-            episode = info.get("episode", 0) or 0
-            
+            # check for S/E info in EPG
             if season > 0 and episode > 0:
                 state = f"🎞️ S{season:02d}E{episode:02d} • {channel_name}"
-                search_type = "tv"
             else:
                 state = channel_name
-                search_type = "movie" # assume movie if no S/E info
-                
-            art_url = art.get("thumb")
-            search_name = clean_title
         else:
-            art_url = art.get("poster") or art.get("tvshow.poster") or art.get("thumb")
-            
-            showtitle = info.get("showtitle")
-            season = info.get("season", 0) or 0
-            episode = info.get("episode", 0) or 0
-            
-            if showtitle and season > 0 and episode > 0:
+            media_type = info.get("type") # 'movie', 'episode', 'unknown', 'video'
+            imdb_id = info.get("imdbnumber")
+            media_name = None
+            api_type = None
+
+            if media_type == 'episode' and showtitle and season > 0 and episode > 0:
                 # series
-                clean_showtitle = removeKodiTags(showtitle)
-                clean_ep_title = removeKodiTags(title)
-                details = f"{clean_showtitle} ({year})" if year > 0 else clean_showtitle
-                state = f"🎞️ S{season:02d}E{episode:02d} • {clean_ep_title}"
-                search_name = clean_showtitle
-                search_type = "tv"
-            else:
-                # movie or addon
-                clean_title = removeKodiTags(title)
-                details = f"{clean_title} ({year})" if year > 0 else clean_title
-                
+                state = f"🎞️ » S{season:02d}E{episode:02d}"
+                details_title = removeKodiTags(showtitle) # use showtitle for details
+                details = f"{details_title} ({year})" if year > 0 else details_title
+                media_name = showtitle
+                api_type = 'tv'
+            
+            elif media_type == 'movie' or (media_type in ['video', 'unknown'] and imdb_id):
+                # movie or other (plugin)
                 genres = info.get("genre", [])
                 if genres:
                     state = "🎭 » " + ", ".join(genres)
                 else:
                     state = "🎬 Movie"
-                search_name = clean_title
-                search_type = "movie"
+                
+                media_name = title
+                api_type = 'movie' # Force movie type for API
             
             small_image_key = small_image_key_media
             small_text = "Playing"
 
-        # dynamic artwork processing
-        if art_url:
-            decoded_url = decode_kodi_image_url(art_url)
-            
-            if decoded_url and (decoded_url.startswith("http://") or decoded_url.startswith("https://")):
-                # remote url (http/https), pass to discord gateway
-                large_image_key = decoded_url
-                log(f"Using decoded remote URL: {decoded_url}", xbmc.LOGINFO)
-            # else: keep default large_image_key
-        
-        elif IMAGES_URL and search_name:
-            # no local art, try tmdb lookup via our worker
-            log(f"No local art found. Attempting TMDB lookup for: {search_name}", xbmc.LOGINFO)
-            
-            # hyphen fallback logic
-            if " - " in search_name:
-                hyphen_search_name = search_name.split(" - ", 1)[0]
-                log(f"Title contains hyphen. Using primary part: {hyphen_search_name}", xbmc.LOGDEBUG)
-                search_name = hyphen_search_name
-                
-            try:
-                tmdb_art_url = f"{IMAGES_URL}?name={urllib.parse.quote(search_name)}&id={urllib.parse.quote(search_id)}&type={search_type}"
-                large_image_key = tmdb_art_url
-            except Exception as e:
-                log(f"Error building TMDB URL: {e}", xbmc.LOGWARNING)
-                large_image_key = default_large_image_key
-        
-        else:
-             large_image_key = default_large_image_key
+            # build artwork url
+            if api_type and (imdb_id or media_name):
+                try:
+                    params = {'type': api_type}
+                    if imdb_id:
+                        params['id'] = imdb_id
+                    elif media_name:
+                        params['name'] = media_name
+                    
+                    large_image_key = f"{TMDB_API_URL}?{urllib.parse.urlencode(params)}"
+                    log(f"Using dynamic artwork URL: {large_image_key}")
+
+                except Exception as e:
+                    log(f"Failed to build artwork URL: {e}", xbmc.LOGWARNING)
+
 
         # handle pause state
         if is_paused:
@@ -275,16 +227,16 @@ class DiscordKodiService(xbmc.Monitor):
         # main service loop
         if not self.is_config_valid():
             log("Incomplete configuration.", xbmc.LOGERROR)
-            show_notification("Discord Presence", "Configuration incomplete!", xbmc.gui.NOTIFICATION_ERROR)
+            show_notification("Discord Presence", "Configuration incomplete!", xbmcgui.NOTIFICATION_ERROR)
             return
 
         try:
             self.client = DiscordClient(self.app_id, self.user_token)
             self.client.connect()
-            log("Discord client connected.", xbmc.LOGINFO)
+            log("Discord client connected.")
         except DiscordConnectionError as e:
             log(f"Connection failed: {e}", xbmc.LOGERROR)
-            show_notification("Discord Presence", "Connection failed to Discord.", xbmc.gui.NOTIFICATION_ERROR)
+            show_notification("Discord Presence", "Connection failed to Discord.", xbmcgui.NOTIFICATION_ERROR)
             return
 
         while not self.abortRequested():
@@ -305,7 +257,7 @@ class DiscordKodiService(xbmc.Monitor):
 
                 if not is_playing:
                     if self.last_payload_str:
-                        log("Stopped, clearing presence.", xbmc.LOGINFO)
+                        log("Stopped, clearing presence.")
                         self.client.clear_activity()
                         self.last_payload_str = ""
                     if self.waitForAbort(5): break
@@ -317,7 +269,7 @@ class DiscordKodiService(xbmc.Monitor):
 
                 current_payload_str = str(payload)
                 if current_payload_str != self.last_payload_str:
-                    log(f"Updating activity: {payload.get('details')}", xbmc.LOGINFO)
+                    log(f"Updating activity: {payload.get('details')}")
                     self.client.set_activity(payload)
                     self.last_payload_str = current_payload_str
 
@@ -328,23 +280,16 @@ class DiscordKodiService(xbmc.Monitor):
                  self.last_payload_str = ""
                  if self.waitForAbort(15): break
             except Exception as e:
-                log(f"Service error: {e}", xbmc.LOGERROR, exc_info=True)
-                show_notification("Discord Presence", "Error in DiscordRPC loop.", xbmc.gui.NOTIFICATION_ERROR)
+                log(f"Service error: {e}", xbmc.LOGERROR) # MODIFIED
+                show_notification("Discord Presence", "Error in DiscordRPC loop.", xbmcgui.NOTIFICATION_ERROR)
                 if self.waitForAbort(15): break
 
         if self.client:
             self.client.disconnect()
-        log("Service stopped.", xbmc.LOGINFO)
+        log("Service stopped.")
 
 
 if __name__ == "__main__":
-    log("Starting standalone service.", xbmc.LOGINFO)
-    
-    # artwork service url is now static
-    if IMAGES_URL:
-        log(f"Using artwork service URL: {IMAGES_URL}", xbmc.LOGINFO)
-    else:
-        log("Artwork service URL is not set.", xbmc.LOGWARNING)
-        
+    log("Starting standalone service.")
     service = DiscordKodiService()
     service.run_service()
