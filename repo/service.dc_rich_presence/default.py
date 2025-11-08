@@ -42,16 +42,26 @@ def removeKodiTags(text):
     return text
 
 def decode_kodi_image_url(image_url):
-    # decode kodi image url
+    # decode kodi image url and strip suffixes
     if not image_url:
         return None
+    
+    clean_url = image_url
+    
     try:
-        if image_url.startswith("image://"):
-            clean_url = image_url[len("image://"):]
+        if clean_url.startswith("image://"):
+            clean_url = clean_url[len("image://"):]
             if clean_url.endswith("/"):
                 clean_url = clean_url[:-1]
-            return urllib.parse.unquote(clean_url)
-        return image_url
+            clean_url = urllib.parse.unquote(clean_url)
+        
+        # remove kodi's appended user-agent string if present
+        if "|" in clean_url:
+            clean_url = clean_url.split("|", 1)[0]
+            log(f"Removed pipe suffix from URL. Result: {clean_url}", xbmc.LOGDEBUG)
+
+        return clean_url
+        
     except Exception as e:
         log(f"Image decode failed: {e}", xbmc.LOGWARNING)
         return None
@@ -336,5 +346,5 @@ if __name__ == "__main__":
     else:
         log("Artwork service URL is not set.", xbmc.LOGWARNING)
         
-    service = DiscordKDodiService()
+    service = DiscordKodiService()
     service.run_service()
