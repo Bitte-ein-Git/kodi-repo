@@ -4,13 +4,42 @@ import xbmcgui
 import json
 import time
 import urllib.parse
+import re
+import requests
 from resources.lib.discord_gateway import DiscordClient, DiscordConnectionError
 
 ADDON = xbmcaddon.Addon()
+IMAGES_URL = "https://api.heyfordy.de/tmdb" # global var for artwork lookup
+
+def log(msg, level=xbmc.LOGINFO):
+    # helper for logging
+    xbmc.log(f"[DiscordRPC] {msg}", level)
 
 def show_notification(title, message, icon=xbmcgui.NOTIFICATION_INFO, duration=4000):
     # display notification
+    log(f"Notification: {title} - {message}", xbmc.LOGDEBUG)
     xbmcgui.Dialog().notification(title, message, icon, duration)
+
+def removeKodiTags(text):
+    # remove kodi color/style tags from string
+    if not text:
+        return ""
+    
+    log(f"Removing tags for: {text}", xbmc.LOGDEBUG)
+    validTags = ["I", "B", "LIGHT", "UPPERCASE", "LOWERCASE", "CAPITALIZE", "COLOR"]
+    
+    for tag in validTags:
+        r = re.compile(r"\[\s*/?\s*"+tag+r"\s*?\]")
+        text = r.sub("", text)
+
+    r = re.compile(r"\[\s*/?\s*CR\s*?\]")
+    text = r.sub(" ", text)
+
+    r = re.compile(r"\[\s*/?\s*COLOR\s*?.*?\]")
+    text = r.sub("", text)
+
+    log(f"Removed tags. Result: {text}", xbmc.LOGDEBUG)
+    return text
 
 def decode_kodi_image_url(image_url):
     # decode kodi image url
@@ -24,7 +53,7 @@ def decode_kodi_image_url(image_url):
             return urllib.parse.unquote(clean_url)
         return image_url
     except Exception as e:
-        xbmc.log(f"[DiscordRPC] Image decode failed: {e}", xbmc.LOGWARNING)
+        log(f"Image decode failed: {e}", xbmc.LOGWARNING)
         return None
 
 class DiscordKodiService(xbmc.Monitor):
@@ -39,7 +68,7 @@ class DiscordKodiService(xbmc.Monitor):
         self.app_id = ADDON.getSettingString("app_id")
         self.user_token = ADDON.getSettingString("user_token")
         self.icon_color = ADDON.getSettingString("icon_color")
-        xbmc.log("[DiscordRPC] Settings loaded.", xbmc.LOGINFO)
+        log("Settings loaded.", xbmc.LOGINFO)
 
     def is_config_valid(self):
         # check required settings
@@ -58,7 +87,7 @@ class DiscordKodiService(xbmc.Monitor):
             data = json.loads(rpc_response)
             return data.get("result", {}).get("item", {})
         except Exception as e:
-            xbmc.log(f"[DiscordRPC] Error fetching playback info: {e}", xbmc.LOGERROR)
+            log(f"Error fetching playback info: {e}", xbmc.LOGERROR)
             return {}
 
     def get_playback_time(self):
@@ -77,7 +106,7 @@ class DiscordKodiService(xbmc.Monitor):
             total = self.time_to_seconds(props.get("totaltime", {}))
             return current, total
         except Exception as e:
-            xbmc.log(f"[DiscordRPC] Error fetching playback time: {e}", xbmc.LOGERROR)
+            log(f"Error fetching playback time: {e}", xbmc.LOGERROR)
             return 0, 0
 
     def time_to_seconds(self, time_dict):
@@ -93,12 +122,17 @@ class DiscordKodiService(xbmc.Monitor):
         # build the discord activity payload
         title = info.get("title") or info.get("label") or "Unbekannter Titel"
         year = info.get("year", 0) or 0
-        details = f"{title} ({year})" if year > 0 else title
         
+        details = ""
         state = ""
         assets = {}
         art = info.get("art", {})
         art_url = None
+        
+        # artwork search metadata
+        search_name = ""
+        search_id = info.get("uniqueid", {}).get("imdb", "") # use IMDB ID if available
+        search_type = "movie"
         
         # select assets based on icon color setting
         if self.icon_color == 'Greyscale':
@@ -114,18 +148,25 @@ class DiscordKodiService(xbmc.Monitor):
             
         small_image_key = small_image_key_pvr
         small_text = "Live TV"
+        default_large_image_key = large_image_key # save default asset
 
         if is_pvr:
             channel_name = info.get("channel", "")
+            clean_title = removeKodiTags(title)
+            details = f"{clean_title} ({year})" if year > 0 else clean_title
+            
             season = info.get("season", 0) or 0
             episode = info.get("episode", 0) or 0
             
             if season > 0 and episode > 0:
                 state = f"🎞️ S{season:02d}E{episode:02d} • {channel_name}"
+                search_type = "tv"
             else:
                 state = channel_name
+                search_type = "movie" # assume movie if no S/E info
                 
             art_url = art.get("thumb")
+            search_name = clean_title
         else:
             art_url = art.get("poster") or art.get("tvshow.poster") or art.get("thumb")
             
@@ -135,14 +176,24 @@ class DiscordKodiService(xbmc.Monitor):
             
             if showtitle and season > 0 and episode > 0:
                 # series
-                state = f"🎞️ » S{season:02d}E{episode:02d}"
+                clean_showtitle = removeKodiTags(showtitle)
+                clean_ep_title = removeKodiTags(title)
+                details = f"{clean_showtitle} ({year})" if year > 0 else clean_showtitle
+                state = f"🎞️ S{season:02d}E{episode:02d} • {clean_ep_title}"
+                search_name = clean_showtitle
+                search_type = "tv"
             else:
                 # movie or addon
+                clean_title = removeKodiTags(title)
+                details = f"{clean_title} ({year})" if year > 0 else clean_title
+                
                 genres = info.get("genre", [])
                 if genres:
                     state = "🎭 » " + ", ".join(genres)
                 else:
                     state = "🎬 Movie"
+                search_name = clean_title
+                search_type = "movie"
             
             small_image_key = small_image_key_media
             small_text = "Playing"
@@ -154,7 +205,28 @@ class DiscordKodiService(xbmc.Monitor):
             if decoded_url and (decoded_url.startswith("http://") or decoded_url.startswith("https://")):
                 # remote url (http/https), pass to discord gateway
                 large_image_key = decoded_url
-                xbmc.log(f"[DiscordRPC] Using decoded remote URL: {decoded_url}", xbmc.LOGINFO)
+                log(f"Using decoded remote URL: {decoded_url}", xbmc.LOGINFO)
+            # else: keep default large_image_key
+        
+        elif IMAGES_URL and search_name:
+            # no local art, try tmdb lookup via our worker
+            log(f"No local art found. Attempting TMDB lookup for: {search_name}", xbmc.LOGINFO)
+            
+            # hyphen fallback logic
+            if " - " in search_name:
+                hyphen_search_name = search_name.split(" - ", 1)[0]
+                log(f"Title contains hyphen. Using primary part: {hyphen_search_name}", xbmc.LOGDEBUG)
+                search_name = hyphen_search_name
+                
+            try:
+                tmdb_art_url = f"{IMAGES_URL}?name={urllib.parse.quote(search_name)}&id={urllib.parse.quote(search_id)}&type={search_type}"
+                large_image_key = tmdb_art_url
+            except Exception as e:
+                log(f"Error building TMDB URL: {e}", xbmc.LOGWARNING)
+                large_image_key = default_large_image_key
+        
+        else:
+             large_image_key = default_large_image_key
 
         # handle pause state
         if is_paused:
@@ -192,27 +264,27 @@ class DiscordKodiService(xbmc.Monitor):
     def run_service(self):
         # main service loop
         if not self.is_config_valid():
-            xbmc.log("[DiscordRPC] Incomplete configuration.", xbmc.LOGERROR)
-            show_notification("Discord Presence", "Configuration incomplete!", xbmcgui.NOTIFICATION_ERROR)
+            log("Incomplete configuration.", xbmc.LOGERROR)
+            show_notification("Discord Presence", "Configuration incomplete!", xbmc.gui.NOTIFICATION_ERROR)
             return
 
         try:
             self.client = DiscordClient(self.app_id, self.user_token)
             self.client.connect()
-            xbmc.log("[DiscordRPC] Discord client connected.", xbmc.LOGINFO)
+            log("Discord client connected.", xbmc.LOGINFO)
         except DiscordConnectionError as e:
-            xbmc.log(f"[DiscordRPC] Connection failed: {e}", xbmc.LOGERROR)
-            show_notification("Discord Presence", "Connection failed to Discord.", xbmcgui.NOTIFICATION_ERROR)
+            log(f"Connection failed: {e}", xbmc.LOGERROR)
+            show_notification("Discord Presence", "Connection failed to Discord.", xbmc.gui.NOTIFICATION_ERROR)
             return
 
         while not self.abortRequested():
             try:
                 if not self.client.connected.is_set():
-                    xbmc.log("[DiscordRPC] Not connected. Attempting reconnect.", xbmc.LOGWARNING)
+                    log("Not connected. Attempting reconnect.", xbmc.LOGWARNING)
                     try:
                         self.client.reconnect()
                     except DiscordConnectionError:
-                        xbmc.log("[DiscordRPC] Reconnect failed. Retrying later.", xbmc.LOGERROR)
+                        log("Reconnect failed. Retrying later.", xbmc.LOGERROR)
                     if self.waitForAbort(15): break
                     continue
 
@@ -223,7 +295,7 @@ class DiscordKodiService(xbmc.Monitor):
 
                 if not is_playing:
                     if self.last_payload_str:
-                        xbmc.log("[DiscordRPC] Stopped, clearing presence.", xbmc.LOGINFO)
+                        log("Stopped, clearing presence.", xbmc.LOGINFO)
                         self.client.clear_activity()
                         self.last_payload_str = ""
                     if self.waitForAbort(5): break
@@ -235,27 +307,34 @@ class DiscordKodiService(xbmc.Monitor):
 
                 current_payload_str = str(payload)
                 if current_payload_str != self.last_payload_str:
-                    xbmc.log(f"[DiscordRPC] Updating activity: {payload.get('details')}", xbmc.LOGINFO)
+                    log(f"Updating activity: {payload.get('details')}", xbmc.LOGINFO)
                     self.client.set_activity(payload)
                     self.last_payload_str = current_payload_str
 
                 if self.waitForAbort(10): break
 
             except DiscordConnectionError as e:
-                 xbmc.log(f"[DiscordRPC] Connection error in loop: {e}", xbmc.LOGERROR)
+                 log(f"Connection error in loop: {e}", xbmc.LOGERROR)
                  self.last_payload_str = ""
                  if self.waitForAbort(15): break
             except Exception as e:
-                xbmc.log(f"[DiscordRPC] Service error: {e}", xbmc.LOGERROR, exc_info=True)
-                show_notification("Discord Presence", "Error in DiscordRPC loop.", xbmcgui.NOTIFICATION_ERROR)
+                log(f"Service error: {e}", xbmc.LOGERROR, exc_info=True)
+                show_notification("Discord Presence", "Error in DiscordRPC loop.", xbmc.gui.NOTIFICATION_ERROR)
                 if self.waitForAbort(15): break
 
         if self.client:
             self.client.disconnect()
-        xbmc.log("[DiscordRPC] Service stopped.", xbmc.LOGINFO)
+        log("Service stopped.", xbmc.LOGINFO)
 
 
 if __name__ == "__main__":
-    xbmc.log("[DiscordRPC] Starting standalone service.", xbmc.LOGINFO)
-    service = DiscordKodiService()
+    log("Starting standalone service.", xbmc.LOGINFO)
+    
+    # artwork service url is now static
+    if IMAGES_URL:
+        log(f"Using artwork service URL: {IMAGES_URL}", xbmc.LOGINFO)
+    else:
+        log("Artwork service URL is not set.", xbmc.LOGWARNING)
+        
+    service = DiscordKDodiService()
     service.run_service()

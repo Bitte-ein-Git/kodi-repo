@@ -142,7 +142,7 @@ CI &amp; build changes
       <fanart>resources/fanart.png</fanart>
     </assets>
   </extension>
-</addon><addon id="plugin.video.joyn" name="[COLOR darkturquoise]Jo[/COLOR][COLOR mediumspringgreen]yn[/COLOR]" version="2.5.50" provider-name="Bitte ein Git!, knaerzche, Maven">
+</addon><addon id="plugin.video.joyn" name="[COLOR darkturquoise]Jo[/COLOR][COLOR mediumspringgreen]yn[/COLOR]" version="2.5.60" provider-name="Bitte ein Git!, knaerzche, Maven">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" version="2.27.1" />
