@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="Magenta TV Setup">
+        <setting label="Anmelden" type="lsep"/>
+        <setting label="Email/Nutzername" type="text" id="username" default=""/>
+        <setting label="Passwort" type="text" id="password" option="hidden" enable="!eq(-1,)" default=""/>
+        <setting label="Kundennummer" type="text" id="customer_id" default=""/>
+        <setting label="Device-ID" type="text" id="device_id" default=""/>
+    </category>
+    <category label="Sonstiges">
+        <setting label="SD-Sender ausblenden" type="bool" id="hide_sd" default="true"/>
+    </category>
+</settings>

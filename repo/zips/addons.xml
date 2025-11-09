@@ -72,7 +72,7 @@
 - fixed: Rubrik = Neue Sendungen (Serien), Sortierung nach Datum der neuesten Serien-Episode (absteigend)
 		</news>
 	</extension>
-</addon><addon id="plugin.video.jellyfin" name="Fordy-Media" version="1.2.0+py3" provider-name="Bitte ein Git!">
+</addon><addon id="plugin.video.jellyfin" name="» [COLOR crimson]Fordy-Media[/COLOR]" version="1.2.1+py3" provider-name="Bitte ein Git!">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.requests" version="2.22.0+matrix.1" />
@@ -686,6 +686,37 @@ CI &amp; build changes
             <screenshot>icon.png</screenshot>
         </assets>
     </extension>
+</addon><addon id="script.service.magenta" name="» [COLOR hotpink]Magenta TV[/COLOR]" version="2.0.0" provider-name="Bitte ein Git!">
+  <requires>
+      <import addon="xbmc.python" version="3.0.0" />
+      <import addon="script.module.beautifulsoup4" />
+      <import addon="script.module.requests" />
+      <import addon="script.module.bottle" />
+      <import addon="script.module.xmltodict" />
+  </requires>
+  <extension point="xbmc.service" library="service.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Magenta TV</summary>
+    <description lang="en_GB">MagentaTV Service
+    
+M3U: http://localhost:4700/api/file/channels.m3u
+
+EPG: https://kodi.heyfordy.de/iptv/magenta.xml</description>
+    <description lang="de_DE">MagentaTV Service
+    
+M3U: http://localhost:4700/api/file/channels.m3u
+
+EPG: https://kodi.heyfordy.de/iptv/magenta.xml</description>
+    <disclaimer lang="en_GB">Widevine required!</disclaimer>
+    <disclaimer lang="de_DE">Widevine benötigt!</disclaimer>
+    <platform>all</platform>
+    <license>GPL-3.0-or-later</license>
+    <website>https://web.magentatv.de</website>
+    <source>http://github.com/Bitte-ein-Git/kodi-repo/repo/script.service.magenta</source>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
 </addon><addon id="script.service.magentatv2" name="Magenta TV 2.0 Streamer" version="1.0.3" provider-name="Jan-Luca Neumann">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />

@@ -1,0 +1,39 @@
+name: 📺 Magenta EPG .xml Updater
+
+on:
+  schedule:
+    - cron: '0 3 * * *'  # Täglich um 03:00 Uhr UTC
+  workflow_dispatch:     # Manuelles Auslösen erlaubt
+
+jobs:
+  update-magenta-epg:
+    name: Update MagentaTV EPG XML
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 📦 Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt        
+
+      - name: 🔄 Run Magenta EPG Grabber
+        run: |
+          echo "📺 Starte MagentaTV EPG Update..."
+          python scripts/magenta_epg.py
+          echo "✅ EPG Update abgeschlossen."
+
+      - name: 📤 Commit & Push EPG XML
+        run: |
+          git config user.name "Magenta EPG Bot"
+          git config user.email "epg-bot@example.com"
+          git add iptv/magenta.xml
+          git commit -m "🔄 Update MagentaTV EPG .xml $(date -u +"%Y-%m-%d %H:%M:%S UTC")" || echo "No changes to commit"
+          git push
