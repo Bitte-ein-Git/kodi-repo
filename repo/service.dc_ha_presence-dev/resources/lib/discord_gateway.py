@@ -4,7 +4,6 @@ import threading
 import time
 import xbmc
 import requests
-import datetime
 
 class DiscordConnectionError(Exception):
     pass
@@ -19,12 +18,10 @@ class DiscordClient:
         self.stop_threads = threading.Event()
         self.connected = threading.Event()
         self.last_payload = None
-        self.last_timestamps = None
-        self.last_progress = 0
 
     def _connect_websocket(self):
         try:
-            self.ws = websocket.create_connection("wss://gateway.discord.gg/?v=6&encoding=json", timeout=10)
+            self.ws = websocket.create_connection("wss://gateway.discord.gg/?v=6&encoding=json", timeout=4)
             self.connected.set()
             xbmc.log("[DiscordRPC] Connected to Discord Gateway", xbmc.LOGINFO)
             return True
@@ -63,8 +60,9 @@ class DiscordClient:
             self.connect()
             if self.last_payload:
                 self.set_activity(self.last_payload['d']['activities'][0])
-        except Exception:
-            xbmc.log("[DiscordRPC] Reconnect failed", xbmc.LOGERROR)
+        except Exception as e:
+            xbmc.log(f"[DiscordRPC] Reconnect failed: {e}", xbmc.LOGERROR)
+            raise DiscordConnectionError("Reconnect failed") from e
 
     def _listen(self):
         while not self.stop_threads.is_set():
@@ -76,20 +74,21 @@ class DiscordClient:
                         self.connected.clear()
                     break
                 payload = json.loads(message)
-                if payload.get("op") == 10:
+                if payload.get("op") == 10: # Hello
                     interval = payload["d"]["heartbeat_interval"] / 1000.0
                     self._identify()
                     if not self.heartbeat_thread or not self.heartbeat_thread.is_alive():
                         self.heartbeat_thread = threading.Thread(target=self._heartbeat, args=(interval,), daemon=True)
                         self.heartbeat_thread.start()
-            except (websocket.WebSocketConnectionClosedException, BrokenPipeError, OSError) as e:
+            except (websocket.WebSocketConnectionClosedException, BrokenPipeError, OSError, websocket.WebSocketTimeoutException) as e: 
                 if not self.stop_threads.is_set():
                     xbmc.log(f"[DiscordRPC] WebSocket closed: {e}", xbmc.LOGWARNING)
                     self.connected.clear()
                 break
             except Exception as e:
-                xbmc.log(f"[DiscordRPC] Listen thread error: {e}", xbmc.LOGERROR, exc_info=True)
-                self.connected.clear()
+                if not self.stop_threads.is_set():
+                    xbmc.log(f"[DiscordRPC] Listen thread error: {e}", xbmc.LOGERROR) 
+                    self.connected.clear()
                 break
 
     def _heartbeat(self, interval):
@@ -131,8 +130,14 @@ class DiscordClient:
     def _process_image(self, image_url):
         if not image_url:
             return None
-        if image_url.startswith("mp:") or "discordapp.net" in image_url:
+
+        if not (image_url.startswith("http://") or image_url.startswith("https://")):
+            xbmc.log(f"[DiscordRPC] Using static asset key: {image_url}", xbmc.LOGDEBUG)
             return image_url
+
+        if image_url.startswith("mp:") or "discordapp.net" in image_url or "discord.com" in image_url:
+            return image_url
+            
         try:
             url = f"https://discord.com/api/v9/applications/{self.app_id}/external-assets"
             response = requests.post(
@@ -142,8 +147,9 @@ class DiscordClient:
                     "Content-Type": "application/json"
                 },
                 json={"urls": [image_url]},
-                timeout=10
+                timeout=4
             )
+            response.raise_for_status()
             data = response.json()
             if isinstance(data, list) and "external_asset_path" in data[0]:
                 path = data[0]["external_asset_path"]
@@ -151,16 +157,19 @@ class DiscordClient:
                 return f"mp:{path}"
         except Exception as e:
             xbmc.log(f"[DiscordRPC] External asset upload failed: {e}", xbmc.LOGWARNING)
-        return image_url
+        
+        if "api.heyfordy.de" in image_url:
+            try:
+                head_resp = requests.head(image_url, allow_redirects=True, timeout=2)
+                if head_resp.ok and "image.tmdb.org" in head_resp.url:
+                    xbmc.log(f"[DiscordRPC] Resolved TMDB URL: {head_resp.url}", xbmc.LOGINFO)
+                    return self._process_image(head_resp.url) 
+                else:
+                    xbmc.log(f"[DiscordRPC] TMDB URL resolve failed or not tmdb: {head_resp.url}", xbmc.LOGWARNING)
+            except Exception as e:
+                xbmc.log(f"[DiscordRPC] TMDB URL resolve exception: {e}", xbmc.LOGWARNING)
 
-    def _calculate_timestamps(self, duration, progress, is_paused):
-        now = int(time.time())
-        start_time = now - int(progress)
-        end_time = start_time + int(duration)
-        if is_paused:
-            # freeze timer
-            return {"start": start_time, "end": start_time + int(progress)}
-        return {"start": start_time, "end": end_time}
+        return image_url 
 
     def set_activity(self, activity_payload):
         try:
@@ -169,21 +178,6 @@ class DiscordClient:
                 assets["large_image"] = self._process_image(assets["large_image"])
         except Exception as e:
             xbmc.log(f"[DiscordRPC] Asset processing failed: {e}", xbmc.LOGWARNING)
-
-        # Add timestamps if player info is available
-        try:
-            player = xbmc.Player()
-            if player.isPlaying():
-                duration = player.getTotalTime()
-                position = player.getTime()
-                is_paused = xbmc.getCondVisibility("Player.Paused")
-                if duration > 0:
-                    timestamps = self._calculate_timestamps(duration, position, is_paused)
-                    activity_payload["timestamps"] = timestamps
-                    self.last_timestamps = timestamps
-                    self.last_progress = position
-        except Exception as e:
-            xbmc.log(f"[DiscordRPC] Timestamp generation failed: {e}", xbmc.LOGWARNING)
 
         payload = {
             "op": 3,

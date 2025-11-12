@@ -1,6 +1,6 @@
 <addon id="service.dc_ha_presence-dev"
        name="Discord Presence x HA Sensors [COLORred][DEV][/COLOR]"
-       version="1.1.0-dev"
+       version="2.0.0-dev"
        provider-name="Bitte ein Git!">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
