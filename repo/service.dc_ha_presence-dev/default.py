@@ -4,14 +4,10 @@ import xbmcgui
 import time
 import requests
 import json
-import re
-import urllib.parse
 from resources.lib.discord_gateway import DiscordClient, DiscordConnectionError
 
 ADDON = xbmcaddon.Addon()
 UNAVAILABLE_STATES = ["unavailable", "unknown", "no playback", "keine wiedergabe", "kodi offline"]
-
-TMDB_API_URL = "https://api.heyfordy.de/tmdb"
 
 CHANNEL_LOGO_MAP = {
     "top-gear": "1425598699836407858",
@@ -52,6 +48,7 @@ CHANNEL_LOGO_MAP = {
 }
 
 def get_channel_logo_id(channel_name):
+    # get channel logo id from map
     normalized_channel_name = channel_name.lower().replace('-', '').replace(' ', '').replace('.', '')
     for name, logo_id in CHANNEL_LOGO_MAP.items():
         if name.replace('-', '').replace('.', '') in normalized_channel_name:
@@ -59,9 +56,11 @@ def get_channel_logo_id(channel_name):
     return None
 
 def show_notification(title, message, icon=xbmcgui.NOTIFICATION_INFO, duration=5000):
+    # display a notification in kodi
     xbmcgui.Dialog().notification(title, message, icon, duration)
 
 def get_ha_sensor_state(url, token, entity_id):
+    # fetch ha sensor state
     try:
         headers = {"Authorization": f"Bearer {token}", "Content-Type": "application/json"}
         response = requests.get(f"{url}/api/states/{entity_id}", headers=headers, timeout=5)
@@ -73,6 +72,7 @@ def get_ha_sensor_state(url, token, entity_id):
     return ""
 
 def get_playing_addon(is_pvr):
+    # get playing addon name
     try:
         rpc_query = json.dumps({
             "jsonrpc": "2.0",
@@ -125,65 +125,13 @@ def get_playing_addon(is_pvr):
         xbmc.log(f"[DiscordRPC] Could not get playing addon name: {e}", xbmc.LOGWARNING)
     return ""
 
-def removeKodiTags(text):
-    if not text:
-        return ""
-    
-    validTags = ["I", "B", "LIGHT", "UPPERCASE", "LOWERCASE", "CAPITALIZE", "COLOR"]
-    for tag in validTags:
-        r = re.compile(r"\[\s*/?\s*"+tag+r"\s*?\]")
-        text = r.sub("", text)
-    r = re.compile(r"\[\s*/?\s*CR\s*?\]")
-    text = r.sub(" ", text)
-    r = re.compile(r"\[\s*/?\s*COLOR\s*?.*?\]")
-    text = r.sub("", text)
-    return text
-
-def get_current_playing_info(self):
-    try:
-        rpc_query = json.dumps({
-            "jsonrpc": "2.0",
-            "method": "Player.GetItem",
-            "params": {"playerid": 1, "properties": [
-                "title", "showtitle", "season", "episode", "album", 
-                "artist", "genre", "streamdetails", "art", "duration", 
-                "channel", "year", "imdbnumber", "type"
-            ]},
-            "id": 1
-        })
-        rpc_response = xbmc.executeJSONRPC(rpc_query)
-        data = json.loads(rpc_response)
-        return data.get("result", {}).get("item", {})
-    except Exception as e:
-        xbmc.log(f"[DiscordRPC] Error fetching playback info: {e}", xbmc.LOGERROR)
-        return {}
-
-def get_playback_time(self):
-    try:
-        rpc_query = json.dumps({
-            "jsonrpc": "2.0",
-            "method": "Player.GetProperties",
-            "params": {"playerid": 1, "properties": ["time", "totaltime"]},
-            "id": 1
-        })
-        rpc_response = xbmc.executeJSONRPC(rpc_query)
-        data = json.loads(rpc_response)
-        props = data.get("result", {})
-        current = self.time_to_seconds(props.get("time", {}))
-        total = self.time_to_seconds(props.get("totaltime", {}))
-        return current, total
-    except Exception as e:
-        xbmc.log(f"[DiscordRPC] Error fetching playback time: {e}", xbmc.LOGERROR)
-        return 0, 0
-
-def time_to_seconds(self, time_dict):
-    if not time_dict:
-        return 0
-    return (time_dict.get("hours", 0) * 3600 +
-            time_dict.get("minutes", 0) * 60 +
-            time_dict.get("seconds", 0) +
-            time_dict.get("milliseconds", 0) / 1000.0)
-
+def time_obj_to_seconds(time_dict):
+    # convert time object to seconds
+    if not isinstance(time_dict, dict): return 0
+    return (time_dict.get('hours', 0) * 3600 +
+            time_dict.get('minutes', 0) * 60 +
+            time_dict.get('seconds', 0) +
+            time_dict.get('milliseconds', 0) / 1000.0)
 
 class DiscordHAService(xbmc.Monitor):
     def __init__(self):
@@ -192,11 +140,8 @@ class DiscordHAService(xbmc.Monitor):
         self.settings_changed = False
         self.load_settings()
 
-        self.get_current_playing_info = get_current_playing_info
-        self.get_playback_time = get_playback_time
-        self.time_to_seconds = time_to_seconds
-
     def load_settings(self):
+        # load addon settings
         self.app_id = ADDON.getSettingString("app_id")
         self.user_token = ADDON.getSettingString("user_token")
         self.ha_url = ADDON.getSettingString("ha_url").rstrip("/")
@@ -211,13 +156,16 @@ class DiscordHAService(xbmc.Monitor):
         xbmc.log("[DiscordRPC] Settings loaded.", xbmc.LOGINFO)
 
     def onSettingsChanged(self):
+        # handle settings changes
         xbmc.log("[DiscordRPC] Settings changed. Triggering restart.", xbmc.LOGINFO)
         self.settings_changed = True
 
     def is_config_valid(self):
+        # validate configuration
         return all([self.app_id, self.user_token, self.ha_url, self.ha_token, self.sensor_detail_id, self.sensor_state_id])
 
     def run_service(self):
+        # main service loop
         if not self.is_config_valid():
             xbmc.log("[DiscordRPC] Configuration is incomplete. Halting addon.", xbmc.LOGERROR)
             show_notification("Discord Presence", "Configuration incomplete!", xbmcgui.NOTIFICATION_ERROR)
@@ -261,13 +209,7 @@ class DiscordHAService(xbmc.Monitor):
                     continue
 
                 details_val = get_ha_sensor_state(self.ha_url, self.ha_token, self.sensor_detail_id)
-                state_val = get_ha_sensor_state(self.ha_url, self.ha_token, self.sensor_state_id)
                 
-                info = self.get_current_playing_info()
-                current_time, total_time = self.get_playback_time()
-                
-                addon_name = get_playing_addon(is_pvr)
-
                 payload = None
                 if not details_val or details_val.lower() in UNAVAILABLE_STATES:
                     payload = {
@@ -279,7 +221,9 @@ class DiscordHAService(xbmc.Monitor):
                         "state": "📺 Live TV" if is_pvr else " "
                     }
                 else:
-                    payload = self.build_payload(is_pvr, details_val, state_val, is_paused, addon_name, info, current_time, total_time)
+                    state_val = get_ha_sensor_state(self.ha_url, self.ha_token, self.sensor_state_id)
+                    addon_name = get_playing_addon(is_pvr)
+                    payload = self.build_payload(is_pvr, details_val, state_val, is_paused, addon_name)
 
                 if not payload:
                     if self.waitForAbort(5): break
@@ -310,7 +254,8 @@ class DiscordHAService(xbmc.Monitor):
         if self.settings_changed:
             self.settings_changed = False
 
-    def build_payload(self, is_pvr, details_val, state_val, is_paused, addon_name, info, current_time, total_time):
+    def build_payload(self, is_pvr, details_val, state_val, is_paused, addon_name):
+        # build discord payload
         app_name_str = self.app_name
         if self.display_addon_name and addon_name:
             app_name_str += f" • {addon_name}"
@@ -324,6 +269,7 @@ class DiscordHAService(xbmc.Monitor):
             (True, "Channel name"):  (details_val, state_val, 2),
             (True, "TV-show title"): (state_val, details_val, 2)
         }
+        
         mode_label = self.pvr_display_mode if is_pvr else self.media_display_mode
         config = mode_map.get((is_pvr, mode_label))
 
@@ -337,67 +283,53 @@ class DiscordHAService(xbmc.Monitor):
             payload["state"] = "Livestream - Pluto.TV"
 
         try:
-            if total_time > 0 and not is_paused:
-                now_ts = time.time()
-                start_ts = now_ts - current_time
-                end_ts = start_ts + total_time
-                payload["timestamps"] = {
-                    "start": int(start_ts * 1000),
-                    "end": int(end_ts * 1000)
-                }
+            rpc_query = json.dumps({
+                "jsonrpc": "2.0",
+                "method": "Player.GetProperties",
+                "params": {"playerid": 1, "properties": ["time", "totaltime"]},
+                "id": 1
+            })
+            rpc_response_str = xbmc.executeJSONRPC(rpc_query)
+            rpc_data = json.loads(rpc_response_str)
+
+            if 'result' in rpc_data:
+                time_data = rpc_data['result']
+                current_time_sec = time_obj_to_seconds(time_data.get('time'))
+                total_time_sec = time_obj_to_seconds(time_data.get('totaltime'))
+
+                if total_time_sec > 0 and not is_paused:
+                    now_ts = time.time()
+                    start_ts = now_ts - current_time_sec
+                    end_ts = start_ts + total_time_sec
+                    payload["timestamps"] = {
+                        "start": int(start_ts * 1000),
+                        "end": int(end_ts * 1000)
+                    }
         except Exception as e:
-            xbmc.log(f"[DiscordRPC] Failed to set timestamps: {e}", xbmc.LOGWARNING)
+            xbmc.log(f"[DiscordRPC] Failed to set timestamps via JSONRPC: {e}", xbmc.LOGWARNING)
 
         assets = {}
-        
         large_image_key = "1405130772981223454" if self.icon_color == 'Greyscale' else "1405130772981223454"
-        small_image_key_pvr = "1407207956877021236" if self.icon_color == 'Greyscale' else "1407207958252884149"
-        small_image_key_media = "1407207958294564884" if self.icon_color == 'Greyscale' else "1407207956914634772"
-        pause_image_key = "1407207956851982336" if self.icon_color == 'Greyscale' else "1407207957422411849"
-        
-        small_image_key = small_image_key_pvr if is_pvr else small_image_key_media
-        small_text = "Live TV" if is_pvr else "Playing"
-
         if is_pvr:
-            channel_name = details_val 
+            channel_name = details_val
             logo_id = get_channel_logo_id(channel_name)
             if logo_id:
                 large_image_key = logo_id
+            small_image_key = "1407207956877021236" if self.icon_color == 'Greyscale' else "1407207958252884149"
         else:
-            media_type = info.get("type")
-            imdb_id = info.get("imdbnumber")
-            media_name = None
-            api_type = None
-
-            if media_type == 'episode':
-                media_name = info.get("showtitle")
-                api_type = 'tv'
-            elif media_type == 'movie' or (media_type in ['video', 'unknown'] and imdb_id):
-                media_name = removeKodiTags(info.get("title", "Film"))
-                api_type = 'movie'
-            
-            if api_type and (imdb_id or media_name):
-                try:
-                    params = {'type': api_type}
-                    if imdb_id:
-                        params['id'] = imdb_id
-                    elif media_name:
-                        params['name'] = media_name
-                    
-                    large_image_key = f"{TMDB_API_URL}?{urllib.parse.urlencode(params)}"
-                    xbmc.log(f"[DiscordRPC] Using dynamic artwork URL: {large_image_key}")
-                except Exception as e:
-                    xbmc.log(f"[DiscordRPC] Failed to build artwork URL: {e}", xbmc.LOGWARNING)
+            small_image_key = "1407207958294564884" if self.icon_color == 'Greyscale' else "1407207956914634772"
+        
+        pause_image_key = "1407207956851982336" if self.icon_color == 'Greyscale' else "1407207957422411849"
 
         assets["large_image"] = large_image_key
         assets["large_text"] = details_val if not is_pvr else state_val
         assets["small_image"] = small_image_key
-        assets["small_text"] = small_text
+        assets["small_text"] = "Live TV"
         
         if is_paused:
             assets["small_image"] = pause_image_key
             assets["small_text"] = "PAUSE ⏸️"
-            payload["state"] = "PAUSE ⏸️" 
+            payload["state"] = "PAUSE ⏸️"
             if "timestamps" in payload:
                 del payload["timestamps"]
         
