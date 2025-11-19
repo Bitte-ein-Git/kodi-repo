@@ -72,7 +72,7 @@
 - fixed: Rubrik = Neue Sendungen (Serien), Sortierung nach Datum der neuesten Serien-Episode (absteigend)
 		</news>
 	</extension>
-</addon><addon id="plugin.video.jellyfin" name="» [COLOR crimson]Fordy-Media[/COLOR]" version="1.2.1+py3" provider-name="Bitte ein Git!">
+</addon><addon id="plugin.video.jellyfin" name="[COLOR crimson]» Fordy-Media[/COLOR]" version="99.1.1+py3" provider-name="Bitte ein Git!">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.requests" version="2.22.0+matrix.1" />
@@ -109,7 +109,7 @@
     <forum>https://forum.jellyfin.org</forum>
     <website>https://jellyfin.org/</website>
     <source>https://github.com/jellyfin/jellyfin-kodi</source>
-    <summary lang="en_GB">Fork - addom name/ui changed</summary>
+    <summary lang="en_GB">Fork - addon name/ui changed</summary>
     <description lang="en">Welcome to Jellyfin for Kodi!
 A whole new way to manage and view your media library. The Jellyfin addon for Kodi combines the best of Kodi - ultra smooth navigation, beautiful UIs and playback of any file under the sun, and Jellyfin - the most powerful fully open source multi-client media metadata indexer and server.
 
@@ -686,7 +686,7 @@ CI &amp; build changes
             <screenshot>icon.png</screenshot>
         </assets>
     </extension>
-</addon><addon id="script.service.magenta" name="» [COLOR hotpink]Magenta TV[/COLOR]" version="2.0.0" provider-name="Bitte ein Git!">
+</addon><addon id="script.service.magenta" name="[COLOR white]» [/COLOR][COLOR hotpink]Magenta TV[/COLOR][COLOR white] - Server[/COLOR]" version="2.1.0" provider-name="Bitte ein Git!">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.beautifulsoup4" />
@@ -694,7 +694,7 @@ CI &amp; build changes
       <import addon="script.module.bottle" />
       <import addon="script.module.xmltodict" />
   </requires>
-  <extension point="xbmc.service" library="service.py" start="startup" />
+  <extension point="xbmc.service" library="magenta.py" start="startup" />
   <extension point="xbmc.addon.metadata">
     <summary lang="en_GB">Magenta TV</summary>
     <description lang="en_GB">MagentaTV Service
@@ -713,34 +713,6 @@ EPG: https://kodi.heyfordy.de/iptv/magenta.xml</description>
     <license>GPL-3.0-or-later</license>
     <website>https://web.magentatv.de</website>
     <source>http://github.com/Bitte-ein-Git/kodi-repo/repo/script.service.magenta</source>
-    <assets>
-      <icon>icon.png</icon>
-    </assets>
-  </extension>
-</addon><addon id="script.service.magentatv2" name="Magenta TV 2.0 Streamer" version="1.0.3" provider-name="Jan-Luca Neumann">
-  <requires>
-      <import addon="xbmc.python" version="3.0.0" />
-      <import addon="script.module.beautifulsoup4" />
-      <import addon="script.module.requests" />
-      <import addon="script.module.bottle" />
-      <import addon="script.module.xmltodict" />
-  </requires>
-  <extension point="xbmc.service" library="service.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Magenta TV</summary>
-    <description lang="en_GB">Service addon providing the Magenta Live TV streams
-    
-M3U URL for IPTV Simple: http://localhost:4700/api/file/channels.m3u</description>
-    <description lang="de_DE">Service-Addon zur lokalen Bereitstellung der Magenta Live TV-Streams
-    
-M3U URL für IPTV Simple: http://localhost:4700/api/file/channels.m3u</description>
-    <disclaimer lang="en_GB">Widevine is required to watch the streams.</disclaimer>
-    <disclaimer lang="de_DE">Widevine wird für das Abspielen der Streams benötigt.</disclaimer>
-    <platform>all</platform>
-    <license>GPL-3.0-or-later</license>
-    <website>https://web.magentatv.de</website>
-    <email>sunsettrack4@gmail.com</email>
-    <source>http://github.com/sunsettrack4/script.service.magentatv2</source>
     <assets>
       <icon>icon.png</icon>
     </assets>
