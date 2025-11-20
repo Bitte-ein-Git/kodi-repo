@@ -23,7 +23,7 @@
   </programme>
   <programme start="20251120033500 +0000" stop="20251120035800 +0000" channel="Das Erste.de">
     <title>Brisant</title>
-    <desc>Das Boulevardmagazin berichtet uber Prominente und besonders dramatische Ereignisse.</desc>
+    <desc>Die Themen sind "Ukraine: Tote und Verletzte nach Angriff auf Ternopil</desc>
   </programme>
   <programme start="20251120035800 +0000" stop="20251120040000 +0000" channel="Das Erste.de">
     <title>Tagesschau</title>
@@ -368,6 +368,104 @@
     <desc>Lisas Guerilla-Marketing lost bei ihrer Mitinhaberin Talia ebenso wenig Begeisterung aus wie ihr Hang zu Pro-Bono-Mandaten. Die langjahrige Alleinchefin macht ihr ein provokantes Angebot: Fur eine Woche darf sie nun alle Entscheidungen treffen.</desc>
     <episode-num system="xmltv_ns">0.1.</episode-num>
   </programme>
+  <programme start="20251122031000 +0000" stop="20251122032500 +0000" channel="Das Erste.de">
+    <title>Deutschlandbilder</title>
+    <desc>Begleitet von abwechslungsreicher Musik werden verschiedene Landschaftsbilder Deutschlands gezeigt.</desc>
+    <episode-num system="xmltv_ns">.409.</episode-num>
+  </programme>
+  <programme start="20251122032500 +0000" stop="20251122035800 +0000" channel="Das Erste.de">
+    <title>Die Carolin Kebekus Show</title>
+    <sub-title>Gast: Eva Karl Faltermeier</sub-title>
+    <desc>Bei Risiken und Nebenwirkungen: Unbedingt die nachste Ausgabe der Carolin Kebekus Show einschalten! Denn hier dreht sich beim nachsten Mal alles um die Gesundheit von Frauen.</desc>
+    <episode-num system="xmltv_ns">8.4.</episode-num>
+  </programme>
+  <programme start="20251122035800 +0000" stop="20251122040000 +0000" channel="Das Erste.de">
+    <title>Tagesschau</title>
+    <sub-title>vom 22.11.2025, 04:58 Uhr</sub-title>
+    <desc>Diese Sendung berichtet uber die aktuellsten und wichtigsten Nachrichten der Bundesrepublik.</desc>
+  </programme>
+  <programme start="20251122040000 +0000" stop="20251122043000 +0000" channel="Das Erste.de">
+    <title>Quarks im Ersten</title>
+    <sub-title>Blackout oder Flow? Wie das Gehirn Spitzenleistung ermoglicht</sub-title>
+    <desc>Das Wissenschaftsmagazin geht unterschiedlichen Themen mit interessanten Erklarungen auf den Grund.</desc>
+    <episode-num system="xmltv_ns">.199.</episode-num>
+  </programme>
+  <programme start="20251122043000 +0000" stop="20251122052000 +0000" channel="Das Erste.de">
+    <title>Das Waisenhaus fur wilde Tiere</title>
+    <sub-title>Folge 125</sub-title>
+    <desc>Fur den Pavian-Nachwuchs auf Harnas soll ein neues Gehege gebaut werden. Dafur mussen die Jungtiere vorubergehend in die Buschklinik umquartiert werden. Volontarin Davina muss sich im Gegensatz dazu nicht mit vielen jungen, sondern mit einem ausgewachsenen Tier auseinandersetzen. Das hat es allerdings in sich: Macho ist der groSSte und imposanteste Lowe auf Harnas. Er hat sich schon fast unter seinem Zaun durchgegraben. Jetzt heiSSt es schnell handeln und die Sicherheitslucke beseitigen.</desc>
+    <episode-num system="xmltv_ns">2.39.</episode-num>
+  </programme>
+  <programme start="20251122052000 +0000" stop="20251122054500 +0000" channel="Das Erste.de">
+    <title>Das Camp in der Wildnis</title>
+    <sub-title>Explosiver Eintopf</sub-title>
+    <desc>Nach den Weihnachtsferien in der Heimat herrscht Katerstimmung im Wildnis-Camp. Kein Ausschlafen bis mittags und wieder Restekochen fur die ganze Klasse. Dann geht es auch noch bei Temperaturen weit unter dem Gefrierpunkt ab auf die Langlauf-Bretter.</desc>
+    <episode-num system="xmltv_ns">0.12.</episode-num>
+  </programme>
+  <programme start="20251122054500 +0000" stop="20251122060500 +0000" channel="Das Erste.de">
+    <title>Das Camp in der Wildnis</title>
+    <sub-title>Ganz schon rutschig</sub-title>
+    <desc>Nach den ersten Versuchen auf Langlaufskiern steht fur die Wildnis-Klasse die nachste Etappe der Tour auf dem Programm. Die hat es fur die Ski-Neulinge in sich. Selbst im Motivationsteam von Max schwinden langsam die Krafte.</desc>
+    <episode-num system="xmltv_ns">0.13.</episode-num>
+  </programme>
+  <programme start="20251122060500 +0000" stop="20251122061000 +0000" channel="Das Erste.de">
+    <title>Unerschrocken! - Echte Heldinnen</title>
+    <sub-title>Margaret Hamilton</sub-title>
+    <desc>Margaret Hamilton mochte schon als Kind eine Schauspielerin werden. Sie erfullt sich daraufhin ihren Traum und wird die wohl beruhmteste Hexe der gesamten Filmgeschichte: die Hexe des Westens in dem Film "Der Zauberer von OZ".</desc>
+  </programme>
+  <programme start="20251122061000 +0000" stop="20251122063500 +0000" channel="Das Erste.de">
+    <title>Anna und die wilden Tiere</title>
+    <sub-title>Freie Bahn fur den Rotmilan</sub-title>
+    <desc>Wir werfen einen Blick auf eine Erfolgsgeschichte des Artenschutzes. Anna begleitet zwei Projekte, die sich dem Schutz des Rotmilans widmen. Da die Halfte der weltweiten Population in Deutschland brutet, ist die Verantwortung hier besonders groSS.</desc>
+    <episode-num system="xmltv_ns">6..</episode-num>
+  </programme>
+  <programme start="20251122063500 +0000" stop="20251122065000 +0000" channel="Das Erste.de">
+    <title>Anna und die Haustiere</title>
+    <sub-title>Russisch Blau</sub-title>
+    <desc>Anna besucht Anja, die eine Familie dieser sanftmutigen und klugen Katzen bei sich zu Hause hat.</desc>
+    <episode-num system="xmltv_ns">.118.</episode-num>
+  </programme>
+  <programme start="20251122065000 +0000" stop="20251122071500 +0000" channel="Das Erste.de">
+    <title>Checkerin Marina</title>
+    <sub-title>Der Opern-Check</sub-title>
+    <desc>Eine Oper ist ein Theaterstuck, in dem die Darstellerinnen und Darsteller singen. Marina checkt, wie sich Sangerin Xenia auf ihren Auftritt vorbereitet. Martin erklart ihr, wie man Klarinette spielt und was ein Orchestergraben ist.</desc>
+    <episode-num system="xmltv_ns">0.24.</episode-num>
+  </programme>
+  <programme start="20251122071500 +0000" stop="20251122074000 +0000" channel="Das Erste.de">
+    <title>Wissen macht Ah!</title>
+    <sub-title>Clarissa und Tarkan: Im Klo</sub-title>
+    <desc>Oh no! Das einzige Studioklo ist komplett verstopft. Da geht nichts mehr. Mit einem Pompel bewaffnet geben sich Tarkan und Clarissa alle Muhe, um es wieder nutzbar zu machen, aber sie haben keine Chance. Ob die herbeigerufene Klempnerin helfen kann?</desc>
+    <episode-num system="xmltv_ns">19.7.</episode-num>
+  </programme>
+  <programme start="20251122074000 +0000" stop="20251122075000 +0000" channel="Das Erste.de">
+    <title>neuneinhalb - fur dich mittendrin</title>
+    <sub-title>Anders leben: Ökodorf</sub-title>
+    <desc>Das speziell fur Kinder und Jugendliche ausgelegte Nachrichtenmagazin berichtet auf verstandliche Art und Weise uber aktuelle Meldungen und wichtige Nachrichten aus verschiedenen Themenbereichen wie Gesellschaft und Politik.</desc>
+  </programme>
+  <programme start="20251122075000 +0000" stop="20251122092000 +0000" channel="Das Erste.de">
+    <title>Die Pfefferkorner und der Schatz der Tiefsee</title>
+    <desc>Wahrend der Sommerferien besucht die 12-jahrige Alice ihren Freund Tarun in Nordirland. Als Taruns Mutter, eine Meeresforscherin, auf ihrer Forschungsstation uberfallen wird, ubernimmt Alice gemeinsam mit den Pfefferkornern Johnny, Clarissa, und Hanna den Fall. Bei ihren Ermittlungen treffen sie auf einen Mullhandler namens Robert Fleckmann, der sich verdachtig benimmt. Kurz danach verschwindet die Forscherin.</desc>
+  </programme>
+  <programme start="20251122092000 +0000" stop="20251122092500 +0000" channel="Das Erste.de">
+    <title>Tagesschau</title>
+    <sub-title>vom 22.11.2025, 10:20 Uhr</sub-title>
+    <desc>Diese Sendung berichtet uber die aktuellsten und wichtigsten Nachrichten der Bundesrepublik.</desc>
+  </programme>
+  <programme start="20251122092500 +0000" stop="20251122170000 +0000" channel="Das Erste.de">
+    <title>Sportschau</title>
+    <sub-title>Ski-Weltcup: Slalom Manner / DEL Eishockey Bundesliga / Bob-Weltcup / Freestyle-Weltcup / Weltcup Skispringen / Huttenquiz</sub-title>
+    <desc>Ski-Weltcup: Slalom Manner, DEL Eishockey Bundesliga, Bob-Weltcup: Monobob Manner, Freestyle-Weltcup: Slopestyle Frauen/Manner, Weltcup Skispringen: 2. Durchgang Frauen, Huttenquiz, Bob-Weltcup: Zweierbob Manner, 2. Lauf, Weltcup Skispringen: Manner.</desc>
+  </programme>
+  <programme start="20251122170000 +0000" stop="20251122173000 +0000" channel="Das Erste.de">
+    <title>Sportschau</title>
+    <sub-title>3. Liga</sub-title>
+    <desc>Aus der FuSSball-Bundesliga werden Nachrichten, Hintergrunde und Analysen prasentiert. Gezeigt werden Berichte von allen wichtigen FuSSballspielen des Tages, in der Regel beginnend mit den Begegnungen der 3. Liga, gefolgt von der 2. und 1. Bundesliga.</desc>
+  </programme>
+  <programme start="20251122173000 +0000" stop="20251122185700 +0000" channel="Das Erste.de">
+    <title>Sportschau</title>
+    <sub-title>FuSSball-Bundesliga</sub-title>
+    <desc>1. FSV Mainz 05 - TSG Hoffenheim, FC Bayern Munchen - Sport-Club Freiburg, Borussia Dortmund - VfB Stuttgart, VfL Wolfsburg - Bayer 04 Leverkusen, FC Augsburg - Hamburger SV, 1. FC Heidenheim 1846 - Borussia Monchengladbach.</desc>
+  </programme>
   <channel id="ZDF.de">
     <display-name>ZDF HD</display-name>
   </channel>
@@ -469,11 +567,11 @@
     <sub-title>vom 20.11.2025, um 17:00 Uhr</sub-title>
     <desc>Das Nachrichtenmagazin informiert uber aktuelle Meldungen aus Deutschland und der Welt.</desc>
   </programme>
-  <programme start="20251120161000 +0000" stop="20251120170000 +0000" channel="ZDF.de">
+  <programme start="20251120161000 +0000" stop="20251120170500 +0000" channel="ZDF.de">
     <title>hallo deutschland</title>
     <desc>Das News- und Boulevardmagazin prasentiert emotionale Geschichten uber Menschen in Deutschland und Deutsche in aller Welt. Crime- und Blaulicht-Storys gehoren ebenso dazu wie Alltagstests, Lifestyle und Geschichten zum Schmunzeln.</desc>
   </programme>
-  <programme start="20251120170000 +0000" stop="20251120180000 +0000" channel="ZDF.de">
+  <programme start="20251120170500 +0000" stop="20251120180000 +0000" channel="ZDF.de">
     <title>SOKO Stuttgart</title>
     <sub-title>Tod im Wunderland</sub-title>
     <desc>Als der Chef eines Indoor-Spielplatzes beim einem Sicherheitscheck in den Tod sturzt, wird klar, dass das Stahlseil manipuliert wurde. Im Verdacht steht Emily Hellwig, da ihr Chef ihr einen Arbeitgebernachweis, den sie dringend braucht, verweigerte.</desc>
@@ -692,6 +790,224 @@
     <desc>Das Interview lost weltweit Emporung aus. Prinz Andrew muss mit den Folgen fur sich selbst, seine Familie und das Konigshaus fertigwerden. Wahrenddessen denkt Emily uber ihren Ruf und die Zukunft ihrer Karriere nach, als die Pandemie ausbricht.</desc>
     <episode-num system="xmltv_ns">0.2.</episode-num>
   </programme>
+  <programme start="20251122031000 +0000" stop="20251122035500 +0000" channel="ZDF.de">
+    <title>Terra X</title>
+    <sub-title>Expedition Anden - Gebirge in Bewegung</sub-title>
+    <desc>In den Anden bebt die Erde - und es entstehen Rohstoffe. Der Geologe Colin Devey begibt sich auf Expedition, um die Krafte des Erdinneren zu erforschen. Seine Reise fuhrt vom alten Inka-Erbe in Cusco bis ins raue chilenische Hochland.</desc>
+    <episode-num system="xmltv_ns">.1611.</episode-num>
+  </programme>
+  <programme start="20251122035500 +0000" stop="20251122043000 +0000" channel="ZDF.de">
+    <title>hallo deutschland</title>
+    <desc>Das News- und Boulevardmagazin prasentiert emotionale Geschichten uber Menschen in Deutschland und Deutsche in aller Welt. Crime- und Blaulicht-Storys gehoren ebenso dazu wie Alltagstests, Lifestyle und Geschichten zum Schmunzeln.</desc>
+  </programme>
+  <programme start="20251122043000 +0000" stop="20251122044000 +0000" channel="ZDF.de">
+    <title>Grisu - Der kleine Drache</title>
+    <sub-title>Der Geist der Rosa Hohle</sub-title>
+    <desc>An Geister glaubt Grisu eigentlich nicht, aber als er Herrn Toramento bei Arbeiten in der Rosa Hohle helfen soll, kommt ihm manches schon ziemlich gespenstisch vor. Also macht sich Grisu auf die Suche nach einer Erklarung.</desc>
+    <episode-num system="xmltv_ns">0.30.</episode-num>
+  </programme>
+  <programme start="20251122044000 +0000" stop="20251122045000 +0000" channel="ZDF.de">
+    <title>Grisu - Der kleine Drache</title>
+    <sub-title>Das duftende Geschenk</sub-title>
+    <desc>Grisu ubernimmt dieses Mal eine romantische Mission: Er soll ein Parfum herstellen, mit dem Maria ihren Freund Toramento uberraschen will. Ob die Überraschung am Ende gut duftet? Oma Gertrud, Stella und sogar Fume helfen mit.</desc>
+    <episode-num system="xmltv_ns">0.31.</episode-num>
+  </programme>
+  <programme start="20251122045000 +0000" stop="20251122050500 +0000" channel="ZDF.de">
+    <title>Grisu - Der kleine Drache</title>
+    <sub-title>Manchmal gehts schief</sub-title>
+    <desc>Eine schrage Mission erwartet Grisu in der Wuste. Er soll einen Kran steuern, mit dem Professor Smeraldo einen Obelisken wieder gerade hinstellen mochte. Hoffentlich geht nichts schief. Doch leicht ist das Steuern eines Krans selbst fur Grisu nicht.</desc>
+    <episode-num system="xmltv_ns">0.32.</episode-num>
+  </programme>
+  <programme start="20251122050500 +0000" stop="20251122051500 +0000" channel="ZDF.de">
+    <title>Grisu - Der kleine Drache</title>
+    <sub-title>Weiter so, Grisu!</sub-title>
+    <desc>Grisu ist super glucklich: Er darf bei einer Feuerwehrubung nur fur ihn mitmachen. Endlich kann Grisu zeigen, was er als Feuerwehrmann drauf hat. Bis er mal wieder aus Versehen Feuer spuckt.</desc>
+    <episode-num system="xmltv_ns">0.33.</episode-num>
+  </programme>
+  <programme start="20251122051500 +0000" stop="20251122052500 +0000" channel="ZDF.de">
+    <title>Simon Superhase</title>
+    <sub-title>Rettet die Knetfiguren!</sub-title>
+    <desc>Simon, Lou und Ferdinand haben Knetfiguren gebaut. In der Pause sehen sie, dass diese aber wegen der Sonne schmelzen. Als Superhasen mussen sie zur Sonne fliegen und die Figuren retten. Auf der Mission muss vor allem Super-Ferdi Hurden uberwinden.</desc>
+    <episode-num system="xmltv_ns">3.16.</episode-num>
+  </programme>
+  <programme start="20251122052500 +0000" stop="20251122053500 +0000" channel="ZDF.de">
+    <title>Minus Drei und die wilde Lucy</title>
+    <sub-title>Der neue Paleowski</sub-title>
+    <desc>Minus Drei muss Wachtmeister Paleowski ersetzen, denn der Wachtmeister verliert im Farnheimer Verkehrschaos die Nerven. Ist vielleicht eine Verkehrsampel die Losung? Dann bekommt der neue Wachtmeister Minus Drei auch noch andere Aufgaben.</desc>
+    <episode-num system="xmltv_ns">0.33.</episode-num>
+  </programme>
+  <programme start="20251122053500 +0000" stop="20251122054500 +0000" channel="ZDF.de">
+    <title>Minus Drei und die wilde Lucy</title>
+    <sub-title>Tur ins Gluck</sub-title>
+    <desc>Minus Drei erfindet eine fast automatische Tur fur den Laden seiner Eltern. Aber diese lehnen ab. Dann aber klaut der Farnheimer Supermarkt die Idee und macht daraus: Die Tur ins Gluck! Die Tur im Supermarkt funktioniert tatsachlich vollautomatisch.</desc>
+    <episode-num system="xmltv_ns">0.34.</episode-num>
+  </programme>
+  <programme start="20251122054500 +0000" stop="20251122060000 +0000" channel="ZDF.de">
+    <title>Meine Freundin Conni</title>
+    <sub-title>Conni auf der Baustelle</sub-title>
+    <desc>Conni und Simon jubeln. Sie machen einen Ausflug zu Papas Baustelle. Dort staunen sie uber die riesigen Baufahrzeuge, nehmen selbst im Bagger Platz und durfen sogar beim Mauern helfen. Conni lernt, wie die Bau-Berufe heiSSen. Den Beruf ihres Papas kennt sie schon: Er ist Architekt. Bauleiter Paul, uberwacht den reibungslosen Ablauf vor Ort. Die Maurer mauern eine Wand. Doch Conni ist sich sicher: Sie will Baggerfahrerin werden.</desc>
+    <episode-num system="xmltv_ns">1.12.</episode-num>
+  </programme>
+  <programme start="20251122060000 +0000" stop="20251122062500 +0000" channel="ZDF.de">
+    <title>Bibi Blocksberg</title>
+    <sub-title>Bibi und die Weihnachtsmanner</sub-title>
+    <desc>Weihnachten ist in Gefahr. Der deutsche, der franzosische und der amerikanische Weihnachtsmann sind so stark erkaltet, dass sie keine Geschenke an die Kinder verteilen konnen. Bibi fliegt mit Marita zum Haus der Weihnachtsmanner, um ihnen zu helfen.</desc>
+    <episode-num system="xmltv_ns">0.13.</episode-num>
+  </programme>
+  <programme start="20251122062500 +0000" stop="20251122063500 +0000" channel="ZDF.de">
+    <title>Taylors Welt der Tiere</title>
+    <sub-title>Die fantastische Welt der Tiere</sub-title>
+    <desc>Tommy sieht mit Taylor die neuste Folge einer Lieblingssendung "Die fantastische Welt der Tiere". Am Ende fordert der Moderator die Zuschauer auf, ein selbstgedrehtes Tiervideo einzusenden. Das beste Tiervideo soll in der Sendung gezeigt werden.</desc>
+    <episode-num system="xmltv_ns">0.48.</episode-num>
+  </programme>
+  <programme start="20251122063500 +0000" stop="20251122064500 +0000" channel="ZDF.de">
+    <title>Pirate Academy - Nichts fur Landratten</title>
+    <sub-title>Ein Spiel fur die Ewigkeit</sub-title>
+    <desc>Andrew wird von Finn und Sam verlassen, die ohne ihn mit einem Korkball spielen.</desc>
+    <episode-num system="xmltv_ns">0.46.</episode-num>
+  </programme>
+  <programme start="20251122064500 +0000" stop="20251122070000 +0000" channel="ZDF.de">
+    <title>Pirate Academy - Nichts fur Landratten</title>
+    <sub-title>Coaching fur Kaptn Flint</sub-title>
+    <desc>Da Zoe Waisenkind ist, bleibt sie wahrend der Schulferien allein in der Academy.</desc>
+    <episode-num system="xmltv_ns">0.47.</episode-num>
+  </programme>
+  <programme start="20251122070000 +0000" stop="20251122071000 +0000" channel="ZDF.de">
+    <title>Robin Hood - Schlitzohr von Sherwood</title>
+    <sub-title>Goldfieber</sub-title>
+    <desc>Als Marian einen Stein in Gold verwandelt, bricht im ganzen Dorf ein Goldrausch aus. Um die Dorfbewohner zu verscheuchen, lockt sie Prinz John in den Wald. Robin und seine Freunde mussen furchten, dass ihr Versteck auffliegen konnte.</desc>
+    <episode-num system="xmltv_ns">3.8.</episode-num>
+  </programme>
+  <programme start="20251122071000 +0000" stop="20251122072000 +0000" channel="ZDF.de">
+    <title>Robin Hood - Schlitzohr von Sherwood</title>
+    <sub-title>Der neue Drache</sub-title>
+    <desc>In Nottingham sorgt ein neuer Drache fur Aufsehen. Er hat das Schloss besetzt, Prinz John sein Gold geraubt und es sich im Schlosshof gemutlich gemacht. Um ihn wieder loszuwerden, ruckt Derke im Schloss an und spielt einen schrecklichen Drachen vor.</desc>
+    <episode-num system="xmltv_ns">3.9.</episode-num>
+  </programme>
+  <programme start="20251122072000 +0000" stop="20251122073500 +0000" channel="ZDF.de">
+    <title>Die drei Musketiere</title>
+    <sub-title>Das Wappen der Freundschaft</sub-title>
+    <desc>Charlotte, Olivia, Inès und Isa fuhren ein Doppelleben: Im Geheimen trainieren sie, um die besten Kampferinnen des Konigreichs zu werden. Sie sind die drei Musketiere! Verbunden durch eine unerschutterliche Freundschaft, beschutzen sie den Konig.</desc>
+    <episode-num system="xmltv_ns">0.2.</episode-num>
+  </programme>
+  <programme start="20251122073500 +0000" stop="20251122074500 +0000" channel="ZDF.de">
+    <title>Die drei Musketiere</title>
+    <sub-title>DArtagnan unter Verdacht</sub-title>
+    <desc>Charlotte, Olivia, Inès und Isa fuhren ein Doppelleben: Im Geheimen trainieren sie, um die besten Kampferinnen des Konigreichs zu werden. Sie sind die drei Musketiere! Verbunden durch eine unerschutterliche Freundschaft, beschutzen sie den Konig.</desc>
+    <episode-num system="xmltv_ns">0.3.</episode-num>
+  </programme>
+  <programme start="20251122074500 +0000" stop="20251122075500 +0000" channel="ZDF.de">
+    <title>Zoom - Der weiSSe Delfin</title>
+    <sub-title>Viel Ärger im Paradies</sub-title>
+    <desc>Die Einwohner von Maotou sind entsetzt. Ausgerechnet Terry Werner will einen groSSen Gebaudekomplex auf der Insel errichten. Yann und seine Freunde starten eine Kampagne, um das zu verhindern.</desc>
+    <episode-num system="xmltv_ns">2.44.</episode-num>
+  </programme>
+  <programme start="20251122075500 +0000" stop="20251122081000 +0000" channel="ZDF.de">
+    <title>Zoom - Der weiSSe Delfin</title>
+    <sub-title>Der Hai-Kafig</sub-title>
+    <desc>Yann und seine Freunde begegnen einem verletzten Hai und bringen ihn ins Institut, wo Anita ihn behandelt. Dann stellen sie fest, dass die Haie ihr ubliches Jagdrevier verlassen haben.</desc>
+    <episode-num system="xmltv_ns">2.45.</episode-num>
+  </programme>
+  <programme start="20251122081000 +0000" stop="20251122083500 +0000" channel="ZDF.de">
+    <title>Bibi und Tina</title>
+    <sub-title>Ein falscher Verdacht</sub-title>
+    <desc>Bibi, Tina und Alex sollen dem Muhlenhofbauern helfen, vier edle Paint Horses zu betreuen, die er fur kurze Zeit auf dem Muhlenhof pflegen will. Voller Spannung erwarten sie den Zug, der die Pferde bringen soll. Als dieser wegen eines Unwetters im Wald liegenbleibt, reiten sie schnell gemeinsam los. Als sie den Waggon mit den wiehernden Pferden entdecken, sehen sie, wie Freddy auf seinem Motorrad einem der Tiere in den Wald folgt.</desc>
+    <episode-num system="xmltv_ns">2.12.</episode-num>
+  </programme>
+  <programme start="20251122083500 +0000" stop="20251122090000 +0000" channel="ZDF.de">
+    <title>Bibi und Tina</title>
+    <sub-title>Spuk auf der Ferieninsel</sub-title>
+    <desc>Bibi, Tina und Alex freuen sich riesig, denn sie sollen die Ferien auf dem Gestut einer alten Bekannten des Grafen verbringen. Das Gestut liegt auf einer Insel im Meer und ist nur bei Ebbe zu erreichen. AuSSerdem glaubt die Gutsherrin fest daran, dass auf ihrer Insel ein diebisches Gespenst sein Unwesen treibt. Der Graf halt das fur Humbug und beschlieSSt, das Geheimnis rund um den Spuk zu luften. Entschlossen legt er sich auf die Lauer.</desc>
+    <episode-num system="xmltv_ns">2.0.</episode-num>
+  </programme>
+  <programme start="20251122090000 +0000" stop="20251122092500 +0000" channel="ZDF.de">
+    <title>PUR+</title>
+    <sub-title>Jobs in krasser Hohe</sub-title>
+    <desc>Sie arbeiten in luftiger Hohe, wo andere nicht hinkommen, an Hochhausfassaden, Turmen und Brucken: Industriekletterer. Eric trainiert gefahrliche Situationen und Sicherungssysteme fur einen Einsatz als Fensterreiniger und Dachdecker.</desc>
+    <episode-num system="xmltv_ns">.554.</episode-num>
+  </programme>
+  <programme start="20251122092500 +0000" stop="20251122100500 +0000" channel="ZDF.de">
+    <title>Notruf Hafenkante</title>
+    <sub-title>Engel</sub-title>
+    <desc>Eine Polizistin wird in ihrer Wohnung aus dem Fenster gestoSSen und dabei schwer verletzt. Haller kennt und schatzt die Kollegin - er war vor uber 20 Jahren ihr Barenfuhrer. Auch heute noch ist das Opfer, Nicole Wittich, Polizistin aus Berufung. Sie kummert sich zudem ehrenamtlich um Jugendliche aus Brennpunktbezirken und wurde fur ihr Engagement bereits ausgezeichnet. Da es sich um eine Kollegin handelt, geht der Fall den Polizisten des PK 21 besonders nahe.</desc>
+    <episode-num system="xmltv_ns">10.25.</episode-num>
+  </programme>
+  <programme start="20251122100500 +0000" stop="20251122105000 +0000" channel="ZDF.de">
+    <title>SOKO Wismar</title>
+    <sub-title>Der Schwedenschatz</sub-title>
+    <desc>Der Handwerker Hendrik Reschke wird von seinem Mitarbeiter tot im Keller des Kontorhauses aufgefunden, das er in Kleinarbeit fur den Bauherrn Hannes Werth renovierte. Auf den ersten Blick sieht es so aus, als sei er lediglich von der Treppe gesturzt.</desc>
+    <episode-num system="xmltv_ns">15.17.</episode-num>
+  </programme>
+  <programme start="20251122105000 +0000" stop="20251122105500 +0000" channel="ZDF.de">
+    <title>heute Xpress</title>
+    <desc>Nachrichten aus Deutschland und der Welt werden in kurzer und komprimierter Form gezeigt.</desc>
+  </programme>
+  <programme start="20251122105500 +0000" stop="20251122111000 +0000" channel="ZDF.de">
+    <title>einfach Mensch</title>
+    <sub-title>Ole Rehwald: Auf Wasserski in Halle</sub-title>
+    <desc>Wir widmen uns dem 14-jahrigen Ole Rehwald. Trotz einer Schadigung seines Nervensystems nimmt der Paraleistungssportler an einem Wasserskicamp teil und probiert das Wasserskifahren im Sitzen zum ersten Mal aus. Dabei gibt er nicht so leicht auf.</desc>
+    <episode-num system="xmltv_ns">.199.</episode-num>
+  </programme>
+  <programme start="20251122111000 +0000" stop="20251122124500 +0000" channel="ZDF.de">
+    <title>Die Teufelsfeder</title>
+    <desc>Die Schreibfeder, die in der Holle die Sunden notiert, muss ersetzt werden. Der Teufel beauftragt damit seinen Sohn. Doch das racht sich. Denn Bonifatius ist ebenso naiv wie gutmutig. Deshalb ist es nicht verwunderlich, dass die neue Feder schnell einem Betruger in die Hande fallt, der sich mit ihr zum Herrn aufschwingt und der schonen Wirtshaus-Tochter nachstellt. Das mochte Bonifatius aber auf keinen Fall zulassen. In der Holle stellt die Teufelsfeder unerwartet ihren Dienst ein.</desc>
+  </programme>
+  <programme start="20251122124500 +0000" stop="20251122141000 +0000" channel="ZDF.de">
+    <title>Inga Lindstrom: Leg dich nicht mit Lilli an</title>
+    <desc>Statt ins aufregende Stockholm geht es fur die junge Kommissarin Lilli nach der Polizeischule ins Dorf Borgholm auf dem Land. Dort erlebt sie einen Kulturschock in mehrfacher Hinsicht. Lilli merkt schnell, dass man es in Borgholm mit der Gesetzestreue nicht so genau nimmt. Lilli glaubt sich in einem Nest aus Bestechung, Begunstigung und dienstlichem Schlendrian. Glucklicherweise trifft sie auch den smarten Feriengast Malte.</desc>
+    <episode-num system="xmltv_ns">.59.</episode-num>
+  </programme>
+  <programme start="20251122141000 +0000" stop="20251122141500 +0000" channel="ZDF.de">
+    <title>heute Xpress</title>
+    <desc>Nachrichten aus Deutschland und der Welt werden in kurzer und komprimierter Form gezeigt.</desc>
+  </programme>
+  <programme start="20251122141500 +0000" stop="20251122151000 +0000" channel="ZDF.de">
+    <title>Bares fur Rares</title>
+    <sub-title>Folge 1947</sub-title>
+    <desc>Horst Lichter und sein Team prasentieren in dieser Ausgabe wieder zahlreiche seltene Fundstucke, darunter ein Modellflugzeug, Kopfschmuck, zwei Vasen, eine Schale, ein Dupont-Feuerzeug und ein von Napoleon Bonaparte signiertes Begnadigungsschreiben.</desc>
+    <episode-num system="xmltv_ns">.1946.</episode-num>
+  </programme>
+  <programme start="20251122151000 +0000" stop="20251122160000 +0000" channel="ZDF.de">
+    <title>Die Rosenheim-Cops</title>
+    <sub-title>Ausgeflogen</sub-title>
+    <desc>Marie Hofer und Polizeichef Achtziger freuen sich uber ein ausgeglichenes Budget der Musikakademie. Dann wird ausgerechnet einer der wichtigsten Sponsoren erschossen, der Falkner Johannes Klausberger. Ein fanatischer Tierschutzer gerat sofort unter Verdacht. Als Hansen und Hartl aber herausfinden, dass der Tote eine Affare hatte, erscheint der Fall in einem anderen Licht. Unterdessen machen sich Achtziger und Marie auf die Suche nach einem neuen Geldgeber fur die Akademie.</desc>
+    <episode-num system="xmltv_ns">12.2.</episode-num>
+  </programme>
+  <programme start="20251122160000 +0000" stop="20251122160500 +0000" channel="ZDF.de">
+    <title>heute Xpress</title>
+    <desc>Nachrichten aus Deutschland und der Welt werden in kurzer und komprimierter Form gezeigt.</desc>
+  </programme>
+  <programme start="20251122160500 +0000" stop="20251122163500 +0000" channel="ZDF.de">
+    <title>Landerspiegel</title>
+    <desc>Die Sendung beschaftigt sich mit aktuellen Ereignissen und Entwicklungen aus den Bundeslandern.</desc>
+    <episode-num system="xmltv_ns">.468.</episode-num>
+  </programme>
+  <programme start="20251122163500 +0000" stop="20251122170500 +0000" channel="ZDF.de">
+    <title>ZDF.reportage</title>
+    <sub-title>Dresden Prohlis - Platte mit Herz</sub-title>
+    <desc>Wir werfen einen Blick nach Dresden-Prohlis, einem Viertel, das als Brennpunkt gilt. Doch hinter den Plattenbauten leben Menschen, die zusammenhalten. Eine von ihnen ist die Hausmeisterin Claudia Druschke, die uns durch ihren Alltag begleitet.</desc>
+    <episode-num system="xmltv_ns">.595.</episode-num>
+  </programme>
+  <programme start="20251122170500 +0000" stop="20251122180000 +0000" channel="ZDF.de">
+    <title>SOKO Munchen</title>
+    <sub-title>Feuerland</sub-title>
+    <desc>Eine der wenigen Feuerwehrfrauen Munchens sturzt im Schlauchraum ihrer Feuerwache in den Tod. Schon bald tauchen Spuren auf, die auf einen Mord hindeuten. Weiterhin wird aufgedeckt, dass das Opfer eine Transgenderfrau gewesen ist.</desc>
+    <episode-num system="xmltv_ns">43.5.</episode-num>
+  </programme>
+  <programme start="20251122180000 +0000" stop="20251122182000 +0000" channel="ZDF.de">
+    <title>heute</title>
+    <sub-title>vom 22.11.2025, um 19:00 Uhr</sub-title>
+    <desc>Das Nachrichtenmagazin informiert uber aktuelle Meldungen aus Deutschland und der Welt.</desc>
+  </programme>
+  <programme start="20251122182000 +0000" stop="20251122182500 +0000" channel="ZDF.de">
+    <title>Wetter</title>
+    <desc>Die Sendung zeigt aktuelle Wettervorhersagen fur die kommenden Tage in Deutschland.</desc>
+  </programme>
+  <programme start="20251122182500 +0000" stop="20251122191500 +0000" channel="ZDF.de">
+    <title>Lena Lorenz - Sternenkind</title>
+    <desc>Lena Lorenz betreut ein Elternpaar, dessen Baby im Mutterleib gestorben ist. Lucie kann den Tod nicht akzeptieren und fuhlt sich allein gelassen. Sie flieht in die Berge. Auch Julia kampft mit dem Vertrauen in ihren Korper nach einer OP.</desc>
+    <episode-num system="xmltv_ns">5.1.</episode-num>
+  </programme>
   <channel id="SR Fernsehen.de">
     <display-name>SR Fernsehen FHD</display-name>
   </channel>
@@ -766,7 +1082,7 @@
   </programme>
   <programme start="20251120091000 +0000" stop="20251120094000 +0000" channel="SR Fernsehen.de">
     <title>Brisant</title>
-    <desc>Das Boulevardmagazin berichtet uber Prominente und besonders dramatische Ereignisse.</desc>
+    <desc>Die Themen sind "Ukraine: Tote und Verletzte nach Angriff auf Ternopil</desc>
   </programme>
   <programme start="20251120094000 +0000" stop="20251120103000 +0000" channel="SR Fernsehen.de">
     <title>Sturm der Liebe</title>
@@ -1102,6 +1418,113 @@
   <programme start="20251122025500 +0000" stop="20251122033500 +0000" channel="SR Fernsehen.de">
     <title>aktueller bericht</title>
     <desc>Die Sendung zeigt Reporterberichte, Nachrichtenfilme, Meldungen, Kommentare und die Meinung der Zuschauerinnen und Zuschauer. Diese konnen sich taglich mit ihren Fragen und Diskussionsbeitragen direkt via Telefon an Experten im Studio wenden.</desc>
+  </programme>
+  <programme start="20251122033500 +0000" stop="20251122040000 +0000" channel="SR Fernsehen.de">
+    <title>SWR Aktuell Rheinland-Pfalz</title>
+    <sub-title>vom 22.11.2025, 04:35 Uhr</sub-title>
+    <desc>Die Sendung zeigt die neuesten Nachrichten aus dem Sudwesten, mit Schwerpunkt Rheinland-Pfalz.</desc>
+  </programme>
+  <programme start="20251122040000 +0000" stop="20251122043000 +0000" channel="SR Fernsehen.de">
+    <title>SWR Aktuell Baden-Wurttemberg</title>
+    <sub-title>vom 22.11.2025, 05:00 Uhr</sub-title>
+    <desc>Diese Sendung berichtet uber aktuelle Neuigkeiten aus Baden-Wurttemberg und Rheinland-Pfalz.</desc>
+  </programme>
+  <programme start="20251122043000 +0000" stop="20251122050000 +0000" channel="SR Fernsehen.de">
+    <title>Einfach und kostlich</title>
+    <sub-title>Soren Anders kocht Raucherfischfrikadelle and Auberginen-Tatar</sub-title>
+    <desc>Soren Anders kocht mit Bjorn Freitag Raucherfischfrikadellen und Auberginen-Tatar.</desc>
+    <episode-num system="xmltv_ns">3..</episode-num>
+  </programme>
+  <programme start="20251122050000 +0000" stop="20251122054500 +0000" channel="SR Fernsehen.de">
+    <title>Reisen in ferne Welten: Die Marquesas</title>
+    <sub-title>Die Marquesas - Vergessene Inseln der Sudsee</sub-title>
+    <desc>Mitten im Sudpazifik liegen die Marquesas-Inseln. Raues Meer, felsige Kusten und schroffe, grune Berge statt Sudseeklischee - nur wenige Touristen besuchen die 14 Eilande. Der Film portratiert die geheimnisvollen Inseln und ihre kulturelle Entwicklung: Einst waren die Bewohner Kannibalen, doch die christlichen Missionare bekehrten das Inselvolk.</desc>
+    <episode-num system="xmltv_ns">16.0.</episode-num>
+  </programme>
+  <programme start="20251122054500 +0000" stop="20251122062500 +0000" channel="SR Fernsehen.de">
+    <title>aktueller bericht</title>
+    <desc>Die Sendung zeigt Reporterberichte, Nachrichtenfilme, Meldungen, Kommentare und die Meinung der Zuschauerinnen und Zuschauer. Diese konnen sich taglich mit ihren Fragen und Diskussionsbeitragen direkt via Telefon an Experten im Studio wenden.</desc>
+  </programme>
+  <programme start="20251122062500 +0000" stop="20251122065500 +0000" channel="SR Fernsehen.de">
+    <title>Wir im Saarland - Saar nur!</title>
+    <desc>Das Magazin informiert aktuell und verlasslich uber regional relevante Themen des Saarlands. Informativ und unterhaltsam soll es Gesprachsstoff liefern, Anregungen geben, Staunen auslosen und ins Wochenende begleiten.</desc>
+  </programme>
+  <programme start="20251122065500 +0000" stop="20251122083000 +0000" channel="SR Fernsehen.de">
+    <title>Panoramablick - das Wetter im Sudwesten</title>
+    <desc>Schone Bilder zeigen das Wetter an den schonsten Orten in Baden-Wurttemberg, Rheinland-Pfalz und im Saarland. Die Wetterbilder helfen bei der Freizeitgestaltung genauso wie bei der Planung des geeigneten Verkehrsmittels zur Arbeit.</desc>
+  </programme>
+  <programme start="20251122083000 +0000" stop="20251122090000 +0000" channel="SR Fernsehen.de">
+    <title>Eisenbahn-Romantik</title>
+    <sub-title>Die Pilatusbahn - Steilste Zahnradbahn der Welt</sub-title>
+    <desc>Der Pilatus ist der sagenumwobene Hausberg von Luzern, wo in Felsspalten sogar Drachen gehaust haben sollen. Seit 1889 fahrt die steilste Zahnradbahn der Welt die knapp funf Kilometer kurze Strecke hinauf zur Bergstation Pilatus Kulm. Der Hohenunterschied von 1.600 Metern wird mit einer sogenannten Fischgratenzahnstange uberwunden - bis heute ein einmaliges System. Sie ist zum Sinnbild einer Zeit geworden, in der die Gipfelsturmer alles unternahmen, um ihre Ziele zu erreichen.</desc>
+  </programme>
+  <programme start="20251122090000 +0000" stop="20251122103000 +0000" channel="SR Fernsehen.de">
+    <title>Das Salzkammergut - Berge, Seen und kaiserliches Flair</title>
+    <desc>Aufgrund reicher Salzvorkommen und spektakularer Natur haben Österreichs Kaiser das Salzkammergut wie ihre private Schatzkiste behandelt. In der Abgeschiedenheit haben sich zwischen Dachsteingebirge und Traunsee besondere Traditionen entwickelt.</desc>
+  </programme>
+  <programme start="20251122103000 +0000" stop="20251122104500 +0000" channel="SR Fernsehen.de">
+    <title>Klimazeit</title>
+    <sub-title>Folge 149</sub-title>
+    <desc>In der Sendung sprechen Expertinnen und Experten wochentlich uber Ergebnisse in der Klimaforschung.</desc>
+    <episode-num system="xmltv_ns">0.148.</episode-num>
+  </programme>
+  <programme start="20251122104500 +0000" stop="20251122113000 +0000" channel="SR Fernsehen.de">
+    <title>Doc Fischer</title>
+    <sub-title>Rheuma - wenn das Immunsystem die Gelenke angreift</sub-title>
+    <desc>Rheuma - wenn das Immunsystem die Gelenke angreift: Rheuma betrifft haufig Finger, Knie oder Schultern - die Gelenke entzunden sich, werden steif und schmerzen.</desc>
+    <episode-num system="xmltv_ns">6.9.</episode-num>
+  </programme>
+  <programme start="20251122113000 +0000" stop="20251122121500 +0000" channel="SR Fernsehen.de">
+    <title>Ausweg Abnehmspritze?</title>
+    <desc>Konnen Abnehmspritzen tatsachlich dabei helfen, Gewicht zu verlieren? Sie versprechen schnellen Gewichtsverlust, doch Experten warnen vor schweren Nebenwirkungen wie Krebs. Experten prufen die Fakten und stellen gesunde Alternativen ohne Spritze vor.</desc>
+  </programme>
+  <programme start="20251122121500 +0000" stop="20251122130000 +0000" channel="SR Fernsehen.de">
+    <title>Assenheimers Promitalk</title>
+    <sub-title>Gast: Johanna Gastdorf</sub-title>
+    <desc>Jorg Assenheimer unterhalt sich jede Woche mit einem anderen prominenten Talkgast.</desc>
+    <episode-num system="xmltv_ns">.17.</episode-num>
+  </programme>
+  <programme start="20251122130000 +0000" stop="20251122143000 +0000" channel="SR Fernsehen.de">
+    <title>Heimkehr mit Hindernissen</title>
+    <desc>Der Tierarzt Hansi Riedlinger ist vor vielen Jahren nach Australien ausgewandert. Auf Bitten seiner Mutter kehrt er nun ins Kaisertal zuruck, um seinem Vater Johann unter die Arme zu greifen. Nach einer kostspieligen Renovierung seines Gestuts ist er in finanzielle Schwierigkeiten geraten. Es droht der Verlust des Hofes, denn fruher als abgemacht, fordert Burgermeister Ludwig Hackl sein Darlehen zuruck.</desc>
+  </programme>
+  <programme start="20251122143000 +0000" stop="20251122150000 +0000" channel="SR Fernsehen.de">
+    <title>Tannheimer Tal, da will ich hin!</title>
+    <desc>Das Tannheimer Tal ist ein Hochtal in den osterreichischen Alpen und bei Urlaubern aus dem Sudwesten sehr beliebt. Michael Friemel startet am fruhen Morgen mit Ballonpilotin Bianca Hofer, um sich einen ersten Eindruck aus der Luft zu verschaffen.</desc>
+    <episode-num system="xmltv_ns">.139.</episode-num>
+  </programme>
+  <programme start="20251122150000 +0000" stop="20251122154500 +0000" channel="SR Fernsehen.de">
+    <title>Ausgerechnet - Fliegen</title>
+    <desc>Warum zahlen einige Passagiere fur ihr Flugticket mehr und andere weniger, und wann ist der beste Zeitpunkt, um Fluge gunstig zu buchen? Die Antworten findet der Reporter Daniel ASSmann, als er am Flughafen in Frankfurt hinter die Kulissen blickt.</desc>
+    <episode-num system="xmltv_ns">10.2.</episode-num>
+  </programme>
+  <programme start="20251122154500 +0000" stop="20251122163000 +0000" channel="SR Fernsehen.de">
+    <title>Guzzis coming home</title>
+    <desc>Das Thema der Woche steht genauso auf dem Plan wie Portrats von Musikern, Ausflugstipps in der GroSSregion, Kochen mit Kopfchen, Starinterviews, Reportagen oder auch das Saarlandquiz. Uns interessieren vor allem die schonen Seiten des Saarlandes.</desc>
+  </programme>
+  <programme start="20251122163000 +0000" stop="20251122170000 +0000" channel="SR Fernsehen.de">
+    <title>Deutschland stahlhart</title>
+    <desc>In Eisenhuttenstadt und Saarlouis stehen die Zeichen auf Umbruch. Dort sorgt die Stahlindustrie nicht nur fur Jobs, sondern stiftet Identitat. Noch vor der Wiedervereinigung haben beide Stadte die erste deutsch-deutsche Stadtepartnerschaft gegrundet.</desc>
+  </programme>
+  <programme start="20251122170000 +0000" stop="20251122171500 +0000" channel="SR Fernsehen.de">
+    <title>SR info</title>
+    <sub-title>vom 22.11.2025, 18:00 Uhr</sub-title>
+    <desc>Die Sendung berichtet uber das Saarland und die Welt und zeigt dabei regionale und uberregionale Information in einer Mischung aus internationaler Politik und den Ereignissen des Tages in der Region und in der gesamten Welt.</desc>
+    <episode-num system="xmltv_ns">.1746.</episode-num>
+  </programme>
+  <programme start="20251122171500 +0000" stop="20251122174500 +0000" channel="SR Fernsehen.de">
+    <title>Flohmarkt</title>
+    <desc>schmalen Grat zwischen Kunst und Kitsch findet alles seinen Platz und seine Liebhaber. Ein Bummel uber den Flohmarkt lohnt sich also immer, selbst wenn nur Erinnerungen an langst vergangene Kindertage wachgerufen werden.</desc>
+  </programme>
+  <programme start="20251122174500 +0000" stop="20251122181500 +0000" channel="SR Fernsehen.de">
+    <title>Mit Herz am Herd</title>
+    <sub-title>Frankfurter SoSSe mit Knusperschnitzel</sub-title>
+    <desc>Cliff Hammerle hat sich neue Rezepte ausgedacht, die er an der Kochinsel vorstellt. Zusammen mit seinen Kochlehrlingen Verena Sierra und Michel Koch wird diesmal in Dillingen gekocht: Frankfurter SoSSe mit Knusperschnitzel.</desc>
+    <episode-num system="xmltv_ns">.133.</episode-num>
+  </programme>
+  <programme start="20251122181500 +0000" stop="20251122184500 +0000" channel="SR Fernsehen.de">
+    <title>daten der woche</title>
+    <desc>Der Wochenruckblick furs Saarland und fur die Saar-Lor-Lux-Region mit dem Wichtigsten aus Politik, Wirtschaft, Kultur und Sport.</desc>
   </programme>
   <channel id="ARTE.de">
     <display-name>ARTE HD</display-name>
@@ -1460,6 +1883,107 @@
     <sub-title>Folge 3707</sub-title>
     <desc>Das Kulturmagazin nimmt ein aktuelles Thema aus Politik oder Wirtschaft unter die Lupe.</desc>
     <episode-num system="xmltv_ns">.3745.</episode-num>
+  </programme>
+  <programme start="20251122042500 +0000" stop="20251122045100 +0000" channel="ARTE.de">
+    <title>Das Centre Pompidou</title>
+    <sub-title>Erzahlt von seinem Aufsichtspersonal</sub-title>
+    <desc>Mit seiner unkonventionellen Architektur und der groSSten Sammlung moderner und zeitgenossischer Kunst in Europa beeindruckt das Centre Pompidou. Drei Aufsichtspersonen fuhren zu ihren Lieblingswerken und hinter die Kulissen eines Museums.</desc>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+  </programme>
+  <programme start="20251122045100 +0000" stop="20251122054400 +0000" channel="ARTE.de">
+    <title>Bruce Springsteen, der amerikanische Freund</title>
+    <desc>Bruce Springsteen steht fur amerikanische Rockmusik wie kaum ein anderer Sanger. Der Film zeigt ein raffiniertes Puzzle aus Konzertausschnitten, Fotos und Auszugen aus literarischen Werken. Dabei wird vor allem sein politisches Engagement beleuchtet.</desc>
+  </programme>
+  <programme start="20251122054400 +0000" stop="20251122061600 +0000" channel="ARTE.de">
+    <title>360° Reportage</title>
+    <sub-title>Japan: Das Erbe der Samurai</sub-title>
+    <desc>Das legendare Katana Samurai-Schwert ist fest mit der japanischen Kultur verbunden. In einer Schmiede in Yamagata arbeitet einer der besten Schwertschmiede Japans. Wochenlang fertigt er mit der seltenen Dreistahlmethode ein Auftragsschwert.</desc>
+    <episode-num system="xmltv_ns">.669.</episode-num>
+  </programme>
+  <programme start="20251122061600 +0000" stop="20251122070800 +0000" channel="ARTE.de">
+    <title>360° Reportage</title>
+    <sub-title>Istanbul, Stadt der Katzen</sub-title>
+    <desc>Istanbul beherbergt circa 15 Millionen Einwohner und 150.000 StraSSenkatzen. Die Tiere sind uberall in der Stadt anzutreffen. Den Umstand, dass die meisten von ihnen gesund und satt wirken, haben sie vor allem den Bewohnern der Stadt zu verdanken.</desc>
+    <episode-num system="xmltv_ns">.12.</episode-num>
+  </programme>
+  <programme start="20251122070800 +0000" stop="20251122080000 +0000" channel="ARTE.de">
+    <title>360° Geo Reportage</title>
+    <sub-title>Mohair: das Garn der Guten Hoffnung</sub-title>
+    <desc>Diamantfaser - so wird Mohair auch genannt. Die internationale Modeindustrie hat das feine Haar der Angoraziegen langst wieder fur sich entdeckt. Die Preise am Weltmarkt sind so hoch wie nie. Das meiste und auch das edelste Mohair stammt aus der sudafrikanischen Halbwuste Karoo. Hier finden die gelockten Angoraziegen optimale Lebensbedingungen. 360 Geo Reportage hat einen Winter in der Karoo verbracht und hinter die Kulissen der Mohair-Industrie geschaut.</desc>
+    <episode-num system="xmltv_ns">.1.</episode-num>
+  </programme>
+  <programme start="20251122080000 +0000" stop="20251122083900 +0000" channel="ARTE.de">
+    <title>Stadt Land Kunst Spezial</title>
+    <sub-title>Spezial Botsuana</sub-title>
+    <desc>Die Themen der Sendung lauten dieses Mal "Alexander McCall Smith: Mma Ramotswe auf Safari in Botsuana</desc>
+  </programme>
+  <programme start="20251122083900 +0000" stop="20251122091700 +0000" channel="ARTE.de">
+    <title>Stadt Land Kunst Spezial</title>
+    <sub-title>Vietnam</sub-title>
+    <desc>Spezial Vietnam mit folgenden Themen: Vũ Trọng Phụngs satirischer Blick auf das Land/ Hue, einstige Hauptstadt/ Kampfe bei den Konigen des Tierreichs.</desc>
+  </programme>
+  <programme start="20251122091700 +0000" stop="20251122094300 +0000" channel="ARTE.de">
+    <title>Zu Tisch</title>
+    <sub-title>Korfu, Griechenland</sub-title>
+    <desc>Korfu gilt als eine der grunsten Inseln Griechenlands. Nicht uberraschend, dass dort auch Kumquats gedeihen. Die aus Asien stammenden Zitrusfruchte werden seit Mitte der 1920er Jahre im Norden der Insel angebaut.</desc>
+    <episode-num system="xmltv_ns">.276.</episode-num>
+  </programme>
+  <programme start="20251122094300 +0000" stop="20251122103500 +0000" channel="ARTE.de">
+    <title>Naturerbe Kanada</title>
+    <sub-title>Das nordliche Quebec</sub-title>
+    <desc>Es geht in das nordliche Quebec. Der Nadelwald ist das am weitesten verbreitete Ökosystem des Planeten. Die indigenen Volker versuchen, das Land ihrer Vorfahren vor der Gier der Bergbau- und der in Quebec sehr machtigen Holzindustrie zu bewahren.</desc>
+  </programme>
+  <programme start="20251122103500 +0000" stop="20251122112700 +0000" channel="ARTE.de">
+    <title>Naturerbe Kanada</title>
+    <sub-title>Die westlichen Prarien</sub-title>
+    <desc>Es geht in die westlichen Prarien Kanadas. Das Grasland erstreckt sich nur noch uber etwa 80.000 Quadratkilometer. Es zahlt heute zu den am starksten bedrohten Ökosystemen der Welt und ist der traditionelle Lebensraum der Prariebisons.</desc>
+  </programme>
+  <programme start="20251122112700 +0000" stop="20251122122000 +0000" channel="ARTE.de">
+    <title>Naturerbe Kanada</title>
+    <sub-title>Der Kustenwald am Pazifik</sub-title>
+    <desc>Die Provinz British Columbia zeichnet sich durch die groSSe Vielfalt ihrer Waldokosysteme aus. Dort erstreckt sich einer der weltweit groSSten Regenwalder in gemaSSigten Breiten. Doch der Klimawandel bringt Bedrohungen mit sich.</desc>
+  </programme>
+  <programme start="20251122122000 +0000" stop="20251122134800 +0000" channel="ARTE.de">
+    <title>Ingo Thiel - Die Frau ohne Gesicht</title>
+    <desc>Eine entstellte Leiche auf einer LandstraSSe bei Monchengladbach - keine Papiere, keine Hinweise, nur Blut und Glassplitter. Fur Ingo Thiel und seine Sonderkommission "Frau ohne Gesicht" beginnt eine zermurbende Spurensuche.</desc>
+  </programme>
+  <programme start="20251122134800 +0000" stop="20251122143100 +0000" channel="ARTE.de">
+    <title>Abenteuer Brasilien - Ein Land wie ein Kontinent</title>
+    <sub-title>Vom Ipanema-Strand zum heiligen Berg</sub-title>
+    <desc>Sylvestre Campe fliegt zum heiligen Berg Roraima ganz im Norden an der Grenze zu Venezuela. Der Berg gehort zu den altesten geologischen Formationen der Erde. Die Indigenen verehren den 3000 Meter hohen Tafelberg als Mutter allen Wassers.</desc>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+  </programme>
+  <programme start="20251122143100 +0000" stop="20251122151400 +0000" channel="ARTE.de">
+    <title>Abenteuer Brasilien - Ein Land wie ein Kontinent</title>
+    <sub-title>Der Rio Negro, von Sao Gabriel bis Manaus</sub-title>
+    <desc>Nahe der kolumbianischen Grenze haben Spitzenkoche die Rezepte von Dona Brazi entdeckt. Sylvestre Campe fliegt von Sao Gabriel da Cachoeira bis nach Manaus entlang am groSSten Schwarzwasserfluss der Welt: dem Rio Negro. Seine Reise endet in Manaus.</desc>
+    <episode-num system="xmltv_ns">0.1.</episode-num>
+  </programme>
+  <programme start="20251122151400 +0000" stop="20251122162500 +0000" channel="ARTE.de">
+    <title>Abenteuer Brasilien - Ein Land wie ein Kontinent</title>
+    <sub-title>Wuste mit Wasser, die einzigartigen Lençois Maranhenses</sub-title>
+    <desc>Sylvestre Campe zeigt die fur ihre stetigen Winde beruhmte Kuste im Nordosten Brasiliens. Fur Kitesurfer ein absolutes Muss. Campe trifft in dieser paradiesischen Landschaft einen ehemaligen Programmierer, der sein Geld mit dem Kiten verdient.</desc>
+    <episode-num system="xmltv_ns">0.2.</episode-num>
+  </programme>
+  <programme start="20251122162500 +0000" stop="20251122172000 +0000" channel="ARTE.de">
+    <title>ARTE Reportage</title>
+    <sub-title>Marokko: Die Revolte der Gen Z; Sudafrika: Geige gegen Armut</sub-title>
+    <desc>Die marokkanische Jugend der Generation Z mobilisiert sich, um Sozial- und Wirtschaftsreformen zu fordern. In Sudafrika werden Schwarze Kinder aus den Townships im Geigenspiel unterrichtet, um soziale Spaltungen zu bekampfen.</desc>
+  </programme>
+  <programme start="20251122172000 +0000" stop="20251122173500 +0000" channel="ARTE.de">
+    <title>Mit offenen Karten</title>
+    <sub-title>EU und GroSSbritannien: Neuanfang?</sub-title>
+    <desc>Der russische Angriffskrieg erinnerte die Briten daran, dass ihr Schicksal eng mit dem Europas verknupft ist. Seither wurden die Beziehungen zu Deutschland und Frankreich verstarkt und ein Verteidigungs- und Sicherheitspakt mit der EU abgeschlossen.</desc>
+    <episode-num system="xmltv_ns">.6.</episode-num>
+  </programme>
+  <programme start="20251122173500 +0000" stop="20251122182000 +0000" channel="ARTE.de">
+    <title>Die Anden Ecuadors</title>
+    <desc>In den Anden Ecuadors werden im Schatten machtiger Vulkane zahlreiche Traditionen bewahrt. In Cuenca etwa steht das Handwerk des Flechtens von Panamahuten sogar unter Schutz der UNESCO. Einige Bauernkooperativen halten wieder Alpakas.</desc>
+  </programme>
+  <programme start="20251122182000 +0000" stop="20251122184000 +0000" channel="ARTE.de">
+    <title>ARTE Journal</title>
+    <sub-title>vom 22.11.2025, 19:20:00 Uhr</sub-title>
+    <desc>Die Nachrichtensendung bereitet taglich das aktuelle Tagesgeschehen auf.</desc>
   </programme>
   <channel id="ZDFneo.de">
     <display-name>ZDFneo HD</display-name>
@@ -1893,6 +2417,131 @@
     <desc>Jenn und ihre Kinder denken uber eine Zukunft in Morecambe nach. Doch bis dahin ist sie fest entschlossen, die Wahrheit uber den Mord an Saif Rahman herauszufinden. Wahrenddessen wird Manning mit einem unangenehmen Familienereignis konfrontiert.</desc>
     <episode-num system="xmltv_ns">2.5.</episode-num>
   </programme>
+  <programme start="20251122033500 +0000" stop="20251122042000 +0000" channel="ZDFneo.de">
+    <title>Terra X</title>
+    <sub-title>Ratselhafte Phanomene - Vulkane und Geisterbaume</sub-title>
+    <desc>Baume, die keine Fotosynthese betreiben und doch wachsen, steinerne Saulen, die plotzlich in einem Stausee auftauchen, und eine Fliege, die muhelos auf Tauchgang geht: Der faszinierende Kosmos der Natur halt so manche Überraschung parat.</desc>
+    <episode-num system="xmltv_ns">.1438.</episode-num>
+  </programme>
+  <programme start="20251122042000 +0000" stop="20251122050500 +0000" channel="ZDFneo.de">
+    <title>Terra X</title>
+    <sub-title>Ratselhafte Phanomene - Springfluten und Polsprunge</sub-title>
+    <desc>Die Dokumentation zeigt, wie sehr geheimnisvolle Krafte die Erde beeinflussen: UnregelmaSSigkeiten des Erdmagnetfeldes, Wellen, die flussaufwarts brechen, und zarte Schmetterlinge, die wie von Geisterhand gelenkt bis zu 4000 Kilometer bewaltigen.</desc>
+    <episode-num system="xmltv_ns">.1437.</episode-num>
+  </programme>
+  <programme start="20251122050500 +0000" stop="20251122053500 +0000" channel="ZDFneo.de">
+    <title>Terra Xpress</title>
+    <sub-title>Extremwetter - Was konnen wir tun?</sub-title>
+    <desc>Die Extremwetter nehmen nachweisbar zu. Waren die vergangenen Jahre eher durch Durre und Hitze gepragt, sind es 2021 vermehrt Starkregen. Die Sendung beleuchtet mithilfe von Experten, wie man sich in Zukunft vor solchen Katastrophen schutzen kann.</desc>
+  </programme>
+  <programme start="20251122053500 +0000" stop="20251122063000 +0000" channel="ZDFneo.de">
+    <title>Terra X</title>
+    <sub-title>Eine Erde - Inseln</sub-title>
+    <desc>In einer atemberaubenden Weltreise werden extreme Lebensraume und ihre Bewohner in ihrer ganzen Einzigartigkeit dokumentiert. Auftakt der Reihe bilden die Inseln. Vom Meer umgeben, entwickelten sie eigenstandige Welten fur sich.</desc>
+    <episode-num system="xmltv_ns">.1036.</episode-num>
+  </programme>
+  <programme start="20251122063000 +0000" stop="20251122071500 +0000" channel="ZDFneo.de">
+    <title>Terra X</title>
+    <sub-title>Eine Erde - viele Welten - Dschungel</sub-title>
+    <desc>Kein Lebensraum an Land beherbergt groSSeren Artenreichtum als tropische Regenwalder. Hier liefern sich die Bewohner intensivste Konkurrenzkampfe. Die groSSen Walder sind Orte voller dramatischer Geschichten und uberraschender Ereignisse. Jaguare fangen Kaimane, Delfine schwimmen durch Baumkronen, und Frosche verteidigen in Ninja-Manier ihren Nachwuchs. Die Reise geht von den Dschungelgebieten Sudamerikas und Sudostasiens bis zu den Regenwaldern Australiens.</desc>
+    <episode-num system="xmltv_ns">.1039.</episode-num>
+  </programme>
+  <programme start="20251122071500 +0000" stop="20251122080000 +0000" channel="ZDFneo.de">
+    <title>Terra X</title>
+    <sub-title>Eine Erde - viele Welten - Stadte</sub-title>
+    <desc>Stadte wachsen schneller als jeder andere Lebensraum auf der Erde. Auch die kuhnsten unter den Wildtieren zieht es an diese Orte: Leoparden streifen durch die StraSSen von Mumbai und Wanderfalken jagen zwischen New Yorks Wolkenkratzern.</desc>
+    <episode-num system="xmltv_ns">.1141.</episode-num>
+  </programme>
+  <programme start="20251122080000 +0000" stop="20251122084500 +0000" channel="ZDFneo.de">
+    <title>Terra X</title>
+    <sub-title>Überleben! - Unser Erbe</sub-title>
+    <desc>Auf der abgelegensten Forschungsstation Gronlands untersucht eine Meeresbiologin die Klimageschichte des Planeten. Denn am Beginn der menschlichen Überlebensgeschichte steht die Anpassung des genetischen Erbes an die Entwicklung des globalen Klimas.</desc>
+    <episode-num system="xmltv_ns">.1459.</episode-num>
+  </programme>
+  <programme start="20251122084500 +0000" stop="20251122093000 +0000" channel="ZDFneo.de">
+    <title>Terra X</title>
+    <sub-title>Überleben! - Unsere Chancen</sub-title>
+    <desc>Als Meeresforscherin erlebt Antje Boetius aus erster Hand, wie sich Naturraume radikal verandern. Auf mehr als 50 Expeditionen in extreme Naturraume untersucht sie, wie Menschen in Zukunft uberleben konnen, ohne weiter die Natur zu zerstoren.</desc>
+    <episode-num system="xmltv_ns">.1461.</episode-num>
+  </programme>
+  <programme start="20251122093000 +0000" stop="20251122101000 +0000" channel="ZDFneo.de">
+    <title>Terra X</title>
+    <sub-title>Faszination Erde - mit Dirk Steffens - Extreme Welten: Das unsichtbare Netzwerk</sub-title>
+    <desc>Dirk Steffens zeigt uberraschende Abhangigkeiten zwischen extremen Welten und entdeckt, dass ein unscheinbarer Organismus auf seiner Reise um den Globus Einfluss auf das Schicksal des Planeten nimmt. Ohne ihn sahe unsere Welt vollig anders aus.</desc>
+    <episode-num system="xmltv_ns">.1291.</episode-num>
+  </programme>
+  <programme start="20251122101000 +0000" stop="20251122105500 +0000" channel="ZDFneo.de">
+    <title>Terra X</title>
+    <sub-title>Faszination Erde - mit Dirk Steffens - Alaska - im ewigen Fruhling</sub-title>
+    <desc>Mit Fruhlingsbeginn erwacht Alaska aus dem Winterschlaf. Es ist ein Leben im Zeitraffer, denn nur vier Monate bleiben bis zum nachsten Winter. Doch der Klimawandel bringt Veranderung. Alaska ist gepragt von extremen Wintern und kurzen Sommern.</desc>
+    <episode-num system="xmltv_ns">.1337.</episode-num>
+  </programme>
+  <programme start="20251122105500 +0000" stop="20251122114000 +0000" channel="ZDFneo.de">
+    <title>Terra X</title>
+    <sub-title>Ratselhafte Phanomene - Powerschnecken und haariges Eis</sub-title>
+    <desc>Schnecken, die Farbexplosionen auslosen, Vogel, die Feuer legen, Eisflachen und Dunen, die singen, und Holzstamme, denen plotzlich scheinbar Haare wachsen, sind nur ein paar der ratselhaften Phanomene mit denen sich Dirk Steffens diesmal beschaftigt.</desc>
+    <episode-num system="xmltv_ns">.1278.</episode-num>
+  </programme>
+  <programme start="20251122114000 +0000" stop="20251122122500 +0000" channel="ZDFneo.de">
+    <title>Terra X</title>
+    <sub-title>Ratselhafte Phanomene - Sternengold und der Hauch des Todes</sub-title>
+    <desc>Die Natur steckt voll seltsamer und faszinierender Erscheinungen. Der Wissenschaftsjournalist Dirk Steffens hat sich auf die Suche nach Erklarungen gemacht. Er wirft einen Blick auf weltweit Phanomene, die auf den ersten Blick kaum zu erklaren sind. Was hat Basalt zum Beispiel mit Schneeflocken und Bienenwaben zu tun, oder wie entsteht das geheimnisvolle Leuchtfeuer des Nordlichts?</desc>
+    <episode-num system="xmltv_ns">.1362.</episode-num>
+  </programme>
+  <programme start="20251122122500 +0000" stop="20251122131000 +0000" channel="ZDFneo.de">
+    <title>Terra X</title>
+    <sub-title>Ratselhafte Phanomene - Springfluten und Polsprunge</sub-title>
+    <desc>Die Dokumentation zeigt, wie sehr geheimnisvolle Krafte die Erde beeinflussen: UnregelmaSSigkeiten des Erdmagnetfeldes, Wellen, die flussaufwarts brechen, und zarte Schmetterlinge, die wie von Geisterhand gelenkt bis zu 4000 Kilometer bewaltigen.</desc>
+    <episode-num system="xmltv_ns">.1437.</episode-num>
+  </programme>
+  <programme start="20251122131000 +0000" stop="20251122135500 +0000" channel="ZDFneo.de">
+    <title>Terra X</title>
+    <sub-title>Ratselhafte Phanomene - Vulkane und Geisterbaume</sub-title>
+    <desc>Baume, die keine Fotosynthese betreiben und doch wachsen, steinerne Saulen, die plotzlich in einem Stausee auftauchen, und eine Fliege, die muhelos auf Tauchgang geht: Der faszinierende Kosmos der Natur halt so manche Überraschung parat.</desc>
+    <episode-num system="xmltv_ns">.1438.</episode-num>
+  </programme>
+  <programme start="20251122135500 +0000" stop="20251122144000 +0000" channel="ZDFneo.de">
+    <title>Terra X</title>
+    <sub-title>Ratselhafte Phanomene - Diamantenfieber und sprechende Pflanzen</sub-title>
+    <desc>Lange waren Diamanten kostbare Zufallsfunde. In Afrika soll ein Baum wachsen, der Diamantenvorkommen verrat. Aber auch untereinander geben Pflanzen geheimnisvolle Botschaften weiter. Dirk Steffens versucht, sie wissenschaftlich zu ergrunden.</desc>
+    <episode-num system="xmltv_ns">.1212.</episode-num>
+  </programme>
+  <programme start="20251122144000 +0000" stop="20251122152500 +0000" channel="ZDFneo.de">
+    <title>Terra X</title>
+    <sub-title>Ratselhafte Phanomene - Monsterwellen und Fluggiganten</sub-title>
+    <desc>Monsterwellen sind gefurchtet. Manche entstehen wie aus dem Nichts, andere schlagen regelmaSSig auf den Strand. Dirk Steffens begibt sich auf die Spur der ratselhaften Phanomene. Wie ein Motor halten Naturgesetze das Leben auf der Erde am Laufen.</desc>
+    <episode-num system="xmltv_ns">.1279.</episode-num>
+  </programme>
+  <programme start="20251122152500 +0000" stop="20251122161000 +0000" channel="ZDFneo.de">
+    <title>Terra X</title>
+    <sub-title>Faszination Erde - mit Dirk Steffens - Makaronesien: Oasen in der blauen Wuste</sub-title>
+    <desc>Die Inseln Makaronesiens haben alle den gleichen Ursprung, namlich den "Hotspot-Vulkanismus". Über viele Millionen Jahre sind sie in den Weiten des Atlantiks zu Oasen fur das Leben geworden. Es gibt Tiere und Pflanzen, die man nur dort findet.</desc>
+    <episode-num system="xmltv_ns">.1257.</episode-num>
+  </programme>
+  <programme start="20251122161000 +0000" stop="20251122165500 +0000" channel="ZDFneo.de">
+    <title>Terra X</title>
+    <sub-title>Faszination Erde - mit Dirk Steffens - Im Sog der Unterwelt</sub-title>
+    <desc>Der Moderator wagt sich in die Unterwelt und entdeckt, dass Menschen ihr mehr verdanken, als man ahnt. In vielen Kulturen gilt die Unterwelt als Ort des Grauens, als Reich der Toten, als Hades. Und doch ist der Mensch vom Verborgenen fasziniert.</desc>
+    <episode-num system="xmltv_ns">.1259.</episode-num>
+  </programme>
+  <programme start="20251122165500 +0000" stop="20251122172500 +0000" channel="ZDFneo.de">
+    <title>MAITHINK X - Die Show</title>
+    <sub-title>Muskelaufbau - Mythen vs. Fakten</sub-title>
+    <desc>Was verkaufen Fitness-Influencer uns als die besten Trainingstipps - und was steckt dahinter? Es wird aufgeklart, was laut Studien das beste Training ist, um Muskeln aufzubauen, und ob Proteinpulver oder Kreatin wirklich notwendig sind.</desc>
+    <episode-num system="xmltv_ns">8.0.</episode-num>
+  </programme>
+  <programme start="20251122172500 +0000" stop="20251122180500 +0000" channel="ZDFneo.de">
+    <title>Die glorreichen 10</title>
+    <sub-title>Die seltsamsten Paare der Geschichte</sub-title>
+    <desc>In dieser Folge werden spannende Aspekte zu den anwesenden Paaren neu aufgerollt. Hannes Jaenicke kommentiert das funfteilige Ranking suffisant, unterhaltsam und bewusst subjektiv. Die glorreichen 10 gehen mittlerweile in die siebte Runde.</desc>
+    <episode-num system="xmltv_ns">6.1.</episode-num>
+  </programme>
+  <programme start="20251122180500 +0000" stop="20251122185000 +0000" channel="ZDFneo.de">
+    <title>Die glorreichen 10</title>
+    <sub-title>Die sensationellsten Suchaktionen der Geschichte</sub-title>
+    <desc>Die Dokumentarreihe prasentiert historische Ereignisse und Personlichkeiten in einer Rankingshow. Dabei werden unter anderem die groSSten Angeber der Geschichte, die groSSten Heldinnen oder auch die groSSten Bausunden vorgestellt.</desc>
+    <episode-num system="xmltv_ns">6.4.</episode-num>
+  </programme>
   <channel id="tagesschau24.de">
     <display-name>Tagesschau24 HD</display-name>
   </channel>
@@ -1978,6 +2627,8 @@
   </programme>
   <programme start="20251120191500 +0000" stop="20251120193000 +0000" channel="tagesschau24.de">
     <title>tagesschau24 TOP-THEMA</title>
+    <desc>Todliche Gewalt gegen Frauen - Neue Studie zu Femiziden in Deutschland</desc>
+    <episode-num system="xmltv_ns">.78.</episode-num>
   </programme>
   <programme start="20251120193000 +0000" stop="20251120204500 +0000" channel="tagesschau24.de">
     <title>maischberger</title>
@@ -2104,6 +2755,7 @@
   </programme>
   <programme start="20251121191500 +0000" stop="20251121193000 +0000" channel="tagesschau24.de">
     <title>tagesschau24 TOP-THEMA</title>
+    <episode-num system="xmltv_ns">.78.</episode-num>
   </programme>
   <programme start="20251121193000 +0000" stop="20251121200000 +0000" channel="tagesschau24.de">
     <title>Monitor</title>
@@ -2158,6 +2810,127 @@
   <programme start="20251122020000 +0000" stop="20251122031700 +0000" channel="tagesschau24.de">
     <title>Landesschau Rheinland-Pfalz</title>
     <desc>Die Landesschau Rheinland-Pfalz schaut ins Land, berichtet ubers Land, ist furs Land. Rheinland-Pfalz den Rheinland-Pfalzern ganz nahe bringen - das ist die Philosophie. Und dieser Anspruch wird jeden Tag aufs Neue erfullt.</desc>
+  </programme>
+  <programme start="20251122031700 +0000" stop="20251122033000 +0000" channel="tagesschau24.de">
+    <title>Extra</title>
+    <desc>Das Magazin informiert den Zuschauer in kurzen aktuellen Filmen aus den Bereichen Politik, Wirtschaft und Gesellschaft.</desc>
+  </programme>
+  <programme start="20251122033000 +0000" stop="20251122040000 +0000" channel="tagesschau24.de">
+    <title>buten un binnen | regionalmagazin</title>
+    <desc>Das Regionalmagazin greift das auf, woruber die Menschen in der Region sprechen. Es gibt politische Diskussionen, Berichte uber gesellschaftliche Ereignisse, Reportagen aus dem Leben, kritische Interviews, Kultur und Musik.</desc>
+  </programme>
+  <programme start="20251122040000 +0000" stop="20251122040200 +0000" channel="tagesschau24.de">
+    <title>Tagesschau</title>
+    <desc>Diese Sendung berichtet uber die aktuellsten und wichtigsten Nachrichten der Bundesrepublik.</desc>
+  </programme>
+  <programme start="20251122040200 +0000" stop="20251122043000 +0000" channel="tagesschau24.de">
+    <title>hessenschau</title>
+    <desc>Das Regionalmagazin des Hessischen Rundfunks ist die erfolgreichste und beliebteste Sendung im hessischen Fernsehen. Sie berichtet taglich uber aktuelle Themen aus Politik, Kultur und Wirtschaft. Auch die Unterhaltung kommt nicht zu kurz.</desc>
+  </programme>
+  <programme start="20251122043000 +0000" stop="20251122050000 +0000" channel="tagesschau24.de">
+    <title>aktueller bericht</title>
+    <desc>Die Sendung zeigt Reporterberichte, Nachrichtenfilme, Meldungen, Kommentare und die Meinung der Zuschauerinnen und Zuschauer. Diese konnen sich taglich mit ihren Fragen und Diskussionsbeitragen direkt via Telefon an Experten im Studio wenden.</desc>
+  </programme>
+  <programme start="20251122050000 +0000" stop="20251122050200 +0000" channel="tagesschau24.de">
+    <title>Tagesschau</title>
+    <desc>Diese Sendung berichtet uber die aktuellsten und wichtigsten Nachrichten der Bundesrepublik.</desc>
+  </programme>
+  <programme start="20251122050200 +0000" stop="20251122051700 +0000" channel="tagesschau24.de">
+    <title>Schleswig-Holstein 18:00</title>
+    <desc>Das Magazin bringt eine Viertelstunde aktuelle Informationen aus dem Land und naturlich die Wettervorhersage.</desc>
+  </programme>
+  <programme start="20251122051700 +0000" stop="20251122053000 +0000" channel="tagesschau24.de">
+    <title>Extra</title>
+    <desc>Das Magazin informiert den Zuschauer in kurzen aktuellen Filmen aus den Bereichen Politik, Wirtschaft und Gesellschaft.</desc>
+  </programme>
+  <programme start="20251122053000 +0000" stop="20251122061500 +0000" channel="tagesschau24.de">
+    <title>mex. das marktmagazin</title>
+    <desc>Gezeigt wird ein wochentliches Wirtschaftsmagazin mit diversen Themen und Beitragen.</desc>
+  </programme>
+  <programme start="20251122061500 +0000" stop="20251122064500 +0000" channel="tagesschau24.de">
+    <title>Past Forward: Wann stirbt der deutsche Wald?</title>
+    <desc>Dem Wald in Deutschland geht es so schlecht wie nie. Überall sterben die Baume aufgrund von Hitze, Trockenheit und Schadlingen. Auch in den 1980er Jahren ging in Deutschland die Angst vor einem groSSflachigen Waldsterben um.</desc>
+  </programme>
+  <programme start="20251122064500 +0000" stop="20251122071500 +0000" channel="tagesschau24.de">
+    <title>Weltbilder</title>
+    <desc>Die Sendung blickt Woche fur Woche bis zum Horizont und weiter. Julia-Niharika Sen zeigt zusammen mit anderen Korrespondenten weltweit den Alltag der Menschen im nahen und fernen Ausland.</desc>
+  </programme>
+  <programme start="20251122071500 +0000" stop="20251122080000 +0000" channel="tagesschau24.de">
+    <title>Zur Sache Baden-Wurttemberg!</title>
+    <desc>Das Politikmagazin furs Land.</desc>
+  </programme>
+  <programme start="20251122080000 +0000" stop="20251122110000 +0000" channel="tagesschau24.de">
+    <title>Tagesschau-Nachrichten</title>
+    <desc>Diese Sendung berichtet uber die aktuellsten und wichtigsten Nachrichten der Bundesrepublik.</desc>
+  </programme>
+  <programme start="20251122110000 +0000" stop="20251122111500 +0000" channel="tagesschau24.de">
+    <title>Tagesschau-Nachrichten</title>
+    <desc>Diese Sendung berichtet uber die aktuellsten und wichtigsten Nachrichten der Bundesrepublik.</desc>
+  </programme>
+  <programme start="20251122111500 +0000" stop="20251122120000 +0000" channel="tagesschau24.de">
+    <title>Wir waren mal Mittelschicht</title>
+    <desc>Fast jeder funfter Deutsche arbeitet im Niedriglohnsektor. Mehr als in fast allen anderen europaischen Landern. Es ist ein Leben am Existenzminimum, denn die steigenden Energie- und Lebensmittelpreise fressen den gestiegenen Mindestlohn mehr als auf.</desc>
+    <episode-num system="xmltv_ns">.416.</episode-num>
+  </programme>
+  <programme start="20251122120000 +0000" stop="20251122121500 +0000" channel="tagesschau24.de">
+    <title>Tagesschau-Nachrichten</title>
+    <desc>Diese Sendung berichtet uber die aktuellsten und wichtigsten Nachrichten der Bundesrepublik.</desc>
+  </programme>
+  <programme start="20251122121500 +0000" stop="20251122130000 +0000" channel="tagesschau24.de">
+    <title>Grzimeks Vermachtnis</title>
+    <desc>Er ist die deutsche Tierschutzlegende: Bernhard Grzimek, langjahriger Direktor des Frankfurter Zoos, Tierarzt, Verhaltensforscher. Was ist aus seinem Vermachtnis in der Serengeti geworden? Er ist auch nach seinem Tod unvergessen. Seine Tiersendungen waren Kult, sein Engagement fur den Erhalt der Natur zeit seines Lebens Programm. Vor allem Afrika hatte es ihm angetan. Die Serengeti mit ihrer einmaligen Tierwelt war seine groSSe Leidenschaft.</desc>
+  </programme>
+  <programme start="20251122130000 +0000" stop="20251122131500 +0000" channel="tagesschau24.de">
+    <title>Tagesschau-Nachrichten</title>
+    <desc>Diese Sendung berichtet uber die aktuellsten und wichtigsten Nachrichten der Bundesrepublik.</desc>
+  </programme>
+  <programme start="20251122131500 +0000" stop="20251122140000 +0000" channel="tagesschau24.de">
+    <title>Gewalt und Mull - Problemviertel Phoenix</title>
+    <desc>Immer wieder kommt es im Phoenix-Viertel oder angrenzenden StraSSen zu Überfallen, SchieSSereien oder Massenschlagereien. Standig hat hier die Polizei zu tun. Es muss sich etwas verbessern. Doch wie geht man die Probleme hier am besten an?</desc>
+    <episode-num system="xmltv_ns">.53.</episode-num>
+  </programme>
+  <programme start="20251122140000 +0000" stop="20251122143000 +0000" channel="tagesschau24.de">
+    <title>Tagesschau-Nachrichten</title>
+    <desc>Diese Sendung berichtet uber die aktuellsten und wichtigsten Nachrichten der Bundesrepublik.</desc>
+  </programme>
+  <programme start="20251122143000 +0000" stop="20251122150000 +0000" channel="tagesschau24.de">
+    <title>Plusminus</title>
+    <sub-title>Folge 33</sub-title>
+    <desc>Diesmal geht es um die Heizkosten eines warmen Wohnzimmers, die Rentendiskussion und den Bau-Turbo.</desc>
+  </programme>
+  <programme start="20251122150000 +0000" stop="20251122153000 +0000" channel="tagesschau24.de">
+    <title>Tagesschau-Nachrichten</title>
+    <desc>Diese Sendung berichtet uber die aktuellsten und wichtigsten Nachrichten der Bundesrepublik.</desc>
+  </programme>
+  <programme start="20251122153000 +0000" stop="20251122160000 +0000" channel="tagesschau24.de">
+    <title>Weltbilder</title>
+    <desc>Die Sendung blickt Woche fur Woche bis zum Horizont und weiter. Julia-Niharika Sen zeigt zusammen mit anderen Korrespondenten weltweit den Alltag der Menschen im nahen und fernen Ausland.</desc>
+  </programme>
+  <programme start="20251122160000 +0000" stop="20251122163000 +0000" channel="tagesschau24.de">
+    <title>Tagesschau-Nachrichten</title>
+    <desc>Diese Sendung berichtet uber die aktuellsten und wichtigsten Nachrichten der Bundesrepublik.</desc>
+  </programme>
+  <programme start="20251122163000 +0000" stop="20251122170000 +0000" channel="tagesschau24.de">
+    <title>Monitor</title>
+    <desc>Das Magazin liefert Hintergrunde, stoSSt Diskussionen an und setzt Themen. Seriose Information wird gepaart mit sorgfaltiger Analyse. Investigativer, kritischer Journalismus wird im zweitaltesten politischen Magazin groSSgeschrieben.</desc>
+  </programme>
+  <programme start="20251122170000 +0000" stop="20251122173000 +0000" channel="tagesschau24.de">
+    <title>Tagesschau-Nachrichten</title>
+    <desc>Diese Sendung berichtet uber die aktuellsten und wichtigsten Nachrichten der Bundesrepublik.</desc>
+  </programme>
+  <programme start="20251122173000 +0000" stop="20251122180000 +0000" channel="tagesschau24.de">
+    <title>Rente? Nein danke! - Traumjob mit Ü70</title>
+    <desc>Drei Frauen denken mit uber 70 Jahren noch lange nicht an den Ruhestand und haben keine Lust auf Rente. Im hohen Alter konnen Heidi Wegner, Marion Erdmann und Dr. Bettina Klein das tun, wovon sie ihr Leben lang getraumt haben.</desc>
+  </programme>
+  <programme start="20251122180000 +0000" stop="20251122183000 +0000" channel="tagesschau24.de">
+    <title>Tagesschau-Nachrichten</title>
+    <desc>Diese Sendung berichtet uber die aktuellsten und wichtigsten Nachrichten der Bundesrepublik.</desc>
+  </programme>
+  <programme start="20251122183000 +0000" stop="20251122190000 +0000" channel="tagesschau24.de">
+    <title>Panorama 3</title>
+    <sub-title>Folge 394</sub-title>
+    <desc>Das investigative Politik-Magazin geht sozialen Missstanden nach, schaut auf politische Fehlentwicklungen und dokumentiert pointiert die Folgen.</desc>
+    <episode-num system="xmltv_ns">.393.</episode-num>
   </programme>
   <channel id="ZDFinfo.de">
     <display-name>ZDFinfo HD</display-name>
@@ -2375,97 +3148,97 @@
     <title>Krankenakte Habsburg - Die Leiden von Sisi and Co.</title>
     <desc>Liest man in den Rezeptbuchern des Wiener Hofes, so erschlieSSen sich aus den dortigen Eintragungen nicht nur die Kranken-, sondern auch die Lebensgeschichten der Habsburger. Die scheinheilige Doppelmoral hatte schwere Konsequenzen.</desc>
   </programme>
-  <programme start="20251121035000 +0000" stop="20251121043000 +0000" channel="ZDFinfo.de">
+  <programme start="20251121035000 +0000" stop="20251121043500 +0000" channel="ZDFinfo.de">
     <title>Spanische Grippe - Das Geheimnis des Killer-Virus</title>
     <desc>1918 feiern uberall auf der Welt die Menschen das Ende des Ersten Weltkrieges. Doch ein todlicher Virus greift um sich. Schulen und Theater werden geschlossen. Die Spanische Grippe totet mindestens 25 Millionen Menschen.</desc>
   </programme>
-  <programme start="20251121043000 +0000" stop="20251121051500 +0000" channel="ZDFinfo.de">
+  <programme start="20251121043500 +0000" stop="20251121052000 +0000" channel="ZDFinfo.de">
     <title>1929 - Der groSSe Borsencrash</title>
     <sub-title>Schwarzer Donnerstag</sub-title>
     <desc>Donnerstag, 24. Oktober 1929: Die New Yorker Borse bricht zusammen und sturzt das Land in die groSSte wirtschaftliche Krise seiner Geschichte. Die "Goldenen Zwanziger" gehen abrupt zu Ende. Es ist der Beginn einer weltweiten Wirtschaftskrise, die schon wenige Monate spater ihren Anfang finden wird. Der Film zeigt, wie es zu diesem Borsencrash kam und analysiert detailliert die Umstande, die dann spater zur GroSSen Depression fuhrten.</desc>
     <episode-num system="xmltv_ns">0.0.</episode-num>
   </programme>
-  <programme start="20251121051500 +0000" stop="20251121060000 +0000" channel="ZDFinfo.de">
+  <programme start="20251121052000 +0000" stop="20251121060500 +0000" channel="ZDFinfo.de">
     <title>1929 - Der groSSe Borsencrash</title>
     <sub-title>Kampf gegen die Krise</sub-title>
     <desc>Donnerstag, 24. Oktober 1929: Die New Yorker Borse bricht zusammen und sturzt das Land in die groSSte wirtschaftliche Krise seiner Geschichte. Die "Goldenen Zwanziger" gehen abrupt zu Ende. Es ist der Beginn einer weltweiten Wirtschaftskrise, die schon wenige Monate spater ihren Anfang finden wird. Der Film zeigt, wie es zu diesem Borsencrash kam und analysiert detailliert die Umstande, die dann spater zur GroSSen Depression fuhrten.</desc>
     <episode-num system="xmltv_ns">0.1.</episode-num>
   </programme>
-  <programme start="20251121060000 +0000" stop="20251121064500 +0000" channel="ZDFinfo.de">
+  <programme start="20251121060500 +0000" stop="20251121063500 +0000" channel="ZDFinfo.de">
     <title>planet e.: Kalter Krieg und Klimawandel</title>
     <sub-title>Kalter Krieg und Klimawandel - Atommull in der Sudsee</sub-title>
     <desc>Auf dem Enewetak-Atoll mitten im Pazifik befindet sich das groSSte Atommullendlager der Welt. In den 40er- und 50er-Jahren fuhren die USA da Kernwaffentests durch, was zu einer Kontaminierung mit Plutonium und anderen hoch radioaktiven Isotopen fuhrt.</desc>
     <episode-num system="xmltv_ns">.473.</episode-num>
   </programme>
-  <programme start="20251121064500 +0000" stop="20251121065800 +0000" channel="ZDFinfo.de">
+  <programme start="20251121063500 +0000" stop="20251121065000 +0000" channel="ZDFinfo.de">
     <title>forum am freitag</title>
     <desc>Muslime erhalten die Moglichkeit, ihre Sicht des Zusammenlebens in Deutschland zu diskutieren.</desc>
   </programme>
-  <programme start="20251121065800 +0000" stop="20251121070000 +0000" channel="ZDFinfo.de">
-    <title>heute Xpress</title>
-    <desc>Nachrichten aus Deutschland und der Welt werden in kurzer und komprimierter Form gezeigt.</desc>
-  </programme>
-  <programme start="20251121070000 +0000" stop="20251121073000 +0000" channel="ZDFinfo.de">
+  <programme start="20251121065000 +0000" stop="20251121071800 +0000" channel="ZDFinfo.de">
     <title>Quinoa - Genuss mit Beigeschmack</title>
     <desc>Quinoa gilt als Superfood: eiweiSSreich, glutenfrei, beliebt in der vegetarischen Kuche. Der Hype um das Korn birgt aber auch Probleme. Gesundheitstrends und der Wunsch nach pflanzlicher Ernahrung treiben die Nachfrage in urbanen Zielgruppen an.</desc>
     <episode-num system="xmltv_ns">.477.</episode-num>
   </programme>
-  <programme start="20251121073000 +0000" stop="20251121080000 +0000" channel="ZDFinfo.de">
+  <programme start="20251121071800 +0000" stop="20251121072000 +0000" channel="ZDFinfo.de">
+    <title>heute Xpress</title>
+    <desc>Nachrichten aus Deutschland und der Welt werden in kurzer und komprimierter Form gezeigt.</desc>
+  </programme>
+  <programme start="20251121072000 +0000" stop="20251121075000 +0000" channel="ZDFinfo.de">
     <title>Bananen - Genuss mit Beigeschmack</title>
     <desc>Weltweiter Bananenhandel, Umweltschaden, Pestizidbelastung: Die Banane ist beliebt, doch ihr Anbau in Monokulturen fuhrt zu Ausbeutung, Einsatz von Pestiziden, Fungiziden und gefahrlichen Arbeitsbedingungen. Was steckt hinter der gelben Schale?</desc>
     <episode-num system="xmltv_ns">.479.</episode-num>
   </programme>
-  <programme start="20251121080000 +0000" stop="20251121084500 +0000" channel="ZDFinfo.de">
+  <programme start="20251121075000 +0000" stop="20251121084000 +0000" channel="ZDFinfo.de">
     <title>Nice Price - Die Tricks der Lieferdienste</title>
     <desc>Pia Osterhaus untersucht, wie Lieferando und andere Lieferdienste Geld verdienen und ob Kunden bei den Portionen draufzahlen. Mit einer FrauenfuSSballmannschaft testet sie auSSerdem, ob man den Sternebewertungen wirklich trauen kann.</desc>
     <episode-num system="xmltv_ns">0.2.</episode-num>
   </programme>
-  <programme start="20251121084500 +0000" stop="20251121093000 +0000" channel="ZDFinfo.de">
+  <programme start="20251121084000 +0000" stop="20251121092500 +0000" channel="ZDFinfo.de">
     <title>Greenwashed? Nutella: Das grune Marchen von Ferrero</title>
     <desc>Die Schokobranche hat keinen guten Ruf, doch Ferrero, der Erfinder von nutella, verspricht Nachhaltigkeit. Meint er das ernst oder ist das Greenwashing? Das will der Umweltreporter Sherif genau wissen und folgt der Lieferkette von nutella.</desc>
     <episode-num system="xmltv_ns">0.3.</episode-num>
   </programme>
-  <programme start="20251121093000 +0000" stop="20251121101500 +0000" channel="ZDFinfo.de">
+  <programme start="20251121092500 +0000" stop="20251121101000 +0000" channel="ZDFinfo.de">
     <title>ZDFzeit</title>
     <desc>Dokumentation, Deutschland 2023Sebastian Lege kennt die Tricks der Lebensmittelindustrie. Er nimmt sich einige der beliebtesten SuSSigkeiten vor und baut sie nach. Dabei deckt er auf, was wirklich drinsteckt.Ferreros Raffaello scheint eine exklusive und exotische Praline zu sein. Sebastian Lege fuhrt vor, wie gunstig dieser Snack hergestellt wird. Er zeigt auch, wie viel Tier in unseren SuSSigkeiten steckt - und wie wenig Vitamine selbst in nimm2 enthalten sind.HD-Produktion</desc>
   </programme>
-  <programme start="20251121101500 +0000" stop="20251121110000 +0000" channel="ZDFinfo.de">
+  <programme start="20251121101000 +0000" stop="20251121105000 +0000" channel="ZDFinfo.de">
     <title>ZDFzeit</title>
     <desc>Dokumentation, Deutschland 2024Toastbrot, Quetschbeutel, Mortadella und vegane Sahne: Sebastian Lege entlarvt die Tricks der Lebensmittelindustrie.Die Lebensmittelindustrie nutzt immer wieder Gesetzeslucken aus. Mit wenig Wareneinsatz will sie maximalen Profit erzielen. Sebastian Lege analysiert beliebte Produkte aus dem Supermarkt und zeigt, wie dabei Verbraucher getauscht werden.HD-Produktion</desc>
   </programme>
-  <programme start="20251121110000 +0000" stop="20251121114500 +0000" channel="ZDFinfo.de">
+  <programme start="20251121105000 +0000" stop="20251121113500 +0000" channel="ZDFinfo.de">
     <title>ZDFzeit</title>
     <desc>Dokumentation, Deutschland 2025Obstgarten, WeiSSwurst, Knuspermusli und Fruchtetee: Sebastian Lege verrat die Tricks von Ehrmann, Dr. Oetker und Co.Ob mit fantasievollen Namen, traditionsreichen Versprechen oder knackigen Emotionen: Die Lebensmittelindustrie schlagt viele kreative Wege ein, um ihre Produkte an den Verbraucher zu bringen. Sebastian Lege kennt die Tricks der Hersteller und deckt sie auf.HD-Produktion</desc>
   </programme>
-  <programme start="20251121114500 +0000" stop="20251121123000 +0000" channel="ZDFinfo.de">
+  <programme start="20251121113500 +0000" stop="20251121122500 +0000" channel="ZDFinfo.de">
     <title>Faszination Burgen - Monumente des Mittelalters</title>
     <desc>Burgen sind machtige Symbole ritterlichen Lebens und majestatische Zeugen mittelalterlicher Baukunst. Fast ein Jahrtausend dominieren sie Europas Landschaften. Gerade Burgen und ihre Bewohner pragen die allgemeine Vorstellung vom Mittelalter.</desc>
   </programme>
-  <programme start="20251121123000 +0000" stop="20251121131500 +0000" channel="ZDFinfo.de">
+  <programme start="20251121122500 +0000" stop="20251121131000 +0000" channel="ZDFinfo.de">
     <title>Burgen - Mythos und Wahrheit</title>
     <sub-title>Die Zeit der Ritter</sub-title>
     <desc>Zu Beginn des Hochmittelalters sind Burgen Machtfaktoren. In Mitteleuropa beginnt ein Burgen-Boom.</desc>
     <episode-num system="xmltv_ns">1.1.</episode-num>
   </programme>
-  <programme start="20251121131500 +0000" stop="20251121140000 +0000" channel="ZDFinfo.de">
+  <programme start="20251121131000 +0000" stop="20251121135500 +0000" channel="ZDFinfo.de">
     <title>Tatort Mittelalter</title>
     <sub-title>Folgenschwere Verbrechen</sub-title>
     <desc>Dieses Mal wird untersucht, ob Jan Hus zu Unrecht verbrannt wurde. Auch andere Falle geben Ratsel auf, wie Admiral Zheng He und seine Flotte und ob Gutsherren wirklich das Recht auf die erste Nacht mit der Braut ihrer Leibeigenen hatten.</desc>
     <episode-num system="xmltv_ns">0.1.</episode-num>
   </programme>
-  <programme start="20251121140000 +0000" stop="20251121144500 +0000" channel="ZDFinfo.de">
+  <programme start="20251121135500 +0000" stop="20251121144000 +0000" channel="ZDFinfo.de">
     <title>Tatort Mittelalter</title>
     <sub-title>Ratselhafte Todesfalle</sub-title>
     <desc>Die Sendung untersucht den Fund von drei Kindermumien in einer Grabkammer. Andere Verbrechen geben ebenfalls Ratsel auf. Das Ermittlerteam geht auSSerdem der Gefangenschaft von Richard I. und einer gepfahlten Moorleiche nach.</desc>
     <episode-num system="xmltv_ns">0.0.</episode-num>
   </programme>
-  <programme start="20251121144500 +0000" stop="20251121153000 +0000" channel="ZDFinfo.de">
+  <programme start="20251121144000 +0000" stop="20251121152500 +0000" channel="ZDFinfo.de">
     <title>Tatort Mittelalter</title>
     <sub-title>Schockierende Gewalt</sub-title>
     <desc>Dieses Mal wird der frankische Raubritter Eppelein beleuchtet. AuSSerdem untersucht ein Ermittlerteam den sagenumwobenen Tod des Piraten Klaus Stortebeke und das finstere Geheimnis eines Schatzes im mittelalterlichen Judenviertel von Erfurt.</desc>
     <episode-num system="xmltv_ns">0.5.</episode-num>
   </programme>
-  <programme start="20251121153000 +0000" stop="20251121161500 +0000" channel="ZDFinfo.de">
+  <programme start="20251121152500 +0000" stop="20251121161500 +0000" channel="ZDFinfo.de">
     <title>Tatort Mittelalter</title>
     <sub-title>Rache und dunkle Rituale</sub-title>
     <desc>Die Sendung untersucht, ob das Blutgericht von Verden wirklich stattgefunden hat. AuSSerdem wird noch beleuchtet, ob Kaiser Friedrich II. einem Auftragsmord durch den Papst zum Opfer fiel und ein Maya-Herrscher andere Anfuhrer toten lieSS.</desc>
@@ -2513,51 +3286,187 @@
     <desc>In den Weiten des Sonnensystems finden sich seltsame Himmelskorper wie der eiformige Zwergplanet Haumea, ein zersplitterter Uranusmond und ein walnussformiger Saturnmond - allesamt auSSergewohnliche Schopfungen der Gravitation.</desc>
     <episode-num system="xmltv_ns">0.4.</episode-num>
   </programme>
-  <programme start="20251121213000 +0000" stop="20251121221500 +0000" channel="ZDFinfo.de">
+  <programme start="20251121213000 +0000" stop="20251121221000 +0000" channel="ZDFinfo.de">
     <title>Faszination Weltall</title>
     <sub-title>Fremde Welten</sub-title>
     <desc>Viele Menschen fragen sich, ob die Menschen allein im Universum sind. Teleskope durchkammen das All und entdecken bizarre Welten. In den letzten 50 Jahren sind unsere Raumsonden zu jedem Planeten des Sonnensystems vorgedrungen.</desc>
     <episode-num system="xmltv_ns">0.1.</episode-num>
   </programme>
-  <programme start="20251121221500 +0000" stop="20251121230000 +0000" channel="ZDFinfo.de">
+  <programme start="20251121221000 +0000" stop="20251121225500 +0000" channel="ZDFinfo.de">
     <title>Faszination Weltall</title>
     <sub-title>Die Sonne</sub-title>
     <desc>Die Sonne ist vertraut und doch unbekannt. Sie ist die Konigin unseres Sonnensystems und es wird gerade erst begonnen, die Sonne aus der Nahe zu erforschen. Sie gehort zu einer langen Linie von Sternen, die bis in den Anfang der Zeit zuruckreicht.</desc>
     <episode-num system="xmltv_ns">0.0.</episode-num>
   </programme>
-  <programme start="20251121230000 +0000" stop="20251121234500 +0000" channel="ZDFinfo.de">
+  <programme start="20251121225500 +0000" stop="20251121234000 +0000" channel="ZDFinfo.de">
     <title>Faszination Weltall</title>
     <sub-title>Schwarze Locher</sub-title>
     <desc>Schwarze Locher sind unsichtbare Orte, an denen die Schwerkraft so stark ist, dass nichts entkommen kann und sich sogar Raum und Zeit verformen. Die Herausforderung, Objekte zu studieren, die man nicht sehen kann, ist immens.</desc>
     <episode-num system="xmltv_ns">0.3.</episode-num>
   </programme>
-  <programme start="20251121234500 +0000" stop="20251122001500 +0000" channel="ZDFinfo.de">
+  <programme start="20251121234000 +0000" stop="20251122001000 +0000" channel="ZDFinfo.de">
     <title>heute journal</title>
     <desc>Die aktuellsten und brisantesten Themen des Tages werden ausfuhrlich dargestellt und mit sorgfaltig recherchierten Hintergrundberichten abgerundet. Hinzu kommen Interviews mit Politikern und anderen maSSgeblichen Personlichkeiten.</desc>
   </programme>
-  <programme start="20251122001500 +0000" stop="20251122010000 +0000" channel="ZDFinfo.de">
+  <programme start="20251122001000 +0000" stop="20251122005500 +0000" channel="ZDFinfo.de">
     <title>Der Preis des Krieges</title>
     <sub-title>Erster Weltkrieg</sub-title>
     <desc>Mit dem Ersten Weltkrieg beginnt das Zeitalter der industriell gefuhrten Massenkriege. Rund 20 Millionen Menschen sterben. Das Attentat auf Erzherzog Ferdinand in Sarajevo mundet 1914 in den Ersten Weltkrieg. Menschen leiden noch Jahrzehnte spater.</desc>
     <episode-num system="xmltv_ns">0.0.</episode-num>
   </programme>
-  <programme start="20251122010000 +0000" stop="20251122014500 +0000" channel="ZDFinfo.de">
+  <programme start="20251122005500 +0000" stop="20251122014000 +0000" channel="ZDFinfo.de">
     <title>Der Preis des Krieges</title>
     <sub-title>Zweiter Weltkrieg</sub-title>
     <desc>20 Jahre nach dem Ersten Weltkrieg sturzt die Welt in eine neue Katastrophe. Im Zweiten Weltkrieg sterben 50 bis 60 Millionen Zivilisten und bis zu 25 Millionen Soldaten. Am 1. September 1939 uberfallt Deutschland Polen.</desc>
     <episode-num system="xmltv_ns">0.1.</episode-num>
   </programme>
-  <programme start="20251122014500 +0000" stop="20251122023000 +0000" channel="ZDFinfo.de">
+  <programme start="20251122014000 +0000" stop="20251122022500 +0000" channel="ZDFinfo.de">
     <title>Der Preis des Krieges</title>
     <sub-title>Vietnam</sub-title>
     <desc>Amerika greift nach dem Tonkin-Zwischenfall in den Konflikt zwischen Nord- und Sudvietnam ein, der bereits seit 1956 andauert. Damit stellen sich die USA auf die Seite Sudvietnams, wahrend die Sowjetunion das kommunistische Nordvietnam unterstutzt.</desc>
     <episode-num system="xmltv_ns">0.2.</episode-num>
   </programme>
-  <programme start="20251122023000 +0000" stop="20251122031500 +0000" channel="ZDFinfo.de">
+  <programme start="20251122022500 +0000" stop="20251122030500 +0000" channel="ZDFinfo.de">
     <title>Der Preis des Krieges</title>
     <sub-title>Afghanistan</sub-title>
     <desc>Seit 1978 kommt es zu Kriegen in Afghanistan. 150.000 Menschen kommen ums Leben. 2001 maschiert die USA mit internationaler Unterstutzung in das Land und verwustet es, hinterlasst todliche Altlasten und sorgt fur eine Katastrophe.</desc>
     <episode-num system="xmltv_ns">0.3.</episode-num>
+  </programme>
+  <programme start="20251122030500 +0000" stop="20251122035000 +0000" channel="ZDFinfo.de">
+    <title>Der Preis des Krieges</title>
+    <sub-title>Irak</sub-title>
+    <desc>Die Kriege im Irak zahlen zu den teuersten des 20. Jahrhunderts. Allein der Zweite Golfkrieg von 1990 bis 1991 kostet uber 60 Milliarden Dollar und fordert Zehntausende Opfer. Das Land ist seit den 1980er-Jahren durch zahlreiche Konflikte gebeutelt.</desc>
+    <episode-num system="xmltv_ns">0.4.</episode-num>
+  </programme>
+  <programme start="20251122035000 +0000" stop="20251122043000 +0000" channel="ZDFinfo.de">
+    <title>Der Preis des Krieges</title>
+    <sub-title>Kampf gegen den Terror</sub-title>
+    <desc>Im 21. Jahrhundert verschwinden Schutzengraben des Ersten und Bomberflotten des Zweiten Weltkrieges. Statt millionenstarker Heere pragen heutzutage Terror und Hightech das Geschehen. Krieg gegen Terror dauert bis dato an.</desc>
+    <episode-num system="xmltv_ns">0.5.</episode-num>
+  </programme>
+  <programme start="20251122043000 +0000" stop="20251122051500 +0000" channel="ZDFinfo.de">
+    <title>Terra X History</title>
+    <sub-title>Partisanen - Krieg aus dem Hinterhalt</sub-title>
+    <desc>In der Ukraine kampfen Partisanen gegen russische Truppen, wo sie ahnlich wie im Zweiten Weltkrieg hinter den feindlichen Linien Anschlage veruben. Der Film erzahlt die Geschichte des neuzeitlichen Partisanenkrieges vom 19. Jahrhundert bis heute.</desc>
+    <episode-num system="xmltv_ns">.609.</episode-num>
+  </programme>
+  <programme start="20251122051500 +0000" stop="20251122060000 +0000" channel="ZDFinfo.de">
+    <title>Momente der Geschichte II</title>
+    <sub-title>Entscheidende Schlachten</sub-title>
+    <desc>Der Sieg der Germanen uber die Romer vor uber 2000 Jahren hat die Geschichte der Deutschen entscheidend bestimmt. Welche wichtigen Siege und Niederlagen folgten der Varusschlacht? Die Dokumentation blickt zuruck bis in die Zeit der Germanen. Ein historischer Streifzug durch uber 2000 Jahre deutsche Geschichte.</desc>
+    <episode-num system="xmltv_ns">1.7.</episode-num>
+  </programme>
+  <programme start="20251122060000 +0000" stop="20251122063000 +0000" channel="ZDFinfo.de">
+    <title>Terra X Harald Lesch</title>
+    <sub-title>Harald Lesch - ... und die Medizin nach MaSS</sub-title>
+    <desc>Unsere Medizin ist auf ein Standardmodell des Menschen zugeschnitten. Das hat erhebliche gesundheitliche Konsequenzen fur alle, die dem nicht entsprechen. Harald Lesch zeigt, wie die Medizin sich revolutionieren musste, um jedem gerecht zu werden.</desc>
+    <episode-num system="xmltv_ns">.1518.</episode-num>
+  </programme>
+  <programme start="20251122063000 +0000" stop="20251122070000 +0000" channel="ZDFinfo.de">
+    <title>Terra X Harald Lesch</title>
+    <sub-title>Harald Lesch - ... und die Superkraft des Allerkleinsten</sub-title>
+    <desc>Dieses Jahr feiern wir 100 Jahre Quantenphysik. Der Reporter erforscht dieses Mal ihre damalige und jetzige Bedeutung. Mit dem Nobelpreistrager Ferenc Krausz erkundet er, wohin uns die Quantenforschung noch fuhren wird.</desc>
+    <episode-num system="xmltv_ns">.1590.</episode-num>
+  </programme>
+  <programme start="20251122070000 +0000" stop="20251122074500 +0000" channel="ZDFinfo.de">
+    <title>Terra X</title>
+    <sub-title>Nikola Tesla - Magier der Elektrizitat</sub-title>
+    <desc>Die Dokumentation zeigt den exzentrischen Lebensweg des erfolgreichen Erfinders Nikola Tesla. Sein unbandiger Forschergeist, seine genialen Ideen und ein gewisses Showtalent fuhrten ihn aus der Provinz in die High Society.</desc>
+    <episode-num system="xmltv_ns">.1447.</episode-num>
+  </programme>
+  <programme start="20251122074500 +0000" stop="20251122084300 +0000" channel="ZDFinfo.de">
+    <title>Terra X</title>
+    <sub-title>Gustave Eiffel: Der Mann, der den Eiffelturm erfand</sub-title>
+    <desc>Der Eiffelturm gilt heute als Ikone der Architektur und Geniestreich moderner Ingenieurskunst. Als risikofreudiger Visionar schuf Gustave Eiffel mit seiner Stahlkonstruktion von 300 Metern Hohe das damals hochste Bauwerk der Welt.</desc>
+    <episode-num system="xmltv_ns">.1411.</episode-num>
+  </programme>
+  <programme start="20251122084300 +0000" stop="20251122084500 +0000" channel="ZDFinfo.de">
+    <title>heute Xpress</title>
+    <desc>Nachrichten aus Deutschland und der Welt werden in kurzer und komprimierter Form gezeigt.</desc>
+  </programme>
+  <programme start="20251122084500 +0000" stop="20251122093000 +0000" channel="ZDFinfo.de">
+    <title>Terra X</title>
+    <sub-title>Der Mann, der Amerika seinen Namen gab - Amerigo Vespucci</sub-title>
+    <desc>Viele kennen Kolumbus, wenige Amerigo Vespucci. Und dennoch wurde fur die entdeckte Neue Welt Vespuccis Vorname Amerigo Namenspate. Wie kam es dazu? Der Florentiner Patriziersohn arbeitet fur die machtigen Medici als Buchhalter und Kaufmann.</desc>
+    <episode-num system="xmltv_ns">.1380.</episode-num>
+  </programme>
+  <programme start="20251122093000 +0000" stop="20251122101500 +0000" channel="ZDFinfo.de">
+    <title>Terra X</title>
+    <sub-title>Kolumbus und die wahren Entdecker Amerikas</sub-title>
+    <desc>Die Wikinger entdeckten die Neue Welt lange vor Kolumbus. Aber auch ein walisischer Prinz und ein afrikanischer Konig konnten Amerika noch vor dem beruhmten Entdecker erreicht haben. Was ist nun dran an den Spekulationen?</desc>
+    <episode-num system="xmltv_ns">.1166.</episode-num>
+  </programme>
+  <programme start="20251122101500 +0000" stop="20251122110000 +0000" channel="ZDFinfo.de">
+    <title>Terra X</title>
+    <sub-title>Galileo Galilei - Revolutionar der Wissenschaften</sub-title>
+    <desc>Galileo Galilei gilt als ein Begrunder der modernen Naturwissenschaft und versuchte einen der groSSten Skandale in der Geschichte der romischen Kirche. Trotz seiner bahnbrechenden Erkenntnisse endet er vor dem Inquisitionsgericht.</desc>
+    <episode-num system="xmltv_ns">.1283.</episode-num>
+  </programme>
+  <programme start="20251122110000 +0000" stop="20251122114500 +0000" channel="ZDFinfo.de">
+    <title>Terra X</title>
+    <sub-title>Darwins Geheimnis - Die entfuhrten Kinder der Beagle</sub-title>
+    <desc>Der Film erzahlt eine kaum bekannte Episode aus dem Leben des beruhmten Naturforschers Charles Darwin, in deren Zentrum vier entfuhrte jugendliche Feuerland-Indianer stehen. Sie waren vom Kapitan eines Forschungsschiffs in einem Streit mit den Ureinwohnern als Geiseln genommen und nach England verschleppt worden. Zwei Jahre spater wurden sie heimlich in ihre Heimat zuruckgebracht.</desc>
+    <episode-num system="xmltv_ns">.1093.</episode-num>
+  </programme>
+  <programme start="20251122114500 +0000" stop="20251122123000 +0000" channel="ZDFinfo.de">
+    <title>Momente der Geschichte II</title>
+    <sub-title>GroSSe Gestalten: Von Hermann dem Cherusker bis Karl IV.</sub-title>
+    <desc>Von Hermann dem Cherusker, Hildegard von Bingen bis zu Karl IV.: Kaiser, Helden und Visionarinnen pragen die deutsche Geschichte. Die Dokumentation bietet einen historischen Streifzug durch uber 2000 Jahre deutsche Geschichte.</desc>
+    <episode-num system="xmltv_ns">1.4.</episode-num>
+  </programme>
+  <programme start="20251122123000 +0000" stop="20251122131500 +0000" channel="ZDFinfo.de">
+    <title>Momente der Geschichte II</title>
+    <sub-title>GroSSe Gestalten: Von Heinrich Heine bis Sophie Scholl</sub-title>
+    <desc>Viele Personlichkeiten des 20. und 21. Jahrhunderts haben durch ihr Leben und Wirken die Geschichte Deutschlands entscheidend beeinflusst. Dazu gehoren auch Kaiser Wilhelm II. und Gustav Stresemann. Die Dokumentation bietet einen historischen Streifzug durch uber 2000 Jahre deutsche Geschichte.</desc>
+    <episode-num system="xmltv_ns">1.6.</episode-num>
+  </programme>
+  <programme start="20251122131500 +0000" stop="20251122140000 +0000" channel="ZDFinfo.de">
+    <title>Momente der Geschichte II</title>
+    <sub-title>Wege der Deutschen</sub-title>
+    <desc>Von der Reformation uber die Frankfurter Nationalversammlung bis hin zum Weltreich der Deutschen - viele Ereignisse und Wendepunkte haben die deutsche Geschichte gepragt. Die Dokumentation bietet einen historischen Streifzug durch uber 2000 Jahre deutsche Geschichte.</desc>
+    <episode-num system="xmltv_ns">1.3.</episode-num>
+  </programme>
+  <programme start="20251122140000 +0000" stop="20251122144500 +0000" channel="ZDFinfo.de">
+    <title>Die Deutschen II</title>
+    <sub-title>Ludwig II. und die Bayern</sub-title>
+    <desc>Mythen und Legenden ranken sich um die Gestalt Ludwigs II. von Bayern (1845-1886), den man den Marchenkonig nennt. Er habe die Politik gescheut und sich vor allem seinen schwarmerischen Leidenschaften hingegeben: den Opern Richard Wagners und dem Bau prunkvoller Schlosser wie Neuschwanstein, Linderhof und Herrenchiemsee.</desc>
+    <episode-num system="xmltv_ns">1.7.</episode-num>
+  </programme>
+  <programme start="20251122144500 +0000" stop="20251122153000 +0000" channel="ZDFinfo.de">
+    <title>Die Deutschen II</title>
+    <sub-title>Hildegard von Bingen und die Macht der Frauen</sub-title>
+    <desc>Hildegard von Bingen (1098 bis 1179) ist die popularste Deutsche des Mittelalters - auf Augenhohe mit den Machtigen ihrer Zeit. Sie war Visionarin, Naturwissenschaftlerin, Politikerin, Komponistin, Theologin und sogar Managerin zweier von ihr gegrundeter Kloster. Viele ihrer Schriften, vor allem ihre Kenntnisse der Naturheilkunde, haben bis heute nichts von ihrer Aktualitat eingebuSSt. Andere werfen noch immer Fragen auf.</desc>
+    <episode-num system="xmltv_ns">1.2.</episode-num>
+  </programme>
+  <programme start="20251122153000 +0000" stop="20251122161500 +0000" channel="ZDFinfo.de">
+    <title>Die Deutschen II</title>
+    <sub-title>Rosa Luxemburg und die Freiheit</sub-title>
+    <desc>Sie stammte aus dem von Russland annektierten Teil Polens. Rosa Luxemburg (1871 bis 1919) wurde politische Aktivistin in einer Zeit, in der Frauen in Deutschland noch nicht wahlen durften. Die Arbeiterbewegung in Europa befand sich im Aufbruch, Sozialisten wurden uberall verfolgt. Schon in jungen Jahren kampfte Rosa Luxemburg fur die Rechte der Arbeiterschaft; ab 1898, nachdem sie die deutsche Staatsburgerschaft angenommen hatte, auch in der SPD des wilhelminischen Deutschland.</desc>
+    <episode-num system="xmltv_ns">1.8.</episode-num>
+  </programme>
+  <programme start="20251122161500 +0000" stop="20251122170000 +0000" channel="ZDFinfo.de">
+    <title>Die Deutschen II</title>
+    <sub-title>Karl der GroSSe und die Sachsen</sub-title>
+    <desc>Er galt schon bei seinen Zeitgenossen als "Vater Europas": Karl der GroSSe (vermutlich 748 - 814). Er schuf ein Fundament, das den Kontinent pragte. Deutsche und Franzosen betrachten den legendaren Karolinger.</desc>
+    <episode-num system="xmltv_ns">1.0.</episode-num>
+  </programme>
+  <programme start="20251122170000 +0000" stop="20251122174500 +0000" channel="ZDFinfo.de">
+    <title>Die Deutschen II</title>
+    <sub-title>Thomas Muntzer und der Krieg der Bauern</sub-title>
+    <desc>Es war die Zeit der Umwalzung, die Reformation ruttelte an der bestehenden Ordnung. 1521 herrschte Aufruhr im sachsischen Zwickau: Der junge Priester Thomas Muntzer (1489 - 1525), der an der Marienkirche predigte.</desc>
+    <episode-num system="xmltv_ns">1.4.</episode-num>
+  </programme>
+  <programme start="20251122174500 +0000" stop="20251122183000 +0000" channel="ZDFinfo.de">
+    <title>Terra X</title>
+    <sub-title>Mythos Tahiti - Die Erfindung des Paradieses</sub-title>
+    <desc>Der erster franzosische Weltenumsegler Louis Antoine de Bougainville entdeckte den Mythos Tahiti. Das Redaktionsteam geht dem Segler aus dem Jahr 1767 auf die Spur und schaut sich die Idee vom Paradies auf Erden genauer an.</desc>
+    <episode-num system="xmltv_ns">.1219.</episode-num>
+  </programme>
+  <programme start="20251122183000 +0000" stop="20251122191500 +0000" channel="ZDFinfo.de">
+    <title>Terra X</title>
+    <sub-title>Schrecken der Meere - Das Ratsel der Monsterwellen</sub-title>
+    <desc>Die Meere beherbergen zerstorerische Machte. Die gefahrlichsten sind turmhohe Monsterwellen. Zahlreiche Schiffsunglucke werden ihnen zugeschrieben. Meeresforscher versuchen immer besser zu verstehen, wie sie entstehen und wo sie auftreten.</desc>
+    <episode-num system="xmltv_ns">.1577.</episode-num>
   </programme>
   <channel id="Red Bull TV.de">
     <display-name>Red Bull TV FHD</display-name>
@@ -2651,7 +3560,7 @@
     <episode-num system="xmltv_ns">0.0.</episode-num>
   </programme>
   <programme start="20251120103835 +0000" stop="20251120112940 +0000" channel="Red Bull TV.de">
-    <title>Red Bull Soapbox Race</title>
+    <title>Red Bull Seifenkistenrennen</title>
     <sub-title>Sao Paulo, Brazil</sub-title>
     <desc>In dieser Sendung gestalten und bauen Amateurrennfahrer ihre eigenen Soapbox-Fahrzeuge.</desc>
     <episode-num system="xmltv_ns">6.0.</episode-num>
@@ -2807,13 +3716,13 @@
     <desc>Christian Schiester und seine Frau setzen sich ein Ziel, welches unrealistischer hatte kaum sein konnen. Doch Sportler schrecken vor nichts zuruck und nehmen es mit der 4000 Meter Entfernungn zwischen Seychells und Bali in Kauf.</desc>
   </programme>
   <programme start="20251121022040 +0000" stop="20251121031145 +0000" channel="Red Bull TV.de">
-    <title>Red Bull Soapbox Race</title>
+    <title>Red Bull Seifenkistenrennen</title>
     <sub-title>Sao Paulo, Brazil</sub-title>
     <desc>In dieser Sendung gestalten und bauen Amateurrennfahrer ihre eigenen Soapbox-Fahrzeuge.</desc>
     <episode-num system="xmltv_ns">6.0.</episode-num>
   </programme>
   <programme start="20251121031145 +0000" stop="20251121040121 +0000" channel="Red Bull TV.de">
-    <title>Red Bull Soapbox Race</title>
+    <title>Red Bull Seifenkistenrennen</title>
     <sub-title>Litauen 2019: Highlights</sub-title>
     <desc>Beim Red Bull Seifenkistenrennen 2019 in Kaunas (Litauen) lieferten kreative Teams mit ihren skurrilen, motorlosen Gefahrten ein spektakulares Spektakel - voller Humor und verruckter Ideen.</desc>
     <episode-num system="xmltv_ns">8..</episode-num>
@@ -2829,9 +3738,8 @@
     <desc>Red Bull Dual Ascent 2024.</desc>
   </programme>
   <programme start="20251121050000 +0000" stop="20251121064157 +0000" channel="Red Bull TV.de">
-    <title>Red Bull Soapbox Race</title>
-    <sub-title>Madrid 2022</sub-title>
-    <desc>In den steilen StraSSen von Madrid findet eine Churros-getriebene Abfahrt statt! Wer wird am Ende die Nase vorn haben?</desc>
+    <title>Red Bull Seifenkistenrennen</title>
+    <desc>Die Sendung zeigt das groSSe Red Bull Seifenkistenrennen im Aargauerstalden in Bern.</desc>
   </programme>
   <programme start="20251121064157 +0000" stop="20251121074141 +0000" channel="Red Bull TV.de">
     <title>More than a Dive</title>
@@ -2914,12 +3822,11 @@
     <desc>Tag 2 und die Zeit lauft: AUT of ORDA bekommen Verstarkung im Camp und wagen sich an ein Hip-Hop-Cover.</desc>
   </programme>
   <programme start="20251121230818 +0000" stop="20251122005222 +0000" channel="Red Bull TV.de">
-    <title>Red Bull Soapbox Race</title>
-    <sub-title>Madrid 2022</sub-title>
-    <desc>In den steilen StraSSen von Madrid findet eine Churros-getriebene Abfahrt statt! Wer wird am Ende die Nase vorn haben?</desc>
+    <title>Red Bull Seifenkistenrennen</title>
+    <desc>Die Sendung zeigt das groSSe Red Bull Seifenkistenrennen im Aargauerstalden in Bern.</desc>
   </programme>
   <programme start="20251122005222 +0000" stop="20251122014306 +0000" channel="Red Bull TV.de">
-    <title>Red Bull Soapbox Race</title>
+    <title>Red Bull Seifenkistenrennen</title>
     <sub-title>Helsinki</sub-title>
     <desc>Die Sendung berichtet uber das "Red Bull Soapbox Race" 2019 in Helsinki in Finland.</desc>
     <episode-num system="xmltv_ns">6.1.</episode-num>
@@ -2933,6 +3840,148 @@
   <programme start="20251122023707 +0000" stop="20251122033644 +0000" channel="Red Bull TV.de">
     <title>Basketball-Doku: NBA-Wurfchoach Lethal Shooter</title>
     <desc>Die Dokumentation erzahlt die Geschichte von Chris Lethal Shooter Matthews: einst Basketballprofi, heute gefragtester Wurf-Coach der Welt. Er spricht uber Ruckschlage, Neuanfange und das unermudlichen Streben nach Perfektion.</desc>
+  </programme>
+  <programme start="20251122033644 +0000" stop="20251122043036 +0000" channel="Red Bull TV.de">
+    <title>Kletter-Doku: Stefan Glowacz entlang der SeidenstraSSe</title>
+    <desc>Bergsteiger Stefan Glowacz wagt mit drei Gefahrten eine herausfordernde Expedition entlang der SeidenstraSSe. Sie begeben sich in unbekanntes Terrain, um einen schwierigen Aufstieg zu meistern - ein Abenteuer mit ungewissem Ausgang.</desc>
+  </programme>
+  <programme start="20251122043036 +0000" stop="20251122050000 +0000" channel="Red Bull TV.de">
+    <title>For Reals</title>
+    <sub-title>Vom BASE-Jump in eine Hohle and fliegenden Megaswing</sub-title>
+    <desc>Die Sendung prasentiert legendare Red Bull-Momente in kurzen Videoclips aus aller Welt.</desc>
+    <episode-num system="xmltv_ns">0.6.</episode-num>
+  </programme>
+  <programme start="20251122050000 +0000" stop="20251122055001 +0000" channel="Red Bull TV.de">
+    <title>Red Bull Seifenkistenrennen</title>
+    <sub-title>Toulouse, Frankreich</sub-title>
+    <desc>To Win or To(ulouse)? Das ist die Frage, die heute bei diesem einzigartigen Rennen beantwortet wird! Moge die rosa Stadt den vielen Teilnehmer:innen Kraft und Mut geben.</desc>
+    <episode-num system="xmltv_ns">8.4.</episode-num>
+  </programme>
+  <programme start="20251122055001 +0000" stop="20251122060510 +0000" channel="Red Bull TV.de">
+    <title>Worldies</title>
+    <sub-title>5 bizarre Events des Actionsports</sub-title>
+    <desc>In dieser Folge geht es um besondere Veranstaltungen, die Sport mit Humor verbinden.</desc>
+    <episode-num system="xmltv_ns">0.13.</episode-num>
+  </programme>
+  <programme start="20251122060510 +0000" stop="20251122062019 +0000" channel="Red Bull TV.de">
+    <title>Worldies</title>
+    <sub-title>GroSSe Red Bull-Events</sub-title>
+    <desc>In dieser Folge geht es um funf Red Bull-Events, die ein groSSes Publikum anziehen.</desc>
+    <episode-num system="xmltv_ns">0.10.</episode-num>
+  </programme>
+  <programme start="20251122062019 +0000" stop="20251122064528 +0000" channel="Red Bull TV.de">
+    <title>No Contest: Off Tour</title>
+    <sub-title>Marokko</sub-title>
+    <desc>Marokko hat viel mehr als tolle Surfspots zu bieten, auch wenn diese ein guter Ausgangspunkt sind. Lerne mit Laura Coviella, Kauli Vaast und vielen weiteren Gasten die Kultur und Kuche des Landes kennen.</desc>
+    <episode-num system="xmltv_ns">1.1.</episode-num>
+  </programme>
+  <programme start="20251122064528 +0000" stop="20251122071513 +0000" channel="Red Bull TV.de">
+    <title>No Contest: Off Tour</title>
+    <sub-title>San Francisco</sub-title>
+    <desc>Von Ocean Beach bis zum Silicon Valley und daruber hinaus beheimatet San Francisco eine vielseitige Surferszene. No Contest-Moderator Ashton Goggans stellt einige der legendaren Sportler:innen naher vor.</desc>
+    <episode-num system="xmltv_ns">1.0.</episode-num>
+  </programme>
+  <programme start="20251122071513 +0000" stop="20251122073803 +0000" channel="Red Bull TV.de">
+    <title>Peaking</title>
+    <sub-title>Coco Nogales surft in Mexiko</sub-title>
+    <desc>Coco Nogales kampfte sich aus der Armut hoch, um ein Big-Wave-Surfer zu werden. Als sich eine riesige Welle seiner Heimatstadt Puerto Escondido in Mexiko nahert, bereitet sich Coco darauf vor hinauszupaddeln, um seinen Traum von einer perfekten...</desc>
+    <episode-num system="xmltv_ns">0.3.</episode-num>
+  </programme>
+  <programme start="20251122073803 +0000" stop="20251122080019 +0000" channel="Red Bull TV.de">
+    <title>Life of Kai</title>
+    <sub-title>Versuchsgelande</sub-title>
+    <desc>Kai Lenny stellt mit Kelly Slater und Carissa Moore ein Surf-Superteam fur den Backdoor Shootout in Pipeline zusammen. Das Team nimmt am ersten Rennen von "The Eddie" und seit 2016 am "XXL Waimea Bay" teil.</desc>
+    <episode-num system="xmltv_ns">2.1.</episode-num>
+  </programme>
+  <programme start="20251122080019 +0000" stop="20251122081932 +0000" channel="Red Bull TV.de">
+    <title>Dedicate</title>
+    <sub-title>Der Wassermann: Matt Poole</sub-title>
+    <desc>Der australische Surfer Matt Poole will den Titel gewinnen und auch lernen, wie man der Beste wird.</desc>
+    <episode-num system="xmltv_ns">1.1.</episode-num>
+  </programme>
+  <programme start="20251122081932 +0000" stop="20251122084300 +0000" channel="Red Bull TV.de">
+    <title>Peaking</title>
+    <sub-title>Ramon Navarro</sub-title>
+    <desc>Der chilenische Big-Wave-Surfer Ramon Navarro hat hart dafur gekampft, dass Chile einen Stop auf der Big Wave Tour bekommt. Jetzt, Tage vor dem Quiksilver Ceremonial Contest, muss Ramon warten und fur einen Wellengang beten, der moglicherweise ...</desc>
+    <episode-num system="xmltv_ns">0.10.</episode-num>
+  </programme>
+  <programme start="20251122084300 +0000" stop="20251122093542 +0000" channel="Red Bull TV.de">
+    <title>Tanz Film: (Un)credited - die Ursprunge des Afro Dance</title>
+    <desc>Der Film zeigt die Vergangenheit, Gegenwart und Zukunft einflussreicher Tanzbewegungen und feiert ihre Schopfer. Es geht speziell um die Ursprunge des "Afro Dance" in Nigeria und die Pragung einer globalen Mainstream-Kultur.</desc>
+  </programme>
+  <programme start="20251122093542 +0000" stop="20251122100441 +0000" channel="Red Bull TV.de">
+    <title>SCREENLAND</title>
+    <sub-title>Neustart</sub-title>
+    <desc>Ein Streamer auf Twitch will sein Leben nach einer Sucht neu aufbauen und sucht Hilfe. Sein Leben umzukrempeln ist nicht so leicht wie einen Computer neuzustarten. AuSSerdem will ein Nerdcore-Rapper sich selbst neu erfinden und sein Image aufpolieren.</desc>
+    <episode-num system="xmltv_ns">0.2.</episode-num>
+  </programme>
+  <programme start="20251122100441 +0000" stop="20251122103345 +0000" channel="Red Bull TV.de">
+    <title>SCREENLAND</title>
+    <sub-title>Haustier Projekte</sub-title>
+    <desc>Ein Ehepaar kreiert ein kurioses Game namens "Butt-Sniffin Pugs</desc>
+    <episode-num system="xmltv_ns">0.3.</episode-num>
+  </programme>
+  <programme start="20251122103345 +0000" stop="20251122120835 +0000" channel="Red Bull TV.de">
+    <title>Dota 2 Film: CEB - Das Comeback von Sebastien Debs</title>
+    <desc>Der franzosische Dota 2-Profi Sebastien Debs kehrt aus dem Ruhestand zuruck, um sein Team beim ESL One Stockholm Major zu unterstutzen.</desc>
+  </programme>
+  <programme start="20251122120835 +0000" stop="20251122124506 +0000" channel="Red Bull TV.de">
+    <title>Reel Rock</title>
+    <sub-title>Rayu</sub-title>
+    <desc>Sasha DiGiulian, Matilda Soderlund und Brette Harrington erklimmen die Rayu 5.14b Route in Spanien.</desc>
+    <episode-num system="xmltv_ns">7.0.</episode-num>
+  </programme>
+  <programme start="20251122124506 +0000" stop="20251122130958 +0000" channel="Red Bull TV.de">
+    <title>Reel Rock</title>
+    <sub-title>GroSSe Dinge stehen an - Alex Johnson</sub-title>
+    <desc>Die Elitekletterin Alex Johnson versucht seit einem Jahrzehnt, den legendaren Felsblock The Swarm in Kalifornien zu besteigen. Der Misserfolg zwingt sie zu einer Selbstreflexion, bei der sie schlieSSlich ihre Sexualitat akzeptiert.</desc>
+    <episode-num system="xmltv_ns">7.2.</episode-num>
+  </programme>
+  <programme start="20251122130958 +0000" stop="20251122134316 +0000" channel="Red Bull TV.de">
+    <title>Skate Tales</title>
+    <sub-title>Gose Gerald and Uganda Skateboard Society</sub-title>
+    <desc>Madars Apse spricht mit Tyler Surrey uber dessen spannende Geschichte als Skater. Der Sportler aus Uganda hat mit der Hilfe von Internet-Tutorials einen Park gebaut, um die Skate-Szene zu implementieren und damit bis heute groSSen Einfluss.</desc>
+    <episode-num system="xmltv_ns">1.4.</episode-num>
+  </programme>
+  <programme start="20251122134316 +0000" stop="20251122140718 +0000" channel="Red Bull TV.de">
+    <title>That’s Caroline</title>
+    <desc>Die Dokumentation stellt Caroline Marks vor, die ein Nachwuchstalent im Surfsport ist. Die Sendung zeigt ihren kometenhaften Aufstieg vom Start der Profi-Karriere mit nur 13 Jahren, bis hin zur Qualifikation, ihr Land zu vertreten.</desc>
+  </programme>
+  <programme start="20251122140718 +0000" stop="20251122150138 +0000" channel="Red Bull TV.de">
+    <title>Skate Doku: Rolling Away mit Ryan Sheckler</title>
+    <desc>Ryan Sheckler und andere erfahrene Personlichkeiten aus dem Skateboarding- und Sportsegment analysieren die Bedeutung von Skatevideos und welche Arbeitsmoral notig ist, damit die Produktion eines erfolgreichen Clips gelingt.</desc>
+  </programme>
+  <programme start="20251122150138 +0000" stop="20251122155223 +0000" channel="Red Bull TV.de">
+    <title>Red Bull Seifenkistenrennen</title>
+    <sub-title>Helsinki</sub-title>
+    <desc>Die Sendung berichtet uber das "Red Bull Soapbox Race" 2019 in Helsinki in Finland.</desc>
+    <episode-num system="xmltv_ns">6.1.</episode-num>
+  </programme>
+  <programme start="20251122155223 +0000" stop="20251122162237 +0000" channel="Red Bull TV.de">
+    <title>Tanz-Doku: Flying Steps – Von Berlin auf die US-Buhne</title>
+    <desc>Kurz vor ihrem groSSen Debut in den USA blicken die Flying Steps zuruck: Von den StraSSen Berlins zur weltbekannten Breakdance Tanzcrew – eine Story voller Leidenschaft, Energie und Triumph.</desc>
+  </programme>
+  <programme start="20251122162237 +0000" stop="20251122165410 +0000" channel="Red Bull TV.de">
+    <title>Flying Steps – Zuruck in Europa mit Flying Illusion</title>
+    <desc>Nach ihrem Erfolg mit Flying Bach in den USA kehren die Flying Steps nach Europa zuruck. Mit "Flying Illusion" prasentieren sie eine ganz neue und spektakulare Show voller Magie, Breakdance und spektakularer Buhneneffekte.</desc>
+  </programme>
+  <programme start="20251122165410 +0000" stop="20251122172536 +0000" channel="Red Bull TV.de">
+    <title>Follow the Steps</title>
+    <sub-title>Premiere in Österreich</sub-title>
+    <desc>Wahrend die letzten Vorbereitungen fur die Show in Österreich getroffen werden, erzahlen Robozee und B-Boy Willy, wie sie die neuesten Mitglieder der Flying Steps wurden.</desc>
+    <episode-num system="xmltv_ns">0.2.</episode-num>
+  </programme>
+  <programme start="20251122172536 +0000" stop="20251122175702 +0000" channel="Red Bull TV.de">
+    <title>Tanz-Doku: Flying Steps – Breakdancen auf dem Ozean</title>
+    <desc>Nach ihrer gefeierten Premiere in Österreich gehen die Flying Steps mit ihrer Show auf ein Kreuzfahrtschiff. Ein Blick hinter die Kulissen zeigt den Zuschauern wie die spektakulare Breakdance-Show uberhaupt erst entsteht.</desc>
+  </programme>
+  <programme start="20251122175702 +0000" stop="20251122182821 +0000" channel="Red Bull TV.de">
+    <title>Flying Steps – Tourstart in San Francisco</title>
+    <desc>Die Steps reisen nach San Francisco, um ihre US-Tour zu beginnen. Ihr groSSes Ziel ist ein Auftritt in Las Vegas. Wahrenddessen feiert ihr Mentor Vartan Bassil den Kauf neuer Sneaker, was sein Budget an seine Grenzen bringt.</desc>
+  </programme>
+  <programme start="20251122182821 +0000" stop="20251122185952 +0000" channel="Red Bull TV.de">
+    <title>Doku: Flying Steps – Der Traum von Las Vegas</title>
+    <desc>Der Traum von Las Vegas ruckt naher: Benny und Vartan lernen von den Jabbawockeez die Geheimnisse des Show-Business, wahrend Willy beim Red Bull BC ONE World Final in Paris antritt.</desc>
   </programme>
   <channel id="10001">
     <display-name>Red Bull TV FHD (English)</display-name>
@@ -3704,6 +4753,36 @@
     <desc>Die Sendung gibt Einblicke in das Geschehen der weltweit einzigartigsten Motorsport-Events.</desc>
     <episode-num system="xmltv_ns">0..</episode-num>
   </programme>
+  <programme start="20251122033000 +0000" stop="20251122133000 +0000" channel="More Than Sports TV.de">
+    <title>Infomercial</title>
+    <desc>Teleshopping fur z.B. Kosmetik, Schmuck, Mode oder Haushaltsgerate. Dem Konsumenten wird die Moglichkeit angeboten, ein Produkt seiner Wahl im Fernsehen auszuwahlen und dieses per Telefon, Fax, Onlineshop oder E-Mail bei einem Handler zu bestellen.</desc>
+  </programme>
+  <programme start="20251122133000 +0000" stop="20251122140000 +0000" channel="More Than Sports TV.de">
+    <title>Fastzone 2025</title>
+    <desc>Die Sendung zeigt einige der besten Motorsport-Momente, von Karts bis zur Formel Eins.</desc>
+    <episode-num system="xmltv_ns">.13.</episode-num>
+  </programme>
+  <programme start="20251122140000 +0000" stop="20251122142500 +0000" channel="More Than Sports TV.de">
+    <title>FIM Enduro World Championship 2025</title>
+  </programme>
+  <programme start="20251122142500 +0000" stop="20251122145000 +0000" channel="More Than Sports TV.de">
+    <title>Belgian Rallycross Championship 2024</title>
+    <sub-title>Runde 6 and 7 and 8</sub-title>
+    <desc>In der Sendung werden die Hohepunkte der belgischen Rallycrosschampionship Rally prasentiert.</desc>
+  </programme>
+  <programme start="20251122145000 +0000" stop="20251122154500 +0000" channel="More Than Sports TV.de">
+    <title>Goodwood 2025</title>
+    <sub-title>2025 - Festival of Speed Tag 1</sub-title>
+    <desc>Immer, wenn in England die Narzissen zum Bluhen beginnen, startet auch fur den historischen Motorsport die Rennsaison. Das Goodwood Members Meeting gibt es zu Beginn, bei dem Fans nicht nur erstklassigen, historischen Rennsport erleben konnen.</desc>
+  </programme>
+  <programme start="20251122154500 +0000" stop="20251122173500 +0000" channel="More Than Sports TV.de">
+    <title>Gallagher Premiership Rugby 2024-25</title>
+    <desc>Die Gallagher Premiership Rugby ist auch in der Saison 2024 - 2025 wieder fester Bestandteil bei More Than Sports TV. Wird der Champion aus Northampton seinen Titel verteidigen konnen?</desc>
+  </programme>
+  <programme start="20251122173500 +0000" stop="20251122193500 +0000" channel="More Than Sports TV.de">
+    <title>Gallagher Premiership Rugby 2024-25</title>
+    <desc>Die Gallagher Premiership Rugby ist auch in der Saison 2024 - 2025 wieder fester Bestandteil bei More Than Sports TV. Wird der Champion aus Northampton seinen Titel verteidigen konnen?</desc>
+  </programme>
   <channel id="WELT.de">
     <display-name>WELT FHD</display-name>
   </channel>
@@ -4146,7 +5225,7 @@
   </programme>
   <programme start="20251121081500 +0000" stop="20251121083000 +0000" channel="WELT.de">
     <title>WELT Newsroom</title>
-    <desc>Die Sendung berichtet uber die tagesaktuellen News aus Politik und Gesellschaft.</desc>
+    <desc>Der Nachrichtentag entwickelt sich und Sie sind in "WELT Newsroom" dabei. Schalten, Pressekonferenzen, Studiogaste, Erlauterungen an der Vidiwall: Wissen, was geschieht und was es bedeutet.</desc>
   </programme>
   <programme start="20251121083000 +0000" stop="20251121084500 +0000" channel="WELT.de">
     <title>WELT Newsroom</title>
@@ -4171,7 +5250,7 @@
   </programme>
   <programme start="20251121091500 +0000" stop="20251121093000 +0000" channel="WELT.de">
     <title>WELT Newsroom</title>
-    <desc>Die Sendung berichtet uber die tagesaktuellen News aus Politik und Gesellschaft.</desc>
+    <desc>Der Nachrichtentag entwickelt sich und Sie sind in "WELT Newsroom" dabei. Schalten, Pressekonferenzen, Studiogaste, Erlauterungen an der Vidiwall: Wissen, was geschieht und was es bedeutet.</desc>
   </programme>
   <programme start="20251121093000 +0000" stop="20251121094500 +0000" channel="WELT.de">
     <title>WELT Newsroom</title>
@@ -4183,8 +5262,8 @@
   </programme>
   <programme start="20251121095000 +0000" stop="20251121100000 +0000" channel="WELT.de">
     <title>Borsenflash</title>
-    <desc>Taglich gibt Dietmar Deffner bei Borsenflash einen kurzen Überblick uber die Dax-Werte.</desc>
-    <episode-num system="xmltv_ns">.28.</episode-num>
+    <desc>In der Sendung wird uber die aktuellen Borsendaten nationaler und internationaler Borsen informiert.</desc>
+    <episode-num system="xmltv_ns">.598.</episode-num>
   </programme>
   <programme start="20251121100000 +0000" stop="20251121101500 +0000" channel="WELT.de">
     <title>WELT Newsroom</title>
@@ -4204,8 +5283,8 @@
   </programme>
   <programme start="20251121105000 +0000" stop="20251121110000 +0000" channel="WELT.de">
     <title>Borsenflash</title>
-    <desc>Taglich gibt Dietmar Deffner bei Borsenflash einen kurzen Überblick uber die Dax-Werte.</desc>
-    <episode-num system="xmltv_ns">.28.</episode-num>
+    <desc>In der Sendung wird uber die aktuellen Borsendaten nationaler und internationaler Borsen informiert.</desc>
+    <episode-num system="xmltv_ns">.598.</episode-num>
   </programme>
   <programme start="20251121110000 +0000" stop="20251121111500 +0000" channel="WELT.de">
     <title>Die Welt am Mittag</title>
@@ -4213,7 +5292,7 @@
   </programme>
   <programme start="20251121111500 +0000" stop="20251121112000 +0000" channel="WELT.de">
     <title>Die Welt am Mittag</title>
-    <desc>Ab 12 Uhr gibt es in der Sendung eine erste Zusammenfassung des aktuellen Geschehens des Tages und zeigt verschiedene Interviews zu den Top-Themen. AuSSerdem wirft sie einen kritischen Blick auf die Entwicklungen an den Borsen.</desc>
+    <desc>Ab 12 Uhr gibt es in "Die Welt am Mittag" eine erste Zusammenfassung des aktuellen Geschehens und Interviews zu den Top-Themen, kompakt und inklusive der Entwicklungen an den Borsen.</desc>
   </programme>
   <programme start="20251121112000 +0000" stop="20251121113000 +0000" channel="WELT.de">
     <title>WELT - Meinung am Mittag</title>
@@ -4279,7 +5358,7 @@
   </programme>
   <programme start="20251121151500 +0000" stop="20251121153000 +0000" channel="WELT.de">
     <title>WELT Newsroom</title>
-    <desc>Die Sendung berichtet uber die tagesaktuellen News aus Politik und Gesellschaft.</desc>
+    <desc>Der Nachrichtentag entwickelt sich und Sie sind in "WELT Newsroom" dabei. Schalten, Pressekonferenzen, Studiogaste, Erlauterungen an der Vidiwall: Wissen, was geschieht und was es bedeutet.</desc>
   </programme>
   <programme start="20251121153000 +0000" stop="20251121155500 +0000" channel="WELT.de">
     <title>WELT Newsroom</title>
@@ -4385,6 +5464,143 @@
     <title>Mega-Konstruktionen: Antonov An-124</title>
     <desc>Eines der weltweit groSSten Frachtflugzeuge trag die Bezeichnung Antonov An-124 Ruslan. Mit ihm ist man in der Lage, schwerste und sperrige Ladung von A nach B zu transportieren. Auch die Technik der Maschine wird allen Anforderungen gerecht.</desc>
     <episode-num system="xmltv_ns">0..</episode-num>
+  </programme>
+  <programme start="20251122033500 +0000" stop="20251122041500 +0000" channel="WELT.de">
+    <title>Supersonic - Die Überschallflieger</title>
+    <desc>Lange Zeit hieSS es, die Schallgrenze sei eine unuberwindbare physikalische Mauer. Die Aussage wurde revidiert. 1947 gelang dies dem Kampfpilot-Veteranen Charles Chuck Yeager mit einer raketengetriebenen Bell X-1. Kurz darauf gab es mehrere Modelle.</desc>
+  </programme>
+  <programme start="20251122041500 +0000" stop="20251122050000 +0000" channel="WELT.de">
+    <title>USA Top Secret: Inside Secret Service</title>
+    <desc>Es wird beleuchtet, wie der Secret Service den US-amerikanischen Prasidenten schutzt. In Zeiten KI-gesteuerter Drohnen und biologischer Erreger werden die Gefahrenquellen immer vielseitiger, dazu mussen auch die Transportmittel geschutzt werden.</desc>
+    <episode-num system="xmltv_ns">3.1.</episode-num>
+  </programme>
+  <programme start="20251122050000 +0000" stop="20251122060000 +0000" channel="WELT.de">
+    <title>Besser als das Original - Ford Mustang Restaurierung</title>
+    <desc>Der Ford Mustang ist ein unbestrittener amerikanischer Klassiker. Mit seinem Acht-Zylinder-Motor steht er nach wie vor fur Kraft und Freiheit. Auch sechzig Jahre nach ihrem Erscheinen ist die Nachfrage nach gut erhaltenen Exemplaren hoch.</desc>
+  </programme>
+  <programme start="20251122060000 +0000" stop="20251122062000 +0000" channel="WELT.de">
+    <title>Die Welt am Morgen</title>
+    <desc>Die Nachrichtensendung gewahrt einen Überblick uber aktuelle Themen, die das Geschehen bestimmen.</desc>
+  </programme>
+  <programme start="20251122062000 +0000" stop="20251122063500 +0000" channel="WELT.de">
+    <title>Die Welt am Morgen</title>
+    <desc>Die Nachrichtensendung gewahrt einen Überblick uber aktuelle Themen, die das Geschehen bestimmen.</desc>
+  </programme>
+  <programme start="20251122063500 +0000" stop="20251122070000 +0000" channel="WELT.de">
+    <title>Die Welt am Morgen</title>
+    <desc>Die Nachrichtensendung gewahrt einen Überblick uber aktuelle Themen, die das Geschehen bestimmen.</desc>
+  </programme>
+  <programme start="20251122070000 +0000" stop="20251122072000 +0000" channel="WELT.de">
+    <title>Die Welt am Morgen</title>
+    <desc>Die Nachrichtensendung gewahrt einen Überblick uber aktuelle Themen, die das Geschehen bestimmen.</desc>
+  </programme>
+  <programme start="20251122072000 +0000" stop="20251122073500 +0000" channel="WELT.de">
+    <title>Die Welt am Morgen</title>
+    <desc>Die Nachrichtensendung gewahrt einen Überblick uber aktuelle Themen, die das Geschehen bestimmen.</desc>
+  </programme>
+  <programme start="20251122073500 +0000" stop="20251122080000 +0000" channel="WELT.de">
+    <title>Die Welt am Morgen</title>
+    <desc>Die Nachrichtensendung gewahrt einen Überblick uber aktuelle Themen, die das Geschehen bestimmen.</desc>
+  </programme>
+  <programme start="20251122080000 +0000" stop="20251122080500 +0000" channel="WELT.de">
+    <title>WELT Newsroom</title>
+    <desc>Die Sendung berichtet uber die tagesaktuellen News aus Politik und Gesellschaft.</desc>
+  </programme>
+  <programme start="20251122080500 +0000" stop="20251122081500 +0000" channel="WELT.de">
+    <title>Meine WELT - Meine Meinung</title>
+    <desc>In der Sendung werden die Meinungen des Tages zu den aktuellen Themen prasentiert.</desc>
+  </programme>
+  <programme start="20251122081500 +0000" stop="20251122084500 +0000" channel="WELT.de">
+    <title>WELT Reporter</title>
+    <desc>Das Format begleitet Reporter und zeigt wochentlich Beitrage aus Krisen- und Kriegsgebieten.</desc>
+  </programme>
+  <programme start="20251122084500 +0000" stop="20251122090000 +0000" channel="WELT.de">
+    <title>ICON TV</title>
+    <desc>Luxus, Stil und Statements: ICON zeigt jede Woche, was in der Modewelt zahlt. Ob High Fashion oder High-End-Design - hier kommen Looks, die Eindruck machen.</desc>
+  </programme>
+  <programme start="20251122090000 +0000" stop="20251122093000 +0000" channel="WELT.de">
+    <title>WELT Newsroom</title>
+    <desc>Die Sendung berichtet uber die tagesaktuellen News aus Politik und Gesellschaft.</desc>
+  </programme>
+  <programme start="20251122093000 +0000" stop="20251122100000 +0000" channel="WELT.de">
+    <title>WELT Newsroom</title>
+    <desc>Die Sendung berichtet uber die tagesaktuellen News aus Politik und Gesellschaft.</desc>
+  </programme>
+  <programme start="20251122100000 +0000" stop="20251122100500 +0000" channel="WELT.de">
+    <title>WELT Newsroom</title>
+    <desc>Die Sendung berichtet uber die tagesaktuellen News aus Politik und Gesellschaft.</desc>
+  </programme>
+  <programme start="20251122100500 +0000" stop="20251122101500 +0000" channel="WELT.de">
+    <title>Meine WELT - Meine Meinung</title>
+    <desc>In der Sendung werden die Meinungen des Tages zu den aktuellen Themen prasentiert.</desc>
+  </programme>
+  <programme start="20251122101500 +0000" stop="20251122105000 +0000" channel="WELT.de">
+    <title>WELT Reporter</title>
+    <desc>Das Format begleitet Reporter und zeigt wochentlich Beitrage aus Krisen- und Kriegsgebieten.</desc>
+  </programme>
+  <programme start="20251122105000 +0000" stop="20251122110000 +0000" channel="WELT.de">
+    <title>ICON TV</title>
+    <desc>Luxus, Stil und Statements: ICON zeigt jede Woche, was in der Modewelt zahlt. Ob High Fashion oder High-End-Design - hier kommen Looks, die Eindruck machen.</desc>
+  </programme>
+  <programme start="20251122110000 +0000" stop="20251122113000 +0000" channel="WELT.de">
+    <title>Die Welt am Mittag</title>
+    <desc>Ab 12 Uhr gibt es in der Sendung eine erste Zusammenfassung des aktuellen Geschehens des Tages und zeigt verschiedene Interviews zu den Top-Themen. AuSSerdem wirft sie einen kritischen Blick auf die Entwicklungen an den Borsen.</desc>
+  </programme>
+  <programme start="20251122113000 +0000" stop="20251122120000 +0000" channel="WELT.de">
+    <title>Die Welt am Mittag</title>
+    <desc>Ab 12 Uhr gibt es in der Sendung eine erste Zusammenfassung des aktuellen Geschehens des Tages und zeigt verschiedene Interviews zu den Top-Themen. AuSSerdem wirft sie einen kritischen Blick auf die Entwicklungen an den Borsen.</desc>
+  </programme>
+  <programme start="20251122120000 +0000" stop="20251122121500 +0000" channel="WELT.de">
+    <title>Die Welt am Mittag</title>
+    <desc>Ab 12 Uhr gibt es in der Sendung eine erste Zusammenfassung des aktuellen Geschehens des Tages und zeigt verschiedene Interviews zu den Top-Themen. AuSSerdem wirft sie einen kritischen Blick auf die Entwicklungen an den Borsen.</desc>
+  </programme>
+  <programme start="20251122121500 +0000" stop="20251122123000 +0000" channel="WELT.de">
+    <title>Meine WELT - Meine Meinung</title>
+    <desc>In der Sendung werden die Meinungen des Tages zu den aktuellen Themen prasentiert.</desc>
+  </programme>
+  <programme start="20251122123000 +0000" stop="20251122124500 +0000" channel="WELT.de">
+    <title>Die Welt am Mittag</title>
+    <desc>Ab 12 Uhr gibt es in der Sendung eine erste Zusammenfassung des aktuellen Geschehens des Tages und zeigt verschiedene Interviews zu den Top-Themen. AuSSerdem wirft sie einen kritischen Blick auf die Entwicklungen an den Borsen.</desc>
+  </programme>
+  <programme start="20251122124500 +0000" stop="20251122130000 +0000" channel="WELT.de">
+    <title>Meine WELT - Meine Meinung</title>
+    <desc>In der Sendung werden die Meinungen des Tages zu den aktuellen Themen prasentiert.</desc>
+  </programme>
+  <programme start="20251122130000 +0000" stop="20251122133000 +0000" channel="WELT.de">
+    <title>WELT Newsroom</title>
+    <desc>Die Sendung berichtet uber die tagesaktuellen News aus Politik und Gesellschaft.</desc>
+  </programme>
+  <programme start="20251122133000 +0000" stop="20251122135000 +0000" channel="WELT.de">
+    <title>WELT Newsroom</title>
+    <desc>Die Sendung berichtet uber die tagesaktuellen News aus Politik und Gesellschaft.</desc>
+  </programme>
+  <programme start="20251122135000 +0000" stop="20251122144500 +0000" channel="WELT.de">
+    <title>Der Traum vom eigenen Pool - Vom Eigenbau bis zum Luxus-Schwimmbad</title>
+    <desc>Alternativ zum Urlaub im Ausland steigt das Interesse am Heimurlaub und die Frage nach Swimmingpools. Fur das ideale Badevergnugen gibt es viele Gestaltungsmoglichkeiten. Ob Naturbad oder Luxusschwimmbecken, den Wunschen sind kaum Grenzen gesetzt.</desc>
+  </programme>
+  <programme start="20251122144500 +0000" stop="20251122153500 +0000" channel="WELT.de">
+    <title>Aircraft Doctors</title>
+    <sub-title>Vor dem Absprung steht die Flugzeugwartung</sub-title>
+    <desc>Im Mittelpunkt steht diesmal die Caravan Supervan 900, die sich einer sorgfaltigen 200-Stunden-Inspektion unterzieht. Parallel dazu lauft die Vorbereitung auf die 51. Flugshow Kerb in Gelnhausen. Adrian prasentiert dabei die elegante Robin DA 400.</desc>
+    <episode-num system="xmltv_ns">6.0.</episode-num>
+  </programme>
+  <programme start="20251122153500 +0000" stop="20251122163000 +0000" channel="WELT.de">
+    <title>Salami, Wiener and Co - Die Wurstmacher</title>
+    <desc>Deutschland ist der groSSte Fleischproduzent Europas. Im Schnitt verzehrt jeder Deutsche 31 Kilo Fleischwaren pro Jahr. Erfahren Sie mehr uber die Welt der Wurst: vom hohen Konsum an Bruhwurst bis zur ungebrochenen Beliebtheit der Salami.</desc>
+  </programme>
+  <programme start="20251122163000 +0000" stop="20251122172500 +0000" channel="WELT.de">
+    <title>Vom Schwein zum Schnitzel - Hinter den Kulissen der Fleischindustrie</title>
+    <desc>Pro Kopf verzehrt der Deutsche 38,1 Kilogramm Schweinefleisch im Jahr. Die Dokumentation zeigt den Weg des Nahrungsmittels vom Tier bis auf den Teller. Ein Gutshof in Bayern setzt auf gluckliche Tiere, Bio und Handarbeit.</desc>
+  </programme>
+  <programme start="20251122172500 +0000" stop="20251122182000 +0000" channel="WELT.de">
+    <title>Spektakulare Konstruktionen: Hangebrucken</title>
+    <desc>Hangebrucken sind Meilensteine der Technik, insbesondere des Bruckenbaus. Jahrelang hatten sie als Bindeglied zwischen Ortschaften gedient und noch heute pragen sie die Technik. Doch hohe Anspruche und Unwirtschaftlichkeit verdrangen diese zunehmend.</desc>
+    <episode-num system="xmltv_ns">0.2.</episode-num>
+  </programme>
+  <programme start="20251122182000 +0000" stop="20251122191500 +0000" channel="WELT.de">
+    <title>Spektakulare Konstruktionen: Stahlbrucken</title>
+    <desc>Stahlbrucken als eiserne Alltagshelfer bereiten einem jeden den Weg in die Weiten der Welt. Sie lassen Menschen Hurden uberwinden, die sonst unuberbruckbar waren. Doch so selbstverstandlich sie scheinen mogen, so groSS ist die Last, die sie tragen.</desc>
+    <episode-num system="xmltv_ns">0.3.</episode-num>
   </programme>
   <channel id="Welt der Wunder.de">
     <display-name>Welt der Wunder FHD</display-name>
@@ -4562,6 +5778,50 @@
   <programme start="20251122030000 +0000" stop="20251122040000 +0000" channel="Welt der Wunder.de">
     <title>Schau dich schlau</title>
     <desc>Den Alltag verstandlicher machen - das ist die Mission von Joey Grit Winkler und Fero Andersen. In ihrem Wissensmagazin betrachten sie die Welt, die uns umgibt, aus verschiedenen Blickwinkeln, luften Geheimnisse und vermitteln spannendes Wissen.</desc>
+  </programme>
+  <programme start="20251122040000 +0000" stop="20251122050000 +0000" channel="Welt der Wunder.de">
+    <title>Teleshopping</title>
+    <desc>Diese Sendung prasentiert die neuesten Produkte live im Fernsehen, sodass die Zuschauer ihre Wunschobjekte direkt bestellen konnen. Dabei reicht die Produktpalette von Staubsaugern uber Badetucher bis hin zu Sportgeraten.</desc>
+  </programme>
+  <programme start="20251122050000 +0000" stop="20251122100000 +0000" channel="Welt der Wunder.de">
+    <title>Teleshopping</title>
+    <desc>Diese Sendung prasentiert die neuesten Produkte live im Fernsehen, sodass die Zuschauer ihre Wunschobjekte direkt bestellen konnen. Dabei reicht die Produktpalette von Staubsaugern uber Badetucher bis hin zu Sportgeraten.</desc>
+  </programme>
+  <programme start="20251122100000 +0000" stop="20251122110000 +0000" channel="Welt der Wunder.de">
+    <title>Schau dich schlau</title>
+    <desc>Den Alltag verstandlicher machen - das ist die Mission von Joey Grit Winkler und Fero Andersen. In ihrem Wissensmagazin betrachten sie die Welt, die uns umgibt, aus verschiedenen Blickwinkeln, luften Geheimnisse und vermitteln spannendes Wissen.</desc>
+  </programme>
+  <programme start="20251122110000 +0000" stop="20251122120000 +0000" channel="Welt der Wunder.de">
+    <title>Kids</title>
+    <desc>Dieses Magazin widmet sich sowohl Eltern als auch Kinder. Die Sendung ist vollgestopft mit Innovationen, die den Alltag erleichtern, Gesundheitstipps, praktischen Erziehungstipps und naturlich allem was Kindern SpaSS macht.</desc>
+  </programme>
+  <programme start="20251122120000 +0000" stop="20251122130000 +0000" channel="Welt der Wunder.de">
+    <title>Science of Sports</title>
+    <desc>Die Sendereihe uber die Wirkung des Sports beschaftigt sich mit sportlichen Gesundheitsthemen. Es wird uber Sporternahrung, innovative Sportprodukte, neue Sportarten und Randsportarten sowie die aktuellsten Fitnesstrends berichtet.</desc>
+  </programme>
+  <programme start="20251122130000 +0000" stop="20251122140000 +0000" channel="Welt der Wunder.de">
+    <title>Green Life</title>
+    <desc>Die Sendung befasst sich mit den aktuellen Themen betreffend Nachhaltigkeit und Umweltschutz. Es geht unter anderem um schonende Umweltwirtschaft, Innovation im Bereich okologischer Technologien und grune Zukunftsmarkte.</desc>
+  </programme>
+  <programme start="20251122140000 +0000" stop="20251122150000 +0000" channel="Welt der Wunder.de">
+    <title>Six Senses</title>
+    <desc>Die Sendung entfuhrt den Zuschauer in die Welt der Kulinarik und widmet sich spannenden Talkthemen, egal ob Lifestyle, Reisen, Politik oder Unterhaltung. Passend dazu servieren Experten allerlei Wissen rund um das Thema Ernahrung.</desc>
+  </programme>
+  <programme start="20251122150000 +0000" stop="20251122160000 +0000" channel="Welt der Wunder.de">
+    <title>Life Goes On</title>
+    <desc>Das Gesundheitsmagazin legt seinen Fokus insbesondere auf die Gesundheit als Lebensgefuhl.</desc>
+  </programme>
+  <programme start="20251122160000 +0000" stop="20251122170000 +0000" channel="Welt der Wunder.de">
+    <title>Digital World</title>
+    <desc>Es geht um Computer und Informatik in der digitalen Welt.</desc>
+  </programme>
+  <programme start="20251122170000 +0000" stop="20251122180000 +0000" channel="Welt der Wunder.de">
+    <title>Lifestyle and Reise</title>
+    <desc>Die Sendung stellt die neuesten Trends in Sachen Lifestyle, Beauty, Kultur und Reisen vor. Dazu werden Manufakturen besucht, kulturelle Highlights gezeigt und Reiseziele in der Ferne vorgestellt. Zudem werden traumhafte Locations erkundet.</desc>
+  </programme>
+  <programme start="20251122180000 +0000" stop="20251122190000 +0000" channel="Welt der Wunder.de">
+    <title>Best Friends</title>
+    <desc>UBS und joiz suchen in einem groSSen Selfie-Wettbewerb die groSSten Freundschaften. Tama stellt dir in der Sendung Best Friends die Menschen auf den Selfies und deren Geschichten vor.</desc>
   </programme>
   <channel id="SWR Fernsehen RP.de">
     <display-name>SWR Rheinland-Pfalz FHD</display-name>
@@ -4916,5 +6176,111 @@
   <programme start="20251122025500 +0000" stop="20251122033500 +0000" channel="SWR Fernsehen RP.de">
     <title>aktueller bericht</title>
     <desc>Die Sendung zeigt Reporterberichte, Nachrichtenfilme, Meldungen, Kommentare und die Meinung der Zuschauerinnen und Zuschauer. Diese konnen sich taglich mit ihren Fragen und Diskussionsbeitragen direkt via Telefon an Experten im Studio wenden.</desc>
+  </programme>
+  <programme start="20251122033500 +0000" stop="20251122040000 +0000" channel="SWR Fernsehen RP.de">
+    <title>SWR Aktuell Rheinland-Pfalz</title>
+    <sub-title>vom 22.11.2025, 04:35 Uhr</sub-title>
+    <desc>Die Sendung zeigt die neuesten Nachrichten aus dem Sudwesten, mit Schwerpunkt Rheinland-Pfalz.</desc>
+  </programme>
+  <programme start="20251122040000 +0000" stop="20251122043000 +0000" channel="SWR Fernsehen RP.de">
+    <title>SWR Aktuell Baden-Wurttemberg</title>
+    <sub-title>vom 22.11.2025, 05:00 Uhr</sub-title>
+    <desc>Diese Sendung berichtet uber aktuelle Neuigkeiten aus Baden-Wurttemberg und Rheinland-Pfalz.</desc>
+  </programme>
+  <programme start="20251122043000 +0000" stop="20251122050000 +0000" channel="SWR Fernsehen RP.de">
+    <title>Einfach und kostlich</title>
+    <sub-title>Soren Anders kocht Raucherfischfrikadelle and Auberginen-Tatar</sub-title>
+    <desc>Soren Anders kocht mit Bjorn Freitag Raucherfischfrikadellen und Auberginen-Tatar.</desc>
+    <episode-num system="xmltv_ns">3..</episode-num>
+  </programme>
+  <programme start="20251122050000 +0000" stop="20251122065500 +0000" channel="SWR Fernsehen RP.de">
+    <title>SWR3 FIT</title>
+    <desc>Die Ausgabe ist perfekt fur alle, die auch am Wochenende gerne fruh aufstehen, zur Arbeit unterwegs sind oder Lust auf Abwechslung haben. Wahrend der Musikstrecken erganzen aktuelle Nachrichten zum Nachlesen die Livebilder aus dem Studio.</desc>
+    <episode-num system="xmltv_ns">.0.</episode-num>
+  </programme>
+  <programme start="20251122065500 +0000" stop="20251122083000 +0000" channel="SWR Fernsehen RP.de">
+    <title>Panoramablick</title>
+    <desc>Schone Bilder zeigen das Wetter an den schonsten Orten in Baden-Wurttemberg, Rheinland-Pfalz und im Saarland. Die Wetterbilder helfen bei der Freizeitgestaltung genauso wie bei der Planung des geeigneten Verkehrsmittels zur Arbeit.</desc>
+  </programme>
+  <programme start="20251122083000 +0000" stop="20251122090000 +0000" channel="SWR Fernsehen RP.de">
+    <title>Eisenbahn-Romantik</title>
+    <sub-title>Die Pilatusbahn - Steilste Zahnradbahn der Welt</sub-title>
+    <desc>Der Pilatus ist der sagenumwobene Hausberg von Luzern, wo in Felsspalten sogar Drachen gehaust haben sollen. Seit 1889 fahrt die steilste Zahnradbahn der Welt die knapp funf Kilometer kurze Strecke hinauf zur Bergstation Pilatus Kulm. Der Hohenunterschied von 1.600 Metern wird mit einer sogenannten Fischgratenzahnstange uberwunden - bis heute ein einmaliges System. Sie ist zum Sinnbild einer Zeit geworden, in der die Gipfelsturmer alles unternahmen, um ihre Ziele zu erreichen.</desc>
+  </programme>
+  <programme start="20251122090000 +0000" stop="20251122103000 +0000" channel="SWR Fernsehen RP.de">
+    <title>Das Salzkammergut - Berge, Seen und kaiserliches Flair</title>
+    <desc>Aufgrund reicher Salzvorkommen und spektakularer Natur haben Österreichs Kaiser das Salzkammergut wie ihre private Schatzkiste behandelt. In der Abgeschiedenheit haben sich zwischen Dachsteingebirge und Traunsee besondere Traditionen entwickelt.</desc>
+  </programme>
+  <programme start="20251122103000 +0000" stop="20251122104500 +0000" channel="SWR Fernsehen RP.de">
+    <title>Klimazeit</title>
+    <sub-title>Folge 149</sub-title>
+    <desc>In der Sendung sprechen Expertinnen und Experten wochentlich uber Ergebnisse in der Klimaforschung.</desc>
+    <episode-num system="xmltv_ns">0.148.</episode-num>
+  </programme>
+  <programme start="20251122104500 +0000" stop="20251122113000 +0000" channel="SWR Fernsehen RP.de">
+    <title>Doc Fischer</title>
+    <sub-title>Rheuma - wenn das Immunsystem die Gelenke angreift</sub-title>
+    <desc>Rheuma - wenn das Immunsystem die Gelenke angreift: Rheuma betrifft haufig Finger, Knie oder Schultern - die Gelenke entzunden sich, werden steif und schmerzen.</desc>
+    <episode-num system="xmltv_ns">6.9.</episode-num>
+  </programme>
+  <programme start="20251122113000 +0000" stop="20251122121500 +0000" channel="SWR Fernsehen RP.de">
+    <title>Ausweg Abnehmspritze?</title>
+    <desc>Konnen Abnehmspritzen tatsachlich dabei helfen, Gewicht zu verlieren? Sie versprechen schnellen Gewichtsverlust, doch Experten warnen vor schweren Nebenwirkungen wie Krebs. Experten prufen die Fakten und stellen gesunde Alternativen ohne Spritze vor.</desc>
+  </programme>
+  <programme start="20251122121500 +0000" stop="20251122130000 +0000" channel="SWR Fernsehen RP.de">
+    <title>Assenheimers Promitalk</title>
+    <sub-title>Gast: Johanna Gastdorf</sub-title>
+    <desc>Jorg Assenheimer unterhalt sich jede Woche mit einem anderen prominenten Talkgast.</desc>
+    <episode-num system="xmltv_ns">.17.</episode-num>
+  </programme>
+  <programme start="20251122130000 +0000" stop="20251122143000 +0000" channel="SWR Fernsehen RP.de">
+    <title>Heimkehr mit Hindernissen</title>
+    <desc>Der Tierarzt Hansi Riedlinger ist vor vielen Jahren nach Australien ausgewandert. Auf Bitten seiner Mutter kehrt er nun ins Kaisertal zuruck, um seinem Vater Johann unter die Arme zu greifen. Nach einer kostspieligen Renovierung seines Gestuts ist er in finanzielle Schwierigkeiten geraten. Es droht der Verlust des Hofes, denn fruher als abgemacht, fordert Burgermeister Ludwig Hackl sein Darlehen zuruck.</desc>
+  </programme>
+  <programme start="20251122143000 +0000" stop="20251122150000 +0000" channel="SWR Fernsehen RP.de">
+    <title>Tannheimer Tal, da will ich hin!</title>
+    <desc>Das Tannheimer Tal ist ein Hochtal in den osterreichischen Alpen und bei Urlaubern aus dem Sudwesten sehr beliebt. Michael Friemel startet am fruhen Morgen mit Ballonpilotin Bianca Hofer, um sich einen ersten Eindruck aus der Luft zu verschaffen.</desc>
+    <episode-num system="xmltv_ns">.139.</episode-num>
+  </programme>
+  <programme start="20251122150000 +0000" stop="20251122154500 +0000" channel="SWR Fernsehen RP.de">
+    <title>Ausgerechnet - Fliegen</title>
+    <desc>Warum zahlen einige Passagiere fur ihr Flugticket mehr und andere weniger, und wann ist der beste Zeitpunkt, um Fluge gunstig zu buchen? Die Antworten findet der Reporter Daniel ASSmann, als er am Flughafen in Frankfurt hinter die Kulissen blickt.</desc>
+    <episode-num system="xmltv_ns">10.2.</episode-num>
+  </programme>
+  <programme start="20251122154500 +0000" stop="20251122163000 +0000" channel="SWR Fernsehen RP.de">
+    <title>Marktcheck</title>
+    <sub-title>Abo-Fallen und Kundigungsfristen zum Jahresende</sub-title>
+    <desc>Abo-Fallen und Kundigungsfristen zum Jahresende: Ob Zeitschriften-Abo, das Fitnessstudio oder der Handyvertrag - wer solche Vertrage kundigen will, sollte unbedingt auf die Fristen achten. Seit 2022 gibt es ein neues Verbraucherrecht.</desc>
+  </programme>
+  <programme start="20251122163000 +0000" stop="20251122170000 +0000" channel="SWR Fernsehen RP.de">
+    <title>Jager and Sammler</title>
+    <sub-title>Ein Sammlerleben mit Star Wars, Superhelden and Co.</sub-title>
+    <desc>Wir beschaftigen uns mit Sebastian Hackl und seiner Sammelleidenschaft. Selbst harte Manner wie er knien sich fur kleine Spielfiguren aus Plastik nieder. Er berichtet, dass ihm das Sammeln der Superhelden seiner Kindheit Schutz gegeben habe.</desc>
+    <episode-num system="xmltv_ns">.2.</episode-num>
+  </programme>
+  <programme start="20251122170000 +0000" stop="20251122170800 +0000" channel="SWR Fernsehen RP.de">
+    <title>SWR Aktuell Rheinland-Pfalz</title>
+    <sub-title>vom 22.11.2025, 18:00 Uhr</sub-title>
+    <desc>Die Sendung zeigt die neuesten Nachrichten aus dem Sudwesten, mit Schwerpunkt Rheinland-Pfalz.</desc>
+  </programme>
+  <programme start="20251122170800 +0000" stop="20251122171500 +0000" channel="SWR Fernsehen RP.de">
+    <title>Hierzuland</title>
+    <sub-title>Die Simmerner StraSSe in Mengerschied</sub-title>
+    <desc>Mengerschied liegt etwa zehn Kilometer sudlich von Simmern am FuSSe des Soonwaldes. Gut 700 Menschen leben in dem Ort. Auffallig sind die vielen schonen alten Gebaude, die nicht nur gepflegt, sondern auch mit viel Leben erfullt werden.</desc>
+  </programme>
+  <programme start="20251122171500 +0000" stop="20251122174500 +0000" channel="SWR Fernsehen RP.de">
+    <title>Flohmarkt</title>
+    <desc>schmalen Grat zwischen Kunst und Kitsch findet alles seinen Platz und seine Liebhaber. Ein Bummel uber den Flohmarkt lohnt sich also immer, selbst wenn nur Erinnerungen an langst vergangene Kindertage wachgerufen werden.</desc>
+  </programme>
+  <programme start="20251122174500 +0000" stop="20251122183000 +0000" channel="SWR Fernsehen RP.de">
+    <title>Stadt - Land - Quiz</title>
+    <sub-title>Das Stadteduell im Sudwesten</sub-title>
+    <desc>Der SWR-Moderator Jens Hubschen quizzt rund um das Thema Dialekte in Dertingen im baden-wurttembergischen Main-Tauber-Kreis, und auSSerdem in Bockenheim in der Rheinland-Pfalz. Wer schafft es dieses Mal, den Sieg zu ergattern?</desc>
+    <episode-num system="xmltv_ns">.270.</episode-num>
+  </programme>
+  <programme start="20251122183000 +0000" stop="20251122185700 +0000" channel="SWR Fernsehen RP.de">
+    <title>SWR Aktuell Rheinland-Pfalz</title>
+    <sub-title>vom 22.11.2025, 19:30 Uhr</sub-title>
+    <desc>Die Sendung zeigt die neuesten Nachrichten aus dem Sudwesten, mit Schwerpunkt Rheinland-Pfalz.</desc>
   </programme>
 </tv>
