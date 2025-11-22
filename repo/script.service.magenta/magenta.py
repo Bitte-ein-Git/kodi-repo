@@ -1,9 +1,7 @@
-from bottle import request, response, route, run
+from bottle import request, response, route, run, static_file
 from bs4 import BeautifulSoup
 from uuid import uuid4
-import base64, json, requests, time, urllib, xbmc, xbmcaddon, xbmcgui, xmltodict
-import threading # Import threading library
-
+import base64, json, requests, time, urllib, xbmc, xbmcaddon, xbmcgui, xbmcvfs, xmltodict, os
 
 ### Magenta TV DE OTT 2.0 PARAMS
 
@@ -15,11 +13,25 @@ feed_url = "https://feed.entertainment.tv.theplatform.eu"
 link_url = "https://link.theplatform.eu"
 concurrency_url = "https://concurrency.delivery.theplatform.eu/concurrency/web/Concurrency/unlock"
 wv_url = "https://widevine.entitlement.theplatform.eu/wv/web/ModularDrm/getRawWidevineLicense"
+epg_source_url = "https://kodi.heyfordy.de/iptv/magenta.xml"
 
 
 # KODI PARAMS
 __addon__ = xbmcaddon.Addon()
 __addonname__ = __addon__.getAddonInfo('name')
+
+# FIX: Use xbmcvfs instead of xbmc for translatePath in Kodi 19+
+__profile__ = xbmcvfs.translatePath(__addon__.getAddonInfo('profile'))
+
+# Ensure profile directory exists
+if not os.path.exists(__profile__):
+    os.makedirs(__profile__)
+
+# CACHE CONFIG
+CACHE_FILE_CHANNELS = os.path.join(__profile__, 'channels_cache.json')
+CACHE_FILE_EPG = os.path.join(__profile__, 'guide.xml')
+CACHE_TIME_CHANNELS = 86400  # 24 Hours
+CACHE_TIME_EPG = 43200       # 12 Hours
 
 
 # Helper to parse hidden form values
@@ -49,72 +61,45 @@ class WebServer():
 
     def __init__(self):
         init_config(self)
-        self.p_token = None # Start with no token
 
-    def start_server(self):
-        # Run the server in its own thread
-        self.server_thread = threading.Thread(target=run, kwargs=dict(host='0.0.0.0', port=4700, debug=False, quiet=True))
-        self.server_thread.daemon = True # So it exits when main thread exits
-        self.server_thread.start()
-        xbmc.log("MTV2: Web server started in background thread.")
-
-    def do_login(self):
-        # Run login synchronously, only if no token exists
-        if not self.p_token:
-            xbmc.log("MTV2: No token found, attempting login...")
-            self.p_token = login() # This is the blocking call
-        return self.p_token
+        self.p_token = login()
+        
+        run(host='0.0.0.0', port=4700, debug=False, quiet=True)
 
     def get_ch_list(self):
-        # Ensure we are logged in before trying to get list
-        if not self.do_login(): 
-            xbmc.log("MTV2: Login failed, cannot get channel list.", xbmc.LOGERROR)
-            return # Login failed
-        
+        # Logic moved to channel_list function to handle caching internally
         ch_list = channel_list(self.p_token)
-        
-        # If list is empty (token expired?), try logging in again
+
         if not ch_list:
-            xbmc.log("MTV2: Channel list empty, token might be expired. Re-logging in...")
-            self.p_token = None # Force re-login
-            if not self.do_login():
-                xbmc.log("MTV2: Re-login failed.", xbmc.LOGERROR)
-                return # Failed again
-            ch_list = channel_list(self.p_token)
+            # If cache miss and token invalid, relogin
+            self.p_token = login()
+
+            if not self.p_token:
+                return
+            else:
+                # Retry with new token
+                ch_list = channel_list(self.p_token, force_refresh=True)
         
         return ch_list
 
     def get_channel(self, channel):
-        # Ensure we are logged in
-        if not self.do_login():
-            xbmc.log("MTV2: Login failed, cannot get channel MPD.", xbmc.LOGERROR)
-            return
-        
         mpd = channel_mpd(self.p_token, channel)
         
         if not mpd:
-            xbmc.log("MTV2: MPD empty, token might be expired. Re-logging in...")
-            self.p_token = None # Force re-login on next call
-            if not self.do_login():
+            self.p_token = login()
+
+            if not self.p_token:
                 return
-            mpd = channel_mpd(self.p_token, channel)
+            else:
+                mpd = channel_mpd(self.p_token, channel)
         
         return mpd
 
     def get_license(self, channel):
-        # Ensure we are logged in
-        if not self.do_login():
-            xbmc.log("MTV2: Login failed, cannot get license.", xbmc.LOGERROR)
-            return
-        # This is the line I fixed in the previous step
         return channel_license(self.p_token, channel)
     
     def stop_kodi(self):
-        # IT'S NOT THE BEST SOLUTION... BUT IT WORKS.
-        try:
-            requests.get("http://localhost:4700", timeout=0.5)
-        except:
-            pass # We don't care if it fails, just want to unblock the server thread
+        requests.get("http://localhost:4700")
 
 
 # API route for M3U playlist
@@ -122,6 +107,14 @@ class WebServer():
 def m3u():
     response.set_header("Content-Type", "application/m3u8")
     return w.get_ch_list()
+
+# API route for EPG XML
+@route("/api/file/guide.xml", method="GET")
+def epg():
+    # Update EPG cache if needed
+    update_epg_cache()
+    # Serve static file from userdata folder
+    return static_file('guide.xml', root=__profile__, mimetype='application/xml')
 
 # API route for MPD manifest
 @route("/api/fw/<channel>/manifest.mpd", method="GET")
@@ -133,20 +126,10 @@ def play_channel(channel):
 @route("/api/fw/<channel>/license", method="POST")
 def proxy_license(channel):
     url = w.get_license(channel)
-    if not url:
-        xbmc.log("MTV2: License URL is empty, login likely failed.", xbmc.LOGERROR)
-        response.status = 500
-        return "License URL not found (Login failed?)"
-        
     response.set_header("Content-Type", "application/octet-stream")
-    try:
-        drm = requests.post(url, data=request.body.read(), timeout=10)
-        lic = drm.content
-        return lic
-    except Exception as e:
-        xbmc.log(f"MTV2: License proxy request failed: {e}", xbmc.LOGERROR)
-        response.status = 500
-        return "License request failed"
+    drm = requests.post(url, data=request.body.read())
+    lic = drm.content
+    return lic
 
 
 #
@@ -260,24 +243,87 @@ def login():
 
 
 #
+# CACHE & EPG HELPERS
+#
+
+def update_epg_cache():
+    """Downloads the EPG file if cache is expired or missing."""
+    needs_update = True
+    if os.path.exists(CACHE_FILE_EPG):
+        if (time.time() - os.path.getmtime(CACHE_FILE_EPG)) < CACHE_TIME_EPG:
+            needs_update = False
+    
+    if needs_update:
+        try:
+            xbmc.log(f"MTV2: Updating EPG Cache from {epg_source_url}", xbmc.LOGINFO)
+            r = requests.get(epg_source_url, stream=True)
+            if r.status_code == 200:
+                with open(CACHE_FILE_EPG, 'wb') as f:
+                    for chunk in r.iter_content(chunk_size=8192):
+                        f.write(chunk)
+                xbmc.log("MTV2: EPG Cache updated successfully.", xbmc.LOGINFO)
+            else:
+                xbmc.log(f"MTV2: Failed to update EPG. Status: {r.status_code}", xbmc.LOGERROR)
+        except Exception as e:
+            xbmc.log(f"MTV2: EPG Update Error: {str(e)}", xbmc.LOGERROR)
+
+
+def get_cached_channels():
+    """Returns cached channel JSON if valid."""
+    if os.path.exists(CACHE_FILE_CHANNELS):
+        if (time.time() - os.path.getmtime(CACHE_FILE_CHANNELS)) < CACHE_TIME_CHANNELS:
+            try:
+                with open(CACHE_FILE_CHANNELS, 'r') as f:
+                    return json.load(f)
+            except:
+                pass
+    return None
+
+def save_channels_cache(data):
+    """Saves channel JSON to cache."""
+    try:
+        with open(CACHE_FILE_CHANNELS, 'w') as f:
+            json.dump(data, f)
+    except Exception as e:
+        xbmc.log(f"MTV2: Cache Save Error: {str(e)}", xbmc.LOGERROR)
+
+#
 # CHANNEL LIST
 #
 
 # Generates the M3U channel list
-def channel_list(token):
-    r = requests.Session()
-    r.headers.update({
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
-    })
+def channel_list(token, force_refresh=False):
+    
+    ch_list = None
+    
+    # Try Cache first
+    if not force_refresh:
+        ch_list = get_cached_channels()
+        if ch_list:
+            xbmc.log("MTV2: Loading channels from cache", xbmc.LOGINFO)
 
-    try:
-        url = f"{feed_url}/f/mdeprod/mdeprod-channel-stations-main?lang=short-de&sort=dt%24displayChannelNumber&range=1-500"
-        req = r.get(url)
-        ch_list = req.json()
-    except:
-        return
+    # Fetch from API if no cache or forced
+    if not ch_list:
+        if not token:
+            return None # Cannot fetch without token
+            
+        r = requests.Session()
+        r.headers.update({
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+        })
 
-    output = "#EXTM3U\n"
+        try:
+            xbmc.log("MTV2: Fetching channels from API", xbmc.LOGINFO)
+            url = f"{feed_url}/f/mdeprod/mdeprod-channel-stations-main?lang=short-de&sort=dt%24displayChannelNumber&range=1-500"
+            req = r.get(url)
+            ch_list = req.json()
+            # Save to cache
+            save_channels_cache(ch_list)
+        except:
+            return
+
+    # Build M3U
+    output = '#EXTM3U x-tvg-url="http://localhost:4700/api/file/guide.xml"\n'
     
     # Load addon settings
     hide_sd = __addon__.getSettingBool("hide_sd")
@@ -287,29 +333,20 @@ def channel_list(token):
             chan_url = [*chan["stations"]][0]
             if chan["stations"][chan_url]["era$mediaPids"].get("urn:theplatform:tv:location:any"):
                 
-                # Apply channel filter and naming logic based on user setting
+                # Apply channel filter and naming logic
+                is_hd = chan["stations"][chan_url]["dt$quality"] == "HD"
                 base_title = chan["stations"][chan_url]["title"]
-                is_hd_quality = chan["stations"][chan_url]["dt$quality"] == "HD"
-                
+
                 if hide_sd:
-                    # Setting is ON: Filter SD channels
-                    if not is_hd_quality:
-                        continue
-                    
-                    # Setting is ON: Remove " HD" suffix if present
-                    if base_title.endswith(" HD"):
-                        chan_title = base_title[:-3]
-                    else:
-                        chan_title = base_title
+                    if not is_hd:
+                        continue  # Filter out SD channel
+                    chan_title = base_title  # Use base title (no " HD" suffix)
                 else:
-                    # Setting is OFF: Use original logic (add " HD" if quality is HD)
-                    if is_hd_quality:
-                        if base_title.endswith(" HD"):
-                            chan_title = base_title # Avoid "Title HD HD"
-                        else:
-                            chan_title = f'{base_title} HD'
-                    else:
-                        chan_title = base_title # SD channels remain as-is
+                    # Default behavior: add " HD" if it's HD
+                    chan_title = f'{base_title} HD' if is_hd else base_title
+
+                # Construct Logo URL
+                logo_url = "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=512&y=512&ar=keep&src="+urllib.parse.quote(chan["stations"][chan_url]["thumbnails"]["stationBackground"]["url"])
 
                 output = \
                     f'{output}' \
@@ -317,7 +354,7 @@ def channel_list(token):
                     f'#KODIPROP:inputstream.adaptive.manifest_type=mpd\n' \
                     f'#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha\n' \
                     f'#KODIPROP:inputstream.adaptive.license_key=http://localhost:4700/api/fw/{chan["stations"][chan_url]["era$mediaPids"]["urn:theplatform:tv:location:any"]}/license||R' + '{SSM}|\n' \
-                    f'#EXTINF:0001 tvg-id="{"tkm_"+str(chan["channelNumber"])}" tvg-logo="{"https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=512&y=512&ar=keep&src="+urllib.parse.quote(chan["stations"][chan_url]["thumbnails"]["stationBackground"]["url"])}", {chan_title}\n' \
+                    f'#EXTINF:0001 tvg-id="{"tkm_"+str(chan["channelNumber"])}" tvg-logo="{logo_url}", {chan_title}\n' \
                     f'http://localhost:4700/api/fw/{chan["stations"][chan_url]["era$mediaPids"]["urn:theplatform:tv:location:any"]}/manifest.mpd\n'
         return output
     except Exception as e:
@@ -393,15 +430,13 @@ def channel_license(token, channel):
 def start():
     
     t = WebServer()
-    t.start_server() # Start the web server in a background thread
 
     # START SERVER (+ STOP SERVER BEFORE CLOSING KODI)
     monitor = xbmc.Monitor()
     while not monitor.abortRequested():
         if monitor.waitForAbort(1):
             break
-    
-    t.stop_kodi() # This will now be called on exit
+    t.stop_kodi()
 
 
 if __name__ == "__main__":
