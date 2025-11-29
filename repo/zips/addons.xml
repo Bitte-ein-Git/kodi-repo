@@ -264,7 +264,7 @@ CI &amp; build changes
 - added: Timeshift-Funktion zu-/ab-schaltbar für TV-Live und EventStreams (settings: default=abgeschaltet)
 		</news>
 	</extension>
-</addon><addon id="plugin.video.xship" version="2025.11.0" name="[COLOR goldenrod]» xShip[/COLOR]" provider-name="Bitte ein Git!">
+</addon><addon id="plugin.video.xship" version="2025.08.11" name="[COLOR goldenrod]» xShip[/COLOR]" provider-name="Bitte ein Git!">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -281,14 +281,47 @@ CI &amp; build changes
     </extension>
     <extension point="xbmc.service" library="service.py" start="startup" />
     <extension point="xbmc.addon.metadata">
-        <summary lang="de_DE">xShip: umbenannt</summary>
-        <summary lang="en_GB">Fork - addom name/ui changed</summary>
+        <summary lang="de_DE">xShip: Der Fake</summary>
+        <summary lang="en_GB">xShip: The Fake</summary>
         <assets>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
 			<banner>resources/media/banner.png</banner>
 		</assets>
     </extension>
+</addon><addon id="plugin.video.xstream" name="xStream" version="2025.11.15" provider-name="Michaz">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.resolveurl" version="5.1.173" />
+		<import addon="script.module.six" version="1.11.0" />
+		<import addon="script.module.pyaes" />
+		<import addon="repository.resolveurl" optional="true" />
+		<import addon="script.module.inputstreamhelper" version="0.3.3" optional="true" />
+		<import addon="script.module.pydevd" optional="true" />
+		<import addon="script.module.web-pdb" optional="true" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+    <extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de">xStream</summary>
+		<summary lang="en_GB">xStream</summary>
+		<description lang="de">xStream ist ein Video-Addon für Kodi. xStream dient als Suchmaschine für Filme und Serien auf verschiedenen Webseiten.</description>
+		<description lang="en_GB">xStream is a video add-on for Kodi. xStream serves as a search engine for films and series on various websites.</description>
+		<disclaimer lang="de">Sie können dieses Video Addon gerne verwenden. Der bereitgestellte Inhalt der Webseiten steht in keinem Bezug zu xStream oder den Entwicklern! Weitere Informationen finden Sie in unserer Wiki und FaQ.</disclaimer>
+		<disclaimer lang="en_GB">You are welcome to use this video addon. The content provided on the websites has no connection to xStream or the developers! For more information, see our Wiki and FaQ.</disclaimer>
+		<language>de en</language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<banner>resources/banner.png</banner>
+			<clearlogo>resources/clearlogo.png</clearlogo>
+		</assets>
+	</extension>
 </addon><addon id="pvr.magenta" version="21.9.4" name="Magenta PVR Client" provider-name="Nirvana">
   <requires>
     
@@ -657,7 +690,7 @@ CI &amp; build changes
       <fanart>fanart.jpg</fanart>
     </assets>
   </extension>
-</addon><addon id="script.module.xstreamscraper" name="[COLOR darkorange]» Autom. Quellen-Suche[/COLOR]" provider-name="Bitte-ein-Git!" version="2025.11.02">
+</addon><addon id="script.module.xstreamscraper" name="[COLOR darkorange]» Autom. Quellen-Suche[/COLOR]" provider-name="Bitte-ein-Git!" version="2025.08.14">
 	<requires>
 		<import addon="plugin.video.vavooto" />
         <import addon="script.module.requests" />
