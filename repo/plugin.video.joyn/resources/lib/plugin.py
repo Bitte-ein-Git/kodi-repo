@@ -820,26 +820,6 @@ def play_video(video_id, client_data, stream_type, season_id=None, movie_id=None
     succeeded = False
     list_item = ListItem()
 
-    # Deserialize metadata from params
-    params = xbmc_helper().get_addon_params(pluginquery)
-    if 'infolabels' in params:
-        try:
-            infolabels = loads(params['infolabels'])
-            list_item = xbmc_helper().set_videoinfo(list_item, infolabels)
-            list_item.setLabel(infolabels.get('title', ''))
-        except Exception as e:
-            xbmc_helper().log_debug('Failed to deserialize infolabels: {}', e)
-    
-    if 'art' in params:
-        try:
-            art = loads(params['art'])
-            # Re-apply UA header to art URLs
-            for art_key, art_value in art.items():
-                art.update({art_key: lib_joyn().add_user_agent_http_header(art_value)})
-            list_item.setArt(art)
-        except Exception as e:
-            xbmc_helper().log_debug('Failed to deserialize art: {}', e)
-
     if not xbmc_helper().addon_enabled(CONST['INPUTSTREAM_ADDON']):
         xbmc_helper().dialog_id('MSG_INPUSTREAM_NOT_ENABLED')
         exit(0)
@@ -1012,10 +992,6 @@ def get_dir_entry(mode,
 
     if (mode == 'play_video' and video_id != '' and client_data != '') or mode == 'play_movie':
         list_item.setProperty('IsPlayable', 'True')
-
-        # Serialize metadata for playback
-        params['infolabels'] = dumps(metadata['infoLabels'])
-        params['art'] = dumps(metadata['art'])
 
         if 'resume_pos' in metadata.keys() and 'duration' in metadata['infoLabels'].keys():
             xbmc_helper().log_debug('Setting resume position - asset {} - pos {}', metadata['infoLabels']['title'],

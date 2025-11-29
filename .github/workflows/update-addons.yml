@@ -1,0 +1,306 @@
+name: 🌀 • Addon Updater
+
+on:
+  schedule:
+    # Run every 12 hours (00:00 and 12:00 UTC)
+    - cron: '0 */12 * * *'
+  workflow_dispatch:
+    inputs:
+      clean_install:
+        description: 'Clean Install (Delete & Re-download, keeping custom assets)'
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  update-addons:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install Dependencies
+        run: |
+          pip install requests
+
+      - name: Run Update Script
+        id: update_script
+        shell: python
+        env:
+          CLEAN_INSTALL: ${{ inputs.clean_install }}
+        run: |
+          import os
+          import shutil
+          import requests
+          import xml.etree.ElementTree as ET
+          import zipfile
+          import io
+          import urllib.parse
+          import re
+
+          # --- CONFIGURATION ---
+          ADDONS = {
+              "plugin.video.amazon-test": {
+                  "mode": "direct",
+                  "url": "https://github.com/sandmann79/xbmc/archive/refs/heads/master.zip",
+                  "source_path": "xbmc-master/plugin.video.amazon-test", 
+                  "xml_url": "https://raw.githubusercontent.com/sandmann79/xbmc/master/plugin.video.amazon-test/addon.xml"
+              },
+              "plugin.video.jellyfin": {
+                  "mode": "version_url",
+                  # {version} will be replaced by the version from xml
+                  "url": "https://kodi.jellyfin.org/py3/plugin.video.jellyfin/plugin.video.jellyfin-{version}.zip",
+                  "source_path": "plugin.video.jellyfin", 
+                  "xml_url": "https://kodi.jellyfin.org/py3/plugin.video.jellyfin/addon.xml"
+              },
+              "plugin.video.joyn": {
+                  "mode": "direct",
+                  "url": "https://github.com/maven85/plugin.video.joyn/archive/refs/heads/master.zip",
+                  "source_path": "plugin.video.joyn-master",
+                  "xml_url": "https://raw.githubusercontent.com/maven85/plugin.video.joyn/master/addon.xml"
+              },
+              "plugin.video.xship": {
+                  "mode": "scrape",
+                  # Base directory to scan for zips
+                  "url": "https://michaz1988.github.io/repo/plugin.video.xship/",
+                  "source_path": "plugin.video.xship",
+                  "xml_url": "https://michaz1988.github.io/repo/plugin.video.xship/addon.xml"
+              },
+              "plugin.video.xstream": {
+                  "mode": "scrape",
+                  "url": "https://michaz1988.github.io/repo/plugin.video.xstream/",
+                  "source_path": "plugin.video.xstream",
+                  "xml_url": "https://michaz1988.github.io/repo/plugin.video.xstream/addon.xml"
+              },
+              "script.module.xstreamscraper": {
+                  "mode": "scrape",
+                  "url": "https://michaz1988.github.io/repo/script.module.xstreamscraper/",
+                  "source_path": "script.module.xstreamscraper",
+                  "xml_url": "https://michaz1988.github.io/repo/script.module.xstreamscraper/addon.xml"
+              }
+          }
+
+          REPO_DIR = "repo"
+          ZIP_DIR = os.path.join(REPO_DIR, "zips") 
+          CLEAN_INSTALL = os.environ.get("CLEAN_INSTALL") == "true"
+          UPDATES_PERFORMED = False
+
+          # Helper to scrape directory for latest zip
+          def get_latest_zip_url(base_url, addon_id):
+              try:
+                  print(f"Scraping {base_url} for latest zip...")
+                  r = requests.get(base_url)
+                  r.raise_for_status()
+                  # Regex to find links ending in .zip containing the addon_id
+                  # Pattern: href="plugin.name-2024.01.01.zip"
+                  pattern = f'href="({re.escape(addon_id)}[^"]+\.zip)"'
+                  matches = re.findall(pattern, r.text)
+                  if not matches:
+                      return None
+                  # Sort list. ISO Dates (YYYY.MM.DD) sort alphabetically correctly.
+                  matches.sort()
+                  latest_file = matches[-1]
+                  return urllib.parse.urljoin(base_url, latest_file)
+              except Exception as e:
+                  print(f"Scraping error: {e}")
+                  return None
+
+          def get_remote_version(xml_url):
+              try:
+                  r = requests.get(xml_url)
+                  r.raise_for_status()
+                  r.encoding = 'utf-8' 
+                  root = ET.fromstring(r.content)
+                  return root.get("version")
+              except Exception as e:
+                  print(f"Error fetching version for {xml_url}: {e}")
+                  return None
+
+          def get_local_version_and_metadata(addon_id):
+              local_path = os.path.join(REPO_DIR, addon_id, "addon.xml")
+              if not os.path.exists(local_path):
+                  return None, None
+              try:
+                  tree = ET.parse(local_path)
+                  root = tree.getroot()
+                  return root.get("version"), root 
+              except:
+                  return None, None
+
+          # --- MAIN LOOP ---
+          print(f"Starting check. Clean Install: {CLEAN_INSTALL}")
+
+          for addon_id, data in ADDONS.items():
+              print(f"Checking {addon_id}...")
+              
+              remote_ver = get_remote_version(data["xml_url"])
+              local_ver, local_xml_root = get_local_version_and_metadata(addon_id)
+
+              if not remote_ver:
+                  print(f"Skipping {addon_id}: Could not get remote version.")
+                  continue
+
+              # Update Check
+              needs_update = False
+              if CLEAN_INSTALL:
+                  needs_update = True
+                  print("Clean install requested.")
+              elif local_ver != remote_ver:
+                  needs_update = True
+                  print(f"Update found: {local_ver} -> {remote_ver}")
+              elif local_ver is None:
+                  needs_update = True
+                  print("Addon not found locally. Installing.")
+              else:
+                  print("Up to date.")
+
+              if needs_update:
+                  UPDATES_PERFORMED = True
+                  target_dir = os.path.join(REPO_DIR, addon_id)
+                  
+                  # 1. Backup custom assets/metadata
+                  preserved_images = {}
+                  custom_metadata = {} 
+                  
+                  if os.path.exists(target_dir):
+                      if local_xml_root:
+                          custom_metadata['name'] = local_xml_root.get('name')
+                          custom_metadata['provider-name'] = local_xml_root.get('provider-name')
+
+                      for root, dirs, files in os.walk(target_dir):
+                          for file in files:
+                              if file.lower().endswith(('.png', '.jpg', '.gif')):
+                                  rel_path = os.path.relpath(os.path.join(root, file), target_dir)
+                                  full_src = os.path.join(root, file)
+                                  with open(full_src, 'rb') as f:
+                                      preserved_images[rel_path] = f.read()
+                      
+                      shutil.rmtree(target_dir)
+
+                  # 2. Determine Download URL based on mode
+                  download_url = None
+                  mode = data.get("mode", "direct")
+                  
+                  if mode == "scrape":
+                      download_url = get_latest_zip_url(data["url"], addon_id)
+                  elif mode == "version_url":
+                      safe_version = urllib.parse.quote(remote_ver)
+                      download_url = data["url"].format(version=safe_version)
+                  else: # direct
+                      download_url = data["url"]
+
+                  if not download_url:
+                      print(f"Error: Could not determine download URL for {addon_id}")
+                      continue
+
+                  # 3. Download & Extract
+                  print(f"Downloading from {download_url}...")
+                  try:
+                      r = requests.get(download_url)
+                      r.raise_for_status()
+                      z = zipfile.ZipFile(io.BytesIO(r.content))
+                      
+                      temp_extract = "temp_extract"
+                      z.extractall(temp_extract)
+                      
+                      # Find source folder
+                      extracted_root = os.path.join(temp_extract, data["source_path"])
+                      
+                      # Fallback search
+                      if not os.path.exists(extracted_root):
+                          for r_path, d_names, f_names in os.walk(temp_extract):
+                              if addon_id in d_names:
+                                  extracted_root = os.path.join(r_path, addon_id)
+                                  break
+                      
+                      if os.path.exists(extracted_root):
+                          shutil.copytree(extracted_root, target_dir)
+                      else:
+                          print(f"ERROR: Could not find addon folder inside zip for {addon_id}")
+                          shutil.rmtree(temp_extract)
+                          continue
+                      
+                      shutil.rmtree(temp_extract)
+
+                  except Exception as e:
+                      print(f"Download failed for {addon_id}: {e}")
+                      if os.path.exists("temp_extract"): shutil.rmtree("temp_extract")
+                      continue
+
+                  # 4. Restore Assets & Patch XML
+                  print("Restoring assets and patching XML...")
+                  
+                  for rel_path, content in preserved_images.items():
+                      dest_path = os.path.join(target_dir, rel_path)
+                      os.makedirs(os.path.dirname(dest_path), exist_ok=True)
+                      with open(dest_path, 'wb') as f:
+                          f.write(content)
+
+                  new_xml_path = os.path.join(target_dir, "addon.xml")
+                  if os.path.exists(new_xml_path):
+                      try:
+                          tree = ET.parse(new_xml_path)
+                          root = tree.getroot()
+                          
+                          root.set("version", remote_ver)
+                          
+                          if 'name' in custom_metadata and custom_metadata['name']:
+                              root.set("name", custom_metadata['name'])
+                          if 'provider-name' in custom_metadata and custom_metadata['provider-name']:
+                              root.set("provider-name", custom_metadata['provider-name'])
+                              
+                          tree.write(new_xml_path, encoding="UTF-8", xml_declaration=True)
+                      except Exception as e:
+                          print(f"Error patching XML: {e}")
+
+          # --- CLEANUP & OUTPUT ---
+          if UPDATES_PERFORMED:
+              print("Updates performed. Cleaning old files...")
+              
+              files_to_clean = [
+                  os.path.join(REPO_DIR, "addons.xml"),
+                  os.path.join(REPO_DIR, "addons.xml.md5"),
+                  os.path.join(ZIP_DIR, "addons.xml"),
+                  os.path.join(ZIP_DIR, "addons.xml.md5")
+              ]
+              for f in files_to_clean:
+                  if os.path.exists(f):
+                      os.remove(f)
+                      print(f"Deleted {f}")
+
+              if os.path.exists(ZIP_DIR):
+                  for addon_id in ADDONS:
+                      addon_zip_path = os.path.join(ZIP_DIR, addon_id)
+                      if os.path.exists(addon_zip_path):
+                          shutil.rmtree(addon_zip_path)
+                          print(f"Cleaned zip folder for {addon_id}")
+
+              with open(os.environ['GITHUB_OUTPUT'], 'a') as fh:
+                  print("updates_found=true", file=fh)
+          else:
+              print("No updates found.")
+              with open(os.environ['GITHUB_OUTPUT'], 'a') as fh:
+                  print("updates_found=false", file=fh)
+
+      - name: Run Generators
+        if: steps.update_script.outputs.updates_found == 'true'
+        run: |
+          python _repo_generator.py
+          python _html_generator.py
+
+      - name: Commit and Push Changes
+        if: steps.update_script.outputs.updates_found == 'true'
+        run: |
+          git config --global user.name "Addon Updater Bot"
+          git config --global user.email "bot@github.com"
+          git add .
+          git commit -m "🌀 Auto-Update: Addons updated via Workflow"
+          git push
