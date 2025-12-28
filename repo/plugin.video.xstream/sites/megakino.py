@@ -25,7 +25,7 @@ if cConfig().getSetting('global_search_' + SITE_IDENTIFIER) == 'false':
     logger.info('-> [SitePlugin]: globalSearch for %s is deactivated.' % SITE_NAME)
 
 # Domain Abfrage
-DOMAIN = cConfig().getSetting('plugin_' + SITE_IDENTIFIER + '.domain', 'megakino.zone')
+DOMAIN = cConfig().getSetting('plugin_' + SITE_IDENTIFIER + '.domain', 'megakino.do')
 STATUS = cConfig().getSetting('plugin_' + SITE_IDENTIFIER + '_status')
 ACTIVE = cConfig().getSetting('plugin_' + SITE_IDENTIFIER)
 
