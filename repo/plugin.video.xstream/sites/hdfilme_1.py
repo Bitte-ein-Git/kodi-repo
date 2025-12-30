@@ -50,8 +50,7 @@ def load(): # Menu structure of the site plugin
     cGui().addFolder(cGuiElement(cConfig().getLocalizedString(30502), SITE_IDENTIFIER, 'showEntries'), params)  # Movies
     params.setParam('sUrl', URL_SERIES)
     cGui().addFolder(cGuiElement(cConfig().getLocalizedString(30511), SITE_IDENTIFIER, 'showEntries'), params)  # Series  
-    params.setParam('Value', 'Jahres')
-    cGui().addFolder(cGuiElement(cConfig().getLocalizedString(30508), SITE_IDENTIFIER, 'showValue'), params)    # Release Year    
+    cGui().addFolder(cGuiElement('Jahr', SITE_IDENTIFIER, 'showYearSearch'))  # New Year entry
     params.setParam('Value', 'Genre')
     cGui().addFolder(cGuiElement(cConfig().getLocalizedString(30506), SITE_IDENTIFIER, 'showValue'), params)    # Genre
     params.setParam('Value', 'Land')
@@ -293,4 +292,12 @@ def showSearchPage(): # Suche für die Page Funktion
     if not sSearchPageText: return
     sNextSearchPage = sNextPage.split('page/')[0].strip() + 'page/' + sSearchPageText + '/'
     showEntries(sNextSearchPage)
+    cGui().setEndOfDirectory()
+
+
+def showYearSearch():
+    sYear = cGui().showKeyBoard(sHeading="Jahr eintragen (z.B., 2017)")
+    if not sYear: return
+    searchUrl = URL_MAIN + '/xfsearch/' + sYear
+    showEntries(searchUrl)
     cGui().setEndOfDirectory()

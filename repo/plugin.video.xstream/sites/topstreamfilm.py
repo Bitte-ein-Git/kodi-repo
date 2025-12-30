@@ -43,28 +43,19 @@ def load(): # Menu structure of the site plugin
     logger.info('Load %s' % SITE_NAME)
     params = ParameterHandler()
     params.setParam('sUrl', URL_ALL)
-    cGui().addFolder(cGuiElement(cConfig().getLocalizedString(30500), SITE_IDENTIFIER, 'showEntries'), params)  # New Movies and Series
-    cGui().addFolder(cGuiElement(cConfig().getLocalizedString(30502), SITE_IDENTIFIER, 'showMovieMenu'), params)  # Movies Menu
-    params.setParam('sUrl', URL_SERIES)
-    cGui().addFolder(cGuiElement(cConfig().getLocalizedString(30511), SITE_IDENTIFIER, 'showEntries'), params)  # Series  
-    params.setParam('Value', 'YAHRE')
-    cGui().addFolder(cGuiElement(cConfig().getLocalizedString(30508), SITE_IDENTIFIER, 'showValue'), params)    # Release Year    
+    cGui().addFolder(cGuiElement('Alle Filme', SITE_IDENTIFIER, 'showEntries'), params)
+    params.setParam('sUrl', URL_MOVIES)
+    cGui().addFolder(cGuiElement('Kürzlich hinzugefügt', SITE_IDENTIFIER, 'showEntries'), params)  # Neue Uploads
+    params.setParam('sUrl', URL_KINO)
+    cGui().addFolder(cGuiElement(cConfig().getLocalizedString(30501), SITE_IDENTIFIER, 'showEntries'), params)  # Kinofilme
     params.setParam('Value', 'KATEGORIEN')
     cGui().addFolder(cGuiElement(cConfig().getLocalizedString(30506), SITE_IDENTIFIER, 'showValue'), params)    # Genre
     params.setParam('Value', 'LAND')
     cGui().addFolder(cGuiElement(cConfig().getLocalizedString(30538), SITE_IDENTIFIER, 'showValue'), params)  # Country
+    cGui().addFolder(cGuiElement('Jahr', SITE_IDENTIFIER, 'showYearSearch'))  # New Year entry
+    params.setParam('sUrl', URL_SERIES)
+    cGui().addFolder(cGuiElement('Serien', SITE_IDENTIFIER, 'showEntries'), params)
     cGui().addFolder(cGuiElement(cConfig().getLocalizedString(30520), SITE_IDENTIFIER, 'showSearch'), params)   # Search
-    cGui().setEndOfDirectory()
-
-
-def showMovieMenu(): # Menu structure of movie menu
-    params = ParameterHandler()
-    params.setParam('sUrl', URL_MOVIES)
-    cGui().addFolder(cGuiElement(cConfig().getLocalizedString(30500), SITE_IDENTIFIER, 'showEntries'), params)   # New
-    params.setParam('sUrl', URL_KINO)
-    cGui().addFolder(cGuiElement(cConfig().getLocalizedString(30501), SITE_IDENTIFIER, 'showEntries'), params)  # Kinofilme
-    params.setParam('Value', 'FILM DER WOCHE')
-    cGui().addFolder(cGuiElement(cConfig().getLocalizedString(30550), SITE_IDENTIFIER, 'showEntries'), params) # Movie of the Week
     cGui().setEndOfDirectory()
 
 
@@ -320,4 +311,12 @@ def showSearchPage(): # Suche für die Page Funktion
     if not sSearchPageText: return
     sNextSearchPage = sNextPage.split('page/')[0].strip() + 'page/' + sSearchPageText + '/'
     showEntries(sNextSearchPage)
+    cGui().setEndOfDirectory()
+
+
+def showYearSearch():
+    sYear = cGui().showKeyBoard(sHeading="Jahr eintragen (z.B., 2017)")
+    if not sYear: return
+    searchUrl = URL_MAIN + '/xfsearch/' + sYear
+    showEntries(searchUrl)
     cGui().setEndOfDirectory()
