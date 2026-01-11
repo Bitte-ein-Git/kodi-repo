@@ -3264,560 +3264,6 @@
     <display-name>Red Bull TV FHD (English)</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20260109131514 +0000" stop="20260109140842 +0000" channel="10001"><title lang="en">More than a Dive</title>
-<sub-title lang="en">Keeper of the Old Bridge</sub-title>
-<desc lang="en">At Mostar’s historic Old Bridge, Red Bull Cliff Diving history was made. The season’s first 10s, the most wildcards, an unexpected title fight, and centuries of tradition in one unforgettable stop.</desc>
-<category lang="en">High Diving</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:83c82ea1-0042-4fdb-8c75-ac3bb1135656/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/more-than-a-dive-2025-e3</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:201c1896-6723-402c-8eed-942a69e85e85</episode-num>
-<episode-num system="xmltv_ns">2.2.0</episode-num>
-<episode-num system="original-air-date">2025-10-02 03:08:58</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:83c82ea1-0042-4fdb-8c75-ac3bb1135656</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260109140842 +0000" stop="20260109145430 +0000" channel="10001"><title lang="en">Anton Palzer: Breaking the Cycle</title>
-<sub-title lang="en">Swapping two skis for two wheels </sub-title>
-<desc lang="en">World-class ski mountaineer Anton Palzer craves a new challenge – but you might not expect it to be road cycling. See his audacious attempt to reach the ultimate goal of competing in La Vuelta a España.</desc>
-<category lang="en">Cycling</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:afcde35d-4a2c-4994-ac51-a0b3a6292976/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/anton-palzer-breaking-the-cycle</url>
-<episode-num system="redbull.com">episode/rrn:content:films:afcde35d-4a2c-4994-ac51-a0b3a6292976</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260109145430 +0000" stop="20260109154937 +0000" channel="10001"><title lang="en">Resilience</title>
-<sub-title lang="en">Triathlete Els Visser's story</sub-title>
-<desc lang="en">Follow Els Visser's journey from surviving a ship wreck to becoming a triathlon and Ironman athlete. description : How does surviving a ship wreck lead to someone becoming a successful triathlete? Learn about Els Visser's journey from medical student to sporting success via a life-threatening disaster at sea.</desc>
-<category lang="en">Triathlon</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:55603c14-a305-4657-9092-086fd7c34df0/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/resilience</url>
-<episode-num system="redbull.com">episode/rrn:content:films:55603c14-a305-4657-9092-086fd7c34df0</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260109154937 +0000" stop="20260109162519 +0000" channel="10001"><title lang="en">Echoes of Impact</title>
-<sub-title lang="en">Marcus Kleveland unfiltered</sub-title>
-<desc lang="en">Follow Marcus Kleveland through injury, pressure and the weight of expectation. From highs to lows, his love for creative freestyle snowboarding drives him to keep pushing and redefining the sport.</desc>
-<category lang="en">Snowboarding</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:97fb6421-aee0-43be-9f7d-a8b23c92957f/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/echoes-of-impact</url>
-<episode-num system="redbull.com">episode/rrn:content:films:97fb6421-aee0-43be-9f7d-a8b23c92957f</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260109162519 +0000" stop="20260109173204 +0000" channel="10001"><title lang="en">After the Snowfall</title>
-<sub-title lang="en">A celebration of skiing in its purest form</sub-title>
-<desc lang="en">Filmed in breath-taking locations around the world, Matchstick Productions bring us a celebration of skiing. Elite athletes and everyday skiers risk all to seek joy-filled moments in the mountains.</desc>
-<category lang="en">Skiing</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:7b24d9ee-b994-4003-9bde-27dc6e4332cc/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/after-the-snowfall</url>
-<episode-num system="redbull.com">episode/rrn:content:films:7b24d9ee-b994-4003-9bde-27dc6e4332cc</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260109173204 +0000" stop="20260109185032 +0000" channel="10001"><title lang="en">Against Gravity</title>
-<sub-title lang="en">Pro surfer Leon Glatzer’s journey of resilience</sub-title>
-<desc lang="en">Born in the water, shaped by the ocean: surf pro Leon Glatzer shares how the sea shaped his life. Full of ups and downs, his story is all about the search for freedom.</desc>
-<category lang="en">Surfing</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:b1d3615f-5b63-440a-b456-a70a29781fff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/against-gravity</url>
-<episode-num system="redbull.com">episode/rrn:content:films:b1d3615f-5b63-440a-b456-a70a29781fff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260109185032 +0000" stop="20260109195930 +0000" channel="10001"><title lang="en">Pressure Drop</title>
-<sub-title lang="en">Born from a dream, this is TGR’s 30th annual film</sub-title>
-<desc lang="en">Follow the world’s best skiers and snowboarders in a cinematic ride through risk, beauty and the pursuit of perfection.</desc>
-<category lang="en">Skiing</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:08743fae-b6eb-4c2e-bcbb-69ecc6843797/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/pressure-drop</url>
-<episode-num system="redbull.com">episode/rrn:content:films:08743fae-b6eb-4c2e-bcbb-69ecc6843797</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260109195930 +0000" stop="20260109202214 +0000" channel="10001"><title lang="en">Paradigm</title>
-<sub-title lang="en">Mountain biking taken to new heights</sub-title>
-<desc lang="en">From the precision of slopestyle to the massive airs of freeride and the raw speed of downhill, Thomas Genon, Szymon Godziek, Emil Johansson and Kade Edwards deliver raw MTB talent and nonstop action.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:films:9e553057-9846-4dd7-bf7a-fb2ab8471f43/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/paradigm</url>
-<episode-num system="redbull.com">episode/rrn:content:films:9e553057-9846-4dd7-bf7a-fb2ab8471f43</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260109202214 +0000" stop="20260109210459 +0000" channel="10001"><title lang="en">Paved</title>
-<sub-title lang="en">An unfiltered snow odyssey two years in the making</sub-title>
-<desc lang="en">Part history lesson, part hangout, part backcountry odyssey, Paved – a Burton and Red Bull Media House co-production – celebrates the passion and soul of snowboarding in raw, wry and light-hearted style.</desc>
-<category lang="en">Snowboarding</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:518d59a1-abe6-47df-ad17-6f71d0ef7a0b/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/paved</url>
-<episode-num system="redbull.com">episode/rrn:content:films:518d59a1-abe6-47df-ad17-6f71d0ef7a0b</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260109210459 +0000" stop="20260109213037 +0000" channel="10001"><title lang="en">Asa Vermette's Ascent</title>
-<sub-title lang="en">A rookie’s breakout year in downhill MTB</sub-title>
-<desc lang="en">One of mountain biking’s most exciting young riders, Asa Vermette, has secured a Junior world title. Follow his journey as he faces downhill’s toughest race in his debut Red Bull Hardline season.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:films:2f27123f-6b9a-46a6-8be1-03cbdb5992e7/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/asa-vermette-ascent</url>
-<episode-num system="redbull.com">episode/rrn:content:films:2f27123f-6b9a-46a6-8be1-03cbdb5992e7</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260109213037 +0000" stop="20260109214147 +0000" channel="10001"><title lang="en">Winter Heroes</title>
-<sub-title lang="en">Queralt Castellet</sub-title>
-<desc lang="en">Spanish snowboarder Queralt Castellet shows that snowboarding is more than results – it’s about passion, resilience and freedom. Her fearless halfpipe style inspires the next generation of winter athletes.</desc>
-<category lang="en">Snowboarding</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e4</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:129493df-95af-4fe9-8eb7-d430609b5663</episode-num>
-<episode-num system="xmltv_ns">0.3.0</episode-num>
-<episode-num system="original-air-date">2025-11-09 18:33:10</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260109214147 +0000" stop="20260109215101 +0000" channel="10001"><title lang="en">Winter Heroes</title>
-<sub-title lang="en">Paul Verbnjak</sub-title>
-<desc lang="en">Not only a ski mountaineer, Paul Verbnjak is an army athlete, a professional road cyclist and a rising star in a sport that’s rapidly gaining world popularity. Find out what makes him tick.</desc>
-<category lang="en">Ski Touring</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e12</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:07a875f9-0726-49bc-9bf6-d35157a86ceb</episode-num>
-<episode-num system="xmltv_ns">0.11.0</episode-num>
-<episode-num system="original-air-date">2025-11-10 12:53:33</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260109215101 +0000" stop="20260109220156 +0000" channel="10001"><title lang="en">Winter Heroes</title>
-<sub-title lang="en">Marcel Hirscher</sub-title>
-<desc lang="en">Marcel Hirscher – arguably the best male ski racer ever – has returned from retirement to attempt the mother of all comebacks. And he’s doing it under a new flag.</desc>
-<category lang="en">Skiing</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e2</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:24d266f6-c23c-425e-97b4-5c2fdad79c58</episode-num>
-<episode-num system="xmltv_ns">0.1.0</episode-num>
-<episode-num system="original-air-date">2025-11-09 18:22:15</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260109220156 +0000" stop="20260109221003 +0000" channel="10001"><title lang="en">Winter Heroes</title>
-<sub-title lang="en">Joep Wennemars</sub-title>
-<desc lang="en">With a world champion father, the Netherlands’ Joep Wennemars comes from speed skating royalty. The 23-year-old is now coming into his own, and his 2025 world title in the 1000m is just the beginning.</desc>
-<category lang="en">Ice Skating</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e6</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:9dcd0bba-d907-41fc-8c48-cf78216507bf</episode-num>
-<episode-num system="xmltv_ns">0.5.0</episode-num>
-<episode-num system="original-air-date">2026-01-10 11:01:56</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260109221003 +0000" stop="20260109222030 +0000" channel="10001"><title lang="en">Winter Heroes</title>
-<sub-title lang="en">Sara Takanashi</sub-title>
-<desc lang="en">Japanese ski jumper Sara Takanashi set a towering record for World Cup wins. Now, go behind the scenes with the history-making athlete as she prepares for the one title that has eluded her.</desc>
-<category lang="en">Ice Skating</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e11</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:d05a1f7e-e301-42bd-9ab3-861ab0f745ce</episode-num>
-<episode-num system="xmltv_ns">0.10.0</episode-num>
-<episode-num system="original-air-date">2026-01-10 11:10:03</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260109222030 +0000" stop="20260109223021 +0000" channel="10001"><title lang="en">Winter Heroes</title>
-<sub-title lang="en">Hiroto Ogiwara</sub-title>
-<desc lang="en">This Japanese snowboarding phenom landed a 1080 at age of nine and has since set one record after another, even taking X Games gold with the first 2340 (6.5 rotations) in competition.</desc>
-<category lang="en">Snowboarding</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e7</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:215a4bb7-57e8-4265-b58c-0d7d8efe381b</episode-num>
-<episode-num system="xmltv_ns">0.6.0</episode-num>
-<episode-num system="original-air-date">2026-01-10 11:20:30</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260109223021 +0000" stop="20260109224457 +0000" channel="10001"><title lang="en">Winter Heroes</title>
-<sub-title lang="en">Eileen Gu</sub-title>
-<desc lang="en">Prodigy on skis. Brilliant university student. Fashion icon. Witness the dazzling trajectory of a woman with roots in China and the US who is redefining what it means to be a modern sporting champion.</desc>
-<category lang="en">Skiing</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e1</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:07e867fc-542d-46ff-8f09-27e74a1a72e2</episode-num>
-<episode-num system="xmltv_ns">0.0.0</episode-num>
-<episode-num system="original-air-date">2025-11-09 18:07:04</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260109224457 +0000" stop="20260109225418 +0000" channel="10001"><title lang="en">Winter Heroes</title>
-<sub-title lang="en">Angel Daleman</sub-title>
-<desc lang="en">Poised to become the next idol of Dutch speed skating, Angel Daleman is a superstar in the making. With a team world championship already in hand, meet a talent on the verge of greatness.</desc>
-<category lang="en">Ice Skating</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e10</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:4a5abc2d-2ffb-4668-b3e4-2bf82fedac78</episode-num>
-<episode-num system="xmltv_ns">0.9.0</episode-num>
-<episode-num system="original-air-date">2026-01-10 11:44:57</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260109225418 +0000" stop="20260109230934 +0000" channel="10001"><title lang="en">Winter Heroes</title>
-<sub-title lang="en">Daniel Tschofenig</sub-title>
-<desc lang="en">The high-flying trajectory of the Austrian ski jumper launched from injured up-and-comer to top favourite in just one season. After winning Four Hills and the World Cup, can he go even bigger?</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e8</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:fb75ff21-bd9f-4000-b045-b5d1f982ed2e</episode-num>
-<episode-num system="xmltv_ns">0.7.0</episode-num>
-<episode-num system="original-air-date">2026-01-10 11:54:18</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260109230934 +0000" stop="20260109232403 +0000" channel="10001"><title lang="en">Winter Heroes</title>
-<sub-title lang="en">Alice Robinson</sub-title>
-<desc lang="en">With explosive and unpredictable runs, Alice Robinson is putting New Zealand on the podium in the traditionally European-dominated sport of alpine skiing. Discover a fearless athlete on the rise.</desc>
-<category lang="en">Skiing</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e5</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:7ca7bdbe-bf61-429c-9a53-b33c92427d2b</episode-num>
-<episode-num system="xmltv_ns">0.4.0</episode-num>
-<episode-num system="original-air-date">2025-11-09 18:44:21</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260109232403 +0000" stop="20260109233545 +0000" channel="10001"><title lang="en">Winter Heroes</title>
-<sub-title lang="en">Kjeld Nuis</sub-title>
-<desc lang="en">Get up to speed with sporting phenomenon Kjeld Nuis. The Flying Dutchman has not only claimed multiple world and Olympic titles, but in 2022 broke his own speed skating world record, reaching 103km/h.</desc>
-<category lang="en">Ice Skating</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e3</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:0729517c-b623-462d-81e3-9f1110f7b952</episode-num>
-<episode-num system="xmltv_ns">0.2.0</episode-num>
-<episode-num system="original-air-date">2026-01-10 12:24:03</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260109233545 +0000" stop="20260109235232 +0000" channel="10001"><title lang="en">Winter Heroes</title>
-<sub-title lang="en">Zrinka Ljutić</sub-title>
-<desc lang="en">This Croatian alpine skier has carved a path in a discipline usually dominated by other countries. In 2025 Zrinka Ljutić became only the second Croatian woman ever to claim a World Cup Crystal Globe.</desc>
-<category lang="en">Skiing</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e13</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:d6bce47a-0f52-426c-afe4-0ebce914a5f7</episode-num>
-<episode-num system="xmltv_ns">0.12.0</episode-num>
-<episode-num system="original-air-date">2026-01-10 12:35:45</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260109235232 +0000" stop="20260110000125 +0000" channel="10001"><title lang="en">Winter Heroes</title>
-<sub-title lang="en">Ryōyū Kobayashi</sub-title>
-<desc lang="en">This multi-faceted Japanese athlete landed the longest ski jump in history and has won just about every title there is, making him a legend while still in his 20s.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e9</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:32c212d1-d2e2-4cc5-90d2-aae35f48b7e8</episode-num>
-<episode-num system="xmltv_ns">0.8.0</episode-num>
-<episode-num system="original-air-date">2026-01-10 12:52:32</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260110000125 +0000" stop="20260110003011 +0000" channel="10001"><title lang="en">Uncharted</title>
-<sub-title lang="en">Man overboard: Jimmy Spithill’s shocking exit</sub-title>
-<desc lang="en">In 2013, Jimmy Spithill led a historic sporting comeback at the America’s Cup. A decade later, he brings that same fire to SailGP – a high-octane, tech-driven, short-course racing sailing league.</desc>
-<category lang="en">Sailing</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:2f842bca-71ea-4fb8-8e20-6cf7c5468474/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/uncharted-s1-e1</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:9b0ea6b4-fad5-4071-93e0-8a5710fadcd3</episode-num>
-<episode-num system="xmltv_ns">0.0.0</episode-num>
-<episode-num system="original-air-date">2026-01-10 13:01:25</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:2f842bca-71ea-4fb8-8e20-6cf7c5468474</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260110003011 +0000" stop="20260110010004 +0000" channel="10001"><title lang="en">Uncharted</title>
-<sub-title lang="en">Blood in the water: Jimmy Spithill’s new team</sub-title>
-<desc lang="en">In the wake of his dismissal from the US team, Jimmy Spithill becomes CEO of newly formed Red Bull Italy SailGP Team. The stage is set for high-stakes rivalry: Spithill vs the team that let him go.</desc>
-<category lang="en">Sailing</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:2f842bca-71ea-4fb8-8e20-6cf7c5468474/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/uncharted-s1-e2</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:7e716f73-0761-4a18-97f8-51c3ad5bd589</episode-num>
-<episode-num system="xmltv_ns">0.1.0</episode-num>
-<episode-num system="original-air-date">2026-01-10 13:30:11</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:2f842bca-71ea-4fb8-8e20-6cf7c5468474</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260110010004 +0000" stop="20260110012456 +0000" channel="10001"><title lang="en">Uncharted</title>
-<sub-title lang="en">The showdown: team rivalries intensify</sub-title>
-<desc lang="en">As Season 5 begins, Red Bull Italy SailGP Team races against the clock to finish their boat and get their brand-new crew – led by Olympic gold medallist Ruggero Tita – trained and ready to compete.</desc>
-<category lang="en">Sailing</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:2f842bca-71ea-4fb8-8e20-6cf7c5468474/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/uncharted-s1-e3</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:2307b58f-48da-4632-aa25-e66cccf33087</episode-num>
-<episode-num system="xmltv_ns">0.2.0</episode-num>
-<episode-num system="original-air-date">2026-01-10 14:00:04</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:2f842bca-71ea-4fb8-8e20-6cf7c5468474</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260110012456 +0000" stop="20260110015057 +0000" channel="10001"><title lang="en">Red Bull Cliff Diving World Series 2025</title>
-<sub-title lang="en">Philippines cliffs push divers to the edge</sub-title>
-<desc lang="en">In El Nido’s raw beauty, ‪Molly Carlson and ‪Catalin Preda‬ face the ultimate test. With fear, injury and towering cliffs in the mix, the return to natural diving pushes them beyond their limits.</desc>
-<category lang="en">Cliff Diving</category>
-<icon src="https://resources.redbull.tv/rrn:content:videos:025ad3f1-1d54-4579-8280-ff697cfff53c/rbtv_display_art_portrait"/>
-<url>https://www.redbull.com/int-en/videos/red-bull-cliff-diving-world-series-2025-philippines-molly-carlson-catalin-preda</url>
-<episode-num system="redbull.com">episode/rrn:content:videos:025ad3f1-1d54-4579-8280-ff697cfff53c</episode-num>
-<episode-num system="original-air-date">2025-12-02 22:39:18</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260110015057 +0000" stop="20260110021750 +0000" channel="10001"><title lang="en">Red Bull Cliff Diving World Series 2025</title>
-<sub-title lang="en">The rise and fall of elite cliff divers</sub-title>
-<desc lang="en">Diving in Polignano a Mare means risking the ruthless waves of the rugged Italian coastline. ‪Morgane Herculano‬ chases her first permanent spot. Jonathan Paredes faces what could be his final season.</desc>
-<category lang="en">Cliff Diving</category>
-<icon src="https://resources.redbull.tv/rrn:content:videos:15806558-d5ac-44d9-9461-6d83bc137d6c/rbtv_display_art_portrait"/>
-<url>https://www.redbull.com/int-en/videos/red-bull-cliff-diving-world-series-2025-italy-morgane-herculano-jonathan-paredes</url>
-<episode-num system="redbull.com">episode/rrn:content:videos:15806558-d5ac-44d9-9461-6d83bc137d6c</episode-num>
-<episode-num system="original-air-date">2025-12-02 03:11:29</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260110021750 +0000" stop="20260110024717 +0000" channel="10001"><title lang="en">Red Bull Cliff Diving World Series 2025</title>
-<sub-title lang="en">The two GOATs of cliff diving</sub-title>
-<desc lang="en">Against the centuries-old backdrop of Stari Most, we follow two of the greatest athletes cliff diving has ever seen: Gary Hunt and Rhiannan Iffland, who continue to redefine what greatness looks like.</desc>
-<category lang="en">Cliff Diving</category>
-<icon src="https://resources.redbull.tv/rrn:content:videos:e15a0a9a-4d91-48f9-ac2b-7db14750c139/rbtv_display_art_portrait"/>
-<url>https://www.redbull.com/int-en/videos/red-bull-cliff-diving-world-series-2025-bosnia-and-herzegovina-gary-hunt-rhiannan-iffland</url>
-<episode-num system="redbull.com">episode/rrn:content:videos:e15a0a9a-4d91-48f9-ac2b-7db14750c139</episode-num>
-<episode-num system="original-air-date">2025-12-02 02:17:11</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260110024717 +0000" stop="20260110031208 +0000" channel="10001"><title lang="en">Red Bull Cliff Diving World Series 2025</title>
-<sub-title lang="en">Cliff diving mistakes that cost you</sub-title>
-<desc lang="en">Set in Boston Harbor, we follow Romanian Constantin Popovici and American Kaylea Arnett as they head into their final battle of the year. Will they crack under pressure?</desc>
-<category lang="en">Cliff Diving</category>
-<icon src="https://resources.redbull.tv/rrn:content:videos:92a3a756-7d04-4af2-95c6-3775f41170de/rbtv_display_art_portrait"/>
-<url>https://www.redbull.com/int-en/videos/red-bull-cliff-diving-world-series-2025-usa-constantin-popovici-kaylea-arnett</url>
-<episode-num system="redbull.com">episode/rrn:content:videos:92a3a756-7d04-4af2-95c6-3775f41170de</episode-num>
-<episode-num system="original-air-date">2025-12-02 02:47:15</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260110031208 +0000" stop="20260110033756 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
-<sub-title lang="en">Riyadh Premier Padel highlights</sub-title>
-<desc lang="en">Watch the action from the season opener in Saudi Arabia as the world's best padel players tackle the Riyadh Premier Padel P1.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:videos:80a36d96-1d8b-4ccd-9445-baab2f595d44/rbtv_display_art_portrait"/>
-<url>https://www.redbull.com/int-en/videos/premier-padel-2025-riyadh-p1-highlights</url>
-<episode-num system="redbull.com">episode/rrn:content:videos:80a36d96-1d8b-4ccd-9445-baab2f595d44</episode-num>
-<episode-num system="original-air-date">2025-04-03 02:42:07</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260110033756 +0000" stop="20260110040357 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
-<sub-title lang="en">Miami Premier Padel highlights</sub-title>
-<desc lang="en">Watch the action from the Miami Premier Padel P1 as it joined the padel tournament for the first time in 2025.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:videos:02d02b4b-cd97-4da2-9b7a-7ec04b8dfe40/rbtv_display_art_portrait"/>
-<url>https://www.redbull.com/int-en/videos/premier-padel-2025-miami-p1-highlights</url>
-<episode-num system="redbull.com">episode/rrn:content:videos:02d02b4b-cd97-4da2-9b7a-7ec04b8dfe40</episode-num>
-<episode-num system="original-air-date">2025-04-03 04:00:12</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260110040357 +0000" stop="20260110043008 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
-<sub-title lang="en">Buenos Aires Premier Padel highlights</sub-title>
-<desc lang="en">Watch the action from the Buenos Aires Premier Padel P1 in Argentina, where the sport took centre stage at Parque Roca in one of the leading countries of the padel scene.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:videos:d8edbb85-e49e-480d-9782-ed7614597776/rbtv_display_art_portrait"/>
-<url>https://www.redbull.com/int-en/videos/premier-padel-2025-buenos-aires-p1-highlights</url>
-<episode-num system="redbull.com">episode/rrn:content:videos:d8edbb85-e49e-480d-9782-ed7614597776</episode-num>
-<episode-num system="original-air-date">2025-09-02 08:50:05</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260110043008 +0000" stop="20260110045557 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
-<sub-title lang="en">Italy Major Premier Padel highlights</sub-title>
-<desc lang="en">Watch the highlights from the Italy Major Premier Padel tournament from Foro Italico in Rome.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:videos:459e11d8-af61-400f-87ea-1905c5956cfe/rbtv_display_art_portrait"/>
-<url>https://www.redbull.com/int-en/videos/premier-padel-2025-italy-major-highlights</url>
-<episode-num system="redbull.com">episode/rrn:content:videos:459e11d8-af61-400f-87ea-1905c5956cfe</episode-num>
-<episode-num system="original-air-date">2025-09-02 09:16:15</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260110045557 +0000" stop="20260110052202 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
-<sub-title lang="en">Paris Major Premier Padel highlights</sub-title>
-<desc lang="en">Watch the highlights from the Paris Major Premier Padel tournament in France at Roland-Garros stadium.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:videos:f0fa6fec-b31a-4830-8112-51bcdf3bc1a9/rbtv_display_art_portrait"/>
-<url>https://www.redbull.com/int-en/videos/premier-padel-2025-paris-major-highlights</url>
-<episode-num system="redbull.com">episode/rrn:content:videos:f0fa6fec-b31a-4830-8112-51bcdf3bc1a9</episode-num>
-<episode-num system="original-air-date">2025-10-01 21:32:05</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260110052202 +0000" stop="20260110060000 +0000" channel="10001"><title lang="en">Abstract</title>
-<sub-title lang="en">Pure creativity through high-octane freeski sequences</sub-title>
-<desc lang="en">Skiing is not art, and skiers are not artists. Unless, of course, skiing is art and skiers are artists? Because nothing screams 'artist' like sending large cliffs and grinding the side of buildings.</desc>
-<category lang="en">Freeskiing</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:f5efc8f9-8f54-4773-86c1-bb9c8be7d2d0/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/abstract</url>
-<episode-num system="redbull.com">episode/rrn:content:films:f5efc8f9-8f54-4773-86c1-bb9c8be7d2d0</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260110060000 +0000" stop="20260110062554 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
-<sub-title lang="en">Newgiza Premier Padel P2 highlights</sub-title>
-<desc lang="en">Watch the highlights from the Newgiza Premier Padel P2 tournament in Egypt.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:videos:8053e7d4-6fe0-49dd-9ddf-fc45abfbf933/rbtv_display_art_portrait"/>
-<url>https://www.redbull.com/int-en/videos/premier-padel-2025-newgiza-p2-highlights</url>
-<episode-num system="redbull.com">episode/rrn:content:videos:8053e7d4-6fe0-49dd-9ddf-fc45abfbf933</episode-num>
-<episode-num system="original-air-date">2025-12-02 04:05:09</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260110062554 +0000" stop="20260110065234 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
-<sub-title lang="en">Dubai Premier Padel P1 highlights</sub-title>
-<desc lang="en">Watch the highlights from the Dubai Premier Padel P1 tournament as the world's best padel players showcased amazing technique on the world stage.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:videos:ecaafa1a-22dd-4e0a-a1ba-47eb7a1ba672/rbtv_display_art_portrait"/>
-<url>https://www.redbull.com/int-en/videos/premier-padel-2025-dubai-p1-highlights</url>
-<episode-num system="redbull.com">episode/rrn:content:videos:ecaafa1a-22dd-4e0a-a1ba-47eb7a1ba672</episode-num>
-<episode-num system="original-air-date">2026-01-09 22:30:42</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260110065234 +0000" stop="20260110082612 +0000" channel="10001"><title lang="en">Long Live Chainsaw</title>
-<sub-title lang="en">Celebrating the life and legacy of Stevie Smith</sub-title>
-<desc lang="en">From UCI Downhill Mountain Bike World Cup overall champ to all-round positive soul, Canadian mountain bike legend Stevie 'Chainsaw' Smith left a lasting impact on his sport and will forever be remembered fondly. This was his inspiring life.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:films:4bde8258-7092-49fd-b4ee-219c26a0dc59/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/long-live-chainsaw</url>
-<episode-num system="redbull.com">episode/rrn:content:films:4bde8258-7092-49fd-b4ee-219c26a0dc59</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260110082612 +0000" stop="20260110091921 +0000" channel="10001"><title lang="en">More than a Dive</title>
-<sub-title lang="en">Pressure in paradise</sub-title>
-<desc lang="en">The 2025 season opens in El Nido, one of the rawest natural settings on tour. Iffland hits her 50th podium. Hunt returns as wildcard to win again – paradise challenges every diver’s mind and body.</desc>
-<category lang="en">Cliff Diving</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:83c82ea1-0042-4fdb-8c75-ac3bb1135656/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/more-than-a-dive-2025-e1</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:80c6e642-8ed5-4d6f-9e73-439d396902de</episode-num>
-<episode-num system="xmltv_ns">2.0.0</episode-num>
-<episode-num system="original-air-date">2025-05-02 02:44:04</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:83c82ea1-0042-4fdb-8c75-ac3bb1135656</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260110091921 +0000" stop="20260110101138 +0000" channel="10001"><title lang="en">More than a Dive</title>
-<sub-title lang="en">The heart of European cliff diving</sub-title>
-<desc lang="en">When the nature challenges the human spirit, it’s time for Red Bull Cliff Diving. Polignano a Mare delivered again: waves, wind and pure sportive excellence.</desc>
-<category lang="en">Cliff Diving</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:83c82ea1-0042-4fdb-8c75-ac3bb1135656/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/more-than-a-dive-2025-e2</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:1f25e1a1-8ba7-42a4-aaae-059e43a63e2d</episode-num>
-<episode-num system="xmltv_ns">2.1.0</episode-num>
-<episode-num system="original-air-date">2025-09-02 14:09:56</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:83c82ea1-0042-4fdb-8c75-ac3bb1135656</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260110101138 +0000" stop="20260110110507 +0000" channel="10001"><title lang="en">More than a Dive</title>
-<sub-title lang="en">Keeper of the Old Bridge</sub-title>
-<desc lang="en">At Mostar’s historic Old Bridge, Red Bull Cliff Diving history was made. The season’s first 10s, the most wildcards, an unexpected title fight, and centuries of tradition in one unforgettable stop.</desc>
-<category lang="en">High Diving</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:83c82ea1-0042-4fdb-8c75-ac3bb1135656/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/more-than-a-dive-2025-e3</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:201c1896-6723-402c-8eed-942a69e85e85</episode-num>
-<episode-num system="xmltv_ns">2.2.0</episode-num>
-<episode-num system="original-air-date">2025-10-02 03:08:58</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:83c82ea1-0042-4fdb-8c75-ac3bb1135656</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260110110507 +0000" stop="20260110115130 +0000" channel="10001"><title lang="en">Anton Palzer: Breaking the Cycle</title>
-<sub-title lang="en">Swapping two skis for two wheels </sub-title>
-<desc lang="en">World-class ski mountaineer Anton Palzer craves a new challenge – but you might not expect it to be road cycling. See his audacious attempt to reach the ultimate goal of competing in La Vuelta a España.</desc>
-<category lang="en">Cycling</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:afcde35d-4a2c-4994-ac51-a0b3a6292976/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/anton-palzer-breaking-the-cycle</url>
-<episode-num system="redbull.com">episode/rrn:content:films:afcde35d-4a2c-4994-ac51-a0b3a6292976</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260110115130 +0000" stop="20260110124637 +0000" channel="10001"><title lang="en">Resilience</title>
-<sub-title lang="en">Triathlete Els Visser's story</sub-title>
-<desc lang="en">Follow Els Visser's journey from surviving a ship wreck to becoming a triathlon and Ironman athlete. description : How does surviving a ship wreck lead to someone becoming a successful triathlete? Learn about Els Visser's journey from medical student to sporting success via a life-threatening disaster at sea.</desc>
-<category lang="en">Triathlon</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:55603c14-a305-4657-9092-086fd7c34df0/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/resilience</url>
-<episode-num system="redbull.com">episode/rrn:content:films:55603c14-a305-4657-9092-086fd7c34df0</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260110124637 +0000" stop="20260110132219 +0000" channel="10001"><title lang="en">Echoes of Impact</title>
-<sub-title lang="en">Marcus Kleveland unfiltered</sub-title>
-<desc lang="en">Follow Marcus Kleveland through injury, pressure and the weight of expectation. From highs to lows, his love for creative freestyle snowboarding drives him to keep pushing and redefining the sport.</desc>
-<category lang="en">Snowboarding</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:97fb6421-aee0-43be-9f7d-a8b23c92957f/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/echoes-of-impact</url>
-<episode-num system="redbull.com">episode/rrn:content:films:97fb6421-aee0-43be-9f7d-a8b23c92957f</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
   <programme start="20260110132219 +0000" stop="20260110142904 +0000" channel="10001"><title lang="en">After the Snowfall</title>
 <sub-title lang="en">A celebration of skiing in its purest form</sub-title>
 <desc lang="en">Filmed in breath-taking locations around the world, Matchstick Productions bring us a celebration of skiing. Elite athletes and everyday skiers risk all to seek joy-filled moments in the mountains.</desc>
@@ -3836,6 +3282,599 @@
 <icon src="https://resources.redbull.tv/rrn:content:films:b1d3615f-5b63-440a-b456-a70a29781fff/rbtv_cover_art_portrait"/>
 <url>https://www.redbull.com/int-en/films/against-gravity</url>
 <episode-num system="redbull.com">episode/rrn:content:films:b1d3615f-5b63-440a-b456-a70a29781fff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260110154732 +0000" stop="20260110165554 +0000" channel="10001"><title lang="en">Pressure Drop</title>
+<sub-title lang="en">Born from a dream, this is TGR’s 30th annual film</sub-title>
+<desc lang="en">Follow the world’s best skiers and snowboarders in a cinematic ride through risk, beauty and the pursuit of perfection.</desc>
+<category lang="en">Skiing</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:08743fae-b6eb-4c2e-bcbb-69ecc6843797/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/pressure-drop</url>
+<episode-num system="redbull.com">episode/rrn:content:films:08743fae-b6eb-4c2e-bcbb-69ecc6843797</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260110165554 +0000" stop="20260110171914 +0000" channel="10001"><title lang="en">Paradigm</title>
+<sub-title lang="en">Mountain biking taken to new heights</sub-title>
+<desc lang="en">From the precision of slopestyle to the massive airs of freeride and the raw speed of downhill, Thomas Genon, Szymon Godziek, Emil Johansson and Kade Edwards deliver raw MTB talent and nonstop action.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:films:9e553057-9846-4dd7-bf7a-fb2ab8471f43/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/paradigm</url>
+<episode-num system="redbull.com">episode/rrn:content:films:9e553057-9846-4dd7-bf7a-fb2ab8471f43</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260110171914 +0000" stop="20260110180123 +0000" channel="10001"><title lang="en">Paved</title>
+<sub-title lang="en">An unfiltered snow odyssey two years in the making</sub-title>
+<desc lang="en">Part history lesson, part hangout, part backcountry odyssey, Paved – a Burton and Red Bull Media House co-production – celebrates the passion and soul of snowboarding in raw, wry and light-hearted style.</desc>
+<category lang="en">Snowboarding</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:518d59a1-abe6-47df-ad17-6f71d0ef7a0b/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/paved</url>
+<episode-num system="redbull.com">episode/rrn:content:films:518d59a1-abe6-47df-ad17-6f71d0ef7a0b</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260110180123 +0000" stop="20260110182737 +0000" channel="10001"><title lang="en">Asa Vermette's Ascent</title>
+<sub-title lang="en">A rookie’s breakout year in downhill MTB</sub-title>
+<desc lang="en">One of mountain biking’s most exciting young riders, Asa Vermette, has secured a Junior world title. Follow his journey as he faces downhill’s toughest race in his debut Red Bull Hardline season.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:films:2f27123f-6b9a-46a6-8be1-03cbdb5992e7/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/asa-vermette-ascent</url>
+<episode-num system="redbull.com">episode/rrn:content:films:2f27123f-6b9a-46a6-8be1-03cbdb5992e7</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260110182737 +0000" stop="20260110183848 +0000" channel="10001"><title lang="en">Winter Heroes</title>
+<sub-title lang="en">Queralt Castellet</sub-title>
+<desc lang="en">Spanish snowboarder Queralt Castellet shows that snowboarding is more than results – it’s about passion, resilience and freedom. Her fearless halfpipe style inspires the next generation of winter athletes.</desc>
+<category lang="en">Snowboarding</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e4</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:129493df-95af-4fe9-8eb7-d430609b5663</episode-num>
+<episode-num system="xmltv_ns">0.3.0</episode-num>
+<episode-num system="original-air-date">2025-11-09 18:33:10</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260110183848 +0000" stop="20260110184801 +0000" channel="10001"><title lang="en">Winter Heroes</title>
+<sub-title lang="en">Paul Verbnjak</sub-title>
+<desc lang="en">Not only a ski mountaineer, Paul Verbnjak is an army athlete, a professional road cyclist and a rising star in a sport that’s rapidly gaining world popularity. Find out what makes him tick.</desc>
+<category lang="en">Ski Touring</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e12</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:07a875f9-0726-49bc-9bf6-d35157a86ceb</episode-num>
+<episode-num system="xmltv_ns">0.11.0</episode-num>
+<episode-num system="original-air-date">2025-11-10 12:53:33</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260110184801 +0000" stop="20260110185856 +0000" channel="10001"><title lang="en">Winter Heroes</title>
+<sub-title lang="en">Marcel Hirscher</sub-title>
+<desc lang="en">Marcel Hirscher – arguably the best male ski racer ever – has returned from retirement to attempt the mother of all comebacks. And he’s doing it under a new flag.</desc>
+<category lang="en">Skiing</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e2</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:24d266f6-c23c-425e-97b4-5c2fdad79c58</episode-num>
+<episode-num system="xmltv_ns">0.1.0</episode-num>
+<episode-num system="original-air-date">2025-11-09 18:22:15</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260110185856 +0000" stop="20260110190703 +0000" channel="10001"><title lang="en">Winter Heroes</title>
+<sub-title lang="en">Joep Wennemars</sub-title>
+<desc lang="en">With a world champion father, the Netherlands’ Joep Wennemars comes from speed skating royalty. The 23-year-old is now coming into his own, and his 2025 world title in the 1000m is just the beginning.</desc>
+<category lang="en">Ice Skating</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e6</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:9dcd0bba-d907-41fc-8c48-cf78216507bf</episode-num>
+<episode-num system="xmltv_ns">0.5.0</episode-num>
+<episode-num system="original-air-date">2026-01-10 11:01:56</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260110190703 +0000" stop="20260110191807 +0000" channel="10001"><title lang="en">Winter Heroes</title>
+<sub-title lang="en">Sara Takanashi</sub-title>
+<desc lang="en">Japanese ski jumper Sara Takanashi set a towering record for World Cup wins. Now, go behind the scenes with the history-making athlete as she prepares for the one title that has eluded her.</desc>
+<category lang="en">Ice Skating</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e11</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:d05a1f7e-e301-42bd-9ab3-861ab0f745ce</episode-num>
+<episode-num system="xmltv_ns">0.10.0</episode-num>
+<episode-num system="original-air-date">2026-01-10 11:10:03</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260110191807 +0000" stop="20260110192757 +0000" channel="10001"><title lang="en">Winter Heroes</title>
+<sub-title lang="en">Hiroto Ogiwara</sub-title>
+<desc lang="en">This Japanese snowboarding phenom landed a 1080 at age of nine and has since set one record after another, even taking X Games gold with the first 2340 (6.5 rotations) in competition.</desc>
+<category lang="en">Snowboarding</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e7</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:215a4bb7-57e8-4265-b58c-0d7d8efe381b</episode-num>
+<episode-num system="xmltv_ns">0.6.0</episode-num>
+<episode-num system="original-air-date">2026-01-10 11:20:30</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260110192757 +0000" stop="20260110194233 +0000" channel="10001"><title lang="en">Winter Heroes</title>
+<sub-title lang="en">Eileen Gu</sub-title>
+<desc lang="en">Prodigy on skis. Brilliant university student. Fashion icon. Witness the dazzling trajectory of a woman with roots in China and the US who is redefining what it means to be a modern sporting champion.</desc>
+<category lang="en">Skiing</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e1</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:07e867fc-542d-46ff-8f09-27e74a1a72e2</episode-num>
+<episode-num system="xmltv_ns">0.0.0</episode-num>
+<episode-num system="original-air-date">2025-11-09 18:07:04</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260110194233 +0000" stop="20260110195749 +0000" channel="10001"><title lang="en">Winter Heroes</title>
+<sub-title lang="en">Daniel Tschofenig</sub-title>
+<desc lang="en">The high-flying trajectory of the Austrian ski jumper launched from injured up-and-comer to top favourite in just one season. After winning Four Hills and the World Cup, can he go even bigger?</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e8</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:fb75ff21-bd9f-4000-b045-b5d1f982ed2e</episode-num>
+<episode-num system="xmltv_ns">0.7.0</episode-num>
+<episode-num system="original-air-date">2026-01-10 11:54:18</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260110195749 +0000" stop="20260110201253 +0000" channel="10001"><title lang="en">Winter Heroes</title>
+<sub-title lang="en">Alice Robinson</sub-title>
+<desc lang="en">With explosive and unpredictable runs, Alice Robinson is putting New Zealand on the podium in the traditionally European-dominated sport of alpine skiing. Discover a fearless athlete on the rise.</desc>
+<category lang="en">Skiing</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e5</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:7ca7bdbe-bf61-429c-9a53-b33c92427d2b</episode-num>
+<episode-num system="xmltv_ns">0.4.0</episode-num>
+<episode-num system="original-air-date">2025-11-09 18:44:21</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260110201253 +0000" stop="20260110202435 +0000" channel="10001"><title lang="en">Winter Heroes</title>
+<sub-title lang="en">Kjeld Nuis</sub-title>
+<desc lang="en">Get up to speed with sporting phenomenon Kjeld Nuis. The Flying Dutchman has not only claimed multiple world and Olympic titles, but in 2022 broke his own speed skating world record, reaching 103km/h.</desc>
+<category lang="en">Ice Skating</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e3</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:0729517c-b623-462d-81e3-9f1110f7b952</episode-num>
+<episode-num system="xmltv_ns">0.2.0</episode-num>
+<episode-num system="original-air-date">2026-01-10 12:24:03</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260110202435 +0000" stop="20260110204123 +0000" channel="10001"><title lang="en">Winter Heroes</title>
+<sub-title lang="en">Zrinka Ljutić</sub-title>
+<desc lang="en">This Croatian alpine skier has carved a path in a discipline usually dominated by other countries. In 2025 Zrinka Ljutić became only the second Croatian woman ever to claim a World Cup Crystal Globe.</desc>
+<category lang="en">Skiing</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e13</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:d6bce47a-0f52-426c-afe4-0ebce914a5f7</episode-num>
+<episode-num system="xmltv_ns">0.12.0</episode-num>
+<episode-num system="original-air-date">2026-01-10 12:35:45</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260110204123 +0000" stop="20260110205016 +0000" channel="10001"><title lang="en">Winter Heroes</title>
+<sub-title lang="en">Ryōyū Kobayashi</sub-title>
+<desc lang="en">This multi-faceted Japanese athlete landed the longest ski jump in history and has won just about every title there is, making him a legend while still in his 20s.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e9</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:32c212d1-d2e2-4cc5-90d2-aae35f48b7e8</episode-num>
+<episode-num system="xmltv_ns">0.8.0</episode-num>
+<episode-num system="original-air-date">2026-01-10 12:52:32</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260110205016 +0000" stop="20260110211902 +0000" channel="10001"><title lang="en">Uncharted</title>
+<sub-title lang="en">Man overboard: Jimmy Spithill’s shocking exit</sub-title>
+<desc lang="en">In 2013, Jimmy Spithill led a historic sporting comeback at the America’s Cup. A decade later, he brings that same fire to SailGP – a high-octane, tech-driven, short-course racing sailing league.</desc>
+<category lang="en">Sailing</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:2f842bca-71ea-4fb8-8e20-6cf7c5468474/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/uncharted-s1-e1</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:9b0ea6b4-fad5-4071-93e0-8a5710fadcd3</episode-num>
+<episode-num system="xmltv_ns">0.0.0</episode-num>
+<episode-num system="original-air-date">2026-01-10 13:01:25</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:2f842bca-71ea-4fb8-8e20-6cf7c5468474</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260110211902 +0000" stop="20260110214855 +0000" channel="10001"><title lang="en">Uncharted</title>
+<sub-title lang="en">Blood in the water: Jimmy Spithill’s new team</sub-title>
+<desc lang="en">In the wake of his dismissal from the US team, Jimmy Spithill becomes CEO of newly formed Red Bull Italy SailGP Team. The stage is set for high-stakes rivalry: Spithill vs the team that let him go.</desc>
+<category lang="en">Sailing</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:2f842bca-71ea-4fb8-8e20-6cf7c5468474/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/uncharted-s1-e2</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:7e716f73-0761-4a18-97f8-51c3ad5bd589</episode-num>
+<episode-num system="xmltv_ns">0.1.0</episode-num>
+<episode-num system="original-air-date">2026-01-10 13:30:11</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:2f842bca-71ea-4fb8-8e20-6cf7c5468474</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260110214855 +0000" stop="20260110221347 +0000" channel="10001"><title lang="en">Uncharted</title>
+<sub-title lang="en">The showdown: team rivalries intensify</sub-title>
+<desc lang="en">As Season 5 begins, Red Bull Italy SailGP Team races against the clock to finish their boat and get their brand-new crew – led by Olympic gold medallist Ruggero Tita – trained and ready to compete.</desc>
+<category lang="en">Sailing</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:2f842bca-71ea-4fb8-8e20-6cf7c5468474/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/uncharted-s1-e3</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:2307b58f-48da-4632-aa25-e66cccf33087</episode-num>
+<episode-num system="xmltv_ns">0.2.0</episode-num>
+<episode-num system="original-air-date">2026-01-10 14:00:04</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:2f842bca-71ea-4fb8-8e20-6cf7c5468474</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260110221347 +0000" stop="20260110223948 +0000" channel="10001"><title lang="en">Red Bull Cliff Diving World Series 2025</title>
+<sub-title lang="en">Philippines cliffs push divers to the edge</sub-title>
+<desc lang="en">In El Nido’s raw beauty, ‪Molly Carlson and ‪Catalin Preda‬ face the ultimate test. With fear, injury and towering cliffs in the mix, the return to natural diving pushes them beyond their limits.</desc>
+<category lang="en">Cliff Diving</category>
+<icon src="https://resources.redbull.tv/rrn:content:videos:025ad3f1-1d54-4579-8280-ff697cfff53c/rbtv_display_art_portrait"/>
+<url>https://www.redbull.com/int-en/videos/red-bull-cliff-diving-world-series-2025-philippines-molly-carlson-catalin-preda</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:025ad3f1-1d54-4579-8280-ff697cfff53c</episode-num>
+<episode-num system="original-air-date">2025-12-02 22:39:18</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260110223948 +0000" stop="20260110230717 +0000" channel="10001"><title lang="en">Red Bull Cliff Diving World Series 2025</title>
+<sub-title lang="en">The rise and fall of elite cliff divers</sub-title>
+<desc lang="en">Diving in Polignano a Mare means risking the ruthless waves of the rugged Italian coastline. ‪Morgane Herculano‬ chases her first permanent spot. Jonathan Paredes faces what could be his final season.</desc>
+<category lang="en">Cliff Diving</category>
+<icon src="https://resources.redbull.tv/rrn:content:videos:15806558-d5ac-44d9-9461-6d83bc137d6c/rbtv_display_art_portrait"/>
+<url>https://www.redbull.com/int-en/videos/red-bull-cliff-diving-world-series-2025-italy-morgane-herculano-jonathan-paredes</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:15806558-d5ac-44d9-9461-6d83bc137d6c</episode-num>
+<episode-num system="original-air-date">2025-12-02 03:11:29</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260110230717 +0000" stop="20260110233644 +0000" channel="10001"><title lang="en">Red Bull Cliff Diving World Series 2025</title>
+<sub-title lang="en">The two GOATs of cliff diving</sub-title>
+<desc lang="en">Against the centuries-old backdrop of Stari Most, we follow two of the greatest athletes cliff diving has ever seen: Gary Hunt and Rhiannan Iffland, who continue to redefine what greatness looks like.</desc>
+<category lang="en">Cliff Diving</category>
+<icon src="https://resources.redbull.tv/rrn:content:videos:e15a0a9a-4d91-48f9-ac2b-7db14750c139/rbtv_display_art_portrait"/>
+<url>https://www.redbull.com/int-en/videos/red-bull-cliff-diving-world-series-2025-bosnia-and-herzegovina-gary-hunt-rhiannan-iffland</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:e15a0a9a-4d91-48f9-ac2b-7db14750c139</episode-num>
+<episode-num system="original-air-date">2025-12-02 02:17:11</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260110233644 +0000" stop="20260111000135 +0000" channel="10001"><title lang="en">Red Bull Cliff Diving World Series 2025</title>
+<sub-title lang="en">Cliff diving mistakes that cost you</sub-title>
+<desc lang="en">Set in Boston Harbor, we follow Romanian Constantin Popovici and American Kaylea Arnett as they head into their final battle of the year. Will they crack under pressure?</desc>
+<category lang="en">Cliff Diving</category>
+<icon src="https://resources.redbull.tv/rrn:content:videos:92a3a756-7d04-4af2-95c6-3775f41170de/rbtv_display_art_portrait"/>
+<url>https://www.redbull.com/int-en/videos/red-bull-cliff-diving-world-series-2025-usa-constantin-popovici-kaylea-arnett</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:92a3a756-7d04-4af2-95c6-3775f41170de</episode-num>
+<episode-num system="original-air-date">2025-12-02 02:47:15</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260111000135 +0000" stop="20260111002722 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
+<sub-title lang="en">Riyadh Premier Padel highlights</sub-title>
+<desc lang="en">Watch the action from the season opener in Saudi Arabia as the world's best padel players tackle the Riyadh Premier Padel P1.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:videos:80a36d96-1d8b-4ccd-9445-baab2f595d44/rbtv_display_art_portrait"/>
+<url>https://www.redbull.com/int-en/videos/premier-padel-2025-riyadh-p1-highlights</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:80a36d96-1d8b-4ccd-9445-baab2f595d44</episode-num>
+<episode-num system="original-air-date">2025-04-03 02:42:07</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260111002722 +0000" stop="20260111005400 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
+<sub-title lang="en">Miami Premier Padel highlights</sub-title>
+<desc lang="en">Watch the action from the Miami Premier Padel P1 as it joined the padel tournament for the first time in 2025.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:videos:02d02b4b-cd97-4da2-9b7a-7ec04b8dfe40/rbtv_display_art_portrait"/>
+<url>https://www.redbull.com/int-en/videos/premier-padel-2025-miami-p1-highlights</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:02d02b4b-cd97-4da2-9b7a-7ec04b8dfe40</episode-num>
+<episode-num system="original-air-date">2025-04-03 04:00:12</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260111005400 +0000" stop="20260111012011 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
+<sub-title lang="en">Buenos Aires Premier Padel highlights</sub-title>
+<desc lang="en">Watch the action from the Buenos Aires Premier Padel P1 in Argentina, where the sport took centre stage at Parque Roca in one of the leading countries of the padel scene.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:videos:d8edbb85-e49e-480d-9782-ed7614597776/rbtv_display_art_portrait"/>
+<url>https://www.redbull.com/int-en/videos/premier-padel-2025-buenos-aires-p1-highlights</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:d8edbb85-e49e-480d-9782-ed7614597776</episode-num>
+<episode-num system="original-air-date">2025-09-02 08:50:05</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260111012011 +0000" stop="20260111014636 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
+<sub-title lang="en">Italy Major Premier Padel highlights</sub-title>
+<desc lang="en">Watch the highlights from the Italy Major Premier Padel tournament from Foro Italico in Rome.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:videos:459e11d8-af61-400f-87ea-1905c5956cfe/rbtv_display_art_portrait"/>
+<url>https://www.redbull.com/int-en/videos/premier-padel-2025-italy-major-highlights</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:459e11d8-af61-400f-87ea-1905c5956cfe</episode-num>
+<episode-num system="original-air-date">2025-09-02 09:16:15</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260111014636 +0000" stop="20260111021241 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
+<sub-title lang="en">Paris Major Premier Padel highlights</sub-title>
+<desc lang="en">Watch the highlights from the Paris Major Premier Padel tournament in France at Roland-Garros stadium.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:videos:f0fa6fec-b31a-4830-8112-51bcdf3bc1a9/rbtv_display_art_portrait"/>
+<url>https://www.redbull.com/int-en/videos/premier-padel-2025-paris-major-highlights</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:f0fa6fec-b31a-4830-8112-51bcdf3bc1a9</episode-num>
+<episode-num system="original-air-date">2025-10-01 21:32:05</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260111021241 +0000" stop="20260111023912 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
+<sub-title lang="en">Newgiza Premier Padel P2 highlights</sub-title>
+<desc lang="en">Watch the highlights from the Newgiza Premier Padel P2 tournament in Egypt.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:videos:8053e7d4-6fe0-49dd-9ddf-fc45abfbf933/rbtv_display_art_portrait"/>
+<url>https://www.redbull.com/int-en/videos/premier-padel-2025-newgiza-p2-highlights</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:8053e7d4-6fe0-49dd-9ddf-fc45abfbf933</episode-num>
+<episode-num system="original-air-date">2025-12-02 04:05:09</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260111023912 +0000" stop="20260111030515 +0000" channel="10001"><title lang="en">Premier Padel 2025</title>
+<sub-title lang="en">Dubai Premier Padel P1 highlights</sub-title>
+<desc lang="en">Watch the highlights from the Dubai Premier Padel P1 tournament as the world's best padel players showcased amazing technique on the world stage.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:videos:ecaafa1a-22dd-4e0a-a1ba-47eb7a1ba672/rbtv_display_art_portrait"/>
+<url>https://www.redbull.com/int-en/videos/premier-padel-2025-dubai-p1-highlights</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:ecaafa1a-22dd-4e0a-a1ba-47eb7a1ba672</episode-num>
+<episode-num system="original-air-date">2026-01-09 22:30:42</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260111030515 +0000" stop="20260111043854 +0000" channel="10001"><title lang="en">Long Live Chainsaw</title>
+<sub-title lang="en">Celebrating the life and legacy of Stevie Smith</sub-title>
+<desc lang="en">From UCI Downhill Mountain Bike World Cup overall champ to all-round positive soul, Canadian mountain bike legend Stevie 'Chainsaw' Smith left a lasting impact on his sport and will forever be remembered fondly. This was his inspiring life.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:films:4bde8258-7092-49fd-b4ee-219c26a0dc59/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/long-live-chainsaw</url>
+<episode-num system="redbull.com">episode/rrn:content:films:4bde8258-7092-49fd-b4ee-219c26a0dc59</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260111043854 +0000" stop="20260111053126 +0000" channel="10001"><title lang="en">More than a Dive</title>
+<sub-title lang="en">Pressure in paradise</sub-title>
+<desc lang="en">The 2025 season opens in El Nido, one of the rawest natural settings on tour. Iffland hits her 50th podium. Hunt returns as wildcard to win again – paradise challenges every diver’s mind and body.</desc>
+<category lang="en">Cliff Diving</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:83c82ea1-0042-4fdb-8c75-ac3bb1135656/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/more-than-a-dive-2025-e1</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:80c6e642-8ed5-4d6f-9e73-439d396902de</episode-num>
+<episode-num system="xmltv_ns">2.0.0</episode-num>
+<episode-num system="original-air-date">2025-05-02 02:44:04</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:83c82ea1-0042-4fdb-8c75-ac3bb1135656</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260111053126 +0000" stop="20260111060000 +0000" channel="10001"><title lang="en">For Reals</title>
+<sub-title lang="en">From soapbox madness to skydiving with an FMX bike</sub-title>
+<desc lang="en">Snowboarding – or, rather sandboarding – in the desert. Rally cars on frozen lakes. The wackiness of soapbox racing. Skydiving with a motocross bike. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e9</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:25bd9023-2792-464f-a774-984f840f4a4e</episode-num>
+<episode-num system="xmltv_ns">0.8.0</episode-num>
+<episode-num system="original-air-date">2024-10-21 23:48:12</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260111060000 +0000" stop="20260111065217 +0000" channel="10001"><title lang="en">More than a Dive</title>
+<sub-title lang="en">The heart of European cliff diving</sub-title>
+<desc lang="en">When the nature challenges the human spirit, it’s time for Red Bull Cliff Diving. Polignano a Mare delivered again: waves, wind and pure sportive excellence.</desc>
+<category lang="en">Cliff Diving</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:83c82ea1-0042-4fdb-8c75-ac3bb1135656/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/more-than-a-dive-2025-e2</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:1f25e1a1-8ba7-42a4-aaae-059e43a63e2d</episode-num>
+<episode-num system="xmltv_ns">2.1.0</episode-num>
+<episode-num system="original-air-date">2025-09-02 14:09:56</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:83c82ea1-0042-4fdb-8c75-ac3bb1135656</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260111065217 +0000" stop="20260111074545 +0000" channel="10001"><title lang="en">More than a Dive</title>
+<sub-title lang="en">Keeper of the Old Bridge</sub-title>
+<desc lang="en">At Mostar’s historic Old Bridge, Red Bull Cliff Diving history was made. The season’s first 10s, the most wildcards, an unexpected title fight, and centuries of tradition in one unforgettable stop.</desc>
+<category lang="en">High Diving</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:83c82ea1-0042-4fdb-8c75-ac3bb1135656/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/more-than-a-dive-2025-e3</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:201c1896-6723-402c-8eed-942a69e85e85</episode-num>
+<episode-num system="xmltv_ns">2.2.0</episode-num>
+<episode-num system="original-air-date">2025-10-02 03:08:58</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:83c82ea1-0042-4fdb-8c75-ac3bb1135656</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260111074545 +0000" stop="20260111083133 +0000" channel="10001"><title lang="en">Anton Palzer: Breaking the Cycle</title>
+<sub-title lang="en">Swapping two skis for two wheels </sub-title>
+<desc lang="en">World-class ski mountaineer Anton Palzer craves a new challenge – but you might not expect it to be road cycling. See his audacious attempt to reach the ultimate goal of competing in La Vuelta a España.</desc>
+<category lang="en">Cycling</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:afcde35d-4a2c-4994-ac51-a0b3a6292976/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/anton-palzer-breaking-the-cycle</url>
+<episode-num system="redbull.com">episode/rrn:content:films:afcde35d-4a2c-4994-ac51-a0b3a6292976</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260111083133 +0000" stop="20260111092639 +0000" channel="10001"><title lang="en">Resilience</title>
+<sub-title lang="en">Triathlete Els Visser's story</sub-title>
+<desc lang="en">Follow Els Visser's journey from surviving a ship wreck to becoming a triathlon and Ironman athlete. description : How does surviving a ship wreck lead to someone becoming a successful triathlete? Learn about Els Visser's journey from medical student to sporting success via a life-threatening disaster at sea.</desc>
+<category lang="en">Triathlon</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:55603c14-a305-4657-9092-086fd7c34df0/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/resilience</url>
+<episode-num system="redbull.com">episode/rrn:content:films:55603c14-a305-4657-9092-086fd7c34df0</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260111092639 +0000" stop="20260111100221 +0000" channel="10001"><title lang="en">Echoes of Impact</title>
+<sub-title lang="en">Marcus Kleveland unfiltered</sub-title>
+<desc lang="en">Follow Marcus Kleveland through injury, pressure and the weight of expectation. From highs to lows, his love for creative freestyle snowboarding drives him to keep pushing and redefining the sport.</desc>
+<category lang="en">Snowboarding</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:97fb6421-aee0-43be-9f7d-a8b23c92957f/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/echoes-of-impact</url>
+<episode-num system="redbull.com">episode/rrn:content:films:97fb6421-aee0-43be-9f7d-a8b23c92957f</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260111100221 +0000" stop="20260111110906 +0000" channel="10001"><title lang="en">After the Snowfall</title>
+<sub-title lang="en">A celebration of skiing in its purest form</sub-title>
+<desc lang="en">Filmed in breath-taking locations around the world, Matchstick Productions bring us a celebration of skiing. Elite athletes and everyday skiers risk all to seek joy-filled moments in the mountains.</desc>
+<category lang="en">Skiing</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:7b24d9ee-b994-4003-9bde-27dc6e4332cc/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/after-the-snowfall</url>
+<episode-num system="redbull.com">episode/rrn:content:films:7b24d9ee-b994-4003-9bde-27dc6e4332cc</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260111110906 +0000" stop="20260111122734 +0000" channel="10001"><title lang="en">Against Gravity</title>
+<sub-title lang="en">Pro surfer Leon Glatzer’s journey of resilience</sub-title>
+<desc lang="en">Born in the water, shaped by the ocean: surf pro Leon Glatzer shares how the sea shaped his life. Full of ups and downs, his story is all about the search for freedom.</desc>
+<category lang="en">Surfing</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:b1d3615f-5b63-440a-b456-a70a29781fff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/against-gravity</url>
+<episode-num system="redbull.com">episode/rrn:content:films:b1d3615f-5b63-440a-b456-a70a29781fff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260111122734 +0000" stop="20260111133556 +0000" channel="10001"><title lang="en">Pressure Drop</title>
+<sub-title lang="en">Born from a dream, this is TGR’s 30th annual film</sub-title>
+<desc lang="en">Follow the world’s best skiers and snowboarders in a cinematic ride through risk, beauty and the pursuit of perfection.</desc>
+<category lang="en">Skiing</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:08743fae-b6eb-4c2e-bcbb-69ecc6843797/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/pressure-drop</url>
+<episode-num system="redbull.com">episode/rrn:content:films:08743fae-b6eb-4c2e-bcbb-69ecc6843797</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260111133556 +0000" stop="20260111135916 +0000" channel="10001"><title lang="en">Paradigm</title>
+<sub-title lang="en">Mountain biking taken to new heights</sub-title>
+<desc lang="en">From the precision of slopestyle to the massive airs of freeride and the raw speed of downhill, Thomas Genon, Szymon Godziek, Emil Johansson and Kade Edwards deliver raw MTB talent and nonstop action.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:films:9e553057-9846-4dd7-bf7a-fb2ab8471f43/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/paradigm</url>
+<episode-num system="redbull.com">episode/rrn:content:films:9e553057-9846-4dd7-bf7a-fb2ab8471f43</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260111135916 +0000" stop="20260111144125 +0000" channel="10001"><title lang="en">Paved</title>
+<sub-title lang="en">An unfiltered snow odyssey two years in the making</sub-title>
+<desc lang="en">Part history lesson, part hangout, part backcountry odyssey, Paved – a Burton and Red Bull Media House co-production – celebrates the passion and soul of snowboarding in raw, wry and light-hearted style.</desc>
+<category lang="en">Snowboarding</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:518d59a1-abe6-47df-ad17-6f71d0ef7a0b/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/paved</url>
+<episode-num system="redbull.com">episode/rrn:content:films:518d59a1-abe6-47df-ad17-6f71d0ef7a0b</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260111144125 +0000" stop="20260111150703 +0000" channel="10001"><title lang="en">Asa Vermette's Ascent</title>
+<sub-title lang="en">A rookie’s breakout year in downhill MTB</sub-title>
+<desc lang="en">One of mountain biking’s most exciting young riders, Asa Vermette, has secured a Junior world title. Follow his journey as he faces downhill’s toughest race in his debut Red Bull Hardline season.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:films:2f27123f-6b9a-46a6-8be1-03cbdb5992e7/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/asa-vermette-ascent</url>
+<episode-num system="redbull.com">episode/rrn:content:films:2f27123f-6b9a-46a6-8be1-03cbdb5992e7</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260111150703 +0000" stop="20260111151814 +0000" channel="10001"><title lang="en">Winter Heroes</title>
+<sub-title lang="en">Queralt Castellet</sub-title>
+<desc lang="en">Spanish snowboarder Queralt Castellet shows that snowboarding is more than results – it’s about passion, resilience and freedom. Her fearless halfpipe style inspires the next generation of winter athletes.</desc>
+<category lang="en">Snowboarding</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e4</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:129493df-95af-4fe9-8eb7-d430609b5663</episode-num>
+<episode-num system="xmltv_ns">0.3.0</episode-num>
+<episode-num system="original-air-date">2025-11-09 18:33:10</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260111151814 +0000" stop="20260111152728 +0000" channel="10001"><title lang="en">Winter Heroes</title>
+<sub-title lang="en">Paul Verbnjak</sub-title>
+<desc lang="en">Not only a ski mountaineer, Paul Verbnjak is an army athlete, a professional road cyclist and a rising star in a sport that’s rapidly gaining world popularity. Find out what makes him tick.</desc>
+<category lang="en">Ski Touring</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e12</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:07a875f9-0726-49bc-9bf6-d35157a86ceb</episode-num>
+<episode-num system="xmltv_ns">0.11.0</episode-num>
+<episode-num system="original-air-date">2025-11-10 12:53:33</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260111152728 +0000" stop="20260111153858 +0000" channel="10001"><title lang="en">Winter Heroes</title>
+<sub-title lang="en">Marcel Hirscher</sub-title>
+<desc lang="en">Marcel Hirscher – arguably the best male ski racer ever – has returned from retirement to attempt the mother of all comebacks. And he’s doing it under a new flag.</desc>
+<category lang="en">Skiing</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e2</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:24d266f6-c23c-425e-97b4-5c2fdad79c58</episode-num>
+<episode-num system="xmltv_ns">0.1.0</episode-num>
+<episode-num system="original-air-date">2025-11-09 18:22:15</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260111153858 +0000" stop="20260111154705 +0000" channel="10001"><title lang="en">Winter Heroes</title>
+<sub-title lang="en">Joep Wennemars</sub-title>
+<desc lang="en">With a world champion father, the Netherlands’ Joep Wennemars comes from speed skating royalty. The 23-year-old is now coming into his own, and his 2025 world title in the 1000m is just the beginning.</desc>
+<category lang="en">Ice Skating</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e6</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:9dcd0bba-d907-41fc-8c48-cf78216507bf</episode-num>
+<episode-num system="xmltv_ns">0.5.0</episode-num>
+<episode-num system="original-air-date">2026-01-10 11:01:56</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
 <rating system="Red Bull TV">
 <value>NR</value>
 </rating>
