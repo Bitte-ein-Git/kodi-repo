@@ -141,7 +141,7 @@ CI &amp; build changes
       <fanart>resources/fanart.png</fanart>
     </assets>
   </extension>
-</addon><addon id="plugin.video.joyn" name="[COLOR darkturquoise]Jo[/COLOR][COLOR mediumspringgreen]yn[/COLOR]" version="2.5.40" provider-name="Bitte ein Git!, knaerzche, Maven">
+</addon><addon id="plugin.video.joyn" name="[COLOR darkturquoise]Jo[/COLOR][COLOR mediumspringgreen]yn[/COLOR]" version="2.5.41" provider-name="Bitte ein Git!, knaerzche, Maven">
 	<requires>
 		<import addon="inputstream.adaptive" version="2.2.21" />
 		<import addon="script.module.inputstreamhelper" version="0.3.5" />
