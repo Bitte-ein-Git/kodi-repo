@@ -289,7 +289,7 @@ CI &amp; build changes
 			<banner>resources/media/banner.png</banner>
 		</assets>
     </extension>
-</addon><addon id="plugin.video.xstream" name="xStream" version="2026.01.18" provider-name="Michaz">
+</addon><addon id="plugin.video.xstream" name="xStream" version="2026.01.20" provider-name="Michaz">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
