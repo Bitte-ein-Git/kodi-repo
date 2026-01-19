@@ -10,7 +10,7 @@ from resources.lib.requestHandler import cRequestHandler
 from scrapers.modules.tools import cParser
 
 SITE_IDENTIFIER = 'movie2k'
-SITE_DOMAIN = 'www2.movie2k.ch' # https://www3.hdfilme.me/  https://kinokiste.eu/
+SITE_DOMAIN = 'movie2k.ch' # https://www3.hdfilme.me/  https://kinokiste.eu/
 SITE_NAME = SITE_IDENTIFIER.upper()
 
 class source:

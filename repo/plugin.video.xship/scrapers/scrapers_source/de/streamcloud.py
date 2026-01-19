@@ -10,7 +10,7 @@ from scrapers.modules import cleantitle, dom_parser
 from resources.lib.control import getSetting, setSetting
 
 SITE_IDENTIFIER = 'streamcloud'
-SITE_DOMAIN = 'streamcloud.my'   # https://topstreamfilm.live/   https://meinecloud.click/movie/tt1630029
+SITE_DOMAIN = 'streamcloud.plus'   # https://topstreamfilm.live/   https://meinecloud.click/movie/tt1630029
 SITE_NAME = SITE_IDENTIFIER.upper()
 
 class source:

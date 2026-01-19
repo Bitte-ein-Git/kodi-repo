@@ -9,7 +9,7 @@ from scrapers.modules import cleantitle, dom_parse
 from resources.lib.control import getSetting, quote
 
 SITE_IDENTIFIER = 'hdfilme'
-SITE_DOMAIN = 'hdfilme-to.my'    # https://www.hdfilme.zip/ www.hdfilme.today    hdfilme.date www.hdfilme.today
+SITE_DOMAIN = 'hdfilme.legal'    # https://www.hdfilme.zip/ www.hdfilme.today    hdfilme.date www.hdfilme.today
 SITE_NAME = SITE_IDENTIFIER.upper()
 
 class source:
@@ -38,7 +38,7 @@ class source:
                     # oRequest.addParameters('subaction', 'search')
                     sHtmlContent = oRequest.request()
                     #pattern = 'class="col-md-li">.*?href="([^"]+).*?title="([^"]+).*?h2>.*?(\d+)'
-                    pattern = 'box-product(.*?)<h3.*?href="([^"]+).*?<p.*?>(.*?)(\d{4})'
+                    pattern = '<div class="box-product(.*?)<h3.*?href="([^"]+).*?">([^<]+).*?(.*?)</li>'
                     isMatch, aResult = cParser.parse(sHtmlContent, pattern)
                     if not isMatch:
                         continue

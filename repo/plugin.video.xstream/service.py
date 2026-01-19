@@ -144,43 +144,9 @@ def checkVersion(xs='xstream'):
 
 def main():
     cCache().set(cConfig().getAddonInfo('id') + '_main', 'running')
-
-    if cConfig().getAddonInfo('id') == 'plugin.video.xstream':
-        checkVersion('xstream')
-
-    if cConfig().getSetting('githubUpdateDevXstream') == 'true':
-        status1 = updateManager.xStreamDevUpdate(True)
-        cRequestHandler('').clearCache()  # Cache löschen
-        if cConfig().getSetting('update.notification') == 'full':  # Benachrichtung xStream vollständig
-            infoDialog(cConfig().getLocalizedString(30112), sound=False, icon='INFO', time=10000)  # Suche Updates
-            if status1 == True: infoDialog(cConfig().getLocalizedString(30113), sound=False, icon='INFO', time=6000)
-            if status1 == False: infoDialog(cConfig().getLocalizedString(30114), sound=True, icon='ERROR')
-            if status1 == None: infoDialog(cConfig().getLocalizedString(30115), sound=False, icon='INFO', time=6000)
-        else:
-            if status1 == True: infoDialog(cConfig().getLocalizedString(30113), sound=False, icon='INFO', time=6000)
-            if status1 == False: infoDialog(cConfig().getLocalizedString(30114), sound=True, icon='ERROR')
-
-
-    # Starte Resolver Update wenn auf Github verfügbar
-    if os.path.isfile(RESOLVE_SHA) == False or cConfig().getSetting('githubUpdateResolver') == 'true'  or cConfig().getSetting('enforceUpdate') == 'true':
-        status2 = updateManager.resolverUpdate(True)
-        if cConfig().getSetting('update.notification') == 'full': # Benachrichtigung Resolver vollständig
-            infoDialog(cConfig().getLocalizedString(30112), sound=False, icon='INFO', time=10000)   # Suche Updates
-            if status2 == True: infoDialog('Resolver ' + cConfig().getSetting('resolver.branch') + cConfig().getLocalizedString(30116), sound=False, icon='INFO', time=6000)
-            if status2 == False: infoDialog(cConfig().getLocalizedString(30117), sound=True, icon='ERROR')
-            if status2 == None: infoDialog(cConfig().getLocalizedString(30118), sound=False, icon='INFO', time=6000)
-            if cConfig().getSetting('enforceUpdate') == 'true': cConfig().setSetting('enforceUpdate', 'false')
-        else:
-            if status2 == True: infoDialog('Resolver ' + cConfig().getSetting('resolver.branch') + cConfig().getLocalizedString(30116), sound=False, icon='INFO', time=6000)
-            if status2 == False: infoDialog(cConfig().getLocalizedString(30117), sound=True, icon='ERROR')
-            if cConfig().getSetting('enforceUpdate') == 'true': cConfig().setSetting('enforceUpdate', 'false')
-
-    # Startet Überprüfung der Abhängigkeiten
     checkDependence('plugin.video.xstream')
-
     # Startet Domain Überprüfung und schreibt diese in die settings.xml
     cPluginHandler().checkDomain()
-
     # Wenn neue settings vorhanden oder geändert in addon_data dann starte Pluginhandler und aktualisiere die PluginDB um Daten von checkDomain mit aufzunehmen
     try:
         if cConfig().getSetting('newSetting') == 'true':

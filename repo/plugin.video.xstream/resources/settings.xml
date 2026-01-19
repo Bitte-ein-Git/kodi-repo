@@ -495,7 +495,7 @@
 					<dependencies>
 						<dependency type="enable" operator="!is" setting="plugin_filmpalast">false</dependency>
 						<dependency type="visible" operator="!is" setting="plugin_filmpalast">false</dependency>
-					</dependencies>>
+					</dependencies>
 					<control type="edit" format="string">
 						<heading>30278</heading>
 					</control>
@@ -1202,88 +1202,6 @@
 				</setting>
 			</group>
 		</category>
-		<category id="indexsiteVoD" label="30407" help="">
-			<group id="plugin_vod_huhu" label="30790">
-				<setting id="plugin_vod_huhu" type="boolean" label="30050" help="">
-					<level>0</level>
-                    <default>True</default>
-					<control type="toggle"/>
-				</setting>
-				<setting id="global_search_vod_huhu" type="boolean" label="30052">
-					<level>0</level>
-					<default>True</default>
-					<dependencies>
-						<dependency type="enable" operator="!is" setting="plugin_vod_huhu">false</dependency>
-					</dependencies>
-					<control type="toggle"/>
-				</setting>
-				<setting id="plugin_vod_huhu_status" type="string" label="Dummy" help="">
-					<visible>false</visible>
-					<default>true</default>
-					<control type="toggle"/>
-				</setting>
-			</group>
-			<group id="plugin_vod_kool" label="30791">
-				<setting id="plugin_vod_kool" type="boolean" label="30050" help="">
-					<level>0</level>
-                    <default>True</default>
-					<control type="toggle"/>
-				</setting>
-				<setting id="global_search_vod_kool" type="boolean" label="30052">
-					<level>0</level>
-					<default>True</default>
-					<dependencies>
-						<dependency type="enable" operator="!is" setting="plugin_vod_kool">false</dependency>
-					</dependencies>
-					<control type="toggle"/>
-				</setting>
-				<setting id="plugin_vod_kool_status" type="string" label="Dummy" help="">
-					<visible>false</visible>
-					<default>true</default>
-					<control type="toggle"/>
-				</setting>
-			</group>
-			<group id="plugin_vod_oha" label="30792">
-				<setting id="plugin_vod_oha" type="boolean" label="30050" help="">
-					<level>0</level>
-                    <default>True</default>
-					<control type="toggle"/>
-				</setting>
-				<setting id="global_search_vod_oha" type="boolean" label="30052">
-					<level>0</level>
-					<default>True</default>
-					<dependencies>
-						<dependency type="enable" operator="!is" setting="plugin_vod_oha">false</dependency>
-					</dependencies>
-					<control type="toggle"/>
-				</setting>
-				<setting id="plugin_vod_oha_status" type="string" label="Dummy" help="">
-					<visible>false</visible>
-					<default>true</default>
-					<control type="toggle"/>
-				</setting>
-			</group>
-			<group id="plugin_vod_vavoo" label="30793">
-				<setting id="plugin_vod_vavoo" type="boolean" label="30050" help="">
-					<level>0</level>
-                    <default>True</default>
-					<control type="toggle"/>
-				</setting>
-				<setting id="global_search_vod_vavoo" type="boolean" label="30052">
-					<level>0</level>
-					<default>True</default>
-					<dependencies>
-						<dependency type="enable" operator="!is" setting="plugin_vod_vavoo">false</dependency>
-					</dependencies>
-					<control type="toggle"/>
-				</setting>
-				<setting id="plugin_vod_vavoo_status" type="string" label="Dummy" help="">
-					<visible>false</visible>
-					<default>true</default>
-					<control type="toggle"/>
-				</setting>
-			</group>
-		</category>
 		<category id="tmdb" label="30174" help="">
 			<group id="tmdbhandler" label="30033">
 				<setting id="TMDBMETA" type="boolean" label="30004" help="">
@@ -1722,111 +1640,6 @@
 					<control type="edit" format="string">
 						<heading>30084</heading>
 						<hidden>true</hidden>
-					</control>
-				</setting>
-			</group>
-		</category>
-		<category id="xstream.dev" label="30310" help="">
-			<group id="xstream.dev.updates" label="30311">
-				<setting id="githubUpdateDevXstream" type="boolean" label="30312" help="30411">
-					<level>3</level>
-					<default>False</default>
-					<control type="toggle"/>
-				</setting>
-				<setting id="xstream.dev.notification" type="action" label="30321" help="">
-					<level>0</level>
-					<constraints>
-						<allowempty>true</allowempty>
-					</constraints>
-					<control type="button" format="action">
-						<data>RunPlugin(plugin://plugin.video.xstream/?function=devWarning)</data>
-					</control>
-				</setting>
-				<setting id="xstream.dev.id" type="string" label="30313" help="30317">
-					<level>3</level>
-					<default/>
-					<constraints>
-						<allowempty>true</allowempty>
-					</constraints>
-					<dependencies>
-						<dependency type="visible" setting="githubUpdateDevXstream">true</dependency>
-					</dependencies>
-					<control type="edit" format="string"/>
-						<heading>30310</heading>
-				</setting>
-				<setting id="xstream.dev.username" type="string" label="30314" help="30318">
-					<level>3</level>
-					<default/>
-					<constraints>
-						<allowempty>true</allowempty>
-					</constraints>
-					<dependencies>
-						<dependency type="visible" setting="githubUpdateDevXstream">true</dependency>
-					</dependencies>
-					<control type="edit" format="string"/>
-						<heading>30310</heading>
-				</setting>
-				<setting id="xstream.dev.branch" type="string" label="30315" help="30319">
-					<level>3</level>
-					<default/>
-					<constraints>
-						<allowempty>true</allowempty>
-					</constraints>
-					<dependencies>
-						<dependency type="visible" setting="githubUpdateDevXstream">true</dependency>
-					</dependencies>
-					<control type="edit" format="string"/>
-						<heading>30310</heading>
-				</setting>
-				<setting id="xstream.dev.token" type="string" label="30316" help="30320">
-					<level>3</level>
-					<default/>
-					<constraints>
-						<allowempty>true</allowempty>
-					</constraints>
-					<dependencies>
-						<dependency type="visible" setting="githubUpdateDevXstream">true</dependency>
-					</dependencies>
-					<control type="edit" format="string"/>
-						<heading>30310</heading>
-				</setting>
-			</group>
-			<group id="plugin_testplugin" label="30722">
-				<setting id="plugin_testplugin" type="boolean" label="30050" help="30411">
-					<level>3</level>
-                    <default>False</default>
-					<control type="toggle"/>
-				</setting>
-				<setting id="global_search_testplugin" type="boolean" label="30052">
-					<level>3</level>
-					<default>False</default>
-					<dependencies>
-						<dependency type="enable" operator="!is" setting="plugin_testplugin">False</dependency>
-					</dependencies>
-					<control type="toggle"/>
-				</setting>
-				<!-- Domain Überprüfung mit automatischer und manueller Anpassung -->
-				<setting id="plugin_testplugin_checkDomain" type="boolean" label="30277">
-					<level>3</level>
-					<default>False</default>
-					<dependencies>
-						<dependency type="enable" operator="!is" setting="plugin_testplugin">false</dependency>
-						<dependency type="visible" operator="!is" setting="plugin_testplugin">false</dependency>
-					</dependencies>
-					<control type="toggle"/>
-				</setting>
-				<setting id="plugin_testplugin.domain" type="string" label="30278" help="">
-					<level>3</level>
-					<default/>
-					<constraints>
-						<allowempty>true</allowempty>
-					</constraints>
-					<dependencies>
-						<dependency type="enable" operator="!is" setting="plugin_testplugin">false</dependency>
-						<dependency type="visible" operator="!is" setting="plugin_testplugin">false</dependency>
-					</dependencies>
-					<control type="edit" format="string">
-						<heading>30278</heading>
 					</control>
 				</setting>
 			</group>

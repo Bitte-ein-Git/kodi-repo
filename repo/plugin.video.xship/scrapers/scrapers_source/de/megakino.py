@@ -11,7 +11,7 @@ from scrapers.modules import cleantitle, dom_parser
 from resources.lib.control import getSetting, quote, quote_plus
 
 SITE_IDENTIFIER = 'megakino'
-SITE_DOMAIN = 'megakino.fi'
+SITE_DOMAIN = 'megakino.live'
 SITE_NAME = SITE_IDENTIFIER.upper()
 
 class source:

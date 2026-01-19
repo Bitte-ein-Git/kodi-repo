@@ -11,7 +11,7 @@ from scrapers.modules import cleantitle, dom_parser
 from resources.lib.control import getSetting, setSetting
 
 SITE_IDENTIFIER = 'movie4k'
-SITE_DOMAIN = 'movie4k.food' # https://movie4k.bid/
+SITE_DOMAIN = 'movie4k-to.cfd' # https://movie4k.bid/
 SITE_NAME = SITE_IDENTIFIER.upper()
 
 class source:

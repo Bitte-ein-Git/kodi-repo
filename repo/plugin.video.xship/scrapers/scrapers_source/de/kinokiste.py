@@ -10,7 +10,7 @@ from scrapers.modules import cleantitle
 from resources.lib.control import getSetting, setSetting, urljoin
 
 SITE_IDENTIFIER = 'kinokiste'
-SITE_DOMAIN = 'kinokiste.cloud'
+SITE_DOMAIN = 'kkiste-io.top'
 SITE_NAME = SITE_IDENTIFIER.upper()
 
 class source:

@@ -11,7 +11,7 @@ from scrapers.modules import cleantitle, dom_parser
 from resources.lib.control import getSetting, setSetting, urljoin
 
 SITE_IDENTIFIER = 'kkiste'
-SITE_DOMAIN = 'kkiste.boats' # kkiste.pro
+SITE_DOMAIN = 'kkiste-to.com' # kkiste.pro
 SITE_NAME = SITE_IDENTIFIER.upper()
 
 class source:

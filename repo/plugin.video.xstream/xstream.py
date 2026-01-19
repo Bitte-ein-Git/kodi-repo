@@ -63,9 +63,6 @@ def parseUrl():
         elif sFunction == 'pluginInfo':
             cPluginHandler().pluginInfo()
             return
-        elif sFunction == 'vod':
-            vodGuiElements(sFunction)
-            return
         elif sFunction == 'changelog':
             from resources.lib import tools
             cConfig().setSetting('changelog_version', '')
@@ -149,9 +146,6 @@ def parseUrl():
     elif sSiteName == 'devWarning':
         from resources.lib import tools
         tools.devWarning()
-    # VoD Menü Site Name
-    elif sSiteName == 'vod':
-        vodGuiElements(sFunction)
     # Unterordner der Einstellungen   
     elif sSiteName == 'settings':
         oGui = cGui()
@@ -200,14 +194,6 @@ def showMainMenu(sFunction):
             oGui.addFolder(oGuiElement)
         if cConfig().getSetting('GlobalSearchPosition') == 'false':
             oGui.addFolder(globalSearchGuiElement())
-    # VoD Ordner im Hauptmenü anzeigen
-    oGuiElement = cGuiElement()
-    oGuiElement.setTitle(cConfig().getLocalizedString(30412))
-    oGuiElement.setSiteName('vod')
-    oGuiElement.setFunction(sFunction)
-    oGuiElement.setThumbnail(os.path.join(ART, 'vod.png'))
-    oGuiElement.setIcon(os.path.join(ART, 'settings.png'))
-    oGui.addFolder(oGuiElement)
 
     if cConfig().getSetting('SettingsFolder') == 'true':
         # Einstellung im Menü mit Untereinstellungen
@@ -222,29 +208,6 @@ def showMainMenu(sFunction):
             oGui.addFolder(folder)
     oGui.setEndOfDirectory()
 
-
-def vodGuiElements(sFunction): # Vod Menü
-    oGui = cGui()
-    oPluginHandler = cPluginHandler()
-    aPlugins = oPluginHandler.getAvailablePlugins() # Suche Plugins mit Pluginhandler
-    if not aPlugins:
-        log(cConfig().getLocalizedString(30166) + ' -> [xstream]: No activated Vod Plugins found', LOGNOTICE)
-        # Öffne Einstellungen wenn keine VoD SitePlugins vorhanden
-        oGui.openSettings()
-        oGui.updateDirectory()
-    else:
-        # Erstelle ein gui element für alle gefundenen Siteplugins
-        for aPlugin in sorted(aPlugins, key=lambda k: k['id']):
-            #if cConfig().getSetting('indexVoDyes') == 'true': # Wenn VoD Menü True
-            oGuiElement = cGuiElement()
-            oGuiElement.setTitle(aPlugin['name'])
-            oGuiElement.setSiteName(aPlugin['id'])
-            if not 'vod_' in aPlugin['id']: continue # Blende alle SitePlugins ohne vod_ am Anfang aus
-            oGuiElement.setFunction(sFunction)
-            if 'icon' in aPlugin and aPlugin['icon']:
-                oGuiElement.setThumbnail(aPlugin['icon'])
-            oGui.addFolder(oGuiElement)
-    oGui.setEndOfDirectory()
 
 def settingsGuiElements():
     ART = os.path.join(cConfig().getAddonInfo('path'), 'resources', 'art')

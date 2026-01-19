@@ -8,6 +8,7 @@
 # showEntries:    6 Stunden
 # showEpisodes:   4 Stunden
 
+import re
 from resources.lib.handler.ParameterHandler import ParameterHandler
 from resources.lib.handler.requestHandler import cRequestHandler
 from resources.lib.tools import logger, cParser
@@ -33,28 +34,20 @@ ACTIVE = cConfig().getSetting('plugin_' + SITE_IDENTIFIER) # Ob Plugin aktiviert
 URL_MAIN = 'https://' + DOMAIN
 # URL_MAIN = 'https://filmpalast.to'
 URL_MOVIES = URL_MAIN + '/movies/%s'
-URL_SERIES = URL_MAIN + '/serien/view'
 URL_ENGLISH = URL_MAIN + '/search/genre/Englisch'
 URL_SEARCH = URL_MAIN + '/search/title/%s'
+URL_SERIES = URL_MAIN + '/serien/view'
 
 
 def load(): # Menu structure of the site plugin
     logger.info('Load %s' % SITE_NAME)
     params = ParameterHandler()
-    params.setParam('sUrl', URL_MAIN)
-    cGui().addFolder(cGuiElement(cConfig().getLocalizedString(30500), SITE_IDENTIFIER, 'showEntries'), params)  # New
-    cGui().addFolder(cGuiElement(cConfig().getLocalizedString(30502), SITE_IDENTIFIER, 'showMovieMenu'), params)    # Movies
-    cGui().addFolder(cGuiElement(cConfig().getLocalizedString(30511), SITE_IDENTIFIER, 'showSeriesMenu'), params)  # Series
-    cGui().addFolder(cGuiElement(cConfig().getLocalizedString(30520), SITE_IDENTIFIER, 'showSearch'), params)   # Search
-    cGui().setEndOfDirectory()
-
-
-def showMovieMenu(): # Menu structure of movie menu
-    params = ParameterHandler()
     sLanguage = cConfig().getSetting('prefLanguage')
+    
+    # Logic moved from showMovieMenu to main load function
     if sLanguage == '0' or '1':    # Alle Sprachen oder Deutsch
         params.setParam('sUrl', URL_MOVIES % 'new')
-        cGui().addFolder(cGuiElement(cConfig().getLocalizedString(30500), SITE_IDENTIFIER, 'showEntries'), params)   # New
+        cGui().addFolder(cGuiElement(cConfig().getLocalizedString(30502), SITE_IDENTIFIER, 'showEntries'), params)   # Filme
         params.setParam('sUrl', URL_MOVIES % 'top')
         cGui().addFolder(cGuiElement(cConfig().getLocalizedString(30509), SITE_IDENTIFIER, 'showEntries'), params)  # Top movies
         params.setParam('sUrl', URL_MOVIES % 'imdb')
@@ -67,22 +60,19 @@ def showMovieMenu(): # Menu structure of movie menu
         cGui().addFolder(cGuiElement(cConfig().getLocalizedString(30506), SITE_IDENTIFIER, 'showValue'), params)    # Genre
         params.setParam('value', 'movietitle')
         cGui().addFolder(cGuiElement(cConfig().getLocalizedString(30517), SITE_IDENTIFIER, 'showValue'), params)  # From A-Z
-        cGui().setEndOfDirectory()
+        
     if sLanguage == '2':    # English
         params.setParam('sUrl', URL_ENGLISH)
         cGui().addFolder(cGuiElement(cConfig().getLocalizedString(30104), SITE_IDENTIFIER, 'showEntries'), params) # English
-        cGui().setEndOfDirectory()
+        
     elif sLanguage == '3':    # Japanisch
         cGui().showLanguage()
-        cGui().setEndOfDirectory()
 
+    # Add Serien entry above search
+    cGui().addFolder(cGuiElement(cConfig().getLocalizedString(30511), SITE_IDENTIFIER, 'showSeriesMenu'))  # Serien
 
-def showSeriesMenu():   # Menu structure of series menu
-    params = ParameterHandler()
-    params.setParam('sUrl', URL_SERIES)
-    cGui().addFolder(cGuiElement(cConfig().getLocalizedString(30511), SITE_IDENTIFIER, 'showEntries'), params)  # Series
-    params.setParam('value', 'movietitle')
-    cGui().addFolder(cGuiElement(cConfig().getLocalizedString(30517), SITE_IDENTIFIER, 'showValue'), params)  # From A-Z
+    # Search added at the bottom
+    cGui().addFolder(cGuiElement(cConfig().getLocalizedString(30520), SITE_IDENTIFIER, 'showSearch'), params)   # Search
     cGui().setEndOfDirectory()
 
 
@@ -97,6 +87,7 @@ def showValue():
     isMatch, sContainer = cParser.parseSingleResult(sHtmlContent, pattern)
     if isMatch:
         isMatch, aResult = cParser.parse(sContainer, 'href="([^"]+)">([^<]+)')
+        aResult = sorted(aResult, key=lambda x: x[1].lower())  # Sort alphabetically by name (case-insensitive)
         for sUrl, sName in aResult:
             params.setParam('sUrl', sUrl)
             cGui().addFolder(cGuiElement(sName, SITE_IDENTIFIER, 'showEntries'), params)
@@ -125,11 +116,30 @@ def showEntries(entryUrl=False, sGui=False, sSearchText=False):
         return
 
     total = len(aResult)
+    seen_tv_shows = set()
+    
+    # SORTING CHANGE: Removed the check for '/movies/new'
+    # Now everything is sorted alphabetically
+    aResult = sorted(aResult, key=lambda x: x[1].lower())  # Sort alphabetically by name (case-insensitive)
+    
     for sUrl, sName, sThumbnail, sDummy in aResult:
-        isTvshow, aResult = cParser.parse(sName, 'S\d\dE\d\d')
+        isTvshow, _ = cParser.parse(sName, 'S\d\dE\d\d')
         # seriesname should not be crippled here!
         if sSearchText and not cParser.search(sSearchText, sName):
             continue
+
+        if isTvshow:
+            # Clean the name (e.g. "ABCDE S01E02" -> "ABCDE")
+            cleanNameMatch = re.search(r'(.*?)\s*S\d+E\d+', sName, re.IGNORECASE)
+            if cleanNameMatch:
+                cleanName = cleanNameMatch.group(1).strip()
+                # If we have already seen this show in this loop, skip it
+                if cleanName in seen_tv_shows:
+                    continue
+                # Mark as seen and update the display name to the clean title
+                seen_tv_shows.add(cleanName)
+                sName = cleanName
+
         if sThumbnail.startswith('/'):
             sThumbnail = URL_MAIN + sThumbnail
         ### ÄNDERUNG ANFANG ###
@@ -278,3 +288,12 @@ def showSearch():
 
 def _search(oGui, sSearchText):
     showEntries(URL_SEARCH % cParser.quotePlus(sSearchText), oGui, sSearchText)
+
+
+def showSeriesMenu(): # Menu structure of series menu
+    params = ParameterHandler()
+    params.setParam('sUrl', URL_SERIES)
+    cGui().addFolder(cGuiElement('Alle ' + cConfig().getLocalizedString(30511), SITE_IDENTIFIER, 'showEntries'), params) # Alle Serien
+    params.setParam('value', 'movietitle')
+    cGui().addFolder(cGuiElement(cConfig().getLocalizedString(30517), SITE_IDENTIFIER, 'showValue'), params) # Von A bis Z
+    cGui().setEndOfDirectory()
