@@ -24,12 +24,12 @@ if cConfig().getSetting('global_search_' + SITE_IDENTIFIER) == 'false':
     logger.info('-> [SitePlugin]: globalSearch for %s is deactivated.' % SITE_NAME)
 
 # Domain Abfrage
-DOMAIN = cConfig().getSetting('plugin_' + SITE_IDENTIFIER + '.domain', 'streamcloud.my') # Domain Auswahl über die xStream Einstellungen möglich
+DOMAIN = cConfig().getSetting('plugin_' + SITE_IDENTIFIER + '.domain', 'streamcloud.plus') # Domain Auswahl über die xStream Einstellungen möglich
 STATUS = cConfig().getSetting('plugin_' + SITE_IDENTIFIER + '_status') # Status Code Abfrage der Domain
 ACTIVE = cConfig().getSetting('plugin_' + SITE_IDENTIFIER) # Ob Plugin aktiviert ist oder nicht
 
 URL_MAIN = 'https://' + DOMAIN + '/'
-# URL_MAIN = 'https://streamcloud.my/'
+# URL_MAIN = 'https://streamcloud.plus/'
 URL_MAINPAGE = URL_MAIN + 'streamcloud/'
 URL_MOVIES = URL_MAIN + 'filme-stream/'
 URL_KINO = URL_MAIN + 'kinofilme/'
@@ -48,10 +48,6 @@ def load(): # Menu structure of the site plugin
     cGui().addFolder(cGuiElement(cConfig().getLocalizedString(30501), SITE_IDENTIFIER, 'showEntries'), params)  # Current films in the cinema
     params.setParam('sUrl', URL_NEW)
     cGui().addFolder(cGuiElement(cConfig().getLocalizedString(30500), SITE_IDENTIFIER, 'showEntries'), params)  # New Movies
-    #params.setParam('sUrl', URL_FAVOURITE_MOVIE_PAGE)
-    #cGui().addFolder(cGuiElement(cConfig().getLocalizedString(30521), SITE_IDENTIFIER, 'showEntries'), params)  # Favorite Movies #ToDo Auskommentiert da URL auf Webseite fehlerhaft, zukünftig prüfen ob Fehler behoben
-    #params.setParam('sUrl', URL_MOVIES)
-    #cGui().addFolder(cGuiElement(cConfig().getLocalizedString(30502), SITE_IDENTIFIER, 'showEntries'), params)  # Movies #ToDo Auskommentiert da URL auf Webseite fehlerhaft, zukünftig prüfen ob Fehler behoben
     params.setParam('sUrl', URL_MAINPAGE)
     cGui().addFolder(cGuiElement(cConfig().getLocalizedString(30507), SITE_IDENTIFIER, 'showGenre'), params)    # Categories
     params.setParam('sUrl', URL_MAINPAGE)
@@ -170,13 +166,14 @@ def showEntries(entryUrl=False, sGui=False, sSearchText=False, sSearchPageText =
         isMatchSiteSearch, sHtmlContainer = cParser.parseSingleResult(sHtmlContent, 'class="wp-pagenavi(.*?)Next')
         if isMatchSiteSearch:
             isMatch, aResult = cParser.parse(sHtmlContainer,'<span>([\d]+)</span>.*?nav_ext">.*?">([\d]+)</a>.*?href="([^"]+)')
-            for sPageActive, sPageLast, sNextPage in aResult:
-                # sPageName = '[I]Seitensuche starten  >>> [/I] Seite ' + str(sPageActive) + ' von ' + str(sPageLast) + ' Seiten  [I]<<<[/I]'
-                sPageName = cConfig().getLocalizedString(30284) + str(sPageActive) + cConfig().getLocalizedString(
-                    30285) + str(sPageLast) + cConfig().getLocalizedString(30286)
-                params.setParam('sNextPage', sNextPage)
-                params.setParam('sPageLast', sPageLast)
-                oGui.searchNextPage(sPageName, SITE_IDENTIFIER, 'showSearchPage', params)
+            if isMatch:
+                for sPageActive, sPageLast, sNextPage in aResult:
+                    # sPageName = '[I]Seitensuche starten  >>> [/I] Seite ' + str(sPageActive) + ' von ' + str(sPageLast) + ' Seiten  [I]<<<[/I]'
+                    sPageName = cConfig().getLocalizedString(30284) + str(sPageActive) + cConfig().getLocalizedString(
+                        30285) + str(sPageLast) + cConfig().getLocalizedString(30286)
+                    params.setParam('sNextPage', sNextPage)
+                    params.setParam('sPageLast', sPageLast)
+                    oGui.searchNextPage(sPageName, SITE_IDENTIFIER, 'showSearchPage', params)
             # End Page Function
 
         if isMatchNextPage:
