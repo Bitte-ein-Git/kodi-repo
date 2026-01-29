@@ -3006,155 +3006,7 @@
     <display-name>Red Bull TV FHD (English)</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20260127124625 +0000" stop="20260127135832 +0000" channel="10001"><title lang="en">Magic Hour</title>
-<sub-title lang="en">Mastering the perfect snowsport images</sub-title>
-<desc lang="en">How to best capture skiers and snowboarders? Chasing the perfect mountain light the first hour after sunrise and the last before sunset is a good place to start.</desc>
-<category lang="en">Mountaineering</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:d5a31826-0ed1-427c-a83c-5b37373719d7/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/magic-hour</url>
-<episode-num system="redbull.com">episode/rrn:content:films:d5a31826-0ed1-427c-a83c-5b37373719d7</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260127135832 +0000" stop="20260127140942 +0000" channel="10001"><title lang="en">Winter Heroes</title>
-<sub-title lang="en">Queralt Castellet</sub-title>
-<desc lang="en">Spanish snowboarder Queralt Castellet shows that snowboarding is more than results – it’s about passion, resilience and freedom. Her fearless halfpipe style inspires the next generation of winter athletes.</desc>
-<category lang="en">Snowboarding</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e4</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:129493df-95af-4fe9-8eb7-d430609b5663</episode-num>
-<episode-num system="xmltv_ns">0.3.0</episode-num>
-<episode-num system="original-air-date">2025-11-09 18:33:10</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260127140942 +0000" stop="20260127151933 +0000" channel="10001"><title lang="en">Anywhere from Here</title>
-<sub-title lang="en">Freestyle skiing through the eyes of a child prodigy</sub-title>
-<desc lang="en">Just 11-years-old and already a freestyle phenomenon. Explore the opportunities of the skiing world through the eyes of Walker Woodring – a kid who just wants to play and not worry about 'real life' quite yet.</desc>
-<category lang="en">Freestyle Skiing</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:80decae7-c64f-4374-b836-b6a8f5fe249a/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/anywhere-from-here</url>
-<episode-num system="redbull.com">episode/rrn:content:films:80decae7-c64f-4374-b836-b6a8f5fe249a</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260127151933 +0000" stop="20260127155514 +0000" channel="10001"><title lang="en">Echoes of Impact</title>
-<sub-title lang="en">Marcus Kleveland unfiltered</sub-title>
-<desc lang="en">Follow Marcus Kleveland through injury, pressure and the weight of expectation. From highs to lows, his love for creative freestyle snowboarding drives him to keep pushing and redefining the sport.</desc>
-<category lang="en">Snowboarding</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:97fb6421-aee0-43be-9f7d-a8b23c92957f/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/echoes-of-impact</url>
-<episode-num system="redbull.com">episode/rrn:content:films:97fb6421-aee0-43be-9f7d-a8b23c92957f</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260127155514 +0000" stop="20260127160542 +0000" channel="10001"><title lang="en">Winter Heroes</title>
-<sub-title lang="en">Sara Takanashi</sub-title>
-<desc lang="en">Japanese ski jumper Sara Takanashi set a towering record for World Cup wins. Now, go behind the scenes with the history-making athlete as she prepares for the one title that has eluded her.</desc>
-<category lang="en">Ice Skating</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e11</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:d05a1f7e-e301-42bd-9ab3-861ab0f745ce</episode-num>
-<episode-num system="xmltv_ns">0.10.0</episode-num>
-<episode-num system="original-air-date">2026-01-10 11:10:03</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260127160542 +0000" stop="20260127161608 +0000" channel="10001"><title lang="en">Winter Heroes</title>
-<sub-title lang="en">Hiroto Ogiwara</sub-title>
-<desc lang="en">This Japanese snowboarding phenom landed a 1080 at age of nine and has since set one record after another, even taking X Games gold with the first 2340 (6.5 rotations) in competition.</desc>
-<category lang="en">Snowboarding</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e7</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:215a4bb7-57e8-4265-b58c-0d7d8efe381b</episode-num>
-<episode-num system="xmltv_ns">0.6.0</episode-num>
-<episode-num system="original-air-date">2026-01-10 11:20:30</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260127161608 +0000" stop="20260127171810 +0000" channel="10001"><title lang="en">Anna Gasser – The Spark Within</title>
-<sub-title lang="en">An intimate portrait of a snowboard superstar</sub-title>
-<desc lang="en">She's a two-time Olympic gold medalist, holds multiple World Championship titles and has landed some of the most technical tricks ever. See how Anna Gasser has changed the snowboarding landscape.</desc>
-<category lang="en">Snowboarding</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:b15b8189-8dd4-4c35-a124-e35f57058575/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/anna-gasser-the-spark-within</url>
-<episode-num system="redbull.com">episode/rrn:content:films:b15b8189-8dd4-4c35-a124-e35f57058575</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260127171810 +0000" stop="20260127173238 +0000" channel="10001"><title lang="en">Winter Heroes</title>
-<sub-title lang="en">Alice Robinson</sub-title>
-<desc lang="en">With explosive and unpredictable runs, Alice Robinson is putting New Zealand on the podium in the traditionally European-dominated sport of alpine skiing. Discover a fearless athlete on the rise.</desc>
-<category lang="en">Skiing</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e5</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:7ca7bdbe-bf61-429c-9a53-b33c92427d2b</episode-num>
-<episode-num system="xmltv_ns">0.4.0</episode-num>
-<episode-num system="original-air-date">2025-11-09 18:44:21</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260127173238 +0000" stop="20260127182713 +0000" channel="10001"><title lang="en">Ice Waterfalls</title>
-<sub-title lang="en">Kayaking off the world's highest ice waterfall</sub-title>
-<desc lang="en">Catalan adventurer and elite kayaker Aniol Serrasolses shatters boundaries on his Arctic expedition to Norway when he descends a 20m-high ice waterfall - the largest ever recorded kayak drop from a glacial waterfall.</desc>
-<category lang="en">Kayaking</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:e4eeed73-69cd-40ae-814a-2178d87ea078/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/ice-waterfalls</url>
-<episode-num system="redbull.com">episode/rrn:content:films:e4eeed73-69cd-40ae-814a-2178d87ea078</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260127182713 +0000" stop="20260127191301 +0000" channel="10001"><title lang="en">Anton Palzer: Breaking the Cycle</title>
-<sub-title lang="en">Swapping two skis for two wheels </sub-title>
-<desc lang="en">World-class ski mountaineer Anton Palzer craves a new challenge – but you might not expect it to be road cycling. See his audacious attempt to reach the ultimate goal of competing in La Vuelta a España.</desc>
-<category lang="en">Cycling</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:afcde35d-4a2c-4994-ac51-a0b3a6292976/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/anton-palzer-breaking-the-cycle</url>
-<episode-num system="redbull.com">episode/rrn:content:films:afcde35d-4a2c-4994-ac51-a0b3a6292976</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260127191301 +0000" stop="20260127193937 +0000" channel="10001"><title lang="en">For Reals</title>
-<sub-title lang="en">From soapbox madness to skydiving with an FMX bike</sub-title>
-<desc lang="en">Snowboarding – or, rather sandboarding – in the desert. Rally cars on frozen lakes. The wackiness of soapbox racing. Skydiving with a motocross bike. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e9</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:25bd9023-2792-464f-a774-984f840f4a4e</episode-num>
-<episode-num system="xmltv_ns">0.8.0</episode-num>
-<episode-num system="original-air-date">2024-10-21 23:48:12</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260127193937 +0000" stop="20260127200537 +0000" channel="10001"><title lang="en">For Reals</title>
-<sub-title lang="en">From a paper plane contest to diving off ruins </sub-title>
-<desc lang="en">Swamp buggy racing. Sprinting down from the peak of a mountain on a bike. High diving off ancient ruins. Getting the perfect surf shot. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e5</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:6a64ab5e-c10a-4065-9f16-0c91a4bc226d</episode-num>
-<episode-num system="xmltv_ns">0.4.0</episode-num>
-<episode-num system="original-air-date">2024-10-21 00:39:28</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260127200537 +0000" stop="20260127203213 +0000" channel="10001"><title lang="en">For Reals</title>
+  <programme start="20260129131911 +0000" stop="20260129134547 +0000" channel="10001"><title lang="en">For Reals</title>
 <sub-title lang="en">From F1 desert racing to a skatepark in the sky </sub-title>
 <desc lang="en">Wakeskating off a Dubai skyscraper. F1 drivers racing on Floridan waters and in the Nevada desert. Riding a skatepark attached to a hot air balloon. It's all in a day's work for Red Bull athletes!</desc>
 <icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
@@ -3167,7 +3019,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260127203213 +0000" stop="20260127205813 +0000" channel="10001"><title lang="en">For Reals</title>
+  <programme start="20260129134547 +0000" stop="20260129141147 +0000" channel="10001"><title lang="en">For Reals</title>
 <sub-title lang="en">From F1 soapbox racing to breaking world records</sub-title>
 <desc lang="en">Breaking world records – it's all in a day's work for Red Bull athletes! See Felix Baumgartner jump from space, 65 women skydive together and one BMXer conquer the globe's biggest full loop.</desc>
 <icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
@@ -3180,7 +3032,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260127205813 +0000" stop="20260127212449 +0000" channel="10001"><title lang="en">For Reals</title>
+  <programme start="20260129141147 +0000" stop="20260129143823 +0000" channel="10001"><title lang="en">For Reals</title>
 <sub-title lang="en">From a pinball human to 93kph speed skating</sub-title>
 <desc lang="en">Speed skating into the record books at 93kph. Office skateboarding. BASE jumping on Mount Everest. Diving into crocodile waters. It's all in a day's work for Red Bull athletes!</desc>
 <icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
@@ -3193,7 +3045,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260127212449 +0000" stop="20260127215049 +0000" channel="10001"><title lang="en">For Reals</title>
+  <programme start="20260129143823 +0000" stop="20260129150423 +0000" channel="10001"><title lang="en">For Reals</title>
 <sub-title lang="en">From skydiving with skis to flying into a volcano</sub-title>
 <desc lang="en">Flying a plane 245kph through a tunnel. A wingsuit flight across the crater of an active volcano. A record-breaking truck jump in a ghost town. It's all in a day's work for Red Bull athletes!</desc>
 <icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
@@ -3206,7 +3058,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260127215049 +0000" stop="20260127221725 +0000" channel="10001"><title lang="en">For Reals</title>
+  <programme start="20260129150423 +0000" stop="20260129153059 +0000" channel="10001"><title lang="en">For Reals</title>
 <sub-title lang="en">From skateboarding out a plane to 180m wall climb</sub-title>
 <desc lang="en">Touring a town in style on a snowmobile. Freerunning through an airport. Skateboarding out of a flying plane. Ice climbing Niagra Falls. It's all in a day's work for Red Bull athletes!</desc>
 <icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
@@ -3219,7 +3071,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260127221725 +0000" stop="20260127224325 +0000" channel="10001"><title lang="en">For Reals</title>
+  <programme start="20260129153059 +0000" stop="20260129155659 +0000" channel="10001"><title lang="en">For Reals</title>
 <sub-title lang="en">From BASE jumping a cave to a flying mega swing </sub-title>
 <desc lang="en">Wingsuit flying through London’s Tower Bridge at 246kph. Swinging from a hot air balloon. Slacklining the length of two football fields. It's all in a day's work for Red Bull athletes!</desc>
 <icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
@@ -3232,7 +3084,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260127224325 +0000" stop="20260127231001 +0000" channel="10001"><title lang="en">For Reals</title>
+  <programme start="20260129155659 +0000" stop="20260129162335 +0000" channel="10001"><title lang="en">For Reals</title>
 <sub-title lang="en">From freerunning Greek isles to skiing the Streif</sub-title>
 <desc lang="en">A gnarly shipping container BMX set-up. Freerunning in Santorini. Taking on the Streif at night. Enduro riding on a volcano. It's all in a day's work for Red Bull athletes!</desc>
 <icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
@@ -3245,7 +3097,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260127231001 +0000" stop="20260127233601 +0000" channel="10001"><title lang="en">For Reals</title>
+  <programme start="20260129162335 +0000" stop="20260129164935 +0000" channel="10001"><title lang="en">For Reals</title>
 <sub-title lang="en">From wingsuits to parachutes</sub-title>
 <desc lang="en">Freethrow master vs robot. High-flying action from wingsuits to parachutes. Wakeboarding in Chile. Barrel racing with a dirtbike. It's all in a day's work for Red Bull athletes!</desc>
 <icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
@@ -3258,7 +3110,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260127233601 +0000" stop="20260128002026 +0000" channel="10001"><title lang="en">Unrideable</title>
+  <programme start="20260129164935 +0000" stop="20260129173400 +0000" channel="10001"><title lang="en">Unrideable</title>
 <sub-title lang="en">New horizons</sub-title>
 <desc lang="en">Manuel Lettenbichler’s 2024 season suffers a setback as the Brightmore brothers, Mitch and Ashton, face rising star Matt Green in a fierce battle.</desc>
 <category lang="en">Motocross</category>
@@ -3272,7 +3124,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260128002026 +0000" stop="20260128005816 +0000" channel="10001"><title lang="en">Abstract</title>
+  <programme start="20260129173400 +0000" stop="20260129181150 +0000" channel="10001"><title lang="en">Abstract</title>
 <sub-title lang="en">Pure creativity through high-octane freeski sequences</sub-title>
 <desc lang="en">Skiing is not art, and skiers are not artists. Unless, of course, skiing is art and skiers are artists? Because nothing screams 'artist' like sending large cliffs and grinding the side of buildings.</desc>
 <category lang="en">Freeskiing</category>
@@ -3283,7 +3135,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260128005816 +0000" stop="20260128010745 +0000" channel="10001"><title lang="en">Winter Heroes</title>
+  <programme start="20260129181150 +0000" stop="20260129182120 +0000" channel="10001"><title lang="en">Winter Heroes</title>
 <sub-title lang="en">Ryōyū Kobayashi</sub-title>
 <desc lang="en">This multi-faceted Japanese athlete landed the longest ski jump in history and has won just about every title there is, making him a legend while still in his 20s.</desc>
 <category lang="en">Ski Jumping</category>
@@ -3297,7 +3149,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260128010745 +0000" stop="20260128015755 +0000" channel="10001"><title lang="en">She Who Flies</title>
+  <programme start="20260129182120 +0000" stop="20260129191129 +0000" channel="10001"><title lang="en">She Who Flies</title>
 <sub-title lang="en">Mathilde Gremaud: the dramatic rise of a champion freeskier</sub-title>
 <desc lang="en">From record-breaking highs to moments of doubt, injuries and personal struggles, She Who Flies follows Mathilde Gremaud’s rise as one of the world’s most innovative and decorated freeskiers.</desc>
 <category lang="en">Freeskiing</category>
@@ -3308,7 +3160,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260128015755 +0000" stop="20260128021347 +0000" channel="10001"><title lang="en">Winter Heroes</title>
+  <programme start="20260129191129 +0000" stop="20260129192722 +0000" channel="10001"><title lang="en">Winter Heroes</title>
 <sub-title lang="en">Daniel Tschofenig</sub-title>
 <desc lang="en">The high-flying trajectory of the Austrian ski jumper launched from injured up-and-comer to top favourite in just one season. After winning Four Hills and the World Cup, can he go even bigger?</desc>
 <category lang="en">Ski Jumping</category>
@@ -3322,7 +3174,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260128021347 +0000" stop="20260128025556 +0000" channel="10001"><title lang="en">Paved</title>
+  <programme start="20260129192722 +0000" stop="20260129200930 +0000" channel="10001"><title lang="en">Paved</title>
 <sub-title lang="en">An unfiltered snow odyssey two years in the making</sub-title>
 <desc lang="en">Part history lesson, part hangout, part backcountry odyssey, Paved – a Burton and Red Bull Media House co-production – celebrates the passion and soul of snowboarding in raw, wry and light-hearted style.</desc>
 <category lang="en">Snowboarding</category>
@@ -3333,7 +3185,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260128025556 +0000" stop="20260128040241 +0000" channel="10001"><title lang="en">After the Snowfall</title>
+  <programme start="20260129200930 +0000" stop="20260129211615 +0000" channel="10001"><title lang="en">After the Snowfall</title>
 <sub-title lang="en">A celebration of skiing in its purest form</sub-title>
 <desc lang="en">Filmed in breath-taking locations around the world, Matchstick Productions bring us a celebration of skiing. Elite athletes and everyday skiers risk all to seek joy-filled moments in the mountains.</desc>
 <category lang="en">Skiing</category>
@@ -3344,7 +3196,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260128040241 +0000" stop="20260128041423 +0000" channel="10001"><title lang="en">Winter Heroes</title>
+  <programme start="20260129211615 +0000" stop="20260129212757 +0000" channel="10001"><title lang="en">Winter Heroes</title>
 <sub-title lang="en">Kjeld Nuis</sub-title>
 <desc lang="en">Get up to speed with sporting phenomenon Kjeld Nuis. The Flying Dutchman has not only claimed multiple world and Olympic titles, but in 2022 broke his own speed skating world record, reaching 103km/h.</desc>
 <category lang="en">Ice Skating</category>
@@ -3358,7 +3210,21 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260128041423 +0000" stop="20260128042308 +0000" channel="10001"><title lang="en">Winter Heroes</title>
+  <programme start="20260129212757 +0000" stop="20260129213711 +0000" channel="10001"><title lang="en">Winter Heroes</title>
+<sub-title lang="en">Paul Verbnjak</sub-title>
+<desc lang="en">Not only a ski mountaineer, Paul Verbnjak is an army athlete, a professional road cyclist and a rising star in a sport that’s rapidly gaining world popularity. Find out what makes him tick.</desc>
+<category lang="en">Ski Touring</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e12</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:07a875f9-0726-49bc-9bf6-d35157a86ceb</episode-num>
+<episode-num system="xmltv_ns">0.11.0</episode-num>
+<episode-num system="original-air-date">2025-11-10 12:53:33</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260129213711 +0000" stop="20260129214557 +0000" channel="10001"><title lang="en">Winter Heroes</title>
 <sub-title lang="en">Angel Daleman</sub-title>
 <desc lang="en">Poised to become the next idol of Dutch speed skating, Angel Daleman is a superstar in the making. With a team world championship already in hand, meet a talent on the verge of greatness.</desc>
 <category lang="en">Ice Skating</category>
@@ -3372,7 +3238,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260128042308 +0000" stop="20260128043956 +0000" channel="10001"><title lang="en">Winter Heroes</title>
+  <programme start="20260129214557 +0000" stop="20260129220244 +0000" channel="10001"><title lang="en">Winter Heroes</title>
 <sub-title lang="en">Zrinka Ljutić</sub-title>
 <desc lang="en">This Croatian alpine skier has carved a path in a discipline usually dominated by other countries. In 2025 Zrinka Ljutić became only the second Croatian woman ever to claim a World Cup Crystal Globe.</desc>
 <category lang="en">Skiing</category>
@@ -3386,7 +3252,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260128043956 +0000" stop="20260128044839 +0000" channel="10001"><title lang="en">Winter Heroes</title>
+  <programme start="20260129220244 +0000" stop="20260129221127 +0000" channel="10001"><title lang="en">Winter Heroes</title>
 <sub-title lang="en">Joep Wennemars</sub-title>
 <desc lang="en">With a world champion father, the Netherlands’ Joep Wennemars comes from speed skating royalty. The 23-year-old is now coming into his own, and his 2025 world title in the 1000m is just the beginning.</desc>
 <category lang="en">Ice Skating</category>
@@ -3400,7 +3266,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260128044839 +0000" stop="20260128060000 +0000" channel="10001"><title lang="en">Legend Has It</title>
+  <programme start="20260129221127 +0000" stop="20260129232119 +0000" channel="10001"><title lang="en">Legend Has It</title>
 <sub-title lang="en">Teton Gravity Research's mythical tales</sub-title>
 <desc lang="en">Ski lore is riddled with stories describing extraordinary events. Having showcased top athletes for over 28 years, Teton Gravity Research have contributed many a mythical tale. Unravel their mythology.</desc>
 <category lang="en">Skiing</category>
@@ -3411,7 +3277,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260128060000 +0000" stop="20260128072817 +0000" channel="10001"><title lang="en">Layers</title>
+  <programme start="20260129232119 +0000" stop="20260130004936 +0000" channel="10001"><title lang="en">Layers</title>
 <sub-title lang="en">The unintentional culture of snowboarding</sub-title>
 <desc lang="en">Go in search of what makes snowboarding more than just a sport, as we journey through some of the most well-known and unknown snowboarding locations, and meet communities and their local heroes.</desc>
 <category lang="en">Snowboarding</category>
@@ -3422,7 +3288,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260128072817 +0000" stop="20260128073911 +0000" channel="10001"><title lang="en">Winter Heroes</title>
+  <programme start="20260130004936 +0000" stop="20260130010031 +0000" channel="10001"><title lang="en">Winter Heroes</title>
 <sub-title lang="en">Marcel Hirscher</sub-title>
 <desc lang="en">Marcel Hirscher – arguably the best male ski racer ever – has returned from retirement to attempt the mother of all comebacks. And he’s doing it under a new flag.</desc>
 <category lang="en">Skiing</category>
@@ -3436,7 +3302,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260128073911 +0000" stop="20260128081026 +0000" channel="10001"><title lang="en">Milestone</title>
+  <programme start="20260130010031 +0000" stop="20260130013146 +0000" channel="10001"><title lang="en">Milestone</title>
 <sub-title lang="en">An intimate portrayal of snowboarder Eero Ettala</sub-title>
 <desc lang="en">Follow professional snowboarder Eero Ettala behind the scenes as he works on a video part while balancing family life. The film reflects on his achievements throughout his career.</desc>
 <category lang="en">Snowboarding</category>
@@ -3447,7 +3313,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260128081026 +0000" stop="20260128082538 +0000" channel="10001"><title lang="en">Winter Heroes</title>
+  <programme start="20260130013146 +0000" stop="20260130014658 +0000" channel="10001"><title lang="en">Winter Heroes</title>
 <sub-title lang="en">Eileen Gu</sub-title>
 <desc lang="en">Prodigy on skis. Brilliant university student. Fashion icon. Witness the dazzling trajectory of a woman with roots in China and the US who is redefining what it means to be a modern sporting champion.</desc>
 <category lang="en">Skiing</category>
@@ -3461,7 +3327,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260128082538 +0000" stop="20260128093436 +0000" channel="10001"><title lang="en">Pressure Drop</title>
+  <programme start="20260130014658 +0000" stop="20260130025556 +0000" channel="10001"><title lang="en">Pressure Drop</title>
 <sub-title lang="en">Born from a dream, this is TGR’s 30th annual film</sub-title>
 <desc lang="en">Follow the world’s best skiers and snowboarders in a cinematic ride through risk, beauty and the pursuit of perfection.</desc>
 <category lang="en">Skiing</category>
@@ -3472,7 +3338,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260128093436 +0000" stop="20260128104643 +0000" channel="10001"><title lang="en">Magic Hour</title>
+  <programme start="20260130025556 +0000" stop="20260130040803 +0000" channel="10001"><title lang="en">Magic Hour</title>
 <sub-title lang="en">Mastering the perfect snowsport images</sub-title>
 <desc lang="en">How to best capture skiers and snowboarders? Chasing the perfect mountain light the first hour after sunrise and the last before sunset is a good place to start.</desc>
 <category lang="en">Mountaineering</category>
@@ -3483,7 +3349,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260128104643 +0000" stop="20260128105753 +0000" channel="10001"><title lang="en">Winter Heroes</title>
+  <programme start="20260130040803 +0000" stop="20260130041913 +0000" channel="10001"><title lang="en">Winter Heroes</title>
 <sub-title lang="en">Queralt Castellet</sub-title>
 <desc lang="en">Spanish snowboarder Queralt Castellet shows that snowboarding is more than results – it’s about passion, resilience and freedom. Her fearless halfpipe style inspires the next generation of winter athletes.</desc>
 <category lang="en">Snowboarding</category>
@@ -3497,7 +3363,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260128105753 +0000" stop="20260128120744 +0000" channel="10001"><title lang="en">Anywhere from Here</title>
+  <programme start="20260130041913 +0000" stop="20260130052903 +0000" channel="10001"><title lang="en">Anywhere from Here</title>
 <sub-title lang="en">Freestyle skiing through the eyes of a child prodigy</sub-title>
 <desc lang="en">Just 11-years-old and already a freestyle phenomenon. Explore the opportunities of the skiing world through the eyes of Walker Woodring – a kid who just wants to play and not worry about 'real life' quite yet.</desc>
 <category lang="en">Freestyle Skiing</category>
@@ -3508,7 +3374,20 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260128120744 +0000" stop="20260128124325 +0000" channel="10001"><title lang="en">Echoes of Impact</title>
+  <programme start="20260130052903 +0000" stop="20260130060000 +0000" channel="10001"><title lang="en">No Contest: Off Tour</title>
+<sub-title lang="en">Steph and Leo explore Italy</sub-title>
+<desc lang="en">When you're in Italy, you're part of the Big Family, says Steph Gilmore. Leo Fioravanti takes us from Rome to Sardinia to meet the locals and see what the Mediterranean scene looks like today.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:31650ca3-3fa9-4217-99a7-022e4fb444b0/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/no-contest-off-tour-s1-e3</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:885a8dd0-1768-420c-8bb8-d4a6f375eea4</episode-num>
+<episode-num system="xmltv_ns">0.2.0</episode-num>
+<episode-num system="original-air-date">2023-08-20 00:13:04</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:31650ca3-3fa9-4217-99a7-022e4fb444b0</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260130060000 +0000" stop="20260130063541 +0000" channel="10001"><title lang="en">Echoes of Impact</title>
 <sub-title lang="en">Marcus Kleveland unfiltered</sub-title>
 <desc lang="en">Follow Marcus Kleveland through injury, pressure and the weight of expectation. From highs to lows, his love for creative freestyle snowboarding drives him to keep pushing and redefining the sport.</desc>
 <category lang="en">Snowboarding</category>
@@ -3519,7 +3398,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260128124325 +0000" stop="20260128125353 +0000" channel="10001"><title lang="en">Winter Heroes</title>
+  <programme start="20260130063541 +0000" stop="20260130064609 +0000" channel="10001"><title lang="en">Winter Heroes</title>
 <sub-title lang="en">Sara Takanashi</sub-title>
 <desc lang="en">Japanese ski jumper Sara Takanashi set a towering record for World Cup wins. Now, go behind the scenes with the history-making athlete as she prepares for the one title that has eluded her.</desc>
 <category lang="en">Ice Skating</category>
@@ -3533,7 +3412,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260128125353 +0000" stop="20260128130420 +0000" channel="10001"><title lang="en">Winter Heroes</title>
+  <programme start="20260130064609 +0000" stop="20260130065559 +0000" channel="10001"><title lang="en">Winter Heroes</title>
 <sub-title lang="en">Hiroto Ogiwara</sub-title>
 <desc lang="en">This Japanese snowboarding phenom landed a 1080 at age of nine and has since set one record after another, even taking X Games gold with the first 2340 (6.5 rotations) in competition.</desc>
 <category lang="en">Snowboarding</category>
@@ -3547,7 +3426,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260128130420 +0000" stop="20260128140621 +0000" channel="10001"><title lang="en">Anna Gasser – The Spark Within</title>
+  <programme start="20260130065559 +0000" stop="20260130075801 +0000" channel="10001"><title lang="en">Anna Gasser – The Spark Within</title>
 <sub-title lang="en">An intimate portrait of a snowboard superstar</sub-title>
 <desc lang="en">She's a two-time Olympic gold medalist, holds multiple World Championship titles and has landed some of the most technical tricks ever. See how Anna Gasser has changed the snowboarding landscape.</desc>
 <category lang="en">Snowboarding</category>
@@ -3558,7 +3437,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260128140621 +0000" stop="20260128142049 +0000" channel="10001"><title lang="en">Winter Heroes</title>
+  <programme start="20260130075801 +0000" stop="20260130081229 +0000" channel="10001"><title lang="en">Winter Heroes</title>
 <sub-title lang="en">Alice Robinson</sub-title>
 <desc lang="en">With explosive and unpredictable runs, Alice Robinson is putting New Zealand on the podium in the traditionally European-dominated sport of alpine skiing. Discover a fearless athlete on the rise.</desc>
 <category lang="en">Skiing</category>
@@ -3572,7 +3451,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260128142049 +0000" stop="20260128151524 +0000" channel="10001"><title lang="en">Ice Waterfalls</title>
+  <programme start="20260130081229 +0000" stop="20260130090704 +0000" channel="10001"><title lang="en">Ice Waterfalls</title>
 <sub-title lang="en">Kayaking off the world's highest ice waterfall</sub-title>
 <desc lang="en">Catalan adventurer and elite kayaker Aniol Serrasolses shatters boundaries on his Arctic expedition to Norway when he descends a 20m-high ice waterfall - the largest ever recorded kayak drop from a glacial waterfall.</desc>
 <category lang="en">Kayaking</category>
@@ -3583,13 +3462,182 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260128151524 +0000" stop="20260128160112 +0000" channel="10001"><title lang="en">Anton Palzer: Breaking the Cycle</title>
+  <programme start="20260130090704 +0000" stop="20260130095252 +0000" channel="10001"><title lang="en">Anton Palzer: Breaking the Cycle</title>
 <sub-title lang="en">Swapping two skis for two wheels </sub-title>
 <desc lang="en">World-class ski mountaineer Anton Palzer craves a new challenge – but you might not expect it to be road cycling. See his audacious attempt to reach the ultimate goal of competing in La Vuelta a España.</desc>
 <category lang="en">Cycling</category>
 <icon src="https://resources.redbull.tv/rrn:content:films:afcde35d-4a2c-4994-ac51-a0b3a6292976/rbtv_cover_art_portrait"/>
 <url>https://www.redbull.com/int-en/films/anton-palzer-breaking-the-cycle</url>
 <episode-num system="redbull.com">episode/rrn:content:films:afcde35d-4a2c-4994-ac51-a0b3a6292976</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260130095252 +0000" stop="20260130101852 +0000" channel="10001"><title lang="en">For Reals</title>
+<sub-title lang="en">From soapbox madness to skydiving with an FMX bike</sub-title>
+<desc lang="en">Snowboarding – or, rather sandboarding – in the desert. Rally cars on frozen lakes. The wackiness of soapbox racing. Skydiving with a motocross bike. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e9</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:25bd9023-2792-464f-a774-984f840f4a4e</episode-num>
+<episode-num system="xmltv_ns">0.8.0</episode-num>
+<episode-num system="original-air-date">2024-10-21 23:48:12</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260130101852 +0000" stop="20260130104452 +0000" channel="10001"><title lang="en">For Reals</title>
+<sub-title lang="en">From a paper plane contest to diving off ruins </sub-title>
+<desc lang="en">Swamp buggy racing. Sprinting down from the peak of a mountain on a bike. High diving off ancient ruins. Getting the perfect surf shot. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e5</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:6a64ab5e-c10a-4065-9f16-0c91a4bc226d</episode-num>
+<episode-num system="xmltv_ns">0.4.0</episode-num>
+<episode-num system="original-air-date">2024-10-21 00:39:28</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260130104452 +0000" stop="20260130111128 +0000" channel="10001"><title lang="en">For Reals</title>
+<sub-title lang="en">From F1 desert racing to a skatepark in the sky </sub-title>
+<desc lang="en">Wakeskating off a Dubai skyscraper. F1 drivers racing on Floridan waters and in the Nevada desert. Riding a skatepark attached to a hot air balloon. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e1</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:cff46697-c2b7-46aa-a674-e152be37dbe4</episode-num>
+<episode-num system="xmltv_ns">0.0.0</episode-num>
+<episode-num system="original-air-date">2024-10-20 22:54:52</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260130111128 +0000" stop="20260130113728 +0000" channel="10001"><title lang="en">For Reals</title>
+<sub-title lang="en">From F1 soapbox racing to breaking world records</sub-title>
+<desc lang="en">Breaking world records – it's all in a day's work for Red Bull athletes! See Felix Baumgartner jump from space, 65 women skydive together and one BMXer conquer the globe's biggest full loop.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e2</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:90e91a7d-74bb-42b7-b9b3-078865d7b451</episode-num>
+<episode-num system="xmltv_ns">0.1.0</episode-num>
+<episode-num system="original-air-date">2024-10-20 23:20:52</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260130113728 +0000" stop="20260130120404 +0000" channel="10001"><title lang="en">For Reals</title>
+<sub-title lang="en">From a pinball human to 93kph speed skating</sub-title>
+<desc lang="en">Speed skating into the record books at 93kph. Office skateboarding. BASE jumping on Mount Everest. Diving into crocodile waters. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e3</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:8864b788-5908-493e-83ec-3421aa40df59</episode-num>
+<episode-num system="xmltv_ns">0.2.0</episode-num>
+<episode-num system="original-air-date">2024-10-20 23:46:52</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260130120404 +0000" stop="20260130123004 +0000" channel="10001"><title lang="en">For Reals</title>
+<sub-title lang="en">From skydiving with skis to flying into a volcano</sub-title>
+<desc lang="en">Flying a plane 245kph through a tunnel. A wingsuit flight across the crater of an active volcano. A record-breaking truck jump in a ghost town. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e4</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:f2cb2ce7-09e1-4656-a37f-a10c80b56502</episode-num>
+<episode-num system="xmltv_ns">0.3.0</episode-num>
+<episode-num system="original-air-date">2024-10-21 00:13:28</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260130123004 +0000" stop="20260130125640 +0000" channel="10001"><title lang="en">For Reals</title>
+<sub-title lang="en">From skateboarding out a plane to 180m wall climb</sub-title>
+<desc lang="en">Touring a town in style on a snowmobile. Freerunning through an airport. Skateboarding out of a flying plane. Ice climbing Niagra Falls. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e6</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:da0954da-ca98-4cec-8425-06146469e566</episode-num>
+<episode-num system="xmltv_ns">0.5.0</episode-num>
+<episode-num system="original-air-date">2024-10-21 01:05:28</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260130125640 +0000" stop="20260130132240 +0000" channel="10001"><title lang="en">For Reals</title>
+<sub-title lang="en">From BASE jumping a cave to a flying mega swing </sub-title>
+<desc lang="en">Wingsuit flying through London’s Tower Bridge at 246kph. Swinging from a hot air balloon. Slacklining the length of two football fields. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e7</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:2664328f-b440-42e2-9241-b99235650fb9</episode-num>
+<episode-num system="xmltv_ns">0.6.0</episode-num>
+<episode-num system="original-air-date">2024-10-21 22:55:36</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260130132240 +0000" stop="20260130134916 +0000" channel="10001"><title lang="en">For Reals</title>
+<sub-title lang="en">From freerunning Greek isles to skiing the Streif</sub-title>
+<desc lang="en">A gnarly shipping container BMX set-up. Freerunning in Santorini. Taking on the Streif at night. Enduro riding on a volcano. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e8</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:ff4396fb-683e-449c-a211-427bd260059d</episode-num>
+<episode-num system="xmltv_ns">0.7.0</episode-num>
+<episode-num system="original-air-date">2024-10-21 23:21:36</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260130134916 +0000" stop="20260130141516 +0000" channel="10001"><title lang="en">For Reals</title>
+<sub-title lang="en">From wingsuits to parachutes</sub-title>
+<desc lang="en">Freethrow master vs robot. High-flying action from wingsuits to parachutes. Wakeboarding in Chile. Barrel racing with a dirtbike. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e10</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:00ea3330-3896-488e-ad9a-35fcee77cee4</episode-num>
+<episode-num system="xmltv_ns">0.9.0</episode-num>
+<episode-num system="original-air-date">2024-10-22 00:14:12</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260130141516 +0000" stop="20260130145941 +0000" channel="10001"><title lang="en">Unrideable</title>
+<sub-title lang="en">New horizons</sub-title>
+<desc lang="en">Manuel Lettenbichler’s 2024 season suffers a setback as the Brightmore brothers, Mitch and Ashton, face rising star Matt Green in a fierce battle.</desc>
+<category lang="en">Motocross</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:dded073d-0c56-4fd5-a5c8-21b2e024484c/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/unrideable-s1-e3</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:143fe8fe-3080-4c70-90da-d35c2e72aa7f</episode-num>
+<episode-num system="xmltv_ns">0.2.0</episode-num>
+<episode-num system="original-air-date">2025-12-20 03:30:38</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:dded073d-0c56-4fd5-a5c8-21b2e024484c</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260130145941 +0000" stop="20260130153731 +0000" channel="10001"><title lang="en">Abstract</title>
+<sub-title lang="en">Pure creativity through high-octane freeski sequences</sub-title>
+<desc lang="en">Skiing is not art, and skiers are not artists. Unless, of course, skiing is art and skiers are artists? Because nothing screams 'artist' like sending large cliffs and grinding the side of buildings.</desc>
+<category lang="en">Freeskiing</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:f5efc8f9-8f54-4773-86c1-bb9c8be7d2d0/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/abstract</url>
+<episode-num system="redbull.com">episode/rrn:content:films:f5efc8f9-8f54-4773-86c1-bb9c8be7d2d0</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260130153731 +0000" stop="20260130154624 +0000" channel="10001"><title lang="en">Winter Heroes</title>
+<sub-title lang="en">Ryōyū Kobayashi</sub-title>
+<desc lang="en">This multi-faceted Japanese athlete landed the longest ski jump in history and has won just about every title there is, making him a legend while still in his 20s.</desc>
+<category lang="en">Ski Jumping</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e9</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:32c212d1-d2e2-4cc5-90d2-aae35f48b7e8</episode-num>
+<episode-num system="xmltv_ns">0.8.0</episode-num>
+<episode-num system="original-air-date">2026-01-10 12:52:32</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
 <rating system="Red Bull TV">
 <value>NR</value>
 </rating>
