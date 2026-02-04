@@ -2903,241 +2903,7 @@
     <display-name>Red Bull TV FHD (English)</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20260203045021 +0000" stop="20260203054853 +0000" channel="10001"><title lang="en">Kai Jones' Falling into Place</title>
-<sub-title lang="en">One teenage skier's fight for life from injury</sub-title>
-<desc lang="en">Teenage skier Kai Jones shattered both legs in a harrowing cliff fall. Facing brutal rescue, surgery and life-threatening anaemia, his fight for survival is a tale of resilience against the odds.</desc>
-<category lang="en">Skiing</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:46fbe88e-c038-4ffc-9128-2acea33a2eac/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/falling-into-place-kai-jones</url>
-<episode-num system="redbull.com">episode/rrn:content:films:46fbe88e-c038-4ffc-9128-2acea33a2eac</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260203054853 +0000" stop="20260203060000 +0000" channel="10001"><title lang="en">Winter Heroes</title>
-<sub-title lang="en">Paul Verbnjak</sub-title>
-<desc lang="en">Not only a ski mountaineer, Paul Verbnjak is an army athlete, a professional road cyclist and a rising star in a sport that’s rapidly gaining world popularity. Find out what makes him tick.</desc>
-<category lang="en">Ski Touring</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e12</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:07a875f9-0726-49bc-9bf6-d35157a86ceb</episode-num>
-<episode-num system="xmltv_ns">0.11.0</episode-num>
-<episode-num system="original-air-date">2025-11-10 12:53:33</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260203060000 +0000" stop="20260203063230 +0000" channel="10001"><title lang="en">Schnitzel Time 2 – No Return</title>
-<sub-title lang="en">Snowboarding creativity and passion unleashed</sub-title>
-<desc lang="en">Riders push the limits of snowboarding performance and personality in the film that's a high-energy ode to the sport's creativity, skill and passion.</desc>
-<category lang="en">Snowboarding</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:15057dcc-f1df-42e9-8d64-4f9c9427bb19/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/schnitzel-time-2-no-return</url>
-<episode-num system="redbull.com">episode/rrn:content:films:15057dcc-f1df-42e9-8d64-4f9c9427bb19</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260203063230 +0000" stop="20260203065559 +0000" channel="10001"><title lang="en">Sofia: A Story of the Half-Day Ticket</title>
-<sub-title lang="en">Resort snowboarding at its finest with Arthur Longo and crew</sub-title>
-<desc lang="en">Late afternoon ski resort snowboarding laps topped with friendship and camaraderie: Arthur Longo, Jadyn Chomlack and Cannon Cummins blend as one in a mix of barely-out-of-bounds launchers, side hits and laughter. Presented by Volcom Stone.</desc>
-<category lang="en">Snowboarding</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:2a8e0fcd-aabf-4b1c-a1aa-e2c58e447e82/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/sofia-a-story-of-the-half-day-ticket</url>
-<episode-num system="redbull.com">episode/rrn:content:films:2a8e0fcd-aabf-4b1c-a1aa-e2c58e447e82</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260203065559 +0000" stop="20260203072235 +0000" channel="10001"><title lang="en">For Reals</title>
-<sub-title lang="en">From freerunning Greek isles to skiing the Streif</sub-title>
-<desc lang="en">A gnarly shipping container BMX set-up. Freerunning in Santorini. Taking on the Streif at night. Enduro riding on a volcano. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e8</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:ff4396fb-683e-449c-a211-427bd260059d</episode-num>
-<episode-num system="xmltv_ns">0.7.0</episode-num>
-<episode-num system="original-air-date">2024-10-21 23:21:36</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260203072235 +0000" stop="20260203074300 +0000" channel="10001"><title lang="en">Split Lane: Today's Parks 10 Year Anniversary</title>
-<sub-title lang="en">Reinventing snow and bike courses</sub-title>
-<desc lang="en">Take a glimpse behind the scenes with the pioneering team of Today’s Parks and watch snowboarder Sebastian Toutant and mountain biker Gracey Hemstreet ride a never-before-seen snow course in Quebec.</desc>
-<category lang="en">Snowboarding</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:626955df-5470-45ca-9329-1d2922483f2b/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/split-lane-the-todays-parks-10-year-anniversary-documentary</url>
-<episode-num system="redbull.com">episode/rrn:content:films:626955df-5470-45ca-9329-1d2922483f2b</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260203074300 +0000" stop="20260203080900 +0000" channel="10001"><title lang="en">For Reals</title>
-<sub-title lang="en">From a paper plane contest to diving off ruins </sub-title>
-<desc lang="en">Swamp buggy racing. Sprinting down from the peak of a mountain on a bike. High diving off ancient ruins. Getting the perfect surf shot. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e5</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:6a64ab5e-c10a-4065-9f16-0c91a4bc226d</episode-num>
-<episode-num system="xmltv_ns">0.4.0</episode-num>
-<episode-num system="original-air-date">2024-10-21 00:39:28</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260203080900 +0000" stop="20260203083536 +0000" channel="10001"><title lang="en">For Reals</title>
-<sub-title lang="en">From wingsuits to parachutes</sub-title>
-<desc lang="en">Freethrow master vs robot. High-flying action from wingsuits to parachutes. Wakeboarding in Chile. Barrel racing with a dirtbike. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e10</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:00ea3330-3896-488e-ad9a-35fcee77cee4</episode-num>
-<episode-num system="xmltv_ns">0.9.0</episode-num>
-<episode-num system="original-air-date">2024-10-22 00:14:12</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260203083536 +0000" stop="20260203090212 +0000" channel="10001"><title lang="en">BACKYARD by Nadine Wallner </title>
-<sub-title lang="en">Skiing five Arlberg lines in just one day </sub-title>
-<desc lang="en">Freeskiing champion Nadine Wallner tackles five of the most challenging big mountain lines at Arlberg in just one day, covering 29km and over 3,000 vertical metres to link up the incredible routes.</desc>
-<category lang="en">Freeskiing</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:4100790a-1b63-45e0-a726-35e703101ed6/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/backyard-by-nadine-wallner</url>
-<episode-num system="redbull.com">episode/rrn:content:films:4100790a-1b63-45e0-a726-35e703101ed6</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260203090212 +0000" stop="20260203093849 +0000" channel="10001"><title lang="en">Veeco: A Volcom Filmmaking Documentary</title>
-<sub-title lang="en">Veeco unveiled – untold stories behind groundbreaking films</sub-title>
-<desc lang="en">Take a journey through the Volcom film library and go behind the scenes with the filmmakers and riders as they share tales of blood, sweat and drama from Veeco Productions’ inception to the present.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:films:c211d2ac-e692-4622-8e55-43dba4d6d035/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/veeco</url>
-<episode-num system="redbull.com">episode/rrn:content:films:c211d2ac-e692-4622-8e55-43dba4d6d035</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260203093849 +0000" stop="20260203100525 +0000" channel="10001"><title lang="en">For Reals</title>
-<sub-title lang="en">From soapbox madness to skydiving with an FMX bike</sub-title>
-<desc lang="en">Snowboarding – or, rather sandboarding – in the desert. Rally cars on frozen lakes. The wackiness of soapbox racing. Skydiving with a motocross bike. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e9</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:25bd9023-2792-464f-a774-984f840f4a4e</episode-num>
-<episode-num system="xmltv_ns">0.8.0</episode-num>
-<episode-num system="original-air-date">2024-10-21 23:48:12</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260203100525 +0000" stop="20260203103125 +0000" channel="10001"><title lang="en">For Reals</title>
-<sub-title lang="en">From BASE jumping a cave to a flying mega swing </sub-title>
-<desc lang="en">Wingsuit flying through London’s Tower Bridge at 246kph. Swinging from a hot air balloon. Slacklining the length of two football fields. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e7</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:2664328f-b440-42e2-9241-b99235650fb9</episode-num>
-<episode-num system="xmltv_ns">0.6.0</episode-num>
-<episode-num system="original-air-date">2024-10-21 22:55:36</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260203103125 +0000" stop="20260203113751 +0000" channel="10001"><title lang="en">Beyond the Fantasy</title>
-<sub-title lang="en">How snow pros turn improbable visions into reality </sub-title>
-<desc lang="en">Wild ski and snowboard dreams come alive as athletes turn imagination into reality on the slopes.</desc>
-<category lang="en">Skiing</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:ff21f22c-dc24-489e-89fe-97a3d585f16c/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/beyond-the-fantasy</url>
-<episode-num system="redbull.com">episode/rrn:content:films:ff21f22c-dc24-489e-89fe-97a3d585f16c</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260203113751 +0000" stop="20260203120351 +0000" channel="10001"><title lang="en">For Reals</title>
-<sub-title lang="en">From a pinball human to 93kph speed skating</sub-title>
-<desc lang="en">Speed skating into the record books at 93kph. Office skateboarding. BASE jumping on Mount Everest. Diving into crocodile waters. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e3</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:8864b788-5908-493e-83ec-3421aa40df59</episode-num>
-<episode-num system="xmltv_ns">0.2.0</episode-num>
-<episode-num system="original-air-date">2024-10-20 23:46:52</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260203120351 +0000" stop="20260203131214 +0000" channel="10001"><title lang="en">Calm Beneath Castles</title>
-<sub-title lang="en">Into the minds of awe-inspiring skiers </sub-title>
-<desc lang="en">Meet the skiers driven by an insatiable thirst for adventure and discovery and explore the essence of being at one with the mountains.</desc>
-<category lang="en">Skiing</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:7d606f0a-1fe7-464e-ad7a-381b192ed058/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/calm-beneath-castles</url>
-<episode-num system="redbull.com">episode/rrn:content:films:7d606f0a-1fe7-464e-ad7a-381b192ed058</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260203131214 +0000" stop="20260203142206 +0000" channel="10001"><title lang="en">Legend Has It</title>
-<sub-title lang="en">Teton Gravity Research's mythical tales</sub-title>
-<desc lang="en">Ski lore is riddled with stories describing extraordinary events. Having showcased top athletes for over 28 years, Teton Gravity Research have contributed many a mythical tale. Unravel their mythology.</desc>
-<category lang="en">Skiing</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:8fcc7832-09e3-4c28-9e45-24005e9974a5/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/legend-has-it</url>
-<episode-num system="redbull.com">episode/rrn:content:films:8fcc7832-09e3-4c28-9e45-24005e9974a5</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260203142206 +0000" stop="20260203145300 +0000" channel="10001"><title lang="en">CreedleCosm</title>
-<sub-title lang="en">Snowboarding magic across the world</sub-title>
-<desc lang="en">Lose yourself in a cinematic chrysalis of snowboarding possibilities, featuring adventurous, creative, communal magic, shot in a myriad of locations.</desc>
-<category lang="en">Snowboarding</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:cd0d225c-2292-49cd-9ed2-9f24b56c343e/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/creedlecosm</url>
-<episode-num system="redbull.com">episode/rrn:content:films:cd0d225c-2292-49cd-9ed2-9f24b56c343e</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260203145300 +0000" stop="20260203153346 +0000" channel="10001"><title lang="en">True to This</title>
-<sub-title lang="en">Volcom's cultural journey of revolutionising board sports</sub-title>
-<desc lang="en">The first to combine surf, skate and snowboarding under one brand, explore Volcom's groundbreaking fusion of this trio of board sports in a cinematic journey celebrating rebellious style and attitude.</desc>
-<category lang="en">Surfing</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:9ad0b193-0b28-430c-b608-b2835ffd0c85/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/true-to-this</url>
-<episode-num system="redbull.com">episode/rrn:content:films:9ad0b193-0b28-430c-b608-b2835ffd0c85</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260203153346 +0000" stop="20260203155714 +0000" channel="10001"><title lang="en">Saisho</title>
-<sub-title lang="en">A film by Miguel Porteous and Chris Maunsell</sub-title>
-<desc lang="en">From the bustle of Tokyo to the silence of a snow-covered Hokkaido, Saisho follows freestyle skiers Miguel and Nico Porteous and Felix Klein as they experience Japan for the first time.</desc>
-<category lang="en">Skiing</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:2c5b52d4-2c9c-4c0c-bc39-ae7bbccb92a7/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/saisho</url>
-<episode-num system="redbull.com">episode/rrn:content:films:2c5b52d4-2c9c-4c0c-bc39-ae7bbccb92a7</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260203155714 +0000" stop="20260203163504 +0000" channel="10001"><title lang="en">Abstract</title>
-<sub-title lang="en">Pure creativity through high-octane freeski sequences</sub-title>
-<desc lang="en">Skiing is not art, and skiers are not artists. Unless, of course, skiing is art and skiers are artists? Because nothing screams 'artist' like sending large cliffs and grinding the side of buildings.</desc>
-<category lang="en">Freeskiing</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:f5efc8f9-8f54-4773-86c1-bb9c8be7d2d0/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/abstract</url>
-<episode-num system="redbull.com">episode/rrn:content:films:f5efc8f9-8f54-4773-86c1-bb9c8be7d2d0</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260203163504 +0000" stop="20260203174711 +0000" channel="10001"><title lang="en">Magic Hour</title>
+  <programme start="20260204133252 +0000" stop="20260204144423 +0000" channel="10001"><title lang="en">Magic Hour</title>
 <sub-title lang="en">Mastering the perfect snowsport images</sub-title>
 <desc lang="en">How to best capture skiers and snowboarders? Chasing the perfect mountain light the first hour after sunrise and the last before sunset is a good place to start.</desc>
 <category lang="en">Mountaineering</category>
@@ -3148,7 +2914,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260203174711 +0000" stop="20260203180851 +0000" channel="10001"><title lang="en">The Obstacle Course</title>
+  <programme start="20260204144423 +0000" stop="20260204150639 +0000" channel="10001"><title lang="en">The Obstacle Course</title>
 <sub-title lang="en">Seb Toots rides an epic winter obstacle course</sub-title>
 <desc lang="en">After going viral with his indoor obstacle trick, snowboarding legend Sébastien Toutant returns to the snow to ride a course only he could dream of in one continuous take, top to bottom.</desc>
 <category lang="en">Snowboarding</category>
@@ -3159,7 +2925,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260203180851 +0000" stop="20260203185558 +0000" channel="10001"><title lang="en">Under Black Flag</title>
+  <programme start="20260204150639 +0000" stop="20260204155345 +0000" channel="10001"><title lang="en">Under Black Flag</title>
 <sub-title lang="en">A retrospective snowboard film – 20 years in the making</sub-title>
 <desc lang="en">Iconic snowboarders – Gigi Rüf, Marco Feichtner, Elias Elhardt and Kalle Ohlson – unveil peak performances in personal all-time video segments, joined by a stellar lineup of fellow Pirate Crew riders.</desc>
 <category lang="en">Snowboarding</category>
@@ -3170,7 +2936,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260203185558 +0000" stop="20260203193430 +0000" channel="10001"><title lang="en">Cake</title>
+  <programme start="20260204155345 +0000" stop="20260204163217 +0000" channel="10001"><title lang="en">Cake</title>
 <sub-title lang="en">A Nitro Snowboards film</sub-title>
 <desc lang="en">Cake is dedicated to showcasing the current level of fun progression – how pro snowboarders like to ride for fun – and hopefully motivating you to get out and go snowboarding with your friends!</desc>
 <category lang="en">Snowboarding</category>
@@ -3181,7 +2947,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260203193430 +0000" stop="20260203210247 +0000" channel="10001"><title lang="en">Layers</title>
+  <programme start="20260204163217 +0000" stop="20260204180034 +0000" channel="10001"><title lang="en">Layers</title>
 <sub-title lang="en">The unintentional culture of snowboarding</sub-title>
 <desc lang="en">Go in search of what makes snowboarding more than just a sport, as we journey through some of the most well-known and unknown snowboarding locations, and meet communities and their local heroes.</desc>
 <category lang="en">Snowboarding</category>
@@ -3192,7 +2958,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260203210247 +0000" stop="20260203212212 +0000" channel="10001"><title lang="en">Plug &amp; Play</title>
+  <programme start="20260204180034 +0000" stop="20260204181959 +0000" channel="10001"><title lang="en">Plug &amp; Play</title>
 <sub-title lang="en">From Torin Yater-Wallace and the Deviate Films crew</sub-title>
 <desc lang="en">The fourth film from Deviate Films and The Lodge follows Torin Yater-Wallace, Birk Irving and the rest of the Deviate crew from the backcountry of British Columbia to the frozen streets of Minnesota.</desc>
 <category lang="en">Skiing</category>
@@ -3203,7 +2969,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260203212212 +0000" stop="20260203220527 +0000" channel="10001"><title lang="en">Nexus</title>
+  <programme start="20260204181959 +0000" stop="20260204190315 +0000" channel="10001"><title lang="en">Nexus</title>
 <sub-title lang="en">The all-female ski film</sub-title>
 <desc lang="en">Follow five groups of women to uncover their connection to the mountains and see how skiing is a refuge that helps foster their deepest relationships.</desc>
 <category lang="en">Skiing</category>
@@ -3214,7 +2980,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260203220527 +0000" stop="20260203222641 +0000" channel="10001"><title lang="en">Infinita Patagonia</title>
+  <programme start="20260204190315 +0000" stop="20260204192428 +0000" channel="10001"><title lang="en">Infinita Patagonia</title>
 <sub-title lang="en">Freeride lines of Patagonia</sub-title>
 <desc lang="en">Nadine Wallner journeys to El Chaltén, Argentina, a place of granite towers, perfect for skiing adventures. Infinita describes its endless beauty and here she found her passion and tranquility.</desc>
 <category lang="en">Freeskiing Freeride</category>
@@ -3225,7 +2991,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260203222641 +0000" stop="20260203224444 +0000" channel="10001"><title lang="en">Hot Coco</title>
+  <programme start="20260204192428 +0000" stop="20260204194232 +0000" channel="10001"><title lang="en">Hot Coco</title>
 <sub-title lang="en">The all-female snowboard film </sub-title>
 <desc lang="en">From eastern Canada to Iceland and Finland, this team of Burton snowboarders push the limits of their sport to showcase their creativity, style, progression and individualism.</desc>
 <category lang="en">Snowboarding</category>
@@ -3236,7 +3002,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260203224444 +0000" stop="20260203232356 +0000" channel="10001"><title lang="en">Here, Hold My Kid</title>
+  <programme start="20260204194232 +0000" stop="20260204202144 +0000" channel="10001"><title lang="en">Here, Hold My Kid</title>
 <sub-title lang="en">Two pro skiers, two new mums, one sponsorship</sub-title>
 <desc lang="en">Two pro female skiers embrace new motherhood without missing a beat in their heart-stopping careers. They develop a competitiveness with each other in a quest to become 'the mum who can do it all'.</desc>
 <category lang="en">Skiing</category>
@@ -3247,7 +3013,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260203232356 +0000" stop="20260203234257 +0000" channel="10001"><title lang="en">BLOOOM</title>
+  <programme start="20260204202144 +0000" stop="20260204204045 +0000" channel="10001"><title lang="en">BLOOOM</title>
 <sub-title lang="en">A snowboard film from the mind of Niels Schack</sub-title>
 <desc lang="en">Niels Schack's snowboard film with Burton team riders – such as Grace Warner, Jesse Augustinus, Luke Winkelmann and Zeb Powell – shows a diverse group expressing themselves through creative riding.</desc>
 <category lang="en">Snowboarding</category>
@@ -3258,7 +3024,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260203234257 +0000" stop="20260203235924 +0000" channel="10001"><title lang="en">Dropping In</title>
+  <programme start="20260204204045 +0000" stop="20260204205748 +0000" channel="10001"><title lang="en">Dropping In</title>
 <sub-title lang="en">Julien Regnier</sub-title>
 <desc lang="en">Paddy meets up with boundary-pushing Julien Regnier and discovers how the Frenchman, along with a crew of innovators, helped to change the face of European freeskiing with new tricks and techniques.</desc>
 <category lang="en">Freeskiing</category>
@@ -3272,7 +3038,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260203235924 +0000" stop="20260204002600 +0000" channel="10001"><title lang="en">For Reals</title>
+  <programme start="20260204205748 +0000" stop="20260204212348 +0000" channel="10001"><title lang="en">For Reals</title>
 <sub-title lang="en">From a paper plane contest to diving off ruins </sub-title>
 <desc lang="en">Swamp buggy racing. Sprinting down from the peak of a mountain on a bike. High diving off ancient ruins. Getting the perfect surf shot. It's all in a day's work for Red Bull athletes!</desc>
 <icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
@@ -3285,7 +3051,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260204002600 +0000" stop="20260204013941 +0000" channel="10001"><title lang="en">La Liste: Everything or Nothing</title>
+  <programme start="20260204212348 +0000" stop="20260204223729 +0000" channel="10001"><title lang="en">La Liste: Everything or Nothing</title>
 <sub-title lang="en">Chasing thrills: skiing the world's highest mountain ranges </sub-title>
 <desc lang="en">Big mountain skiers Jérémie Heitz and Sam Anthamatten tackle the world’s highest peaks, from the Swiss Alps to the Himalayas, in this thrilling freeskiing adventure across 6,000m mountain ranges.</desc>
 <category lang="en">Skiing</category>
@@ -3296,7 +3062,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260204013941 +0000" stop="20260204023813 +0000" channel="10001"><title lang="en">Kai Jones' Falling into Place</title>
+  <programme start="20260204223729 +0000" stop="20260204233601 +0000" channel="10001"><title lang="en">Kai Jones' Falling into Place</title>
 <sub-title lang="en">One teenage skier's fight for life from injury</sub-title>
 <desc lang="en">Teenage skier Kai Jones shattered both legs in a harrowing cliff fall. Facing brutal rescue, surgery and life-threatening anaemia, his fight for survival is a tale of resilience against the odds.</desc>
 <category lang="en">Skiing</category>
@@ -3307,7 +3073,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260204023813 +0000" stop="20260204031004 +0000" channel="10001"><title lang="en">Milestone</title>
+  <programme start="20260204233601 +0000" stop="20260205000752 +0000" channel="10001"><title lang="en">Milestone</title>
 <sub-title lang="en">An intimate portrayal of snowboarder Eero Ettala</sub-title>
 <desc lang="en">Follow professional snowboarder Eero Ettala behind the scenes as he works on a video part while balancing family life. The film reflects on his achievements throughout his career.</desc>
 <category lang="en">Snowboarding</category>
@@ -3318,7 +3084,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260204031004 +0000" stop="20260204034234 +0000" channel="10001"><title lang="en">Schnitzel Time 2 – No Return</title>
+  <programme start="20260205000752 +0000" stop="20260205004022 +0000" channel="10001"><title lang="en">Schnitzel Time 2 – No Return</title>
 <sub-title lang="en">Snowboarding creativity and passion unleashed</sub-title>
 <desc lang="en">Riders push the limits of snowboarding performance and personality in the film that's a high-energy ode to the sport's creativity, skill and passion.</desc>
 <category lang="en">Snowboarding</category>
@@ -3329,7 +3095,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260204034234 +0000" stop="20260204040603 +0000" channel="10001"><title lang="en">Sofia: A Story of the Half-Day Ticket</title>
+  <programme start="20260205004022 +0000" stop="20260205010351 +0000" channel="10001"><title lang="en">Sofia: A Story of the Half-Day Ticket</title>
 <sub-title lang="en">Resort snowboarding at its finest with Arthur Longo and crew</sub-title>
 <desc lang="en">Late afternoon ski resort snowboarding laps topped with friendship and camaraderie: Arthur Longo, Jadyn Chomlack and Cannon Cummins blend as one in a mix of barely-out-of-bounds launchers, side hits and laughter. Presented by Volcom Stone.</desc>
 <category lang="en">Snowboarding</category>
@@ -3340,7 +3106,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260204040603 +0000" stop="20260204043239 +0000" channel="10001"><title lang="en">For Reals</title>
+  <programme start="20260205010351 +0000" stop="20260205013027 +0000" channel="10001"><title lang="en">For Reals</title>
 <sub-title lang="en">From freerunning Greek isles to skiing the Streif</sub-title>
 <desc lang="en">A gnarly shipping container BMX set-up. Freerunning in Santorini. Taking on the Streif at night. Enduro riding on a volcano. It's all in a day's work for Red Bull athletes!</desc>
 <icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
@@ -3353,7 +3119,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260204043239 +0000" stop="20260204045304 +0000" channel="10001"><title lang="en">Split Lane: Today's Parks 10 Year Anniversary</title>
+  <programme start="20260205013027 +0000" stop="20260205015052 +0000" channel="10001"><title lang="en">Split Lane: Today's Parks 10 Year Anniversary</title>
 <sub-title lang="en">Reinventing snow and bike courses</sub-title>
 <desc lang="en">Take a glimpse behind the scenes with the pioneering team of Today’s Parks and watch snowboarder Sebastian Toutant and mountain biker Gracey Hemstreet ride a never-before-seen snow course in Quebec.</desc>
 <category lang="en">Snowboarding</category>
@@ -3364,7 +3130,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260204045304 +0000" stop="20260204051904 +0000" channel="10001"><title lang="en">For Reals</title>
+  <programme start="20260205015052 +0000" stop="20260205021652 +0000" channel="10001"><title lang="en">For Reals</title>
 <sub-title lang="en">From a paper plane contest to diving off ruins </sub-title>
 <desc lang="en">Swamp buggy racing. Sprinting down from the peak of a mountain on a bike. High diving off ancient ruins. Getting the perfect surf shot. It's all in a day's work for Red Bull athletes!</desc>
 <icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
@@ -3377,32 +3143,31 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260204051904 +0000" stop="20260204055019 +0000" channel="10001"><title lang="en">Milestone</title>
-<sub-title lang="en">An intimate portrayal of snowboarder Eero Ettala</sub-title>
-<desc lang="en">Follow professional snowboarder Eero Ettala behind the scenes as he works on a video part while balancing family life. The film reflects on his achievements throughout his career.</desc>
-<category lang="en">Snowboarding</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:12865d62-31a0-40a6-a458-041204548814/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/milestone</url>
-<episode-num system="redbull.com">episode/rrn:content:films:12865d62-31a0-40a6-a458-041204548814</episode-num>
+  <programme start="20260205021652 +0000" stop="20260205024328 +0000" channel="10001"><title lang="en">For Reals</title>
+<sub-title lang="en">From wingsuits to parachutes</sub-title>
+<desc lang="en">Freethrow master vs robot. High-flying action from wingsuits to parachutes. Wakeboarding in Chile. Barrel racing with a dirtbike. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e10</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:00ea3330-3896-488e-ad9a-35fcee77cee4</episode-num>
+<episode-num system="xmltv_ns">0.9.0</episode-num>
+<episode-num system="original-air-date">2024-10-22 00:14:12</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
 <rating system="Red Bull TV">
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260204055019 +0000" stop="20260204060000 +0000" channel="10001"><title lang="en">Winter Heroes</title>
-<sub-title lang="en">Ryōyū Kobayashi</sub-title>
-<desc lang="en">This multi-faceted Japanese athlete landed the longest ski jump in history and has won just about every title there is, making him a legend while still in his 20s.</desc>
-<category lang="en">Ski Jumping</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e9</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:32c212d1-d2e2-4cc5-90d2-aae35f48b7e8</episode-num>
-<episode-num system="xmltv_ns">0.8.0</episode-num>
-<episode-num system="original-air-date">2026-01-10 12:52:32</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
+  <programme start="20260205024328 +0000" stop="20260205031004 +0000" channel="10001"><title lang="en">BACKYARD by Nadine Wallner </title>
+<sub-title lang="en">Skiing five Arlberg lines in just one day </sub-title>
+<desc lang="en">Freeskiing champion Nadine Wallner tackles five of the most challenging big mountain lines at Arlberg in just one day, covering 29km and over 3,000 vertical metres to link up the incredible routes.</desc>
+<category lang="en">Freeskiing</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:4100790a-1b63-45e0-a726-35e703101ed6/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/backyard-by-nadine-wallner</url>
+<episode-num system="redbull.com">episode/rrn:content:films:4100790a-1b63-45e0-a726-35e703101ed6</episode-num>
 <rating system="Red Bull TV">
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260204060000 +0000" stop="20260204063637 +0000" channel="10001"><title lang="en">Veeco: A Volcom Filmmaking Documentary</title>
+  <programme start="20260205031004 +0000" stop="20260205034641 +0000" channel="10001"><title lang="en">Veeco: A Volcom Filmmaking Documentary</title>
 <sub-title lang="en">Veeco unveiled – untold stories behind groundbreaking films</sub-title>
 <desc lang="en">Take a journey through the Volcom film library and go behind the scenes with the filmmakers and riders as they share tales of blood, sweat and drama from Veeco Productions’ inception to the present.</desc>
 <icon src="https://resources.redbull.tv/rrn:content:films:c211d2ac-e692-4622-8e55-43dba4d6d035/rbtv_cover_art_portrait"/>
@@ -3412,7 +3177,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260204063637 +0000" stop="20260204070237 +0000" channel="10001"><title lang="en">For Reals</title>
+  <programme start="20260205034641 +0000" stop="20260205041241 +0000" channel="10001"><title lang="en">For Reals</title>
 <sub-title lang="en">From soapbox madness to skydiving with an FMX bike</sub-title>
 <desc lang="en">Snowboarding – or, rather sandboarding – in the desert. Rally cars on frozen lakes. The wackiness of soapbox racing. Skydiving with a motocross bike. It's all in a day's work for Red Bull athletes!</desc>
 <icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
@@ -3425,7 +3190,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260204070237 +0000" stop="20260204072913 +0000" channel="10001"><title lang="en">For Reals</title>
+  <programme start="20260205041241 +0000" stop="20260205043917 +0000" channel="10001"><title lang="en">For Reals</title>
 <sub-title lang="en">From a pinball human to 93kph speed skating</sub-title>
 <desc lang="en">Speed skating into the record books at 93kph. Office skateboarding. BASE jumping on Mount Everest. Diving into crocodile waters. It's all in a day's work for Red Bull athletes!</desc>
 <icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
@@ -3438,15 +3203,170 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260204072913 +0000" stop="20260204075513 +0000" channel="10001"><title lang="en">For Reals</title>
-<sub-title lang="en">From BASE jumping a cave to a flying mega swing </sub-title>
-<desc lang="en">Wingsuit flying through London’s Tower Bridge at 246kph. Swinging from a hot air balloon. Slacklining the length of two football fields. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e7</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:2664328f-b440-42e2-9241-b99235650fb9</episode-num>
-<episode-num system="xmltv_ns">0.6.0</episode-num>
-<episode-num system="original-air-date">2024-10-21 22:55:36</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+  <programme start="20260205043917 +0000" stop="20260205055048 +0000" channel="10001"><title lang="en">Magic Hour</title>
+<sub-title lang="en">Mastering the perfect snowsport images</sub-title>
+<desc lang="en">How to best capture skiers and snowboarders? Chasing the perfect mountain light the first hour after sunrise and the last before sunset is a good place to start.</desc>
+<category lang="en">Mountaineering</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:d5a31826-0ed1-427c-a83c-5b37373719d7/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/magic-hour</url>
+<episode-num system="redbull.com">episode/rrn:content:films:d5a31826-0ed1-427c-a83c-5b37373719d7</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260205055048 +0000" stop="20260205060000 +0000" channel="10001"><title lang="en">Winter Heroes</title>
+<sub-title lang="en">Angel Daleman</sub-title>
+<desc lang="en">Poised to become the next idol of Dutch speed skating, Angel Daleman is a superstar in the making. With a team world championship already in hand, meet a talent on the verge of greatness.</desc>
+<category lang="en">Ice Skating</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e10</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:4a5abc2d-2ffb-4668-b3e4-2bf82fedac78</episode-num>
+<episode-num system="xmltv_ns">0.9.0</episode-num>
+<episode-num system="original-air-date">2026-01-10 11:44:57</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260205060000 +0000" stop="20260205070823 +0000" channel="10001"><title lang="en">Calm Beneath Castles</title>
+<sub-title lang="en">Into the minds of awe-inspiring skiers </sub-title>
+<desc lang="en">Meet the skiers driven by an insatiable thirst for adventure and discovery and explore the essence of being at one with the mountains.</desc>
+<category lang="en">Skiing</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:7d606f0a-1fe7-464e-ad7a-381b192ed058/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/calm-beneath-castles</url>
+<episode-num system="redbull.com">episode/rrn:content:films:7d606f0a-1fe7-464e-ad7a-381b192ed058</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260205070823 +0000" stop="20260205081815 +0000" channel="10001"><title lang="en">Legend Has It</title>
+<sub-title lang="en">Teton Gravity Research's mythical tales</sub-title>
+<desc lang="en">Ski lore is riddled with stories describing extraordinary events. Having showcased top athletes for over 28 years, Teton Gravity Research have contributed many a mythical tale. Unravel their mythology.</desc>
+<category lang="en">Skiing</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:8fcc7832-09e3-4c28-9e45-24005e9974a5/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/legend-has-it</url>
+<episode-num system="redbull.com">episode/rrn:content:films:8fcc7832-09e3-4c28-9e45-24005e9974a5</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260205081815 +0000" stop="20260205084908 +0000" channel="10001"><title lang="en">CreedleCosm</title>
+<sub-title lang="en">Snowboarding magic across the world</sub-title>
+<desc lang="en">Lose yourself in a cinematic chrysalis of snowboarding possibilities, featuring adventurous, creative, communal magic, shot in a myriad of locations.</desc>
+<category lang="en">Snowboarding</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:cd0d225c-2292-49cd-9ed2-9f24b56c343e/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/creedlecosm</url>
+<episode-num system="redbull.com">episode/rrn:content:films:cd0d225c-2292-49cd-9ed2-9f24b56c343e</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260205084908 +0000" stop="20260205092954 +0000" channel="10001"><title lang="en">True to This</title>
+<sub-title lang="en">Volcom's cultural journey of revolutionising board sports</sub-title>
+<desc lang="en">The first to combine surf, skate and snowboarding under one brand, explore Volcom's groundbreaking fusion of this trio of board sports in a cinematic journey celebrating rebellious style and attitude.</desc>
+<category lang="en">Surfing</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:9ad0b193-0b28-430c-b608-b2835ffd0c85/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/true-to-this</url>
+<episode-num system="redbull.com">episode/rrn:content:films:9ad0b193-0b28-430c-b608-b2835ffd0c85</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260205092954 +0000" stop="20260205095323 +0000" channel="10001"><title lang="en">Saisho</title>
+<sub-title lang="en">A film by Miguel Porteous and Chris Maunsell</sub-title>
+<desc lang="en">From the bustle of Tokyo to the silence of a snow-covered Hokkaido, Saisho follows freestyle skiers Miguel and Nico Porteous and Felix Klein as they experience Japan for the first time.</desc>
+<category lang="en">Skiing</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:2c5b52d4-2c9c-4c0c-bc39-ae7bbccb92a7/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/saisho</url>
+<episode-num system="redbull.com">episode/rrn:content:films:2c5b52d4-2c9c-4c0c-bc39-ae7bbccb92a7</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260205095323 +0000" stop="20260205103113 +0000" channel="10001"><title lang="en">Abstract</title>
+<sub-title lang="en">Pure creativity through high-octane freeski sequences</sub-title>
+<desc lang="en">Skiing is not art, and skiers are not artists. Unless, of course, skiing is art and skiers are artists? Because nothing screams 'artist' like sending large cliffs and grinding the side of buildings.</desc>
+<category lang="en">Freeskiing</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:f5efc8f9-8f54-4773-86c1-bb9c8be7d2d0/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/abstract</url>
+<episode-num system="redbull.com">episode/rrn:content:films:f5efc8f9-8f54-4773-86c1-bb9c8be7d2d0</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260205103113 +0000" stop="20260205114320 +0000" channel="10001"><title lang="en">Magic Hour</title>
+<sub-title lang="en">Mastering the perfect snowsport images</sub-title>
+<desc lang="en">How to best capture skiers and snowboarders? Chasing the perfect mountain light the first hour after sunrise and the last before sunset is a good place to start.</desc>
+<category lang="en">Mountaineering</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:d5a31826-0ed1-427c-a83c-5b37373719d7/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/magic-hour</url>
+<episode-num system="redbull.com">episode/rrn:content:films:d5a31826-0ed1-427c-a83c-5b37373719d7</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260205114320 +0000" stop="20260205120500 +0000" channel="10001"><title lang="en">The Obstacle Course</title>
+<sub-title lang="en">Seb Toots rides an epic winter obstacle course</sub-title>
+<desc lang="en">After going viral with his indoor obstacle trick, snowboarding legend Sébastien Toutant returns to the snow to ride a course only he could dream of in one continuous take, top to bottom.</desc>
+<category lang="en">Snowboarding</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:3052d602-7d43-4d73-aba6-7db7380793c2/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/the-obstacle-course</url>
+<episode-num system="redbull.com">episode/rrn:content:films:3052d602-7d43-4d73-aba6-7db7380793c2</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260205120500 +0000" stop="20260205125206 +0000" channel="10001"><title lang="en">Under Black Flag</title>
+<sub-title lang="en">A retrospective snowboard film – 20 years in the making</sub-title>
+<desc lang="en">Iconic snowboarders – Gigi Rüf, Marco Feichtner, Elias Elhardt and Kalle Ohlson – unveil peak performances in personal all-time video segments, joined by a stellar lineup of fellow Pirate Crew riders.</desc>
+<category lang="en">Snowboarding</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:65d694a3-6bac-425b-bea1-d5db8c0a2ef7/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/under-black-flag</url>
+<episode-num system="redbull.com">episode/rrn:content:films:65d694a3-6bac-425b-bea1-d5db8c0a2ef7</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260205125206 +0000" stop="20260205133038 +0000" channel="10001"><title lang="en">Cake</title>
+<sub-title lang="en">A Nitro Snowboards film</sub-title>
+<desc lang="en">Cake is dedicated to showcasing the current level of fun progression – how pro snowboarders like to ride for fun – and hopefully motivating you to get out and go snowboarding with your friends!</desc>
+<category lang="en">Snowboarding</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:9741a612-4882-42bc-9062-76cb396b875d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/cake</url>
+<episode-num system="redbull.com">episode/rrn:content:films:9741a612-4882-42bc-9062-76cb396b875d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260205133038 +0000" stop="20260205145855 +0000" channel="10001"><title lang="en">Layers</title>
+<sub-title lang="en">The unintentional culture of snowboarding</sub-title>
+<desc lang="en">Go in search of what makes snowboarding more than just a sport, as we journey through some of the most well-known and unknown snowboarding locations, and meet communities and their local heroes.</desc>
+<category lang="en">Snowboarding</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:c997c194-0319-405d-937e-063c507191aa/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/layers</url>
+<episode-num system="redbull.com">episode/rrn:content:films:c997c194-0319-405d-937e-063c507191aa</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260205145855 +0000" stop="20260205151820 +0000" channel="10001"><title lang="en">Plug &amp; Play</title>
+<sub-title lang="en">From Torin Yater-Wallace and the Deviate Films crew</sub-title>
+<desc lang="en">The fourth film from Deviate Films and The Lodge follows Torin Yater-Wallace, Birk Irving and the rest of the Deviate crew from the backcountry of British Columbia to the frozen streets of Minnesota.</desc>
+<category lang="en">Skiing</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:17c576c5-cd00-471d-876d-8d32c273a31e/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/plug-and-play</url>
+<episode-num system="redbull.com">episode/rrn:content:films:17c576c5-cd00-471d-876d-8d32c273a31e</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260205151820 +0000" stop="20260205160136 +0000" channel="10001"><title lang="en">Nexus</title>
+<sub-title lang="en">The all-female ski film</sub-title>
+<desc lang="en">Follow five groups of women to uncover their connection to the mountains and see how skiing is a refuge that helps foster their deepest relationships.</desc>
+<category lang="en">Skiing</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:9fb2e947-b8ac-45e3-819a-068b54481d74/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/nexus</url>
+<episode-num system="redbull.com">episode/rrn:content:films:9fb2e947-b8ac-45e3-819a-068b54481d74</episode-num>
 <rating system="Red Bull TV">
 <value>NR</value>
 </rating>
