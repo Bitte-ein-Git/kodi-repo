@@ -1,5 +1,30 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="plugin.video.amazon-test" name="[COLOR cornflowerblue]Prime Video[/COLOR]" version="1.1.9~beta1+matrix.1" provider-name="Bitte ein Git!, Sandmann79, Varstahl">
+<addons><addon id="heyfordy.video.xship" version="fordy-18.01.26" name="[COLOR white]» [/COLOR][COLOR goldenrod]xShip[/COLOR][COLOR red]+[/COLOR]" provider-name="Bitte ein Git!">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.download-m3u8" optional="true" />
+        <import addon="script.module.six" />
+        <import addon="script.module.pyaes" />
+        <import addon="script.module.infotagger" />
+        <import addon="script.module.resolveurl" version="5.1.100" />
+        
+        <import addon="script.module.pydevd" optional="true" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="de_DE">xShip - kodi.heyfordy.de tweaked</summary>
+        <summary lang="en_GB">xShip - kodi.heyfordy.de tweaked</summary>
+        <assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<banner>resources/media/banner.png</banner>
+		</assets>
+    </extension>
+</addon><addon id="plugin.video.amazon-test" name="[COLOR cornflowerblue]Prime Video[/COLOR]" version="1.1.9~beta1+matrix.1" provider-name="Bitte ein Git!, Sandmann79, Varstahl">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.beautifulsoup4" version="4.6.3+matrix.1" />
@@ -71,7 +96,7 @@
 - fixed: Rubrik = Neue Sendungen (Serien), Sortierung nach Datum der neuesten Serien-Episode (absteigend)
 		</news>
 	</extension>
-</addon><addon id="plugin.video.jellyfin" name="Jellyfin" version="1.1.1+py3" provider-name="Jellyfin Contributors">
+</addon><addon id="plugin.video.jellyfin" name="[COLOR crimson]» Fordy-Media[/COLOR]" version="99.1.1+py3" provider-name="Bitte ein Git!">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.requests" version="2.22.0+matrix.1" />
@@ -82,7 +107,7 @@
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video audio image</provides>
   </extension>
-  <extension point="xbmc.service" library="service.py" start="login">
+  <extension point="xbmc.service" library="service.py" start="startup">
 	</extension>
   <extension point="kodi.context.item">
     <menu id="kodi.core.main">
@@ -108,7 +133,7 @@
     <forum>https://forum.jellyfin.org</forum>
     <website>https://jellyfin.org/</website>
     <source>https://github.com/jellyfin/jellyfin-kodi</source>
-    <summary lang="en" />
+    <summary lang="en_GB">Fork - addon name/ui changed</summary>
     <description lang="en">Welcome to Jellyfin for Kodi!
 A whole new way to manage and view your media library. The Jellyfin addon for Kodi combines the best of Kodi - ultra smooth navigation, beautiful UIs and playback of any file under the sun, and Jellyfin - the most powerful fully open source multi-client media metadata indexer and server.
 
@@ -264,7 +289,7 @@ CI &amp; build changes
 - added: Timeshift-Funktion zu-/ab-schaltbar für TV-Live und EventStreams (settings: default=abgeschaltet)
 		</news>
 	</extension>
-</addon><addon id="plugin.video.xship" version="2026.01.18" name="[COLOR goldenrod]» xShip[/COLOR]" provider-name="Bitte ein Git!">
+</addon><addon id="plugin.video.xship" version="2026.01.18" name="[COLOR goldenrod]» xShip[/COLOR][COLOR red]+[/COLOR]" provider-name="Bitte ein Git!">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />

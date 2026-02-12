@@ -1,0 +1,9 @@
+{
+    "name": "[COLOR goldenrod]xShip[/COLOR][COLOR red]+[/COLOR]",
+    "plugin": "plugin.video.xship",
+    "priority": 1,
+    "is_resolvable": "false",
+    "play_movie": "plugin://plugin.video.xship/?action=playExtern&title={title}&year={year}&imdbnumber={imdb}&season=0&episode=0&title={originaltitle}&poster={poster}&plot={de_plot}",
+    "play_episode": "plugin://plugin.video.xship/?action=playExtern&title={clearname}&year={year}&imdbnumber={imdb}&season={season}&episode={episode}&title={showname}&poster={poster}&plot={de_plot}",
+    "requires_ids": true
+}
