@@ -28,6 +28,7 @@ jobs:
           from lxml import etree
           import os
 
+          # channel mapping for m3u
           m3u_channels = {
               "Das Erste.de": "Das Erste FHD",
               "ZDF.de": "ZDF HD",
@@ -37,13 +38,16 @@ jobs:
               "tagesschau24.de": "Tagesschau24 HD",
               "ZDFinfo.de": "ZDFinfo HD",
               "Red Bull TV.de": "Red Bull TV FHD",
-              "10001": "Red Bull TV FHD (English)",
+              "10001": "Red Bull TV (English) FHD",
               "More Than Sports TV.de": "More Than Sports TV FHD",
               "WELT.de": "WELT FHD",
               "Welt der Wunder.de": "Welt der Wunder FHD",
-              "SWR Fernsehen RP.de": "SWR Rheinland-Pfalz FHD"
+              "SWR Fernsehen RP.de": "SWR Rheinland-Pfalz FHD",
+              "RTLTeleLuxembourg.lu": "RTL Tele Luxembourg HD",
+              "RTL.Zwee.lu": "RTL Zwee HD"
           }
 
+          # source id mapping
           source_map = {
               "Das Erste.de": ("de", "Das Erste.de"),
               "ZDF.de": ("de", "ZDF.de"),
@@ -57,22 +61,28 @@ jobs:
               "More Than Sports TV.de": ("de", "More Than Sports TV.de"),
               "WELT.de": ("de", "WELT.de"),
               "Welt der Wunder.de": ("de", "Welt der Wunder.de"),
-              "SWR Fernsehen RP.de": ("de", "SWR Fernsehen RP.de")
+              "SWR Fernsehen RP.de": ("de", "SWR Fernsehen RP.de"),
+              "RTLTeleLuxembourg.lu": ("lu", "RTLTeleLuxembourg.lu"),
+              "RTL.Zwee.lu": ("lu", "RTL.Zwee.lu")
           }
           
+          # source urls
           urls = {
               "de": "https://www.open-epg.com/files/germany3.xml",
-              "en": "https://nzxmltv.com/iptv/redbull.xml"
+              "en": "https://nzxmltv.com/iptv/redbull.xml",
+              "lu": "https://www.open-epg.com/files/luxembourg1.xml"
           }
 
           allowed_tags = {"title","sub-title","desc","icon","url","category","date","credits","director","actor","episode-num","rating"}
 
+          # download xml content
           def fetch_xml(url):
               print(f"[fetch] {url}")
               r = requests.get(url, timeout=30)
               r.raise_for_status()
               return etree.fromstring(r.content)
 
+          # create channel tag
           def copy_channel_element(target_id, display_name, src_icon_url):
               ch = etree.Element("channel", id=target_id)
               dn = etree.SubElement(ch, "display-name")
@@ -82,6 +92,7 @@ jobs:
                   ic.set("src", src_icon_url)
               return ch
 
+          # create programme tag
           def copy_programme(src_prog, target_channel_id):
               prog = etree.Element("programme")
               for attr in ("start","stop","channel"):
@@ -106,6 +117,7 @@ jobs:
 
           tv = etree.Element("tv", attrib={"generator-info-name":"custom-merge-script-v5"})
 
+          # extract channel icons
           source_icons = {}
           for key, tree in trees.items():
               if tree is None: continue
@@ -116,6 +128,7 @@ jobs:
                       if icon is not None and icon.get("src"):
                           source_icons[(key, src_id)] = icon.get("src")
 
+          # process mappings
           for final_id, nice_name in m3u_channels.items():
               src_key, src_id = source_map.get(final_id, (None, None))
               
@@ -139,6 +152,7 @@ jobs:
                       new_prog = copy_programme(prog, final_id)
                       tv.append(new_prog)
 
+          # write output file
           tree_out = etree.ElementTree(tv)
           out_path = "iptv/guide.xml"
           os.makedirs(os.path.dirname(out_path), exist_ok=True)

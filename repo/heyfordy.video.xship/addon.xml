@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="heyfordy.video.xship" version="fordy-18.01.26" name="[COLOR white]» [/COLOR][COLOR goldenrod]xShip[/COLOR][COLOR red]+[/COLOR]" provider-name="Bitte ein Git!">
+<addon id="plugin.video.xship" version="fordy-18.01.26" name="[COLOR white]» [/COLOR][COLOR goldenrod]xShip[/COLOR][COLOR red]+[/COLOR]" provider-name="Bitte ein Git!">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />

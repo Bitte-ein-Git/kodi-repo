@@ -2,17 +2,18 @@ import requests, uuid, json, os, sys
 from datetime import datetime, timedelta
 from lxml import etree
 
-# Konfiguration
+# configuration
 DAYS_TO_GRAB = 3
 REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 OUTPUT_XML = os.path.join(REPO_ROOT, "iptv", "magenta.xml")
 os.makedirs(os.path.dirname(OUTPUT_XML), exist_ok=True)
 
-# URLs und Header
+# api endpoints
 AUTH_URL = 'https://api.prod.sngtv.magentatv.de/EPG/JSON/Authenticate'
 CHLIST_URL = 'https://api.prod.sngtv.magentatv.de/EPG/JSON/AllChannel'
 EPG_URL = 'https://api.prod.sngtv.magentatv.de/EPG/JSON/PlayBillList?userContentFilter=241221015&sessionArea=1&SID=ottall&T=PC_firefox_75'
 
+# request headers
 HEADERS = {
     'Host': 'api.prod.sngtv.magentatv.de',
     'origin': 'https://web.magentatv.de',
@@ -25,10 +26,11 @@ HEADERS = {
     'Upgrade-Insecure-Requests': '1'
 }
 
+# log status message
 def log(msg):
     print(f"[{datetime.now().isoformat()}] {msg}", file=sys.stderr)
 
-# Authentifizierung
+# handle authentication
 def authenticate():
     log("Authentifiziere bei MagentaTV...")
     mac = str(uuid.uuid4())
@@ -49,7 +51,7 @@ def authenticate():
     log("Authentifizierung abgeschlossen.")
     return session
 
-# Kanalliste abrufen
+# fetch channel list
 def get_channels(session):
     log("Lade Kanalliste...")
     payload = {
@@ -62,17 +64,17 @@ def get_channels(session):
     log(f"{len(channels)} Kanäle gefunden.")
     return channels
 
-# EPG-Daten abrufen
+# fetch program data
 def get_epg(session, content_id, start, end):
     payload = {
         "channelid": content_id, "type": "2", "offset": "0", "count": "-1", "isFillProgram": "1",
-        "properties": '[{"name":"playbill","include":"name,starttime,endtime,introduce"}]',
+        "properties": '[{"name":"playbill","include":"name,subname,starttime,endtime,introduce,productionyear,seasonnum,episodenum"}]',
         "begintime": start, "endtime": end
     }
     r = session.post(EPG_URL, json=payload, headers=HEADERS)
     return r.json().get("playbilllist", [])
 
-# XMLTV schreiben
+# generate xmltv file
 def write_xmltv(channels, epg_data):
     log("Schreibe XMLTV-Datei...")
     tv = etree.Element("tv")
@@ -85,14 +87,32 @@ def write_xmltv(channels, epg_data):
             start = prog.get("starttime", "").replace(" ", "").replace("-", "").replace(":", "")
             end = prog.get("endtime", "").replace(" ", "").replace("-", "").replace(":", "")
             prog_elem = etree.SubElement(tv, "programme", start=start, stop=end, channel=ch["name"])
+            
+            # basic metadata
             etree.SubElement(prog_elem, "title", lang="de").text = prog.get("name", "")
+            
+            if prog.get("subname"):
+                etree.SubElement(prog_elem, "sub-title", lang="de").text = prog.get("subname", "")
+            
             etree.SubElement(prog_elem, "desc", lang="de").text = prog.get("introduce", "")
+            
+            # extra metadata
+            if prog.get("productionyear"):
+                etree.SubElement(prog_elem, "date").text = str(prog.get("productionyear"))
+                
+            s = prog.get("seasonnum")
+            e = prog.get("episodenum")
+            if s or e:
+                sn = s if s else "?"
+                en = e if e else "?"
+                ep_text = f"S{sn} E{en}"
+                etree.SubElement(prog_elem, "episode-num", system="onscreen").text = ep_text
 
     tree = etree.ElementTree(tv)
     tree.write(OUTPUT_XML, encoding="utf-8", xml_declaration=True, pretty_print=True)
     log(f"✅ EPG gespeichert unter: {OUTPUT_XML}")
 
-# Hauptlogik
+# main execution
 def main():
     log("📺 Starte Magenta EPG Updater...")
     session = authenticate()
