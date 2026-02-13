@@ -2830,7 +2830,7 @@
     <episode-num system="xmltv_ns">6.1.</episode-num>
   </programme>
   <channel id="10001">
-    <display-name>Red Bull TV FHD (English)</display-name>
+    <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
   <programme start="20260212134738 +0000" stop="20260212145904 +0000" channel="10001"><title lang="en">Yeah Right!</title>
@@ -4560,4 +4560,10 @@
     <desc>Pfarrer Braun wird ins beschauliche Stadtchen Ribbeck im Havelland versetzt. In dieser protestantischen Hochburg ist echte Missionsarbeit gefragt. Doch dazu kommt es nicht: Kaum betritt der Hobbyermittler die evangelische Kirche, da bricht der protestantische Pastor Lehmkuhl wahrend der Predigt tot zusammen. Braun hat sofort den Verdacht, dass sein Kollege vergiftet wurde - und nimmt erst einmal eine ordentliche Prise Schnupftabak.</desc>
     <episode-num system="xmltv_ns">.13.</episode-num>
   </programme>
+  <channel id="RTLTeleLuxembourg.lu">
+    <display-name>RTL Tele Luxembourg HD</display-name>
+  </channel>
+  <channel id="RTL.Zwee.lu">
+    <display-name>RTL Zwee HD</display-name>
+  </channel>
 </tv>
