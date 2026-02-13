@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<addon id="plugin.video.jellyfin" name="[COLOR crimson]» Fordy-Media[/COLOR]" version="99.1.1+py3" provider-name="Bitte ein Git!">
+<?xml version='1.0' encoding='UTF-8'?>
+<addon id="plugin.video.jellyfin" name="Jellyfin" version="1.1.1+py3" provider-name="Jellyfin Contributors">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.requests" version="2.22.0+matrix.1" />
@@ -10,7 +10,7 @@
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video audio image</provides>
   </extension>
-  <extension point="xbmc.service" library="service.py" start="startup">
+  <extension point="xbmc.service" library="service.py" start="login">
 	</extension>
   <extension point="kodi.context.item">
     <menu id="kodi.core.main">
@@ -36,7 +36,7 @@
     <forum>https://forum.jellyfin.org</forum>
     <website>https://jellyfin.org/</website>
     <source>https://github.com/jellyfin/jellyfin-kodi</source>
-    <summary lang="en_GB">Fork - addon name/ui changed</summary>
+    <summary lang="en" />
     <description lang="en">Welcome to Jellyfin for Kodi!
 A whole new way to manage and view your media library. The Jellyfin addon for Kodi combines the best of Kodi - ultra smooth navigation, beautiful UIs and playback of any file under the sun, and Jellyfin - the most powerful fully open source multi-client media metadata indexer and server.
 
