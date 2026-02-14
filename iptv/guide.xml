@@ -3008,521 +3008,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20260212134738 +0000" stop="20260212145904 +0000" channel="10001"><title lang="en">Yeah Right!</title>
-<sub-title lang="en">The influential film from Girl Skateboards</sub-title>
-<desc lang="en">Starring Eric Koston, Paul Rodriguez, Mike Carroll and more, Yeah Right! – the 2003 skateboarding video from Girl Skateboards – is widely considered one of the most influential skate films of all time. </desc>
-<category lang="en">Skateboarding</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:83d08059-14fb-4934-b224-14b7748169f8/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/yeah-right</url>
-<episode-num system="redbull.com">episode/rrn:content:films:83d08059-14fb-4934-b224-14b7748169f8</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260212145904 +0000" stop="20260212154247 +0000" channel="10001"><title lang="en">Red Bull Soapbox Race</title>
-<sub-title lang="en">Spa, Belgium</sub-title>
-<desc lang="en">Fearless teams race through obstacles in their engineless machines. The day brings many cheers from the enthusiastic crowds – as well as many crashes! So who will be the 2022 winner in Spa?</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-2022-season-e3</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:f5f06b73-7e4a-4211-b3a1-cc7e9c9a80c3</episode-num>
-<episode-num system="xmltv_ns">9.2.0</episode-num>
-<episode-num system="original-air-date">2023-10-08 05:05:33</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260212154247 +0000" stop="20260212162702 +0000" channel="10001"><title lang="en">Red Bull Soapbox Race</title>
-<sub-title lang="en">Dallas, Texas, USA</sub-title>
-<desc lang="en">Red Bull Soapbox Race returned to Dallas, Texas, for the first time since 2012. Over the years, vehicles have ranged from realistic replicas to anything the imagination can conjure up.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-2019-season-e4</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:446250f5-c052-4808-b5a4-cc8f80d60d17</episode-num>
-<episode-num system="xmltv_ns">8.3.0</episode-num>
-<episode-num system="original-air-date">2023-07-30 14:00:40</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260212162702 +0000" stop="20260212163509 +0000" channel="10001"><title lang="en">Winter Heroes</title>
-<sub-title lang="en">Joep Wennemars</sub-title>
-<desc lang="en">With a world champion father, the Netherlands’ Joep Wennemars comes from speed skating royalty. The 23-year-old is now coming into his own, and his 2025 world title in the 1000m is just the beginning.</desc>
-<category lang="en">Ice Skating</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e6</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:9dcd0bba-d907-41fc-8c48-cf78216507bf</episode-num>
-<episode-num system="xmltv_ns">0.5.0</episode-num>
-<episode-num system="original-air-date">2026-01-10 11:01:56</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260212163509 +0000" stop="20260212164403 +0000" channel="10001"><title lang="en">Winter Heroes</title>
-<sub-title lang="en">Ryōyū Kobayashi</sub-title>
-<desc lang="en">This multi-faceted Japanese athlete landed the longest ski jump in history and has won just about every title there is, making him a legend while still in his 20s.</desc>
-<category lang="en">Ski Jumping</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e9</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:32c212d1-d2e2-4cc5-90d2-aae35f48b7e8</episode-num>
-<episode-num system="xmltv_ns">0.8.0</episode-num>
-<episode-num system="original-air-date">2026-01-10 12:52:32</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260212164403 +0000" stop="20260212165248 +0000" channel="10001"><title lang="en">Winter Heroes</title>
-<sub-title lang="en">Angel Daleman</sub-title>
-<desc lang="en">Poised to become the next idol of Dutch speed skating, Angel Daleman is a superstar in the making. With a team world championship already in hand, meet a talent on the verge of greatness.</desc>
-<category lang="en">Ice Skating</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e10</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:4a5abc2d-2ffb-4668-b3e4-2bf82fedac78</episode-num>
-<episode-num system="xmltv_ns">0.9.0</episode-num>
-<episode-num system="original-air-date">2026-01-10 11:44:57</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260212165248 +0000" stop="20260212170506 +0000" channel="10001"><title lang="en">OHMG: Mathilde Gremaud's Most Defining Season Yet</title>
-<sub-title lang="en">Staying on top</sub-title>
-<desc lang="en">Following her best season, freeskier Mathilde begins the 24/25 campaign aiming for more podium finishes to stay on top.</desc>
-<category lang="en">Freeskiing</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:d3383cd7-7c45-492c-a0c8-3722ff35c423/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/ohmg-mathilde-gremaud-most-defining-season-yet-s1-e1</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:73d6bf0a-2a7b-4fb8-9655-5abe12d67216</episode-num>
-<episode-num system="xmltv_ns">0.0.0</episode-num>
-<episode-num system="original-air-date">2026-02-09 18:47:10</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:d3383cd7-7c45-492c-a0c8-3722ff35c423</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260212170506 +0000" stop="20260212171824 +0000" channel="10001"><title lang="en">OHMG: Mathilde Gremaud's Most Defining Season Yet</title>
-<sub-title lang="en">Strength of mind</sub-title>
-<desc lang="en">Mid-season 23/24, freeskier Mathilde faces a tough choice: sacrifice her season for personal reasons or pursue her dream of winning the overall World Cup.</desc>
-<category lang="en">Freeskiing</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:d3383cd7-7c45-492c-a0c8-3722ff35c423/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/ohmg-mathilde-gremaud-most-defining-season-yet-s1-e2</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:8a7513a4-9f39-4e7d-9420-bbef6f31334e</episode-num>
-<episode-num system="xmltv_ns">0.1.0</episode-num>
-<episode-num system="original-air-date">2026-02-11 12:26:45</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:d3383cd7-7c45-492c-a0c8-3722ff35c423</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260212171824 +0000" stop="20260212172545 +0000" channel="10001"><title lang="en">Red Bull Racing Road Trips</title>
-<sub-title lang="en">David Coulthard takes Formula One to Scandinavia</sub-title>
-<desc lang="en">From rally racing with the Hansen brothers to crossing iconic bridges, Oracle Red Bull Racing embarks on a road trip through breathtaking Scandinavia with David Coulthard.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:4fb17cac-7fa3-4315-a8e7-acbaef9ba24a/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/david-coulthard-takes-f1-to-scandinavia</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:f05f4a77-3c5a-4565-a5bd-1943c90a46c9</episode-num>
-<episode-num system="xmltv_ns">2.2.0</episode-num>
-<episode-num system="original-air-date">2024-11-24 15:23:52</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:4fb17cac-7fa3-4315-a8e7-acbaef9ba24a</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260212172545 +0000" stop="20260212174753 +0000" channel="10001"><title lang="en">Crossing Tasmania</title>
-<sub-title lang="en">Payson McElveen’s latest expedition ride</sub-title>
-<desc lang="en">MTB rider Payson McElveen goes on an adventure in Tasmania, crossing Australia with a fresh mindset, free from racing pressure.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:films:66782a9e-53f5-4a13-b401-de9a15bd5a5b/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/crossing-tasmania</url>
-<episode-num system="redbull.com">episode/rrn:content:films:66782a9e-53f5-4a13-b401-de9a15bd5a5b</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260212174753 +0000" stop="20260212185418 +0000" channel="10001"><title lang="en">North of Nightfall</title>
-<sub-title lang="en">An expedition to the top of the world</sub-title>
-<desc lang="en">An elite group of mountain bikers travel to a remote island in the Canadian High Arctic. Their goal? To pioneer big mountain lines and progress their sport beyond anything the world has seen.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:films:7305d709-2ee4-544e-9a93-3a25a42a4ade/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/north-of-nightfall</url>
-<episode-num system="redbull.com">episode/rrn:content:films:7305d709-2ee4-544e-9a93-3a25a42a4ade</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260212185418 +0000" stop="20260212191937 +0000" channel="10001"><title lang="en">ABC of...</title>
-<sub-title lang="en">ABC of... BMX</sub-title>
-<desc lang="en">BMX, or Bicycle Motocross, has a long and rich history with creative riders constantly improving the sport. Get to know the ways this sport has continued to develop thanks to so many pioneers.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:6f25351b-f58a-5738-abee-3c43ecf4c5ac/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/abc-of-bmx-abc-of-s01-e17</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:18728d16-065e-5778-b49a-b0c90a0dd835</episode-num>
-<episode-num system="xmltv_ns">0.16.0</episode-num>
-<episode-num system="original-air-date">2023-09-10 11:44:26</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:6f25351b-f58a-5738-abee-3c43ecf4c5ac</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260212191937 +0000" stop="20260212202800 +0000" channel="10001"><title lang="en">Calm Beneath Castles</title>
-<sub-title lang="en">Into the minds of awe-inspiring skiers </sub-title>
-<desc lang="en">Meet the skiers driven by an insatiable thirst for adventure and discovery and explore the essence of being at one with the mountains.</desc>
-<category lang="en">Skiing</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:7d606f0a-1fe7-464e-ad7a-381b192ed058/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/calm-beneath-castles</url>
-<episode-num system="redbull.com">episode/rrn:content:films:7d606f0a-1fe7-464e-ad7a-381b192ed058</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260212202800 +0000" stop="20260212213345 +0000" channel="10001"><title lang="en">ANYTIME</title>
-<sub-title lang="en">A 2025 Emmy® Award-winning film, where epic freeride mountain biking is redefined - presented by Shimano</sub-title>
-<desc lang="en">Winner of a 2025 Emmy® Award, this generational freeride mountain bike film from Red Bull Media House and Anthill Films follows the ambitions of a small group of elite riders as they attempt to redefine the frontiers of the sport.</desc>
-<category lang="en">Mountain Bike Freestyle</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:f9d7a128-fd11-4e0c-9049-77de0f9515bd/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/anytime</url>
-<episode-num system="redbull.com">episode/rrn:content:films:f9d7a128-fd11-4e0c-9049-77de0f9515bd</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260212213345 +0000" stop="20260212220651 +0000" channel="10001"><title lang="en">Schnitzel Time 2 – No Return</title>
-<sub-title lang="en">Snowboarding creativity and passion unleashed</sub-title>
-<desc lang="en">Riders push the limits of snowboarding performance and personality in the film that's a high-energy ode to the sport's creativity, skill and passion.</desc>
-<category lang="en">Snowboarding</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:15057dcc-f1df-42e9-8d64-4f9c9427bb19/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/schnitzel-time-2-no-return</url>
-<episode-num system="redbull.com">episode/rrn:content:films:15057dcc-f1df-42e9-8d64-4f9c9427bb19</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260212220651 +0000" stop="20260212225358 +0000" channel="10001"><title lang="en">Under Black Flag</title>
-<sub-title lang="en">A retrospective snowboard film – 20 years in the making</sub-title>
-<desc lang="en">Iconic snowboarders – Gigi Rüf, Marco Feichtner, Elias Elhardt and Kalle Ohlson – unveil peak performances in personal all-time video segments, joined by a stellar lineup of fellow Pirate Crew riders.</desc>
-<category lang="en">Snowboarding</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:65d694a3-6bac-425b-bea1-d5db8c0a2ef7/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/under-black-flag</url>
-<episode-num system="redbull.com">episode/rrn:content:films:65d694a3-6bac-425b-bea1-d5db8c0a2ef7</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260212225358 +0000" stop="20260212231237 +0000" channel="10001"><title lang="en">Hot Coco</title>
-<sub-title lang="en">The all-female snowboard film </sub-title>
-<desc lang="en">From eastern Canada to Iceland and Finland, this team of Burton snowboarders push the limits of their sport to showcase their creativity, style, progression and individualism.</desc>
-<category lang="en">Snowboarding</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:aeee5bb7-3490-4474-8b1d-08fe23619195/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/hot-coco</url>
-<episode-num system="redbull.com">episode/rrn:content:films:aeee5bb7-3490-4474-8b1d-08fe23619195</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260212231237 +0000" stop="20260213001900 +0000" channel="10001"><title lang="en">K2 The Impossible Descent</title>
-<sub-title lang="en">The impossible descent of K2 on skis</sub-title>
-<desc lang="en">No one had yet proved it's possible, but one ski mountaineer clicked into his bindings at an altitude of 8,611m anyway to make history. From Poland to Pakistan, Andrzej Bargiel’s descends K2 on skis.</desc>
-<category lang="en">Skiing</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:bb3a7654-b58d-4d9c-a040-0b0ba1a32e85/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/k2-the-impossible-descent</url>
-<episode-num system="redbull.com">episode/rrn:content:films:bb3a7654-b58d-4d9c-a040-0b0ba1a32e85</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260213001900 +0000" stop="20260213010205 +0000" channel="10001"><title lang="en">Red Bull Soapbox Race</title>
-<sub-title lang="en">Seattle, USA</sub-title>
-<desc lang="en">Brave teams send their homemade soapbox racers down the steepest course in Red Bull Soapbox history. In front of 40,000 fans, the teams will also have to raise the bar in creativity and showmanship.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/seattle-united-states-red-bull-soapbox-race-s02-e03</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:c8e59546-06ad-5dba-915b-7eaa70edc417</episode-num>
-<episode-num system="xmltv_ns">4.2.0</episode-num>
-<episode-num system="original-air-date">2025-05-06 23:14:34</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260213010205 +0000" stop="20260213014538 +0000" channel="10001"><title lang="en">Red Bull Soapbox Race</title>
-<sub-title lang="en">Melbourne, Australia </sub-title>
-<desc lang="en">High-speed antics at the Red Bull Soapbox Race 2022 in Melbourne, Australia, as wildly creative teams test their homemade racers, bringing crashes, laughs, and fierce competition down under.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-2023-season-e2</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:758b6e50-970d-4fd4-a7a3-284c9e7f023a</episode-num>
-<episode-num system="xmltv_ns">10.1.0</episode-num>
-<episode-num system="original-air-date">2025-02-22 22:46:57</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260213014538 +0000" stop="20260213021209 +0000" channel="10001"><title lang="en">ABC of...</title>
-<sub-title lang="en">ABC of... Mountain Biking</sub-title>
-<desc lang="en">Rob Warner gives a master class in all things mountain biking, from terminology and disciplines to history and heroes of the sport – a must for anyone looking to test their mettle in the world of MTB.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:6f25351b-f58a-5738-abee-3c43ecf4c5ac/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/abc-of-mountain-biking-abc-of-s01-e07</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:c45e932d-d37b-5ba9-b23e-391d4ad233f6</episode-num>
-<episode-num system="xmltv_ns">0.6.0</episode-num>
-<episode-num system="original-air-date">2023-05-14 05:27:53</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:6f25351b-f58a-5738-abee-3c43ecf4c5ac</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260213021209 +0000" stop="20260213025745 +0000" channel="10001"><title lang="en">Beyond the Line</title>
-<sub-title lang="en">How to build the perfect mountain bike team</sub-title>
-<desc lang="en">Rob Warner and Eliot Jackson talk with industry pros on building the ultimate DH team, cyclist Jackson Goldstone shares his recovery from injury, and XCO’s Emily Batty explores new training methods.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:cd45a4bf-16b4-4690-a3af-f43391b6beb3/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/beyond-the-line-s2-e2</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:699b8573-9db3-44f8-b2d4-bfadfe91f4fe</episode-num>
-<episode-num system="xmltv_ns">1.1.0</episode-num>
-<episode-num system="original-air-date">2024-07-22 06:03:37</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:cd45a4bf-16b4-4690-a3af-f43391b6beb3</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260213025745 +0000" stop="20260213034400 +0000" channel="10001"><title lang="en">Saya Sakakibara: Ride to Redemption</title>
-<sub-title lang="en">From heartbreak to glory: One BMX racer's comeback</sub-title>
-<desc lang="en">The life, career and resilience of BMX athlete Saya Sakakibara. After her brother Kai’s life-altering injury, Saya is determined to honour his legacy and achieve success as she prepares for Paris.</desc>
-<category lang="en">Bmx Racing</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:1a25b1c0-4edb-4672-9a50-a457b8907d82/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/saya-sakakibara-ride-to-redemption</url>
-<episode-num system="redbull.com">episode/rrn:content:films:1a25b1c0-4edb-4672-9a50-a457b8907d82</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260213034400 +0000" stop="20260213040859 +0000" channel="10001"><title lang="en">Encouraged</title>
-<sub-title lang="en">Courage Adams returns home to Nigeria</sub-title>
-<desc lang="en">Courage Adams started riding BMX aged just 12. By 16, he’d already turned pro, taken the BMX world by storm and made the most of his parents' bold move. Now, he returns to his roots in Nigeria.</desc>
-<category lang="en">Bmx</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:cf69ff80-b0bc-4683-b62a-1d0c4718927f/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/courage-adams-encouraged-bmx-film</url>
-<episode-num system="redbull.com">episode/rrn:content:films:cf69ff80-b0bc-4683-b62a-1d0c4718927f</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260213040859 +0000" stop="20260213051828 +0000" channel="10001"><title lang="en">The Old World</title>
-<sub-title lang="en">A cinematic celebration of European biking culture</sub-title>
-<desc lang="en">Bridging the gap between mountain biking and BMX, The Old World shines a spotlight on the European riders dominating the world stage, from the rough the fjords of Norway to the Scottish Highlands.</desc>
-<category lang="en">Bmx</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:047f7b3f-fb9a-49c9-beb2-de8a0b58963d/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/the-old-world</url>
-<episode-num system="redbull.com">episode/rrn:content:films:047f7b3f-fb9a-49c9-beb2-de8a0b58963d</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260213051828 +0000" stop="20260213052549 +0000" channel="10001"><title lang="en">Red Bull Racing Road Trips</title>
-<sub-title lang="en">David Coulthard takes Formula One to Scandinavia</sub-title>
-<desc lang="en">From rally racing with the Hansen brothers to crossing iconic bridges, Oracle Red Bull Racing embarks on a road trip through breathtaking Scandinavia with David Coulthard.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:4fb17cac-7fa3-4315-a8e7-acbaef9ba24a/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/david-coulthard-takes-f1-to-scandinavia</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:f05f4a77-3c5a-4565-a5bd-1943c90a46c9</episode-num>
-<episode-num system="xmltv_ns">2.2.0</episode-num>
-<episode-num system="original-air-date">2024-11-24 15:23:52</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:4fb17cac-7fa3-4315-a8e7-acbaef9ba24a</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260213052549 +0000" stop="20260213060000 +0000" channel="10001"><title lang="en">Schnitzel Time 2 – No Return</title>
-<sub-title lang="en">Snowboarding creativity and passion unleashed</sub-title>
-<desc lang="en">Riders push the limits of snowboarding performance and personality in the film that's a high-energy ode to the sport's creativity, skill and passion.</desc>
-<category lang="en">Snowboarding</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:15057dcc-f1df-42e9-8d64-4f9c9427bb19/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/schnitzel-time-2-no-return</url>
-<episode-num system="redbull.com">episode/rrn:content:films:15057dcc-f1df-42e9-8d64-4f9c9427bb19</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260213060000 +0000" stop="20260213064222 +0000" channel="10001"><title lang="en">Fleeting Time</title>
-<sub-title lang="en">Storm chasing with pro snowboarders</sub-title>
-<desc lang="en">Doing what snowboarders do best: searching for epic adventure. Ben Ferguson and an elite crew of pro snowboarders document two winters of chasing storms.</desc>
-<category lang="en">Snowboarding</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:0f47f49c-e218-4c35-8af9-8c8014285b7f/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/fleeting-time</url>
-<episode-num system="redbull.com">episode/rrn:content:films:0f47f49c-e218-4c35-8af9-8c8014285b7f</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260213064222 +0000" stop="20260213070645 +0000" channel="10001"><title lang="en">Highway Seventy-Three</title>
-<sub-title lang="en">In search of New Zealand's untouched lines </sub-title>
-<desc lang="en">The Great Alpine Highway is a stretch of road providing access to some of New Zealand's biggest terrain. Follow five pro skiers as they pile into a converted bus, in search of untouched lines to ski.</desc>
-<category lang="en">Skiing</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:6aa961cc-35c4-40b3-9bbf-58c794c743e8/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/highway-seventy-three</url>
-<episode-num system="redbull.com">episode/rrn:content:films:6aa961cc-35c4-40b3-9bbf-58c794c743e8</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260213070645 +0000" stop="20260213081636 +0000" channel="10001"><title lang="en">Anywhere from Here</title>
-<sub-title lang="en">Freestyle skiing through the eyes of a child prodigy</sub-title>
-<desc lang="en">Just 11-years-old and already a freestyle phenomenon. Explore the opportunities of the skiing world through the eyes of Walker Woodring – a kid who just wants to play and not worry about 'real life' quite yet.</desc>
-<category lang="en">Freestyle Skiing</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:80decae7-c64f-4374-b836-b6a8f5fe249a/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/anywhere-from-here</url>
-<episode-num system="redbull.com">episode/rrn:content:films:80decae7-c64f-4374-b836-b6a8f5fe249a</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260213081636 +0000" stop="20260213083816 +0000" channel="10001"><title lang="en">The Obstacle Course</title>
-<sub-title lang="en">Seb Toots rides an epic winter obstacle course</sub-title>
-<desc lang="en">After going viral with his indoor obstacle trick, snowboarding legend Sébastien Toutant returns to the snow to ride a course only he could dream of in one continuous take, top to bottom.</desc>
-<category lang="en">Snowboarding</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:3052d602-7d43-4d73-aba6-7db7380793c2/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/the-obstacle-course</url>
-<episode-num system="redbull.com">episode/rrn:content:films:3052d602-7d43-4d73-aba6-7db7380793c2</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260213083816 +0000" stop="20260213090419 +0000" channel="10001"><title lang="en">ABC of...</title>
-<sub-title lang="en">ABC of... Skateboarding</sub-title>
-<desc lang="en">See how skateboarding is all about self-expression through the sport's history, from the pioneers of sidewalk surfing to today's top skateboarders.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:6f25351b-f58a-5738-abee-3c43ecf4c5ac/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/abc-of-skateboarding-abc-of-s01-e13</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:835b1138-ae1e-5028-9cad-43b6ebaf9167</episode-num>
-<episode-num system="xmltv_ns">0.12.0</episode-num>
-<episode-num system="original-air-date">2026-02-11 07:40:51</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:6f25351b-f58a-5738-abee-3c43ecf4c5ac</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260213090419 +0000" stop="20260213113607 +0000" channel="10001"><title lang="en">Red Bull Hardline 2025</title>
-<sub-title lang="en">Red Bull Hardline: livestream – Australia</sub-title>
-<desc lang="en">Famous for its diverse, steep and rugged terrain, the downhill race at Tasmania's Maydena Bike Park is an invite-only event for the most progressive male and female mountain bike riders in the world.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:live-videos:074b0fc6-6598-40fa-9b39-c08c93e6e289/rbtv_display_art_portrait"/>
-<url>https://www.redbull.com/int-en/live/red-bull-hardline-australia-2025</url>
-<episode-num system="redbull.com">episode/rrn:content:live-videos:074b0fc6-6598-40fa-9b39-c08c93e6e289</episode-num>
-<episode-num system="original-air-date">2025-02-13 06:58:02</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260213113607 +0000" stop="20260213121949 +0000" channel="10001"><title lang="en">Red Bull Soapbox Race</title>
-<sub-title lang="en">Spa, Belgium</sub-title>
-<desc lang="en">Fearless teams race through obstacles in their engineless machines. The day brings many cheers from the enthusiastic crowds – as well as many crashes! So who will be the 2022 winner in Spa?</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-2022-season-e3</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:f5f06b73-7e4a-4211-b3a1-cc7e9c9a80c3</episode-num>
-<episode-num system="xmltv_ns">9.2.0</episode-num>
-<episode-num system="original-air-date">2023-10-08 05:05:33</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260213121949 +0000" stop="20260213130405 +0000" channel="10001"><title lang="en">Red Bull Soapbox Race</title>
-<sub-title lang="en">Dallas, Texas, USA</sub-title>
-<desc lang="en">Red Bull Soapbox Race returned to Dallas, Texas, for the first time since 2012. Over the years, vehicles have ranged from realistic replicas to anything the imagination can conjure up.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-2019-season-e4</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:446250f5-c052-4808-b5a4-cc8f80d60d17</episode-num>
-<episode-num system="xmltv_ns">8.3.0</episode-num>
-<episode-num system="original-air-date">2023-07-30 14:00:40</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260213130405 +0000" stop="20260213131212 +0000" channel="10001"><title lang="en">Winter Heroes</title>
-<sub-title lang="en">Joep Wennemars</sub-title>
-<desc lang="en">With a world champion father, the Netherlands’ Joep Wennemars comes from speed skating royalty. The 23-year-old is now coming into his own, and his 2025 world title in the 1000m is just the beginning.</desc>
-<category lang="en">Ice Skating</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e6</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:9dcd0bba-d907-41fc-8c48-cf78216507bf</episode-num>
-<episode-num system="xmltv_ns">0.5.0</episode-num>
-<episode-num system="original-air-date">2026-01-10 11:01:56</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260213131212 +0000" stop="20260213132105 +0000" channel="10001"><title lang="en">Winter Heroes</title>
-<sub-title lang="en">Ryōyū Kobayashi</sub-title>
-<desc lang="en">This multi-faceted Japanese athlete landed the longest ski jump in history and has won just about every title there is, making him a legend while still in his 20s.</desc>
-<category lang="en">Ski Jumping</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e9</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:32c212d1-d2e2-4cc5-90d2-aae35f48b7e8</episode-num>
-<episode-num system="xmltv_ns">0.8.0</episode-num>
-<episode-num system="original-air-date">2026-01-10 12:52:32</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260213132105 +0000" stop="20260213132951 +0000" channel="10001"><title lang="en">Winter Heroes</title>
-<sub-title lang="en">Angel Daleman</sub-title>
-<desc lang="en">Poised to become the next idol of Dutch speed skating, Angel Daleman is a superstar in the making. With a team world championship already in hand, meet a talent on the verge of greatness.</desc>
-<category lang="en">Ice Skating</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e10</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:4a5abc2d-2ffb-4668-b3e4-2bf82fedac78</episode-num>
-<episode-num system="xmltv_ns">0.9.0</episode-num>
-<episode-num system="original-air-date">2026-01-10 11:44:57</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260213132951 +0000" stop="20260213134209 +0000" channel="10001"><title lang="en">OHMG: Mathilde Gremaud's Most Defining Season Yet</title>
-<sub-title lang="en">Staying on top</sub-title>
-<desc lang="en">Following her best season, freeskier Mathilde begins the 24/25 campaign aiming for more podium finishes to stay on top.</desc>
-<category lang="en">Freeskiing</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:d3383cd7-7c45-492c-a0c8-3722ff35c423/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/ohmg-mathilde-gremaud-most-defining-season-yet-s1-e1</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:73d6bf0a-2a7b-4fb8-9655-5abe12d67216</episode-num>
-<episode-num system="xmltv_ns">0.0.0</episode-num>
-<episode-num system="original-air-date">2026-02-09 18:47:10</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:d3383cd7-7c45-492c-a0c8-3722ff35c423</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260213134209 +0000" stop="20260213135527 +0000" channel="10001"><title lang="en">OHMG: Mathilde Gremaud's Most Defining Season Yet</title>
-<sub-title lang="en">Strength of mind</sub-title>
-<desc lang="en">Mid-season 23/24, freeskier Mathilde faces a tough choice: sacrifice her season for personal reasons or pursue her dream of winning the overall World Cup.</desc>
-<category lang="en">Freeskiing</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:d3383cd7-7c45-492c-a0c8-3722ff35c423/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/ohmg-mathilde-gremaud-most-defining-season-yet-s1-e2</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:8a7513a4-9f39-4e7d-9420-bbef6f31334e</episode-num>
-<episode-num system="xmltv_ns">0.1.0</episode-num>
-<episode-num system="original-air-date">2026-02-11 12:26:45</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:d3383cd7-7c45-492c-a0c8-3722ff35c423</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260213135527 +0000" stop="20260213140324 +0000" channel="10001"><title lang="en">Red Bull Racing Road Trips</title>
-<sub-title lang="en">David Coulthard takes Formula One to Scandinavia</sub-title>
-<desc lang="en">From rally racing with the Hansen brothers to crossing iconic bridges, Oracle Red Bull Racing embarks on a road trip through breathtaking Scandinavia with David Coulthard.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:4fb17cac-7fa3-4315-a8e7-acbaef9ba24a/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/david-coulthard-takes-f1-to-scandinavia</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:f05f4a77-3c5a-4565-a5bd-1943c90a46c9</episode-num>
-<episode-num system="xmltv_ns">2.2.0</episode-num>
-<episode-num system="original-air-date">2024-11-24 15:23:52</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:4fb17cac-7fa3-4315-a8e7-acbaef9ba24a</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260213140324 +0000" stop="20260213142456 +0000" channel="10001"><title lang="en">Crossing Tasmania</title>
-<sub-title lang="en">Payson McElveen’s latest expedition ride</sub-title>
-<desc lang="en">MTB rider Payson McElveen goes on an adventure in Tasmania, crossing Australia with a fresh mindset, free from racing pressure.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:films:66782a9e-53f5-4a13-b401-de9a15bd5a5b/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/crossing-tasmania</url>
-<episode-num system="redbull.com">episode/rrn:content:films:66782a9e-53f5-4a13-b401-de9a15bd5a5b</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
   <programme start="20260213142456 +0000" stop="20260213153121 +0000" channel="10001"><title lang="en">North of Nightfall</title>
 <sub-title lang="en">An expedition to the top of the world</sub-title>
 <desc lang="en">An elite group of mountain bikers travel to a remote island in the Canadian High Arctic. Their goal? To pioneer big mountain lines and progress their sport beyond anything the world has seen.</desc>
@@ -3553,6 +3038,462 @@
 <icon src="https://resources.redbull.tv/rrn:content:films:7d606f0a-1fe7-464e-ad7a-381b192ed058/rbtv_cover_art_portrait"/>
 <url>https://www.redbull.com/int-en/films/calm-beneath-castles</url>
 <episode-num system="redbull.com">episode/rrn:content:films:7d606f0a-1fe7-464e-ad7a-381b192ed058</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260213170502 +0000" stop="20260213181047 +0000" channel="10001"><title lang="en">ANYTIME</title>
+<sub-title lang="en">A 2025 Emmy® Award-winning film, where epic freeride mountain biking is redefined - presented by Shimano</sub-title>
+<desc lang="en">Winner of a 2025 Emmy® Award, this generational freeride mountain bike film from Red Bull Media House and Anthill Films follows the ambitions of a small group of elite riders as they attempt to redefine the frontiers of the sport.</desc>
+<category lang="en">Mountain Bike Freestyle</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:f9d7a128-fd11-4e0c-9049-77de0f9515bd/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/anytime</url>
+<episode-num system="redbull.com">episode/rrn:content:films:f9d7a128-fd11-4e0c-9049-77de0f9515bd</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260213181047 +0000" stop="20260213184354 +0000" channel="10001"><title lang="en">Schnitzel Time 2 – No Return</title>
+<sub-title lang="en">Snowboarding creativity and passion unleashed</sub-title>
+<desc lang="en">Riders push the limits of snowboarding performance and personality in the film that's a high-energy ode to the sport's creativity, skill and passion.</desc>
+<category lang="en">Snowboarding</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:15057dcc-f1df-42e9-8d64-4f9c9427bb19/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/schnitzel-time-2-no-return</url>
+<episode-num system="redbull.com">episode/rrn:content:films:15057dcc-f1df-42e9-8d64-4f9c9427bb19</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260213184354 +0000" stop="20260213193100 +0000" channel="10001"><title lang="en">Under Black Flag</title>
+<sub-title lang="en">A retrospective snowboard film – 20 years in the making</sub-title>
+<desc lang="en">Iconic snowboarders – Gigi Rüf, Marco Feichtner, Elias Elhardt and Kalle Ohlson – unveil peak performances in personal all-time video segments, joined by a stellar lineup of fellow Pirate Crew riders.</desc>
+<category lang="en">Snowboarding</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:65d694a3-6bac-425b-bea1-d5db8c0a2ef7/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/under-black-flag</url>
+<episode-num system="redbull.com">episode/rrn:content:films:65d694a3-6bac-425b-bea1-d5db8c0a2ef7</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260213193100 +0000" stop="20260213194939 +0000" channel="10001"><title lang="en">Hot Coco</title>
+<sub-title lang="en">The all-female snowboard film </sub-title>
+<desc lang="en">From eastern Canada to Iceland and Finland, this team of Burton snowboarders push the limits of their sport to showcase their creativity, style, progression and individualism.</desc>
+<category lang="en">Snowboarding</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:aeee5bb7-3490-4474-8b1d-08fe23619195/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/hot-coco</url>
+<episode-num system="redbull.com">episode/rrn:content:films:aeee5bb7-3490-4474-8b1d-08fe23619195</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260213194939 +0000" stop="20260213205602 +0000" channel="10001"><title lang="en">K2 The Impossible Descent</title>
+<sub-title lang="en">The impossible descent of K2 on skis</sub-title>
+<desc lang="en">No one had yet proved it's possible, but one ski mountaineer clicked into his bindings at an altitude of 8,611m anyway to make history. From Poland to Pakistan, Andrzej Bargiel’s descends K2 on skis.</desc>
+<category lang="en">Skiing</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:bb3a7654-b58d-4d9c-a040-0b0ba1a32e85/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/k2-the-impossible-descent</url>
+<episode-num system="redbull.com">episode/rrn:content:films:bb3a7654-b58d-4d9c-a040-0b0ba1a32e85</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260213205602 +0000" stop="20260213213908 +0000" channel="10001"><title lang="en">Red Bull Soapbox Race</title>
+<sub-title lang="en">Seattle, USA</sub-title>
+<desc lang="en">Brave teams send their homemade soapbox racers down the steepest course in Red Bull Soapbox history. In front of 40,000 fans, the teams will also have to raise the bar in creativity and showmanship.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/seattle-united-states-red-bull-soapbox-race-s02-e03</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:c8e59546-06ad-5dba-915b-7eaa70edc417</episode-num>
+<episode-num system="xmltv_ns">4.2.0</episode-num>
+<episode-num system="original-air-date">2025-05-06 23:14:34</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260213213908 +0000" stop="20260213222240 +0000" channel="10001"><title lang="en">Red Bull Soapbox Race</title>
+<sub-title lang="en">Melbourne, Australia </sub-title>
+<desc lang="en">High-speed antics at the Red Bull Soapbox Race 2022 in Melbourne, Australia, as wildly creative teams test their homemade racers, bringing crashes, laughs, and fierce competition down under.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-2023-season-e2</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:758b6e50-970d-4fd4-a7a3-284c9e7f023a</episode-num>
+<episode-num system="xmltv_ns">10.1.0</episode-num>
+<episode-num system="original-air-date">2025-02-22 22:46:57</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260213222240 +0000" stop="20260213224912 +0000" channel="10001"><title lang="en">ABC of...</title>
+<sub-title lang="en">ABC of... Mountain Biking</sub-title>
+<desc lang="en">Rob Warner gives a master class in all things mountain biking, from terminology and disciplines to history and heroes of the sport – a must for anyone looking to test their mettle in the world of MTB.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:6f25351b-f58a-5738-abee-3c43ecf4c5ac/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/abc-of-mountain-biking-abc-of-s01-e07</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:c45e932d-d37b-5ba9-b23e-391d4ad233f6</episode-num>
+<episode-num system="xmltv_ns">0.6.0</episode-num>
+<episode-num system="original-air-date">2023-05-14 05:27:53</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:6f25351b-f58a-5738-abee-3c43ecf4c5ac</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260213224912 +0000" stop="20260213233448 +0000" channel="10001"><title lang="en">Beyond the Line</title>
+<sub-title lang="en">How to build the perfect mountain bike team</sub-title>
+<desc lang="en">Rob Warner and Eliot Jackson talk with industry pros on building the ultimate DH team, cyclist Jackson Goldstone shares his recovery from injury, and XCO’s Emily Batty explores new training methods.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:cd45a4bf-16b4-4690-a3af-f43391b6beb3/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/beyond-the-line-s2-e2</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:699b8573-9db3-44f8-b2d4-bfadfe91f4fe</episode-num>
+<episode-num system="xmltv_ns">1.1.0</episode-num>
+<episode-num system="original-air-date">2024-07-22 06:03:37</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:cd45a4bf-16b4-4690-a3af-f43391b6beb3</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260213233448 +0000" stop="20260214002103 +0000" channel="10001"><title lang="en">Saya Sakakibara: Ride to Redemption</title>
+<sub-title lang="en">From heartbreak to glory: One BMX racer's comeback</sub-title>
+<desc lang="en">The life, career and resilience of BMX athlete Saya Sakakibara. After her brother Kai’s life-altering injury, Saya is determined to honour his legacy and achieve success as she prepares for Paris.</desc>
+<category lang="en">Bmx Racing</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:1a25b1c0-4edb-4672-9a50-a457b8907d82/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/saya-sakakibara-ride-to-redemption</url>
+<episode-num system="redbull.com">episode/rrn:content:films:1a25b1c0-4edb-4672-9a50-a457b8907d82</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260214002103 +0000" stop="20260214004602 +0000" channel="10001"><title lang="en">Encouraged</title>
+<sub-title lang="en">Courage Adams returns home to Nigeria</sub-title>
+<desc lang="en">Courage Adams started riding BMX aged just 12. By 16, he’d already turned pro, taken the BMX world by storm and made the most of his parents' bold move. Now, he returns to his roots in Nigeria.</desc>
+<category lang="en">Bmx</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:cf69ff80-b0bc-4683-b62a-1d0c4718927f/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/courage-adams-encouraged-bmx-film</url>
+<episode-num system="redbull.com">episode/rrn:content:films:cf69ff80-b0bc-4683-b62a-1d0c4718927f</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260214004602 +0000" stop="20260214015531 +0000" channel="10001"><title lang="en">The Old World</title>
+<sub-title lang="en">A cinematic celebration of European biking culture</sub-title>
+<desc lang="en">Bridging the gap between mountain biking and BMX, The Old World shines a spotlight on the European riders dominating the world stage, from the rough the fjords of Norway to the Scottish Highlands.</desc>
+<category lang="en">Bmx</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:047f7b3f-fb9a-49c9-beb2-de8a0b58963d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/the-old-world</url>
+<episode-num system="redbull.com">episode/rrn:content:films:047f7b3f-fb9a-49c9-beb2-de8a0b58963d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260214015531 +0000" stop="20260214030738 +0000" channel="10001"><title lang="en">Magic Hour</title>
+<sub-title lang="en">Mastering the perfect snowsport images</sub-title>
+<desc lang="en">How to best capture skiers and snowboarders? Chasing the perfect mountain light the first hour after sunrise and the last before sunset is a good place to start.</desc>
+<category lang="en">Mountaineering</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:d5a31826-0ed1-427c-a83c-5b37373719d7/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/magic-hour</url>
+<episode-num system="redbull.com">episode/rrn:content:films:d5a31826-0ed1-427c-a83c-5b37373719d7</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260214030738 +0000" stop="20260214035000 +0000" channel="10001"><title lang="en">Fleeting Time</title>
+<sub-title lang="en">Storm chasing with pro snowboarders</sub-title>
+<desc lang="en">Doing what snowboarders do best: searching for epic adventure. Ben Ferguson and an elite crew of pro snowboarders document two winters of chasing storms.</desc>
+<category lang="en">Snowboarding</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:0f47f49c-e218-4c35-8af9-8c8014285b7f/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/fleeting-time</url>
+<episode-num system="redbull.com">episode/rrn:content:films:0f47f49c-e218-4c35-8af9-8c8014285b7f</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260214035000 +0000" stop="20260214041423 +0000" channel="10001"><title lang="en">Highway Seventy-Three</title>
+<sub-title lang="en">In search of New Zealand's untouched lines </sub-title>
+<desc lang="en">The Great Alpine Highway is a stretch of road providing access to some of New Zealand's biggest terrain. Follow five pro skiers as they pile into a converted bus, in search of untouched lines to ski.</desc>
+<category lang="en">Skiing</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:6aa961cc-35c4-40b3-9bbf-58c794c743e8/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/highway-seventy-three</url>
+<episode-num system="redbull.com">episode/rrn:content:films:6aa961cc-35c4-40b3-9bbf-58c794c743e8</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260214041423 +0000" stop="20260214052414 +0000" channel="10001"><title lang="en">Anywhere from Here</title>
+<sub-title lang="en">Freestyle skiing through the eyes of a child prodigy</sub-title>
+<desc lang="en">Just 11-years-old and already a freestyle phenomenon. Explore the opportunities of the skiing world through the eyes of Walker Woodring – a kid who just wants to play and not worry about 'real life' quite yet.</desc>
+<category lang="en">Freestyle Skiing</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:80decae7-c64f-4374-b836-b6a8f5fe249a/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/anywhere-from-here</url>
+<episode-num system="redbull.com">episode/rrn:content:films:80decae7-c64f-4374-b836-b6a8f5fe249a</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260214052414 +0000" stop="20260214055050 +0000" channel="10001"><title lang="en">For Reals</title>
+<sub-title lang="en">From freerunning Greek isles to skiing the Streif</sub-title>
+<desc lang="en">A gnarly shipping container BMX set-up. Freerunning in Santorini. Taking on the Streif at night. Enduro riding on a volcano. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e8</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:ff4396fb-683e-449c-a211-427bd260059d</episode-num>
+<episode-num system="xmltv_ns">0.7.0</episode-num>
+<episode-num system="original-air-date">2024-10-21 23:21:36</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260214055050 +0000" stop="20260214060000 +0000" channel="10001"><title lang="en">Winter Heroes</title>
+<sub-title lang="en">Angel Daleman</sub-title>
+<desc lang="en">Poised to become the next idol of Dutch speed skating, Angel Daleman is a superstar in the making. With a team world championship already in hand, meet a talent on the verge of greatness.</desc>
+<category lang="en">Ice Skating</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e10</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:4a5abc2d-2ffb-4668-b3e4-2bf82fedac78</episode-num>
+<episode-num system="xmltv_ns">0.9.0</episode-num>
+<episode-num system="original-air-date">2026-01-10 11:44:57</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260214060000 +0000" stop="20260214062140 +0000" channel="10001"><title lang="en">The Obstacle Course</title>
+<sub-title lang="en">Seb Toots rides an epic winter obstacle course</sub-title>
+<desc lang="en">After going viral with his indoor obstacle trick, snowboarding legend Sébastien Toutant returns to the snow to ride a course only he could dream of in one continuous take, top to bottom.</desc>
+<category lang="en">Snowboarding</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:3052d602-7d43-4d73-aba6-7db7380793c2/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/the-obstacle-course</url>
+<episode-num system="redbull.com">episode/rrn:content:films:3052d602-7d43-4d73-aba6-7db7380793c2</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260214062140 +0000" stop="20260214064707 +0000" channel="10001"><title lang="en">ABC of...</title>
+<sub-title lang="en">ABC of... Skateboarding</sub-title>
+<desc lang="en">See how skateboarding is all about self-expression through the sport's history, from the pioneers of sidewalk surfing to today's top skateboarders.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:6f25351b-f58a-5738-abee-3c43ecf4c5ac/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/abc-of-skateboarding-abc-of-s01-e13</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:835b1138-ae1e-5028-9cad-43b6ebaf9167</episode-num>
+<episode-num system="xmltv_ns">0.12.0</episode-num>
+<episode-num system="original-air-date">2026-02-11 07:40:51</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:6f25351b-f58a-5738-abee-3c43ecf4c5ac</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260214064707 +0000" stop="20260214073437 +0000" channel="10001"><title lang="en">Rolling Away</title>
+<sub-title lang="en">Ryan Sheckler’s skate epic</sub-title>
+<desc lang="en">Dive into the soul of skateboarding with Ryan Sheckler to discuss the importance of skate videos for passionate individuals to push boundaries, chase dreams, and carve their own paths on four wheels.</desc>
+<category lang="en">Skateboarding</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:829c4fad-7ec7-43d7-8195-211d1c139318/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/rolling-away</url>
+<episode-num system="redbull.com">episode/rrn:content:films:829c4fad-7ec7-43d7-8195-211d1c139318</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260214073437 +0000" stop="20260214075812 +0000" channel="10001"><title lang="en">Skate the Museum</title>
+<sub-title lang="en">Turning a museum into an epic skatepark</sub-title>
+<desc lang="en">Can you turn a museum into a skatepark? Armed with boards, ramps and Canon cameras, Leticia Bufoni, Margy Didal, Lore Bruggeman and Aldana Bertran go wild in London's Natural History Museum.</desc>
+<category lang="en">Skateboard Park</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:b96a711c-1f7b-4ab5-ab3b-6ba66c1240c3/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/skate-the-museum</url>
+<episode-num system="redbull.com">episode/rrn:content:films:b96a711c-1f7b-4ab5-ab3b-6ba66c1240c3</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260214075812 +0000" stop="20260214090938 +0000" channel="10001"><title lang="en">Yeah Right!</title>
+<sub-title lang="en">The influential film from Girl Skateboards</sub-title>
+<desc lang="en">Starring Eric Koston, Paul Rodriguez, Mike Carroll and more, Yeah Right! – the 2003 skateboarding video from Girl Skateboards – is widely considered one of the most influential skate films of all time. </desc>
+<category lang="en">Skateboarding</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:83d08059-14fb-4934-b224-14b7748169f8/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/yeah-right</url>
+<episode-num system="redbull.com">episode/rrn:content:films:83d08059-14fb-4934-b224-14b7748169f8</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260214090938 +0000" stop="20260214095321 +0000" channel="10001"><title lang="en">Red Bull Soapbox Race</title>
+<sub-title lang="en">Spa, Belgium</sub-title>
+<desc lang="en">Fearless teams race through obstacles in their engineless machines. The day brings many cheers from the enthusiastic crowds – as well as many crashes! So who will be the 2022 winner in Spa?</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-2022-season-e3</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:f5f06b73-7e4a-4211-b3a1-cc7e9c9a80c3</episode-num>
+<episode-num system="xmltv_ns">9.2.0</episode-num>
+<episode-num system="original-air-date">2023-10-08 05:05:33</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260214095321 +0000" stop="20260214103736 +0000" channel="10001"><title lang="en">Red Bull Soapbox Race</title>
+<sub-title lang="en">Dallas, Texas, USA</sub-title>
+<desc lang="en">Red Bull Soapbox Race returned to Dallas, Texas, for the first time since 2012. Over the years, vehicles have ranged from realistic replicas to anything the imagination can conjure up.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-2019-season-e4</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:446250f5-c052-4808-b5a4-cc8f80d60d17</episode-num>
+<episode-num system="xmltv_ns">8.3.0</episode-num>
+<episode-num system="original-air-date">2023-07-30 14:00:40</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260214103736 +0000" stop="20260214104543 +0000" channel="10001"><title lang="en">Winter Heroes</title>
+<sub-title lang="en">Joep Wennemars</sub-title>
+<desc lang="en">With a world champion father, the Netherlands’ Joep Wennemars comes from speed skating royalty. The 23-year-old is now coming into his own, and his 2025 world title in the 1000m is just the beginning.</desc>
+<category lang="en">Ice Skating</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e6</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:9dcd0bba-d907-41fc-8c48-cf78216507bf</episode-num>
+<episode-num system="xmltv_ns">0.5.0</episode-num>
+<episode-num system="original-air-date">2026-01-10 11:01:56</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260214104543 +0000" stop="20260214105437 +0000" channel="10001"><title lang="en">Winter Heroes</title>
+<sub-title lang="en">Ryōyū Kobayashi</sub-title>
+<desc lang="en">This multi-faceted Japanese athlete landed the longest ski jump in history and has won just about every title there is, making him a legend while still in his 20s.</desc>
+<category lang="en">Ski Jumping</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e9</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:32c212d1-d2e2-4cc5-90d2-aae35f48b7e8</episode-num>
+<episode-num system="xmltv_ns">0.8.0</episode-num>
+<episode-num system="original-air-date">2026-01-10 12:52:32</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260214105437 +0000" stop="20260214110322 +0000" channel="10001"><title lang="en">Winter Heroes</title>
+<sub-title lang="en">Angel Daleman</sub-title>
+<desc lang="en">Poised to become the next idol of Dutch speed skating, Angel Daleman is a superstar in the making. With a team world championship already in hand, meet a talent on the verge of greatness.</desc>
+<category lang="en">Ice Skating</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e10</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:4a5abc2d-2ffb-4668-b3e4-2bf82fedac78</episode-num>
+<episode-num system="xmltv_ns">0.9.0</episode-num>
+<episode-num system="original-air-date">2026-01-10 11:44:57</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260214110322 +0000" stop="20260214111540 +0000" channel="10001"><title lang="en">OHMG: Mathilde Gremaud's Most Defining Season Yet</title>
+<sub-title lang="en">Staying on top</sub-title>
+<desc lang="en">Following her best season, freeskier Mathilde begins the 24/25 campaign aiming for more podium finishes to stay on top.</desc>
+<category lang="en">Freeskiing</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:d3383cd7-7c45-492c-a0c8-3722ff35c423/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/ohmg-mathilde-gremaud-most-defining-season-yet-s1-e1</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:73d6bf0a-2a7b-4fb8-9655-5abe12d67216</episode-num>
+<episode-num system="xmltv_ns">0.0.0</episode-num>
+<episode-num system="original-air-date">2026-02-09 18:47:10</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:d3383cd7-7c45-492c-a0c8-3722ff35c423</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260214111540 +0000" stop="20260214112858 +0000" channel="10001"><title lang="en">OHMG: Mathilde Gremaud's Most Defining Season Yet</title>
+<sub-title lang="en">Strength of mind</sub-title>
+<desc lang="en">Mid-season 23/24, freeskier Mathilde faces a tough choice: sacrifice her season for personal reasons or pursue her dream of winning the overall World Cup.</desc>
+<category lang="en">Freeskiing</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:d3383cd7-7c45-492c-a0c8-3722ff35c423/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/ohmg-mathilde-gremaud-most-defining-season-yet-s1-e2</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:8a7513a4-9f39-4e7d-9420-bbef6f31334e</episode-num>
+<episode-num system="xmltv_ns">0.1.0</episode-num>
+<episode-num system="original-air-date">2026-02-11 12:26:45</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:d3383cd7-7c45-492c-a0c8-3722ff35c423</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260214112858 +0000" stop="20260214113655 +0000" channel="10001"><title lang="en">Red Bull Racing Road Trips</title>
+<sub-title lang="en">David Coulthard takes Formula One to Scandinavia</sub-title>
+<desc lang="en">From rally racing with the Hansen brothers to crossing iconic bridges, Oracle Red Bull Racing embarks on a road trip through breathtaking Scandinavia with David Coulthard.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:4fb17cac-7fa3-4315-a8e7-acbaef9ba24a/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/david-coulthard-takes-f1-to-scandinavia</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:f05f4a77-3c5a-4565-a5bd-1943c90a46c9</episode-num>
+<episode-num system="xmltv_ns">2.2.0</episode-num>
+<episode-num system="original-air-date">2024-11-24 15:23:52</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:4fb17cac-7fa3-4315-a8e7-acbaef9ba24a</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260214113655 +0000" stop="20260214120327 +0000" channel="10001"><title lang="en">ABC of...</title>
+<sub-title lang="en">ABC of... Mountain Biking</sub-title>
+<desc lang="en">Rob Warner gives a master class in all things mountain biking, from terminology and disciplines to history and heroes of the sport – a must for anyone looking to test their mettle in the world of MTB.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:6f25351b-f58a-5738-abee-3c43ecf4c5ac/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/abc-of-mountain-biking-abc-of-s01-e07</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:c45e932d-d37b-5ba9-b23e-391d4ad233f6</episode-num>
+<episode-num system="xmltv_ns">0.6.0</episode-num>
+<episode-num system="original-air-date">2023-05-14 05:27:53</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:6f25351b-f58a-5738-abee-3c43ecf4c5ac</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260214120327 +0000" stop="20260214122459 +0000" channel="10001"><title lang="en">Crossing Tasmania</title>
+<sub-title lang="en">Payson McElveen’s latest expedition ride</sub-title>
+<desc lang="en">MTB rider Payson McElveen goes on an adventure in Tasmania, crossing Australia with a fresh mindset, free from racing pressure.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:films:66782a9e-53f5-4a13-b401-de9a15bd5a5b/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/crossing-tasmania</url>
+<episode-num system="redbull.com">episode/rrn:content:films:66782a9e-53f5-4a13-b401-de9a15bd5a5b</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260214122459 +0000" stop="20260214133124 +0000" channel="10001"><title lang="en">North of Nightfall</title>
+<sub-title lang="en">An expedition to the top of the world</sub-title>
+<desc lang="en">An elite group of mountain bikers travel to a remote island in the Canadian High Arctic. Their goal? To pioneer big mountain lines and progress their sport beyond anything the world has seen.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:films:7305d709-2ee4-544e-9a93-3a25a42a4ade/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/north-of-nightfall</url>
+<episode-num system="redbull.com">episode/rrn:content:films:7305d709-2ee4-544e-9a93-3a25a42a4ade</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260214133124 +0000" stop="20260214135643 +0000" channel="10001"><title lang="en">ABC of...</title>
+<sub-title lang="en">ABC of... BMX</sub-title>
+<desc lang="en">BMX, or Bicycle Motocross, has a long and rich history with creative riders constantly improving the sport. Get to know the ways this sport has continued to develop thanks to so many pioneers.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:6f25351b-f58a-5738-abee-3c43ecf4c5ac/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/abc-of-bmx-abc-of-s01-e17</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:18728d16-065e-5778-b49a-b0c90a0dd835</episode-num>
+<episode-num system="xmltv_ns">0.16.0</episode-num>
+<episode-num system="original-air-date">2023-09-10 11:44:26</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:6f25351b-f58a-5738-abee-3c43ecf4c5ac</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260214135643 +0000" stop="20260214150506 +0000" channel="10001"><title lang="en">Calm Beneath Castles</title>
+<sub-title lang="en">Into the minds of awe-inspiring skiers </sub-title>
+<desc lang="en">Meet the skiers driven by an insatiable thirst for adventure and discovery and explore the essence of being at one with the mountains.</desc>
+<category lang="en">Skiing</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:7d606f0a-1fe7-464e-ad7a-381b192ed058/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/calm-beneath-castles</url>
+<episode-num system="redbull.com">episode/rrn:content:films:7d606f0a-1fe7-464e-ad7a-381b192ed058</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260214150506 +0000" stop="20260214161051 +0000" channel="10001"><title lang="en">ANYTIME</title>
+<sub-title lang="en">A 2025 Emmy® Award-winning film, where epic freeride mountain biking is redefined - presented by Shimano</sub-title>
+<desc lang="en">Winner of a 2025 Emmy® Award, this generational freeride mountain bike film from Red Bull Media House and Anthill Films follows the ambitions of a small group of elite riders as they attempt to redefine the frontiers of the sport.</desc>
+<category lang="en">Mountain Bike Freestyle</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:f9d7a128-fd11-4e0c-9049-77de0f9515bd/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/anytime</url>
+<episode-num system="redbull.com">episode/rrn:content:films:f9d7a128-fd11-4e0c-9049-77de0f9515bd</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260214161051 +0000" stop="20260214170303 +0000" channel="10001"><title lang="en">FIA World Rally Championship 2026</title>
+<sub-title lang="en">Rallye Monte-Carlo highlights</sub-title>
+<desc lang="en">Watch highlights from the iconic Rallye Monte-Carlo, the most unpredictable rally on the WRC calendar – thanks to the often tricky winter conditions in the French Alps.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:videos:1192e147-c042-4097-b7b9-891cdb83e0d8/rbtv_display_art_portrait"/>
+<url>https://www.redbull.com/int-en/videos/fia-world-rally-championship-2026-monte-carlo-highlights</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:1192e147-c042-4097-b7b9-891cdb83e0d8</episode-num>
+<episode-num system="original-air-date">2026-02-15 05:10:51</episode-num>
 <rating system="Red Bull TV">
 <value>NR</value>
 </rating>
