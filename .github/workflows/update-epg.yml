@@ -2,7 +2,7 @@ name: "🧰 EPG .xml Updater"
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "0 */4 * * *" # every 4h
   workflow_dispatch:
 
 jobs:
@@ -27,6 +27,7 @@ jobs:
           import requests
           from lxml import etree
           import os
+          from datetime import datetime, timedelta
 
           # channel mapping for m3u
           m3u_channels = {
@@ -82,6 +83,17 @@ jobs:
               r.raise_for_status()
               return etree.fromstring(r.content)
 
+          # adjust timestamp by hours
+          def shift_time(timestr, hours):
+              try:
+                  ts = timestr.split(" ")[0]
+                  dt = datetime.strptime(ts, "%Y%m%d%H%M%S")
+                  dt += timedelta(hours=hours)
+                  suffix = timestr[14:] if len(timestr) > 14 else ""
+                  return dt.strftime("%Y%m%d%H%M%S") + suffix
+              except:
+                  return timestr
+
           # create channel tag
           def copy_channel_element(target_id, display_name, src_icon_url):
               ch = etree.Element("channel", id=target_id)
@@ -92,15 +104,18 @@ jobs:
                   ic.set("src", src_icon_url)
               return ch
 
-          # create programme tag
-          def copy_programme(src_prog, target_channel_id):
+          # create programme tag with optional timeshift
+          def copy_programme(src_prog, target_channel_id, shift_hours=0):
               prog = etree.Element("programme")
               for attr in ("start","stop","channel"):
-                  if src_prog.get(attr):
+                  val = src_prog.get(attr)
+                  if val:
                       if attr == "channel":
                           prog.set("channel", target_channel_id)
+                      elif attr in ("start", "stop") and shift_hours != 0:
+                          prog.set(attr, shift_time(val, shift_hours))
                       else:
-                          prog.set(attr, src_prog.get(attr))
+                          prog.set(attr, val)
               for child in src_prog:
                   tag = etree.QName(child).localname
                   if tag in allowed_tags:
@@ -146,10 +161,13 @@ jobs:
               if src_tree is None:
                   print(f"[warn] Source '{src_key}' für {final_id} nicht geladen.")
                   continue
-                  
+              
+              # set 1h shift for Luxembourg
+              time_shift = 1 if src_key == "lu" else 0
+
               for prog in src_tree.findall("programme"):
                   if prog.get("channel") == src_id:
-                      new_prog = copy_programme(prog, final_id)
+                      new_prog = copy_programme(prog, final_id, time_shift)
                       tv.append(new_prog)
 
           # write output file
