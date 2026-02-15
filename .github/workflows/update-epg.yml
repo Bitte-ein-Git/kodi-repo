@@ -38,13 +38,13 @@ jobs:
               "tagesschau24.de": "Tagesschau24 HD",
               "ZDFinfo.de": "ZDFinfo HD",
               "Red Bull TV.de": "Red Bull TV FHD",
-              "10001": "Red Bull TV (English) FHD",
+              "Red Bull TV.en": "Red Bull TV (English) FHD",
               "More Than Sports TV.de": "More Than Sports TV FHD",
               "WELT.de": "WELT FHD",
               "Welt der Wunder.de": "Welt der Wunder FHD",
               "SWR Fernsehen RP.de": "SWR Rheinland-Pfalz FHD",
-              "RTLTeleLuxembourg.lu": "RTL Tele Luxembourg HD",
-              "RTL.Zwee.lu": "RTL Zwee HD"
+              "RTLTeleLuxembourg.lu": "RTL Télé Lëtzebuerg",
+              "RTL.Zwee.lu": "RTL Zwee"
           }
 
           # source id mapping
@@ -57,13 +57,13 @@ jobs:
               "tagesschau24.de": ("de", "tagesschau24.de"),
               "ZDFinfo.de": ("de", "ZDFinfo.de"),
               "Red Bull TV.de": ("de", "Red Bull TV.de"),
-              "10001": ("en", "10001"),
+              "Red Bull TV.en": ("en", "10001"),
               "More Than Sports TV.de": ("de", "More Than Sports TV.de"),
               "WELT.de": ("de", "WELT.de"),
               "Welt der Wunder.de": ("de", "Welt der Wunder.de"),
               "SWR Fernsehen RP.de": ("de", "SWR Fernsehen RP.de"),
-              "RTLTeleLuxembourg.lu": ("lu", "RTLTeleLuxembourg.lu"),
-              "RTL.Zwee.lu": ("lu", "RTL.Zwee.lu")
+              "RTLTeleLuxembourg.lu": ("lu", "rtlletze1.lu"),
+              "RTL.Zwee.lu": ("lu", "rtlletze2.lu")
           }
           
           # source urls

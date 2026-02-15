@@ -15,7 +15,7 @@ https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master
 https://zdf-hls-17.akamaized.net/hls/live/2016500/de/veryhigh/master.m3u8
 #EXTINF:-1 tvg-name="Red Bull TV FHD" tvg-id="Red Bull TV.de" group-title="Unterhaltung;Sport" tvg-logo="https://kodi.heyfordy.de/iptv/logos/redbulltv.png",Red Bull TV FHD
 https://freqsyndlin.redbull.com/582/hls/master/playlist_1920x1080.m3u8
-#EXTINF:-1 tvg-name="Red Bull TV (English) FHD" tvg-id="10001" group-title="Unterhaltung;International;Sport" tvg-logo="https://kodi.heyfordy.de/iptv/logos/redbulltv2.png",Red Bull TV FHD (English)
+#EXTINF:-1 tvg-name="Red Bull TV (English) FHD" tvg-id="Red Bull TV.en" group-title="Unterhaltung;International;Sport" tvg-logo="https://kodi.heyfordy.de/iptv/logos/redbulltv2.png",Red Bull TV FHD (English)
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
 #EXTINF:-1 tvg-name="More Than Sports TV FHD" tvg-id="More Than Sports TV.de" tvg-logo="https://kodi.heyfordy.de/iptv/logos/morethansports.png" group-title="Sport",More Than Sports TV FHD
 https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8

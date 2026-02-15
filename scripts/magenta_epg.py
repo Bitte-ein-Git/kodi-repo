@@ -94,14 +94,22 @@ def write_xmltv(channels, epg_data):
             if prog.get("subname"):
                 etree.SubElement(prog_elem, "sub-title", lang="de").text = prog.get("subname", "")
             
-            etree.SubElement(prog_elem, "desc", lang="de").text = prog.get("introduce", "")
+            # format description with SxxExx prefix
+            desc_text = prog.get("introduce", "")
+            s = prog.get("seasonnum")
+            e = prog.get("episodenum")
+            
+            if s and e:
+                desc_text = f"S{s}E{e} | {desc_text}"
+            elif e:
+                desc_text = f"Episode: {e} | {desc_text}"
+            
+            etree.SubElement(prog_elem, "desc", lang="de").text = desc_text
             
             # extra metadata
             if prog.get("productionyear"):
                 etree.SubElement(prog_elem, "date").text = str(prog.get("productionyear"))
                 
-            s = prog.get("seasonnum")
-            e = prog.get("episodenum")
             if s or e:
                 sn = s if s else "?"
                 en = e if e else "?"
