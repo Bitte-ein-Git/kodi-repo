@@ -105,8 +105,8 @@ def showEntries(entryUrl=False, sGui=False, sSearchText=False, sSearchPageText =
             sName = sName.split('- Der Film')[0].strip() # Name nach dem - abschneiden und Array [0] nutzen
         if sSearchText and not cParser.search(sSearchText, sName):
             continue
-        isYear, sYear = cParser.parseSingleResult(sDummy, 'Year">([\d]+)</span>')  # Release Jahr
-        isDuration, sDuration = cParser.parseSingleResult(sDummy, 'time">([\d]+)')  # Laufzeit
+        isYear, sYear = cParser.parseSingleResult(sDummy, r'Year">([\d]+)</span>')  # Release Jahr
+        isDuration, sDuration = cParser.parseSingleResult(sDummy, r'time">([\d]+)')  # Laufzeit
         if int(sDuration) <= int('70'): # Wenn Laufzeit kleiner oder gleich 70min, dann ist es eine Serie.
             isTvshow = True
         else:
@@ -149,7 +149,7 @@ def showEntries(entryUrl=False, sGui=False, sSearchText=False, sSearchPageText =
         # Start Page Function
         isMatchSiteSearch, sHtmlContainer = cParser.parseSingleResult(sHtmlContent, 'class="wp-pagenavi">(.*?)Next')
         if isMatchSiteSearch:
-            isMatch, aResult = cParser.parse(sHtmlContainer, '<span>([\d]+)</span>.*?nav_ext">.*?">([\d]+)</a>.*?href="([^"]+)')
+            isMatch, aResult = cParser.parse(sHtmlContainer, r'<span>([\d]+)</span>.*?nav_ext">.*?">([\d]+)</a>.*?href="([^"]+)')
             for sPageActive, sPageLast, sNextPage in aResult:
                 #sPageName = '[I]Seitensuche starten  >>> [/I] Seite ' + str(sPageActive) + ' von ' + str(sPageLast) + ' Seiten  [I]<<<[/I]'
                 sPageName = cConfig().getLocalizedString(30284) + str(sPageActive) + cConfig().getLocalizedString(30285) + str(sPageLast) + cConfig().getLocalizedString(30286)
@@ -178,7 +178,7 @@ def showSeasons():
     pattern = '<div class="tt_season">(.*)</ul>'
     isMatch, sHtmlContainer = cParser.parseSingleResult(sHtmlContent, pattern)
     if isMatch:
-        isMatch, aResult = cParser.parse(sHtmlContainer, '"#season-(\d+)')
+        isMatch, aResult = cParser.parse(sHtmlContainer, r'"#season-(\d+)')
     if not isMatch:
         cGui().showInfo()
         return
@@ -209,7 +209,7 @@ def showEpisodes():
     pattern = 'id="season-%s(.*?)</ul>' % sSeason
     isMatch, sHtmlContainer = cParser.parseSingleResult(sHtmlContent, pattern)
     if isMatch:
-        isMatch, aResult = cParser.parse(sHtmlContainer, 'data-title="Episode\s(\d+)')
+        isMatch, aResult = cParser.parse(sHtmlContainer, r'data-title="Episode\s(\d+)')
     if not isMatch:
         cGui().showInfo()
         return

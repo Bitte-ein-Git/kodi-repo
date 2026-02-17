@@ -199,7 +199,7 @@ class cParser:
 
     @staticmethod
     def getNumberFromString(sValue):
-        aMatches = re.compile('\d+').findall(sValue)
+        aMatches = re.compile(r'\d+').findall(sValue)
         if len(aMatches) > 0:
             return int(aMatches[0])
         return 0

@@ -100,7 +100,7 @@ def showEntries(entryUrl=False, sGui=False, sSearchText=False, sSearchPageText =
         if sSearchText and not cParser.search(sSearchText, sName):
             continue
         isTvshow = True if 'staffel' in sName.lower() or 'serie' in entryUrl or ';">S0' in sDummy else False
-        isYear, sYear = cParser.parse(sName, '(.*?)\s+\((\d+)\)') # Jahr und Name trennen
+        isYear, sYear = cParser.parse(sName, r'(.*?)\s+\((\d+)\)') # Jahr und Name trennen
         if isYear:
             for name, year in sYear:
                 sName = name
@@ -109,7 +109,7 @@ def showEntries(entryUrl=False, sGui=False, sSearchText=False, sSearchPageText =
         if sThumbnail.startswith('/'):
             sThumbnail = URL_MAIN + sThumbnail
         isDesc, sDesc = cParser.parseSingleResult(sDummy, '(?:</b></div>|</div></b>|</b>)([^<]+)') # Beschreibung
-        isDuration, sDuration = cParser.parseSingleResult(sDummy, '(?:Laufzeit|Spielzeit).*?([\d]+)') # Laufzeit
+        isDuration, sDuration = cParser.parseSingleResult(sDummy, r'(?:Laufzeit|Spielzeit).*?([\d]+)') # Laufzeit
         oGuiElement = cGuiElement(sName, SITE_IDENTIFIER, 'showSeasons' if isTvshow else 'showHosters')
         oGuiElement.setMediaType('tvshow' if isTvshow else 'movie')
         oGuiElement.setThumbnail(sThumbnail)
@@ -129,7 +129,7 @@ def showEntries(entryUrl=False, sGui=False, sSearchText=False, sSearchPageText =
         # Start Page Function
         isMatchSiteSearch, sHtmlContainer = cParser.parseSingleResult(sHtmlContent, 'class="navigation(.*?)</a></div>')
         if isMatchSiteSearch:
-            isMatch, aResult = cParser.parse(sHtmlContainer, '<span>([\d]+)</span>.*?nav_ext">.*?">([\d]+).*?href="([^"]+)')
+            isMatch, aResult = cParser.parse(sHtmlContainer, r'<span>([\d]+)</span>.*?nav_ext">.*?">([\d]+).*?href="([^"]+)')
             for sPageActive, sPageLast, sNextPage in aResult:
                 #sPageName = '[I]Seitensuche starten  >>> [/I] Seite ' + str(sPageActive) + ' von ' + str(sPageLast) + ' Seiten  [I]<<<[/I]'
                 sPageName = cConfig().getLocalizedString(30284) + str(sPageActive) + cConfig().getLocalizedString(30285) + str(sPageLast) + cConfig().getLocalizedString(30286)
@@ -268,7 +268,7 @@ def showHosters():
     else:
         sUrl = params.getValue('entryUrl')
         sHtmlContent = cRequestHandler(sUrl, ignoreErrors=True, caching=False).request()
-        pattern = "show[^>]\d,[^>][^>]'([^']+)"
+        pattern = r"show[^>]\d,[^>][^>]'([^']+)"
         isMatch, aResult = cParser.parse(sHtmlContent, pattern)
     if isMatch:
         for sUrl in aResult:
@@ -306,7 +306,7 @@ def showHosters():
                     oRequest.addHeaderEntry('Referer', 'https://kinoger.com/')
                     sHtmlContent = oRequest.request()
                     # Wenn Content p.a.c.k.e.d ist dann entpacken
-                    isMatch, packed = cParser.parseSingleResult(sHtmlContent, '(eval\s*\(function.*?)</script>')
+                    isMatch, packed = cParser.parseSingleResult(sHtmlContent, r'(eval\s*\(function.*?)</script>')
                     if isMatch:
                         from resources.lib import jsunpacker
                         sHtmlContent = jsunpacker.unpack(packed)
@@ -321,7 +321,7 @@ def showHosters():
                         if 'CF-DDOS-GUARD aktiv' in sHtmlContent: # Wenn Request eine 403 zurückgibt dann überspringen
                             continue
                         else:
-                            pattern = 'RESOLUTION=.*?x(\d+).*?\n(index[^\n]+)'
+                            pattern = r'RESOLUTION=.*?x(\d+).*?\n(index[^\n]+)'
                             isMatch, aResult = cParser.parse(sHtmlContent, pattern)
                     if isMatch:
                         for sQuality, sUrl in aResult:

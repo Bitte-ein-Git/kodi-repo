@@ -595,5 +595,5 @@ def loadMoviesData():
         apiJson = {'movies': []}
         
 
-# Daten beim Import des Moduls laden
-loadMoviesData()
+# Daten werden lazy beim ersten Zugriff geladen (siehe SSsearch)
+# loadMoviesData() - entfernt: beschleunigt den Import/Start erheblich

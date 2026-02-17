@@ -163,8 +163,8 @@ def __getPreferredLanguage():
 def __displayItems(sGui, sHtmlContent):
     oGui = sGui if sGui else cGui()
     parms = ParameterHandler()
-    pattern = '<td class="Icon"><img width="16" height="11" src="/gr/sys/lng/(\d+).png" alt="language"></td>' + \
-              '.*?title="([^\"]+)".*?<td class="Title">.*?<a href="([^\"]+)" onclick="return false;">([^<]+)</a> <span class="Year">([0-9]+)</span>'
+    pattern = r'<td class="Icon"><img width="16" height="11" src="/gr/sys/lng/(\d+).png" alt="language"></td>' + \
+              r'.*?title="([^\"]+)".*?<td class="Title">.*?<a href="([^\"]+)" onclick="return false;">([^<]+)</a> <span class="Year">([0-9]+)</span>'
     aResult = cParser.parse(sHtmlContent, pattern)
     if not aResult[0]:
         logger.error('Could not find an item')
@@ -207,7 +207,7 @@ def showFavItems():
 def showNews():
     parms = ParameterHandler()
     sUrl = parms.getValue('sUrl')
-    pattern = '<div class="Opt leftOpt Headlne"><h1>([a-zA-Z0-9\s.]+)</h1></div>\s*(?:<div.*?)?<div class="Opt rightOpt Hint">Insgesamt: (.*?)</div>'
+    pattern = r'<div class="Opt leftOpt Headlne"><h1>([a-zA-Z0-9\s.]+)</h1></div>\s*(?:<div.*?)?<div class="Opt rightOpt Hint">Insgesamt: (.*?)</div>'
     sHtmlContent = __getHtmlContent(sUrl)
     aResult = cParser.parse(sHtmlContent, pattern)
     if aResult[0]:
@@ -238,7 +238,7 @@ def parseNews():
         oGui.setEndOfDirectory()
         return
 
-    pattern = '<td class="Icon"><img src="/gr/sys/lng/(\d+).png" alt="language" width="16" height="11".*?<td class="Title.*?rel="([^"]+)"><(?:a|span) href="([^\"]+)".*?class="OverlayLabel">([^<]+)(?:<span class="EpisodeDescr">)?([^<]+)'
+    pattern = r'<td class="Icon"><img src="/gr/sys/lng/(\d+).png" alt="language" width="16" height="11".*?<td class="Title.*?rel="([^"]+)"><(?:a|span) href="([^\"]+)".*?class="OverlayLabel">([^<]+)(?:<span class="EpisodeDescr">)?([^<]+)'
     aResult = cParser.parse(aResult[1][0], pattern)
     if not aResult[0]:
         logger.info("Can't get any news")
@@ -404,7 +404,7 @@ def __createMovieTitle(sHtmlContent):
 
 
 def parseSerieSite(sHtmlContent):
-    pattern = '<option[^>]+value="(\d+)"[^>]+>Staffel.+?</option>'
+    pattern = r'<option[^>]+value="(\d+)"[^>]+>Staffel.+?</option>'
     return cParser.parse(sHtmlContent, pattern)
 
 
@@ -463,7 +463,7 @@ def ajaxCall():
         total = len(aData)
 
         for aEntry in aData:
-            pattern = '<a href="([^"]+)".*?onclick="return false;">([^<]+)<.*?>([0-9]{4})<'
+            pattern = r'<a href="([^"]+)".*?onclick="return false;">([^<]+)<.*?>([0-9]{4})<'
             aResult = cParser.parse(aEntry[2], pattern)
             if aResult[0]:
                 sYear = str(aResult[1][0][2]).strip()
@@ -608,7 +608,7 @@ def getHosterUrl(sUrl=False):
     oRequest = cRequestHandler(sUrl)
     oRequest.addHeaderEntry('Referer', URL_MAIN)
     sHtmlContent = oRequest.request()
-    isMatch, sStreamUrl = cParser.parseSingleResult(sHtmlContent, 'a\shref=\\\\".*?(https?:.*?)\\\\"')
+    isMatch, sStreamUrl = cParser.parseSingleResult(sHtmlContent, 'a\\shref=\\\\".*?(https?:.*?)\\\\"')
     if not isMatch:
         isMatch, sStreamUrl = cParser.parseSingleResult(sHtmlContent, '<iframe src=[^"]*"([^"]+)')
     if isMatch:

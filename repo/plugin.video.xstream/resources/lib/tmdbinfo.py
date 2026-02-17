@@ -73,7 +73,7 @@ def WindowsBoxes(sTitle, sFileName, metaType, year=''):
                         listitem_.setProperty('id', str(sid))
                         listitem_.setArt({'icon': sicon})
                         listitems.append(listitem_)
-                        cast.append(slabel.encode('ascii', 'ignore'))
+                        cast.append(slabel)
                     self.getControl(50).addItems(listitems)
 
                 listitems2 = []
@@ -90,7 +90,7 @@ def WindowsBoxes(sTitle, sFileName, metaType, year=''):
                         listitem_.setProperty('id', str(sid))
                         listitem_.setArt({'icon': sicon})
                         listitems2.append(listitem_)
-                        crew.append(slabel.encode('ascii', 'ignore'))
+                        crew.append(slabel)
                     self.getControl(5200).addItems(listitems2)
 
             meta['title'] = sTitle
@@ -101,13 +101,13 @@ def WindowsBoxes(sTitle, sFileName, metaType, year=''):
 
             for prop in meta:
                 try:
-                    if isinstance(meta[prop], unicode):
-                        self.setProperty(prop, meta[prop].encode('utf-8'))
+                    if isinstance(meta[prop], str):
+                        self.setProperty(prop, meta[prop])
                     else:
                         self.setProperty(prop, str(meta[prop]))
                 except Exception:
                     if isinstance(meta[prop], str):
-                        self.setProperty(prop, meta[prop].encode('utf-8'))
+                        self.setProperty(prop, meta[prop])
                     else:
                         self.setProperty(prop, str(meta[prop]))
 

@@ -201,7 +201,7 @@ def showEntriesUnJson(entryUrl=False, sGui=False, sSearchText=False):
     #'name":\s.*?([^"]+).*?'  # Name
     #'url":\s.*?([^"]+).*?'  # URL
     #'(.*?)}'  # Dummy
-    pattern = 'item":.*?image.*?(https[^"]+).*?name":\s.*?([^"]+).*?url":\s.*?([^"]+).*?(.*?)}'
+    pattern = r'item":.*?image.*?(https[^"]+).*?name":\s.*?([^"]+).*?url":\s.*?([^"]+).*?(.*?)}'
     isMatch, aResult = cParser.parse(sHtmlContent, pattern)
 
     if not isMatch:
@@ -213,8 +213,8 @@ def showEntriesUnJson(entryUrl=False, sGui=False, sSearchText=False):
         try:
             if sSearchText and not cParser.search(sSearchText, sName):
                 continue
-            isDuration, sDurationH = cParser.parseSingleResult(sDummy, 'duration":\s"([\d]+).*?')  # Laufzeit Stunden
-            isDuration, sDurationM = cParser.parseSingleResult(sDummy, 'H([\d]+).*?')  # Laufzeit Minuten
+            isDuration, sDurationH = cParser.parseSingleResult(sDummy, r'duration":\s"([\d]+).*?')  # Laufzeit Stunden
+            isDuration, sDurationM = cParser.parseSingleResult(sDummy, r'H([\d]+).*?')  # Laufzeit Minuten
             oGuiElement = cGuiElement(sName, SITE_IDENTIFIER, 'showHostersUnJson')
             oGuiElement.setThumbnail(sThumbnail)
             if isDuration:

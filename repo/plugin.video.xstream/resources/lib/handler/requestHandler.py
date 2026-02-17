@@ -482,7 +482,7 @@ class cBF:
             opener = build_opener(HTTPCookieProcessor(cookie_jar))
             opener.addheaders = [('User-agent', user_agent), ('Referer', url)]
             opener.open(page + j[0])
-        a = re.compile('xhr\.open\("GET","([^,]+)",').findall(html)
+        a = re.compile(r'xhr\.open\("GET","([^,]+)",').findall(html)
         if a:
             import random
             aespage = page + a[0].replace('" + ww +"', str(random.randint(700, 1500)))
@@ -502,7 +502,7 @@ class cBF:
     def aes_decode(html):
         try:
             import pyaes
-            keys = re.compile('toNumbers\("([^"]+)"').findall(html)
+            keys = re.compile(r'toNumbers\("([^"]+)"').findall(html)
             if keys:
                 from binascii import hexlify, unhexlify
                 msg = unhexlify(keys[2])

@@ -99,8 +99,8 @@ def showEntries(entryUrl=False, sGui=False, sSearchText=False, sSearchPageText =
     for sUrl, sName, sThumbnail, sDummy in aResult:
         if sSearchText and not cParser.search(sSearchText, sName):
             continue
-        isYear, sYear = cParser.parseSingleResult(sDummy, 'mt-1">[^<]*<span>([\d]+)</span>')  # Release Jahr
-        isDuration, sDuration = cParser.parseSingleResult(sDummy, '<span>([\d]+)\smin</span>')  # Laufzeit
+        isYear, sYear = cParser.parseSingleResult(sDummy, r'mt-1">[^<]*<span>([\d]+)</span>')  # Release Jahr
+        isDuration, sDuration = cParser.parseSingleResult(sDummy, r'<span>([\d]+)\smin</span>')  # Laufzeit
         if int(sDuration) <= int('70'): # Wenn Laufzeit kleiner oder gleich 70min, dann ist es eine Serie.
             isTvshow = True
         else:
@@ -138,7 +138,7 @@ def showEntries(entryUrl=False, sGui=False, sSearchText=False, sSearchPageText =
         # Start Page Function
         isMatchSiteSearch, sHtmlContainer = cParser.parseSingleResult(sHtmlContent, 'class="pages">(.*?)<svg')
         if isMatchSiteSearch:
-            isMatch, aResult = cParser.parse(sHtmlContainer, '<span>([\d]+)</span>.*?">([\d]+)</a></div>.*?ref="([^"]+)')
+            isMatch, aResult = cParser.parse(sHtmlContainer, r'<span>([\d]+)</span>.*?">([\d]+)</a></div>.*?ref="([^"]+)')
             for sPageActive, sPageLast, sNextPage in aResult:
                 #sPageName = '[I]Seitensuche starten  >>> [/I] Seite ' + str(sPageActive) + ' von ' + str(sPageLast) + ' Seiten  [I]<<<[/I]'
                 sPageName = cConfig().getLocalizedString(30284) + str(sPageActive) + cConfig().getLocalizedString(30285) + str(sPageLast) + cConfig().getLocalizedString(30286)
@@ -165,7 +165,7 @@ def showSeasons():
     pattern = 'class="su-accordion collapse show"(.*?)<br>'
     isMatch, sHtmlContainer = cParser.parseSingleResult(sHtmlContent, pattern)
     if isMatch:
-        isMatch, aResult = cParser.parse(sHtmlContainer, '#se-ac-(\d+)')
+        isMatch, aResult = cParser.parse(sHtmlContainer, r'#se-ac-(\d+)')
         total = len(aResult)
         for sSeason in aResult:
             oGuiElement = cGuiElement('Staffel ' + str(sSeason), SITE_IDENTIFIER, 'showEpisodes')
@@ -193,7 +193,7 @@ def showEpisodes():
     pattern = '#se-ac-%s(.*?)</div></div>' % sSeason
     isMatch, sHtmlContainer = cParser.parseSingleResult(sHtmlContent, pattern)
     if isMatch:
-        isMatch, aResult = cParser.parse(sHtmlContainer, 'Episode\s(\d+)')
+        isMatch, aResult = cParser.parse(sHtmlContainer, r'Episode\s(\d+)')
         total = len(aResult)
         for sEpisode in aResult:
             oGuiElement = cGuiElement('Episode ' + str(sEpisode), SITE_IDENTIFIER, 'showEpisodeHosters')
@@ -221,7 +221,7 @@ def showEpisodeHosters():
     pattern = '#se-ac-%s(.*?)</div></div>' % sSeason
     isMatch, sHtmlContainer = cParser.parseSingleResult(sHtmlContent, pattern)
     if isMatch:
-        pattern = 'x%s\sEpisode(.*?)<br' % sEpisode
+        pattern = r'x%s\sEpisode(.*?)<br' % sEpisode
         isMatch, sHtmlLink = cParser.parseSingleResult(sHtmlContainer, pattern)
         if isMatch:
             isMatch, aResult = cParser.parse(sHtmlLink, 'href="([^"]+)')
@@ -246,7 +246,7 @@ def showHosters():
     params = ParameterHandler()
     sUrl = params.getValue('entryUrl')
     sHtmlContent = cRequestHandler(sUrl, caching=False).request()
-    pattern = '<iframe\sw.*?src="([^"]+)'
+    pattern = r'<iframe\sw.*?src="([^"]+)'
     isMatch, hUrl = cParser.parseSingleResult(sHtmlContent, pattern)
     if isMatch:
         sHtmlContainer = cRequestHandler(hUrl).request()

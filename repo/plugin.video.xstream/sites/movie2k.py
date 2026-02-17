@@ -184,7 +184,7 @@ def showEntries(entryUrl=False, sGui=False, sSearchText=False):
                 oGuiElement.setLanguage('EN')
         oGuiElement.setMediaType('tvshow' if isTvshow else 'movie')
         if 'runtime' in movie:
-            isMatch, sRuntime = cParser.parseSingleResult(movie['runtime'], '\d+')
+            isMatch, sRuntime = cParser.parseSingleResult(movie['runtime'], r'\d+')
             if isMatch:
                 oGuiElement.addItemValue('duration', sRuntime)
         params.setParam('entryUrl', URL_WATCH % str(movie['_id']))

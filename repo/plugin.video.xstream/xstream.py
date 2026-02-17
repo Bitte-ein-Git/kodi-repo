@@ -165,7 +165,7 @@ def showMainMenu(sFunction):
     start_time = time.time()
     # timeout for the startup status check = 60s
     while (startupStatus := cCache().get(addon_id + '_main', -1)) != 'finished' and time.time() - start_time <= 60:
-        time.sleep(5)
+        time.sleep(0.5)
     
     oGui = cGui()
 
@@ -331,7 +331,7 @@ def searchAlter(params):
 
     # Jahr aus dem Titel extrahieren
     if ' (19' in searchTitle or ' (20' in searchTitle:
-        isMatch, aYear = cParser.parse(searchTitle, '(.*?) \((\d{4})\)')
+        isMatch, aYear = cParser.parse(searchTitle, r'(.*?) \((\d{4})\)')
         if isMatch:
             searchTitle = aYear[0][0]
             if not searchYear:

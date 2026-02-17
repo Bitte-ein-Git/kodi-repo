@@ -6,7 +6,6 @@ import sys
 from resources.lib.config import cConfig
 from resources.lib.gui.gui import cGui
 from xbmc import LOGINFO as LOGNOTICE, log
-from string import maketrans
 from urllib.request import Request, urlopen, build_opener
 from urllib.error import HTTPError
 from urllib.parse import urlencode, quote_plus
@@ -42,7 +41,7 @@ class cPyLoadHandler:
             session = page[:-1]
             opener = build_opener()
             opener.addheaders.append(('Cookie', 'beaker.session.id=' + session))
-            sPackage = str(sPackage).decode("utf-8").encode('ascii', 'replace').translate(maketrans('\\/:*?"<>|', '_________'))
+            sPackage = sPackage.translate(str.maketrans('\\/:*?"<>|', '_________'))
             py_url = py_host + ':' + py_port + '/api/addPackage?name="' + quote_plus(sPackage) + '"&links=["' + quote_plus(sUrl) + '"]'
             log(cConfig().getLocalizedString(30166) + ' -> [pyLoadHandler]: PyLoad API call: ' + py_url, LOGNOTICE)
             sock = opener.open(py_url).read()

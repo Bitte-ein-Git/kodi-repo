@@ -8,7 +8,13 @@ import time
 import base64
 import requests
 
-from resources.lib import pyaes
+try:
+    from resources.lib import pyaes
+except ImportError:
+    try:
+        import pyaes
+    except ImportError:
+        from resolveurl.lib import pyaes
 from urllib.parse import quote
 
 

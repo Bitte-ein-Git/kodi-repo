@@ -283,7 +283,7 @@ def showEpisodes():
     
     # Episoden Patterns
     patterns = [
-        '<option\s+value="ep([^"]+)">([^<]+)</option>',
+        r'<option\s+value="ep([^"]+)">([^<]+)</option>',
         '<option[^>]*value="ep([^"]+)"[^>]*>([^<]+)</option>'
     ]
     
@@ -328,7 +328,7 @@ def showHosters():
     
     # Iframe Patterns
     patterns = [
-        '<iframe.*?src=([^\s]+)',
+        r'<iframe.*?src=([^\s]+)',
         '<iframe[^>]*src="([^"]+)"'
     ]
     

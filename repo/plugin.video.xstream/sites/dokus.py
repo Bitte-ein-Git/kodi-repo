@@ -366,7 +366,7 @@ def showThemen_6():
     params = ParameterHandler()
     oRequest = cRequestHandler(URL_MAIN_6)
     sHtmlContent = oRequest.request()
-    pattern = 'Themen</a>(.*?)class="\swp-block-navigation-item\shas-child open-on-hover-click\swp-block-navigation-submenu">'
+    pattern = r'Themen</a>(.*?)class="\swp-block-navigation-item\shas-child open-on-hover-click\swp-block-navigation-submenu">'
     isMatch, sHtmlContainer = cParser.parseSingleResult(sHtmlContent, pattern)
     if isMatch:
         isMatch, aResult = cParser.parse(sHtmlContainer, 'href="([^"]+).*?>([^<]+)')
@@ -388,7 +388,7 @@ def showEntries_6(entryUrl=False, sGui=False, sSearchText=False):
     iPage = int(params.getValue('page'))
     oRequest = cRequestHandler(entryUrl + 'seite/' + str(iPage) if iPage > 0 else entryUrl, ignoreErrors=(sGui is not False))
     sHtmlContent = oRequest.request()
-    pattern = '<li\sclass="wp-block-post.*?href="([^"]+).*?alt="([^"]+).*?data-src="([^"]+).*?'
+    pattern = r'<li\sclass="wp-block-post.*?href="([^"]+).*?alt="([^"]+).*?data-src="([^"]+).*?'
     isMatch, aResult = cParser.parse(sHtmlContent, pattern)
     if not isMatch:
         if not sGui: oGui.showInfo()
@@ -420,7 +420,7 @@ def showHosters_6():
     hosters = []
     sUrl = ParameterHandler().getValue('entryUrl')
     sHtmlContent = cRequestHandler(sUrl, caching=False).request()
-    isMatch, aResult = cParser.parse(sHtmlContent, '<noscript><a\shref="([^"]+)')
+    isMatch, aResult = cParser.parse(sHtmlContent, r'<noscript><a\shref="([^"]+)')
 
     if isMatch:
         for sUrl in aResult:
