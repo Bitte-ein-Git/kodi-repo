@@ -116,10 +116,31 @@ jobs:
                           prog.set(attr, shift_time(val, shift_hours))
                       else:
                           prog.set(attr, val)
+              
               for child in src_prog:
                   tag = etree.QName(child).localname
                   if tag in allowed_tags:
                       prog.append(child)
+              
+              # --- FIX RED BULL DATE ---
+              # Find <episode-num system="original-air-date"> and convert to <date>
+              for child in prog:
+                  if child.tag == "episode-num" and child.get("system") == "original-air-date":
+                      if child.text:
+                          try:
+                              # Expected format "2026-01-10 11:44:57" -> Extract Year
+                              year = child.text.split("-")[0]
+                              if len(year) == 4 and year.isdigit():
+                                  # Check if date already exists
+                                  d = prog.find("date")
+                                  if d is None:
+                                      d = etree.SubElement(prog, "date")
+                                  d.text = year
+                          except:
+                              pass
+                      break
+              # -------------------------
+
               return prog
 
           trees = {}

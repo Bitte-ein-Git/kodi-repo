@@ -7,7 +7,7 @@ on:
 
 jobs:
   update-magenta-epg:
-    name: Update MagentaTV EPG XML
+    name: Update MagentaTV EPG XMLs
     runs-on: ubuntu-latest
 
     steps:
@@ -22,18 +22,28 @@ jobs:
       - name: 📦 Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r scripts/requirements.txt        
+          pip install requests lxml
 
-      - name: 🔄 Run Magenta EPG Grabber
+      # 1. Neues Skript (Magenta 2.0 API)
+      - name: 🔄 Run Magenta v2 Grabber (Main)
         run: |
-          echo "📺 Starte MagentaTV EPG Update..."
+          echo "📺 Starte MagentaTV v2 (Main) Update..."
           python scripts/magenta_epg.py
-          echo "✅ EPG Update abgeschlossen."
+          echo "✅ Main EPG erstellt."
 
-      - name: 📤 Commit & Push EPG XML
+      # 2. Altes Skript (Magenta 1.0 API / Lite)
+      - name: 🔄 Run Magenta v1 Grabber (Lite)
+        run: |
+          echo "📺 Starte MagentaTV v1 (Lite) Update..."
+          python scripts/magenta_lite.py
+          echo "✅ Lite EPG erstellt."
+
+      - name: 📤 Commit & Push EPG XMLs
         run: |
           git config user.name "Magenta EPG Bot"
           git config user.email "epg-bot@example.com"
+          # Füge beide Dateien hinzu
           git add iptv/magenta.xml
-          git commit -m "🔄 Update MagentaTV EPG .xml $(date -u +"%Y-%m-%d %H:%M:%S UTC")" || echo "No changes to commit"
+          git add iptv/magenta_lite.xml
+          git commit -m "🔄 Update MagentaTV EPGs $(date -u +"%Y-%m-%d %H:%M:%S UTC")" || echo "No changes to commit"
           git push
