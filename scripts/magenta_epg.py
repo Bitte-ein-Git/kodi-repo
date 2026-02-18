@@ -1,17 +1,14 @@
 import requests
+import json
 import uuid
 import datetime
-import os
-import re
+import time
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
+import os
+import re
 
-# --- CONFIGURATION ---
-DAYS_TO_GRAB = 3
-REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-OUTPUT_XML = os.path.join(REPO_ROOT, "iptv", "magenta.xml")
-
-# API CONSTANTS
+# Configuration
 BOOTSTRAP_TEMPLATE = "https://prod.dcm.telekom-dienste.de/v1/settings/{configGroupId}/bootstrap?"
 CONFIG_GROUP_ID = "atv-androidtv"
 APP_MODEL = "DT:ATV-AndroidTV"
@@ -20,6 +17,10 @@ APP_VERSION = "104180"
 FIRMWARE = "API level 30"
 RUNTIME = "1"
 USER_AGENT = "Dalvik/2.1.0 (Linux; U; Android 11; SHIELD Android TV Build/RQ1A.210105.003) ((2.00T_ATV::3.134.4462::mdarcy::FTV_OTT_DT))"
+
+# Output Path (Repo Root / iptv / magenta.xml)
+REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+OUTPUT_PATH = os.path.join(REPO_ROOT, "iptv", "magenta.xml")
 
 class MagentaEPG:
     def __init__(self):
@@ -56,6 +57,7 @@ class MagentaEPG:
     def bootstrap(self):
         url = BOOTSTRAP_TEMPLATE.replace("{configGroupId}", CONFIG_GROUP_ID)
         url += f"deviceid={self.device_id}"
+        
         print(f"Bootstrapping: {url}")
         
         data = self._get_json(url)
@@ -63,7 +65,11 @@ class MagentaEPG:
             raise Exception("Bootstrap failed: 'baseSettings' missing")
 
         base_settings = data['baseSettings']
+        
+        self.config['clientModel'] = base_settings.get('clientModel')
+        self.config['deviceModel'] = base_settings.get('deviceModel')
         self.config['deviceTokensUrl'] = base_settings.get('deviceTokensUrl')
+        
         if 'dcm' in data:
             self.config['manifestBaseUrl'] = data['dcm'].get('manifestBaseUrl')
             
@@ -92,7 +98,14 @@ class MagentaEPG:
 
         if 'settings' in data and 'parameters' in data['settings']:
             for param in data['settings']['parameters']:
-                self.config[param.get('key')] = param.get('value')
+                key = param.get('key')
+                val = param.get('value')
+                self.config[key] = val
+
+        if 'sts' in data:
+            token = data['sts'].get('deviceToken')
+            if token:
+                self.device_token = token
 
         self.account_pid = self.config.get('mpxAccountPid')
         if not self.account_pid:
@@ -110,7 +123,9 @@ class MagentaEPG:
         url = base_url.replace("{configGroupId}", CONFIG_GROUP_ID)
         url += f"?deviceid={self.device_id}"
         
+        print(f"Fetching Manifest: {url}")
         data = self._get_json(url)
+        
         if data and 'mpx' in data:
             self.account_pid = data['mpx'].get('accountPid')
             if 'feeds' in data['mpx']:
@@ -118,13 +133,31 @@ class MagentaEPG:
                     if k not in self.config:
                         self.config[k] = v
 
-    def clean_channel_name(self, name):
-        """Bereinigt den Kanalnamen für die ID (entfernt HD, SD, Suffixe)."""
-        # Entferne "- Main", "(Sky)", " HD", " SD", " FHD" etc.
-        # Reihenfolge ist wichtig (längere Strings zuerst)
+    def process_channel_name(self, name):
+        """
+        Verarbeitet den Kanalnamen nach Benutzerregeln:
+        1. " - Main" entfernen.
+        2. " (Sky)" entfernen (Cleanup).
+        3. Wenn " SD" enthalten -> Rückgabe None (Überspringen).
+        4. Wenn " HD" enthalten -> Suffix entfernen.
+        5. Wenn " UHD" enthalten -> Suffix behalten.
+        """
+        if not name: return None
+
+        # Grundreinigung
         name = name.replace(" - Main", "")
         name = name.replace(" (Sky)", "")
-        name = re.sub(r'\s(HD|SD|FHD|UHD)\b', '', name) # Entfernt HD/SD am Wortende
+
+        # Regel: SD Suffix -> Ganz weglassen
+        if " SD" in name:
+            return None
+
+        # Regel: HD Suffix -> Suffix entfernen
+        if " HD" in name:
+            name = name.replace(" HD", "")
+        
+        # Regel: UHD Suffix -> Beibehalten
+        
         return name.strip()
 
     def get_channels(self):
@@ -144,25 +177,37 @@ class MagentaEPG:
         
         if data and 'entries' in data:
             for entry in data['entries']:
-                # Wir bereinigen den Titel sofort für die ID
                 raw_title = entry.get('title', 'Unknown')
-                clean_id = self.clean_channel_name(raw_title)
+                
+                # FILTER & BEREINIGUNG
+                clean_name = self.process_channel_name(raw_title)
+                
+                # Wenn None zurückkommt, überspringen wir den Kanal (z.B. SD Sender)
+                if clean_name is None:
+                    continue
 
                 chan_obj = {
-                    'id': clean_id,  # Das ist jetzt der "channel" wert im XML (z.B. "Das Erste")
+                    'id': entry.get('id'), # Interner ID Key
+                    'clean_id': clean_name, # Unsere bereinigte ID für XML (z.B. "Das Erste")
                     'channel_number': entry.get('channelNumber'),
-                    'title': raw_title, # Der volle Name für display-name
+                    'display_number': entry.get('dt$displayChannelNumber', 0),
+                    'title': raw_title,
                     'stations': []
                 }
                 
                 stations_map = entry.get('stations', {})
-                stations_iterable = stations_map if isinstance(stations_map, list) else stations_map.values()
+                if isinstance(stations_map, list):
+                    stations_iterable = stations_map
+                else:
+                    stations_iterable = stations_map.values()
 
                 for station in stations_iterable:
                     station_data = {
                         'station_id': station.get('id'),
+                        'name': station.get('title'),
                         'is_hd': station.get('isHd', False)
                     }
+                    
                     if 'thumbnails' in station:
                         thumbs = station['thumbnails']
                         logo = thumbs.get('stationLogoColored.png', thumbs.get('stationLogo.png', {}))
@@ -170,18 +215,23 @@ class MagentaEPG:
                             station_data['icon'] = logo.get('url', '')
                         else:
                             station_data['icon'] = ''
+                    
                     chan_obj['stations'].append(station_data)
                 
                 self.channels.append(chan_obj)
-        print(f"Found {len(self.channels)} channels.")
+        print(f"Found {len(self.channels)} channels (after filtering SD).")
 
-    def fetch_epg(self, days=DAYS_TO_GRAB):
+    def fetch_epg(self, days=1):
         schedule_base = self.config.get('mpxBasicUrlAllChannelSchedulesFeed') or self.config.get('allChannelSchedulesFeed')
         program_base = self.config.get('mpxAllProgramsFeedUrl') or self.config.get('allProgramsFeedUrl')
         location_id = self.config.get('mpxLocationIdUri') or self.config.get('locationIdUri')
         
-        if not schedule_base or not program_base or not location_id:
-            print("Missing EPG feed URLs or Location ID.")
+        if not schedule_base or not program_base:
+            print("Missing EPG feed URLs.")
+            return
+
+        if not location_id:
+            print("CRITICAL: Location ID missing. EPG cannot be fetched.")
             return
 
         schedule_base = schedule_base.replace('{{MpxAccountPid}}', self.account_pid).replace('{MpxAccountPid}', self.account_pid)
@@ -194,13 +244,14 @@ class MagentaEPG:
         print(f"Fetching EPG for range: {time_range}")
 
         for channel in self.channels: 
+            if not channel['stations']: continue
+            
             chan_num = channel.get('channel_number')
             if not chan_num: continue
 
-            # Schedule abrufen
             url = (f"{schedule_base}?form=cjson&byLocationId={location_id}"
                    f"&byListingTime={time_range}&byChannelNumber={chan_num}"
-                   f"&range=1-500&fields=listings.program.guid,listings.startTime,listings.endTime")
+                   f"&range=1-1&fields=listings.program.guid,listings.startTime,listings.endTime")
             
             data = self._get_json(url)
             guids = []
@@ -213,7 +264,8 @@ class MagentaEPG:
                             guid = listing['program'].get('guid')
                             if guid:
                                 guids.append(guid)
-                                if guid not in schedule_map: schedule_map[guid] = []
+                                if guid not in schedule_map:
+                                    schedule_map[guid] = []
                                 schedule_map[guid].append({
                                     'start': listing.get('startTime'),
                                     'end': listing.get('endTime')
@@ -221,17 +273,14 @@ class MagentaEPG:
 
             if not guids: continue
 
-            # Programmdetails abrufen
             unique_guids = list(set(guids))
             chunk_size = 50
             for i in range(0, len(unique_guids), chunk_size):
                 chunk = unique_guids[i:i + chunk_size]
                 guid_str = "|".join(chunk)
                 
-                # secondaryTitle = Episodentitel
-                # year = Produktionsjahr
                 p_url = (f"{program_base}?form=cjson&byGuid={guid_str}"
-                         f"&fields=guid,title,secondaryTitle,description,shortDescription,thumbnails,year,ratings,tvSeasonNumber,tvSeasonEpisodeNumber")
+                         f"&fields=guid,title,secondaryTitle,description,shortDescription,thumbnails,year,ratings,credits,tags,tvSeasonNumber,tvSeasonEpisodeNumber")
                 
                 p_data = self._get_json(p_url)
                 
@@ -240,12 +289,46 @@ class MagentaEPG:
                         guid = prog.get('guid')
                         if guid in schedule_map:
                             for timing in schedule_map[guid]:
+                                
+                                # --- BUILD ENHANCED DESCRIPTION ---
+                                desc_text = prog.get('description') or prog.get('shortDescription') or ""
+                                s = prog.get('tvSeasonNumber')
+                                e = prog.get('tvSeasonEpisodeNumber')
+                                y = prog.get('year')
+                                
+                                prefix_parts = []
+                                # Format: S01E03
+                                if s and e:
+                                    try:
+                                        prefix_parts.append(f"S{int(s):02d}E{int(e):02d}")
+                                    except:
+                                        pass
+                                # Format: E1002 (if no season)
+                                elif e:
+                                    try:
+                                        prefix_parts.append(f"E{int(e):02d}")
+                                    except:
+                                        pass
+                                
+                                # Format: (2025)
+                                if y:
+                                    prefix_parts.append(f"({y})")
+                                
+                                if prefix_parts:
+                                    prefix_str = " ".join(prefix_parts)
+                                    if desc_text:
+                                        desc_text = f"{prefix_str} | {desc_text}"
+                                    else:
+                                        desc_text = prefix_str
+                                # ----------------------------------
+
                                 program_entry = {
+                                    'channel_id': channel['stations'][0]['station_id'],
                                     'start': timing['start'],
                                     'end': timing['end'],
                                     'title': prog.get('title'),
-                                    'sub_title': prog.get('secondaryTitle'), # Episodentitel
-                                    'desc': prog.get('description') or prog.get('shortDescription'),
+                                    'sub_title': prog.get('secondaryTitle'),
+                                    'desc': desc_text,
                                     'year': prog.get('year'),
                                     'icon': self._extract_image(prog),
                                     'season': prog.get('tvSeasonNumber'),
@@ -256,66 +339,81 @@ class MagentaEPG:
                                     self.epg_data[channel['id']] = []
                                 self.epg_data[channel['id']].append(program_entry)
             
-            print(f"Processed EPG for: {channel['id']}")
+            print(f"Processed EPG for Channel {channel['display_number']}: {channel['clean_id']}")
 
     def _extract_image(self, prog):
         if 'thumbnails' in prog:
             for k, v in prog['thumbnails'].items():
-                if v and 'url' in v: return v['url']
+                if v and 'url' in v:
+                    return v['url']
         return None
 
-    def create_xmltv(self, filename):
+    def create_xmltv(self, filename=OUTPUT_PATH):
         print(f"Generating XMLTV file: {filename}")
         os.makedirs(os.path.dirname(filename), exist_ok=True)
-        
-        root = ET.Element("tv", {"generator-info-name": "PythonMagentaScraper v2"})
 
-        # Channels schreiben
+        root = ET.Element("tv", {"generator-info-name": "PythonMagentaScraper"})
+
         for channel in self.channels:
-            # Wir nehmen die bereinigte ID
-            c_elem = ET.SubElement(root, "channel", {"id": channel['id']})
+            if not channel['stations']: continue
+            
+            clean_id = channel['clean_id']
+            c_elem = ET.SubElement(root, "channel", {"id": clean_id})
             
             display = ET.SubElement(c_elem, "display-name")
-            display.text = channel['title'] # Voller Name für Anzeige
+            display.text = clean_id
             
-            # Icon vom ersten Stations-Eintrag nehmen
-            if channel['stations'] and channel['stations'][0].get('icon'):
+            if 'icon' in channel['stations'][0] and channel['stations'][0]['icon']:
                 ET.SubElement(c_elem, "icon", {"src": channel['stations'][0]['icon']})
 
-        # Programme schreiben
         for cid, programs in self.epg_data.items():
+            target_channel = next((c for c in self.channels if c['id'] == cid), None)
+            if not target_channel: continue
+            
+            clean_id = target_channel['clean_id']
+
             for p in programs:
                 start_dt = datetime.datetime.fromtimestamp(p['start'] / 1000, datetime.timezone.utc)
                 end_dt = datetime.datetime.fromtimestamp(p['end'] / 1000, datetime.timezone.utc)
                 
+                start_str = start_dt.strftime('%Y%m%d%H%M%S +0000')
+                stop_str = end_dt.strftime('%Y%m%d%H%M%S +0000')
+
                 prog_elem = ET.SubElement(root, "programme", {
-                    "start": start_dt.strftime('%Y%m%d%H%M%S +0000'), 
-                    "stop": end_dt.strftime('%Y%m%d%H%M%S +0000'), 
-                    "channel": cid
+                    "start": start_str, 
+                    "stop": stop_str, 
+                    "channel": clean_id
                 })
 
-                ET.SubElement(prog_elem, "title").text = p['title']
-                
+                title = ET.SubElement(prog_elem, "title")
+                title.text = p['title']
+
                 if p.get('sub_title'):
-                    ET.SubElement(prog_elem, "sub-title").text = p['sub_title']
+                    sub = ET.SubElement(prog_elem, "sub-title")
+                    sub.text = p['sub_title']
 
-                if p.get('desc'):
-                    ET.SubElement(prog_elem, "desc").text = p['desc']
+                if p['desc']:
+                    desc = ET.SubElement(prog_elem, "desc")
+                    desc.text = p['desc']
                 
-                if p.get('year'):
-                    ET.SubElement(prog_elem, "date").text = str(p['year'])
+                if p['year']:
+                    date = ET.SubElement(prog_elem, "date")
+                    date.text = str(p['year'])
 
-                if p.get('icon'):
+                if p['icon']:
                     ET.SubElement(prog_elem, "icon", {"src": p['icon']})
 
-                # Staffel/Episode
                 season = p.get('season')
                 episode = p.get('episode')
+                
                 if season or episode:
                     s_idx = int(season) - 1 if season and int(season) > 0 else 0
                     e_idx = int(episode) - 1 if episode and int(episode) > 0 else 0
+                    
                     if season is not None or episode is not None:
-                        ET.SubElement(prog_elem, "episode-num", {"system": "xmltv_ns"}).text = f"{s_idx}.{e_idx}."
+                        ep_str = f"{s_idx}.{e_idx}."
+                        ep_elem = ET.SubElement(prog_elem, "episode-num", {"system": "xmltv_ns"})
+                        ep_elem.text = ep_str
 
         xmlstr = minidom.parseString(ET.tostring(root)).toprettyxml(indent="   ")
         with open(filename, "w", encoding="utf-8") as f:
@@ -327,7 +425,7 @@ if __name__ == "__main__":
     try:
         scraper.bootstrap()
         scraper.get_channels()
-        scraper.fetch_epg()
-        scraper.create_xmltv(OUTPUT_XML)
+        scraper.fetch_epg(days=3)
+        scraper.create_xmltv()
     except Exception as e:
         print(f"Critical Error: {e}")
