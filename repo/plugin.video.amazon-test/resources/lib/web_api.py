@@ -12,7 +12,7 @@ from urllib.parse import quote_plus, unquote_plus, quote
 import xbmc, xbmcplugin, xbmcgui
 
 from .singleton import Singleton
-from .common import key_exists, return_item, return_value, sleep, findKey, MechanizeLogin, decode_token
+from .common import key_exists, return_item, return_value, sleep, findKey, MechanizeLogin, decode_token, get_key
 from .network import getURL, getURLData, FQify, GrabJSON, LocaleSelector
 from .logging import Log
 from .itemlisting import setContentAndView, addVideo, addDir
@@ -144,9 +144,11 @@ class PrimeVideo(Singleton):
             node = node[nodeName]
         return node, pathList
 
-    def _UpdateProfiles(self, data):
+    def _UpdateProfiles(self, data=None):
+        data = GrabJSON(self._g.BaseUrl + '/gp/video/profiles') if data is None else data
         data = data.get('lists', data)
         pr = data.get('cerberus', data.get('profiles'))
+        perm = get_key({}, data, 'permissions', 'editAndEnterPermissions')
         if pr is not None:
             profiles = []
             if 'activeProfile' in pr:
@@ -159,12 +161,21 @@ class PrimeVideo(Singleton):
             for p in profiles:
                 if p.get('isSelected', False):
                     self._catalog['profiles']['active'] = p['id']
+                if p.get('isDefault', False):
+                    self._catalog['profiles']['default'] = p['id']
                 self._catalog['profiles'][p['id']] = {
                     'title': p.get('name', 'Default').encode('utf-8'),
                     'metadata': {'artmeta': {'thumb': p['avatarUrl']}},
                     'verb': f"pv/profiles/switch/{p['id']}",
                     'endpoint': p['switchLink'],
                 }
+                if get_key('ALLOWED', perm, p['id'], 'enterPermission', 'action') != 'ALLOWED':
+                    challenge = perm[p['id']]['enterPermission']['challenge']
+                    self._catalog['profiles'][p['id']]['challenge'] = {
+                        'title': challenge['title'],
+                        'endpoint': challenge['continueAction']['destructuredUrl']
+                    }
+            self._Flush()
 
     def Route(self, verb, path):
         if 'search' == verb:
@@ -206,34 +217,52 @@ class PrimeVideo(Singleton):
         """ Profile actions """
         path = path.split(self._separator)
 
-        def List():
+        def List(home=None):
             """ List all inactive profiles """
             # Hit a fast endpoint to grab and update CSRF tokens
-            home = GrabJSON(self._g.BaseUrl + '/gp/video/profiles')
+            ul = home is not None
             self._UpdateProfiles(home)
             for k, p in self._catalog['profiles'].items():
-                if 'active' == k or k == self._catalog['profiles']['active']:
+                if k in ['active', 'default'] or k == self._catalog['profiles']['active']:
                     continue
                 addDir(p['title'], 'True', p['verb'], p['metadata']['artmeta'])
-            xbmcplugin.endOfDirectory(self._g.pluginhandle, succeeded=True, cacheToDisc=False, updateListing=False)
+            xbmcplugin.endOfDirectory(self._g.pluginhandle, succeeded=True, cacheToDisc=False, updateListing=ul)
 
         def Switch():
             """ Switch to an inactive profile """
             # Sometimes the switch just fails due to CSRF, possibly due to problems on Amazon's servers,
             # so we patiently try a few times
+            not_selected = path[1] != self._catalog['profiles']['active']
+            owner_profile = path[1] == self._catalog['profiles']['default']
             for _ in range(0, 5):
                 endpoint = self._catalog['profiles'][path[1]]['endpoint']
-                Log(f"{self._g.BaseUrl + endpoint['partialURL']} {endpoint['query']}")
-                home = GrabJSON(self._g.BaseUrl + endpoint['partialURL'], endpoint['query'])
-                self._UpdateProfiles(home)
+                endpoint['query'].update(_Challenge())
+                if endpoint['query'].get('pinProof', 'true') == '':
+                    return
+                # need 2 cycles if account PIN is requested
+                for _ in range(2 if owner_profile and endpoint['query'].get('pinProof') else 1):
+                    home = GrabJSON(self._g.BaseUrl + endpoint['partialURL'], endpoint['query'])
+                    self._UpdateProfiles(home)
                 if path[1] == self._catalog['profiles']['active']:
                     break
                 sleep(3)
+
             if path[1] == self._catalog['profiles']['active']:
-                self.BuildRoot(home if home else {})
+                if not_selected:
+                    List(home)
             else:
                 self._g.dialog.notification(self._g.addon.getAddonInfo('name'), 'Profile switching unavailable at the moment, please try again', time=1000, sound=False)
-            xbmcplugin.endOfDirectory(self._g.pluginhandle, succeeded=False, cacheToDisc=False, updateListing=True)
+
+        def _Challenge():
+            challenge = self._catalog['profiles'][path[1]].get('challenge')
+            if challenge:
+                pin = self._g.dialog.numeric(0, challenge['title'], bHiddenInput=self._s.show_pass is False)
+                query = challenge['endpoint']['query']
+                query['pin'] = pin
+                proof = GrabJSON(self._g.BaseUrl + challenge['endpoint']['partialURL'], query)
+                if 'pinProof' in proof:
+                    return {'pinProof': proof['pinProof']}
+            return {}
 
         if 'list' == path[0]: List()
         elif 'switch' == path[0]: Switch()
@@ -298,6 +327,12 @@ class PrimeVideo(Singleton):
             if not home:
                 return False
             self._UpdateProfiles(home)
+
+        # Profil PIN required
+        if home.get('pageType') == 'ATVProfiles':
+            self.Profile(self._separator.join(['switch', self._catalog['profiles']['active']]))
+            return self.BuildRoot()
+
         self._catalog['root'] = OrderedDict()
 
         # Insert the watchlist
@@ -557,11 +592,12 @@ class PrimeVideo(Singleton):
                             gtis = self._videodata['urn2gti'].get(gt, gt)
                         in_wl = 1 if path.split('/')[:3] == ['root', 'Watchlist', 'watchlist'] else 0
                         if gtis is not None:
+                            mt = self._g.langID.get(m['videometa']['mediatype'])
+                            if mt is None:
+                                continue
                             if m['videometa']['mediatype'] != 'live':
-                                ctxitems.append((getString(30180 + in_wl) % getString(self._g.langID[m['videometa']['mediatype']]),
-                                                 f'RunPlugin({self._g.pluginid}pv/wltoogle/{path}/{quote_plus(gtis)}/{in_wl})'))
-                            ctxitems.append((getString(30185) % getString(self._g.langID[m['videometa']['mediatype']]),
-                                             f'RunPlugin({self._g.pluginid}pv/browse/{itemPathURI}/export={ft_exp[folderType] + 10})'))
+                                ctxitems.append((getString(30180 + in_wl) % getString(mt), f'RunPlugin({self._g.pluginid}pv/wltoogle/{path}/{quote_plus(gtis)}/{in_wl})'))
+                            ctxitems.append((getString(30185) % getString(mt), f'RunPlugin({self._g.pluginid}pv/browse/{itemPathURI}/export={ft_exp[folderType] + 10})'))
                             ctxitems.append((getString(30186), 'UpdateLibrary(video)'))
 
                 if 'schedule' in m:
@@ -1074,6 +1110,8 @@ class PrimeVideo(Singleton):
                 # not inside a season/show: (oid not in details)
                 #     not already appended: (gti not in GTIs)
                 # part of the page details: ('self' in state) & (gti in state['self'])
+                if details[gti]['titleType'].lower() == 'collection':
+                    continue
                 if details[gti]['titleType'].lower() == 'season' and 'widgets' in data:
                     continue
                 if (oid not in details) and (gti not in GTIs) and ('self' in state) and (gti in state['self']):
@@ -1113,7 +1151,7 @@ class PrimeVideo(Singleton):
 
                 # Title
                 if bCacheRefresh or ('title' not in vd):
-                    if item['titleType'].lower() == 'season' and 'seasonNumber' in item:
+                    if titleType == 'season' and 'seasonNumber' in item:
                         try:
                             vd['title'] = data['strings']['AVOD_DP_season_selector'].format(seasonNumber=item['seasonNumber'])
                         except:

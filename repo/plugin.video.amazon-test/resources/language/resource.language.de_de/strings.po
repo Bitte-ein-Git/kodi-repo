@@ -884,3 +884,15 @@ msgstr "Einloggen nicht möglich, da ein nicht unterstütztes Captcha angezeigt 
 msgctxt "#30288"
 msgid "Export not aired episodes"
 msgstr "Nicht ausgestrahlte Episoden exportieren"
+
+msgctxt "#30289"
+msgid "Filter"
+msgstr "Filter"
+
+msgctxt "#30290"
+msgid "Category"
+msgstr "Kategorie"
+
+msgctxt "#30291"
+msgid "Display categories"
+msgstr "Kategorien anzeigen"

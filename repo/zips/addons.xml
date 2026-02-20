@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="plugin.video.amazon-test" name="[COLOR cornflowerblue]Prime Video[/COLOR]" version="1.1.9~beta1+matrix.1" provider-name="Bitte ein Git!, Sandmann79, Varstahl">
+<addons><addon id="plugin.video.amazon-test" name="[COLOR cornflowerblue]Prime Video[/COLOR]" version="1.2.0~beta1+matrix.1" provider-name="Bitte ein Git!, Sandmann79, Varstahl">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.beautifulsoup4" version="4.6.3+matrix.1" />
@@ -264,7 +264,7 @@ CI &amp; build changes
 - added: Timeshift-Funktion zu-/ab-schaltbar für TV-Live und EventStreams (settings: default=abgeschaltet)
 		</news>
 	</extension>
-</addon><addon id="plugin.video.xship" version="2026.01.18" name="[COLOR goldenrod]» xShip[/COLOR][COLOR red]+[/COLOR]" provider-name="Bitte ein Git!">
+</addon><addon id="plugin.video.xship" version="fordy-18.01.26" name="[COLOR white]» [/COLOR][COLOR goldenrod]xShip[/COLOR][COLOR red]+[/COLOR]" provider-name="Bitte ein Git!">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -281,8 +281,8 @@ CI &amp; build changes
     </extension>
     <extension point="xbmc.service" library="service.py" start="startup" />
     <extension point="xbmc.addon.metadata">
-        <summary lang="de_DE">xShip: Der Fake</summary>
-        <summary lang="en_GB">xShip: The Fake</summary>
+        <summary lang="de_DE">xShip - kodi.heyfordy.de tweaked</summary>
+        <summary lang="en_GB">xShip - kodi.heyfordy.de tweaked</summary>
         <assets>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>

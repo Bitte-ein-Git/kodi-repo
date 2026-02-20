@@ -17,7 +17,7 @@ from urllib.parse import quote_plus, urlencode
 import xbmc, xbmcgui, xbmcvfs, xbmcplugin
 from inputstreamhelper import Helper
 
-from .common import Globals, Settings, jsonRPC, sleep, MechanizeLogin, findKey
+from .common import Globals, Settings, jsonRPC, sleep, MechanizeLogin, findKey, return_item, get_key
 from .logging import Log
 from .configs import getConfig
 from .network import getURL, getURLData, getATVData, GrabJSON
@@ -326,23 +326,58 @@ def PlayVideo(name, asin, adultstr, streamtype, forcefb=0):
 
         xbmc.executebuiltin(f'StartAndroidActivity("{pkg}", "{act}", "", "{url}")')
 
-    def _IStreamPlayback(asin, name, streamtype, isAdult, extern):
-        if streamtype == 3:
-            streamtype = 2
-            u_path = '' if _g.UsePrimeVideo else '/gp/video'
-            data = GrabJSON(_g.BaseUrl + u_path + '/detail/' + asin)
-            if data:
-                action = findKey('playbackActions', data)
-                msg = findKey('dvMessage', data).get('string', '').replace('{lineBreak}', '\n')
-                if not action and msg:
-                    _g.dialog.notification(getString(30203), msg, xbmcgui.NOTIFICATION_INFO)
-                    return False
-                live = findKey('liveState', data).get('isLive', False)
-                tt = findKey('titleType', data)
-                if not live and tt.lower() == 'event':
-                    streamtype = 0
+    def _EventState(asin):
+        streamtype = 2
+        u_path = '' if _g.UsePrimeVideo else '/gp/video'
+        data = GrabJSON(_g.BaseUrl + u_path + '/detail/' + asin)
+        if data:
+            state = data['state']
+            tid = state['pageTitleId']
+            detail = return_item(state, 'detail', 'detail', tid)
+            msg = return_item(state, 'action', 'atf',  tid, 'messages')
+            ent = msg.get('entitlementType', 'entitled').lower() == 'entitled'
+            notif = get_key('', msg, 'buyBoxMessage' if ent else 'focusMessage', 'dvMessage', 'string').replace('{lineBreak}', '\n')
+            pid, livestate = _listStreams(state, tid, detail['liveState'].get('id', '').lower())
+            if not livestate:
+                return -1, -1
+            asin = pid if pid else asin
+            tt = detail['titleType'].lower()
+            if not notif:
+                if livestate == 'ended':
+                    livestate = 'replay'
+                notif = detail['dateTimeBadge']
+            if livestate in ['upcoming', 'ended'] or not pid:
+                _g.dialog.notification(getString(30203), notif, xbmcgui.NOTIFICATION_INFO)
+                return -1, -1
+            if livestate != 'live' and tt == 'event':
+                streamtype = 0
+        return streamtype, asin
 
+    def _listStreams(state, tid, livestate):
+        pid = findKey('playbackID', state)
+        container = get_key([], state, 'containers', tid)
+        str_list = []
+        for cont in container:
+            heading = cont['title']
+            streams = cont.get('entities', [])
+            for stream in streams:
+                live_state = get_key('replay', stream, 'liveInfo', 'status').lower()
+                is_entitled = get_key('', stream, 'entitlementCues', 'focusMessage', 'icon') != 'OFFER_ICON'
+                widget_type = stream.get('widgetType', '').lower()
+                if live_state not in ['upcoming', 'ended'] and widget_type != 'titlecard' and is_entitled:
+                    str_list.append([f"{heading}: {stream['displayTitle']}", stream['titleID'], live_state])
+        if len(str_list) > 0:
+            num = 0 if len(str_list) == 1 else _g.dialog.select('', [s[0] for s in str_list], preselect=0)
+            return [str_list[num][1], str_list[num][2]] if num > -1 else [pid, False]
+        return pid, livestate
+
+    def _IStreamPlayback(asin, name, streamtype, isAdult, extern):
         from .ages import AgeRestrictions
+        bypassproxy = _s.proxy_mpdalter or (streamtype > 1)
+        if streamtype == 3:
+            streamtype, asin = _EventState(asin)
+            if streamtype < 0:
+                return False
         vMT = ['Feature', 'Trailer', 'LiveStreaming'][streamtype]
         dRes = 'PlaybackUrls' if streamtype > 1 else 'PlaybackUrls,SubtitleUrls,ForcedNarratives,TransitionTimecodes'
         opt = '&liveManifestType=accumulating,live&playerType=xp&playerAttributes={"frameRate":"HFR"}&deviceFrameRateOverride=High' if streamtype > 1 else ''
@@ -353,15 +388,13 @@ def PlayVideo(name, asin, adultstr, streamtype, forcefb=0):
             Log('No Inputstream Addon found or activated')
             return False
 
-        bypassproxy = _s.proxy_mpdalter or (streamtype > 1)
-
         # The following code can run two times. In the first iteration, token auth
         # will be prefered. If the request is successful, the loop will be aborted.
         # If not, then the second iteration will fall back to cookie authentification
         # and try again. This is neccessary for content like Amazon Freevee, which is not
         # available though token based authentification.
 
-        for preferTokenToCookie in ([True, False] if _s.wvl1_device else [False]):
+        for preferTokenToCookie in ([True, False] if _s.wvl1_device and streamtype != 2 else [False]):
             cookie, req_param, headers, dtid, req_headers = _getPlaybackVars(preferToken=preferTokenToCookie)
             if not cookie:
                 _g.dialog.notification(getString(30203), getString(30200), xbmcgui.NOTIFICATION_ERROR)
