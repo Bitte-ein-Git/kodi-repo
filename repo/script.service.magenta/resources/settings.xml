@@ -6,8 +6,13 @@
         <setting label="Passwort" type="text" id="password" option="hidden" enable="!eq(-1,)" default=""/>
         <setting label="Kundennummer" type="text" id="customer_id" default=""/>
         <setting label="Device-ID" type="text" id="device_id" default=""/>
+        <setting id="p_token" type="text" visible="false" default=""/>
     </category>
     <category label="Senderliste">
         <setting label="SD-Sender ausblenden" type="bool" id="hide_sd" default="true"/>
+        <setting label="Alternative Senderlogos verwenden" type="bool" id="alt_logos" default="false"/>
+        <setting label="Eigene Senderreihenfolge nutzen" type="bool" id="custom_order" default="true"/>
+        <setting label="Nur Favoriten laden" type="bool" id="only_favorites" default="false"/>
+        <setting label="Versteckte Sender deaktivieren" type="bool" id="deactivate_hidden" default="true"/>
     </category>
 </settings>
