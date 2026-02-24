@@ -4751,126 +4751,6 @@
   <channel id="RTLTeleLuxembourg.lu">
     <display-name>RTL Télé Lëtzebuerg</display-name>
   </channel>
-  <programme start="20260223050000 +0000" stop="20260223060000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Rediffusioune vum Journal an Derwaert</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260223060000 +0000" stop="20260223090000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260223090000 +0000" stop="20260223110000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>At Home TV And Luxauto TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260223110000 +0000" stop="20260223130000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260223130000 +0000" stop="20260223140000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>At Home TV And Luxauto TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260223140000 +0000" stop="20260223173000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260223173000 +0000" stop="20260223180000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Musekbox</title>
-    <desc>Unterhaltung</desc>
-  </programme>
-  <programme start="20260223180000 +0000" stop="20260223180500 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Journal Newsflash</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260223180500 +0000" stop="20260223182500 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Service Logement – Episod 8: \ Cest de plus en plus dur daccepter \</title>
-    <desc>An dëser Episod gi mir mat den Assistant-sociallen op Tour. DSerie schleisst mat enger Expulsioun of.br /br /Am Haerz vun enger vun de schlëmmste Wunnengskrisen an Europa bitt Service Logement een intim a realisteschen Ableck an den dacks onbekannten Alldag vun den Employeen aus dem Service Logement vun der Stad Lëtzebuerg. Tëscht Noutfall, Reparaturen, Kontrollvisitten an onerwaarten Momenter, versichen si Dag fir Dag op dei wuessend Nout ze reageieren.br /br /Eng Doku-Serie vum Anne Schiltz – Produktioun: Yann Tonnar – Manufactura Pictures mat der Ënnerstëtzung vum Lëtzebuerger Filmfong an RTL Lëtzebuergbr /br /</desc>
-  </programme>
-  <programme start="20260223182500 +0000" stop="20260223183000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Car Stories</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260223183000 +0000" stop="20260223190000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260223190000 +0000" stop="20260223190500 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260223190500 +0000" stop="20260223192500 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Service Logement – Episod 8: \ Cest de plus en plus dur daccepter \</title>
-    <desc>An dëser Episod gi mir mat den Assistant-sociallen op Tour. DSerie schleisst mat enger Expulsioun of.br /br /Am Haerz vun enger vun de schlëmmste Wunnengskrisen an Europa bitt Service Logement een intim a realisteschen Ableck an den dacks onbekannten Alldag vun den Employeen aus dem Service Logement vun der Stad Lëtzebuerg. Tëscht Noutfall, Reparaturen, Kontrollvisitten an onerwaarten Momenter, versichen si Dag fir Dag op dei wuessend Nout ze reageieren.br /br /br /Eng Doku-Serie vum Anne Schiltz – Produktioun: Yann Tonnar – Manufactura Pictures mat der Ënnerstëtzung vum Lëtzebuerger Filmfong an RTL Lëtzebuergbr /br /</desc>
-  </programme>
-  <programme start="20260223192500 +0000" stop="20260223193000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Car Stories</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260223193000 +0000" stop="20260223200000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260223200000 +0000" stop="20260223202500 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Journal Newsflash</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260223202500 +0000" stop="20260223203000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Car Stories</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260223203000 +0000" stop="20260223210000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260223210000 +0000" stop="20260223210500 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260223210500 +0000" stop="20260223212500 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Service Logement – Episod 8: \ Cest de plus en plus dur daccepter \</title>
-    <desc>An dëser Episod gi mir mat den Assistant-sociallen op Tour. DSerie schleisst mat enger Expulsioun of.br /br /Am Haerz vun enger vun de schlëmmste Wunnengskrisen an Europa bitt Service Logement een intim a realisteschen Ableck an den dacks onbekannten Alldag vun den Employeen aus dem Service Logement vun der Stad Lëtzebuerg. Tëscht Noutfall, Reparaturen, Kontrollvisitten an onerwaarten Momenter, versichen si Dag fir Dag op dei wuessend Nout ze reageieren.br /br /br /Eng Doku-Serie vum Anne Schiltz – Produktioun: Yann Tonnar – Manufactura Pictures mat der Ënnerstëtzung vum Lëtzebuerger Filmfong an RTL Lëtzebuergbr /br /</desc>
-  </programme>
-  <programme start="20260223212500 +0000" stop="20260223213000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Car Stories</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260223213000 +0000" stop="20260223220000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260223220000 +0000" stop="20260223220500 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Journal Newsflash</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260223220500 +0000" stop="20260223222500 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Service Logement – Episod 8: \ Cest de plus en plus dur daccepter \</title>
-    <desc>An dëser Episod gi mir mat den Assistant-sociallen op Tour. DSerie schleisst mat enger Expulsioun of.br /br /Am Haerz vun enger vun de schlëmmste Wunnengskrisen an Europa bitt Service Logement een intim a realisteschen Ableck an den dacks onbekannten Alldag vun den Employeen aus dem Service Logement vun der Stad Lëtzebuerg. Tëscht Noutfall, Reparaturen, Kontrollvisitten an onerwaarten Momenter, versichen si Dag fir Dag op dei wuessend Nout ze reageieren.br /br /br /Eng Doku-Serie vum Anne Schiltz – Produktioun: Yann Tonnar – Manufactura Pictures mat der Ënnerstëtzung vum Lëtzebuerger Filmfong an RTL Lëtzebuergbr /br /</desc>
-  </programme>
-  <programme start="20260223222500 +0000" stop="20260223223000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Car Stories</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260223223000 +0000" stop="20260223230000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260223230000 +0000" stop="20260223230300 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Journal Newsflash</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260223230300 +0000" stop="20260223233000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Magazin</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260223233000 +0000" stop="20260224000000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260224000000 +0000" stop="20260224050000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Rediffusioun vu Gol, Magazin a Journal</title>
-    <desc>Info</desc>
-  </programme>
   <programme start="20260224050000 +0000" stop="20260224060000 +0000" channel="RTLTeleLuxembourg.lu">
     <title>Rediffusioun vu Magazin a Journal</title>
     <desc>Info</desc>
@@ -4983,101 +4863,117 @@
     <title>At Home TV And Luxauto TV</title>
     <desc>Info</desc>
   </programme>
-  <channel id="RTL.Zwee.lu">
-    <display-name>RTL Zwee</display-name>
-  </channel>
-  <programme start="20260223050000 +0000" stop="20260223060000 +0000" channel="RTL.Zwee.lu">
-    <title>At Home TV And Luxauto TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260223060000 +0000" stop="20260223070000 +0000" channel="RTL.Zwee.lu">
-    <title>Rediffusioune vu Journal a Sport</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260223070000 +0000" stop="20260223090000 +0000" channel="RTL.Zwee.lu">
-    <title>At Home TV And Luxauto TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260223090000 +0000" stop="20260223120000 +0000" channel="RTL.Zwee.lu">
+  <programme start="20260225110000 +0000" stop="20260225130000 +0000" channel="RTLTeleLuxembourg.lu">
     <title>RTL Radio Web TV</title>
     <desc>Info</desc>
   </programme>
-  <programme start="20260223120000 +0000" stop="20260223130000 +0000" channel="RTL.Zwee.lu">
+  <programme start="20260225130000 +0000" stop="20260225140000 +0000" channel="RTLTeleLuxembourg.lu">
     <title>At Home TV And Luxauto TV</title>
     <desc>Info</desc>
   </programme>
-  <programme start="20260223130000 +0000" stop="20260223150000 +0000" channel="RTL.Zwee.lu">
+  <programme start="20260225140000 +0000" stop="20260225173000 +0000" channel="RTLTeleLuxembourg.lu">
     <title>RTL Radio Web TV</title>
     <desc>Info</desc>
   </programme>
-  <programme start="20260223150000 +0000" stop="20260223160000 +0000" channel="RTL.Zwee.lu">
-    <title>At Home TV And Luxauto TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260223160000 +0000" stop="20260223173000 +0000" channel="RTL.Zwee.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260223173000 +0000" stop="20260223175000 +0000" channel="RTL.Zwee.lu">
+  <programme start="20260225173000 +0000" stop="20260225175000 +0000" channel="RTLTeleLuxembourg.lu">
     <title>Musekbox</title>
     <desc>Unterhaltung</desc>
   </programme>
-  <programme start="20260223175000 +0000" stop="20260223180000 +0000" channel="RTL.Zwee.lu">
+  <programme start="20260225175000 +0000" stop="20260225180000 +0000" channel="RTLTeleLuxembourg.lu">
     <title>KannaTiVi</title>
     <desc>Kindersendung</desc>
   </programme>
-  <programme start="20260223180000 +0000" stop="20260223180300 +0000" channel="RTL.Zwee.lu">
+  <programme start="20260225180000 +0000" stop="20260225180300 +0000" channel="RTLTeleLuxembourg.lu">
     <title>De Journal Newsflash</title>
     <desc>Info</desc>
   </programme>
-  <programme start="20260223180300 +0000" stop="20260223183000 +0000" channel="RTL.Zwee.lu">
-    <title>Service Logement – Episod 8: \ Cest de plus en plus dur daccepter \</title>
-    <desc>An dëser Episod gi mir mat den Assistant-sociallen op Tour. DSerie schleisst mat enger Expulsioun of.br /br /Am Haerz vun enger vun de schlëmmste Wunnengskrisen an Europa bitt Service Logement een intim a realisteschen Ableck an den dacks onbekannten Alldag vun den Employeen aus dem Service Logement vun der Stad Lëtzebuerg. Tëscht Noutfall, Reparaturen, Kontrollvisitten an onerwaarten Momenter, versichen si Dag fir Dag op dei wuessend Nout ze reageieren.br /br /Eng Doku-Serie vum Anne Schiltz – Produktioun: Yann Tonnar – Manufactura Pictures mat der Ënnerstëtzung vum Lëtzebuerger Filmfong an RTL Lëtzebuerg</desc>
+  <programme start="20260225180300 +0000" stop="20260225183000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>De Magazin</title>
+    <desc>Info</desc>
   </programme>
-  <programme start="20260223183000 +0000" stop="20260223190000 +0000" channel="RTL.Zwee.lu">
+  <programme start="20260225183000 +0000" stop="20260225190000 +0000" channel="RTLTeleLuxembourg.lu">
     <title>De Journal</title>
     <desc>Info</desc>
   </programme>
-  <programme start="20260223190000 +0000" stop="20260223200000 +0000" channel="RTL.Zwee.lu">
+  <programme start="20260225190000 +0000" stop="20260225190300 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>De Journal Newsflash</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260225190300 +0000" stop="20260225193000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>De Magazin</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260225193000 +0000" stop="20260225200000 +0000" channel="RTLTeleLuxembourg.lu">
     <title>De Journal</title>
     <desc>Info</desc>
   </programme>
-  <programme start="20260223200000 +0000" stop="20260223203000 +0000" channel="RTL.Zwee.lu">
+  <programme start="20260225200000 +0000" stop="20260225200300 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>De Journal Newsflash</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260225200300 +0000" stop="20260225203000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>De Magazin</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260225203000 +0000" stop="20260225210000 +0000" channel="RTLTeleLuxembourg.lu">
     <title>De Journal</title>
     <desc>Info</desc>
   </programme>
-  <programme start="20260223203000 +0000" stop="20260223210000 +0000" channel="RTL.Zwee.lu">
+  <programme start="20260225210000 +0000" stop="20260225210300 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>De Journal Newsflash</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260225210300 +0000" stop="20260225213000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>De Magazin</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260225213000 +0000" stop="20260225220000 +0000" channel="RTLTeleLuxembourg.lu">
     <title>De Journal</title>
     <desc>Info</desc>
   </programme>
-  <programme start="20260223210000 +0000" stop="20260223213000 +0000" channel="RTL.Zwee.lu">
+  <programme start="20260225220000 +0000" stop="20260225220300 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>De Journal Newsflash</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260225220300 +0000" stop="20260225223000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>De Magazin</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260225223000 +0000" stop="20260225230000 +0000" channel="RTLTeleLuxembourg.lu">
     <title>De Journal</title>
     <desc>Info</desc>
   </programme>
-  <programme start="20260223213000 +0000" stop="20260223220000 +0000" channel="RTL.Zwee.lu">
+  <programme start="20260225230000 +0000" stop="20260225230300 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>De Journal Newsflash</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260225230300 +0000" stop="20260225233000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>De Magazin</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260225233000 +0000" stop="20260226000000 +0000" channel="RTLTeleLuxembourg.lu">
     <title>De Journal</title>
     <desc>Info</desc>
   </programme>
-  <programme start="20260223220000 +0000" stop="20260223223000 +0000" channel="RTL.Zwee.lu">
-    <title>De Journal</title>
+  <programme start="20260226000000 +0000" stop="20260226050000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Rediffusioune vu Magazin a Journal</title>
     <desc>Info</desc>
   </programme>
-  <programme start="20260223223000 +0000" stop="20260223230000 +0000" channel="RTL.Zwee.lu">
-    <title>De Journal</title>
+  <programme start="20260226050000 +0000" stop="20260226060000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Rediffusioun vu Magazin a Journal</title>
     <desc>Info</desc>
   </programme>
-  <programme start="20260223230000 +0000" stop="20260223233000 +0000" channel="RTL.Zwee.lu">
-    <title>De Journal</title>
+  <programme start="20260226060000 +0000" stop="20260226090000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>RTL Radio Web TV</title>
     <desc>Info</desc>
   </programme>
-  <programme start="20260223233000 +0000" stop="20260224000000 +0000" channel="RTL.Zwee.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260224000000 +0000" stop="20260224050000 +0000" channel="RTL.Zwee.lu">
+  <programme start="20260226090000 +0000" stop="20260226110000 +0000" channel="RTLTeleLuxembourg.lu">
     <title>At Home TV And Luxauto TV</title>
     <desc>Info</desc>
   </programme>
+  <channel id="RTL.Zwee.lu">
+    <display-name>RTL Zwee</display-name>
+  </channel>
   <programme start="20260224050000 +0000" stop="20260224060000 +0000" channel="RTL.Zwee.lu">
     <title>At Home TV And Luxauto TV</title>
     <desc>Info</desc>
@@ -5167,6 +5063,82 @@
     <desc>Info</desc>
   </programme>
   <programme start="20260225090000 +0000" stop="20260225120000 +0000" channel="RTL.Zwee.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260225120000 +0000" stop="20260225130000 +0000" channel="RTL.Zwee.lu">
+    <title>At Home TV And Luxauto TV</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260225130000 +0000" stop="20260225150000 +0000" channel="RTL.Zwee.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260225150000 +0000" stop="20260225160000 +0000" channel="RTL.Zwee.lu">
+    <title>At Home TV And Luxauto TV</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260225160000 +0000" stop="20260225173000 +0000" channel="RTL.Zwee.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260225173000 +0000" stop="20260225175000 +0000" channel="RTL.Zwee.lu">
+    <title>Musekbox</title>
+    <desc>Unterhaltung</desc>
+  </programme>
+  <programme start="20260225175000 +0000" stop="20260225180000 +0000" channel="RTL.Zwee.lu">
+    <title>KannaTiVi</title>
+    <desc>Kindersendung</desc>
+  </programme>
+  <programme start="20260225180000 +0000" stop="20260225180300 +0000" channel="RTL.Zwee.lu">
+    <title>De Journal Newsflash</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260225180300 +0000" stop="20260225183000 +0000" channel="RTL.Zwee.lu">
+    <title>De Magazin</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260225183000 +0000" stop="20260225190000 +0000" channel="RTL.Zwee.lu">
+    <title>De Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260225190000 +0000" stop="20260225194500 +0000" channel="RTL.Zwee.lu">
+    <title>De Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260225194500 +0000" stop="20260225223000 +0000" channel="RTL.Zwee.lu">
+    <title>Champions League</title>
+    <desc>Magazin</desc>
+  </programme>
+  <programme start="20260225223000 +0000" stop="20260225230000 +0000" channel="RTL.Zwee.lu">
+    <title>De Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260225230000 +0000" stop="20260225233000 +0000" channel="RTL.Zwee.lu">
+    <title>De Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260225233000 +0000" stop="20260226000000 +0000" channel="RTL.Zwee.lu">
+    <title>De Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260226000000 +0000" stop="20260226050000 +0000" channel="RTL.Zwee.lu">
+    <title>At Home TV And Luxauto TV</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260226050000 +0000" stop="20260226060000 +0000" channel="RTL.Zwee.lu">
+    <title>At Home TV And Luxauto TV</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260226060000 +0000" stop="20260226070000 +0000" channel="RTL.Zwee.lu">
+    <title>Rediffusioun vu Journal a Magazin</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260226070000 +0000" stop="20260226090000 +0000" channel="RTL.Zwee.lu">
+    <title>At Home TV And Luxauto TV</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260226090000 +0000" stop="20260226120000 +0000" channel="RTL.Zwee.lu">
     <title>RTL Radio Web TV</title>
     <desc>Info</desc>
   </programme>
