@@ -2918,118 +2918,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20260223081714 +0000" stop="20260223084845 +0000" channel="Red Bull TV.en"><title lang="en">The Search for Milliseconds: Jackson Goldstone</title>
-<sub-title lang="en">On the hunt for the championship</sub-title>
-<desc lang="en">Go inside downhill phenom Jackson Goldstone's high-stakes bid to become one of the youngest MTB riders ever to claim the UCI DH Elite overall title – from pre-season testing to risking all for a win.</desc>
-<category lang="en">Mountain Bike Downhill</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:f869eed7-cd8d-43a8-b984-b09959d173ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/the-search-for-milliseconds-jackson-goldstone</url>
-<episode-num system="redbull.com">episode/rrn:content:films:f869eed7-cd8d-43a8-b984-b09959d173ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260223084845 +0000" stop="20260223090314 +0000" channel="Red Bull TV.en"><title lang="en">Winter Heroes</title>
-<sub-title lang="en">Alice Robinson</sub-title>
-<desc lang="en">With explosive and unpredictable runs, Alice Robinson is putting New Zealand on the podium in the traditionally European-dominated sport of alpine skiing. Discover a fearless athlete on the rise.</desc>
-<category lang="en">Skiing</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e5</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:7ca7bdbe-bf61-429c-9a53-b33c92427d2b</episode-num>
-<episode-num system="xmltv_ns">0.4.0</episode-num>
-<episode-num system="original-air-date">2025-11-09 18:44:21</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2025</date></programme>
-  <programme start="20260223090314 +0000" stop="20260223091749 +0000" channel="Red Bull TV.en"><title lang="en">Winter Heroes</title>
-<sub-title lang="en">Eileen Gu</sub-title>
-<desc lang="en">Prodigy on skis. Brilliant university student. Fashion icon. Witness the dazzling trajectory of a woman with roots in China and the US who is redefining what it means to be a modern sporting champion.</desc>
-<category lang="en">Skiing</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e1</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:07e867fc-542d-46ff-8f09-27e74a1a72e2</episode-num>
-<episode-num system="xmltv_ns">0.0.0</episode-num>
-<episode-num system="original-air-date">2025-11-09 18:07:04</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2025</date></programme>
-  <programme start="20260223091749 +0000" stop="20260223092643 +0000" channel="Red Bull TV.en"><title lang="en">Winter Heroes</title>
-<sub-title lang="en">Ryōyū Kobayashi</sub-title>
-<desc lang="en">This multi-faceted Japanese athlete landed the longest ski jump in history and has won just about every title there is, making him a legend while still in his 20s.</desc>
-<category lang="en">Ski Jumping</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e9</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:32c212d1-d2e2-4cc5-90d2-aae35f48b7e8</episode-num>
-<episode-num system="xmltv_ns">0.8.0</episode-num>
-<episode-num system="original-air-date">2026-01-10 12:52:32</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260223092643 +0000" stop="20260223103328 +0000" channel="Red Bull TV.en"><title lang="en">After the Snowfall</title>
-<sub-title lang="en">A celebration of skiing in its purest form</sub-title>
-<desc lang="en">Filmed in breath-taking locations around the world, Matchstick Productions bring us a celebration of skiing. Elite athletes and everyday skiers risk all to seek joy-filled moments in the mountains.</desc>
-<category lang="en">Skiing</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:7b24d9ee-b994-4003-9bde-27dc6e4332cc/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/after-the-snowfall</url>
-<episode-num system="redbull.com">episode/rrn:content:films:7b24d9ee-b994-4003-9bde-27dc6e4332cc</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260223103328 +0000" stop="20260223104135 +0000" channel="Red Bull TV.en"><title lang="en">Winter Heroes</title>
-<sub-title lang="en">Joep Wennemars</sub-title>
-<desc lang="en">With a world champion father, the Netherlands’ Joep Wennemars comes from speed skating royalty. The 23-year-old is now coming into his own, and his 2025 world title in the 1000m is just the beginning.</desc>
-<category lang="en">Ice Skating</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/winter-heroes-s1-e6</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:9dcd0bba-d907-41fc-8c48-cf78216507bf</episode-num>
-<episode-num system="xmltv_ns">0.5.0</episode-num>
-<episode-num system="original-air-date">2026-01-10 11:01:56</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:e3c4978a-b025-4737-870b-747e624978c6</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260223104135 +0000" stop="20260223110307 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull King of the Air 2025</title>
-<sub-title lang="en">Highlights from Red Bull King of the Air</sub-title>
-<desc lang="en">The 13th edition of Red Bull King of the Air took to the skies in Cape Town, South Africa. Check out the best of the action from the 2025 big air kitesurfing competition.</desc>
-<category lang="en">Kitesurfing</category>
-<icon src="https://resources.redbull.tv/rrn:content:videos:a18d9d76-07a4-422a-bde4-a2f1139fe170/rbtv_display_art_portrait"/>
-<url>https://www.redbull.com/int-en/videos/red-bull-king-of-the-air-2025-highlights</url>
-<episode-num system="redbull.com">episode/rrn:content:videos:a18d9d76-07a4-422a-bde4-a2f1139fe170</episode-num>
-<episode-num system="original-air-date">2026-02-23 23:41:35</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260223110307 +0000" stop="20260223112838 +0000" channel="Red Bull TV.en"><title lang="en">Jaan Roose: Life on the Line</title>
-<sub-title lang="en">Planning a mind-boggling 3.6km slackline walk</sub-title>
-<desc lang="en">World champion slackliner Jaan Roose makes history as the first person to walk a record-breaking 3.6km slackline across the Strait of Messina, from mainland Italy to Sicily.</desc>
-<category lang="en">Slacklining</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:1270f178-903b-4427-9899-1e1fe576369a/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/jaan-roose-life-on-the-line</url>
-<episode-num system="redbull.com">episode/rrn:content:films:1270f178-903b-4427-9899-1e1fe576369a</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260223112838 +0000" stop="20260223124222 +0000" channel="Red Bull TV.en"><title lang="en">The King of Tekken: Arslan Ash</title>
-<sub-title lang="en">Rising to the top and making history</sub-title>
-<desc lang="en">From humble beginnings in Pakistan to dominating the world’s biggest stages, Arslan Ash rose to the top of Tekken – battling through adversity, doubt and history-making victories.</desc>
-<category lang="en">Esports</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:d62c0b85-3b16-4905-90d9-ae4ac4510685/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/the-king-of-tekken-arslan-ash</url>
-<episode-num system="redbull.com">episode/rrn:content:films:d62c0b85-3b16-4905-90d9-ae4ac4510685</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
   <programme start="20260223124222 +0000" stop="20260223141910 +0000" channel="Red Bull TV.en"><title lang="en">Memories of CS:GO - The Final Years</title>
 <sub-title lang="en">CS:GO’s last chapter of unforgettable gaming</sub-title>
 <desc lang="en">As the shooter game CS:GO (Counter-Strike: Global Offensive) neared its end, it became a global phenomenon. This is how legendary teams and underdog stories made for unforgettable competition.</desc>
@@ -3417,6 +3305,84 @@
 <icon src="https://resources.redbull.tv/rrn:content:films:b62bde3c-41b7-45a2-9385-c9d34708dc7b/rbtv_cover_art_portrait"/>
 <url>https://www.redbull.com/int-en/films/memories-of-cs-go-the-final-years</url>
 <episode-num system="redbull.com">episode/rrn:content:films:b62bde3c-41b7-45a2-9385-c9d34708dc7b</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260224113024 +0000" stop="20260224120606 +0000" channel="Red Bull TV.en"><title lang="en">Echoes of Impact</title>
+<sub-title lang="en">Marcus Kleveland unfiltered</sub-title>
+<desc lang="en">Follow Marcus Kleveland through injury, pressure and the weight of expectation. From highs to lows, his love for creative freestyle snowboarding drives him to keep pushing and redefining the sport.</desc>
+<category lang="en">Snowboarding</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:97fb6421-aee0-43be-9f7d-a8b23c92957f/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/echoes-of-impact</url>
+<episode-num system="redbull.com">episode/rrn:content:films:97fb6421-aee0-43be-9f7d-a8b23c92957f</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260224120606 +0000" stop="20260224124518 +0000" channel="Red Bull TV.en"><title lang="en">Here, Hold My Kid</title>
+<sub-title lang="en">Two pro skiers, two new mums, one sponsorship</sub-title>
+<desc lang="en">Two pro female skiers embrace new motherhood without missing a beat in their heart-stopping careers. They develop a competitiveness with each other in a quest to become 'the mum who can do it all'.</desc>
+<category lang="en">Skiing</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:e13a8740-07de-47f8-8b00-364093de195f/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/here-hold-my-kid</url>
+<episode-num system="redbull.com">episode/rrn:content:films:e13a8740-07de-47f8-8b00-364093de195f</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260224124518 +0000" stop="20260224132803 +0000" channel="Red Bull TV.en"><title lang="en">Paved</title>
+<sub-title lang="en">An unfiltered snow odyssey two years in the making</sub-title>
+<desc lang="en">Part history lesson, part hangout, part backcountry odyssey, Paved – a Burton and Red Bull Media House co-production – celebrates the passion and soul of snowboarding in raw, wry and light-hearted style.</desc>
+<category lang="en">Snowboarding</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:518d59a1-abe6-47df-ad17-6f71d0ef7a0b/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/paved</url>
+<episode-num system="redbull.com">episode/rrn:content:films:518d59a1-abe6-47df-ad17-6f71d0ef7a0b</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260224132803 +0000" stop="20260224134728 +0000" channel="Red Bull TV.en"><title lang="en">Plug &amp; Play</title>
+<sub-title lang="en">From Torin Yater-Wallace and the Deviate Films crew</sub-title>
+<desc lang="en">The fourth film from Deviate Films and The Lodge follows Torin Yater-Wallace, Birk Irving and the rest of the Deviate crew from the backcountry of British Columbia to the frozen streets of Minnesota.</desc>
+<category lang="en">Skiing</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:17c576c5-cd00-471d-876d-8d32c273a31e/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/plug-and-play</url>
+<episode-num system="redbull.com">episode/rrn:content:films:17c576c5-cd00-471d-876d-8d32c273a31e</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260224134728 +0000" stop="20260224135540 +0000" channel="Red Bull TV.en"><title lang="en">A new world record is born </title>
+<sub-title lang="en">World’s longest-ever ski jump</sub-title>
+<desc lang="en">Celebrated ski jumper Ryōyū Kobayashi and his team went to Iceland and carved a special kicker out of the snow with the single intention of creating a jump big enough to smash world records.</desc>
+<category lang="en">Ski Jumping</category>
+<icon src="https://resources.redbull.tv/rrn:content:videos:c30f0870-2448-4f88-bd82-ed05d71e727a/rbtv_display_art_portrait"/>
+<url>https://www.redbull.com/int-en/videos/worlds-longest-ever-ski-jump</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:c30f0870-2448-4f88-bd82-ed05d71e727a</episode-num>
+<episode-num system="original-air-date">2024-12-31 13:04:18</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2024</date></programme>
+  <programme start="20260224135540 +0000" stop="20260224150205 +0000" channel="Red Bull TV.en"><title lang="en">Beyond the Fantasy</title>
+<sub-title lang="en">How snow pros turn improbable visions into reality </sub-title>
+<desc lang="en">Wild ski and snowboard dreams come alive as athletes turn imagination into reality on the slopes.</desc>
+<category lang="en">Skiing</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:ff21f22c-dc24-489e-89fe-97a3d585f16c/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/beyond-the-fantasy</url>
+<episode-num system="redbull.com">episode/rrn:content:films:ff21f22c-dc24-489e-89fe-97a3d585f16c</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260224150205 +0000" stop="20260224155916 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race: 50 Genius Designs</title>
+<sub-title lang="en">Mayhem, crashes and creativity</sub-title>
+<desc lang="en">Red Bull Soapbox Race: a hilarious race format in homemade motorless racecars hurtling down steep, obstacle-filled courses. Laugh along with our edit of 50 of the most genius designs from 2014-2025.</desc>
+<category lang="en">Soapbox Race</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:69d16b4b-e32b-417e-bf66-1f5cca38c218/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/red-bull-soapbox-race-50-genius-designs</url>
+<episode-num system="redbull.com">episode/rrn:content:films:69d16b4b-e32b-417e-bf66-1f5cca38c218</episode-num>
 <rating system="Red Bull TV">
 <value>NR</value>
 </rating>
