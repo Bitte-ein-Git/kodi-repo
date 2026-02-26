@@ -264,7 +264,7 @@ CI &amp; build changes
 - added: Timeshift-Funktion zu-/ab-schaltbar für TV-Live und EventStreams (settings: default=abgeschaltet)
 		</news>
 	</extension>
-</addon><addon id="plugin.video.xship" version="fordy-18.01.26" name="[COLOR white]» [/COLOR][COLOR goldenrod]xShip[/COLOR][COLOR red]+[/COLOR]" provider-name="Bitte ein Git!">
+</addon><addon id="plugin.video.xship" version="2026.01.18" name="[COLOR goldenrod]» xShip[/COLOR][COLOR red]+[/COLOR]" provider-name="Bitte ein Git!">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -281,8 +281,8 @@ CI &amp; build changes
     </extension>
     <extension point="xbmc.service" library="service.py" start="startup" />
     <extension point="xbmc.addon.metadata">
-        <summary lang="de_DE">xShip - kodi.heyfordy.de tweaked</summary>
-        <summary lang="en_GB">xShip - kodi.heyfordy.de tweaked</summary>
+        <summary lang="de_DE">xShip: Der Fake</summary>
+        <summary lang="en_GB">xShip: The Fake</summary>
         <assets>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
