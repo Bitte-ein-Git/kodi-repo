@@ -2,19 +2,15 @@ name: 🌀 • Addon Updater
 
 on:
   schedule:
+    # Run every 12 hours (00:00 and 12:00 UTC)
     - cron: '0 */12 * * *'
   workflow_dispatch:
     inputs:
-      clean_install_all:
-        description: 'Clean Install ALL Addons (Delete & Re-download)'
+      clean_install:
+        description: 'Clean Install (Delete & Re-download, keeping custom assets)'
         required: false
         type: boolean
         default: false
-      clean_install_specific:
-        description: 'Clean Install specific Addons (comma-separated IDs)'
-        required: false
-        type: string
-        default: ''
 
 jobs:
   update-addons:
@@ -39,8 +35,7 @@ jobs:
         id: update_script
         shell: python
         env:
-          CLEAN_INSTALL_ALL: ${{ inputs.clean_install_all }}
-          CLEAN_INSTALL_SPECIFIC: ${{ inputs.clean_install_specific }}
+          CLEAN_INSTALL: ${{ inputs.clean_install }}
         run: |
           import os
           import shutil
@@ -61,6 +56,7 @@ jobs:
               },
               "plugin.video.jellyfin": {
                   "mode": "version_url",
+                  # {version} will be replaced by the version from xml
                   "url": "https://kodi.jellyfin.org/py3/plugin.video.jellyfin/plugin.video.jellyfin-{version}.zip",
                   "source_path": "plugin.video.jellyfin", 
                   "xml_url": "https://kodi.jellyfin.org/py3/plugin.video.jellyfin/addon.xml"
@@ -73,6 +69,7 @@ jobs:
               },
               "plugin.video.xship": {
                   "mode": "scrape",
+                  # Base directory to scan for zips
                   "url": "https://michaz1988.github.io/repo/plugin.video.xship/",
                   "source_path": "plugin.video.xship",
                   "xml_url": "https://michaz1988.github.io/repo/plugin.video.xship/addon.xml"
@@ -88,35 +85,27 @@ jobs:
                   "url": "https://michaz1988.github.io/repo/script.module.xstreamscraper/",
                   "source_path": "script.module.xstreamscraper",
                   "xml_url": "https://michaz1988.github.io/repo/script.module.xstreamscraper/addon.xml"
-              },
-              "plugin.video.discovery.dmax": {
-                  "mode": "version_url",
-                  "url": "https://raw.githubusercontent.com/collabsvito/repo-aio/main/MATRIX/plugin.video.discovery.dmax/plugin.video.discovery.dmax-{version}.zip",
-                  "source_path": "plugin.video.discovery.dmax",
-                  "xml_url": "https://raw.githubusercontent.com/collabsvito/repo-aio/main/MATRIX/plugin.video.discovery.dmax/addon.xml"
               }
           }
 
           REPO_DIR = "repo"
           ZIP_DIR = os.path.join(REPO_DIR, "zips") 
-          
-          # Parse inputs
-          CLEAN_ALL = os.environ.get("CLEAN_INSTALL_ALL") == "true"
-          clean_specific_raw = os.environ.get("CLEAN_INSTALL_SPECIFIC", "")
-          CLEAN_SPECIFIC = [x.strip() for x in clean_specific_raw.split(',')] if clean_specific_raw else []
-          
+          CLEAN_INSTALL = os.environ.get("CLEAN_INSTALL") == "true"
           UPDATES_PERFORMED = False
 
-          # Scrape HTML directory for latest zip
+          # Helper to scrape directory for latest zip
           def get_latest_zip_url(base_url, addon_id):
               try:
                   print(f"Scraping {base_url} for latest zip...")
                   r = requests.get(base_url)
                   r.raise_for_status()
+                  # Regex to find links ending in .zip containing the addon_id
+                  # Pattern: href="plugin.name-2024.01.01.zip"
                   pattern = f'href="({re.escape(addon_id)}[^"]+\.zip)"'
                   matches = re.findall(pattern, r.text)
                   if not matches:
                       return None
+                  # Sort list. ISO Dates (YYYY.MM.DD) sort alphabetically correctly.
                   matches.sort()
                   latest_file = matches[-1]
                   return urllib.parse.urljoin(base_url, latest_file)
@@ -124,7 +113,6 @@ jobs:
                   print(f"Scraping error: {e}")
                   return None
 
-          # Fetch remote XML version
           def get_remote_version(xml_url):
               try:
                   r = requests.get(xml_url)
@@ -136,7 +124,6 @@ jobs:
                   print(f"Error fetching version for {xml_url}: {e}")
                   return None
 
-          # Read local XML and strip custom prefix for comparison
           def get_local_version_and_metadata(addon_id):
               local_path = os.path.join(REPO_DIR, addon_id, "addon.xml")
               if not os.path.exists(local_path):
@@ -144,14 +131,12 @@ jobs:
               try:
                   tree = ET.parse(local_path)
                   root = tree.getroot()
-                  version = root.get("version")
-                  if version and version.startswith("fordy-"):
-                      version = version.replace("fordy-", "", 1)
-                  return version, root 
+                  return root.get("version"), root 
               except:
                   return None, None
 
-          print(f"Starting check. Clean Install All: {CLEAN_ALL} | Specific: {CLEAN_SPECIFIC}")
+          # --- MAIN LOOP ---
+          print(f"Starting check. Clean Install: {CLEAN_INSTALL}")
 
           for addon_id, data in ADDONS.items():
               print(f"Checking {addon_id}...")
@@ -163,10 +148,9 @@ jobs:
                   print(f"Skipping {addon_id}: Could not get remote version.")
                   continue
 
+              # Update Check
               needs_update = False
-              is_clean_install = CLEAN_ALL or (addon_id in CLEAN_SPECIFIC)
-
-              if is_clean_install:
+              if CLEAN_INSTALL:
                   needs_update = True
                   print("Clean install requested.")
               elif local_ver != remote_ver:
@@ -182,12 +166,12 @@ jobs:
                   UPDATES_PERFORMED = True
                   target_dir = os.path.join(REPO_DIR, addon_id)
                   
+                  # 1. Backup custom assets/metadata
                   preserved_images = {}
                   custom_metadata = {} 
                   
-                  # Backup strictly images and metadata
                   if os.path.exists(target_dir):
-                      if local_xml_root is not None:
+                      if local_xml_root:
                           custom_metadata['name'] = local_xml_root.get('name')
                           custom_metadata['provider-name'] = local_xml_root.get('provider-name')
 
@@ -201,22 +185,23 @@ jobs:
                       
                       shutil.rmtree(target_dir)
 
+                  # 2. Determine Download URL based on mode
                   download_url = None
                   mode = data.get("mode", "direct")
                   
-                  # Resolve download URL
                   if mode == "scrape":
                       download_url = get_latest_zip_url(data["url"], addon_id)
                   elif mode == "version_url":
                       safe_version = urllib.parse.quote(remote_ver)
                       download_url = data["url"].format(version=safe_version)
-                  else:
+                  else: # direct
                       download_url = data["url"]
 
                   if not download_url:
                       print(f"Error: Could not determine download URL for {addon_id}")
                       continue
 
+                  # 3. Download & Extract
                   print(f"Downloading from {download_url}...")
                   try:
                       r = requests.get(download_url)
@@ -226,8 +211,10 @@ jobs:
                       temp_extract = "temp_extract"
                       z.extractall(temp_extract)
                       
+                      # Find source folder
                       extracted_root = os.path.join(temp_extract, data["source_path"])
                       
+                      # Fallback search
                       if not os.path.exists(extracted_root):
                           for r_path, d_names, f_names in os.walk(temp_extract):
                               if addon_id in d_names:
@@ -248,23 +235,22 @@ jobs:
                       if os.path.exists("temp_extract"): shutil.rmtree("temp_extract")
                       continue
 
+                  # 4. Restore Assets & Patch XML
                   print("Restoring assets and patching XML...")
                   
-                  # Write back images
                   for rel_path, content in preserved_images.items():
                       dest_path = os.path.join(target_dir, rel_path)
                       os.makedirs(os.path.dirname(dest_path), exist_ok=True)
                       with open(dest_path, 'wb') as f:
                           f.write(content)
 
-                  # Inject custom attributes and force prefix version
                   new_xml_path = os.path.join(target_dir, "addon.xml")
                   if os.path.exists(new_xml_path):
                       try:
                           tree = ET.parse(new_xml_path)
                           root = tree.getroot()
                           
-                          root.set("version", f"fordy-{remote_ver}")
+                          root.set("version", remote_ver)
                           
                           if 'name' in custom_metadata and custom_metadata['name']:
                               root.set("name", custom_metadata['name'])
@@ -275,7 +261,7 @@ jobs:
                       except Exception as e:
                           print(f"Error patching XML: {e}")
 
-          # Trigger generator rebuild
+          # --- CLEANUP & OUTPUT ---
           if UPDATES_PERFORMED:
               print("Updates performed. Cleaning old files...")
               
