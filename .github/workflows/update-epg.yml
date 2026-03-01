@@ -48,30 +48,31 @@ jobs:
               "RTL.Zwee.lu": "RTL Zwee"
           }
 
-          # source id mapping
+          # source id mapping (angepasst für Fallbacks als Liste)
           source_map = {
-              "Das Erste.de": ("de", "Das Erste.de"),
-              "ZDF.de": ("de", "ZDF.de"),
-              "SR Fernsehen.de": ("de", "SR Fernsehen.de"),
-              "ARTE.de": ("de", "ARTE.de"),
-              "ZDFneo.de": ("de", "ZDFneo.de"),
-              "tagesschau24.de": ("de", "tagesschau24.de"),
-              "ZDFinfo.de": ("de", "ZDFinfo.de"),
-              "Red Bull TV.de": ("de", "Red Bull TV.de"),
-              "Red Bull TV.en": ("en", "10001"),
-              "More Than Sports TV.de": ("de", "More Than Sports TV.de"),
-              "WELT.de": ("de", "WELT.de"),
-              "Welt der Wunder.de": ("de", "Welt der Wunder.de"),
-              "SWR Fernsehen RP.de": ("de", "SWR Fernsehen RP.de"),
-              "RTLTeleLuxembourg.lu": ("lu", "rtlletze1.lu"),
-              "RTL.Zwee.lu": ("lu", "rtlletze2.lu")
+              "Das Erste.de": [("de", "Das Erste.de")],
+              "ZDF.de": [("de", "ZDF.de")],
+              "SR Fernsehen.de": [("de", "SR Fernsehen.de")],
+              "ARTE.de": [("de", "ARTE.de")],
+              "ZDFneo.de": [("de", "ZDFneo.de")],
+              "tagesschau24.de": [("de", "tagesschau24.de")],
+              "ZDFinfo.de": [("de", "ZDFinfo.de")],
+              "Red Bull TV.de": [("de", "Red Bull TV.de")],
+              "Red Bull TV.en": [("en", "10001")],
+              "More Than Sports TV.de": [("de", "More Than Sports TV.de")],
+              "WELT.de": [("de", "WELT.de")],
+              "Welt der Wunder.de": [("de", "Welt der Wunder.de")],
+              "SWR Fernsehen RP.de": [("de", "SWR Fernsehen RP.de")],
+              "RTLTeleLuxembourg.lu": [("lu", "rtlletze1.lu"), ("lu_alt", "RTLLÃ«tzebuerg.lu")],
+              "RTL.Zwee.lu": [("lu", "rtlletze2.lu"), ("lu_alt", "RTLZwee.lu")]
           }
           
-          # source urls
+          # source urls (neue LU Quelle hinzugefügt)
           urls = {
               "de": "https://www.open-epg.com/files/germany3.xml",
               "en": "https://nzxmltv.com/iptv/redbull.xml",
-              "lu": "https://www.open-epg.com/files/luxembourg1.xml"
+              "lu": "https://www.open-epg.com/files/luxembourg1.xml",
+              "lu_alt": "https://iptv-epg.org/files/epg-lu.xml"
           }
 
           allowed_tags = {"title","sub-title","desc","icon","url","category","date","credits","director","actor","episode-num","rating"}
@@ -85,6 +86,7 @@ jobs:
 
           # adjust timestamp by hours
           def shift_time(timestr, hours):
+              if not timestr: return timestr
               try:
                   ts = timestr.split(" ")[0]
                   dt = datetime.strptime(ts, "%Y%m%d%H%M%S")
@@ -123,15 +125,12 @@ jobs:
                       prog.append(child)
               
               # --- FIX RED BULL DATE ---
-              # Find <episode-num system="original-air-date"> and convert to <date>
               for child in prog:
                   if child.tag == "episode-num" and child.get("system") == "original-air-date":
                       if child.text:
                           try:
-                              # Expected format "2026-01-10 11:44:57" -> Extract Year
                               year = child.text.split("-")[0]
                               if len(year) == 4 and year.isdigit():
-                                  # Check if date already exists
                                   d = prog.find("date")
                                   if d is None:
                                       d = etree.SubElement(prog, "date")
@@ -166,30 +165,49 @@ jobs:
 
           # process mappings
           for final_id, nice_name in m3u_channels.items():
-              src_key, src_id = source_map.get(final_id, (None, None))
+              sources = source_map.get(final_id, [])
               
-              if src_key is None:
+              if not sources:
                   print(f"[missing] {final_id} nicht in source_map definiert.")
                   tv.append(copy_channel_element(final_id, nice_name, None))
                   continue
 
-              icon_url = source_icons.get((src_key, src_id))
+              # Hole das erste verfügbare Icon aus den gelisteten Quellen
+              icon_url = None
+              for src_key, src_id in sources:
+                  icon = source_icons.get((src_key, src_id))
+                  if icon:
+                      icon_url = icon
+                      break
+
               tv.append(copy_channel_element(final_id, nice_name, icon_url))
               
-              print(f"[mapped] {final_id} (als '{nice_name}') <= {src_key}:{src_id}")
+              seen_starts = set() # Speicher für Deduplizierung der Startzeiten
 
-              src_tree = trees.get(src_key)
-              if src_tree is None:
-                  print(f"[warn] Source '{src_key}' für {final_id} nicht geladen.")
-                  continue
-              
-              # set 1h shift for Luxembourg
-              time_shift = 1 if src_key == "lu" else 0
-
-              for prog in src_tree.findall("programme"):
-                  if prog.get("channel") == src_id:
-                      new_prog = copy_programme(prog, final_id, time_shift)
-                      tv.append(new_prog)
+              for src_key, src_id in sources:
+                  src_tree = trees.get(src_key)
+                  if src_tree is None:
+                      print(f"[warn] Source '{src_key}' für {final_id} nicht verfügbar.")
+                      continue
+                  
+                  # set 1h shift for Luxembourg sources
+                  time_shift = 1 if src_key in ("lu", "lu_alt") else 0
+                  
+                  added_count = 0
+                  for prog in src_tree.findall("programme"):
+                      if prog.get("channel") == src_id:
+                          raw_start = prog.get("start")
+                          shifted_start = shift_time(raw_start, time_shift) if time_shift != 0 else raw_start
+                          
+                          # Nur hinzufügen, wenn die Startzeit noch nicht belegt ist
+                          if shifted_start not in seen_starts:
+                              seen_starts.add(shifted_start)
+                              new_prog = copy_programme(prog, final_id, time_shift)
+                              tv.append(new_prog)
+                              added_count += 1
+                  
+                  if added_count > 0:
+                      print(f"[mapped] {final_id} <= {src_key}:{src_id} ({added_count} Sendungen)")
 
           # write output file
           tree_out = etree.ElementTree(tv)
