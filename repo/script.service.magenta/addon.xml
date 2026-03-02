@@ -23,7 +23,7 @@ EPG: http://localhost:4700/api/file/guide.xml</description>
     <platform>all</platform>
     <license>GPL-3.0-or-later</license>
     <website>https://web.magentatv.de</website>
-    <source>https://kodi.heyfordy.de/repo/script.service.magenta</source>
+    <source>https://bitte-ein-git.github.io/kodi-repo/repo/script.service.magenta</source>
     <assets>
       <icon>icon.png</icon>
     </assets>

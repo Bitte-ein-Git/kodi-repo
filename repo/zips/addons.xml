@@ -71,7 +71,7 @@
 - fixed: Rubrik = Neue Sendungen (Serien), Sortierung nach Datum der neuesten Serien-Episode (absteigend)
 		</news>
 	</extension>
-</addon><addon id="plugin.video.jellyfin" name="Jellyfin" version="fordy-1.1.1+py3" provider-name="Jellyfin Contributors">
+</addon><addon id="plugin.video.jellyfin" name="[COLOR crimson]» Fordy-Media[/COLOR]" version="99.1.1+py3" provider-name="Bitte ein Git!">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.requests" version="2.22.0+matrix.1" />
@@ -82,7 +82,7 @@
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video audio image</provides>
   </extension>
-  <extension point="xbmc.service" library="service.py" start="login">
+  <extension point="xbmc.service" library="service.py" start="startup">
 	</extension>
   <extension point="kodi.context.item">
     <menu id="kodi.core.main">
@@ -108,7 +108,7 @@
     <forum>https://forum.jellyfin.org</forum>
     <website>https://jellyfin.org/</website>
     <source>https://github.com/jellyfin/jellyfin-kodi</source>
-    <summary lang="en" />
+    <summary lang="en_GB">Fork - addon name/ui changed</summary>
     <description lang="en">Welcome to Jellyfin for Kodi!
 A whole new way to manage and view your media library. The Jellyfin addon for Kodi combines the best of Kodi - ultra smooth navigation, beautiful UIs and playback of any file under the sun, and Jellyfin - the most powerful fully open source multi-client media metadata indexer and server.
 
@@ -401,12 +401,12 @@ CI &amp; build changes
 			<icon>icon.jpg</icon>
 		</assets>
 	</extension>
-</addon><addon id="repository.heyfordy" name=" » [B][COLOR goldenrod]heyFordy's[/COLOR][/B] [COLOR blue]Kodi[/COLOR] Repository" version="2.2.1" provider-name="Bitte ein Git!">
+</addon><addon id="repository.heyfordy" name=" » [B][COLOR goldenrod]heyFordy's[/COLOR][/B] [COLOR blue]Kodi[/COLOR] Repository" version="3.0.0" provider-name="Bitte ein Git!">
     <extension point="xbmc.addon.repository" name=" » [B][COLOR goldenrod]heyFordy's[/COLOR][/B] [COLOR blue]Kodi[/COLOR] Repository">
         <dir>
-            <info compressed="false">https://kodi.heyfordy.de/repo/zips/addons.xml</info>
-            <checksum>https://kodi.heyfordy.de/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://kodi.heyfordy.de/repo/zips/</datadir>
+            <info compressed="false">https://bitte-ein-git.github.io/kodi-repo/repo/zips/addons.xml</info>
+            <checksum>https://bitte-ein-git.github.io/kodi-repo/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://bitte-ein-git.github.io/kodi-repo/repo/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
@@ -734,7 +734,7 @@ EPG: http://localhost:4700/api/file/guide.xml</description>
     <platform>all</platform>
     <license>GPL-3.0-or-later</license>
     <website>https://web.magentatv.de</website>
-    <source>https://kodi.heyfordy.de/repo/script.service.magenta</source>
+    <source>https://bitte-ein-git.github.io/kodi-repo/repo/script.service.magenta</source>
     <assets>
       <icon>icon.png</icon>
     </assets>

@@ -1,31 +1,31 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Das Erste FHD" tvg-id="Das Erste.de" group-title="Allgemein;Nachrichten" tvg-logo="https://kodi.heyfordy.de/iptv/logos/daserstehd.png",Das Erste FHD
+#EXTINF:-1 tvg-name="Das Erste FHD" tvg-id="Das Erste.de" group-title="Allgemein;Nachrichten" tvg-logo="https://bitte-ein-git.github.io/kodi-repo/iptv/logos/daserstehd.png",Das Erste FHD
 https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8
-#EXTINF:-1 tvg-name="ZDF HD" tvg-id="ZDF.de" group-title="Allgemein" tvg-logo="https://kodi.heyfordy.de/iptv/logos/zdfhd.png",ZDF HD
+#EXTINF:-1 tvg-name="ZDF HD" tvg-id="ZDF.de" group-title="Allgemein" tvg-logo="https://bitte-ein-git.github.io/kodi-repo/iptv/logos/zdfhd.png",ZDF HD
 https://zdf-hls-15.akamaized.net/hls/live/2016498/de/veryhigh/master.m3u8
-#EXTINF:-1 tvg-name="SR Fernsehen FHD" tvg-id="SR Fernsehen.de" tvg-logo="https://kodi.heyfordy.de/iptv/logos/sr.png" group-title="Allgemein;Unterhaltung",SR Fernsehen FHD
+#EXTINF:-1 tvg-name="SR Fernsehen FHD" tvg-id="SR Fernsehen.de" tvg-logo="https://bitte-ein-git.github.io/kodi-repo/iptv/logos/sr.png" group-title="Allgemein;Unterhaltung",SR Fernsehen FHD
 https://sr-live.ard-mcdn.de/sr/live/hls/de/master.m3u8
-#EXTINF:-1 tvg-id="ARTE.de" tvg-logo="https://kodi.heyfordy.de/iptv/logos/artehd.png" group-title="Dokumentation;Unterhaltung",ARTE HD
+#EXTINF:-1 tvg-id="ARTE.de" tvg-logo="https://bitte-ein-git.github.io/kodi-repo/iptv/logos/artehd.png" group-title="Dokumentation;Unterhaltung",ARTE HD
 https://artesimulcast.akamaized.net/hls/live/2030993/artelive_de/master.m3u8
-#EXTINF:-1 tvg-id="ZDFneo.de" tvg-logo="https://kodi.heyfordy.de/iptv/logos/zdfneohd.png" group-title="Unterhaltung;Filme;Serien",ZDFneo HD
+#EXTINF:-1 tvg-id="ZDFneo.de" tvg-logo="https://bitte-ein-git.github.io/kodi-repo/iptv/logos/zdfneohd.png" group-title="Unterhaltung;Filme;Serien",ZDFneo HD
 https://zdf-hls-16.akamaized.net/hls/live/2016499/de/veryhigh/master.m3u8
-#EXTINF:-1 tvg-id="tagesschau24.de" tvg-logo="https://kodi.heyfordy.de/iptv/logos/tagesschau24.png" group-title="Nachrichten",Tagesschau24 HD
+#EXTINF:-1 tvg-id="tagesschau24.de" tvg-logo="https://bitte-ein-git.github.io/kodi-repo/iptv/logos/tagesschau24.png" group-title="Nachrichten",Tagesschau24 HD
 https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8
-#EXTINF:-1 tvg-id="ZDFinfo.de" tvg-logo="https://kodi.heyfordy.de/iptv/logos/zdfinfohd.png" group-title="Allgemein",ZDFinfo HD
+#EXTINF:-1 tvg-id="ZDFinfo.de" tvg-logo="https://bitte-ein-git.github.io/kodi-repo/iptv/logos/zdfinfohd.png" group-title="Allgemein",ZDFinfo HD
 https://zdf-hls-17.akamaized.net/hls/live/2016500/de/veryhigh/master.m3u8
-#EXTINF:-1 tvg-name="Red Bull TV FHD" tvg-id="Red Bull TV.de" group-title="Unterhaltung;Sport" tvg-logo="https://kodi.heyfordy.de/iptv/logos/redbulltv.png",Red Bull TV FHD
+#EXTINF:-1 tvg-name="Red Bull TV FHD" tvg-id="Red Bull TV.de" group-title="Unterhaltung;Sport" tvg-logo="https://bitte-ein-git.github.io/kodi-repo/iptv/logos/redbulltv.png",Red Bull TV FHD
 https://freqsyndlin.redbull.com/582/hls/master/playlist_1920x1080.m3u8
-#EXTINF:-1 tvg-name="Red Bull TV (English) FHD" tvg-id="Red Bull TV.en" group-title="Unterhaltung;International;Sport" tvg-logo="https://kodi.heyfordy.de/iptv/logos/redbulltv_en.png",Red Bull TV FHD (English)
+#EXTINF:-1 tvg-name="Red Bull TV (English) FHD" tvg-id="Red Bull TV.en" group-title="Unterhaltung;International;Sport" tvg-logo="https://bitte-ein-git.github.io/kodi-repo/iptv/logos/redbulltv_en.png",Red Bull TV FHD (English)
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
-#EXTINF:-1 tvg-name="More Than Sports TV FHD" tvg-id="More Than Sports TV.de" tvg-logo="https://kodi.heyfordy.de/iptv/logos/morethansports.png" group-title="Sport",More Than Sports TV FHD
+#EXTINF:-1 tvg-name="More Than Sports TV FHD" tvg-id="More Than Sports TV.de" tvg-logo="https://bitte-ein-git.github.io/kodi-repo/iptv/logos/morethansports.png" group-title="Sport",More Than Sports TV FHD
 https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
-#EXTINF:-1 tvg-name="WELT FHD" tvg-id="WELT.de" tvg-logo="https://kodi.heyfordy.de/iptv/logos/welt.png" group-title="Unterhaltung;Nachrichten;Dokumentation",WELT FHD
+#EXTINF:-1 tvg-name="WELT FHD" tvg-id="WELT.de" tvg-logo="https://bitte-ein-git.github.io/kodi-repo/iptv/logos/welt.png" group-title="Unterhaltung;Nachrichten;Dokumentation",WELT FHD
 https://welt.personalstream.tv/v1/master.m3u8
-#EXTINF:-1 tvg-name="Welt der Wunder FHD" tvg-id="Welt der Wunder.de" tvg-logo="https://kodi.heyfordy.de/iptv/logos/weltderwunder.png" group-title="Dokumentation;Unterhaltung",Welt der Wunder TV FHD
+#EXTINF:-1 tvg-name="Welt der Wunder FHD" tvg-id="Welt der Wunder.de" tvg-logo="https://bitte-ein-git.github.io/kodi-repo/iptv/logos/weltderwunder.png" group-title="Dokumentation;Unterhaltung",Welt der Wunder TV FHD
 https://wdw.iptv-playoutcenter.de/wdw/wdw1/playlist.m3u8
-#EXTINF:-1 tvg-name="SWR Rheinland-Pfalz FHD" tvg-id="SWR Fernsehen RP.de" tvg-logo="https://kodi.heyfordy.de/iptv/logos/swrhd.png" group-title="Unterhaltung",SWR Rheinland-Pfalz FHD
+#EXTINF:-1 tvg-name="SWR Rheinland-Pfalz FHD" tvg-id="SWR Fernsehen RP.de" tvg-logo="https://bitte-ein-git.github.io/kodi-repo/iptv/logos/swrhd.png" group-title="Unterhaltung",SWR Rheinland-Pfalz FHD
 https://swrrpd-hls.akamaized.net/hls/live/2018676/swrrpd/master.m3u8
-#EXTINF:-1 tvg-name="RTL Télé Lëtzebuerg" tvg-logo="https://kodi.heyfordy.de/iptv/logos/rtl.lu.png" tvg-id="RTLTeleLuxembourg.lu" group-title="International;Nachrichten",RTL Télé Lëtzebuerg
+#EXTINF:-1 tvg-name="RTL Télé Lëtzebuerg" tvg-logo="https://bitte-ein-git.github.io/kodi-repo/iptv/logos/rtl.lu.png" tvg-id="RTLTeleLuxembourg.lu" group-title="International;Nachrichten",RTL Télé Lëtzebuerg
 https://live-edge.rtl.lu/channel1/smil:channel1/playlist.m3u8
-#EXTINF:-1 tvg-name="RTL Zwee" tvg-logo="https://kodi.heyfordy.de/iptv/logos/rtl2.lu.png" tvg-id="RTL.Zwee.lu" group-title="International;Nachrichten",RTL Zwee
+#EXTINF:-1 tvg-name="RTL Zwee" tvg-logo="https://bitte-ein-git.github.io/kodi-repo/iptv/logos/rtl2.lu.png" tvg-id="RTL.Zwee.lu" group-title="International;Nachrichten",RTL Zwee
 https://live-edge.rtl.lu/channel2/smil:channel2/playlist.m3u8

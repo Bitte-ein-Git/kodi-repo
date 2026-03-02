@@ -13,7 +13,7 @@ feed_url = "https://feed.entertainment.tv.theplatform.eu"
 link_url = "https://link.theplatform.eu"
 concurrency_url = "https://concurrency.delivery.theplatform.eu/concurrency/web/Concurrency/unlock"
 wv_url = "https://widevine.entitlement.theplatform.eu/wv/web/ModularDrm/getRawWidevineLicense"
-epg_source_url = "https://kodi.heyfordy.de/iptv/magenta.xml"
+epg_source_url = "https://bitte-ein-git.github.io/kodi-repo/iptv/magenta.xml"
 
 __addon__ = xbmcaddon.Addon()
 __addonname__ = __addon__.getAddonInfo('name')
