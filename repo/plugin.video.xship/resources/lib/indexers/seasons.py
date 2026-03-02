@@ -38,7 +38,7 @@ class seasons:
 			if playcount is None:
 				#playcountDB.createEntry('tvshow', title, title, imdb_id, number_of_seasons, None, None, None)
 				playcount = 0
-			self.sysmeta = re.sub('"playcount": \d', '"playcount": %s' % playcount, self.sysmeta)
+			self.sysmeta = re.sub(r'"playcount": \d', '"playcount": %s' % playcount, self.sysmeta)
 
 			for i in range(1, number_of_seasons+1):
 				self.list.append({'tmdb_id': tmdb_id, 'tvdb_id': tvdb_id, 'season': i})

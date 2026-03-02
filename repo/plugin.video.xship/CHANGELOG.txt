@@ -1,0 +1,51 @@
+xShip PATCHED — Issues #40 through #59
+Base: plugin.video.xship v2026.01.18 (michaz1988)
+
+== Bug fixes ==
+
+#40 — Python 3.12+ escape sequences + critical bugs
+  ~74 regex patterns prefixed with r''. Four crashes fixed: evpKDF bytes
+  concatenation, log_utils exception, cleantitle.translate(), MutableMapping
+  import. Zero functional changes.
+
+#41 — super_meta bug breaks actor movie listing
+  super_meta dict passed correctly to getSources(). Actor credit listings
+  now work.
+
+#59 — Startup blocks 17s on unreachable SMB download path
+  Download path check moved to daemon thread with 2s timeout. Shows
+  "Download-Pfad nicht erreichbar" notification instead of freezing.
+
+#50 — serienstream.to (s.to) xShip source provider
+  Complete rewrite of serienstream.py from xStream browser plugin to proper
+  xShip source class. TMDB title matching, s.to login, season/episode
+  navigation, hoster button parsing (German audio). VOE resolveurl support.
+
+== Features / enhancements ==
+
+#42 — Download manager support (JD1, JD2, MyJD, PyLoad)
+  Context menu "Download" entry for movies and episodes. Download manager
+  selected via addon settings. MyJD uses encrypted credential storage.
+
+#48 — Medien-Info: stream resolution, codec, audio language
+  New context menu entry probes real stream URL. Shows resolution, codec,
+  FPS, bitrate, audio language. Supports MP4 (box parsing, 64KB fetch),
+  HLS, DASH. 20-second countdown with cancel support.
+  Bug fix: control.sleep(250) used seconds not ms — froze UI for 4 min
+  on slow-resolving providers. Fixed to control.sleep(0.25).
+
+#54 — YouTube API key setup without modifying YouTube addon files
+  Writes api_keys.json to userdata at startup. Keys survive YouTube addon
+  updates. Never overwrites existing user-configured keys.
+
+#55 — MyJD: sourceUrl for direct stream URLs
+  JDownloader receives the direct stream URL alongside the referrer page URL.
+
+#56 — Kinoger: JD download via VOE redirect
+  VOE redirect URL resolved first and passed as download URL to JD.
+
+#58 — Trailer context menu (TMDB + YouTube waterfall)
+  "Trailer ansehen" / "Watch Trailer" context menu. 6-step waterfall:
+  KinoCheck > TMDB-DE > YouTube-DE > Trakt > TMDB-EN > YouTube-EN.
+  Age-restricted videos pre-filtered. Duration filter 60-360s.
+  Only shown when YouTube addon is installed with API key.

@@ -137,6 +137,15 @@ class sources:
                 cm = []
                 if downloads:
                     cm.append(("Download", 'RunPlugin(%s?action=download&name=%s&image=%s&source=%s)' % (sysaddon, sysname, sysimage, syssource)))
+                if control.getSetting('jd_enabled') == 'true':
+                    cm.append(("Sende zum JDownloader", 'RunPlugin(%s?action=sendToJD&name=%s&source=%s)' % (sysaddon, sysname, syssource)))
+                if control.getSetting('jd2_enabled') == 'true':
+                    cm.append(("Sende zum JDownloader2", 'RunPlugin(%s?action=sendToJD2&name=%s&source=%s)' % (sysaddon, sysname, syssource)))
+                if control.getSetting('myjd_enabled') == 'true':
+                    cm.append(("Sende zu My.JDownloader", 'RunPlugin(%s?action=sendToMyJD&name=%s&source=%s)' % (sysaddon, sysname, syssource)))
+                if control.getSetting('pyload_enabled') == 'true':
+                    cm.append(("Sende zu PyLoad", 'RunPlugin(%s?action=sendToPyLoad&name=%s&source=%s)' % (sysaddon, sysname, syssource)))
+                cm.append(("Medien-Info", 'RunPlugin(%s?action=mediaInfo&source=%s)' % (sysaddon, syssource)))
                 cm.append(('Einstellungen', 'RunPlugin(%s?action=addonSettings)' % sysaddon))
                 item.addContextMenuItems(cm)
 
@@ -360,7 +369,7 @@ class sources:
                         source_sd = len([e for e in self.sources if e['quality'] not in ['4K','1440p','1080p','720p','HD']])
                     else:
                         source_sd = len([e for e in self.sources if e['quality'] not in ['4K','1440p','1080p','720p','HD']])
-                    
+
                     total = source_4k + source_1080 + source_720 + source_sd
 
                 source_4k_label = total_format % ('red', source_4k) if source_4k == 0 else total_format % ('lime', source_4k)
@@ -452,9 +461,9 @@ class sources:
         self.sources = filter
 
         if control.getSetting('hosts.sort.provider') == 'true':
-            self.sources = sorted(self.sources, key=lambda k: k['provider'])
+            self.sources = sorted(self.sources, key=lambda k: (k.get('prioHoster', 0) >= 999, k['provider']))
 
-        if control.getSetting('hosts.sort.priority') == 'true' and self.mediatype == 'tvshow': self.sources = sorted(self.sources, key=lambda k: k['priority'], reverse=False)
+        if control.getSetting('hosts.sort.priority') == 'true' and self.mediatype == 'tvshow': self.sources = sorted(self.sources, key=lambda k: (k.get('prioHoster', 0) >= 999, k['priority']), reverse=False)
 
         if str(control.getSetting('hosts.limit')) == 'true':
             self.sources = self.sources[:int(control.getSetting('hosts.limit.num'))]
@@ -476,10 +485,12 @@ class sources:
             elif q == 'SD': label += '%s | %s' % (s, f)
             else: label += '%s | %s | [I]%s [/I]' % (s, f, q)
             label = label.replace('| 0 |', '|').replace(' | [I]0 [/I]', '')
-            label = re.sub('\[I\]\s+\[/I\]', ' ', label)
-            label = re.sub('\|\s+\|', '|', label)
-            label = re.sub('\|(?:\s+|)$', '', label)
+            label = re.sub(r'\[I\]\s+\[/I\]', ' ', label)
+            label = re.sub(r'\|\s+\|', '|', label)
+            label = re.sub(r'\|(?:\s+|)$', '', label)
 
+            if self.sources[i].get('prioHoster', 0) >= 999:
+                label += ' | [COLOR red]CAPTCHA[/COLOR]'
             self.sources[i]['label'] = label.upper()
 
             # ## EMBY shown as premium link ##
@@ -503,10 +514,20 @@ class sources:
 
             if not direct == True:
                 try:
-                    hmf = resolver.HostedMediaFile(url=url, include_disabled=True, include_universal=False)
+                    hmf = resolver.HostedMediaFile(url=url, include_disabled=True, include_universal=False, include_popups=False)
+                    if not hmf.valid_url():
+                        hmf = resolver.HostedMediaFile(url=url, include_disabled=True, include_universal=False, include_popups=True)
                     if hmf.valid_url():
                         url = hmf.resolve()
                         if url == False or url == None or url == '': url = None # raise Exception()
+                except:
+                    url = None
+            elif item.get('prioHoster', 0) >= 999:
+                try:
+                    hmf = resolver.HostedMediaFile(url=url, include_disabled=True, include_universal=False, include_popups=True)
+                    if hmf.valid_url():
+                        url = hmf.resolve()
+                        if url == False or url == None or url == '': url = None
                 except:
                     url = None
 
@@ -647,9 +668,93 @@ class sources:
 
         return u
 
+    def mediaInfo(self, source, dialog=None):
+        import xbmcgui
+        try:
+            import urllib3
+            urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+        except: pass
+        try:
+            item = json.loads(source)[0]
+            if item['source'] is None:
+                raise Exception()
+
+            import time as _time
+            from resources.lib.mediainfo import TOTAL_TIMEOUT
+            deadline = _time.time() + TOTAL_TIMEOUT
+
+            if dialog is None:
+                dialog = xbmcgui.DialogProgress()
+                dialog.create('Medien-Info', 'Löse Stream-URL auf...')
+                dialog.update(0)
+
+            future = self.executor.submit(self.sourcesResolve, item)
+
+            # Wait for resolve with responsive cancel (check every 250ms)
+            # Cap at deadline so resolve + probe share the TOTAL_TIMEOUT budget
+            for i in range(120):  # 120 * 250ms = 30s max
+                remaining = int(deadline - _time.time())
+                if remaining <= 0:
+                    break
+                dialog.update(int(50.0 * i / 120), 'Löse Stream-URL auf...')
+                try:
+                    if dialog.iscanceled():
+                        try: dialog.close()
+                        except: pass
+                        return
+                except: pass
+                if future.done():
+                    break
+                control.sleep(0.25)  # 250ms — control.sleep() takes seconds, not ms
+                # Don't count down while resolver shows interactive dialogs
+                if control.condVisibility('Window.IsActive(virtualkeyboard)') or \
+                        control.condVisibility('Window.IsActive(yesnoDialog)'):
+                    continue
+
+            url = self.url if future.done() else None
+            control.execute('Dialog.Close(virtualkeyboard)')
+            control.execute('Dialog.Close(yesnoDialog)')
+
+            try:
+                if dialog.iscanceled():
+                    try: dialog.close()
+                    except: pass
+                    return
+            except: pass
+
+            if url is None:
+                try: dialog.close()
+                except: pass
+                control.infoDialog("Stream-URL konnte nicht aufgelöst werden", sound=False, icon='INFO')
+                return
+
+            log_utils.log('mediaInfo: resolve done, url=%s deadline_remaining=%.1f' % (url[:80], deadline - _time.time()), log_utils.LOGWARNING)
+            dialog.update(50, 'Analysiere Stream...')
+
+            from resources.lib import mediainfo
+            t_probe = _time.time()
+            info = mediainfo.getMediaInfo(url, dialog, deadline)
+            log_utils.log('mediaInfo: probe done in %.1fs, got_info=%s' % (_time.time() - t_probe, bool(info)), log_utils.LOGWARNING)
+
+            try: dialog.close()
+            except: pass
+
+            if info:
+                xbmcgui.Dialog().textviewer('Medien-Info', info)
+            else:
+                control.infoDialog("Auflösung konnte nicht ermittelt werden", sound=False, icon='INFO')
+
+        except Exception as e:
+            try:
+                if dialog: dialog.close()
+            except: pass
+            log_utils.log('mediaInfo Error: %s' % str(e), log_utils.LOGERROR)
+            control.infoDialog("Auflösung konnte nicht ermittelt werden", sound=False, icon='INFO')
+
+
     def errorForSources(self):
         control.infoDialog("Keine Streams verfügbar oder ausgewählt", sound=False, icon='INFO')
-  
+
     def getTitle(self, title):
         title = utils.normalize(title)
         return title

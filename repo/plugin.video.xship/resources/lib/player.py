@@ -282,7 +282,7 @@ class subtitles:
             except: subLang = ''
             if subLang == langs[0]: raise Exception()
 
-            imdbid = re.sub('[^0-9]', '', imdb)
+            imdbid = re.sub(r'[^0-9]', '', imdb)
             if season == 'None' or episode == 'None':
                 result = self.server.SearchSubtitles(self.osdb_token, [{'sublanguageid': langs[0], 'imdbid': imdbid}])['data']
                 if result == []: result = self.server.SearchSubtitles(self.osdb_token, [{'sublanguageid': langs[1], 'imdbid': imdbid}])['data']

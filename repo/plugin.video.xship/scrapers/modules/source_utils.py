@@ -100,7 +100,7 @@ def get_release_quality(release_name, release_link=None):
     try:
         quality = None
         release_name = release_name.upper()
-        fmt = re.sub('(.+)(\d{4}|S\d+E\d+)(\.|\)\.|\)|\]\.|\]|\s)', '', release_name)
+        fmt = re.sub(r'(.+)(\d{4}|S\d+E\d+)(\.|\)\.|\)|\]\.|\]|\s)', '', release_name)
         # log_utils.log('fmt = %s' % fmt, log_utils.LOGDEBUG)
         fmt = fmt.lower()
         quality = get_qual(fmt)
@@ -252,7 +252,7 @@ def check_title(title, name, hdlr, year):
 def label_to_quality(label):
     try:
         try:
-            label = int(re.search('(\d+)', label).group(1))
+            label = int(re.search(r'(\d+)', label).group(1))
         except:
             label = 0
         if label >= 2160:
@@ -271,7 +271,7 @@ def label_to_quality(label):
 def strip_domain(url):
     try:
         if url.lower().startswith('http') or url.startswith('/'):
-            url = re.findall('(?://.+?|)(/.+)', url)[0]
+            url = re.findall(r'(?://.+?|)(/.+)', url)[0]
         url = replaceHTMLCodes(url)
         url = py2_encode(url)
         return url
@@ -285,7 +285,7 @@ def replaceHTMLCodes(txt):
 
 
 def _replaceHTMLCodes(txt):
-    txt = re.sub("(&#[0-9]+)([^;^0-9]+)", "\\1;\\2", txt)
+    txt = re.sub(r"(&#[0-9]+)([^;^0-9]+)", r"\1;\2", txt)
     txt = unescape(txt)
     txt = txt.replace("&quot;", "\"")
     txt = txt.replace("&amp;", "&")
@@ -317,7 +317,7 @@ def __top_domain(url):
     elements = urlparse(url)
     domain = elements.netloc or elements.path
     domain = domain.split('@')[-1].split(':')[0]
-    regex = "(?:www\.)?([\w\-]*\.[\w\-]{2,3}(?:\.[\w\-]{2,3})?)$"
+    regex = r"(?:www\.)?([\w\-]*\.[\w\-]{2,3}(?:\.[\w\-]{2,3})?)$"
     res = re.search(regex, domain)
     if res:
         domain = res.group(1)
@@ -417,7 +417,7 @@ def evp_decode(cipher_text, passphrase, salt=None):
 
 def evpKDF(passwd, salt, key_size=8, iv_size=4, iterations=1, hash_algorithm="md5"):
     target_key_size = key_size + iv_size
-    derived_bytes = ""
+    derived_bytes = b""
     number_of_derived_words = 0
     block = None
     hasher = hashlib.new(hash_algorithm)
@@ -433,7 +433,7 @@ def evpKDF(passwd, salt, key_size=8, iv_size=4, iterations=1, hash_algorithm="md
             block = hasher.digest()
             hasher = hashlib.new(hash_algorithm)
         derived_bytes += block[0: min(len(block), (target_key_size - number_of_derived_words) * 4)]
-        number_of_derived_words += len(block) / 4
+        number_of_derived_words += len(block) // 4
     return {"key": derived_bytes[0: key_size * 4], "iv": derived_bytes[key_size * 4:]}
 
 

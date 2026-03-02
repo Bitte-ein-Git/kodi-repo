@@ -20,7 +20,7 @@ import xbmc, xbmcaddon, xbmcvfs
 
 if sys.version_info.major == 3:
     from urllib.parse import quote_plus
-    from typing import MutableMapping
+    from collections.abc import MutableMapping
     translatePath =  xbmcvfs.translatePath
 else:
     from urllib import quote_plus

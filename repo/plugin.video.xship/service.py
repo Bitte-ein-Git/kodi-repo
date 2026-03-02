@@ -143,6 +143,56 @@ def _checkdomain(_domain, _provider):
             if isLogger: logger.info(' -> [service]: Provider: %s / Statuscode: %s / Domain: %s, Check: %s' % (_provider, status_code, domain, check))
     except: pass
 
+def ensure_youtube_api_keys():
+    """Write bundled YouTube API keys to api_keys.json if not already configured.
+    Only writes if no user key exists — never overwrites an existing configured key."""
+    import json, base64
+    try:
+        yt_keys_path = translatePath('special://home/userdata/addon_data/plugin.video.youtube/api_keys.json')
+
+        # If file exists, check whether a user key is already present
+        if os.path.exists(yt_keys_path):
+            try:
+                with open(yt_keys_path, 'r') as f:
+                    existing = json.load(f)
+                if existing.get('keys', {}).get('user', {}).get('api_key', ''):
+                    return  # user key already configured — do not touch
+            except Exception:
+                pass  # unreadable — fall through and write fresh
+
+        # Write bundled fallback keys to api_keys.json.
+        # JSON structure is visible as-is; values prefixed 'b64:' are decoded before writing.
+        _template = """{
+    "keys": {
+        "user": {
+            "api_key":       "b64:QUl6YVN5RG5sSjBlX0NabExvWm03Q01Obk80MXhJblpnVkZ5T2Jv",
+            "client_id":     "b64:ODY5OTIyMDgxNzY5LWQzOTJkdTN2dTZjOGNwbXRsbDExcnBkN2YwOWRldTFuLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29t",
+            "client_secret": "b64:R09DU1BYLVpPSWYwSnM3cUFCN3FsTWNvRkFDTlpqVWhfQ2o="
+        },
+        "developer": {}
+    }
+}"""
+
+        def _resolve(obj):
+            if isinstance(obj, dict):
+                return {k: _resolve(v) for k, v in obj.items()}
+            if isinstance(obj, str) and obj.startswith('b64:'):
+                return base64.b64decode(obj[4:].encode()).decode()
+            return obj
+
+        yt_dir = os.path.dirname(yt_keys_path)
+        if not os.path.exists(yt_dir):
+            os.makedirs(yt_dir)
+
+        with open(yt_keys_path, 'w') as f:
+            json.dump(_resolve(json.loads(_template)), f, indent=4)
+        if isLogger:
+            logger.info('[service]: YouTube api_keys.json written')
+    except Exception as e:
+        if isLogger:
+            logger.warning('[service]: Failed to write YouTube api_keys.json: %s' % str(e))
+
+
 if __name__ == "__main__":
 	import xbmc
 	if not xbmc.getCondVisibility("System.HasAddon(inputstream.adaptive)"):
@@ -150,3 +200,4 @@ if __name__ == "__main__":
 		xbmc.executebuiltin('SendClick(11)')
 	check_domains()
 	delHtmlCache()
+	ensure_youtube_api_keys()

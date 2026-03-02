@@ -35,7 +35,7 @@ class source:
                 oRequest.cacheTime = 60 * 60 #* 48  # 48 Stunden
                 sHtmlContent = oRequest.request()
                 # pattern = 'class="group.*?href="([^"]+).*?title="([^"]+).*?alt=.*?(\d+)'
-                pattern = 'class="group.*?title="([^"]+).*?href="([^"]+).*?span>(\d+)'
+                pattern = r'class="group.*?title="([^"]+).*?href="([^"]+).*?span>(\d+)'
                 isMatch, aResult = cParser.parse(sHtmlContent, pattern)
                 if not isMatch: continue
                 for sName, sUrl, sYear in aResult:

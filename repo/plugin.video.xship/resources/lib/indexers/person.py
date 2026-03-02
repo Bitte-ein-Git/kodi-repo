@@ -159,6 +159,8 @@ class person:
 
 		addonPoster, addonBanner = control.addonPoster(), control.addonBanner()
 		addonFanart, settingFanart = control.addonFanart(), control.getSetting('fanart')
+		hasTrailerPlayer = control.hasTrailerPlayer()
+		trailerLabel = control.trailerLabel()
 		for i in range(number, number + 20):
 			if i >= len(items) - 1: break
 			try:
@@ -196,6 +198,8 @@ class person:
 
 				## supported infolabels: https://codedocs.xyz/AlwinEsch/kodi/group__python__xbmcgui__listitem.html#ga0b71166869bda87ad744942888fb5f14
 				# remove unsupported infolabels
+				movie_title = meta.get('title', '')
+				tmdb_id = meta.get('tmdb_id', '')
 				meta.pop('fanart', None)
 				meta.pop('poster', None)
 				meta.pop('id', None)
@@ -208,6 +212,16 @@ class person:
 				meta.pop('backdrop_url', None)
 				item.setInfo(type='Video', infoLabels=meta)
 
+				cm = []
+				if hasTrailerPlayer and tmdb_id:
+					cm.append((trailerLabel, 'RunPlugin(%s?action=playTrailer&tmdb_id=%s&mediatype=movie&title=%s&year=%s&poster=%s)' % (
+						sysaddon, tmdb_id,
+						control.quote_plus(str(movie_title)),
+						year,
+						control.quote_plus(str(poster)),
+					)))
+				if cm:
+					item.addContextMenuItems(cm)
 				control.addItem(handle=syshandle, url=url, listitem=item, isFolder=False)
 			except Exception as e:
 				print(e)

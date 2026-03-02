@@ -487,12 +487,12 @@ class cRequestHandler:
 class cBF:
     def resolve(self, url, html, cookie_jar, user_agent, sParameters):
         page = urlparse(url).scheme + '://' + urlparse(url).netloc
-        j = re.compile('<script[^>]src="([^"]+)').findall(html)
+        j = re.compile(r'<script[^>]src="([^"]+)').findall(html)
         if j:
             opener = build_opener(HTTPCookieProcessor(cookie_jar))
             opener.addheaders = [('User-agent', user_agent), ('Referer', url)]
             opener.open(page + j[0])
-        a = re.compile('xhr\.open\("GET","([^,]+)",').findall(html)
+        a = re.compile(r'xhr\.open\("GET","([^,]+)",').findall(html)
         if a:
             import random
             aespage = page + a[0].replace('" + ww +"', str(random.randint(700, 1500)))
@@ -500,7 +500,7 @@ class cBF:
             opener.addheaders = [('User-agent', user_agent), ('Referer', url)]
             html = opener.open(aespage).read().decode('utf-8', 'replace')
             cval = self.aes_decode(html)
-            cdata = re.compile('cookie="([^="]+).*?domain[^>]=([^;]+)').findall(html)
+            cdata = re.compile(r'cookie="([^="]+).*?domain[^>]=([^;]+)').findall(html)
             if cval and cdata:
                 c = Cookie(version=0, name=cdata[0][0], value=cval, port=None, port_specified=False, domain=cdata[0][1], domain_specified=True, domain_initial_dot=False, path="/", path_specified=True, secure=False, expires=time.time() + 21600, discard=False, comment=None, comment_url=None, rest={})
                 cookie_jar.set_cookie(c)
@@ -512,7 +512,7 @@ class cBF:
     def aes_decode(html):
         try:
             import pyaes
-            keys = re.compile('toNumbers\("([^"]+)"').findall(html)
+            keys = re.compile(r'toNumbers\("([^"]+)"').findall(html)
             if keys:
                 from binascii import hexlify, unhexlify
                 msg = unhexlify(keys[2])

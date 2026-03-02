@@ -61,6 +61,11 @@ def isBlockedHoster(url, isResolve=True):
             url = html.unescape(url)    # https://github.com/Gujal00/ResolveURL/pull/1115
             hmf = resolver.HostedMediaFile(url=url, include_disabled=True, include_universal=False)
             if hmf.valid_url():
+                try:
+                    if hmf._HostedMediaFile__resolvers[0].isPopup():
+                        prioHoster = hmf._HostedMediaFile__resolvers[0].priority
+                        return False, sDomain, url, max(prioHoster, 999)
+                except: pass
                 sUrl = hmf.resolve()
                 try: prioHoster = hmf._HostedMediaFile__resolvers[0].priority
                 except: pass
@@ -154,12 +159,12 @@ def getsearch(title):
     if title is None:
         return
     title = title.lower()
-    title = re.sub('&#(\d+);', '', title)
-    title = re.sub('(&#[0-9]+)([^;^0-9]+)', '\\1;\\2', title)
+    title = re.sub(r'&#(\d+);', '', title)
+    title = re.sub(r'(&#[0-9]+)([^;^0-9]+)', r'\1;\2', title)
     title = title.replace('&quot;', '\"').replace('&amp;', '&')
-  # title = re.sub('\\\|/|-|â€“|:|;|\*|\?|"|\'|<|>|\|', '', title).lower()
-    title = re.sub('[\\\\/\\-â€“:;*?"\'<>|]', '', title).lower()
-    title = re.sub('\s+', ' ', title)
+  # title = re.sub('\\\|/|-|â€"|:|;|\*|\?|"|\'|<|>|\|', '', title).lower()
+    title = re.sub(r'[\\/\-â€":;*?"\'<>|]', '', title).lower()
+    title = re.sub(r'\s+', ' ', title)
     return title
 
 def get_titles_for_search(localtitle, title, aliases):
@@ -344,7 +349,7 @@ def m3u8_check(stream_url):
     req = urllib_request.Request(stream_url.split('|')[0], headers=headers)
     try:
         line = (urllib_request.urlopen(req).readlines())
-        if re.search('\.m4.', str(line)): return
+        if re.search(r'\.m4.', str(line)): return
         # if '.m4s' in str(line):
         #     return
         # elif 'http' in str(line):
