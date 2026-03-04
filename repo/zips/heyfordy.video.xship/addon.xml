@@ -16,8 +16,8 @@
     </extension>
     <extension point="xbmc.service" library="service.py" start="startup" />
     <extension point="xbmc.addon.metadata">
-        <summary lang="de_DE">xShip - kodi.heyfordy.de tweaked</summary>
-        <summary lang="en_GB">xShip - kodi.heyfordy.de tweaked</summary>
+        <summary lang="de_DE">xShip - kodi.heyfordy.dev tweaked</summary>
+        <summary lang="en_GB">xShip - kodi.heyfordy.dev tweaked</summary>
         <assets>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>

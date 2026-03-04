@@ -10,7 +10,7 @@ import urllib.parse
 from resources.lib.discord_gateway import DiscordClient, DiscordConnectionError
 
 ADDON = xbmcaddon.Addon()
-TMDB_API_URL = "https://api.heyfordy.de/tmdb"
+TMDB_API_URL = "https://api.heyfordy.dev/tmdb"
 
 def log(msg, level=xbmc.LOGINFO):
     # helper for logging

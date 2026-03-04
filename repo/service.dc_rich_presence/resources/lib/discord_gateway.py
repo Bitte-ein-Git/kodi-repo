@@ -170,7 +170,7 @@ class DiscordClient:
             xbmc.log(f"[DiscordRPC] External asset upload failed: {e}", xbmc.LOGWARNING)
         
         # fallback for tmdb api redirect
-        if "api.heyfordy.de" in image_url:
+        if "api.heyfordy.dev" in image_url:
             try:
                 # try to resolve redirect manually
                 head_resp = requests.head(image_url, allow_redirects=True, timeout=2)

@@ -15,7 +15,7 @@ except ImportError:
     from resources.lib.dc_gateway import DiscordClient, DiscordConnectionError
 
 ADDON = xbmcaddon.Addon()
-TMDB_API_URL = "https://api.heyfordy.de/tmdb"
+TMDB_API_URL = "https://api.heyfordy.dev/tmdb"
 
 def log(msg, level=xbmc.LOGINFO):
     xbmc.log(f"[DiscordRPC] {msg}", level)

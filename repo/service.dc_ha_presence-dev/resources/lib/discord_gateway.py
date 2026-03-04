@@ -310,7 +310,7 @@ class DiscordClient:
         except Exception as e:
             xbmc.log(f"[DiscordRPC] External asset upload failed: {e}", xbmc.LOGWARNING)
 
-        if "api.heyfordy.de" in image_url:
+        if "api.heyfordy.dev" in image_url:
             try:
                 head_resp = requests.head(image_url, allow_redirects=True, timeout=4)
                 if head_resp.ok and "image.tmdb.org" in head_resp.url:
