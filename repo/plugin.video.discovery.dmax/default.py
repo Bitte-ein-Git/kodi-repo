@@ -1,7 +1,7 @@
 ﻿# -*- coding: utf-8 -*-
 
 '''
-    Copyright (C) 2025 realvito
+    Copyright (C) 2026 realvito
 
     DMAX Mediathek
 
@@ -27,7 +27,7 @@ params = dict(parse_qsl(sys.argv[2][1:]))
 def run():
 	if params:
 		if params['mode'] == 'listThemes':
-			navigator.listThemes(params['url'])
+			navigator.listThemes()
 		elif params['mode'] == 'listAlphabet':
 			navigator.listAlphabet()
 		elif params['mode'] == 'listSeries':

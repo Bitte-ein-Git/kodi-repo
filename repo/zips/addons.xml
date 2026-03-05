@@ -38,7 +38,7 @@
       <clearlogo>clearlogo.png</clearlogo>
     </assets>
   </extension>
-</addon><addon id="plugin.video.discovery.dmax" name="DMAX" version="2.9.9" provider-name="Bitte ein Git!">
+</addon><addon id="plugin.video.discovery.dmax" name="DMAX" version="fordy-3.3.3+matrix.1" provider-name="Bitte ein Git!">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" version="2.27.0" />
@@ -67,8 +67,10 @@
 			<fanart>resources/media/fanart.jpg</fanart>
 		</assets>
 		<news>
-[B][COLOR orangered]Version 3.3.1+matrix.1  (25.05.2025)[/COLOR][/B]
-- fixed: Rubrik = Neue Sendungen (Serien), Sortierung nach Datum der neuesten Serien-Episode (absteigend)
+[B][COLOR orangered]Version 3.3.3+matrix.1  (01.03.2026)[/COLOR][/B]
+- fixed: Vereinzelt wird bei Serien kein Bild und keine Beschreibung angezeigt, obwohl diese nach Überprüfung doch vorhanden sind (Beim Ableich der zwei API-Listen des Providers stimmt entweder der 'slug'- oder der 'showId'-Eintrag nicht überein)
+- RE-added: Rubrik = Themen
+- comment: *Auf vielfachen Wunsch und nach ausführlichen Tests ist es mir gelungen wieder ein Genre-Konstrukt auf Basis der API-'Aurora' von Discovery aufzubauen und in das Addon zu integrieren !*
 		</news>
 	</extension>
 </addon><addon id="plugin.video.jellyfin" name="Jellyfin" version="fordy-1.1.1+py3" provider-name="Jellyfin Contributors">
@@ -197,37 +199,6 @@ CI &amp; build changes
       <icon>icon.png</icon>
     </assets>
   </extension>
-</addon><addon id="plugin.video.themoviedb.helper" version="9.9.9~dev" name="[COLOR darkorange]Allgemeine Suche[/COLOR] " provider-name="Bitte ein Git!">
-<requires>
-  <import addon="xbmc.python" version="3.0.1" />
-  <import addon="script.module.requests" version="2.9.1" />
-  <import addon="script.module.pil" version="1.1.7" />
-  <import addon="script.module.addon.signals" version="0.0.6" />
-  <import addon="script.module.jurialmunkey" version="0.2.2" />
-  <import addon="script.module.infotagger" version="0.0.5" />
-  <import addon="script.module.beautifulsoup4" version="4.9.3" />
-</requires>
-<extension point="xbmc.python.pluginsource" library="resources/plugin.py">
-  <provides>video</provides>
-</extension>
-<extension point="xbmc.python.script" library="resources/script.py" />
-<extension point="xbmc.service" library="resources/service.py" />
-<extension point="xbmc.python.module" library="resources/modules" />
-<extension point="xbmc.addon.metadata">
-  <reuselanguageinvoker>false</reuselanguageinvoker>
-  <summary lang="en_GB">Fork - addom name/ui changed</summary>
-  <description lang="en_GB">TMDb Helper provides details about movies, tvshows and actors from TMDb. Users can access a variety of lists from TMDb TVDb MDbList and Trakt.</description>
-  <disclaimer lang="en_GB">Data provided by TMDb TVDb MDbList OMDb FanartTV and Trakt. Some of the information is provided by TheTVDB.com. Please consider supporting them. https://thetvdb.com/subscribe</disclaimer>
-  <license>GPL-3.0-or-later</license>
-  <website>https://github.com/jurialmunkey/plugin.video.themoviedb.helper</website>
-  <forum>https://forum.kodi.tv/showthread.php?tid=345847</forum>
-  <assets>
-    <icon>icon.png</icon>
-    <fanart>fanart.jpg</fanart>
-    <screenshot>resources/screenshot-01.jpg</screenshot>
-    <screenshot>resources/screenshot-02.jpg</screenshot>
-  </assets>
-</extension>
 </addon><addon id="plugin.video.tvnow.de" version="2.0.0" name="[COLOR dodgerblue]R[/COLOR][COLOR deepskyblue]T[/COLOR][COLOR darkorchid]L[/COLOR] +" provider-name="Bitte ein Git!">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
@@ -402,12 +373,12 @@ CI &amp; build changes
 			<icon>icon.jpg</icon>
 		</assets>
 	</extension>
-</addon><addon id="repository.heyfordy" name=" » [B][COLOR goldenrod]heyFordy's[/COLOR][/B] [COLOR blue]Kodi[/COLOR] Repository" version="3.0.0" provider-name="Bitte ein Git!">
+</addon><addon id="repository.heyfordy" name=" » [B][COLOR goldenrod]heyFordy's[/COLOR][/B] [COLOR blue]Kodi[/COLOR] Repository" version="26.3.5" provider-name="Bitte ein Git!">
     <extension point="xbmc.addon.repository" name=" » [B][COLOR goldenrod]heyFordy's[/COLOR][/B] [COLOR blue]Kodi[/COLOR] Repository">
         <dir>
-            <info compressed="false">https://bitte-ein-git.github.io/kodi-repo/repo/zips/addons.xml</info>
-            <checksum>https://bitte-ein-git.github.io/kodi-repo/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://bitte-ein-git.github.io/kodi-repo/repo/zips/</datadir>
+            <info compressed="false">https://kodi.heyfordy.dev/repo/zips/addons.xml</info>
+            <checksum>https://kodi.heyfordy.dev/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://kodi.heyfordy.dev/repo/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
@@ -711,7 +682,7 @@ CI &amp; build changes
             <screenshot>icon.png</screenshot>
         </assets>
     </extension>
-</addon><addon id="script.service.magenta" name="[COLOR white]» [/COLOR][COLOR hotpink]Magenta TV 2.0[/COLOR][COLOR white] - Server[/COLOR]" version="1.1.0-dev" provider-name="Bitte ein Git!">
+</addon><addon id="script.service.magenta" name="[COLOR white]» [/COLOR][COLOR hotpink]Magenta TV 2.0[/COLOR][COLOR white] - Server[/COLOR]" version="26.3.5~beta" provider-name="Bitte ein Git!">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.beautifulsoup4" />
@@ -735,7 +706,7 @@ EPG: http://localhost:4700/api/file/guide.xml</description>
     <platform>all</platform>
     <license>GPL-3.0-or-later</license>
     <website>https://web.magentatv.de</website>
-    <source>https://bitte-ein-git.github.io/kodi-repo/repo/script.service.magenta</source>
+    <source>https://kodi.heyfordy.de/repo/script.service.magenta</source>
     <assets>
       <icon>icon.png</icon>
     </assets>
@@ -807,19 +778,4 @@ EPG: http://localhost:4700/api/file/guide.xml</description>
       <icon>icon.png</icon>
     </assets>
     </extension>
-</addon><addon id="service.pyftpd.simple" name="Simple [B]FTP[/B]-Server" version="1.0" provider-name="Bitte ein Git!">
-  <requires>
-    <import addon="xbmc.python" version="3.0.0" />
-  </requires>
-  <extension point="xbmc.service" library="default.py">
-        <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>pyftpd</summary>
-    <description>
-    </description>
-    <disclaimer>
-    </disclaimer>
-    <platform>all</platform>
-  </extension>
 </addon></addons>

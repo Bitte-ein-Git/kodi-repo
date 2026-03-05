@@ -45,14 +45,19 @@ enableADJUSTMENT			= addon.getSetting('show_settings') == 'true'
 DEB_LEVEL							= (xbmc.LOGINFO if addon.getSetting('enable_debug') == 'true' else xbmc.LOGDEBUG)
 KODI_ov20							= int(xbmc.getInfoLabel('System.BuildVersion')[0:2]) >= 20
 KODI_un21							= int(xbmc.getInfoLabel('System.BuildVersion')[0:2]) <= 20
-PRIMARY_CHANNEL			= '94' # '94' = DMAX // '148' = HGTV // '95' = TLC // '626' = TELE5
-BASIC_LOMA						= 'dmax' # 'dmax' = DMAX // 'hgtv' = HGTV // 'tlc' = TLC // 'tele5' = TELE5
-REALM_DISCO					= 'dmaxde' # 'dmaxde' = DMAX // 'hgtv' = HGTV // 'tlcde' = TLC // 'dmaxde' = TELE5
+DISCO_CHANNEL				= '94' # '94' = DMAX // '148' = HGTV // '95' = TLC // '626' = TELE5
+PUBLIC_CHANNEL				= 'dmaxde' # 'dmaxde' = DMAX // 'hgtvde' = HGTV // 'tlcde' = TLC // 'tele5' = TELE5
+DISCO_REALM					= 'dmaxde' # 'dmaxde' = DMAX // 'hgtv' = HGTV // 'tlcde' = TLC // 'dmaxde' = TELE5
+PUBLIC_REALM					= 'de' # https://public.aurora.enhanced.live/token?realm=de
+PUBLIC_HOST					= 'https://public.aurora.enhanced.live'
+AURORA_DEFAULT			= f"{PUBLIC_HOST}/site/page/sendungen/?include=default,advancedSearch&filter[environment]={PUBLIC_CHANNEL}&v=2"
+AURORA_SEARCH				= f"{AURORA_DEFAULT.replace('/page/sendungen/', '/search/taxonomy/')}&filter[slug]={{}}&page[size]=200"
+DISCO_HOST						= 'https://eu1-prod.disco-api.com'
+EUAPI_SHOWS					= f"{DISCO_HOST}/content/shows?include=images,genres"
+EUAPI_VIDEOS					= f"{DISCO_HOST}/content/videos?include=show,images,genres"
+ACCESS_URL						= f"{DISCO_HOST}/token?realm={DISCO_REALM}"
 BASE_URL							= 'https://dmax.de/'
-API_LOMA							= f"https://de-api.loma-cms.com/feloma{{}}?environment={BASIC_LOMA}&v=2"
-API_DISCO							= 'https://eu1-prod.disco-api.com'
-ACCESS_URL						= f"https://eu1-prod.disco-api.com/token?realm={REALM_DISCO}"
-agent_WEB							= 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:135.0) Gecko/20100101 Firefox/135.0'
+agent_WEB							= 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:147.0) Gecko/20100101 Firefox/147.0'
 
 xbmcplugin.setContent(ADDON_HANDLE, 'tvshows')
 
@@ -97,7 +102,7 @@ def plugin_operate(MARKING):
 		failing(f"(common.plugin_operate) ERROR - INSTALLED - ERROR :\n##### Das benötigte Addon : *{MARKING}* ist NICHT installiert !!! #####")
 	return False
 
-def getSorting():
+def get_sorting():
 	return [xbmcplugin.SORT_METHOD_UNSORTED, xbmcplugin.SORT_METHOD_LABEL_IGNORE_THE, xbmcplugin.SORT_METHOD_DURATION, xbmcplugin.SORT_METHOD_EPISODE, xbmcplugin.SORT_METHOD_DATE]
 
 def get_CentralTime(info): # 2024-05-05T19:10:00Z
@@ -122,21 +127,28 @@ def convert_times(TIMING=None, ROUNDED=True, PLACES=3):
 		return str(timedelta(milliseconds=DEMAND))[: - PLACES]
 	return str(timedelta(milliseconds=DEMAND))
 
-def preserve(store, data=None):
-	if data is not None:
-		with open(store, 'w') as topics:
-			json.dump(data, topics, indent=2, sort_keys=True)
+def preserve(storage, content=None):
+	if content is not None:
+		with open(storage, 'w') as topics:
+			json.dump(content, topics, indent=2, sort_keys=True)
 	else:
-		with open(store, 'r') as topics:
+		with open(storage, 'r') as topics:
 			arrive = json.load(topics)
 		return arrive
 
-def cleanUmlaut(wrong):
-	if wrong is not None:
-		for wg in (('ä', 'ae'), ('Ä', 'Ae'), ('ü', 'ue'), ('Ü', 'Ue'), ('ö', 'oe'), ('Ö', 'Oe'), ('ß', 'ss')):
-			wrong = wrong.replace(*wg)
-		wrong = wrong.strip()
-	return wrong
+def clear_umlaut(changes):
+	if changes is not None:
+		for cm in (('Ä', 'Ae'), ('ä', 'ae'), ('Ö', 'Oe'), ('ö', 'oe'), ('Ü', 'Ue'), ('ü', 'ue'), ('ß', 'ss')):
+			changes = changes.replace(*cm)
+		changes = changes.strip()
+	return changes
+
+def clear_invalid(changes):
+	if changes is not None: # Replace Umlaut to Single Letter (AURORA=escape-vermaechtnis-der-wikinger -> DISCO=escape-vermachtnis-der-wikinger)
+		for cn in (('Ae', 'A'), ('ae', 'a'), ('Oe', 'O'), ('oe', 'o'), ('Ue', 'U'), ('ue', 'u'), ('ss', '')):
+			changes = changes.replace(*cn)
+		changes = changes.strip()
+	return changes
 
 def cleaning(text):
 	if text is not None:
@@ -149,10 +161,11 @@ def cleaning(text):
 			('&ugrave;', 'ù'), ('&Ugrave;', 'Ù'), ('&uacute;', 'ú'), ('&Uacute;', 'Ú'), ('&ucirc;', 'û'), ('&Ucirc;', 'Û'), ('&yacute;', 'ý'), ('&Yacute;', 'Ý'),
 			('&atilde;', 'ã'), ('&Atilde;', 'Ã'), ('&ntilde;', 'ñ'), ('&Ntilde;', 'Ñ'), ('&otilde;', 'õ'), ('&Otilde;', 'Õ'), ('&Scaron;', 'Š'), ('&scaron;', 'š'), ('&ccedil;', 'ç'), ('&Ccedil;', 'Ç'),
 			('&alpha;', 'a'), ('&Alpha;', 'A'), ('&aring;', 'å'), ('&Aring;', 'Å'), ('&aelig;', 'æ'), ('&AElig;', 'Æ'), ('&epsilon;', 'e'), ('&Epsilon;', 'Ε'), ('&eth;', 'ð'), ('&ETH;', 'Ð'), ('&gamma;', 'g'), ('&Gamma;', 'G'),
-			('&oslash;', 'ø'), ('&Oslash;', 'Ø'), ('&theta;', 'θ'), ('&thorn;', 'þ'), ('&THORN;', 'Þ'), ('&bull;', '•'), ('&iexcl;', '¡'), ('&iquest;', '¿'), ('&copy;', '(c)'), ('\t', '    '), ('<br />', ' - '),
-			("&rsquo;", "’"), ("&lsquo;", "‘"), ("&sbquo;", "’"), ('&rdquo;', '”'), ('&ldquo;', '“'), ('&bdquo;', '”'), ('&rsaquo;', '›'), ('lsaquo;', '‹'), ('&raquo;', '»'), ('&laquo;', '«'),
+			('&oslash;', 'ø'), ('&Oslash;', 'Ø'), ('&theta;', 'θ'), ('&thorn;', 'þ'), ('&THORN;', 'Þ'), ('&bull;', '•'), ('&iexcl;', '¡'), ('&iquest;', '¿'), ('&copy;', '(c)'), ('\t', '    '), ('<br />', ' - '), ('</p>\n<p></p>', ''),
+			("&rsquo;", "’"), ("&lsquo;", "‘"), ("&sbquo;", "’"), ('&rdquo;', '”'), ('&ldquo;', '“'), ('&bdquo;', '”'), ('&rsaquo;', '›'), ('lsaquo;', '‹'), ('&raquo;', '»'), ('&laquo;', '«'), ('<p></p><p>', '[CR][CR]'),
 			('\\xC4', 'Ä'), ('\\xE4', 'ä'), ('\\xD6', 'Ö'), ('\\xF6', 'ö'), ('\\xDC', 'Ü'), ('\\xFC', 'ü'), ('\\xDF', 'ß'), ('\\x201E', '„'), ('\\x28', '('), ('\\x29', ')'), ('\\x2F', '/'), ('\\x2D', '-'), ('\\x20', ' '), ('\\x3A', ':'), ("\\'", "'")):
 			text = text.replace(*tx)
+		text = re.sub(r'\<.*?\>', '', text)
 		text = text.strip()
 	return text
 
@@ -191,8 +204,6 @@ def create_entries(metadata, SIGNS=None):
 	if metadata.get('Mpaa', ''):
 		if KODI_ov20: vinfo.setMpaa(metadata['Mpaa'])
 		else: vinfo['Mpaa'] = metadata['Mpaa']
-	if KODI_ov20: vinfo.setStudios([BASIC_LOMA.title()])
-	else: vinfo['Studio'] = BASIC_LOMA.title()
 	if metadata.get('Mediatype', ''):
 		if KODI_ov20: vinfo.setMediaType(metadata['Mediatype'])
 		else: vinfo['Mediatype'] = metadata['Mediatype']

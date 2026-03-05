@@ -1,9 +1,9 @@
-name: 📺 Magenta EPG .xml Updater
+name: "[📺 EPG] » Update MagentaTV"
 
 on:
   schedule:
-    - cron: '0 3 * * *'  # Täglich um 03:00 Uhr UTC
-  workflow_dispatch:     # Manuelles Auslösen erlaubt
+    - cron: '0 2 * * *'  # Runs daily at 02:00 UTC (3:00 CET)
+  workflow_dispatch:
 
 jobs:
   update-magenta-epg:
@@ -24,26 +24,27 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests lxml
 
-      # 1. Neues Skript (Magenta 2.0 API)
+      # 1. Main - Magenta 2.0 API (+ extended meta & media)
       - name: 🔄 Run Magenta v2 Grabber (Main)
         run: |
-          echo "📺 Starte MagentaTV v2 (Main) Update..."
+          echo "📺 Updating MagentaTV 2.0 EPG..."
           python scripts/magenta_epg.py
-          echo "✅ Main EPG erstellt."
+          echo "✅ Main EPG updated!"
 
-      # 2. Altes Skript (Magenta 1.0 API / Lite)
+      # 2. Alternative / Lite - Magenta 1.0 API
       - name: 🔄 Run Magenta v1 Grabber (Lite)
         run: |
-          echo "📺 Starte MagentaTV v1 (Lite) Update..."
+          echo "📺 Updating MagentaTV Lite EPG..."
           python scripts/magenta_lite.py
-          echo "✅ Lite EPG erstellt."
+          echo "✅ Lite EPG updated!"
 
       - name: 📤 Commit & Push EPG XMLs
         run: |
-          git config user.name "Magenta EPG Bot"
-          git config user.email "epg-bot@example.com"
+          git config user.name "📺 EPG [🤖Bot]"
+          git config user.email "epg-bot@heyfordy.dev"
           # Füge beide Dateien hinzu
           git add iptv/magenta.xml
           git add iptv/magenta_lite.xml
-          git commit -m "🔄 Update MagentaTV EPGs $(date -u +"%Y-%m-%d %H:%M:%S UTC")" || echo "No changes to commit"
+          git commit -m "📺 EPG » 🧰 MagentaTV updated!" || echo "No changes to commit"
+          git commit -m "$(TZ='Europe/Berlin' date +"%d.%m.%Y %H:%M:%S %Z")" || echo "-"
           git push

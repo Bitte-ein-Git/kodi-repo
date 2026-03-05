@@ -1,8 +1,8 @@
-name: "🧰 EPG .xml Updater"
+name: "[📺 EPG] » Update guide.xml"
 
 on:
   schedule:
-    - cron: "0 */4 * * *" # every 4h
+    - cron: "55 */2 * * *" # At 55 min. past the hour, every 2 hrs
   workflow_dispatch:
 
 jobs:
@@ -214,17 +214,17 @@ jobs:
           out_path = "iptv/guide.xml"
           os.makedirs(os.path.dirname(out_path), exist_ok=True)
           tree_out.write(out_path, encoding="utf-8", xml_declaration=True, pretty_print=True)
-          print(f"[ok] geschrieben: {out_path}")
+          print(f"[ok] done: {out_path}")
           PY
 
       - name: Commit and push updated EPG
         run: |
-          git config user.name "EPG Updater Bot"
-          git config user.email "bot@users.noreply.github.com"
+          git config user.name "📺 EPG [🤖Bot]"
+          git config user.email "epg-bot@heyfordy.dev"
           git add iptv/guide.xml
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "🧰 Update EPG guide.xml"
+            git commit -m "📺 EPG » 🧰 guide.xml updated!"
             git push
           fi

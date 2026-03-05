@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI-Addons\n"
 "Report-Msgid-Bugs-To: alanwww1@kodi.org\n"
 "POT-Creation-Date: 2020-06-26 17:00+0000\n"
-"PO-Revision-Date: 2025-04-19 16:00+0000\n"
+"PO-Revision-Date: 2026-02-28 18:00+0000\n"
 "Last-Translator: realvito\n"
 "Language-Team: GERMAN\n"
 "MIME-Version: 1.0\n"
@@ -136,11 +136,11 @@ msgstr "[COLOR yellow]Es gibt noch KEINE Einträge :[/COLOR]"
 
 msgctxt "#30529"
 msgid "[B][COLOR yellow]In your DMAX Favourites ...[/COLOR][/B]"
-msgstr "In DMAX Merkliste ..."
+msgstr "[B][COLOR yellow]In Deinen DMAX Favoriten ...[/COLOR][/B]"
 
 msgctxt "#30530"
 msgid "My DMAX - Favourites :"
-msgstr "DMAX - Merkliste :"
+msgstr "Meine DMAX - Favoriten :"
 
 msgctxt "#30531"
 msgid "[B]≡ [COLOR blue]{}[/COLOR] ≡ [COLOR lime]successfully added !!![/COLOR][/B]"
@@ -155,7 +155,7 @@ msgstr "[B]≡ [COLOR blue]{}[/COLOR] ≡ [COLOR orangered]wurde gelöscht !!![/
 
 msgctxt "#30601"
 msgid "[B][COLOR chartreuse]★ My DMAX Favourites ★[/COLOR][/B]"
-msgstr "» DMAX Merkliste ★"
+msgstr "[B][COLOR chartreuse]★ Meine DMAX Favoriten ★[/COLOR][/B]"
 
 msgctxt "#30602"
 msgid "[COLOR deepskyblue]•[/COLOR] New Shows (Series)"
@@ -243,8 +243,8 @@ msgstr "ohne Altersbeschränkung"
 
 msgctxt "#30651"
 msgid "[B][COLOR chartreuse]Add to DMAX-Favourites ...[/COLOR][/B]"
-msgstr "Hinzufügen zu DMAX Merkliste"
+msgstr "[B][COLOR chartreuse]Zu DMAX-Favoriten hinzufügen ...[/COLOR][/B]"
 
 msgctxt "#30652"
 msgid "[B][COLOR orange]... Remove from DMAX-Favourites[/COLOR][/B]"
-msgstr "Aus DMAX Merkliste entfernen"
+msgstr "[B][COLOR orange]... Aus DMAX-Favoriten entfernen[/COLOR][/B]"

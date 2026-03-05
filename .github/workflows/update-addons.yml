@@ -1,4 +1,4 @@
-name: 🌀 • Addon Updater
+name: "[🚀 Addons] » Update & Build Repo"
 
 on:
   schedule:
@@ -91,9 +91,9 @@ jobs:
               },
               "plugin.video.discovery.dmax": {
                   "mode": "version_url",
-                  "url": "https://raw.githubusercontent.com/collabsvito/repo-aio/main/MATRIX/plugin.video.discovery.dmax/plugin.video.discovery.dmax-{version}.zip",
+                  "url": "https://raw.githubusercontent.com/Collabsvito/REpo-AiO/refs/heads/master/MATRIX/plugin.video.discovery.dmax/plugin.video.discovery.dmax-{version}.zip",
                   "source_path": "plugin.video.discovery.dmax",
-                  "xml_url": "https://raw.githubusercontent.com/collabsvito/repo-aio/main/MATRIX/plugin.video.discovery.dmax/addon.xml"
+                  "xml_url": "https://raw.githubusercontent.com/Collabsvito/REpo-AiO/refs/heads/master/MATRIX/plugin.video.discovery.dmax/addon.xml"
               }
           }
 
@@ -313,8 +313,8 @@ jobs:
       - name: Commit and Push Changes
         if: steps.update_script.outputs.updates_found == 'true'
         run: |
-          git config --global user.name "Addon Updater Bot"
-          git config --global user.email "bot@github.com"
+          git config --global user.name "🚀 Addons [🤖Bot]"
+          git config --global user.email "addon-bot@heyfordy.dev"
           git add .
-          git commit -m "🌀 Auto-Update: Addons updated via Workflow"
+          git commit -m "🚀 Addons » 🧰 automatically updated & built!"
           git push

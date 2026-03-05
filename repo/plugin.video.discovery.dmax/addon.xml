@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<addon id="plugin.video.discovery.dmax" name="DMAX" version="2.9.9" provider-name="Bitte ein Git!">
+<?xml version='1.0' encoding='UTF-8'?>
+<addon id="plugin.video.discovery.dmax" name="DMAX" version="fordy-3.3.3+matrix.1" provider-name="Bitte ein Git!">
 	<requires>
-		<import addon="xbmc.python" version="3.0.0"/>
-		<import addon="script.module.requests" version="2.27.0"/>
-		<import addon="inputstream.adaptive" version="19.0.5"/>
+		<import addon="xbmc.python" version="3.0.0" />
+		<import addon="script.module.requests" version="2.27.0" />
+		<import addon="inputstream.adaptive" version="19.0.5" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -15,12 +15,12 @@
 		<description lang="en_GB">Whether entertaining docu-soaps about dazzling car tuners or exciting survival adventures of treasure hunters and gold diggers, on DMAX television becomes an adventure.[CR]DMAX documents the everyday job life of hard-working men and women all over Germany who keep everything going every day or even risk their lives for us.[CR]DMAX - Stay real !</description>
 		<disclaimer lang="de_DE">Die von diesem Addon dargestellten Inhalte werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Anbietern des Inhalts.</disclaimer>
 		<disclaimer lang="en_GB">The content displayed by this Addon is not hosted or distributed by the creators of the Addon, nor do the creators have any affiliation with the providers of the content.</disclaimer>
-		<language></language>
+		<language />
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
 		<forum>https://www.kodinerds.net/thread/55451-l0res-blog-realvitos-fixing-thread/</forum>
 		<website>https://dmax.de/</website>
-		<email></email>
+		<email />
 		<mainsource>https://github.com/Collabsvito/REpo-AiO/</mainsource>
 		<source>https://github.com/Collabsvito/REpo-AiO/tree/master/MATRIX/plugin.video.discovery.dmax</source>
 		<assets>
@@ -28,8 +28,10 @@
 			<fanart>resources/media/fanart.jpg</fanart>
 		</assets>
 		<news>
-[B][COLOR orangered]Version 3.3.1+matrix.1  (25.05.2025)[/COLOR][/B]
-- fixed: Rubrik = Neue Sendungen (Serien), Sortierung nach Datum der neuesten Serien-Episode (absteigend)
+[B][COLOR orangered]Version 3.3.3+matrix.1  (01.03.2026)[/COLOR][/B]
+- fixed: Vereinzelt wird bei Serien kein Bild und keine Beschreibung angezeigt, obwohl diese nach Überprüfung doch vorhanden sind (Beim Ableich der zwei API-Listen des Providers stimmt entweder der 'slug'- oder der 'showId'-Eintrag nicht überein)
+- RE-added: Rubrik = Themen
+- comment: *Auf vielfachen Wunsch und nach ausführlichen Tests ist es mir gelungen wieder ein Genre-Konstrukt auf Basis der API-'Aurora' von Discovery aufzubauen und in das Addon zu integrieren !*
 		</news>
 	</extension>
 </addon>
