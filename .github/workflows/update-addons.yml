@@ -67,9 +67,9 @@ jobs:
               },
               "plugin.video.joyn": {
                   "mode": "direct",
-                  "url": "https://github.com/maven85/plugin.video.joyn/archive/refs/heads/master.zip",
-                  "source_path": "plugin.video.joyn-master",
-                  "xml_url": "https://raw.githubusercontent.com/maven85/plugin.video.joyn/master/addon.xml"
+                  "url": "https://github.com/Maven85/plugin.video.joyn/archive/refs/heads/matrix.zip",
+                  "source_path": "plugin.video.joyn-matrix",
+                  "xml_url": "https://raw.githubusercontent.com/Maven85/plugin.video.joyn/refs/heads/matrix/addon.xml"
               },
               "plugin.video.xship": {
                   "mode": "scrape",
