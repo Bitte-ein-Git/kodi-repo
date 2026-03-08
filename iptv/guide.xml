@@ -4792,56 +4792,8 @@
     <display-name>RTL Zwee</display-name>
     <icon src="https://iptv-epg.org/logos/Luxembourg/RTLZwee.lu.png"/>
   </channel>
-  <programme start="20260307045500 +0000" stop="20260307061000 +0000" channel="RTL.Zwee.lu"><title lang="en">FORMULA 1: Grand Prix vun Australien Quali</title>
-    <desc lang="en">FORMULA 1: Grand Prix vun Australien Quali.</desc>
-  </programme>
-  <programme start="20260307061000 +0000" stop="20260307070000 +0000" channel="RTL.Zwee.lu"><title lang="en">Rediffusioun vu Journal a Magazin</title>
-    <desc lang="en">Rediffusioun vu Journal a Magazin.</desc>
-  </programme>
-  <programme start="20260307070000 +0000" stop="20260307090000 +0000" channel="RTL.Zwee.lu"><title lang="en">At Home TV &amp; Luxauto TV</title>
-    <desc lang="en">At Home TV &amp; Luxauto TV.</desc>
-  </programme>
-  <programme start="20260307090000 +0000" stop="20260307120000 +0000" channel="RTL.Zwee.lu"><title lang="en">RTL Radio Web TV</title>
-    <desc lang="en">RTL Radio Web TV.</desc>
-  </programme>
-  <programme start="20260307120000 +0000" stop="20260307130000 +0000" channel="RTL.Zwee.lu"><title lang="en">At Home TV &amp; Luxauto TV</title>
-    <desc lang="en">At Home TV &amp; Luxauto TV.</desc>
-  </programme>
-  <programme start="20260307130000 +0000" stop="20260307150000 +0000" channel="RTL.Zwee.lu"><title lang="en">RTL Radio Web TV</title>
-    <desc lang="en">RTL Radio Web TV.</desc>
-  </programme>
-  <programme start="20260307150000 +0000" stop="20260307160000 +0000" channel="RTL.Zwee.lu"><title lang="en">At Home TV &amp; Luxauto TV</title>
-    <desc lang="en">At Home TV &amp; Luxauto TV.</desc>
-  </programme>
-  <programme start="20260307160000 +0000" stop="20260307190000 +0000" channel="RTL.Zwee.lu"><title lang="en">RTL Radio Web TV</title>
-    <desc lang="en">RTL Radio Web TV.</desc>
-  </programme>
-  <programme start="20260307190000 +0000" stop="20260307203000 +0000" channel="RTL.Zwee.lu"><title lang="en">Passepartout</title>
-    <desc lang="en">Passepartout.</desc>
-  </programme>
-  <programme start="20260307203000 +0000" stop="20260307210000 +0000" channel="RTL.Zwee.lu"><title lang="en">De Journal</title>
-    <desc lang="en">De Journal.</desc>
-  </programme>
-  <programme start="20260307210000 +0000" stop="20260307213000 +0000" channel="RTL.Zwee.lu"><title lang="en">De Journal</title>
-    <desc lang="en">De Journal.</desc>
-  </programme>
-  <programme start="20260307213000 +0000" stop="20260307220000 +0000" channel="RTL.Zwee.lu"><title lang="en">De Journal</title>
-    <desc lang="en">De Journal.</desc>
-  </programme>
-  <programme start="20260307220000 +0000" stop="20260307223000 +0000" channel="RTL.Zwee.lu"><title lang="en">De Journal</title>
-    <desc lang="en">De Journal.</desc>
-  </programme>
-  <programme start="20260307223000 +0000" stop="20260307230000 +0000" channel="RTL.Zwee.lu"><title lang="en">De Journal</title>
-    <desc lang="en">De Journal.</desc>
-  </programme>
-  <programme start="20260307230000 +0000" stop="20260307233000 +0000" channel="RTL.Zwee.lu"><title lang="en">RTL Sport</title>
-    <desc lang="en">RTL Sport.</desc>
-  </programme>
-  <programme start="20260307233000 +0000" stop="20260308000000 +0000" channel="RTL.Zwee.lu"><title lang="en">De Journal</title>
-    <desc lang="en">De Journal.</desc>
-  </programme>
-  <programme start="20260308000000 +0000" stop="20260308061500 +0000" channel="RTL.Zwee.lu"><title lang="en">At Home TV &amp; Luxauto TV</title>
-    <desc lang="en">At Home TV &amp; Luxauto TV.</desc>
+  <programme start="20260308033000 +0000" stop="20260308061500 +0000" channel="RTL.Zwee.lu"><title lang="en">FORMULA 1: QATAR AIRWAYS AUSTRALIAN GRAND PRIX 2026 Course</title>
+    <desc lang="en">#AusGP – Melbourne (AUS) &lt;br /&gt;Hightech, Speed an ëmmer um Limitt. De ganze Weekend, vum Qualifying samsdes bis bei d'Course sonndes, d'Formel 1 ass elo live op RTL ZWEE.</desc>
   </programme>
   <programme start="20260308061500 +0000" stop="20260308081500 +0000" channel="RTL.Zwee.lu"><title lang="en">At Home TV &amp; Luxauto TV</title>
     <desc lang="en">At Home TV &amp; Luxauto TV.</desc>
@@ -4976,6 +4928,63 @@
     <desc lang="en">At Home TV &amp; Luxauto TV.</desc>
   </programme>
   <programme start="20260310050000 +0000" stop="20260310060000 +0000" channel="RTL.Zwee.lu"><title lang="en">At Home TV &amp; Luxauto TV</title>
+    <desc lang="en">At Home TV &amp; Luxauto TV.</desc>
+  </programme>
+  <programme start="20260310060000 +0000" stop="20260310070000 +0000" channel="RTL.Zwee.lu"><title lang="en">Rediffusioun vu Journal a Magazin</title>
+    <desc lang="en">Rediffusioun vu Journal a Magazin.</desc>
+  </programme>
+  <programme start="20260310070000 +0000" stop="20260310090000 +0000" channel="RTL.Zwee.lu"><title lang="en">At Home TV &amp; Luxauto TV</title>
+    <desc lang="en">At Home TV &amp; Luxauto TV.</desc>
+  </programme>
+  <programme start="20260310090000 +0000" stop="20260310120000 +0000" channel="RTL.Zwee.lu"><title lang="en">RTL Radio Web TV</title>
+    <desc lang="en">RTL Radio Web TV.</desc>
+  </programme>
+  <programme start="20260310120000 +0000" stop="20260310130000 +0000" channel="RTL.Zwee.lu"><title lang="en">At Home TV &amp; Luxauto TV</title>
+    <desc lang="en">At Home TV &amp; Luxauto TV.</desc>
+  </programme>
+  <programme start="20260310130000 +0000" stop="20260310150000 +0000" channel="RTL.Zwee.lu"><title lang="en">RTL Radio Web TV</title>
+    <desc lang="en">RTL Radio Web TV.</desc>
+  </programme>
+  <programme start="20260310150000 +0000" stop="20260310160000 +0000" channel="RTL.Zwee.lu"><title lang="en">At Home TV &amp; Luxauto TV</title>
+    <desc lang="en">At Home TV &amp; Luxauto TV.</desc>
+  </programme>
+  <programme start="20260310160000 +0000" stop="20260310173000 +0000" channel="RTL.Zwee.lu"><title lang="en">RTL Radio Web TV</title>
+    <desc lang="en">RTL Radio Web TV.</desc>
+  </programme>
+  <programme start="20260310173000 +0000" stop="20260310175000 +0000" channel="RTL.Zwee.lu"><title lang="en">Musekbox</title>
+    <desc lang="en">Musekbox.</desc>
+  </programme>
+  <programme start="20260310175000 +0000" stop="20260310180000 +0000" channel="RTL.Zwee.lu"><title lang="en">KannaTiVi</title>
+    <desc lang="en">KannaTiVi.</desc>
+  </programme>
+  <programme start="20260310180000 +0000" stop="20260310180300 +0000" channel="RTL.Zwee.lu"><title lang="en">De Journal Newsflash</title>
+    <desc lang="en">De Journal Newsflash.</desc>
+  </programme>
+  <programme start="20260310180300 +0000" stop="20260310183000 +0000" channel="RTL.Zwee.lu"><title lang="en">De Magazin</title>
+    <desc lang="en">De Magazin.</desc>
+  </programme>
+  <programme start="20260310183000 +0000" stop="20260310190000 +0000" channel="RTL.Zwee.lu"><title lang="en">De Journal</title>
+    <desc lang="en">De Journal.</desc>
+  </programme>
+  <programme start="20260310190000 +0000" stop="20260310194500 +0000" channel="RTL.Zwee.lu"><title lang="en">De Journal</title>
+    <desc lang="en">De Journal.</desc>
+  </programme>
+  <programme start="20260310194500 +0000" stop="20260310223000 +0000" channel="RTL.Zwee.lu"><title lang="en">Champions League</title>
+    <desc lang="en">Champions League.</desc>
+  </programme>
+  <programme start="20260310223000 +0000" stop="20260310230000 +0000" channel="RTL.Zwee.lu"><title lang="en">De Journal</title>
+    <desc lang="en">De Journal.</desc>
+  </programme>
+  <programme start="20260310230000 +0000" stop="20260310233000 +0000" channel="RTL.Zwee.lu"><title lang="en">De Journal</title>
+    <desc lang="en">De Journal.</desc>
+  </programme>
+  <programme start="20260310233000 +0000" stop="20260311000000 +0000" channel="RTL.Zwee.lu"><title lang="en">De Journal</title>
+    <desc lang="en">De Journal.</desc>
+  </programme>
+  <programme start="20260311000000 +0000" stop="20260311050000 +0000" channel="RTL.Zwee.lu"><title lang="en">At Home TV &amp; Luxauto TV</title>
+    <desc lang="en">At Home TV &amp; Luxauto TV.</desc>
+  </programme>
+  <programme start="20260311050000 +0000" stop="20260311060000 +0000" channel="RTL.Zwee.lu"><title lang="en">At Home TV &amp; Luxauto TV</title>
     <desc lang="en">At Home TV &amp; Luxauto TV.</desc>
   </programme>
 </tv>
