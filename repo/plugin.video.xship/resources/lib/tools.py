@@ -79,7 +79,7 @@ class cParser:
 
     @staticmethod
     def getNumberFromString(sValue):
-        pattern = '\\d+'
+        pattern = r'\d+'
         aMatches = re.findall(pattern, sValue)
         if len(aMatches) > 0:
             return int(aMatches[0])

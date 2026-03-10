@@ -19,7 +19,7 @@ from shutil import copyfile
 import xbmc, xbmcaddon, xbmcvfs
 
 if sys.version_info.major == 3:
-    from typing import MutableMapping
+    from collections.abc import MutableMapping
 else:
     from collections import MutableMapping
 

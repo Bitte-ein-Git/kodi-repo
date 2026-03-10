@@ -110,6 +110,8 @@ class tvshows:
 
 		watchedMenu = "In %s [I]Gesehen[/I]" % control.addonName
 		unwatchedMenu = "In %s [I]Ungesehen[/I]" % control.addonName
+		hasTrailerPlayer = control.hasTrailerPlayer()
+		trailerLabel = control.trailerLabel()
 		for i in items:
 			try:
 				meta = dict((k, v) for k, v in iteritems(i))
@@ -156,6 +158,13 @@ class tvshows:
 						sysmeta.update({'playcount': 0, 'overlay': 6})
 				except:
 					pass
+				if hasTrailerPlayer:
+					cm.append((trailerLabel, 'RunPlugin(%s?action=playTrailer&tmdb_id=%s&mediatype=tv&title=%s&year=%s&poster=%s)' % (
+					sysaddon, sysmeta['tmdb_id'],
+					control.quote_plus(str(title)),
+					str(i.get('year', '')),
+					control.quote_plus(str(poster)),
+				)))
 				cm.append(('Einstellungen', 'RunPlugin(%s?action=addonSettings)' % sysaddon))
 				item.addContextMenuItems(cm)
 

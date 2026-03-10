@@ -111,6 +111,19 @@ plugincategory = xbmcplugin.setPluginCategory
 def sortLabel(syshandle):
 	xbmcplugin.addSortMethod(syshandle, xbmcplugin.SORT_METHOD_LABEL)
 
+def trailerLabel():
+	"""Return localised context menu label for the trailer action."""
+	try:
+		lang = xbmc.getLanguage(xbmc.ISO_639_1).lower()[:2]
+	except Exception:
+		lang = 'en'
+	return 'Trailer ansehen' if lang == 'de' else 'Watch Trailer'
+
+def hasTrailerPlayer():
+	"""Always True — IMDB provides direct MP4 playback without any YouTube player.
+	Context menu 'Trailer ansehen' is shown for every item."""
+	return True
+
 # xbmcgui
 window = xbmcgui.Window(10000)
 currentWindowId = xbmcgui.Window(xbmcgui.getCurrentWindowId())

@@ -45,8 +45,8 @@ def log(msg, level=LOGDEBUG, caller=None):
         # pydevd.settrace('localhost', port=12345, stdoutToServer=True, stderrToServer=True)
         # if isinstance(msg, type(u"")):
         #     msg = '%s (ENCODED)' % (msg.encode('utf-8'))
-        if not isinstance(msg, type('str')):
-            msg = '%s (ENCODED)' % (msg.encode('utf-8'))
+        if not isinstance(msg, str):
+            msg = str(msg)
 
         xbmc.log('%s: %s' % (DEBUGPREFIX, msg), level)
     except Exception as e:
@@ -67,7 +67,7 @@ def error(message=None, exception=True):
             name = traceback.tb_frame.f_code.co_name
             linenumber = traceback.tb_lineno
             errortype = type.__name__
-            errormessage = value.message
+            errormessage = str(value)
             if errormessage == '':
                 raise Exception()
             if message:

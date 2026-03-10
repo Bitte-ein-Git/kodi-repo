@@ -38,7 +38,7 @@ class episodes:
 			if playcount is None:
 				#playcountDB.createEntry('season', self.title, self.title + ' S%02d' % season, None, None, season, number_of_episodes, None)
 				playcount = 0
-			self.sysmeta = re.sub('"playcount": \d', '"playcount": %s' % playcount, self.sysmeta)
+			self.sysmeta = re.sub(r'"playcount": \d', '"playcount": %s' % playcount, self.sysmeta)
 
 			for i in episodes:
 				self.list.append(i)

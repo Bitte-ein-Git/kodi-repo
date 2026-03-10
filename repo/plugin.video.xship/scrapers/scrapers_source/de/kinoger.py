@@ -75,6 +75,18 @@ class source:
                 season = season - 1
                 episode = episode - 1
 
+            # Extract kinoger.ru embed URL (redirects to VOE) for JD downloads
+            jd_url = ''
+            for i in range(0, len(links)):
+                try:
+                    pw = ast.literal_eval(links[i])
+                    embed = (pw[season][episode]).strip()
+                    if 'kinoger.ru' in embed:
+                        jd_url = embed
+                        break
+                except:
+                    pass
+
             for i in range(0, len(links)):
                 if 'playerx' in links[i]: continue #ka temp off
                 elif 'kinoger.ru' in links[i]: continue
@@ -90,7 +102,7 @@ class source:
                 if quality == '': quality = 'SD'
                 if quality == 'HD': quality = '720p'
                 if quality == 'HD+': quality = '1080p'
-                items.append({'source': hoster, 'quality': quality, 'url': url, 'direct': direct, 'prioHoster': prioHoster})
+                items.append({'source': hoster, 'quality': quality, 'url': url, 'direct': direct, 'prioHoster': prioHoster, 'jd_url': jd_url})
 
             headers = '&Accept-Language=de%2Cen-US%3Bq%3D0.7%2Cen%3Bq%3D0.3&Accept=%2A%2F%2A&User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A99.0%29+Gecko%2F20100101+Firefox%2F99.0'
             for item in items:
@@ -148,14 +160,14 @@ class source:
                             oRequest.addHeaderEntry('Origin', 'https://kinoger.ru')
                             oRequest.removeNewLines(False)
                             sHtmlContent = oRequest.request()
-                            pattern = 'RESOLUTION=\d+x(\d+).*?\n([^#"]+)'
+                            pattern = r'RESOLUTION=\d+x(\d+).*?\n([^#"]+)'
                             isMatch, aResult = cParser.parse(sHtmlContent, pattern)
                             if not isMatch: continue
                             for sQualy, sUrl in aResult:
                                 sUrl = (hUrl.split('video')[0].strip() + sUrl.strip())
                                 sUrl = sUrl + '|Origin=https%3A%2F%2Fkinoger.ru&Referer=https%3A%2F%2Fkinoger.ru%2F' + headers
                                 #hoster = {'link': sUrl, 'name': 'Kinoger.ru ' + sQualy, 'resolveable': True}
-                                sources.append({'source': item['source'], 'quality': sQualy + 'p', 'language': 'de', 'url': sUrl, 'direct': item['direct']})
+                                sources.append({'source': item['source'], 'quality': sQualy + 'p', 'language': 'de', 'url': sUrl, 'direct': item['direct'], 'jd_url': item.get('jd_url', '')})
 
 
                     elif 'kinoger.be' in item['source']:    # One Piece Film: Red / Elemental (2023) / Thanksgiving 2023
@@ -176,12 +188,12 @@ class source:
                         for sQualy, sIndex in aResult:
                             sQualy = self._quality(sQualy)
                             hUrl  = sUrl.replace('master.m3u8',sIndex )
-                            sources.append({'source': item['source'], 'quality': sQualy, 'language': 'de', 'url': hUrl, 'direct': item['direct'], 'prioHoster': 50})
+                            sources.append({'source': item['source'], 'quality': sQualy, 'language': 'de', 'url': hUrl, 'direct': item['direct'], 'prioHoster': 50, 'jd_url': item.get('jd_url', '')})
 
                     else:
                         isBlocked, hoster, url, prioHoster = isBlockedHoster(item['url'], isResolve=True)
                         if isBlocked: continue
-                        sources.append({'source': item['source'], 'quality': item['quality'], 'language': 'de','url': url, 'direct': item['direct'], 'prioHoster': item['prioHoster']})
+                        sources.append({'source': item['source'], 'quality': item['quality'], 'language': 'de','url': url, 'direct': item['direct'], 'prioHoster': item['prioHoster'], 'jd_url': item.get('jd_url', '')})
 
                 except:
                     continue

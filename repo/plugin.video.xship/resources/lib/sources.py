@@ -1,6 +1,6 @@
 # edit 2025-06-12
 import sys
-import re, json, random, time, os, hashlib
+import re, json, random, time
 from concurrent.futures import ThreadPoolExecutor
 from resources.lib import log_utils, utils, control
 from resources.lib.control import py2_decode, py2_encode, quote_plus, parse_qsl
@@ -22,36 +22,6 @@ class sources:
         self.watcher = False
         self.executor = ThreadPoolExecutor(max_workers=20)
         self.url = None
-        # Setup cache path
-        self.cache_dir = os.path.join(control.translatePath('special://profile/addon_data/plugin.video.xship/'), 'cache')
-        if not os.path.exists(self.cache_dir):
-            try: os.makedirs(self.cache_dir)
-            except: pass
-
-    def get_cache_path(self, title, year, season, episode):
-        # Create unique ID for the item
-        id_str = "%s_%s_%s_%s" % (title, year, season, episode)
-        hash_id = hashlib.md5(id_str.encode('utf-8')).hexdigest()
-        return os.path.join(self.cache_dir, hash_id + '.json')
-
-    def save_cache(self, items, title, year, season, episode):
-        try:
-            path = self.get_cache_path(title, year, season, episode)
-            # Remove non-serializable objects if any, though items should be dicts
-            with open(path, 'w') as f:
-                json.dump(items, f)
-        except:
-            pass
-
-    def load_cache(self, title, year, season, episode):
-        try:
-            path = self.get_cache_path(title, year, season, episode)
-            if os.path.exists(path):
-                with open(path, 'r') as f:
-                    return json.load(f)
-        except:
-            pass
-        return None
 
     def get(self, params):
         data = json.loads(params['sysmeta'])
@@ -74,93 +44,32 @@ class sources:
 
     def play(self, params):
         title, year, imdb, season, episode, originaltitle, premiered, meta, select = self.get(params)
-        
-        # Check if force refresh is requested
-        force_refresh = params.get('refresh') == 'true'
-
         try:
             url = None
-            items = []
-            
-            # Try load from cache first
-            if not force_refresh:
-                cached_items = self.load_cache(title, year, season, episode)
-                if cached_items:
-                    items = cached_items
-                    # Append Search Again option
-                    search_again = {
-                        'label': '[COLOR yellow]Suche wiederholen...[/COLOR]',
-                        'action': 'search_again',
-                        'provider': 'system',
-                        'source': 'system',
-                        'quality': '',
-                        'info': ''
-                    }
-                    # Check if already exists to avoid dupes
-                    if not any(i.get('action') == 'search_again' for i in items):
-                        items.insert(0, search_again)
-
-            # If no cache or force refresh, scrape
-            if not items or force_refresh:
-                items = self.getSources(title, year, imdb, season, episode, originaltitle, premiered)
-                # Save to cache without the "Search Again" button
-                self.save_cache(items, title, year, season, episode)
-                
-                # Add Search Again for display
-                search_again = {
-                    'label': '[COLOR yellow]Suche wiederholen...[/COLOR]',
-                    'action': 'search_again',
-                    'provider': 'system',
-                    'source': 'system',
-                    'quality': '',
-                    'info': ''
-                }
-                items.insert(0, search_again)
-
-            self.sources = items # Make available globally
-            
+            #Liste der gefundenen Streams
+            items = self.getSources(title, year, imdb, season, episode, originaltitle, premiered)
             select = control.getSetting('hosts.mode') if select == None else select
+            ## unnötig
+            #select = '1' if control.getSetting('downloads') == 'true' and not (control.getSetting('download.movie.path') == '' or control.getSetting('download.tv.path') == '') else select
+
+            # # TODO überprüfen wofür mal gedacht
+            # if control.window.getProperty('PseudoTVRunning') == 'True':
+            #     return control.resolveUrl(int(sys.argv[1]), True, control.item(path=str(self.sourcesDirect(items))))
 
             if len(items) > 0:
-                # Directory mode (forces refresh usually, but handled by cache now)
+                # Auswahl Verzeichnis
                 if select == '1' and 'plugin' in control.infoLabel('Container.PluginName'):
-                    # Strip system items for directory view
-                    clean_items = [i for i in items if i.get('action') != 'search_again']
                     control.window.clearProperty(self.itemsProperty)
-                    control.window.setProperty(self.itemsProperty, json.dumps(clean_items))
+                    control.window.setProperty(self.itemsProperty, json.dumps(items))
                     
                     control.window.clearProperty(self.metaProperty)
                     control.window.setProperty(self.metaProperty, meta)
                     control.sleep(2)
                     return control.execute('Container.Update(%s?action=addItem&title=%s)' % (sys.argv[0], quote_plus(title)))
-                
-                # Dialog mode (Standard for TMDBHelper player)
+                # Auswahl Dialog
                 elif select == '0' or select == '1':
-                    # Special handling loop for Dialog to support "Return to list on error"
-                    while True:
-                        url_or_action = self.sourcesDialog(items)
-                        
-                        if url_or_action == 'rescrape':
-                            # Trigger re-scrape and loop
-                            items = self.getSources(title, year, imdb, season, episode, originaltitle, premiered)
-                            self.save_cache(items, title, year, season, episode)
-                            # Re-add button
-                            items.insert(0, search_again)
-                            continue # Restart loop with new items
-                            
-                        elif url_or_action == 'update_cache':
-                            # Item status changed (e.g. marked red), save and reload
-                            # We remove system items before saving
-                            cache_save_items = [i for i in items if i.get('action') != 'search_again']
-                            self.save_cache(cache_save_items, title, year, season, episode)
-                            continue
-                            
-                        elif url_or_action == 'close://':
-                            return
-                        else:
-                            url = url_or_action
-                            break # We have a URL
-                            
+                    url = self.sourcesDialog(items)
+                    if  url == 'close://': return
                 # Autoplay
                 else:
                     url = self.sourcesDirect(items)
@@ -176,6 +85,7 @@ class sources:
             log_utils.log('Error %s' % str(e), log_utils.LOGERROR)
 
 
+# Liste gefundene Streams Indexseite|Hoster
     def addItem(self, title):
         control.playlist.clear()
 
@@ -191,8 +101,10 @@ class sources:
         meta = json.loads(meta)
 #TODO
         if meta['mediatype'] == 'movie':
+            # downloads = True if control.getSetting('downloads') == 'true' and control.exists(control.translatePath(control.getSetting('download.movie.path'))) else False
             downloads = True if control.getSetting('downloads') == 'true' and control.getSetting('download.movie.path') else False
         else:
+            # downloads = True if control.getSetting('downloads') == 'true' and control.exists(control.translatePath(control.getSetting('download.tv.path'))) else False
             downloads = True if control.getSetting('downloads') == 'true' and control.getSetting('download.tv.path') else False
 
         addonPoster, addonBanner = control.addonPoster(), control.addonBanner()
@@ -225,10 +137,27 @@ class sources:
                 cm = []
                 if downloads:
                     cm.append(("Download", 'RunPlugin(%s?action=download&name=%s&image=%s&source=%s)' % (sysaddon, sysname, sysimage, syssource)))
+                if control.getSetting('jd_enabled') == 'true':
+                    cm.append(("Sende zum JDownloader", 'RunPlugin(%s?action=sendToJD&name=%s&source=%s)' % (sysaddon, sysname, syssource)))
+                if control.getSetting('jd2_enabled') == 'true':
+                    cm.append(("Sende zum JDownloader2", 'RunPlugin(%s?action=sendToJD2&name=%s&source=%s)' % (sysaddon, sysname, syssource)))
+                if control.getSetting('myjd_enabled') == 'true':
+                    cm.append(("Sende zu My.JDownloader", 'RunPlugin(%s?action=sendToMyJD&name=%s&source=%s)' % (sysaddon, sysname, syssource)))
+                if control.getSetting('pyload_enabled') == 'true':
+                    cm.append(("Sende zu PyLoad", 'RunPlugin(%s?action=sendToPyLoad&name=%s&source=%s)' % (sysaddon, sysname, syssource)))
+                cm.append(("Medien-Info", 'RunPlugin(%s?action=mediaInfo&source=%s)' % (sysaddon, syssource)))
                 cm.append(('Einstellungen', 'RunPlugin(%s?action=addonSettings)' % sysaddon))
                 item.addContextMenuItems(cm)
 
                 url = "%s?action=playItem&title=%s&source=%s" % (sysaddon, systitle, syssource)
+
+                # ## Notwendig für Library Exporte ##
+                # ## Amazon Scraper Details ##
+                # if "amazon" in label.lower():
+                #     aid = re.search(r'asin%3D(.*?)%22%2C', url)
+                #     url = "plugin://plugin.video.amazon-test/?mode=PlayVideo&asin=" + aid.group(1)
+
+                ##https: // codedocs.xyz / AlwinEsch / kodi / group__python__xbmcgui__listitem.html  # ga0b71166869bda87ad744942888fb5f14
 
                 name = '%s%sStaffel: %s   Episode: %s' % (title, "\n", meta['season'], meta['episode']) if 'season' in meta else title
                 plot = meta['plot'] if 'plot' in meta and len(meta['plot'].strip()) >= 1 else ''
@@ -239,12 +168,16 @@ class sources:
                 else:
                     infolable = {'plot': plot}
 
-                meta.pop('cast', None)
+                # TODO
+                # if 'cast' in meta and meta['cast']: item.setCast(meta['cast'])
+                # # # remove unsupported InfoLabels
+                meta.pop('cast', None)  # ersetzt durch item.setCast(i['cast'])
                 meta.pop('number_of_seasons', None)
                 meta.pop('imdb_id', None)
                 meta.pop('tvdb_id', None)
                 meta.pop('tmdb_id', None)
 
+                ## Quality Video Stream from source.append quality - items[i]['quality']
                 video_streaminfo ={}
                 if "4k" in items[i]['quality'].lower():
                     video_streaminfo.update({'width': 3840, 'height': 2160})
@@ -253,8 +186,10 @@ class sources:
                 elif "hd" in items[i]['quality'].lower() or "720p" in items[i]['quality'].lower():
                     video_streaminfo.update({'width': 1280,'height': 720})
                 else:
+                    # video_streaminfo.update({"width": 720, "height": 576})
                     video_streaminfo.update({})
 
+                ## Codec for Video Stream from extra info - items[i]['info']
                 if 'hevc' in items[i]['label'].lower():
                     video_streaminfo.update({'codec': 'hevc'})
                 elif '265' in items[i]['label'].lower():
@@ -264,8 +199,10 @@ class sources:
                 elif 'mp4' in items[i]['label'].lower():
                     video_streaminfo.update({'codec': 'mp4'})
                 else:
+                    # video_streaminfo.update({'codec': 'h264'})
                     video_streaminfo.update({'codec': ''})
 
+                ## Quality & Channels Audio Stream from extra info - items[i]['info']
                 audio_streaminfo = {}
                 if 'dts' in items[i]['label'].lower():
                     audio_streaminfo.update({'codec': 'dts'})
@@ -274,13 +211,16 @@ class sources:
                 elif 'dolby' in items[i]['label'].lower() or 'ac3' in items[i]['label'].lower():
                     audio_streaminfo.update({'codec': 'ac3'})
                 else:
+                    # audio_streaminfo.update({'codec': 'aac'})
                     audio_streaminfo.update({'codec': ''})
 
+                ## Channel update ##
                 if '7.1' in items[i].get('info','').lower():
                     audio_streaminfo.update({'channels': 8})
                 elif '5.1' in items[i].get('info','').lower():
                     audio_streaminfo.update({'channels': 6})
                 else:
+                    # audio_streaminfo.update({'channels': 2})
                     audio_streaminfo.update({'channels': ''})
 
                 if int(getKodiVersion()) <= 19:
@@ -294,6 +234,7 @@ class sources:
                         'video': [video_streaminfo],
                         'audio': [audio_streaminfo]}
                     info_tag.set_stream_details(stream_details)
+                    # info_tag.set_cast(aActors)
 
                 control.addItem(handle=syshandle, url=url, listitem=item, isFolder=False)
             except:
@@ -312,11 +253,13 @@ class sources:
             meta = json.loads(meta)
 
             header = control.addonInfo('name')
+            # control.idle() #ok
             progressDialog = control.progressDialog if control.getSetting('progress.dialog') == '0' else control.progressDialogBG
             progressDialog.create(header, '')
             progressDialog.update(0)
 
             item = json.loads(source)[0]
+            #if isDebug: log_utils.log('playItem 237', log_utils.LOGWARNING)
             if item['source'] == None: raise Exception()
             
             future = self.executor.submit(self.sourcesResolve, item)
@@ -332,17 +275,22 @@ class sources:
                 control.sleep(1)
                 waiting_time = waiting_time - 1
                 progressDialog.update(int(100 - 100. / 30 * waiting_time), str(item['label']))
+                #if isDebug: log_utils.log('playItem 252', log_utils.LOGWARNING)
                 if control.condVisibility('Window.IsActive(virtualkeyboard)') or \
                         control.condVisibility('Window.IsActive(yesnoDialog)'):
-                    waiting_time = waiting_time + 1
+                        # or control.condVisibility('Window.IsActive(PopupRecapInfoWindow)'):
+                    waiting_time = waiting_time + 1  # dont count down while dialog is presented
                 if future.done(): break
 
             try: progressDialog.close()
             except: pass
+            if isDebug: log_utils.log('playItem 261', log_utils.LOGWARNING)
             control.execute('Dialog.Close(virtualkeyboard)')
             control.execute('Dialog.Close(yesnoDialog)')
 
+            if isDebug: log_utils.log('playItem url: %s' % self.url, log_utils.LOGWARNING)
             if self.url == None:
+                #self.errorForSources()
                 return
 
             from resources.lib.player import player
@@ -353,7 +301,9 @@ class sources:
 
 
     def getSources(self, title, year, imdb, season, episode, originaltitle, premiered, quality='HD', timeout=30):
-        control.idle()
+#TODO
+        # self._getHostDict()
+        control.idle() #ok
         progressDialog = control.progressDialog if control.getSetting('progress.dialog') == '0' else control.progressDialogBG
         progressDialog.create(control.addonInfo('name'), '')
         progressDialog.update(0)
@@ -374,36 +324,98 @@ class sources:
         titles = utils.get_titles_for_search(title, originaltitle, aliases)
 
         futures = {self.executor.submit(self._getSource, titles, year, season, episode, imdb, provider[0], provider[1]): provider[0] for provider in sourceDict}
-        
-        # ... (Display logic kept similar to original, omitted full copy for brevity as key logic is wrapper)
-        # Using simplified progress loop for readability, logic remains same as original
-        
+        provider_names = {provider[0].upper() for provider in sourceDict}
+
         string4 = "Total"
+
         try: timeout = int(control.getSetting('scrapers.timeout'))
         except: pass
+        
         quality = control.getSetting('hosts.quality')
         if quality == '': quality = '0'
+
+        source_4k = 0
+        source_1080 = 0
+        source_720 = 0
+        source_sd = 0
+        total = d_total = 0
+        total_format = '[COLOR %s][B]%s[/B][/COLOR]'
+        pdiag_format = ' 4K: %s | 1080p: %s | 720p: %s | SD: %s | %s: %s                                         '.split('|')
 
         for i in range(0, 4 * timeout):
             try:
                 if control.abortRequested: return sys.exit()
-                try: if progressDialog.iscanceled(): break
-                except: pass
+                try:
+                    if progressDialog.iscanceled(): break
+                except:
+                    pass
 
-                # ... (Counting logic identical to original) ...
                 if len(self.sources) > 0:
-                     # (omitted exact count vars for brevity, assume original logic here)
-                     pass
-                     
-                # Progress update
-                percent = int(100 * float(i) / (2 * timeout) + 1)
-                info = [name.upper() for future, name in futures.items() if not future.done()]
-                if len(info) == 0: break
-                progressDialog.update(max(1, percent), "Suche: %s" % (', '.join(info[:3])))
+                    if quality in ['0']:
+                        source_4k = len([e for e in self.sources if e['quality'] == '4K'])
+                        source_1080 = len([e for e in self.sources if e['quality'] in ['1440p','1080p']])
+                        source_720 = len([e for e in self.sources if e['quality'] in ['720p','HD']])
+                        source_sd = len([e for e in self.sources if e['quality'] not in ['4K','1440p','1080p','720p','HD']])
+                    elif quality in ['1']:
+                        source_1080 = len([e for e in self.sources if e['quality'] in ['1440p','1080p']])
+                        source_720 = len([e for e in self.sources if e['quality'] in ['720p','HD']])
+                        source_sd = len([e for e in self.sources if e['quality'] not in ['4K','1440p','1080p','720p','HD']])
+                    elif quality in ['2']:
+                        source_1080 = len([e for e in self.sources if e['quality'] in ['1080p']])
+                        source_720 = len([e for e in self.sources if e['quality'] in ['720p','HD']])
+                        source_sd = len([e for e in self.sources if e['quality'] not in ['4K','1440p','1080p','720p','HD']])
+                    elif quality in ['3']:
+                        source_720 = len([e for e in self.sources if e['quality'] in ['720p','HD']])
+                        source_sd = len([e for e in self.sources if e['quality'] not in ['4K','1440p','1080p','720p','HD']])
+                    else:
+                        source_sd = len([e for e in self.sources if e['quality'] not in ['4K','1440p','1080p','720p','HD']])
+
+                    total = source_4k + source_1080 + source_720 + source_sd
+
+                source_4k_label = total_format % ('red', source_4k) if source_4k == 0 else total_format % ('lime', source_4k)
+                source_1080_label = total_format % ('red', source_1080) if source_1080 == 0 else total_format % ('lime', source_1080)
+                source_720_label = total_format % ('red', source_720) if source_720 == 0 else total_format % ('lime', source_720)
+                source_sd_label = total_format % ('red', source_sd) if source_sd == 0 else total_format % ('lime', source_sd)
+                source_total_label = total_format % ('red', total) if total == 0 else total_format % ('lime', total)
+
+                try:
+                    info = [name.upper() for future, name in futures.items() if not future.done()]
+
+                    percent = int(100 * float(i) / (2 * timeout) + 1)
+
+                    if quality in ['0']:
+                        line1 = '|'.join(pdiag_format) % (source_4k_label, source_1080_label, source_720_label, source_sd_label, str(string4), source_total_label)
+                    elif quality in ['1']:
+                        line1 = '|'.join(pdiag_format[1:]) % (source_1080_label, source_720_label, source_sd_label, str(string4), source_total_label)
+                    elif quality in ['2']:
+                        line1 = '|'.join(pdiag_format[1:]) % (source_1080_label, source_720_label, source_sd_label, str(string4), source_total_label)
+                    elif quality in ['3']:
+                        line1 = '|'.join(pdiag_format[2:]) % (source_720_label, source_sd_label, str(string4), source_total_label)
+                    else:
+                        line1 = '|'.join(pdiag_format[3:]) % (source_sd_label, str(string4), source_total_label)
+
+                    if (i / 2) < timeout:
+                        string = "Verbleibende Indexseiten: %s"
+                    else:
+                        string = 'Waiting for: %s'
+
+                    if len(info) > 6: line = line1 + string % (str(len(info)))
+                    elif len(info) > 1: line = line1 + string % (', '.join(info))
+                    elif len(info) == 1: line = line1 + string % (''.join(info))
+                    else: line = line1 + 'Suche beendet!'
+
+                    progressDialog.update(max(1, percent), line)
+                    if len(info) == 0: break
+
+                except Exception as e:
+                    log_utils.log('Exception Raised: %s' % str(e), log_utils.LOGERROR)
+
                 control.sleep(1)
-            except: pass
+            except:
+                pass
 
         time.sleep(1)
+
         try: progressDialog.close()
         except: pass
         self.sourcesFilter()
@@ -423,31 +435,35 @@ class sources:
         except:
             pass
 
+
     def sourcesFilter(self):
-        # ... (Filter logic identical to original) ...
-        # Ensure we don't crash if self.sources is empty
-        if not self.sources: return []
-        
+        # hostblockDict = utils.getHostDict()
+        # self.sources = [i for i in self.sources if i['source'].split('.')[0] not in str(hostblockDict)] # Hoster ausschließen (Liste)
+
         quality = control.getSetting('hosts.quality')
         if quality == '': quality = '0'
+
         random.shuffle(self.sources)
+
         self.sources = sorted(self.sources, key=lambda k: k['prioHoster'], reverse=False)
+
         for i in range(len(self.sources)):
             q = self.sources[i]['quality']            
             if q.lower() == 'hd': self.sources[i].update({'quality': '720p'})
-            
+
         filter = []
         if quality in ['0']: filter += [i for i in self.sources if i['quality'] == '4K']
         if quality in ['0', '1']: filter += [i for i in self.sources if i['quality'] == '1440p']
         if quality in ['0', '1', '2']: filter += [i for i in self.sources if i['quality'] == '1080p']
         if quality in ['0', '1', '2', '3']: filter += [i for i in self.sources if i['quality'] == '720p']
+        #filter += [i for i in self.sources if i['quality'] in ['SD', 'SCR', 'CAM']]
         filter += [i for i in self.sources if i['quality'] not in ['4k', '1440p', '1080p', '720p']]
         self.sources = filter
 
         if control.getSetting('hosts.sort.provider') == 'true':
-            self.sources = sorted(self.sources, key=lambda k: k['provider'])
-        if control.getSetting('hosts.sort.priority') == 'true' and self.mediatype == 'tvshow': 
-            self.sources = sorted(self.sources, key=lambda k: k['priority'], reverse=False)
+            self.sources = sorted(self.sources, key=lambda k: (k.get('prioHoster', 0) >= 999, k['provider']))
+
+        if control.getSetting('hosts.sort.priority') == 'true' and self.mediatype == 'tvshow': self.sources = sorted(self.sources, key=lambda k: (k.get('prioHoster', 0) >= 999, k['priority']), reverse=False)
 
         if str(control.getSetting('hosts.limit')) == 'true':
             self.sources = self.sources[:int(control.getSetting('hosts.limit.num'))]
@@ -458,9 +474,10 @@ class sources:
             p = self.sources[i]['provider']
             q = self.sources[i]['quality']
             s = self.sources[i]['source']
-            l = self.sources[i].get('language', '')
+            ## s = s.rsplit('.', 1)[0]
+            l = self.sources[i]['language']
 
-            try: f = (' | '.join(['[I]%s [/I]' % info.strip() for info in self.sources[i].get('info','').split('|')]))
+            try: f = (' | '.join(['[I]%s [/I]' % info.strip() for info in self.sources[i]['info'].split('|')]))
             except: f = ''
 
             label = '%02d | [B]%s[/B] | ' % (int(i + 1), p)
@@ -468,187 +485,178 @@ class sources:
             elif q == 'SD': label += '%s | %s' % (s, f)
             else: label += '%s | %s | [I]%s [/I]' % (s, f, q)
             label = label.replace('| 0 |', '|').replace(' | [I]0 [/I]', '')
-            label = re.sub('\[I\]\s+\[/I\]', ' ', label)
-            label = re.sub('\|\s+\|', '|', label)
-            label = re.sub('\|(?:\s+|)$', '', label)
+            label = re.sub(r'\[I\]\s+\[/I\]', ' ', label)
+            label = re.sub(r'\|\s+\|', '|', label)
+            label = re.sub(r'\|(?:\s+|)$', '', label)
 
+            if self.sources[i].get('prioHoster', 0) >= 999:
+                label += ' | [COLOR red]CAPTCHA[/COLOR]'
             self.sources[i]['label'] = label.upper()
+
+            # ## EMBY shown as premium link ##
+            # if self.sources[i]['provider']=="emby" or self.sources[i]['provider']=="amazon" or self.sources[i]['provider']=="netflix" or self.sources[i]['provider']=="maxdome":
+            #     prem_identify = 'blue'
+            #     self.sources[i]['label'] = ('[COLOR %s]' % (prem_identify)) + label.upper() + '[/COLOR]'
 
         self.sources = [i for i in self.sources if 'label' in i]
         return self.sources
 
-    def repair_source(self, item):
-        # Scrape specific provider again
-        try:
-            provider_name = item['provider']
-            target_hoster = item['source']
-            
-            # Find the scraper module from sourceDict
-            scraper = next((x[1] for x in self.sourceDict if x[0] == provider_name), None)
-            if not scraper: return None
-            
-            # Prepare args (need to reconstruct)
-            # We access the internal params stored in init/get
-            params = dict(parse_qsl(sys.argv[2].replace('?',''))) if len(sys.argv) > 1 else dict()
-            if 'sysmeta' in params:
-                 title, year, imdb, season, episode, originaltitle, premiered, meta, select = self.get(params)
-                 titles = utils.get_titles_for_search(title, originaltitle, utils.getAliases(imdb, 'movies' if season==0 else 'shows')[0])
-            else:
-                return None # Should not happen in normal flow
-
-            # Run single scraper
-            log_utils.log('Repairing source: %s' % provider_name, log_utils.LOGWARNING)
-            results = scraper.run(titles, year, season, episode, imdb)
-            
-            if not results: return None
-            
-            # Normalize results
-            results = [json.loads(t) for t in set(json.dumps(d, sort_keys=True) for d in results)]
-            
-            # Find match for the same hoster
-            for res in results:
-                if res.get('source') == target_hoster:
-                     # Update metadata
-                     res.update({'provider': provider_name})
-                     return res
-                     
-            # Fallback: return any result from this provider?
-            # User wants: "current link of same hoster". If not found, red.
-            return None
-        except:
-            return None
 
     def sourcesResolve(self, item, info=False):
         try:
             self.url = None
-            
-            # Check if this is a "repair" attempt internal call, if so item is already resolved? No.
-            
-            url = item.get('url')
-            direct = item.get('direct')
+            url = item['url']
+            direct = item['direct']
             local = item.get('local', False)
-            provider = item.get('provider')
-            
-            # Try resolve
+            provider = item['provider']
             call = [i[1] for i in self.sourceDict if i[0] == provider][0]
-            resolved_url = call.resolve(url)
+            url = call.resolve(url)
 
             if not direct == True:
                 try:
-                    hmf = resolver.HostedMediaFile(url=resolved_url, include_disabled=True, include_universal=False)
+                    hmf = resolver.HostedMediaFile(url=url, include_disabled=True, include_universal=False, include_popups=False)
+                    if not hmf.valid_url():
+                        hmf = resolver.HostedMediaFile(url=url, include_disabled=True, include_universal=False, include_popups=True)
                     if hmf.valid_url():
-                        resolved_url = hmf.resolve()
-                        if not resolved_url: resolved_url = None
+                        url = hmf.resolve()
+                        if url == False or url == None or url == '': url = None # raise Exception()
                 except:
-                    resolved_url = None
-
-            if resolved_url and (('://' in str(resolved_url)) or local):
-                self.url = resolved_url
-                return resolved_url
-            else:
-                raise Exception("Resolve Failed")
-
-        except:
-            # Trigger Repair Logic here if called from Dialog Loop (not direct PlayItem call which handles exception differently)
-            # But sourcesResolve is called by threadpool. We can try to repair here synchronously.
-            
-            # Attempt repair
-            new_item = self.repair_source(item)
-            if new_item:
-                # Update item reference (modify dict in place if possible, but safe to return new url)
-                # We need to resolve the NEW item
+                    url = None
+            elif item.get('prioHoster', 0) >= 999:
                 try:
-                    call = [i[1] for i in self.sourceDict if i[0] == new_item['provider']][0]
-                    r_url = call.resolve(new_item['url'])
-                    if not new_item.get('direct'):
-                        hmf = resolver.HostedMediaFile(url=r_url, include_disabled=True, include_universal=False)
-                        if hmf.valid_url(): r_url = hmf.resolve()
-                    
-                    if r_url and '://' in str(r_url):
-                        self.url = r_url
-                        # Update the original item object to prevent future re-repair for this session?
-                        item.update(new_item) 
-                        return r_url
+                    hmf = resolver.HostedMediaFile(url=url, include_disabled=True, include_universal=False, include_popups=True)
+                    if hmf.valid_url():
+                        url = hmf.resolve()
+                        if url == False or url == None or url == '': url = None
                 except:
-                    pass
-            
+                    url = None
+
+            if url == None or (not '://' in str(url) and not local):
+                log_utils.log('Kein Video Link gefunden: Provider %s / %s / %s ' % (item['provider'], item['source'] , str(item['source'])), log_utils.LOGERROR)
+                raise Exception()
+
+            # if not utils.test_stream(url):
+            #     log_utils.log('URL Test Error: %s' % url, log_utils.LOGERROR)
+            #     raise Exception()
+
+            # url = utils.m3u8_check(url)
+
+            if url:
+                self.url = url
+                return url
+            else:
+                raise Exception()
+        except:
             if info: self.errorForSources()
-            # Pass exception up so Dialog can catch it and mark RED
-            raise Exception("Dead Link")
+            return
 
 
     def sourcesDialog(self, items):
-        # Apply Highlight to previously selected item
-        # We need a way to track which one was selected.
-        # We assume items are persistent objects in this session.
-        
-        # Display list
-        labels = []
-        for i in items:
-            lbl = i['label']
-            if i.get('last_selected'):
-                lbl = '[B]%s[/B]' % lbl
-            if i.get('is_dead'):
-                lbl = '[COLOR red]%s[/COLOR]' % lbl
-            labels.append(lbl)
+        labels = [i['label'] for i in items]
 
         select = control.selectDialog(labels)
         if select == -1: return 'close://'
-        
-        selected_item = items[select]
-        
-        # Check special actions
-        if selected_item.get('action') == 'search_again':
-            return 'rescrape'
-            
-        # Mark as selected
-        for i in items: i['last_selected'] = False
-        selected_item['last_selected'] = True
-        
-        # We need to loop this specific item resolution here to handle the "Return to list" logic
-        # But sourcesDialog in original code loops through NEIGHBORS (autoplay list).
-        # We will strip that logic to fulfill the user request of "Return to list on error" strictly.
-        
+
+        next = [y for x,y in enumerate(items) if x >= select]
+        prev = [y for x,y in enumerate(items) if x < select][::-1]
+
+        items = [items[select]]
+        items = [i for i in items+next+prev][:40]
+
         header = control.addonInfo('name')
+        header2 = header.upper()
+
         progressDialog = control.progressDialog if control.getSetting('progress.dialog') == '0' else control.progressDialogBG
         progressDialog.create(header, '')
-        progressDialog.update(0, str(selected_item['label']))
+        progressDialog.update(0)
+
+        block = None
 
         try:
-             # Try resolve (includes auto-repair attempt)
-             self.sourcesResolve(selected_item)
-             
-             # If success
-             progressDialog.close()
-             return self.url
-             
-        except Exception:
-             # Failed and Repair failed
-             progressDialog.close()
-             selected_item['is_dead'] = True
-             return 'update_cache' # Signal to reload dialog
+            for i in range(len(items)):
+                try:
+                    if items[i]['source'] == block: raise Exception()
 
-        return 'close://'
+                    future = self.executor.submit(self.sourcesResolve, items[i])
+
+                    try:
+                        if progressDialog.iscanceled(): break
+                        progressDialog.update(int((100 / float(len(items))) * i), str(items[i]['label']))
+                    except:
+                        progressDialog.update(int((100 / float(len(items))) * i), str(header2) + str(items[i]['label']))
+
+                    waiting_time = 30
+                    while waiting_time > 0:
+                        try:
+                            if control.abortRequested: return sys.exit() #xbmc.Monitor().abortRequested()
+                            if progressDialog.iscanceled(): return progressDialog.close()
+                        except:
+                            pass
+
+                        if future.done(): break
+                        control.sleep(1)
+
+                        waiting_time = waiting_time - 1
+
+                        if control.condVisibility('Window.IsActive(virtualkeyboard)') or \
+                                control.condVisibility('Window.IsActive(yesnoDialog)') or \
+                                control.condVisibility('Window.IsActive(ProgressDialog)'):
+                            waiting_time = waiting_time + 1 #dont count down while dialog is presented ## control.condVisibility('Window.IsActive(PopupRecapInfoWindow)') or \
+
+                    if not future.done(): block = items[i]['source']
+
+                    if self.url == None: raise Exception()
+
+                    self.selectedSource = items[i]['label']
+
+                    try: progressDialog.close()
+                    except: pass
+
+                    control.execute('Dialog.Close(virtualkeyboard)')
+                    control.execute('Dialog.Close(yesnoDialog)')
+                    return self.url
+                except:
+                    pass
+
+            try: progressDialog.close()
+            except: pass
+
+        except Exception as e:
+            try: progressDialog.close()
+            except: pass
+            log_utils.log('Error %s' % str(e), log_utils.LOGINFO)
 
 
     def sourcesDirect(self, items):
+        # TODO - OK
+        # filter = [i for i in items if i['source'].lower() in self.hostcapDict and i['debrid'] == '']
+        # items = [i for i in items if not i in filter]
+        # items = [i for i in items if ('autoplay' in i and i['autoplay'] == True) or not 'autoplay' in i]
+
         u = None
+
         header = control.addonInfo('name')
+        header2 = header.upper()
+
         try:
+            control.sleep(1)
+
             progressDialog = control.progressDialog if control.getSetting('progress.dialog') == '0' else control.progressDialogBG
             progressDialog.create(header, '')
-        except: pass
+            progressDialog.update(0)
+        except:
+            pass
 
         for i in range(len(items)):
-            if items[i].get('action') == 'search_again': continue
-            
             try:
                 if progressDialog.iscanceled(): break
                 progressDialog.update(int((100 / float(len(items))) * i), str(items[i]['label']))
-            except: pass
+            except:
+                progressDialog.update(int((100 / float(len(items))) * i), str(header2) + str(items[i]['label']))
 
             try:
                 if control.abortRequested: return sys.exit()
+
                 url = self.sourcesResolve(items[i])
                 if u == None: u = url
                 if not url == None: break
@@ -657,11 +665,96 @@ class sources:
 
         try: progressDialog.close()
         except: pass
+
         return u
+
+    def mediaInfo(self, source, dialog=None):
+        import xbmcgui
+        try:
+            import urllib3
+            urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+        except: pass
+        try:
+            item = json.loads(source)[0]
+            if item['source'] is None:
+                raise Exception()
+
+            import time as _time
+            from resources.lib.mediainfo import TOTAL_TIMEOUT
+            deadline = _time.time() + TOTAL_TIMEOUT
+
+            if dialog is None:
+                dialog = xbmcgui.DialogProgress()
+                dialog.create('Medien-Info', 'Löse Stream-URL auf...')
+                dialog.update(0)
+
+            future = self.executor.submit(self.sourcesResolve, item)
+
+            # Wait for resolve with responsive cancel (check every 250ms)
+            # Cap at deadline so resolve + probe share the TOTAL_TIMEOUT budget
+            for i in range(120):  # 120 * 250ms = 30s max
+                remaining = int(deadline - _time.time())
+                if remaining <= 0:
+                    break
+                dialog.update(int(50.0 * i / 120), 'Löse Stream-URL auf...')
+                try:
+                    if dialog.iscanceled():
+                        try: dialog.close()
+                        except: pass
+                        return
+                except: pass
+                if future.done():
+                    break
+                control.sleep(0.25)  # 250ms — control.sleep() takes seconds, not ms
+                # Don't count down while resolver shows interactive dialogs
+                if control.condVisibility('Window.IsActive(virtualkeyboard)') or \
+                        control.condVisibility('Window.IsActive(yesnoDialog)'):
+                    continue
+
+            url = self.url if future.done() else None
+            control.execute('Dialog.Close(virtualkeyboard)')
+            control.execute('Dialog.Close(yesnoDialog)')
+
+            try:
+                if dialog.iscanceled():
+                    try: dialog.close()
+                    except: pass
+                    return
+            except: pass
+
+            if url is None:
+                try: dialog.close()
+                except: pass
+                control.infoDialog("Stream-URL konnte nicht aufgelöst werden", sound=False, icon='INFO')
+                return
+
+            log_utils.log('mediaInfo: resolve done, url=%s deadline_remaining=%.1f' % (url[:80], deadline - _time.time()), log_utils.LOGWARNING)
+            dialog.update(50, 'Analysiere Stream...')
+
+            from resources.lib import mediainfo
+            t_probe = _time.time()
+            info = mediainfo.getMediaInfo(url, dialog, deadline)
+            log_utils.log('mediaInfo: probe done in %.1fs, got_info=%s' % (_time.time() - t_probe, bool(info)), log_utils.LOGWARNING)
+
+            try: dialog.close()
+            except: pass
+
+            if info:
+                xbmcgui.Dialog().textviewer('Medien-Info', info)
+            else:
+                control.infoDialog("Auflösung konnte nicht ermittelt werden", sound=False, icon='INFO')
+
+        except Exception as e:
+            try:
+                if dialog: dialog.close()
+            except: pass
+            log_utils.log('mediaInfo Error: %s' % str(e), log_utils.LOGERROR)
+            control.infoDialog("Auflösung konnte nicht ermittelt werden", sound=False, icon='INFO')
+
 
     def errorForSources(self):
         control.infoDialog("Keine Streams verfügbar oder ausgewählt", sound=False, icon='INFO')
-  
+
     def getTitle(self, title):
         title = utils.normalize(title)
         return title

@@ -44,7 +44,7 @@ def __get_dom_content(html, name, match):
         return ''
 
     # override tag name with tag from match if possible
-    tag = re.match('<([^\s/>]+)', match)
+    tag = re.match(r'<([^\s/>]+)', match)
     if tag:
         name = tag.group(1)
 
@@ -78,7 +78,7 @@ def __get_dom_content(html, name, match):
 
 def __get_dom_elements(item, name, attrs):
     if not attrs:
-        pattern = '(<%s(?:\s[^>]*>|/?>))' % name
+        pattern = r'(<%s(?:\s[^>]*>|/?>))' % name
         this_list = re.findall(pattern, item, re.M | re.S | re.I)
     else:
         last_list = None
@@ -86,7 +86,7 @@ def __get_dom_elements(item, name, attrs):
         for key, value in iteritems(attrs):
             value_is_regex = isinstance(value, re_type)
             value_is_str = isinstance(value, basestring)
-            pattern = '''(<{tag}[^>]*\s{key}=(?P<delim>['"])(.*?)(?P=delim)[^>]*>)'''.format(tag=name, key=key)
+            pattern = r'''(<{tag}[^>]*\s{key}=(?P<delim>['"])(.*?)(?P=delim)[^>]*>)'''.format(tag=name, key=key)
             re_list = re.findall(pattern, item, re.M | re.S | re.I)
 
             if value_is_regex:
@@ -98,7 +98,7 @@ def __get_dom_elements(item, name, attrs):
             if not this_list:
                 has_space = (value_is_regex and ' ' in value.pattern) or (value_is_str and ' ' in value)
                 if not has_space:
-                    pattern = '''(<{tag}[^>]*\s{key}=((?:[^\s>]|/>)*)[^>]*>)'''.format(tag=name, key=key)
+                    pattern = r'''(<{tag}[^>]*\s{key}=((?:[^\s>]|/>)*)[^>]*>)'''.format(tag=name, key=key)
                     re_list = re.findall(pattern, item, re.M | re.S | re.I)
                     if value_is_regex:
                         this_list = [r[0] for r in re_list if re.match(value, r[1])]
@@ -116,7 +116,7 @@ def __get_dom_elements(item, name, attrs):
 def __get_attribs(element):
     attribs = {}
     for match in re.finditer(
-            '''\s+(?P<key>[^=]+)=\s*(?:(?P<delim>["'])(?P<value1>.*?)(?P=delim)|(?P<value2>[^"'][^>\s]*))''', element):
+            r'''\s+(?P<key>[^=]+)=\s*(?:(?P<delim>["'])(?P<value1>.*?)(?P=delim)|(?P<value2>[^"'][^>\s]*))''', element):
         match = match.groupdict()
         value1 = match.get('value1')
         value2 = match.get('value2')
