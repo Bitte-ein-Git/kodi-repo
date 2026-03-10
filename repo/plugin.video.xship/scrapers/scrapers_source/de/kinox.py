@@ -110,7 +110,7 @@ class source:
                 sHtmlContent = oRequest.request()
 
             r = dom_parser.parse_dom(sHtmlContent, 'ul', attrs={'id': 'HosterList'})[0]
-            r = dom_parser.parse_dom(r, 'li', attrs={'id': re.compile(r'Hoster_\d+')}, req='rel')
+            r = dom_parser.parse_dom(r, 'li', attrs={'id': re.compile('Hoster_\d+')}, req='rel')
             r = [(source_utils.replaceHTMLCodes(i.attrs['rel']), i.content) for i in r if i[0] and i[1]]
             r = [(i[0], re.findall('class="Named"[^>]*>([^<]+).*?(\d+)/(\d+)', i[1])) for i in r]
             r = [(i[0], i[1][0][0].lower().rsplit('.', 1)[0], i[1][0][2]) for i in r if len(i[1]) > 0]

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.service.magenta" name="[COLOR white]» [/COLOR][COLOR hotpink]Magenta TV 2.0[/COLOR][COLOR white] - Server[/COLOR]" version="26.3.5~beta" provider-name="Bitte ein Git!">
+<addon id="script.service.magenta" name="[COLOR white]» [/COLOR][COLOR hotpink]Magenta TV 2.0[/COLOR][COLOR white] - Server[/COLOR]" version="26.3.10~beta" provider-name="Bitte ein Git!">
   <requires>
       <import addon="xbmc.python" version="3.0.0"/>
       <import addon="script.module.beautifulsoup4"/>
@@ -9,7 +9,7 @@
   </requires>
   <extension point="xbmc.service" library="magenta.py" start="startup" />
   <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Magenta TV 2.0</summary>
+    <summary lang="en_GB">Magenta TV 2.0 [BETA]</summary>
     <description lang="en_GB">MagentaTV Service
     
 M3U: http://localhost:4700/api/file/channels.m3u

@@ -156,8 +156,6 @@ class movies:
 
 		watchedMenu = "In %s [I]Gesehen[/I]" % control.addonName
 		unwatchedMenu = "In %s [I]Ungesehen[/I]" % control.addonName
-		hasTrailerPlayer = control.hasTrailerPlayer()
-		trailerLabel = control.trailerLabel()
 		for i in items:
 			try:
 				title = i['title'] if 'title' in i else i['originaltitle']
@@ -203,13 +201,6 @@ class movies:
 				except:
 					pass
 
-				if hasTrailerPlayer:
-					cm.append((trailerLabel, 'RunPlugin(%s?action=playTrailer&tmdb_id=%s&mediatype=movie&title=%s&year=%s&poster=%s)' % (
-						sysaddon, meta['tmdb_id'],
-						control.quote_plus(str(title)),
-						str(i.get('year', '')),
-						control.quote_plus(str(poster)),
-					)))
 				cm.append(('Einstellungen', 'RunPlugin(%s?action=addonSettings)' % sysaddon))
 				item.addContextMenuItems(cm)
 

@@ -1,11 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="plugin.video.xship" version="fordy-2026.03.01" name="[COLOR goldenrod]» xShip[/COLOR][COLOR red]+[/COLOR]" provider-name="Bitte ein Git!">
+<addon id="plugin.video.xship" version="fordy-1.0.0" name="[COLOR white]» [COLOR goldenrod]xShip[/COLOR][COLOR red]+[/COLOR]" provider-name="Bitte ein Git!">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
         <import addon="script.module.download-m3u8" optional="true" />
         <import addon="script.module.six" />
-        <import addon="script.module.kodi-six" />
         <import addon="script.module.pyaes" />
         <import addon="script.module.infotagger" />
         <import addon="script.module.resolveurl" version="5.1.100" />
@@ -17,8 +16,8 @@
     </extension>
     <extension point="xbmc.service" library="service.py" start="startup" />
     <extension point="xbmc.addon.metadata">
-        <summary lang="de_DE">xShip: Der Fake</summary>
-        <summary lang="en_GB">xShip: The Fake</summary>
+        <summary lang="de_DE">xShip: kodi.heyfordy.dev modified</summary>
+        <summary lang="en_GB">xShip: kodi.heyfordy.dev modified</summary>
         <assets>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>

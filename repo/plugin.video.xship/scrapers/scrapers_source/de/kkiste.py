@@ -35,7 +35,7 @@ class source:
                 try:
                     oRequest = cRequestHandler(self.search_link % sSearchText)
                     sHtmlContent = oRequest.request()
-                    pattern = r'class="short">.*?href="([^"]+)">([^<]+).*?Jahr:.*?([\d]+)<'
+                    pattern = 'class="short">.*?href="([^"]+)">([^<]+).*?Jahr:.*?([\d]+)<'
                     isMatch, aResult = cParser.parse(sHtmlContent, pattern)
                     if not isMatch:
                         continue
@@ -56,7 +56,7 @@ class source:
             for link in set(links):
                 sHtmlContent = cRequestHandler(link).request()
                 if season > 0:
-                    pattern = r'\s%s<.*?</ul>' % episode
+                    pattern = '\s%s<.*?</ul>' % episode
                     isMatch, sHtmlContent = cParser.parseSingleResult(sHtmlContent, pattern)
                     if not isMatch: return sources
                 isMatch, aResult = cParser().parse(sHtmlContent, 'link="([^"]+)">')

@@ -37,7 +37,7 @@ class source:
                 # oRequest.addParameters('story', sSearchText)
                 # oRequest.addParameters('titleonly', '3')
                 sHtmlContent = oRequest.request()
-                pattern = r'class="new_movie\d+">\s*<a\s+href="([^"]+)">[^<]*</a>.*?alt="([^"]+)".*?class="fl-quality[^"]+">([^<]+)'
+                pattern = 'class="new_movie\d+">\s*<a\s+href="([^"]+)">[^<]*</a>.*?alt="([^"]+)".*?class="fl-quality[^"]+">([^<]+)'
                 isMatch, aResult = cParser.parse(sHtmlContent, pattern)
                 if not isMatch: continue
                 for i in aResult:
@@ -59,10 +59,10 @@ class source:
 
     def getStreams(self, data, year, season, episode, hostDict):
         sHtmlContent = cRequestHandler(data[0]).request()
-        isMatch, aYear = cParser.parse(sHtmlContent, r'l-year">(\d+)')
+        isMatch, aYear = cParser.parse(sHtmlContent, 'l-year">(\d+)')
         if not int(aYear[0]) == year and season == 0: return
-        if season == 0: pattern = r'<a\s+href="#"\s+data-link="([^"]+)'
-        else: pattern = r'<a\s+href="#"\s+id="[^"]+_%s"\s+data-link="([^"]+)' % episode
+        if season == 0: pattern = '<a\s+href="#"\s+data-link="([^"]+)'
+        else: pattern = '<a\s+href="#"\s+id="[^"]+_%s"\s+data-link="([^"]+)' % episode
         isMatch, aResult = cParser.parse(sHtmlContent, pattern)
         if not isMatch: return
         for i in aResult:

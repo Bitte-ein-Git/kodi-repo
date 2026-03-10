@@ -65,7 +65,7 @@ class source:
                 sHtmlContent = oRequest.request()
                 quality = '720p'
                 if season > 0:
-                    pattern = r'Episoden\s%s<.*?</ul>' % episode
+                    pattern = 'Episoden\s%s<.*?</ul>' % episode
                     isMatch, sHtmlContent = cParser.parseSingleResult(sHtmlContent, pattern)
                     if not isMatch: return sources
 

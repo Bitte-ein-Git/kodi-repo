@@ -25,7 +25,7 @@ def download(name, image, url, subfolder=None):  # new
     except: headers = dict('')
 
     url = url.split('|')[0]
-    content = re.compile(r'(.+?)\sS(\d*)E\d*$').findall(name)
+    content = re.compile('(.+?)\sS(\d*)E\d*$').findall(name)
 
     if int(xbmc.getInfoLabel("System.BuildVersion").split(".")[0]) >= 19:
         table = str.maketrans('', '', '\/:*?"<>|')

@@ -55,7 +55,7 @@ class source:
                             r = dom_parser.parse_dom(r, 'li')  #, req='href')
                             if len(r) == 0: continue
                             for i in r:
-                                pattern = r'href="([^"]+).*?Title">([^<]+).*?Year">(\d+).*?Qlty">([^<]+)'
+                                pattern = 'href="([^"]+).*?Title">([^<]+).*?Year">(\d+).*?Qlty">([^<]+)'
                                 sUrl, sTitle, sYear, sQuality = cParser.parse(i.content, pattern)[1][0]
                                 sTitle = sTitle.split(' - Der')[0]
                                 if sYear == str(year) and cleantitle.get(sTitle) in t:

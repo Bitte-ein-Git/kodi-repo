@@ -48,7 +48,7 @@ class source:
                 sName, sUrl, sYear = aResult[0]
                 oRequest = cRequestHandler(sUrl, caching=True)
                 sHtmlContent = oRequest.request()
-                pattern = r'%sx%s\s.*?/>' % (str(season), str(episode))
+                pattern = '%sx%s\s.*?/>' % (str(season), str(episode))
                 isMatch, sLinkContainer = cParser.parseSingleResult(sHtmlContent, pattern)
                 pattern = 'href="([^"]+)'
                 isMatch, aResult = cParser.parse(sLinkContainer, pattern)

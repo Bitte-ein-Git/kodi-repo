@@ -44,8 +44,8 @@ class source:
                     r = dom_parser.parse_dom(sHtmlContent, 'div', attrs={'id': 'dle-content'})[0].content
                     #a = dom_parser.parse_dom(r, 'a')
                     #pattern = '<a\s+class=[^>]*href="([^"]+)">.*?alt="([^"]+)">\s*<div\s+class="poster__label">([^<]+).*?<li>.*?(\d{4}).*?</a>'
-                    if season != 0:pattern = r'<a\s+class="poster[^>]*href="([^"]+).*?alt="([^"]+)'
-                    else: pattern = r'<a\s+class="poster[^>]*href="([^"]+).*?alt="([^"]+)">.*?<li>.*?(\d{4}).*?</a>'
+                    if season != 0:pattern = '<a\s+class="poster[^>]*href="([^"]+).*?alt="([^"]+)'
+                    else: pattern = '<a\s+class="poster[^>]*href="([^"]+).*?alt="([^"]+)">.*?<li>.*?(\d{4}).*?</a>'
                     isMatch, aResult = cParser.parse(r, pattern)
                     if not isMatch: continue
 
@@ -84,7 +84,7 @@ class source:
 
                 if season > 0:
                     self.quality = link['quality']
-                    pattern = r'<select\s+name="pmovie__select-items"\s+class="[^"]+"\s+style="[^"]+"\s+id="ep%s">\s*(.*?)\s*</select>' % str(episode)
+                    pattern = '<select\s+name="pmovie__select-items"\s+class="[^"]+"\s+style="[^"]+"\s+id="ep%s">\s*(.*?)\s*</select>' % str(episode)
                     isMatch, sHtmlContent = cParser.parseSingleResult(sHtmlContent, pattern)
                     isMatch, aResult = cParser().parse(sHtmlContent, 'value="([^"]+)')
                     if not isMatch: return sources
@@ -95,7 +95,7 @@ class source:
                     quality = sQuality if isMatch else link['quality']
 
                     # pattern = '<iframe\s+id="film_main"\s+data-src="([^"]+)"'
-                    pattern = r'<iframe.*?src=(?:"|)([^"|\s]+)'
+                    pattern = '<iframe.*?src=(?:"|)([^"|\s]+)'
                     isMatch, aResult = cParser().parse(sHtmlContent, pattern)
                     if not isMatch: return sources
                     for sUrl in aResult:

@@ -175,26 +175,5 @@
         <setting id="subtitles.lang.1" type="select" label="Hauptsprache" values="Afrikaans|Albanian|Arabic|Armenian|Basque|Bengali|Bosnian|Breton|Bulgarian|Burmese|Catalan|Chinese|Croatian|Czech|Danish|Dutch|English|Esperanto|Estonian|Finnish|French|Galician|Georgian|German|Greek|Hebrew|Hindi|Hungarian|Icelandic|Indonesian|Italian|Japanese|Kazakh|Khmer|Korean|Latvian|Lithuanian|Luxembourgish|Macedonian|Malay|Malayalam|Manipuri|Mongolian|Montenegrin|Norwegian|Occitan|Persian|Polish|Portuguese|Portuguese(Brazil)|Romanian|Russian|Serbian|Sinhalese|Slovak|Slovenian|Spanish|Swahili|Swedish|Syriac|Tagalog|Tamil|Telugu|Thai|Turkish|Ukrainian|Urdu" enable="!eq(-3,false)" default="German" />
         <setting id="subtitles.lang.2" type="select" label="Zweitsprache" values="Afrikaans|Albanian|Arabic|Armenian|Basque|Bengali|Bosnian|Breton|Bulgarian|Burmese|Catalan|Chinese|Croatian|Czech|Danish|Dutch|English|Esperanto|Estonian|Finnish|French|Galician|Georgian|German|Greek|Hebrew|Hindi|Hungarian|Icelandic|Indonesian|Italian|Japanese|Kazakh|Khmer|Korean|Latvian|Lithuanian|Luxembourgish|Macedonian|Malay|Malayalam|Manipuri|Mongolian|Montenegrin|Norwegian|Occitan|Persian|Polish|Portuguese|Portuguese(Brazil)|Romanian|Russian|Serbian|Sinhalese|Slovak|Slovenian|Spanish|Swahili|Swedish|Syriac|Tagalog|Tamil|Telugu|Thai|Turkish|Ukrainian|Urdu" enable="!eq(-4,false)" default="English" />
         <setting id="subtitles.utf" type="bool" label="Untertitel nach UTF-8 umwandeln" enable="!eq(-5,false)" default="false" />
-        <setting type="lsep" label="Download-Manager" />
-        <setting id="jd_enabled" type="bool" label="JDownloader aktivieren" default="false" />
-        <setting id="jd_host" type="text" label="Host" default="127.0.0.1" enable="!eq(-1,false)" />
-        <setting id="jd_port" type="number" label="Port" default="10025" enable="!eq(-2,false)" />
-        <setting id="jd_automatic_start" type="bool" label="Automatischer Start" default="false" enable="!eq(-3,false)" />
-        <setting id="jd_grabber" type="bool" label="LinkGrabber verwenden" default="true" enable="!eq(-4,false)" />
-        <setting type="sep" />
-        <setting id="jd2_enabled" type="bool" label="JDownloader 2 aktivieren" default="false" />
-        <setting id="jd2_host" type="text" label="Host" default="127.0.0.1" enable="!eq(-1,false)" />
-        <setting id="jd2_port" type="number" label="Port" default="9666" enable="!eq(-2,false)" />
-        <setting type="sep" />
-        <setting id="myjd_enabled" type="bool" label="My.JDownloader aktivieren" default="false" />
-        <setting id="myjd_device" type="text" label="Gerätename" default="JDownloader@Device" enable="!eq(-1,false)" />
-        <setting id="myjd_user" type="text" label="E-Mail" default="" enable="!eq(-2,false)" />
-        <setting id="myjd_pass" type="text" label="Passwort" option="hidden" default="" enable="!eq(-3,false)" />
-        <setting type="sep" />
-        <setting id="pyload_enabled" type="bool" label="PyLoad aktivieren" default="false" />
-        <setting id="pyload_host" type="text" label="Host" default="127.0.0.1" enable="!eq(-1,false)" />
-        <setting id="pyload_port" type="number" label="Port" default="8000" enable="!eq(-2,false)" />
-        <setting id="pyload_user" type="text" label="Benutzername" default="" enable="!eq(-3,false)" />
-        <setting id="pyload_passwd" type="text" label="Passwort" option="hidden" default="" enable="!eq(-4,false)" />
     </category>
 </settings>

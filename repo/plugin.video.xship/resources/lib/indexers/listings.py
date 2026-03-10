@@ -106,7 +106,7 @@ class listings:
 		name = oRequestHandler.request()
 		data = json.loads(name)
 		if 'status_code' in data and data['status_code'] == 34:
-			return [], 0
+			return {}
 		list = []
 		for i in data['results']:
 			list.append(i['id'])

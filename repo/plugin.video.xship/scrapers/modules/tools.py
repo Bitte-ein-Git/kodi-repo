@@ -68,7 +68,7 @@ class cParser:
 
     @staticmethod
     def getNumberFromString(sValue):
-        pattern = r'\d+'
+        pattern = '\\d+'
         aMatches = re.findall(pattern, sValue)
         if len(aMatches) > 0:
             return int(aMatches[0])
@@ -138,7 +138,7 @@ class cUtil:
                     text = text.decode('utf-8', 'ignore')
                 except:
                     pass
-        return re.sub(r"&(\w+;|#x?\d+;?)", fixup, text.strip())
+        return re.sub("&(\\w+;|#x?\\d+;?)", fixup, text.strip())
 
     @staticmethod
     def cleanse_text(text):

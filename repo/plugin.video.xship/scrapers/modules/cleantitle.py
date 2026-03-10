@@ -25,11 +25,11 @@ def get(title):
         title = title.replace('\\xc3\\x9c', 'Ãœ').replace('\\xc3\\xbc', 'Ã¼')
         title = title.replace('\\xc3\\x9f', 'ÃŸ')
 
-        title = re.sub(r'&#(\d+);', '', title)
-        title = re.sub(r'(&#[0-9]+)([^;^0-9]+)', r'\1;\2', title)
+        title = re.sub('&#(\d+);', '', title)
+        title = re.sub('(&#[0-9]+)([^;^0-9]+)', '\\1;\\2', title)
         title = title.replace('&quot;', '\"').replace('&amp;', '&')
-      # title = re.sub('\n|([[].+?[]])|([(].+?[)])|\s(vs|v[.])\s|(:|;|-|â€"|"|,|\'|\_|\.|\?)|\~|\s', '', title)
-        title = re.sub(r"\n|([\[].+?[\]])|([(].+?[)])|\s(vs|v[.])\s|([:;\-â€\",'_.?])|~|\s", '', title)
+      # title = re.sub('\n|([[].+?[]])|([(].+?[)])|\s(vs|v[.])\s|(:|;|-|â€“|"|,|\'|\_|\.|\?)|\~|\s', '', title)
+        title = re.sub("\n|([\[].+?[\]])|([(].+?[)])|\s(vs|v[.])\s|([:;\\-â€“\",'_.?])|~|\s", '', title)
         return title.lower()
     except Exception as e:
         log_utils.log('Exception Raised: %s' % str(e), log_utils.LOGERROR)
@@ -44,9 +44,9 @@ def geturl(title):
     try:
         # This gives a weird error saying that translate only takes 1 argument, not 2. However, the Python 2 documentation states 2, but 1 for Python 3.
         # This has most likley to do with titles being unicode (foreign titles)
-        title = title.translate(str.maketrans('', '', ':*?\"\'.<>|&!,'))
+        title = title.translate(None, ':*?"\'\.<>|&!,')
     except:
-        for c in ':*?\"\'.<>|&!,':
+        for c in ':*?"\'\.<>|&!,':
             title = title.replace(c, '')
 
     title = title.replace('/', '-')
@@ -76,12 +76,12 @@ def get_simple(title):
     if title is None:
         return
     title = title.lower()
-    title = re.sub(r'(\d{4})', '', title)
-    title = re.sub(r'&#(\d+);', '', title)
-    title = re.sub(r'(&#[0-9]+)([^;^0-9]+)', r'\1;\2', title)
+    title = re.sub('(\d{4})', '', title)
+    title = re.sub('&#(\d+);', '', title)
+    title = re.sub('(&#[0-9]+)([^;^0-9]+)', '\\1;\\2', title)
     title = title.replace('&quot;', '\"').replace('&amp;', '&')
-  # title = re.sub('\n|\(|\)|\[|\]|\{|\}|\s(vs|v[.])\s|(:|;|-|â€"|"|,|\'|\_|\.|\?)|\~|\s', '', title).lower()
-    title = re.sub(r"\n|\(|\)|\[|\]|{|\}|\s(vs|v[.])\s|([:;\-â€\",'_.?])|~|\s", '', title).lower()
+  # title = re.sub('\n|\(|\)|\[|\]|\{|\}|\s(vs|v[.])\s|(:|;|-|â€“|"|,|\'|\_|\.|\?)|\~|\s', '', title).lower()
+    title = re.sub("\n|\(|\)|\[|\]|{|\}|\s(vs|v[.])\s|([:;\\-â€“\",'_.?])|~|\s", '', title).lower()
     title = re.sub(r'<.*?>', '', title, count=0)
     return title
 
@@ -90,11 +90,11 @@ def getsearch(title):
     if title is None:
         return
     title = title.lower()
-    title = re.sub(r'&#(\d+);', '', title)
-    title = re.sub(r'(&#[0-9]+)([^;^0-9]+)', r'\1;\2', title)
+    title = re.sub('&#(\d+);', '', title)
+    title = re.sub('(&#[0-9]+)([^;^0-9]+)', '\\1;\\2', title)
     title = title.replace('&quot;', '\"').replace('&amp;', '&')
-  # title = re.sub('\\\|/|-|â€"|:|;|\*|\?|"|\'|<|>|\|', '', title).lower()
-    title = re.sub(r'[\\/\-â€":;*?"\'<>|]', '', title).lower()
+  # title = re.sub('\\\|/|-|â€“|:|;|\*|\?|"|\'|<|>|\|', '', title).lower()
+    title = re.sub('[\\\\/\\-â€“:;*?"\'<>|]', '', title).lower()
     return title
 
 
@@ -123,9 +123,8 @@ def get_query(title):
 #         return title
 
 def normalize(title):
+    import codecs
     try:
-        if isinstance(title, bytes):
-            return title.decode('UTF-8')
-        return title
+        return codecs.decode(title, 'UTF-8')
     except:
         return title

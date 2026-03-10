@@ -1,8 +1,6 @@
 
 
 import os.path
-import importlib
-import importlib.util
 import pkgutil
 
 from resources.lib import log_utils
@@ -33,12 +31,7 @@ def sources(specified_folders=None):
                     continue
                 if enabledCheck(module_name):
                     try:
-                        if hasattr(loader, 'find_module'):
-                            module = loader.find_module(module_name).load_module(module_name)
-                        else:
-                            spec = loader.find_spec(module_name, None)
-                            module = importlib.util.module_from_spec(spec)
-                            spec.loader.exec_module(module)
+                        module = loader.find_module(module_name).load_module(module_name)
                         sourceDict.append((module_name, module.source()))
                     except Exception as e:
                         __addon__.setSetting('provider.' + module_name, 'false')

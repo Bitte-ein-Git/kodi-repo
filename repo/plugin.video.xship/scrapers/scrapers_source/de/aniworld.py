@@ -75,9 +75,9 @@ def showValue():
     if cConfig().getSetting('global_search_' + SITE_IDENTIFIER) == 'true':
         oRequest.cacheTime = 60 * 60 * 24 # HTML Cache Zeit 1 Tag
     sHtmlContent = oRequest.request()
-    isMatch, sContainer = cParser.parseSingleResult(sHtmlContent, r'<ul[^>]*class="%s"[^>]*>(.*?)<\/ul>' % params.getValue('sCont'))
+    isMatch, sContainer = cParser.parseSingleResult(sHtmlContent, '<ul[^>]*class="%s"[^>]*>(.*?)<\\/ul>' % params.getValue('sCont'))
     if isMatch:
-        isMatch, aResult = cParser.parse(sContainer, r'<li>\s*<a[^>]*href="([^"]*)"[^>]*>(.*?)<\/a>\s*<\/li>')
+        isMatch, aResult = cParser.parse(sContainer, '<li>\s*<a[^>]*href="([^"]*)"[^>]*>(.*?)<\\/a>\s*<\\/li>')
         aResult = sorted(aResult, key=lambda x: x[1].lower())  # Sort alphabetically by name (case-insensitive)
     if not isMatch:
         cGui().showInfo()
@@ -128,7 +128,7 @@ def showNewEpisodes(entryUrl=False, sGui=False):
     if cConfig().getSetting('global_search_' + SITE_IDENTIFIER) == 'true':
         oRequest.cacheTime = 60 * 60 * 4 # HTML Cache Zeit 4 Stunden
     sHtmlContent = oRequest.request()
-    pattern = r'<div[^>]*class="col-md-[^"]*"[^>]*>\s*<a[^>]*href="([^"]*)"[^>]*>\s*<strong>([^<]+)</strong>\s*<span[^>]*>([^<]+)</span>'
+    pattern = '<div[^>]*class="col-md-[^"]*"[^>]*>\s*<a[^>]*href="([^"]*)"[^>]*>\s*<strong>([^<]+)</strong>\s*<span[^>]*>([^<]+)</span>'
     isMatch, aResult = cParser.parse(sHtmlContent, pattern)
     if not isMatch:
         if not sGui: oGui.showInfo()
@@ -256,13 +256,13 @@ def showEpisodes():
     isMatch, sContainer = cParser.parseSingleResult(sHtmlContent, pattern)
     if isMatch:
         if isMovieList == True:
-            pattern = r'<tr[^>]*data-episode-season-id="(\d+).*?<a href="([^"]+)">\s([^<]+).*?<strong>([^<]+)'
+            pattern = '<tr[^>]*data-episode-season-id="(\d+).*?<a href="([^"]+)">\s([^<]+).*?<strong>([^<]+)'
             isMatch, aResult = cParser.parse(sContainer, pattern)
             if not isMatch:
-                pattern = r'<tr[^>]*data-episode-season-id="(\d+).*?<a href="([^"]+)">\s([^<]+).*?<span>([^<]+)'
+                pattern = '<tr[^>]*data-episode-season-id="(\d+).*?<a href="([^"]+)">\s([^<]+).*?<span>([^<]+)'
                 isMatch, aResult = cParser.parse(sContainer, pattern)
         else:
-            pattern = r'<tr[^>]*data-episode-season-id="(\d+).*?<a href="([^"]+).*?(?:<strong>(.*?)</strong>.*?)?(?:<span>(.*?)</span>.*?)?<'
+            pattern = '<tr[^>]*data-episode-season-id="(\d+).*?<a href="([^"]+).*?(?:<strong>(.*?)</strong>.*?)?(?:<span>(.*?)</span>.*?)?<'
             isMatch, aResult = cParser.parse(sContainer, pattern)
     if not isMatch:
         cGui().showInfo()
@@ -297,8 +297,8 @@ def showHosters():
     sUrl = ParameterHandler().getValue('sUrl')
     sHtmlContent = cRequestHandler(sUrl, caching=False).request()
     if cConfig().getSetting('plugin_' + SITE_IDENTIFIER + '.domain') == 'www.aniworld.info':
-        pattern = r'<li[^>]*episodeLink([^"]+)"\sdata-lang-key="([^"]+).*?data-link-target="([^"]+).*?<h4>([^<]+)<([^>]+)'
-        pattern2 = r'itemprop="keywords".content=".*?Season...([^"]+).S.*?'  # HD Kennzeichen
+        pattern = '<li[^>]*episodeLink([^"]+)"\sdata-lang-key="([^"]+).*?data-link-target="([^"]+).*?<h4>([^<]+)<([^>]+)'
+        pattern2 = 'itemprop="keywords".content=".*?Season...([^"]+).S.*?'  # HD Kennzeichen
         # data-lang-key="1" Deutsch
         # data-lang-key="2" Japanisch mit englischen Untertitel
         # data-lang-key="3" Japanisch mit deutschen Untertitel
@@ -352,8 +352,8 @@ def showHosters():
                 cGui().showLanguage()
             return hosters
     else:
-        pattern = r'<li[^>]*data-lang-key="([^"]+).*?data-link-target="([^"]+).*?<h4>([^<]+)<([^>]+)'
-        pattern2 = r'itemprop="keywords".content=".*?Season...([^"]+).S.*?'  # HD Kennzeichen
+        pattern = '<li[^>]*data-lang-key="([^"]+).*?data-link-target="([^"]+).*?<h4>([^<]+)<([^>]+)'
+        pattern2 = 'itemprop="keywords".content=".*?Season...([^"]+).S.*?'  # HD Kennzeichen
         # data-lang-key="1" Deutsch
         # data-lang-key="2" Japanisch mit englischen Untertitel
         # data-lang-key="3" Japanisch mit deutschen Untertitel

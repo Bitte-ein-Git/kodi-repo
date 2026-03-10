@@ -1,9 +1,7 @@
-
 # 2023-05-10
 # edit 2025-06-12
 
 import sys, json
-from urllib.parse import parse_qs, urlsplit
 from resources.lib import control
 
 params = dict(control.parse_qsl(control.urlsplit(sys.argv[2]).query))
@@ -46,58 +44,6 @@ elif action == 'download':
     from resources.lib import sources
     try: downloader.download(name, image, sources.sources().sourcesResolve(json.loads(source)[0], True))
     except: pass
-
-elif action in ('sendToJD', 'sendToJD2', 'sendToMyJD', 'sendToPyLoad'):
-    item = json.loads(source)[0]
-    raw_url = item.get('url', '')
-    jd_url = item.get('jd_url', '')
-    if raw_url:
-        # Prefer JD-friendly URL (e.g. kinoger.ru -> VOE) over pre-resolved
-        # CDN/m3u8 URLs with time-limited tokens and header requirements.
-        if jd_url:
-            url = jd_url
-            source_url = None
-        else:
-            url = raw_url
-            source_url = None
-
-            # Strip resolveurl's $$referer suffix (e.g. "https://vidhide.com/e/abc$$https://filmpalast.to/")
-            if '$$' in url:
-                url = url.split('$$')[0]
-
-            # Handle Kodi-style |headers (e.g. "https://cdn.com/v.mp4|Referer=...&Origin=...")
-            if '|' in url:
-                base_url, header_str = url.split('|', 1)
-                headers = dict(parse_qs(header_str, keep_blank_values=True))
-                referer = headers.get('Referer', [''])[0]
-                if referer and urlsplit(referer).path not in ('', '/'):
-                    # Referer has a real path — likely a hoster page JD can resolve
-                    url = referer
-                else:
-                    url = base_url
-                    if referer:
-                        source_url = referer
-
-        if action == 'sendToJD':
-            from resources.lib.handler.jdownloaderHandler import cJDownloaderHandler
-            cJDownloaderHandler().sendToJDownloader(url)
-        elif action == 'sendToJD2':
-            from resources.lib.handler.jdownloader2Handler import cJDownloader2Handler
-            cJDownloader2Handler().sendToJDownloader2(url)
-        elif action == 'sendToMyJD':
-            from resources.lib.handler.myjdownloaderHandler import cMyJDownloaderHandler
-            cMyJDownloaderHandler().sendToMyJDownloader(url, name, source_url)
-        elif action == 'sendToPyLoad':
-            from resources.lib.handler.pyLoadHandler import cPyLoadHandler
-            cPyLoadHandler().sendToPyLoad(name, url)
-
-elif action == 'mediaInfo':
-    import xbmcgui
-    dialog = xbmcgui.DialogProgress()
-    dialog.create('Medien-Info', 'Löse Stream-URL auf...')
-    dialog.update(0)
-    from resources.lib import sources
-    sources.sources().mediaInfo(source, dialog)
 
 elif action == 'playExtern':
     import json
@@ -161,19 +107,6 @@ elif action == 'playURL':
         #print('Kein Video Link gefunden')
         control.infoDialog("Keinen Video Link gefunden", sound=True, icon='WARNING', time=1000)
 
-elif action == 'playTrailer':
-    try:
-        from resources.lib.trailer import playTrailer
-        playTrailer(
-            tmdb_id   = params.get('tmdb_id', ''),
-            mediatype = params.get('mediatype', 'movie'),
-            title     = params.get('title', ''),
-            year      = params.get('year', ''),
-            poster    = params.get('poster', ''),
-        )
-    except Exception:
-        control.infoDialog('Trailer-Suche fehlgeschlagen', sound=True, icon='WARNING')
-
 elif action == 'UpdatePlayCount':
     from resources.lib import playcountDB
     playcountDB.UpdatePlaycount(params)
@@ -231,11 +164,11 @@ elif action == 'playfromPerson':
     sysmeta = json.loads(params['sysmeta'])
     if sysmeta['mediatype'] == 'movie':
         from resources.lib.indexers import movies
-        sysmeta = movies.movies().super_meta(sysmeta['tmdb_id'])
+        sysmeta = movies.movies().super_meta('', id=sysmeta['tmdb_id'])
         sysmeta = json.dumps(sysmeta)
     else:
         from resources.lib.indexers import tvshows
-        sysmeta = tvshows.tvshows().super_meta(sysmeta['tmdb_id'])
+        sysmeta = tvshows.tvshows().super_meta('', id=sysmeta['tmdb_id'])
         sysmeta = control.quote_plus(json.dumps(sysmeta))
 
     params.update({'sysmeta': sysmeta})
