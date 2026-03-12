@@ -59,6 +59,24 @@ jobs:
                   "source_path": "xbmc-master/plugin.video.amazon-test", 
                   "xml_url": "https://raw.githubusercontent.com/sandmann79/xbmc/master/plugin.video.amazon-test/addon.xml"
               },
+              "script.module.amazoncaptcha": {
+                  "mode": "direct",
+                  "url": "https://github.com/sandmann79/xbmc/archive/refs/heads/master.zip",
+                  "source_path": "xbmc-master/script.module.amazoncaptcha", 
+                  "xml_url": "https://raw.githubusercontent.com/sandmann79/xbmc/master/script.module.amazoncaptcha/addon.xml"
+              },
+              "script.module.mechanicalsoup": {
+                  "mode": "direct",
+                  "url": "https://github.com/sandmann79/xbmc/archive/refs/heads/master.zip",
+                  "source_path": "xbmc-master/script.module.mechanicalsoup", 
+                  "xml_url": "https://raw.githubusercontent.com/sandmann79/xbmc/master/script.module.mechanicalsoup/addon.xml"
+              },
+              "script.module.pyautogui": {
+                  "mode": "direct",
+                  "url": "https://github.com/sandmann79/xbmc/archive/refs/heads/master.zip",
+                  "source_path": "xbmc-master/script.module.pyautogui", 
+                  "xml_url": "https://raw.githubusercontent.com/sandmann79/xbmc/master/script.module.pyautogui/addon.xml"
+              },
               "plugin.video.jellyfin": {
                   "mode": "version_url",
                   "url": "https://kodi.jellyfin.org/py3/plugin.video.jellyfin/plugin.video.jellyfin-{version}.zip",
@@ -82,6 +100,24 @@ jobs:
                   "url": "https://michaz1988.github.io/repo/plugin.video.xstream/",
                   "source_path": "plugin.video.xstream",
                   "xml_url": "https://michaz1988.github.io/repo/plugin.video.xstream/addon.xml"
+              },
+              "plugin.video.vavooto": {
+                  "mode": "scrape",
+                  "url": "https://michaz1988.github.io/repo/plugin.video.vavooto/",
+                  "source_path": "plugin.video.vavooto",
+                  "xml_url": "https://michaz1988.github.io/repo/plugin.video.vavooto/addon.xml"
+              },
+              "script.module.asyn": {
+                  "mode": "scrape",
+                  "url": "https://michaz1988.github.io/repo/script.module.asyn/",
+                  "source_path": "script.module.asyn",
+                  "xml_url": "https://michaz1988.github.io/repo/script.module.asyn/addon.xml"
+              },
+              "script.module.download-m3u8": {
+                  "mode": "scrape",
+                  "url": "https://michaz1988.github.io/repo/script.module.download-m3u8/",
+                  "source_path": "script.module.download-m3u8",
+                  "xml_url": "https://michaz1988.github.io/repo/script.module.download-m3u8/addon.xml"
               },
               "script.module.xstreamscraper": {
                   "mode": "scrape",
