@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="script.module.pyautogui" name="PyAutoGUI" version="fordy-0.9.51" provider-name="Al Sweigart">
+<addon id="script.module.pyautogui" name="PyAutoGUI" version="0.9.51" provider-name="Al Sweigart">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0" />
 	</requires>

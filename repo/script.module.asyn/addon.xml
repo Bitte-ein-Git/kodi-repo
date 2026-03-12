@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="script.module.asyn" name="asyn" version="fordy-1.0" provider-name="michaz">
+<addon id="script.module.asyn" name="asyn" version="1.0" provider-name="michaz">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
   </requires>

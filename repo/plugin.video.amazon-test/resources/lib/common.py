@@ -48,8 +48,6 @@ class Globals(Singleton):
     watchlist = 'watchlist'
     library = 'library'
     DBVersion = 1.4
-    PayCol = 'FFE95E01'
-    PrimeCol = 'FF00A8E0'
     tmdb = base64.b64decode('YjM0NDkwYzA1NmYwZGQ5ZTNlYzlhZjIxNjdhNzMxZjQ=').decode()
     tvdb = base64.b64decode('ZWRhZTYwZGMtMWI0NC00YmFjLThkYjctNjVjMGFhZjUyNThi').decode()
     langID = {'movie': 30165, 'series': 30166, 'season': 30167, 'episode': 30173, 'tvshow': 30166, 'video': 30173, 'event': 30174, 'live': 30174}
@@ -200,6 +198,12 @@ class Settings(Singleton):
             return getConfig('proxyaddress')
         elif 'wvl1_device' == name and getConfig('autoWV', 0) == 0:
             return detectWidevine()
+        elif 'paycol' == name:
+            paycol = self._gs('paycol')
+            return paycol if paycol else 'FFE95E01'
+        elif 'primecol' == name:
+            primecol = self._gs('primecol')
+            return primecol if primecol else 'FF00A8E0'
 
         value = None
         for cmd in self._ret_types:

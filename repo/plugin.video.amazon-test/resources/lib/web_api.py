@@ -1358,9 +1358,9 @@ class PrimeVideo(Singleton):
                                 facet = False
                                 facetxt = txt
                             if isprime:
-                                facetxt = f'[COLOR {self._g.PrimeCol}]{facetxt}[/COLOR]'
+                                facetxt = f'[COLOR {self._s.primecol}]{facetxt}[/COLOR]'
                             if not isincl:
-                                facetxt = f'[COLOR {self._g.PayCol}]{facetxt}[/COLOR]'
+                                facetxt = f'[COLOR {self._s.paycol}]{facetxt}[/COLOR]'
                             txt = f"{facetxt}{' ' if isprime or isincl is False else ': '}{txt}" if facet else txt  # facetxt doesn't mark correctly / to colorful
                             id = txt
                             o[id] = {'title': self._BeautifyText(txt)}

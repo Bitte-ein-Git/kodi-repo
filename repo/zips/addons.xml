@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="plugin.video.amazon-test" name="[COLOR cornflowerblue]Prime Video[/COLOR]" version="1.2.0~beta1+matrix.1" provider-name="Bitte ein Git!, Sandmann79, Varstahl">
+<addons><addon id="plugin.video.amazon-test" name="[COLOR cornflowerblue]Prime Video[/COLOR]" version="fordy-1.2.0~beta1+matrix.1" provider-name="Bitte ein Git!, Sandmann79, Varstahl">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.beautifulsoup4" version="4.6.3+matrix.1" />
@@ -73,7 +73,7 @@
 - comment: *Auf vielfachen Wunsch und nach ausführlichen Tests ist es mir gelungen wieder ein Genre-Konstrukt auf Basis der API-'Aurora' von Discovery aufzubauen und in das Addon zu integrieren !*
 		</news>
 	</extension>
-</addon><addon id="plugin.video.jellyfin" name="[COLOR crimson]» Fordy-Media[/COLOR]" version="1.0.0+py3" provider-name="Bitte ein Git!">
+</addon><addon id="plugin.video.jellyfin" name="Jellyfin" version="fordy-2.0.0+py3" provider-name="Jellyfin Contributors">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.requests" version="2.22.0+matrix.1" />
@@ -84,7 +84,7 @@
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video audio image</provides>
   </extension>
-  <extension point="xbmc.service" library="service.py" start="startup">
+  <extension point="xbmc.service" library="service.py" start="login">
 	</extension>
   <extension point="kodi.context.item">
     <menu id="kodi.core.main">
@@ -98,6 +98,7 @@
         <label>30402</label>
         <visible>[[!String.IsEmpty(ListItem.DBID) + !String.IsEqual(ListItem.DBID,-1) |
 					!String.IsEmpty(ListItem.Property(jellyfinid))] + [String.IsEqual(ListItem.DBTYPE,movie) |
+					String.Contains(Container.FolderPath,livetv) |
 					String.IsEqual(ListItem.DBTYPE,episode)]] +
 					!String.IsEmpty(Window(10000).Property(jellyfin_context_transcode))</visible>
       </item>
@@ -110,7 +111,7 @@
     <forum>https://forum.jellyfin.org</forum>
     <website>https://jellyfin.org/</website>
     <source>https://github.com/jellyfin/jellyfin-kodi</source>
-    <summary lang="en_GB">Fork - addon name/ui changed</summary>
+    <summary lang="en" />
     <description lang="en">Welcome to Jellyfin for Kodi!
 A whole new way to manage and view your media library. The Jellyfin addon for Kodi combines the best of Kodi - ultra smooth navigation, beautiful UIs and playback of any file under the sun, and Jellyfin - the most powerful fully open source multi-client media metadata indexer and server.
 
@@ -119,25 +120,44 @@ Jellyfin for Kodi is the absolute best way to enjoy the incredible Kodi playback
 * Instant synchronization with the Jellyfin server
 * Full support for Movie, TV and Music collections
 * Jellyfin Server direct stream and transcoding support - use Kodi when you are away from home!</description>
-    <news>v1.1.1 (2025-10-20):
+    <news>v2.0.0 (2026-03-07):
+:tada: New features and improvements
+------------------------------------
++ feature: mediasegments skip (#1089) @ticoombs
+
 Bug Fixes
 ---------
-+ Escape null character in log output (#1055) @oddstr13
-+ Remove setting of (#1051) @bossanova808
++ Select mp4 container when transcoding to AV1 (#1094) @kontell
++ Migrate to current auth methods (#1097) @mcarlton00
++ Don't assume Path always exists in playback objects (#1096) @mcarlton00
++ Add "Jellyfin transcode" context menu item to Live TV section (#1095) @kontell
++ fix: strm file with local file path fails to play (#1085) @VergilGao
++ Fix: Cinema mode with playlist method (#1077) @hjpaul7
++ Fix: Next Episodes (maxDaysInNextEpisodes) (#1075) @hjpaul7
+
+:white_check_mark: Tests
+------------------------
++ Fix lints and tests (#1098) @oddstr13
++ Add Python 3.14 to test matrix (#1064) @oddstr13
 
 Code or Repo Maintenance
 ------------------------
-+ Remove angelblue05 from the plugin provider name (#1054) @oddstr13
-+ Split and index in a way that gracefully falls back to no split (#1053) @oddstr13
-+ Misc cleanup and refractoring (#1045) @oddstr13
-
-Documentation updates
----------------------
-+ Remove angelblue05 from the plugin provider name (#1054) @oddstr13
++ Fix lints and tests (#1098) @oddstr13
 
 CI &amp; build changes
 ------------------
-+ Update github/codeql-action action to v4 (#1050) @[renovate[bot]](https://github.com/apps/renovate)</news>
++ Update burnett01/rsync-deployments action to v8 (#1078) @[renovate[bot]](https://github.com/apps/renovate)
++ Update appleboy/ssh-action action to v1.2.5 (#1074) @[renovate[bot]](https://github.com/apps/renovate)
++ Update github/codeql-action action to v4.32.2 (#1065) @[renovate[bot]](https://github.com/apps/renovate)
++ Update actions/upload-artifact action to v6 (#1081) @[renovate[bot]](https://github.com/apps/renovate)
++ Update codecov/codecov-action action to v5.5.2 (#1080) @[renovate[bot]](https://github.com/apps/renovate)
++ Update actions/checkout action to v6 (#1069) @[renovate[bot]](https://github.com/apps/renovate)
++ Update actions/setup-python action to v6.2.0 (#1071) @[renovate[bot]](https://github.com/apps/renovate)
++ Update release-drafter/release-drafter action to v6.2.0 (#1092) @[renovate[bot]](https://github.com/apps/renovate)
++ Update dependency python to 3.14 (#1049) @[renovate[bot]](https://github.com/apps/renovate)
++ Update github/codeql-action action to v4.31.2 (#1052) @[renovate[bot]](https://github.com/apps/renovate)
++ Update actions/upload-artifact action to v5 (#1059) @[renovate[bot]](https://github.com/apps/renovate)
++ Update appleboy/ssh-action action to v1.2.3 (#1062) @[renovate[bot]](https://github.com/apps/renovate)</news>
     <assets>
       <icon>resources/icon.png</icon>
       <fanart>resources/fanart.png</fanart>
@@ -279,7 +299,7 @@ CI &amp; build changes
 			<banner>resources/media/banner.png</banner>
 		</assets>
     </extension>
-</addon><addon id="plugin.video.xstream" name="[COLOR white]» [COLOR red]x[/COLOR][COLOR goldenrod]Stream[/COLOR]" version="2026.02.11" provider-name="Michaz">
+</addon><addon id="plugin.video.xstream" name="[COLOR white]» [COLOR red]x[/COLOR][COLOR goldenrod]Stream[/COLOR]" version="fordy-2026.02.11" provider-name="Michaz">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
@@ -624,7 +644,7 @@ CI &amp; build changes
       <fanart>fanart.jpg</fanart>
     </assets>
   </extension>
-</addon><addon id="script.module.amazoncaptcha" name="amazoncaptcha" version="fordy-0.5.11" provider-name="Anatolii Maliarov">
+</addon><addon id="script.module.amazoncaptcha" name="amazoncaptcha" version="0.5.11" provider-name="Anatolii Maliarov">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.pil" version="1.1.7" />
@@ -638,7 +658,7 @@ CI &amp; build changes
     <website>https://github.com/a-maliarov/amazoncaptcha</website>
     <source>https://github.com/a-maliarov/amazoncaptcha</source>
   </extension>
-</addon><addon id="script.module.asyn" name="asyn" version="fordy-1.0" provider-name="michaz">
+</addon><addon id="script.module.asyn" name="asyn" version="1.0" provider-name="michaz">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
   </requires>
@@ -648,7 +668,7 @@ CI &amp; build changes
       <icon>resources/icon.png</icon>
     </assets>
   </extension>
-</addon><addon id="script.module.download-m3u8" name="download-m3u8" version="fordy-1.0.0" provider-name="kasi45">
+</addon><addon id="script.module.download-m3u8" name="download-m3u8" version="1.0.0" provider-name="kasi45">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     
@@ -666,7 +686,7 @@ CI &amp; build changes
       <icon>resources/icon.png</icon>
     </assets>
   </extension>
-</addon><addon id="script.module.mechanicalsoup" name="MechanicalSoup" version="fordy-1.0.0" provider-name="Matthew Hickford, Dan Hemberger, Matthieu Moy">
+</addon><addon id="script.module.mechanicalsoup" name="MechanicalSoup" version="1.0.0" provider-name="Matthew Hickford, Dan Hemberger, Matthieu Moy">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0" />
 		<import addon="script.module.requests" version="2.0.0" />
@@ -685,7 +705,7 @@ CI &amp; build changes
             <icon>icon.png</icon>
         </assets>
 	</extension>
-</addon><addon id="script.module.pyautogui" name="PyAutoGUI" version="fordy-0.9.51" provider-name="Al Sweigart">
+</addon><addon id="script.module.pyautogui" name="PyAutoGUI" version="0.9.51" provider-name="Al Sweigart">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0" />
 	</requires>
@@ -701,7 +721,7 @@ CI &amp; build changes
             <icon>icon.png</icon>
         </assets>
 	</extension>
-</addon><addon id="script.module.xstreamscraper" name="[COLOR darkorange]» Autom. Quellen-Suche[/COLOR]" provider-name="Bitte-ein-Git!" version="2025.08.14">
+</addon><addon id="script.module.xstreamscraper" name="[COLOR darkorange]» Autom. Quellen-Suche[/COLOR]" provider-name="Bitte-ein-Git!" version="fordy-2025.08.14">
 	<requires>
 		<import addon="plugin.video.vavooto" />
         <import addon="script.module.requests" />

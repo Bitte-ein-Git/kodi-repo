@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="script.module.amazoncaptcha" name="amazoncaptcha" version="fordy-0.5.11" provider-name="Anatolii Maliarov">
+<addon id="script.module.amazoncaptcha" name="amazoncaptcha" version="0.5.11" provider-name="Anatolii Maliarov">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.pil" version="1.1.7" />

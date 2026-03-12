@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="script.module.mechanicalsoup" name="MechanicalSoup" version="fordy-1.0.0" provider-name="Matthew Hickford, Dan Hemberger, Matthieu Moy">
+<addon id="script.module.mechanicalsoup" name="MechanicalSoup" version="1.0.0" provider-name="Matthew Hickford, Dan Hemberger, Matthieu Moy">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0" />
 		<import addon="script.module.requests" version="2.0.0" />

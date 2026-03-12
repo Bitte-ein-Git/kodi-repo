@@ -533,7 +533,7 @@ class PrimeVideo(Singleton):
         else:
             name += getString(30169)
         if not infoLabels['isPrime']:
-            name = f'[COLOR {self._g.PayCol}]{name}[/COLOR]'
+            name = f'[COLOR {self._s.paycol}]{name}[/COLOR]'
         return name
 
     def getListMenu(self, listing, export):
@@ -721,7 +721,7 @@ class PrimeVideo(Singleton):
             if not infoLabels['fanart']:
                 infoLabels['fanart'] = self._gDefaultFanart
             if not infoLabels['isPrime'] and not contentType == 'series':
-                infoLabels['DisplayTitle'] = f"[COLOR {self._g.PayCol}]{infoLabels['DisplayTitle']}[/COLOR]"
+                infoLabels['DisplayTitle'] = f"[COLOR {self._s.paycol}]{infoLabels['DisplayTitle']}[/COLOR]"
         return contentType, infoLabels
 
     @staticmethod

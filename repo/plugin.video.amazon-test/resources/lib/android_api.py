@@ -244,9 +244,9 @@ class PrimeVideo(Singleton):
                         isincl = get_key('Entitled', item, 'containerMetadata', 'entitlementCues', 'entitledCarousel') == 'Entitled'
                         if self._s.paycont:
                             if isprime:
-                                facetxt = f'[COLOR {self._g.PrimeCol}]{facetxt}[/COLOR]'
+                                facetxt = f'[COLOR {self._s.primecol}]{facetxt}[/COLOR]'
                             if isincl is False:
-                                facetxt = f'[COLOR {self._g.PayCol}]{facetxt}[/COLOR]'
+                                facetxt = f'[COLOR {self._s.paycol}]{facetxt}[/COLOR]'
                         title = facetxt + ' - ' + title if title else facetxt
                     # faceimg = item.get('presentationData', {}).get('facetImages', {}).get('UNFOCUSED', {}).get('url')
                     if col_act:
@@ -326,7 +326,7 @@ class PrimeVideo(Singleton):
             if il['episode'] > 0:
                 name = f"{il['episode']}. {name}"
         if not il['isPrime'] and self._s.paycont:
-            name = f'[COLOR {self._g.PayCol}]{name}[/COLOR]'
+            name = f'[COLOR {self._s.paycol}]{name}[/COLOR]'
         return name
 
     def writeCache(self, content, cont_id=None):
