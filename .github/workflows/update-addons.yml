@@ -172,7 +172,7 @@ jobs:
                   print(f"Error fetching version for {xml_url}: {e}")
                   return None
 
-          # Read local XML and strip custom prefix for comparison
+          # Read local XML and get the exact raw version
           def get_local_version_and_metadata(addon_id):
               local_path = os.path.join(REPO_DIR, addon_id, "addon.xml")
               if not os.path.exists(local_path):
@@ -180,10 +180,8 @@ jobs:
               try:
                   tree = ET.parse(local_path)
                   root = tree.getroot()
-                  version = root.get("version")
-                  if version and version.startswith("fordy-"):
-                      version = version.replace("fordy-", "", 1)
-                  return version, root 
+                  raw_version = root.get("version")
+                  return raw_version, root 
               except:
                   return None, None
 
@@ -193,11 +191,15 @@ jobs:
               print(f"Checking {addon_id}...")
               
               remote_ver = get_remote_version(data["xml_url"])
-              local_ver, local_xml_root = get_local_version_and_metadata(addon_id)
+              local_raw_ver, local_xml_root = get_local_version_and_metadata(addon_id)
 
               if not remote_ver:
                   print(f"Skipping {addon_id}: Could not get remote version.")
                   continue
+
+              # Bestimme den korrekten Prefix basierend auf der ID
+              expected_prefix = "fordy-" if (not addon_id.startswith("script.module.") or addon_id == "script.module.xstreamscraper") else ""
+              expected_version = f"{expected_prefix}{remote_ver}"
 
               needs_update = False
               is_clean_install = CLEAN_ALL or (addon_id in CLEAN_SPECIFIC)
@@ -205,12 +207,13 @@ jobs:
               if is_clean_install:
                   needs_update = True
                   print("Clean install requested.")
-              elif local_ver != remote_ver:
-                  needs_update = True
-                  print(f"Update found: {local_ver} -> {remote_ver}")
-              elif local_ver is None:
+              elif local_raw_ver is None:
                   needs_update = True
                   print("Addon not found locally. Installing.")
+              elif local_raw_ver != expected_version:
+                  # Schlägt auch an, wenn fordy- Prefix da ist, aber nicht da sein sollte (und umgekehrt)
+                  needs_update = True
+                  print(f"Update or prefix fix found: {local_raw_ver} -> {expected_version}")
               else:
                   print("Up to date.")
 
@@ -293,14 +296,14 @@ jobs:
                       with open(dest_path, 'wb') as f:
                           f.write(content)
 
-                  # Inject custom attributes and force prefix version
+                  # Inject custom attributes and force determined version
                   new_xml_path = os.path.join(target_dir, "addon.xml")
                   if os.path.exists(new_xml_path):
                       try:
                           tree = ET.parse(new_xml_path)
                           root = tree.getroot()
                           
-                          root.set("version", f"fordy-{remote_ver}")
+                          root.set("version", expected_version)
                           
                           if 'name' in custom_metadata and custom_metadata['name']:
                               root.set("name", custom_metadata['name'])
