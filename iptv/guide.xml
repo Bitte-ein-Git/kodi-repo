@@ -3012,198 +3012,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20260319132757 +0000" stop="20260319135847 +0000" channel="Red Bull TV.en"><title lang="en">Reel Rock</title>
-<sub-title lang="en">Black Pearl </sub-title>
-<desc lang="en">At 42, climber Chris Sharma takes on his toughest challenge with the first ascent of Black Pearl in Mallorca, pushing the limits of deep water soloing in this test of skill, strength and resilience.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/reel-rock-s10-e5</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:bf4e2344-a9ee-4211-94ad-bd23ad589928</episode-num>
-<episode-num system="xmltv_ns">9.4.0</episode-num>
-<episode-num system="original-air-date">2025-01-04 23:23:36</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2025</date></programme>
-  <programme start="20260319135847 +0000" stop="20260319141750 +0000" channel="Red Bull TV.en"><title lang="en">Reel Rock</title>
-<sub-title lang="en">The puzzle</sub-title>
-<desc lang="en">Brette Harrington takes on an unfinished route on the remote Chinese Puzzle Wall, completing a climb started by her late partner, Marc-André LeClerc, in a heartfelt tribute to his legacy.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/reel-rock-s10-e6</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:8689e95f-7bdb-4b9c-8d9e-9850bd66f827</episode-num>
-<episode-num system="xmltv_ns">9.5.0</episode-num>
-<episode-num system="original-air-date">2025-01-04 23:54:26</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2025</date></programme>
-  <programme start="20260319141750 +0000" stop="20260319143354 +0000" channel="Red Bull TV.en"><title lang="en">Reel Rock</title>
-<sub-title lang="en">Charles at large</sub-title>
-<desc lang="en">Barefoot bouldering master Charles Albert conquers his toughest problem yet, L'Ombre du Voyageur – an impressive roof crack with complex, challenging movements that showcase his unique style.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/reel-rock-s10-e7</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:111bc910-9b89-4ed1-be39-aa2c2d3dd473</episode-num>
-<episode-num system="xmltv_ns">9.6.0</episode-num>
-<episode-num system="original-air-date">2025-01-05 00:13:29</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2025</date></programme>
-  <programme start="20260319143354 +0000" stop="20260319150300 +0000" channel="Red Bull TV.en"><title lang="en">Beyond the ROX</title>
-<sub-title lang="en">Game-changers: Jake Dearden and the women’s rise</sub-title>
-<desc lang="en">The pressure has peaked for Jake Dearden as he qualifies for the World Final, new competitors challenge the veterans, and the growth of the women’s field proves expert coaching can change the game.</desc>
-<category lang="en">Fitness Training</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:d4e02f1b-8d4e-4bab-8d1e-123a77e3338e/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/beyond-the-rox-s1-e3</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:d005b930-5a74-4679-a39e-805e4dcfc932</episode-num>
-<episode-num system="xmltv_ns">0.2.0</episode-num>
-<episode-num system="original-air-date">2025-12-19 19:53:40</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:d4e02f1b-8d4e-4bab-8d1e-123a77e3338e</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2025</date></programme>
-  <programme start="20260319150300 +0000" stop="20260319153230 +0000" channel="Red Bull TV.en"><title lang="en">Beyond the ROX</title>
-<sub-title lang="en">Unfiltered moments: high stakes and high emotions </sub-title>
-<desc lang="en">The mix of joy and anxiety fuelling athletes is mirrored by their loved ones, rivalries intensify and a wildcard competitor shakes things up, while Lucy Procter takes her spot in the Elite 15.</desc>
-<category lang="en">Fitness Training</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:d4e02f1b-8d4e-4bab-8d1e-123a77e3338e/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/beyond-the-rox-s1-e4</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:513a6172-b1c6-4dd4-a21c-e3d7634a01fa</episode-num>
-<episode-num system="xmltv_ns">0.3.0</episode-num>
-<episode-num system="original-air-date">2025-12-19 20:22:09</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:d4e02f1b-8d4e-4bab-8d1e-123a77e3338e</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2025</date></programme>
-  <programme start="20260319153230 +0000" stop="20260319160731 +0000" channel="Red Bull TV.en"><title lang="en">Beyond the ROX</title>
-<sub-title lang="en">Ambitions realised: the rookie vs the legends</sub-title>
-<desc lang="en">After years of hard work and dedicated training, Jake Dearden finally reaches the Elite 15 race. How will the rookie stack up against the world's best in the 2024/25 season?</desc>
-<category lang="en">Fitness Training</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:d4e02f1b-8d4e-4bab-8d1e-123a77e3338e/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/beyond-the-rox-s1-e5</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:70a3fd36-20cd-452a-bf03-a6045436c3e9</episode-num>
-<episode-num system="xmltv_ns">0.4.0</episode-num>
-<episode-num system="original-air-date">2025-12-19 20:51:40</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:d4e02f1b-8d4e-4bab-8d1e-123a77e3338e</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2025</date></programme>
-  <programme start="20260319160731 +0000" stop="20260319174413 +0000" channel="Red Bull TV.en"><title lang="en">Born to Fly</title>
-<sub-title lang="en">Mondo Duplantis's journey to pole vault sensation</sub-title>
-<desc lang="en">From child prodigy to a world great, Mondo Duplantis's journey to pole vault legend wasn't without challenges. His intimate story explores the unrelenting drive that propelled him to new heights.</desc>
-<category lang="en">Pole Vault</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:9e2aaabc-cb48-4bb6-ab48-05b24bcce014/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/born-to-fly</url>
-<episode-num system="redbull.com">episode/rrn:content:films:9e2aaabc-cb48-4bb6-ab48-05b24bcce014</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260319174413 +0000" stop="20260319180952 +0000" channel="Red Bull TV.en"><title lang="en">The Next Centimeter </title>
-<sub-title lang="en">Pole vaulter Armand ‘Mondo’ Duplantis chases new records</sub-title>
-<desc lang="en">By 24, he's already become an eight-time record breaker. Sheer grit has made Armand ‘Mondo’ Duplantis one of the century’s most extraordinary athletes – but can he continue to raise the bar one centimetre at a time?</desc>
-<category lang="en">Athletics</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:56985f40-247e-42c3-9152-317678364135/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/the-next-centimeter</url>
-<episode-num system="redbull.com">episode/rrn:content:films:56985f40-247e-42c3-9152-317678364135</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260319180952 +0000" stop="20260319183106 +0000" channel="Red Bull TV.en"><title lang="en">Reel Rock</title>
-<sub-title lang="en">The best things in life are free</sub-title>
-<desc lang="en">At just 18, Will Moss keeps the ‘Gunks’, on the map as a destination for hard trad climbing with his groundbreaking first ascent of one of the Northeast USA’s most legendary cliffs.</desc>
-<category lang="en">Climbing</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:3fc1c2a3-902c-403b-abf2-02aa21404b24/reel-rock-s11-e3</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:3fc1c2a3-902c-403b-abf2-02aa21404b24</episode-num>
-<episode-num system="xmltv_ns">10.2.0</episode-num>
-<episode-num system="original-air-date">2026-03-04 09:06:37</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260319183106 +0000" stop="20260319184834 +0000" channel="Red Bull TV.en"><title lang="en">Reel Rock</title>
-<sub-title lang="en">Riders on the storm – part 2</sub-title>
-<desc lang="en">The Belgian big-wallers are forced to ride out a raging storm and deal with frozen feet, ice-covered crux pitches and a few inner demons on their 18-day quest to reach the summit.</desc>
-<category lang="en">Climbing</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:d8ccce96-a688-4dd8-ac4d-c3e72dfb1fd4/reel-rock-s11-e5</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:d8ccce96-a688-4dd8-ac4d-c3e72dfb1fd4</episode-num>
-<episode-num system="xmltv_ns">10.4.0</episode-num>
-<episode-num system="original-air-date">2026-02-18 16:48:41</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260319184834 +0000" stop="20260319190659 +0000" channel="Red Bull TV.en"><title lang="en">Reel Rock</title>
-<sub-title lang="en">Riders on the storm – part 1</sub-title>
-<desc lang="en">Siebe Vanhee enlists his childhood heroes, Sean Villanueva O'Driscoll and Nico Favresse, to attempt the first free ascent of a legendary alpine big wall in Patagonia, Argentina.</desc>
-<category lang="en">Climbing</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:372aaa27-1bb7-4861-8d71-7c373b5f95e3/reel-rock-s11-e4</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:372aaa27-1bb7-4861-8d71-7c373b5f95e3</episode-num>
-<episode-num system="xmltv_ns">10.3.0</episode-num>
-<episode-num system="original-air-date">2026-03-02 18:40:44</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260319190659 +0000" stop="20260319193331 +0000" channel="Red Bull TV.en"><title lang="en">Reel Rock</title>
-<sub-title lang="en">Stumped</sub-title>
-<desc lang="en">Maureen Beck may have been born missing her lower left arm, but that hasn’t stopped her from going hard. She’s not here to be your inspiration, she’s here to conquer overhanging boulders.</desc>
-<category lang="en">Climbing</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:de9735b8-f862-4ed0-814c-b1e5be3b4091/reel-rock-s11-e6</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:de9735b8-f862-4ed0-814c-b1e5be3b4091</episode-num>
-<episode-num system="xmltv_ns">10.5.0</episode-num>
-<episode-num system="original-air-date">2026-03-03 00:11:13</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260319193331 +0000" stop="20260319195434 +0000" channel="Red Bull TV.en"><title lang="en">Reel Rock</title>
-<sub-title lang="en">Sufferfest – below zero</sub-title>
-<desc lang="en">Join Alex Honnold and Cedar Wright in one of the coldest and most remote places on Earth: Antarctica. No strangers to sufferfests, this duo climb a series of first ascents on massive granite towers.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/reel-rock-s11-e2</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:1fd0318a-d42e-49e5-8ad0-699325b30e5f</episode-num>
-<episode-num system="xmltv_ns">10.1.0</episode-num>
-<episode-num system="original-air-date">2026-02-17 01:04:26</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260319195434 +0000" stop="20260319201643 +0000" channel="Red Bull TV.en"><title lang="en">Crossing Tasmania</title>
-<sub-title lang="en">Payson McElveen’s latest expedition ride</sub-title>
-<desc lang="en">MTB rider Payson McElveen goes on an adventure in Tasmania, crossing Australia with a fresh mindset, free from racing pressure.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:films:66782a9e-53f5-4a13-b401-de9a15bd5a5b/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/crossing-tasmania</url>
-<episode-num system="redbull.com">episode/rrn:content:films:66782a9e-53f5-4a13-b401-de9a15bd5a5b</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260319201643 +0000" stop="20260319203924 +0000" channel="Red Bull TV.en"><title lang="en">The Road Back: Brook MacDonald</title>
-<sub-title lang="en">From crash to comeback</sub-title>
-<desc lang="en">Witness the recovery of top New Zealand mountain biker Brook MacDonald after a devastating accident jeopardised his chances of competing again.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:films:7da8b6ac-be36-4235-b1f9-896bb9e3e308/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/the-road-back-brook-macdonald</url>
-<episode-num system="redbull.com">episode/rrn:content:films:7da8b6ac-be36-4235-b1f9-896bb9e3e308</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
   <programme start="20260319203924 +0000" stop="20260319205722 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Rampage – extra </title>
 <sub-title lang="en">Women of freeride part 3 – making history</sub-title>
 <desc lang="en">Experience an emotional journey and historic debut as women freeriders gear up for Red Bull Rampage. Witness their challenges, triumphs, and the fierce competition as they push the limits of freeride.</desc>
@@ -3817,6 +3625,250 @@
 <value>NR</value>
 </rating>
 <date>2026</date></programme>
+  <programme start="20260320154850 +0000" stop="20260320160716 +0000" channel="Red Bull TV.en"><title lang="en">Reel Rock</title>
+<sub-title lang="en">Riders on the storm – part 1</sub-title>
+<desc lang="en">Siebe Vanhee enlists his childhood heroes, Sean Villanueva O'Driscoll and Nico Favresse, to attempt the first free ascent of a legendary alpine big wall in Patagonia, Argentina.</desc>
+<category lang="en">Climbing</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:372aaa27-1bb7-4861-8d71-7c373b5f95e3/reel-rock-s11-e4</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:372aaa27-1bb7-4861-8d71-7c373b5f95e3</episode-num>
+<episode-num system="xmltv_ns">10.3.0</episode-num>
+<episode-num system="original-air-date">2026-03-02 18:40:44</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260320160716 +0000" stop="20260320163348 +0000" channel="Red Bull TV.en"><title lang="en">Reel Rock</title>
+<sub-title lang="en">Stumped</sub-title>
+<desc lang="en">Maureen Beck may have been born missing her lower left arm, but that hasn’t stopped her from going hard. She’s not here to be your inspiration, she’s here to conquer overhanging boulders.</desc>
+<category lang="en">Climbing</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:de9735b8-f862-4ed0-814c-b1e5be3b4091/reel-rock-s11-e6</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:de9735b8-f862-4ed0-814c-b1e5be3b4091</episode-num>
+<episode-num system="xmltv_ns">10.5.0</episode-num>
+<episode-num system="original-air-date">2026-03-03 00:11:13</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260320163348 +0000" stop="20260320165451 +0000" channel="Red Bull TV.en"><title lang="en">Reel Rock</title>
+<sub-title lang="en">Sufferfest – below zero</sub-title>
+<desc lang="en">Join Alex Honnold and Cedar Wright in one of the coldest and most remote places on Earth: Antarctica. No strangers to sufferfests, this duo climb a series of first ascents on massive granite towers.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/reel-rock-s11-e2</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:1fd0318a-d42e-49e5-8ad0-699325b30e5f</episode-num>
+<episode-num system="xmltv_ns">10.1.0</episode-num>
+<episode-num system="original-air-date">2026-02-17 01:04:26</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260320165451 +0000" stop="20260320171700 +0000" channel="Red Bull TV.en"><title lang="en">Crossing Tasmania</title>
+<sub-title lang="en">Payson McElveen’s latest expedition ride</sub-title>
+<desc lang="en">MTB rider Payson McElveen goes on an adventure in Tasmania, crossing Australia with a fresh mindset, free from racing pressure.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:films:66782a9e-53f5-4a13-b401-de9a15bd5a5b/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/crossing-tasmania</url>
+<episode-num system="redbull.com">episode/rrn:content:films:66782a9e-53f5-4a13-b401-de9a15bd5a5b</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260320171700 +0000" stop="20260320173941 +0000" channel="Red Bull TV.en"><title lang="en">The Road Back: Brook MacDonald</title>
+<sub-title lang="en">From crash to comeback</sub-title>
+<desc lang="en">Witness the recovery of top New Zealand mountain biker Brook MacDonald after a devastating accident jeopardised his chances of competing again.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:films:7da8b6ac-be36-4235-b1f9-896bb9e3e308/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/the-road-back-brook-macdonald</url>
+<episode-num system="redbull.com">episode/rrn:content:films:7da8b6ac-be36-4235-b1f9-896bb9e3e308</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260320173941 +0000" stop="20260320175739 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Rampage – extra </title>
+<sub-title lang="en">Women of freeride part 3 – making history</sub-title>
+<desc lang="en">Experience an emotional journey and historic debut as women freeriders gear up for Red Bull Rampage. Witness their challenges, triumphs, and the fierce competition as they push the limits of freeride.</desc>
+<category lang="en">Mountain Bike Freeride</category>
+<icon src="https://resources.redbull.tv/rrn:content:videos:07e352cf-d97f-4d21-8e67-45dca14d0f9c/rbtv_display_art_portrait"/>
+<url>https://www.redbull.com/int-en/videos/red-bull-rampage-extra-women-of-freeride-making-history</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:07e352cf-d97f-4d21-8e67-45dca14d0f9c</episode-num>
+<episode-num system="original-air-date">2026-03-18 15:35:33</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260320175739 +0000" stop="20260320182616 +0000" channel="Red Bull TV.en"><title lang="en">Shapes in the City</title>
+<sub-title lang="en">A surrealist BMX photo project comes to life</sub-title>
+<desc lang="en">A behind-the-scenes look at the coming to life of a magical BMX project. Meet South African rider Murray Loubser and get a no holds barred look at the creative team that brought this project to life.</desc>
+<category lang="en">Bmx</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:3ea72ea3-163e-4609-af2d-4fac44c52a5b/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/shapes-in-the-city</url>
+<episode-num system="redbull.com">episode/rrn:content:films:3ea72ea3-163e-4609-af2d-4fac44c52a5b</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260320182616 +0000" stop="20260320184855 +0000" channel="Red Bull TV.en"><title lang="en">The Reinvention of Tarek Rasouli</title>
+<sub-title lang="en">Europe's most influential bike manager</sub-title>
+<desc lang="en">Tarek Rasouli was one of the best professional BMX and mountain bike riders in the world when a life-changing accident in 2002 ended his biking career. But it also marked the start of a new future.</desc>
+<category lang="en">Bmx</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:59b36289-5736-4a8c-8533-44ffe61c349d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/the-reinvention-of-tarek-rasouli</url>
+<episode-num system="redbull.com">episode/rrn:content:films:59b36289-5736-4a8c-8533-44ffe61c349d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260320184855 +0000" stop="20260320191055 +0000" channel="Red Bull TV.en"><title lang="en">Daniel 'Chucky' Sanders: Seeing Double</title>
+<sub-title lang="en">Seeking a Dakar repeat title and balanced life</sub-title>
+<desc lang="en">An apple orchard is a far cry from Dakar’s brutal deserts, but Daniel ‘Chucky’ Sanders is on a mission to win back-to-back Dakar Rally titles and to maintain balance in life.</desc>
+<category lang="en">Rally</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:dad7b50c-828a-44b2-b0da-9beb90b296c0/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/daniel-chucky-sanders-seeing-double</url>
+<episode-num system="redbull.com">episode/rrn:content:films:dad7b50c-828a-44b2-b0da-9beb90b296c0</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260320191055 +0000" stop="20260320195235 +0000" channel="Red Bull TV.en"><title lang="en">More Than Machine</title>
+<sub-title lang="en">Now or never</sub-title>
+<desc lang="en">Four-time WRC world title runner-up Elfyn Evans chases his first title as the season shifts from Sweden’s snow to Kenya’s savannahs, and Toyota team-mate Takamoto Katsuta threatens that maiden crown.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:c7cc0e54-a96b-48e6-bb4b-64ed56bb9ad8/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/more-than-machine-s2-e2</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:02709ee6-12b1-4759-aa27-f5865dd7d147</episode-num>
+<episode-num system="xmltv_ns">0.1.0</episode-num>
+<episode-num system="original-air-date">2026-02-24 12:19:46</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:c7cc0e54-a96b-48e6-bb4b-64ed56bb9ad8</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260320195235 +0000" stop="20260320202827 +0000" channel="Red Bull TV.en"><title lang="en">More Than Machine</title>
+<sub-title lang="en">Defend and attack</sub-title>
+<desc lang="en">The 2025 WRC blasts off at Rallye Monte-Carlo. Champ Thierry Neuville aims to prove his title was no fluke. With Ogier and a hungry new team-mate, Fourmaux, the real battle may be inside his own team.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:c7cc0e54-a96b-48e6-bb4b-64ed56bb9ad8/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/more-than-machine-s2-e1</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:bd19ee05-58fc-41b5-8648-b5cfef42c449</episode-num>
+<episode-num system="xmltv_ns">0.0.0</episode-num>
+<episode-num system="original-air-date">2026-02-24 11:44:30</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:c7cc0e54-a96b-48e6-bb4b-64ed56bb9ad8</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260320202827 +0000" stop="20260320204039 +0000" channel="Red Bull TV.en"><title lang="en">Drift Queen</title>
+<sub-title lang="en">Track training in Ireland</sub-title>
+<desc lang="en">Queen B heads to Ireland to team up with reigning Formula D champion James Deane for some serious track training. The time crunch starts to weigh on her and she gives it everything she has.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:1baca8be-771f-5044-9888-b136d8c94002/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/drift-queen-s2-e4</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:5dd97343-50c5-410e-a8ff-501fbad4f5ef</episode-num>
+<episode-num system="xmltv_ns">1.3.0</episode-num>
+<episode-num system="original-air-date">2026-03-17 21:02:10</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:1baca8be-771f-5044-9888-b136d8c94002</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260320204039 +0000" stop="20260320205326 +0000" channel="Red Bull TV.en"><title lang="en">Drift Queen</title>
+<sub-title lang="en">It's tandem time</sub-title>
+<desc lang="en">Queen B learns the tricks to chasing and leading in a drift competition with the help of 2017 British Drift Champion, Matt Carter.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:1baca8be-771f-5044-9888-b136d8c94002/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/drift-queen-s2-e7</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:57a83de7-8c74-42dc-ad44-7234e1edb4f2</episode-num>
+<episode-num system="xmltv_ns">1.6.0</episode-num>
+<episode-num system="original-air-date">2026-03-17 21:14:23</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:1baca8be-771f-5044-9888-b136d8c94002</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260320205326 +0000" stop="20260320210352 +0000" channel="Red Bull TV.en"><title lang="en">Drift Queen</title>
+<sub-title lang="en">Hand brake 101</sub-title>
+<desc lang="en">Queen B is back in Garage D getting her drift car competition-ready. As new gadgets are added to the car, she finds herself having to learn new tricks.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:1baca8be-771f-5044-9888-b136d8c94002/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/drift-queen-s2-e2</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:72c43f44-d0fa-4e68-8478-89acbafae091</episode-num>
+<episode-num system="xmltv_ns">1.1.0</episode-num>
+<episode-num system="original-air-date">2026-03-17 21:27:09</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:1baca8be-771f-5044-9888-b136d8c94002</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260320210352 +0000" stop="20260320211911 +0000" channel="Red Bull TV.en"><title lang="en">Drift Queen</title>
+<sub-title lang="en">Up for the DriftCup</sub-title>
+<desc lang="en">After some last-minute finishing touches in the custom shop, Queen B and crew head to Scotland for her first-ever drifting competition.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:1baca8be-771f-5044-9888-b136d8c94002/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/drift-queen-s2-e8</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:e777c3a0-6116-444a-94c6-b1e513f11a7f</episode-num>
+<episode-num system="xmltv_ns">1.7.0</episode-num>
+<episode-num system="original-air-date">2026-03-17 21:37:35</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:1baca8be-771f-5044-9888-b136d8c94002</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260320211911 +0000" stop="20260320214549 +0000" channel="Red Bull TV.en"><title lang="en">ABC of...</title>
+<sub-title lang="en">ABC of… Formula One</sub-title>
+<desc lang="en">Find out all you need to know about Formula One racing with facts and figures, as well as lessons in the terminology, disciplines, history, heroes and drama of the international motorsport.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:6f25351b-f58a-5738-abee-3c43ecf4c5ac/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/abc-of-formula-one-abc-of-s01-e08</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:56a6784f-0561-5376-80b1-a81239940851</episode-num>
+<episode-num system="xmltv_ns">0.7.0</episode-num>
+<episode-num system="original-air-date">2024-11-27 18:31:10</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:6f25351b-f58a-5738-abee-3c43ecf4c5ac</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2024</date></programme>
+  <programme start="20260320214549 +0000" stop="20260320215300 +0000" channel="Red Bull TV.en"><title lang="en">F1 drivers become life guards for the day</title>
+<sub-title lang="en">Formula One drivers race as Australian surf lifesavers</sub-title>
+<desc lang="en">Max Verstappen, Sergio Pérez, Daniel Ricciardo and Yuki Tsunoda went head-to-head in an Aussie surf lifesaver challenge – and raced the Can-Am Commanders down the Hampton beach in Melbourne.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:4fb17cac-7fa3-4315-a8e7-acbaef9ba24a/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/videos/f1-drivers-lifesaver-challenge</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:1a5de6c6-ebff-409b-8f3c-81cd12a9e66f</episode-num>
+<episode-num system="original-air-date">2024-04-20 20:19:15</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:4fb17cac-7fa3-4315-a8e7-acbaef9ba24a</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2024</date></programme>
+  <programme start="20260320215300 +0000" stop="20260320220124 +0000" channel="Red Bull TV.en"><title lang="en">Max, Checo, Yuki and Daniel take on Area 51</title>
+<sub-title lang="en">F1 drivers vs hovercraft </sub-title>
+<desc lang="en">Deep in the Las Vegas desert near Area 51, four F1 drivers put their speed to the test in hovercrafts. Watch Max Verstappen, Sergio Pérez, Daniel Ricciardo and Yuki Tsunoda in action.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:4fb17cac-7fa3-4315-a8e7-acbaef9ba24a/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/videos/f1-drivers-vs-hovercraft</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:9c7f93c2-9313-4874-b576-a80c886c997e</episode-num>
+<episode-num system="original-air-date">2024-03-03 01:26:53</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:4fb17cac-7fa3-4315-a8e7-acbaef9ba24a</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2024</date></programme>
+  <programme start="20260320220124 +0000" stop="20260320221210 +0000" channel="Red Bull TV.en"><title lang="en">Welcome to the fastest soapbox race on Earth</title>
+<sub-title lang="en">F1 drivers race soapboxes in Montreal</sub-title>
+<desc lang="en">Haystacks, home-made vehicles and crazy obstacles – it's Max Verstappen and Sergio Pérez of Red Bull Racing vs Racing Bulls' Yuki Tsunoda and Daniel Ricciardo in the soapbox race of the year!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:4fb17cac-7fa3-4315-a8e7-acbaef9ba24a/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/videos/f1-drivers-soapbox-race</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:cf50093c-c312-4ebc-baeb-dcfc5023de28</episode-num>
+<episode-num system="original-air-date">2025-02-23 01:07:31</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:4fb17cac-7fa3-4315-a8e7-acbaef9ba24a</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2025</date></programme>
+  <programme start="20260320221210 +0000" stop="20260320224359 +0000" channel="Red Bull TV.en"><title lang="en">In the Wings</title>
+<sub-title lang="en">Liam Lawson's journey to the F1 grid</sub-title>
+<desc lang="en">Thrust into the Formula One spotlight during a chaotic Dutch GP, driver Liam Lawson fights to prove himself while simultaneously contending for the Super Formula Japan titles.</desc>
+<category lang="en">Formula Racing</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:d93f503c-e8cd-4f01-86b9-3b6cb0844721/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/in-the-wings</url>
+<episode-num system="redbull.com">episode/rrn:content:films:d93f503c-e8cd-4f01-86b9-3b6cb0844721</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
   </channel>
