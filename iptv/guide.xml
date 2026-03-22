@@ -4887,66 +4887,6 @@
     <display-name>RTL Zwee</display-name>
     <icon src="https://iptv-epg.org/logos/Luxembourg/RTLZwee.lu.png"/>
   </channel>
-  <programme start="20260321051000 +0000" stop="20260321060000 +0000" channel="RTL.Zwee.lu"><title lang="en">At Home TV &amp; Luxauto TV</title>
-    <desc lang="en">At Home TV &amp; Luxauto TV.</desc>
-  </programme>
-  <programme start="20260321060000 +0000" stop="20260321070000 +0000" channel="RTL.Zwee.lu"><title lang="en">Rediffusioun vu Journal a Magazin</title>
-    <desc lang="en">Rediffusioun vu Journal a Magazin.</desc>
-  </programme>
-  <programme start="20260321070000 +0000" stop="20260321090000 +0000" channel="RTL.Zwee.lu"><title lang="en">At Home TV &amp; Luxauto TV</title>
-    <desc lang="en">At Home TV &amp; Luxauto TV.</desc>
-  </programme>
-  <programme start="20260321090000 +0000" stop="20260321120000 +0000" channel="RTL.Zwee.lu"><title lang="en">RTL Radio Web TV</title>
-    <desc lang="en">RTL Radio Web TV.</desc>
-  </programme>
-  <programme start="20260321120000 +0000" stop="20260321130000 +0000" channel="RTL.Zwee.lu"><title lang="en">At Home TV &amp; Luxauto TV</title>
-    <desc lang="en">At Home TV &amp; Luxauto TV.</desc>
-  </programme>
-  <programme start="20260321130000 +0000" stop="20260321150000 +0000" channel="RTL.Zwee.lu"><title lang="en">RTL Radio Web TV</title>
-    <desc lang="en">RTL Radio Web TV.</desc>
-  </programme>
-  <programme start="20260321150000 +0000" stop="20260321160000 +0000" channel="RTL.Zwee.lu"><title lang="en">At Home TV &amp; Luxauto TV</title>
-    <desc lang="en">At Home TV &amp; Luxauto TV.</desc>
-  </programme>
-  <programme start="20260321160000 +0000" stop="20260321173000 +0000" channel="RTL.Zwee.lu"><title lang="en">RTL Radio Web TV</title>
-    <desc lang="en">RTL Radio Web TV.</desc>
-  </programme>
-  <programme start="20260321173000 +0000" stop="20260321180000 +0000" channel="RTL.Zwee.lu"><title lang="en">Musekbox</title>
-    <desc lang="en">Musekbox.</desc>
-  </programme>
-  <programme start="20260321180000 +0000" stop="20260321183000 +0000" channel="RTL.Zwee.lu"><title lang="en">Passepartout</title>
-    <desc lang="en">Passepartout.</desc>
-  </programme>
-  <programme start="20260321183000 +0000" stop="20260321190000 +0000" channel="RTL.Zwee.lu"><title lang="en">De Journal</title>
-    <desc lang="en">De Journal.</desc>
-  </programme>
-  <programme start="20260321190000 +0000" stop="20260321203000 +0000" channel="RTL.Zwee.lu"><title lang="en">Passepartout</title>
-    <desc lang="en">Passepartout.</desc>
-  </programme>
-  <programme start="20260321203000 +0000" stop="20260321210000 +0000" channel="RTL.Zwee.lu"><title lang="en">De Journal</title>
-    <desc lang="en">De Journal.</desc>
-  </programme>
-  <programme start="20260321210000 +0000" stop="20260321213000 +0000" channel="RTL.Zwee.lu"><title lang="en">De Journal</title>
-    <desc lang="en">De Journal.</desc>
-  </programme>
-  <programme start="20260321213000 +0000" stop="20260321220000 +0000" channel="RTL.Zwee.lu"><title lang="en">De Journal</title>
-    <desc lang="en">De Journal.</desc>
-  </programme>
-  <programme start="20260321220000 +0000" stop="20260321223000 +0000" channel="RTL.Zwee.lu"><title lang="en">De Journal</title>
-    <desc lang="en">De Journal.</desc>
-  </programme>
-  <programme start="20260321223000 +0000" stop="20260321230000 +0000" channel="RTL.Zwee.lu"><title lang="en">De Journal</title>
-    <desc lang="en">De Journal.</desc>
-  </programme>
-  <programme start="20260321230000 +0000" stop="20260321233000 +0000" channel="RTL.Zwee.lu"><title lang="en">RTL Sport</title>
-    <desc lang="en">RTL Sport.</desc>
-  </programme>
-  <programme start="20260321233000 +0000" stop="20260322000000 +0000" channel="RTL.Zwee.lu"><title lang="en">De Journal</title>
-    <desc lang="en">De Journal.</desc>
-  </programme>
-  <programme start="20260322000000 +0000" stop="20260322061500 +0000" channel="RTL.Zwee.lu"><title lang="en">At Home TV &amp; Luxauto TV</title>
-    <desc lang="en">At Home TV &amp; Luxauto TV.</desc>
-  </programme>
   <programme start="20260322061500 +0000" stop="20260322081500 +0000" channel="RTL.Zwee.lu"><title lang="en">At Home TV &amp; Luxauto TV</title>
     <desc lang="en">At Home TV &amp; Luxauto TV.</desc>
   </programme>
@@ -5077,6 +5017,63 @@
     <desc lang="en">De Journal.</desc>
   </programme>
   <programme start="20260324000000 +0000" stop="20260324050000 +0000" channel="RTL.Zwee.lu"><title lang="en">At Home TV &amp; Luxauto TV</title>
+    <desc lang="en">At Home TV &amp; Luxauto TV.</desc>
+  </programme>
+  <programme start="20260324050000 +0000" stop="20260324060000 +0000" channel="RTL.Zwee.lu"><title lang="en">At Home TV &amp; Luxauto TV</title>
+    <desc lang="en">At Home TV &amp; Luxauto TV.</desc>
+  </programme>
+  <programme start="20260324060000 +0000" stop="20260324070000 +0000" channel="RTL.Zwee.lu"><title lang="en">Rediffusioun vu Journal a Magazin</title>
+    <desc lang="en">Rediffusioun vu Journal a Magazin.</desc>
+  </programme>
+  <programme start="20260324070000 +0000" stop="20260324090000 +0000" channel="RTL.Zwee.lu"><title lang="en">At Home TV &amp; Luxauto TV</title>
+    <desc lang="en">At Home TV &amp; Luxauto TV.</desc>
+  </programme>
+  <programme start="20260324090000 +0000" stop="20260324120000 +0000" channel="RTL.Zwee.lu"><title lang="en">RTL Radio Web TV</title>
+    <desc lang="en">RTL Radio Web TV.</desc>
+  </programme>
+  <programme start="20260324120000 +0000" stop="20260324130000 +0000" channel="RTL.Zwee.lu"><title lang="en">At Home TV &amp; Luxauto TV</title>
+    <desc lang="en">At Home TV &amp; Luxauto TV.</desc>
+  </programme>
+  <programme start="20260324130000 +0000" stop="20260324150000 +0000" channel="RTL.Zwee.lu"><title lang="en">RTL Radio Web TV</title>
+    <desc lang="en">RTL Radio Web TV.</desc>
+  </programme>
+  <programme start="20260324150000 +0000" stop="20260324160000 +0000" channel="RTL.Zwee.lu"><title lang="en">At Home TV &amp; Luxauto TV</title>
+    <desc lang="en">At Home TV &amp; Luxauto TV.</desc>
+  </programme>
+  <programme start="20260324160000 +0000" stop="20260324173000 +0000" channel="RTL.Zwee.lu"><title lang="en">RTL Radio Web TV</title>
+    <desc lang="en">RTL Radio Web TV.</desc>
+  </programme>
+  <programme start="20260324173000 +0000" stop="20260324175000 +0000" channel="RTL.Zwee.lu"><title lang="en">Musekbox</title>
+    <desc lang="en">Musekbox.</desc>
+  </programme>
+  <programme start="20260324175000 +0000" stop="20260324180000 +0000" channel="RTL.Zwee.lu"><title lang="en">KannaTiVi</title>
+    <desc lang="en">KannaTiVi.</desc>
+  </programme>
+  <programme start="20260324180000 +0000" stop="20260324180300 +0000" channel="RTL.Zwee.lu"><title lang="en">De Journal Newsflash</title>
+    <desc lang="en">De Journal Newsflash.</desc>
+  </programme>
+  <programme start="20260324180300 +0000" stop="20260324183000 +0000" channel="RTL.Zwee.lu"><title lang="en">De Magazin</title>
+    <desc lang="en">De Magazin.</desc>
+  </programme>
+  <programme start="20260324183000 +0000" stop="20260324190000 +0000" channel="RTL.Zwee.lu"><title lang="en">De Journal</title>
+    <desc lang="en">De Journal.</desc>
+  </programme>
+  <programme start="20260324190000 +0000" stop="20260324193000 +0000" channel="RTL.Zwee.lu"><title lang="en">De Journal</title>
+    <desc lang="en">De Journal.</desc>
+  </programme>
+  <programme start="20260324193000 +0000" stop="20260324223000 +0000" channel="RTL.Zwee.lu"><title lang="en">De Journal</title>
+    <desc lang="en">De Journal.</desc>
+  </programme>
+  <programme start="20260324223000 +0000" stop="20260324230000 +0000" channel="RTL.Zwee.lu"><title lang="en">De Journal</title>
+    <desc lang="en">De Journal.</desc>
+  </programme>
+  <programme start="20260324230000 +0000" stop="20260324233000 +0000" channel="RTL.Zwee.lu"><title lang="en">De Journal</title>
+    <desc lang="en">De Journal.</desc>
+  </programme>
+  <programme start="20260324233000 +0000" stop="20260325000000 +0000" channel="RTL.Zwee.lu"><title lang="en">De Journal</title>
+    <desc lang="en">De Journal.</desc>
+  </programme>
+  <programme start="20260325000000 +0000" stop="20260325050000 +0000" channel="RTL.Zwee.lu"><title lang="en">At Home TV &amp; Luxauto TV</title>
     <desc lang="en">At Home TV &amp; Luxauto TV.</desc>
   </programme>
 </tv>
