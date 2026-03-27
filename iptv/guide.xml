@@ -3112,182 +3112,7 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20260325142939 +0000" stop="20260325150455 +0000" channel="Red Bull TV.en"><title lang="en">More Than Machine</title>
-<sub-title lang="en">Defend and attack</sub-title>
-<desc lang="en">The 2025 WRC blasts off at Rallye Monte-Carlo. Champ Thierry Neuville aims to prove his title was no fluke. With Ogier and a hungry new team-mate, Fourmaux, the real battle may be inside his own team.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:c7cc0e54-a96b-48e6-bb4b-64ed56bb9ad8/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/more-than-machine-s2-e1</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:bd19ee05-58fc-41b5-8648-b5cfef42c449</episode-num>
-<episode-num system="xmltv_ns">0.0.0</episode-num>
-<episode-num system="original-air-date">2026-02-24 11:44:30</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:c7cc0e54-a96b-48e6-bb4b-64ed56bb9ad8</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260325150455 +0000" stop="20260325151739 +0000" channel="Red Bull TV.en"><title lang="en">Oracle Red Bull Racing 2024 Launch – extra </title>
-<sub-title lang="en">World’s fastest filming drone chases Max Verstappen</sub-title>
-<desc lang="en">Watch Formula One track action at Silverstone like never before. The fastest-ever filming FPV drone keeps up with Liam Lawson, David Coulthard and Max Verstappen as they reach speeds of over 300kph.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:videos:c63071b7-696b-43f8-bbc9-84cbe04225fb/rbtv_display_art_portrait"/>
-<url>https://www.redbull.com/int-en/videos/oracle-red-bull-racing-2024-launch-extra-drone-chases-max-verstappen</url>
-<episode-num system="redbull.com">episode/rrn:content:videos:c63071b7-696b-43f8-bbc9-84cbe04225fb</episode-num>
-<episode-num system="original-air-date">2024-03-04 03:59:15</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2024</date></programme>
-  <programme start="20260325151739 +0000" stop="20260325153641 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Racing Road Trips – extra</title>
-<sub-title lang="en">The making of David Coulthard's castle to castle road trip</sub-title>
-<desc lang="en">Join David Coulthard and the crew behind the scenes in the castles of Czech Republic and Slovakia to see how they created their exciting road-trip film.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:4fb17cac-7fa3-4315-a8e7-acbaef9ba24a/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/videos/behind-the-scenes-of-castle-to-castle</url>
-<episode-num system="redbull.com">episode/rrn:content:videos:343bbba0-7f94-4b0e-8434-9e1ccbf2d053</episode-num>
-<episode-num system="original-air-date">2026-03-17 23:45:07</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:4fb17cac-7fa3-4315-a8e7-acbaef9ba24a</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260325153641 +0000" stop="20260325155208 +0000" channel="Red Bull TV.en"><title lang="en"/>
-<sub-title lang="en">Program information unavailable at this time</sub-title>
-<desc lang="en"/>
-<icon src="https://resources.redbull.tv/unknown/rbtv_display_art_portrait"/>
-<url/>
-<episode-num system="redbull.com">episode/unknown</episode-num>
-<episode-num system="original-air-date">2023-04-02 18:04:08</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260325155208 +0000" stop="20260325155658 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Racing Road Trips</title>
-<sub-title lang="en">Max Verstappen and Alex Albon's Dutch road trip</sub-title>
-<desc lang="en">Max Verstappen shows Alex Albon highlights of his home country by racing with two Red Rull Racing cars through The Netherlands, from Port Rotterdam to Zandvoort.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:4fb17cac-7fa3-4315-a8e7-acbaef9ba24a/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/red-bull-racing-road-trips-s1-e3</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:0ed84cdf-ce16-42b2-b9b5-b39705c8dfee</episode-num>
-<episode-num system="xmltv_ns">0.2.0</episode-num>
-<episode-num system="original-air-date">2026-03-24 11:19:17</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:4fb17cac-7fa3-4315-a8e7-acbaef9ba24a</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260325155658 +0000" stop="20260325160741 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Racing Road Trips</title>
-<sub-title lang="en">F1 drivers cross the USA</sub-title>
-<desc lang="en">Enjoy the sights and sounds of America on an epic road trip. Daniel Ricciardo speeds down the tarmac in California, Utah and Nevada, and Max Verstappen has a blast in Colorado and Florida.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:4fb17cac-7fa3-4315-a8e7-acbaef9ba24a/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/red-bull-racing-road-trips-s1-e2</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:61dad575-62d1-422b-b33c-8c9b466f4287</episode-num>
-<episode-num system="xmltv_ns">0.1.0</episode-num>
-<episode-num system="original-air-date">2025-03-24 04:16:52</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:4fb17cac-7fa3-4315-a8e7-acbaef9ba24a</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2025</date></programme>
-  <programme start="20260325160741 +0000" stop="20260325163505 +0000" channel="Red Bull TV.en"><title lang="en">Chasing RB7</title>
-<sub-title lang="en">Formula One showrun in Johannesburg</sub-title>
-<desc lang="en">Motorsports content creators Kriya Gangiah and Matthew Kanniah go behind the scenes with Oracle Red Bull Racing in South Africa. The F1 showrun in the heart of Johannesburg wowed the 20k spectators.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:films:9dd514e6-6c3d-4605-a1e8-576ed34c2c08/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/chasing-rb7</url>
-<episode-num system="redbull.com">episode/rrn:content:films:9dd514e6-6c3d-4605-a1e8-576ed34c2c08</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260325163505 +0000" stop="20260325164132 +0000" channel="Red Bull TV.en"><title lang="en">Max and Yuki go off-road with mega trucks</title>
-<sub-title lang="en">Verstappen vs Tsunoda in mega trucks</sub-title>
-<desc lang="en">Two-time Formula One World Champion Max Verstappen and fellow F1 driver Yuki Tsunoda went head to head in mega trucks in an off-road race at an iron mine near the Red Bull Ring in Austria.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:videos:24c5a228-1453-4a40-9e17-dcd71a96d487/rbtv_display_art_portrait"/>
-<url>https://www.redbull.com/int-en/videos/verstappen-vs-tsunoda-mega-trucks-race</url>
-<episode-num system="redbull.com">episode/rrn:content:videos:24c5a228-1453-4a40-9e17-dcd71a96d487</episode-num>
-<episode-num system="original-air-date">2024-03-03 01:45:11</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2024</date></programme>
-  <programme start="20260325164132 +0000" stop="20260325165131 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Racing Road Trips: an eclectic mix of cars race on a custom track</title>
-<sub-title lang="en">Four-way battle: F1, drift, rallycross and truck vehicles face off</sub-title>
-<desc lang="en">What happened when Patrick Friesacher (F1), 'Mad' Mike Whiddett (drift), Scott Speed (rallycross) and Andrew Carlson (Pro4) raced four different vehicles on a custom-built track?</desc>
-<category lang="en">Rally</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:4fb17cac-7fa3-4315-a8e7-acbaef9ba24a/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/videos/ultimate-race-track-f1-vs-drift-vs-pro4-vs-rallycross</url>
-<episode-num system="redbull.com">episode/rrn:content:videos:104b3e83-31d8-4ae2-b487-033c93c5ce57</episode-num>
-<episode-num system="original-air-date">2025-03-24 04:34:16</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:4fb17cac-7fa3-4315-a8e7-acbaef9ba24a</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2025</date></programme>
-  <programme start="20260325165131 +0000" stop="20260325165706 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Racing Road Trips – extra</title>
-<sub-title lang="en">F1 drivers swamp race</sub-title>
-<desc lang="en">Joined by Supercross champion Jett Lawrence and skateboarder Zion Wright, Max Verstappen and Yuki Tsunoda traded their F1 cars for a 900HP, V8 swamp buggy ahead of the Miami Grand Prix.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:4fb17cac-7fa3-4315-a8e7-acbaef9ba24a/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/videos/miami-gp-swamp-buggy-racing</url>
-<episode-num system="redbull.com">episode/rrn:content:videos:16a05df0-4923-443d-a2fc-a2d1e7933f4f</episode-num>
-<episode-num system="original-air-date">2023-06-04 04:46:08</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:4fb17cac-7fa3-4315-a8e7-acbaef9ba24a</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260325165706 +0000" stop="20260325170930 +0000" channel="Red Bull TV.en"><title lang="en">The 7 Greatest Crashes</title>
-<sub-title lang="en">Red Bull Soapbox Race </sub-title>
-<desc lang="en">A race of pure fun and creativity entertains us with incredible costumes and brilliant design.</desc>
-<category lang="en">Soapbox Race</category>
-<icon src="https://resources.redbull.tv/rrn:content:videos:4b7659db-a618-4ca4-a682-748a14ceb498/rbtv_display_art_portrait"/>
-<url>https://www.redbull.com/int-en/videos/red-bull-soapbox-race-the-7-greatest-crashes</url>
-<episode-num system="redbull.com">episode/rrn:content:videos:4b7659db-a618-4ca4-a682-748a14ceb498</episode-num>
-<episode-num system="original-air-date">2025-02-23 02:02:45</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2025</date></programme>
-  <programme start="20260325170930 +0000" stop="20260325180935 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race: 50 Crowd Favourites</title>
-<sub-title lang="en">Mayhem, crashes and creativity</sub-title>
-<desc lang="en">Red Bull Soapbox Race: a hilarious race format in homemade motorless racecars hurtling down obstacle-laden courses. Laugh along with our edit of 50 of the favourite designs and moments from 2014-2025.</desc>
-<category lang="en">Soapbox Race</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:a81bbd9a-a95c-4c0f-84fe-3e6dfb38ddf4/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/red-bull-soapbox-race-50-crowd-favourites</url>
-<episode-num system="redbull.com">episode/rrn:content:films:a81bbd9a-a95c-4c0f-84fe-3e6dfb38ddf4</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260325180935 +0000" stop="20260325185748 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race: 50 Craziest Crashes</title>
-<sub-title lang="en">Mayhem, crashes and creativity </sub-title>
-<desc lang="en">Red Bull Soapbox Race: a hilarious race format in homemade motorless racecars hurtling down steep, obstacle-filled courses. Laugh along with our edit of 50 of the craziest crashes from 2015-2025.</desc>
-<category lang="en">Soapbox Race</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:318c3611-d308-4f2a-8985-9ed75c735e6c/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/red-bull-soapbox-race-50-craziest-crashes</url>
-<episode-num system="redbull.com">episode/rrn:content:films:318c3611-d308-4f2a-8985-9ed75c735e6c</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260325185748 +0000" stop="20260325195112 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race: 50 Fastest &amp; Fearless</title>
-<sub-title lang="en">Mayhem, crashes and creativity</sub-title>
-<desc lang="en">Red Bull Soapbox Race: a hilarious race format in homemade motorless racecars hurtling down steep, obstacle-filled courses. Laugh along with our edit of 50 of the fastest runs from 2014-2025.</desc>
-<category lang="en">Soapbox Race</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:fa34ae5e-a972-448a-988d-43db3becee78/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/red-bull-soapbox-race-50-fastest-and-fearless</url>
-<episode-num system="redbull.com">episode/rrn:content:films:fa34ae5e-a972-448a-988d-43db3becee78</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260325195112 +0000" stop="20260325202130 +0000" channel="Red Bull TV.en"><title lang="en">Factory Seconds</title>
-<sub-title lang="en">Outtakes from the Focus surf film</sub-title>
-<desc lang="en">Never let good footage go to waste. The talented Jason Weatherley edited together this cornucopious bouquet of outtakes from the Focus film, featuring Kelly Slater, Rob Machado and many more.</desc>
-<category lang="en">Surfing</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:904d61d8-8d07-4d72-b2ff-149d6f73b2f6/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/factory-seconds</url>
-<episode-num system="redbull.com">episode/rrn:content:films:904d61d8-8d07-4d72-b2ff-149d6f73b2f6</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260325202130 +0000" stop="20260325215341 +0000" channel="Red Bull TV.en"><title lang="en">Au Revoir</title>
+  <programme start="20260327144110 +0000" stop="20260327161321 +0000" channel="Red Bull TV.en"><title lang="en">Au Revoir</title>
 <sub-title lang="en">Raph Derome's wakeboarding career</sub-title>
 <desc lang="en">A competitive family legacy, a brotherly rivalry that fuelled his rise, and a last act on the water. Au Revoir is the wakeboarding ride of a lifetime as Raph Derome retires from the competitive sport.</desc>
 <category lang="en">Wakeboarding</category>
@@ -3298,7 +3123,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260325215341 +0000" stop="20260325224441 +0000" channel="Red Bull TV.en"><title lang="en">Shires</title>
+  <programme start="20260327161321 +0000" stop="20260327170421 +0000" channel="Red Bull TV.en"><title lang="en">Shires</title>
 <sub-title lang="en">What makes UK riding great? Here's the film that celebrates it all, from the landscapes to the volatile weather</sub-title>
 <desc lang="en">Filmed over two years and narrated by Rob Warner, Shires is a bicycle film encompassing everything that makes UK riding great – the riders, trails, landscapes and the volatile weather of the British isles.</desc>
 <icon src="https://resources.redbull.tv/rrn:content:films:7279994f-b8d3-428d-b25f-135db1914192/rbtv_cover_art_portrait"/>
@@ -3308,7 +3133,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260325224441 +0000" stop="20260325231612 +0000" channel="Red Bull TV.en"><title lang="en">The Search for Milliseconds: Jackson Goldstone</title>
+  <programme start="20260327170421 +0000" stop="20260327173552 +0000" channel="Red Bull TV.en"><title lang="en">The Search for Milliseconds: Jackson Goldstone</title>
 <sub-title lang="en">On the hunt for the championship</sub-title>
 <desc lang="en">Go inside downhill phenom Jackson Goldstone's high-stakes bid to become one of the youngest MTB riders ever to claim the UCI DH Elite overall title – from pre-season testing to risking all for a win.</desc>
 <category lang="en">Mountain Bike Downhill</category>
@@ -3319,7 +3144,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260325231612 +0000" stop="20260325233856 +0000" channel="Red Bull TV.en"><title lang="en">Paradigm</title>
+  <programme start="20260327173552 +0000" stop="20260327175836 +0000" channel="Red Bull TV.en"><title lang="en">Paradigm</title>
 <sub-title lang="en">Mountain biking taken to new heights</sub-title>
 <desc lang="en">From the precision of slopestyle to the massive airs of freeride and the raw speed of downhill, Thomas Genon, Szymon Godziek, Emil Johansson and Kade Edwards deliver raw MTB talent and nonstop action.</desc>
 <icon src="https://resources.redbull.tv/rrn:content:films:9e553057-9846-4dd7-bf7a-fb2ab8471f43/rbtv_cover_art_portrait"/>
@@ -3329,7 +3154,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260325233856 +0000" stop="20260326000546 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Cerro Abajo 2026</title>
+  <programme start="20260327175836 +0000" stop="20260327182526 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Cerro Abajo 2026</title>
 <sub-title lang="en">Red Bull Valparaíso Cerro Abajo highlights</sub-title>
 <desc lang="en">Relive the action as MTB riders from around the world took on the UNESCO World Heritage port city of Valparaíso for an epic, insane MTB race.</desc>
 <category lang="en">Mountain Bike Downhill</category>
@@ -3341,33 +3166,7 @@
 <value>NR</value>
 </rating>
 <date>2026</date></programme>
-  <programme start="20260326000546 +0000" stop="20260326001347 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
-<sub-title lang="en">2014's best runs</sub-title>
-<desc lang="en">These are the fearless teams who pushed their soapbox racers to the limits to smash the speed limits and sometimes the track markers in 2014's races.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-fast-and-fearless-e1</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:92104b5e-210a-4035-82ea-482019925ec0</episode-num>
-<episode-num system="xmltv_ns">0.0.0</episode-num>
-<episode-num system="original-air-date">2024-03-04 01:42:01</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2024</date></programme>
-  <programme start="20260326001347 +0000" stop="20260326002352 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
-<sub-title lang="en">2015's best crashes and smashes</sub-title>
-<desc lang="en">From a hall-of-fame driver bail in Holland to one of the worst soapbox designs to ever hit the track, 2015's races had some classic crashes.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-craziest-crashes-e2</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:3ab45909-7939-4f16-86b6-6cce13fa16ee</episode-num>
-<episode-num system="xmltv_ns">2.1.0</episode-num>
-<episode-num system="original-air-date">2023-04-23 12:36:09</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260326002352 +0000" stop="20260326005027 +0000" channel="Red Bull TV.en"><title lang="en">Greetings From</title>
+  <programme start="20260327182526 +0000" stop="20260327185200 +0000" channel="Red Bull TV.en"><title lang="en">Greetings From</title>
 <sub-title lang="en">South Florida</sub-title>
 <desc lang="en">The Sunshine State’s core skate scene is unique, and now generations of pro skaters are proud to call it home. Ask Jamie Foy, Zion Wright or Alex Sorgente – the South Florida spotlight is bright.</desc>
 <category lang="en">Skateboarding</category>
@@ -3381,7 +3180,7 @@
 <value>NR</value>
 </rating>
 <date>2025</date></programme>
-  <programme start="20260326005027 +0000" stop="20260326011057 +0000" channel="Red Bull TV.en"><title lang="en">Sandro Dias redefines the limits of skateboarding</title>
+  <programme start="20260327185200 +0000" stop="20260327191231 +0000" channel="Red Bull TV.en"><title lang="en">Sandro Dias redefines the limits of skateboarding</title>
 <sub-title lang="en">Red Bull Building Drop highlights</sub-title>
 <desc lang="en">Sandro Dias brings to life the urban legend of skating down a building shaped like a quarter pipe, and redefines the limits of skateboarding. Watch as he sets two new world records.</desc>
 <category lang="en">Skateboarding</category>
@@ -3393,7 +3192,7 @@
 <value>NR</value>
 </rating>
 <date>2025</date></programme>
-  <programme start="20260326011057 +0000" stop="20260326015526 +0000" channel="Red Bull TV.en"><title lang="en">Hallowed Ground </title>
+  <programme start="20260327191231 +0000" stop="20260327195700 +0000" channel="Red Bull TV.en"><title lang="en">Hallowed Ground </title>
 <sub-title lang="en">Discover skate spots favoured by the pros</sub-title>
 <desc lang="en">Hallowed Ground follow's Hurley team riders through their usual skating haunts to give us insight to their views of skateboarding.</desc>
 <category lang="en">Skateboarding</category>
@@ -3404,7 +3203,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260326015526 +0000" stop="20260326021149 +0000" channel="Red Bull TV.en"><title lang="en">Skate Tales</title>
+  <programme start="20260327195700 +0000" stop="20260327201323 +0000" channel="Red Bull TV.en"><title lang="en">Skate Tales</title>
 <sub-title lang="en">Milton Martinez – street legend born into skating</sub-title>
 <desc lang="en">Raised in a family immersed in skate culture, Milton Martinez rose to fame in Argentina. But to truly make his mark, he embarked on a US adventure. Skate Tales takes him back to where it all began.</desc>
 <icon src="https://resources.redbull.tv/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce/rbtv_cover_art_portrait"/>
@@ -3417,7 +3216,7 @@
 <value>NR</value>
 </rating>
 <date>2025</date></programme>
-  <programme start="20260326021149 +0000" stop="20260326023445 +0000" channel="Red Bull TV.en"><title lang="en">Skate Tales</title>
+  <programme start="20260327201323 +0000" stop="20260327203619 +0000" channel="Red Bull TV.en"><title lang="en">Skate Tales</title>
 <sub-title lang="en">Skate Tales: Detroit</sub-title>
 <desc lang="en">Even the huge physical and emotional blow of total sight loss didn't stop Dan Mancina from getting back on his skateboard. This is how he amazingly relearned to do what he loves.</desc>
 <icon src="https://resources.redbull.tv/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce/rbtv_cover_art_portrait"/>
@@ -3430,7 +3229,7 @@
 <value>NR</value>
 </rating>
 <date>2023</date></programme>
-  <programme start="20260326023445 +0000" stop="20260326030015 +0000" channel="Red Bull TV.en"><title lang="en">ABC of...</title>
+  <programme start="20260327203619 +0000" stop="20260327210149 +0000" channel="Red Bull TV.en"><title lang="en">ABC of...</title>
 <sub-title lang="en">ABC of... Climbing</sub-title>
 <desc lang="en">Join Sasha DiGiulian as she takes you on an expedition around the globe with some of the world's top climbers. Get to know the language, the equipment, the history, and so much more.</desc>
 <category lang="en">Climbing</category>
@@ -3444,7 +3243,7 @@
 <value>NR</value>
 </rating>
 <date>2023</date></programme>
-  <programme start="20260326030015 +0000" stop="20260326033142 +0000" channel="Red Bull TV.en"><title lang="en">Reel Rock</title>
+  <programme start="20260327210149 +0000" stop="20260327213316 +0000" channel="Red Bull TV.en"><title lang="en">Reel Rock</title>
 <sub-title lang="en">Black Pearl </sub-title>
 <desc lang="en">At 42, climber Chris Sharma takes on his toughest challenge with the first ascent of Black Pearl in Mallorca, pushing the limits of deep water soloing in this test of skill, strength and resilience.</desc>
 <icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait"/>
@@ -3457,7 +3256,7 @@
 <value>NR</value>
 </rating>
 <date>2025</date></programme>
-  <programme start="20260326033142 +0000" stop="20260326035045 +0000" channel="Red Bull TV.en"><title lang="en">Reel Rock</title>
+  <programme start="20260327213316 +0000" stop="20260327215218 +0000" channel="Red Bull TV.en"><title lang="en">Reel Rock</title>
 <sub-title lang="en">The puzzle</sub-title>
 <desc lang="en">Brette Harrington takes on an unfinished route on the remote Chinese Puzzle Wall, completing a climb started by her late partner, Marc-André LeClerc, in a heartfelt tribute to his legacy.</desc>
 <icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait"/>
@@ -3470,7 +3269,20 @@
 <value>NR</value>
 </rating>
 <date>2025</date></programme>
-  <programme start="20260326035045 +0000" stop="20260326042252 +0000" channel="Red Bull TV.en"><title lang="en">Reel Rock</title>
+  <programme start="20260327215218 +0000" stop="20260327220822 +0000" channel="Red Bull TV.en"><title lang="en">Reel Rock</title>
+<sub-title lang="en">Charles at large</sub-title>
+<desc lang="en">Barefoot bouldering master Charles Albert conquers his toughest problem yet, L'Ombre du Voyageur – an impressive roof crack with complex, challenging movements that showcase his unique style.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/reel-rock-s10-e7</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:111bc910-9b89-4ed1-be39-aa2c2d3dd473</episode-num>
+<episode-num system="xmltv_ns">9.6.0</episode-num>
+<episode-num system="original-air-date">2025-01-05 00:13:29</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2025</date></programme>
+  <programme start="20260327220822 +0000" stop="20260327224030 +0000" channel="Red Bull TV.en"><title lang="en">Reel Rock</title>
 <sub-title lang="en">Dropping Molly</sub-title>
 <desc lang="en">Join climber Molly Mitchell on her intense, years-long journey to complete a rare all-gear ascent of Crank-it in Boulder Canyon, a route known for its extreme difficulty and high risks.</desc>
 <icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait"/>
@@ -3483,7 +3295,7 @@
 <value>NR</value>
 </rating>
 <date>2025</date></programme>
-  <programme start="20260326042252 +0000" stop="20260326051741 +0000" channel="Red Bull TV.en"><title lang="en">The Turner Twins – double or nothing</title>
+  <programme start="20260327224030 +0000" stop="20260327233519 +0000" channel="Red Bull TV.en"><title lang="en">The Turner Twins – double or nothing</title>
 <sub-title lang="en">An adventure like no other </sub-title>
 <desc lang="en">Meet Hugo and Ross Turner, identical twins and professional adventurers on a mission to reach the world's nine poles of inaccessibility.</desc>
 <category lang="en">Athletics Various</category>
@@ -3494,7 +3306,18 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260326051741 +0000" stop="20260326060000 +0000" channel="Red Bull TV.en"><title lang="en">True to This</title>
+  <programme start="20260327233519 +0000" stop="20260328003026 +0000" channel="Red Bull TV.en"><title lang="en">Resilience</title>
+<sub-title lang="en">Triathlete Els Visser's story</sub-title>
+<desc lang="en">Follow Els Visser's journey from surviving a ship wreck to becoming a triathlon and Ironman athlete. description : How does surviving a ship wreck lead to someone becoming a successful triathlete? Learn about Els Visser's journey from medical student to sporting success via a life-threatening disaster at sea.</desc>
+<category lang="en">Triathlon</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:55603c14-a305-4657-9092-086fd7c34df0/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/resilience</url>
+<episode-num system="redbull.com">episode/rrn:content:films:55603c14-a305-4657-9092-086fd7c34df0</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260328003026 +0000" stop="20260328011111 +0000" channel="Red Bull TV.en"><title lang="en">True to This</title>
 <sub-title lang="en">Volcom's cultural journey of revolutionising board sports</sub-title>
 <desc lang="en">The first to combine surf, skate and snowboarding under one brand, explore Volcom's groundbreaking fusion of this trio of board sports in a cinematic journey celebrating rebellious style and attitude.</desc>
 <category lang="en">Surfing</category>
@@ -3505,7 +3328,19 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260326060000 +0000" stop="20260326063003 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Cliff Diving World Series 2025</title>
+  <programme start="20260328011111 +0000" stop="20260328013804 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Cliff Diving World Series 2025</title>
+<sub-title lang="en">The rise and fall of elite cliff divers</sub-title>
+<desc lang="en">Diving in Polignano a Mare means risking the ruthless waves of the rugged Italian coastline. ‪Morgane Herculano‬ chases her first permanent spot. Jonathan Paredes faces what could be his final season.</desc>
+<category lang="en">Cliff Diving</category>
+<icon src="https://resources.redbull.tv/rrn:content:videos:15806558-d5ac-44d9-9461-6d83bc137d6c/rbtv_display_art_portrait"/>
+<url>https://www.redbull.com/int-en/videos/red-bull-cliff-diving-world-series-2025-italy-morgane-herculano-jonathan-paredes</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:15806558-d5ac-44d9-9461-6d83bc137d6c</episode-num>
+<episode-num system="original-air-date">2025-12-02 03:11:29</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2025</date></programme>
+  <programme start="20260328013804 +0000" stop="20260328020808 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Cliff Diving World Series 2025</title>
 <sub-title lang="en">The two GOATs of cliff diving</sub-title>
 <desc lang="en">Against the centuries-old backdrop of Stari Most, we follow two of the greatest athletes cliff diving has ever seen: Gary Hunt and Rhiannan Iffland, who continue to redefine what greatness looks like.</desc>
 <category lang="en">Cliff Diving</category>
@@ -3517,7 +3352,7 @@
 <value>NR</value>
 </rating>
 <date>2025</date></programme>
-  <programme start="20260326063003 +0000" stop="20260326065417 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Cliff Diving World Series 2025</title>
+  <programme start="20260328020808 +0000" stop="20260328023222 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Cliff Diving World Series 2025</title>
 <sub-title lang="en">Cliff diving mistakes that cost you</sub-title>
 <desc lang="en">Set in Boston Harbor, we follow Romanian Constantin Popovici and American Kaylea Arnett as they head into their final battle of the year. Will they crack under pressure?</desc>
 <category lang="en">Cliff Diving</category>
@@ -3529,7 +3364,7 @@
 <value>NR</value>
 </rating>
 <date>2025</date></programme>
-  <programme start="20260326065417 +0000" stop="20260326072019 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Cliff Diving World Series 2025</title>
+  <programme start="20260328023222 +0000" stop="20260328025823 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Cliff Diving World Series 2025</title>
 <sub-title lang="en">Philippines cliffs push divers to the edge</sub-title>
 <desc lang="en">In El Nido’s raw beauty, ‪Molly Carlson and ‪Catalin Preda‬ face the ultimate test. With fear, injury and towering cliffs in the mix, the return to natural diving pushes them beyond their limits.</desc>
 <category lang="en">Cliff Diving</category>
@@ -3541,7 +3376,7 @@
 <value>NR</value>
 </rating>
 <date>2025</date></programme>
-  <programme start="20260326072019 +0000" stop="20260326075045 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Cliff Diving World Series 2024</title>
+  <programme start="20260328025823 +0000" stop="20260328032850 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Cliff Diving World Series 2024</title>
 <sub-title lang="en">Cliff conquest in Northern Ireland</sub-title>
 <desc lang="en">Cliff diving athletes and host Gracie Kramer marvel at Causeway's natural scenery, a brand-new spot boasting breathtaking cliffs that serve as the backdrop for the fourth stop of the 2024 Series.</desc>
 <category lang="en">Cliff Diving</category>
@@ -3553,7 +3388,7 @@
 <value>NR</value>
 </rating>
 <date>2024</date></programme>
-  <programme start="20260326075045 +0000" stop="20260326081645 +0000" channel="Red Bull TV.en"><title lang="en"/>
+  <programme start="20260328032850 +0000" stop="20260328035450 +0000" channel="Red Bull TV.en"><title lang="en"/>
 <sub-title lang="en">Program information unavailable at this time</sub-title>
 <desc lang="en"/>
 <icon src="https://resources.redbull.tv/unknown/rbtv_display_art_portrait"/>
@@ -3564,7 +3399,7 @@
 <value>NR</value>
 </rating>
 <date>2023</date></programme>
-  <programme start="20260326081645 +0000" stop="20260326084245 +0000" channel="Red Bull TV.en"><title lang="en">Pushing Progression</title>
+  <programme start="20260328035450 +0000" stop="20260328042050 +0000" channel="Red Bull TV.en"><title lang="en">Pushing Progression</title>
 <sub-title lang="en">Kiteboarding</sub-title>
 <desc lang="en">Explore the evolution of kiteboarding through the eyes of athletes like Robby Naish and see how events like Red Bull King of the Air and Red Bull Megaloop are pushing the progression of the sport.</desc>
 <category lang="en">Kitesurfing</category>
@@ -3578,7 +3413,7 @@
 <value>NR</value>
 </rating>
 <date>2023</date></programme>
-  <programme start="20260326084245 +0000" stop="20260326090921 +0000" channel="Red Bull TV.en"><title lang="en">Pushing Progression</title>
+  <programme start="20260328042050 +0000" stop="20260328044726 +0000" channel="Red Bull TV.en"><title lang="en">Pushing Progression</title>
 <sub-title lang="en">Freerunning</sub-title>
 <desc lang="en">Tony Hawk and influential figures like Jason Paul and Pasha Petkuns tell the story of competitive freerunning – and how the scene around it transcended the sport to establish Red Bull Art of Motion.</desc>
 <icon src="https://resources.redbull.tv/rrn:content:shows:0dcc398c-5268-4062-a405-a947cc6e75c6/rbtv_cover_art_portrait"/>
@@ -3591,7 +3426,7 @@
 <value>NR</value>
 </rating>
 <date>2023</date></programme>
-  <programme start="20260326090921 +0000" stop="20260326093521 +0000" channel="Red Bull TV.en"><title lang="en">Pushing Progression</title>
+  <programme start="20260328044726 +0000" stop="20260328051326 +0000" channel="Red Bull TV.en"><title lang="en">Pushing Progression</title>
 <sub-title lang="en">Freestyle football</sub-title>
 <desc lang="en">This is the story of freestyle football – and how the scene around it has transcended sport and established Red Bull Street Style as a competition that brings the world together.</desc>
 <category lang="en">Freestyle Soccer</category>
@@ -3605,7 +3440,7 @@
 <value>NR</value>
 </rating>
 <date>2023</date></programme>
-  <programme start="20260326093521 +0000" stop="20260326101427 +0000" channel="Red Bull TV.en"><title lang="en">More Than Machine</title>
+  <programme start="20260328051326 +0000" stop="20260328055232 +0000" channel="Red Bull TV.en"><title lang="en">More Than Machine</title>
 <sub-title lang="en">Resilience</sub-title>
 <desc lang="en">Can Latvian superstar Mārtiņš Sesks bounce back from his lost podium in 2024 to prove he belongs at rally sport's highest level?</desc>
 <icon src="https://resources.redbull.tv/rrn:content:shows:c7cc0e54-a96b-48e6-bb4b-64ed56bb9ad8/rbtv_cover_art_portrait"/>
@@ -3618,46 +3453,19 @@
 <value>NR</value>
 </rating>
 <date>2026</date></programme>
-  <programme start="20260326101427 +0000" stop="20260326105514 +0000" channel="Red Bull TV.en"><title lang="en">More Than Machine</title>
-<sub-title lang="en">Let the games begin</sub-title>
-<desc lang="en">Kalle Rovanperä delivers a shock announcement about his future that reverberates through the paddock. Meanwhile, ruthless battles for the Drivers' Championship take a dramatic turn in Central Europe.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:c7cc0e54-a96b-48e6-bb4b-64ed56bb9ad8/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/more-than-machine-s2-e6</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:a4765d3c-2b5d-4d8c-af16-ec187de6af33</episode-num>
-<episode-num system="xmltv_ns">0.5.0</episode-num>
-<episode-num system="original-air-date">2026-03-03 04:21:25</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:c7cc0e54-a96b-48e6-bb4b-64ed56bb9ad8</episode-num>
+  <programme start="20260328055232 +0000" stop="20260328060000 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Racing Road Trips – extra</title>
+<sub-title lang="en">F1 drivers swamp race</sub-title>
+<desc lang="en">Joined by Supercross champion Jett Lawrence and skateboarder Zion Wright, Max Verstappen and Yuki Tsunoda traded their F1 cars for a 900HP, V8 swamp buggy ahead of the Miami Grand Prix.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:4fb17cac-7fa3-4315-a8e7-acbaef9ba24a/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/videos/miami-gp-swamp-buggy-racing</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:16a05df0-4923-443d-a2fc-a2d1e7933f4f</episode-num>
+<episode-num system="original-air-date">2023-06-04 04:46:08</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:4fb17cac-7fa3-4315-a8e7-acbaef9ba24a</episode-num>
 <rating system="Red Bull TV">
 <value>NR</value>
 </rating>
-<date>2026</date></programme>
-  <programme start="20260326105514 +0000" stop="20260326113204 +0000" channel="Red Bull TV.en"><title lang="en">More Than Machine</title>
-<sub-title lang="en">Vanishing point</sub-title>
-<desc lang="en">The rivalry between drivers is intense, but it’s nothing compared to the rivalry between the teams. Hyundai’s Neuville and Toyota’s Ogier and Rovanperä remain in a desperate fight for supremacy.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:c7cc0e54-a96b-48e6-bb4b-64ed56bb9ad8/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/more-than-machine-s2-e3</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:12df21ee-6967-458b-b284-463437c650d4</episode-num>
-<episode-num system="xmltv_ns">0.2.0</episode-num>
-<episode-num system="original-air-date">2026-03-24 09:19:57</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:c7cc0e54-a96b-48e6-bb4b-64ed56bb9ad8</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260326113204 +0000" stop="20260326120720 +0000" channel="Red Bull TV.en"><title lang="en">More Than Machine</title>
-<sub-title lang="en">Defend and attack</sub-title>
-<desc lang="en">The 2025 WRC blasts off at Rallye Monte-Carlo. Champ Thierry Neuville aims to prove his title was no fluke. With Ogier and a hungry new team-mate, Fourmaux, the real battle may be inside his own team.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:c7cc0e54-a96b-48e6-bb4b-64ed56bb9ad8/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/more-than-machine-s2-e1</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:bd19ee05-58fc-41b5-8648-b5cfef42c449</episode-num>
-<episode-num system="xmltv_ns">0.0.0</episode-num>
-<episode-num system="original-air-date">2026-02-24 11:44:30</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:c7cc0e54-a96b-48e6-bb4b-64ed56bb9ad8</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260326120720 +0000" stop="20260326122005 +0000" channel="Red Bull TV.en"><title lang="en">Oracle Red Bull Racing 2024 Launch – extra </title>
+<date>2023</date></programme>
+  <programme start="20260328060000 +0000" stop="20260328061244 +0000" channel="Red Bull TV.en"><title lang="en">Oracle Red Bull Racing 2024 Launch – extra </title>
 <sub-title lang="en">World’s fastest filming drone chases Max Verstappen</sub-title>
 <desc lang="en">Watch Formula One track action at Silverstone like never before. The fastest-ever filming FPV drone keeps up with Liam Lawson, David Coulthard and Max Verstappen as they reach speeds of over 300kph.</desc>
 <icon src="https://resources.redbull.tv/rrn:content:videos:c63071b7-696b-43f8-bbc9-84cbe04225fb/rbtv_display_art_portrait"/>
@@ -3668,7 +3476,7 @@
 <value>NR</value>
 </rating>
 <date>2024</date></programme>
-  <programme start="20260326122005 +0000" stop="20260326123907 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Racing Road Trips – extra</title>
+  <programme start="20260328061244 +0000" stop="20260328063146 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Racing Road Trips – extra</title>
 <sub-title lang="en">The making of David Coulthard's castle to castle road trip</sub-title>
 <desc lang="en">Join David Coulthard and the crew behind the scenes in the castles of Czech Republic and Slovakia to see how they created their exciting road-trip film.</desc>
 <icon src="https://resources.redbull.tv/rrn:content:shows:4fb17cac-7fa3-4315-a8e7-acbaef9ba24a/rbtv_cover_art_portrait"/>
@@ -3680,7 +3488,7 @@
 <value>NR</value>
 </rating>
 <date>2026</date></programme>
-  <programme start="20260326123907 +0000" stop="20260326125434 +0000" channel="Red Bull TV.en"><title lang="en"/>
+  <programme start="20260328063146 +0000" stop="20260328064713 +0000" channel="Red Bull TV.en"><title lang="en"/>
 <sub-title lang="en">Program information unavailable at this time</sub-title>
 <desc lang="en"/>
 <icon src="https://resources.redbull.tv/unknown/rbtv_display_art_portrait"/>
@@ -3691,18 +3499,20 @@
 <value>NR</value>
 </rating>
 <date>2023</date></programme>
-  <programme start="20260326125434 +0000" stop="20260326125924 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Racing Formula One Team</title>
+  <programme start="20260328064713 +0000" stop="20260328065203 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Racing Road Trips</title>
 <sub-title lang="en">Max Verstappen and Alex Albon's Dutch road trip</sub-title>
-<desc lang="en">Max Verstappen shows Alex Albon some highlights of his home country by racing with two RBR cars through the Netherlands, from Port to Zandvoort.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:videos:57742bef-18b3-4b57-bdaa-190d03cfcec9/rbtv_display_art_portrait"/>
-<url>https://www.redbull.com/int-en/videos/dutch-road-trip-from-port-to-zandvoort</url>
-<episode-num system="redbull.com">episode/rrn:content:videos:57742bef-18b3-4b57-bdaa-190d03cfcec9</episode-num>
-<episode-num system="original-air-date">2026-03-26 04:52:08</episode-num>
+<desc lang="en">Max Verstappen shows Alex Albon highlights of his home country by racing with two Red Rull Racing cars through The Netherlands, from Port Rotterdam to Zandvoort.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:4fb17cac-7fa3-4315-a8e7-acbaef9ba24a/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/red-bull-racing-road-trips-s1-e3</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:0ed84cdf-ce16-42b2-b9b5-b39705c8dfee</episode-num>
+<episode-num system="xmltv_ns">0.2.0</episode-num>
+<episode-num system="original-air-date">2026-03-24 11:19:17</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:4fb17cac-7fa3-4315-a8e7-acbaef9ba24a</episode-num>
 <rating system="Red Bull TV">
 <value>NR</value>
 </rating>
 <date>2026</date></programme>
-  <programme start="20260326125924 +0000" stop="20260326131006 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Racing Road Trips</title>
+  <programme start="20260328065203 +0000" stop="20260328070245 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Racing Road Trips</title>
 <sub-title lang="en">F1 drivers cross the USA</sub-title>
 <desc lang="en">Enjoy the sights and sounds of America on an epic road trip. Daniel Ricciardo speeds down the tarmac in California, Utah and Nevada, and Max Verstappen has a blast in Colorado and Florida.</desc>
 <icon src="https://resources.redbull.tv/rrn:content:shows:4fb17cac-7fa3-4315-a8e7-acbaef9ba24a/rbtv_cover_art_portrait"/>
@@ -3715,7 +3525,7 @@
 <value>NR</value>
 </rating>
 <date>2025</date></programme>
-  <programme start="20260326131006 +0000" stop="20260326133730 +0000" channel="Red Bull TV.en"><title lang="en">Chasing RB7</title>
+  <programme start="20260328070245 +0000" stop="20260328073009 +0000" channel="Red Bull TV.en"><title lang="en">Chasing RB7</title>
 <sub-title lang="en">Formula One showrun in Johannesburg</sub-title>
 <desc lang="en">Motorsports content creators Kriya Gangiah and Matthew Kanniah go behind the scenes with Oracle Red Bull Racing in South Africa. The F1 showrun in the heart of Johannesburg wowed the 20k spectators.</desc>
 <icon src="https://resources.redbull.tv/rrn:content:films:9dd514e6-6c3d-4605-a1e8-576ed34c2c08/rbtv_cover_art_portrait"/>
@@ -3725,7 +3535,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260326133730 +0000" stop="20260326134357 +0000" channel="Red Bull TV.en"><title lang="en">Max and Yuki go off-road with mega trucks</title>
+  <programme start="20260328073009 +0000" stop="20260328073637 +0000" channel="Red Bull TV.en"><title lang="en">Max and Yuki go off-road with mega trucks</title>
 <sub-title lang="en">Verstappen vs Tsunoda in mega trucks</sub-title>
 <desc lang="en">Two-time Formula One World Champion Max Verstappen and fellow F1 driver Yuki Tsunoda went head to head in mega trucks in an off-road race at an iron mine near the Red Bull Ring in Austria.</desc>
 <icon src="https://resources.redbull.tv/rrn:content:videos:24c5a228-1453-4a40-9e17-dcd71a96d487/rbtv_display_art_portrait"/>
@@ -3736,7 +3546,7 @@
 <value>NR</value>
 </rating>
 <date>2024</date></programme>
-  <programme start="20260326134357 +0000" stop="20260326135357 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Racing Road Trips: an eclectic mix of cars race on a custom track</title>
+  <programme start="20260328073637 +0000" stop="20260328074636 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Racing Road Trips: an eclectic mix of cars race on a custom track</title>
 <sub-title lang="en">Four-way battle: F1, drift, rallycross and truck vehicles face off</sub-title>
 <desc lang="en">What happened when Patrick Friesacher (F1), 'Mad' Mike Whiddett (drift), Scott Speed (rallycross) and Andrew Carlson (Pro4) raced four different vehicles on a custom-built track?</desc>
 <category lang="en">Rally</category>
@@ -3749,7 +3559,7 @@
 <value>NR</value>
 </rating>
 <date>2025</date></programme>
-  <programme start="20260326135357 +0000" stop="20260326135931 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Racing Road Trips – extra</title>
+  <programme start="20260328074636 +0000" stop="20260328075211 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Racing Road Trips – extra</title>
 <sub-title lang="en">F1 drivers swamp race</sub-title>
 <desc lang="en">Joined by Supercross champion Jett Lawrence and skateboarder Zion Wright, Max Verstappen and Yuki Tsunoda traded their F1 cars for a 900HP, V8 swamp buggy ahead of the Miami Grand Prix.</desc>
 <icon src="https://resources.redbull.tv/rrn:content:shows:4fb17cac-7fa3-4315-a8e7-acbaef9ba24a/rbtv_cover_art_portrait"/>
@@ -3761,7 +3571,7 @@
 <value>NR</value>
 </rating>
 <date>2023</date></programme>
-  <programme start="20260326135931 +0000" stop="20260326141155 +0000" channel="Red Bull TV.en"><title lang="en">The 7 Greatest Crashes</title>
+  <programme start="20260328075211 +0000" stop="20260328080434 +0000" channel="Red Bull TV.en"><title lang="en">The 7 Greatest Crashes</title>
 <sub-title lang="en">Red Bull Soapbox Race </sub-title>
 <desc lang="en">A race of pure fun and creativity entertains us with incredible costumes and brilliant design.</desc>
 <category lang="en">Soapbox Race</category>
@@ -3773,7 +3583,7 @@
 <value>NR</value>
 </rating>
 <date>2025</date></programme>
-  <programme start="20260326141155 +0000" stop="20260326151201 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race: 50 Crowd Favourites</title>
+  <programme start="20260328080434 +0000" stop="20260328090440 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race: 50 Crowd Favourites</title>
 <sub-title lang="en">Mayhem, crashes and creativity</sub-title>
 <desc lang="en">Red Bull Soapbox Race: a hilarious race format in homemade motorless racecars hurtling down obstacle-laden courses. Laugh along with our edit of 50 of the favourite designs and moments from 2014-2025.</desc>
 <category lang="en">Soapbox Race</category>
@@ -3784,7 +3594,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260326151201 +0000" stop="20260326160013 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race: 50 Craziest Crashes</title>
+  <programme start="20260328090440 +0000" stop="20260328095253 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race: 50 Craziest Crashes</title>
 <sub-title lang="en">Mayhem, crashes and creativity </sub-title>
 <desc lang="en">Red Bull Soapbox Race: a hilarious race format in homemade motorless racecars hurtling down steep, obstacle-filled courses. Laugh along with our edit of 50 of the craziest crashes from 2015-2025.</desc>
 <category lang="en">Soapbox Race</category>
@@ -3795,7 +3605,7 @@
 <value>NR</value>
 </rating>
 </programme>
-  <programme start="20260326160013 +0000" stop="20260326165338 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race: 50 Fastest &amp; Fearless</title>
+  <programme start="20260328095253 +0000" stop="20260328104617 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race: 50 Fastest &amp; Fearless</title>
 <sub-title lang="en">Mayhem, crashes and creativity</sub-title>
 <desc lang="en">Red Bull Soapbox Race: a hilarious race format in homemade motorless racecars hurtling down steep, obstacle-filled courses. Laugh along with our edit of 50 of the fastest runs from 2014-2025.</desc>
 <category lang="en">Soapbox Race</category>
@@ -3806,6 +3616,121 @@
 <value>NR</value>
 </rating>
 </programme>
+  <programme start="20260328104617 +0000" stop="20260328111635 +0000" channel="Red Bull TV.en"><title lang="en">Factory Seconds</title>
+<sub-title lang="en">Outtakes from the Focus surf film</sub-title>
+<desc lang="en">Never let good footage go to waste. The talented Jason Weatherley edited together this cornucopious bouquet of outtakes from the Focus film, featuring Kelly Slater, Rob Machado and many more.</desc>
+<category lang="en">Surfing</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:904d61d8-8d07-4d72-b2ff-149d6f73b2f6/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/factory-seconds</url>
+<episode-num system="redbull.com">episode/rrn:content:films:904d61d8-8d07-4d72-b2ff-149d6f73b2f6</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260328111635 +0000" stop="20260328124846 +0000" channel="Red Bull TV.en"><title lang="en">Au Revoir</title>
+<sub-title lang="en">Raph Derome's wakeboarding career</sub-title>
+<desc lang="en">A competitive family legacy, a brotherly rivalry that fuelled his rise, and a last act on the water. Au Revoir is the wakeboarding ride of a lifetime as Raph Derome retires from the competitive sport.</desc>
+<category lang="en">Wakeboarding</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:3a5bc924-1e21-42d1-80e2-37a9ea7c6d15/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/au-revoir</url>
+<episode-num system="redbull.com">episode/rrn:content:films:3a5bc924-1e21-42d1-80e2-37a9ea7c6d15</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260328124846 +0000" stop="20260328133946 +0000" channel="Red Bull TV.en"><title lang="en">Shires</title>
+<sub-title lang="en">What makes UK riding great? Here's the film that celebrates it all, from the landscapes to the volatile weather</sub-title>
+<desc lang="en">Filmed over two years and narrated by Rob Warner, Shires is a bicycle film encompassing everything that makes UK riding great – the riders, trails, landscapes and the volatile weather of the British isles.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:films:7279994f-b8d3-428d-b25f-135db1914192/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/shires</url>
+<episode-num system="redbull.com">episode/rrn:content:films:7279994f-b8d3-428d-b25f-135db1914192</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260328133946 +0000" stop="20260328141117 +0000" channel="Red Bull TV.en"><title lang="en">The Search for Milliseconds: Jackson Goldstone</title>
+<sub-title lang="en">On the hunt for the championship</sub-title>
+<desc lang="en">Go inside downhill phenom Jackson Goldstone's high-stakes bid to become one of the youngest MTB riders ever to claim the UCI DH Elite overall title – from pre-season testing to risking all for a win.</desc>
+<category lang="en">Mountain Bike Downhill</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:f869eed7-cd8d-43a8-b984-b09959d173ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/the-search-for-milliseconds-jackson-goldstone</url>
+<episode-num system="redbull.com">episode/rrn:content:films:f869eed7-cd8d-43a8-b984-b09959d173ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260328141117 +0000" stop="20260328143401 +0000" channel="Red Bull TV.en"><title lang="en">Paradigm</title>
+<sub-title lang="en">Mountain biking taken to new heights</sub-title>
+<desc lang="en">From the precision of slopestyle to the massive airs of freeride and the raw speed of downhill, Thomas Genon, Szymon Godziek, Emil Johansson and Kade Edwards deliver raw MTB talent and nonstop action.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:films:9e553057-9846-4dd7-bf7a-fb2ab8471f43/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/paradigm</url>
+<episode-num system="redbull.com">episode/rrn:content:films:9e553057-9846-4dd7-bf7a-fb2ab8471f43</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260328143401 +0000" stop="20260328150051 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Cerro Abajo 2026</title>
+<sub-title lang="en">Red Bull Valparaíso Cerro Abajo highlights</sub-title>
+<desc lang="en">Relive the action as MTB riders from around the world took on the UNESCO World Heritage port city of Valparaíso for an epic, insane MTB race.</desc>
+<category lang="en">Mountain Bike Downhill</category>
+<icon src="https://resources.redbull.tv/rrn:content:videos:90f4a12c-8044-4f8d-86c0-999fee85d653/rbtv_display_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:videos:90f4a12c-8044-4f8d-86c0-999fee85d653/red-bull-valparaiso-cerro-abajo-2026-highlights</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:90f4a12c-8044-4f8d-86c0-999fee85d653</episode-num>
+<episode-num system="original-air-date">2026-03-25 15:22:26</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260328150051 +0000" stop="20260328152725 +0000" channel="Red Bull TV.en"><title lang="en">Greetings From</title>
+<sub-title lang="en">South Florida</sub-title>
+<desc lang="en">The Sunshine State’s core skate scene is unique, and now generations of pro skaters are proud to call it home. Ask Jamie Foy, Zion Wright or Alex Sorgente – the South Florida spotlight is bright.</desc>
+<category lang="en">Skateboarding</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:4b83735b-2c79-4c37-998e-0586bfb5fd36/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/greetings-from-s2-e5</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:53d9a57d-eb24-47e5-b48e-05e965b87574</episode-num>
+<episode-num system="xmltv_ns">1.4.0</episode-num>
+<episode-num system="original-air-date">2025-05-18 08:03:17</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:4b83735b-2c79-4c37-998e-0586bfb5fd36</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2025</date></programme>
+  <programme start="20260328152725 +0000" stop="20260328154756 +0000" channel="Red Bull TV.en"><title lang="en">Sandro Dias redefines the limits of skateboarding</title>
+<sub-title lang="en">Red Bull Building Drop highlights</sub-title>
+<desc lang="en">Sandro Dias brings to life the urban legend of skating down a building shaped like a quarter pipe, and redefines the limits of skateboarding. Watch as he sets two new world records.</desc>
+<category lang="en">Skateboarding</category>
+<icon src="https://resources.redbull.tv/rrn:content:videos:23c897ba-69d6-4d14-b2ea-13602ade4a6d/rbtv_display_art_portrait"/>
+<url>https://www.redbull.com/int-en/videos/red-bull-building-drop-2025-highlights</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:23c897ba-69d6-4d14-b2ea-13602ade4a6d</episode-num>
+<episode-num system="original-air-date">2025-10-01 19:00:00</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2025</date></programme>
+  <programme start="20260328154756 +0000" stop="20260328163225 +0000" channel="Red Bull TV.en"><title lang="en">Hallowed Ground </title>
+<sub-title lang="en">Discover skate spots favoured by the pros</sub-title>
+<desc lang="en">Hallowed Ground follow's Hurley team riders through their usual skating haunts to give us insight to their views of skateboarding.</desc>
+<category lang="en">Skateboarding</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:157062ca-f432-4319-b021-0be32fe23238/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/hallowed-ground</url>
+<episode-num system="redbull.com">episode/rrn:content:films:157062ca-f432-4319-b021-0be32fe23238</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260328163225 +0000" stop="20260328164848 +0000" channel="Red Bull TV.en"><title lang="en">Skate Tales</title>
+<sub-title lang="en">Milton Martinez – street legend born into skating</sub-title>
+<desc lang="en">Raised in a family immersed in skate culture, Milton Martinez rose to fame in Argentina. But to truly make his mark, he embarked on a US adventure. Skate Tales takes him back to where it all began.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:b0b066db-fcac-4d5a-8f9f-07aa4bf1568b/skate-tales-s4-e2</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:b0b066db-fcac-4d5a-8f9f-07aa4bf1568b</episode-num>
+<episode-num system="xmltv_ns">3.1.0</episode-num>
+<episode-num system="original-air-date">2025-05-02 04:48:03</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2025</date></programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
   </channel>
