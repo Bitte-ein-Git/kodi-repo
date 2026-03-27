@@ -55,16 +55,9 @@ def getUA(blacklist=False):
 
     if not UAlist:
         Log('Loading list of common UserAgents')
-        # [{'pct': int percent, 'ua': 'useragent string'}, …]
-        html = getURL('https://www.useragents.me', rjson=False)
-        soup = BeautifulSoup(html, 'html.parser')
-        desk = soup.find('div', attrs={'id': 'most-common-desktop-useragents-json-csv'})
-        for div in desk.find_all('div'):
-            if div.h3.string == 'JSON':
-                ua = json.loads(div.textarea.string)
-                break
-        sorted_ua = sorted(ua, key=lambda x:x.get('pct', 0), reverse=True)
-        UAlist = [ua['ua'] for ua in sorted_ua if 'windows' in ua['ua'].lower() and ua['ua'] not in UAcur]
+        result = getURL('https://microlink.io/user-agents.json')
+        sorted_ua = result.get('user', {})
+        UAlist = [ua for ua in sorted_ua if 'windows' in ua.lower() and ua not in UAcur]
         if not UAlist:
             UAlist = ['Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36']
         writeConfig('UAlist', json.dumps(UAlist))
@@ -320,10 +313,10 @@ def GrabJSON(url, postData=None):
     from html import unescape
 
     def Unescape(text):
-        if text.startswith('{&#34;'):
-            text = unescape(text)
-        else:
-            text = unescape(text.replace('&#34;', '\\"'))
+        if not text.startswith('{&#34;'):
+            text = text.replace('&#34;', '\\"')
+        text = unescape(text)
+
         try:
             text = text.encode('latin-1').decode('utf-8')
         except (UnicodeEncodeError, UnicodeDecodeError):
@@ -415,6 +408,9 @@ def GrabJSON(url, postData=None):
         # Create a single object containing all the data from the multiple JSON objects in the page
         o = {}
         for m in matches:
+            if not (m.id is None or 'hydration-data' in m.id):
+                continue
+
             m = json.loads(Unescape(m.string.strip()))
 
             if ('widgets' in m) and ('Storefront' in m['widgets']):
@@ -429,16 +425,16 @@ def GrabJSON(url, postData=None):
                             if 'name' in bs and bs['name'] == 'navigation-bar' and 'props' in bs:
                                 m = bs['props']
                     else:
-                        m = bodies
-                        sw = findKey('sitewide-navigation-bar', m)
-                        Merge(m, sw)
+                        if isinstance(bodies, dict):
+                            bodies = [bodies]
+                        m = findKey('sitewide-navigation-bar', m)
 
                     if isinstance(bodies, list):
                         for body in bodies:
                             body = body.get('props', body)
                             for p in ['atf', 'btf', 'landingPage', 'browse', 'search', 'categories', 'genre']:
                                 Merge(m, body.get(p, {}))
-                            for p in ['content']:
+                            for p in ['content', 'containers', 'pagination']:
                                 Merge(m, {p: body.get(p, {})})
 
                 if _s.json_dump_raw:
@@ -453,6 +449,8 @@ def GrabJSON(url, postData=None):
                                 del st[k]
                             elif k in ['features', 'customerPreferences']:
                                 del st[k]
+            else:
+                m = {}
             # Prune sensitive context info and merge into o
             if _s.json_dump_raw:
                 Prune(m)

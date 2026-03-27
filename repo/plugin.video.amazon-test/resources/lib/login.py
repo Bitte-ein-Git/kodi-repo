@@ -212,13 +212,13 @@ def MFACheck(br, email, soup):
     elif 'validateCaptcha' in uni_soup:
         Log('validateCaptcha', Log.DEBUG)
         wnd = _Challenge(soup)
-        if not wnd.solve_captcha():
+        if wnd.set_inp and not wnd.solve_captcha():
             wnd.doModal()
         if wnd.cap:
             # MechanicalSoup is using the field names, not IDs
             # id is captchacharacters, which causes exception to be raised
             form.set_input({'field-keywords': wnd.cap})
-        else:
+        elif wnd.set_inp:
             return None
         del wnd
     elif 'pollingForm' in uni_soup and 'verifyOtp' not in uni_soup:
@@ -292,7 +292,17 @@ def LogIn(retToken=False):
                 if form:
                     br.select_form(f'form[name="{form}"]')
                 elif link:
-                    br.follow_link(attrs=link)
+                    link = [link] if isinstance(link, dict) else link
+                    suc = False
+                    for lnk in link:
+                        try:
+                            br.follow_link(attrs=lnk)
+                            suc = True
+                            break
+                        except mechanicalsoup.LinkNotFoundError:
+                            pass
+                    if not suc:
+                        raise mechanicalsoup.LinkNotFoundError
                 break
             except mechanicalsoup.LinkNotFoundError:
                 sleep(randint(750, 3000) / 1000)
@@ -384,7 +394,7 @@ def LogIn(retToken=False):
                 br.session.headers.update(_g.headers_android)
                 br.open('https://www.' + user['sidomain'])
                 WriteLog(str(br.get_current_page()), 'login-bu')
-                if not _findElem(br, link={'class': 'nav-show-sign-in'}, log='bu'):
+                if not _findElem(br, link=[{'class': 'nav-show-sign-in'}, {'data-nav-ref': 'nav_ya_signin'}], log='bu'):
                     return False
                 up = urlparse(br.get_url())
                 query = {k: v[0] for k, v in parse_qs(up.query).items()}
@@ -711,13 +721,20 @@ class _Captcha(pyxbmct.AddonDialogWindow):
 class _Challenge(pyxbmct.AddonDialogWindow):
     def __init__(self, msg):
         self.head = msg.find('title').get_text(strip=True)
+        self.set_inp = True
+        self.cap = ''
         img = msg.find('img', attrs={'alt': 'captcha'})
         box = img.find_parent('div', class_='a-box-inner a-padding-extra-large') if img else None
         if box is None:
-            self.hint = msg.find('p', class_='a-last').get_text(strip=True)
-            form = msg.find('form').find('div', class_='a-box-inner')
-            self.task = form.h4.get_text(strip=True)
-            self.img_url = form.find('img')['src']
+            self.hint = msg.find('p', class_='a-last')
+            if self.hint:
+                self.hint.get_text(strip=True)
+                form = msg.find('form').find('div', class_='a-box-inner')
+                self.task = form.h4.get_text(strip=True)
+                self.img_url = form.find('img')['src']
+            else:
+                self.set_inp = False
+                return
         else:
             self.hint = '\n'.join([box.find('span', class_=cl).get_text() for cl in ['a-size-large', 'a-size-base a-color-secondary']
                                    if box.find('span', class_=cl)])
@@ -726,7 +743,6 @@ class _Challenge(pyxbmct.AddonDialogWindow):
 
         super(_Challenge, self).__init__(self.head)
         self.setGeometry(500, 450, 8, 2)
-        self.cap = ''
         self.img = pyxbmct.Image(self.img_url, aspectRatio=2)
         self.tb_hint = pyxbmct.TextBox()
         self.fl_task = pyxbmct.FadeLabel(_alignment=pyxbmct.ALIGN_CENTER)
