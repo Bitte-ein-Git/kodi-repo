@@ -4,7 +4,7 @@ from vavoo.utils import *
 def vavoo_groups():
 	log("Getting VAVOO groups and md5")
 	groups=[]
-	a =  requests.get("https://www2.vavoo.to/live2/index?output=json").text
+	a = request("GET", "https://www2.vavoo.to/live2/index?output=json", timeout=10, retries=1).text
 	hash = md5(a.encode()).hexdigest()
 	chans = json.loads(a)
 	for c in chans:
@@ -21,7 +21,9 @@ def choose():
 			if a in groups: oldgroups.append(a)
 		preselect = [groups.index(oldgroup) for oldgroup in oldgroups]
 	indicies = selectDialog(groups, "Choose VAVOO Groups", True, preselect)
-	group = [groups[i] for i in indicies if indicies]
+	if not indicies:
+		return []
+	group = [groups[i] for i in indicies]
 	set_cache("groups", group)
 	return group
 
@@ -32,16 +34,20 @@ def new_vav_channels(group):
 	while cursor != None: 
 		try:
 			_data={"language":"de","region":"AT","catalogId":"iptv","id":"iptv","adult":False,"search":"","sort":"name","filter":{"group":group},"cursor":cursor,"clientVersion":"3.0.2"}
-			req = requests.post("https://vavoo.to/mediahubmx-catalog.json", json=_data, headers=_headers).json()
+			req = request_json("POST", "https://vavoo.to/mediahubmx-catalog.json", json=_data, headers=_headers, timeout=10, retries=1)
 			for r in req["items"]:
 				items.append({"url": r["url"], "name": r["name"], "group": r["group"]})
 			cursor = req.get("nextCursor")
-		except: continue
+		except Exception:
+			log(format_exc())
+			break
 	return items
 
 def get_vav_channels(groups = False):
 	if groups == False: cacheOk, groups = get_cache("groups")
 	if not groups: groups = choose()
+	if not groups:
+		return {}
 	cacheOk, chan = get_cache("vav_channels")
 	g, newhash = vavoo_groups()
 	if cacheOk and isinstance(chan, dict) and (chan["hash"] == newhash):
@@ -49,7 +55,7 @@ def get_vav_channels(groups = False):
 	else:
 		log("Getting new VAVOO Channels")
 		channels = []
-		for a in ThreadPoolExecutor().map(new_vav_channels, g):
+		for a in ThreadPoolExecutor(max_workers=max(len(g), 1)).map(new_vav_channels, g):
 			channels += a
 		set_cache("vav_channels", {"channels": channels, "hash":newhash})
 	vavchannels = {}

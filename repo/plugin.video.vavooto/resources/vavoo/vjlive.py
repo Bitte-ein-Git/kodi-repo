@@ -4,32 +4,27 @@ from vavoo.utils import *
 chanicons = ['13thstreet.png', '3sat.png', 'animalplanet.png', 'anixe.png', 'ard.png', 'ardalpha.png', 'arte.png', 'atv.png', 'atv2.png', 'automotorsport.png', 'axnblack.png', 'axnwhite.png', 'br.png', 'cartoonito.png', 'cartoonnetwork.png', 'comedycentral.png', 'curiositychannel.png', 'fix&foxi.png', 'dazn1.png', 'dazn2.png', 'deluxemusic.png', 'nationalgeographic.png', 'dmax.png', 'eurosport1.png', 'eurosport2.png', 'nickjunior.png', 'superrtl.png', 'heimatkanal.png', 'history.png', 'hr.png', 'jukebox.png', 'kabel1doku.png', 'pro7.png', 'pro7maxx.png', 'pro7fun.png', 'rtl2.png', 'kika.png', 'kinowelt.png', 'mdr.png', 'universaltv.png', 'discovery.png', 'mtv.png', 'n24doku.png', 'natgeowild.png', 'sky1.png', 'ndr.png', 'nickelodeon.png', 'nitro.png', 'romancetv.png', 'ntv.png', 'one.png', 'orf1.png', 'orf2.png', 'orf3.png', 'orfsportplus.png', 'phoenix.png', 'geotv.png', 'puls24.png', 'puls4.png', 'rbb.png', 'ric.png', 'motorvision.png', 'rtl.png', 'rtlcrime.png', 'rtlliving.png', 'kabel1.png', 'rtlpassion.png', 'rtlup.png', 'sat1.png', 'sat1emotions.png', 'sat1gold.png', 'servustv.png', 'silverline.png', 'sixx.png', 'skyatlantic.png', 'skycinemaaction.png', 'skycinemaclassics.png', 'skycinemafamily.png', 'skycinemahighlights.png', 'skycinemapremieren.png', 'skycrime.png', 'skydocumentaries.png', 'skykrimi.png', 'skynature.png', 'skyreplay.png', 'skyshowcase.png', 'spiegelgeschichte.png', 'kabel1classics.png', 'sport1.png', 'sportdigital.png', 'swr.png', 'syfy.png', 'tagesschau24.png', 'tele5.png', 'tlc.png', 'toggoplus.png', 'crime+investigation.png', 'vox.png', 'voxup.png', 'warnertvcomedy.png', 'warnertvfilm.png', 'warnertvserie.png', 'wdr.png', 'welt.png', 'weltderwunder.png', 'zdf.png', 'zdfinfo.png', 'zdfneo.png', 'zeeone.png', 'skycinemathriller.png']
 
 def resolve_link(link):
-	try:
-		if not "vavoo" in link:
-			from vavoo.stalker import StalkerPortal
+	if not "vavoo" in link:
+		from vavoo.stalker import StalkerPortal
+		try:
 			link, headers = StalkerPortal(get_cache_or_setting("stalkerurl"), get_cache_or_setting("mac")).get_tv_stream_url(link)
-			# Wenn 403 erkannt und None zurückkommt: sofort abbrechen
-			if not link: return None, None
-			status = int(requests.get(link, headers=headers, timeout=10, stream=True).status_code)
+			status = int(request("GET", link, headers=headers, timeout=10, stream=True, retries=0).status_code)
 			log(f"function resolve_link Staus :{status}")
-			if status < 400: return link, "&".join([f"{k}={v}" for k, v in headers.items()])
-		#elif getSetting("streammode") == "1":
+			if status < 400: 
+				return link, "&".join([f"{k}={v}" for k, v in headers.items()])
+		except Exception:
+			log(format_exc())
 		else:
-			_headers = {"user-agent": "MediaHubMX/2", "accept": "application/json", "content-type": "application/json; charset=utf-8", "content-length": "115", "accept-encoding": "gzip", "mediahubmx-signature": getAuthSignature()}
-			_data = {"language": "de", "region": "AT", "url": link, "clientVersion": "3.0.2"}
-			url = "https://vavoo.to/mediahubmx-resolve.json"
-			streamurl = requests.post(url, json=_data, headers=_headers).json()[0]["url"]
-			status = int(requests.get(streamurl, timeout=10, stream=True).status_code)
-			log(f"function resolve_link Staus :{status}")
-			if status < 400: return streamurl, None
-		#else:
-			#streamurl = "%s?n=1&b=5&vavoo_auth=%s" % (link.replace("vavoo-iptv", "live2")[0:-12], gettsSignature())
-			#log(streamurl)
-			#status = int(requests.get(streamurl, headers={"User-Agent": "VAVOO/2.6"}, timeout=10, stream=True).status_code)
-			#log(f"function resolve_link Staus :{status}")
-			#if status < 400: return streamurl, "User-Agent=VAVOO/2.6"
-	except: log(format_exc())
-	return None, None
+			return None, None
+	else:
+		_headers = {"user-agent": "MediaHubMX/2", "accept": "application/json", "content-type": "application/json; charset=utf-8", "content-length": "115", "accept-encoding": "gzip", "mediahubmx-signature": getAuthSignature()}
+		_data = {"language": "de", "region": "AT", "url": link, "clientVersion": "3.0.2"}
+		url = "https://vavoo.to/mediahubmx-resolve.json"
+		streamurl = request_json("POST", url, json=_data, headers=_headers, timeout=10, retries=1)[0]["url"]
+		status = int(request("GET", streamurl, timeout=10, stream=True, retries=0).status_code)
+		log(f"function resolve_link Staus :{status}")
+		if status < 400: return streamurl, None
+		return None, None
 
 def get_stalker_channels(genres=False):
 	if genres == False: cacheOk, genres = get_cache("stalker_groups")
@@ -61,7 +56,6 @@ def get_stalker_channels(genres=False):
 	for item in chan:
 		if item["tv_genre_id"] not in genres: continue
 		name = item["name"].upper()
-		# if not name.isascii(): continue
 		if any(ele in name for ele in ["***", "###", "---"]): continue
 		name = filterout(name)
 		if not name: continue
@@ -166,7 +160,8 @@ def makem3u():
 # edit kasi
 def channels(items=None, type=None, group=None):
 	try: lines = json.loads(getSetting("favs"))
-	except: lines = []
+	except (TypeError, ValueError):
+		lines = []
 	results = json.loads(items) if items else getchannels(type, group)
 	for name in results:
 		index = len(results[name])
@@ -197,7 +192,8 @@ def channels(items=None, type=None, group=None):
 
 def favchannels():
 	try: lines = json.loads(getSetting("favs"))
-	except: return
+	except (TypeError, ValueError):
+		return
 	for name in getchannels():
 		if not name in lines: continue
 		o = ListItem(name)
@@ -219,9 +215,14 @@ def favchannels():
 
 def change_favorit(name, delete=False):
 	try:lines = json.loads(getSetting("favs"))
-	except: lines = []
-	if delete: lines.remove(name)
-	else: lines.append(name)
+	except (TypeError, ValueError):
+		lines = []
+	if delete:
+		if name in lines:
+			lines.remove(name)
+	else:
+		if name not in lines:
+			lines.append(name)
 	setSetting("favs", json.dumps(lines))
 	if len(lines) == 0: execute("Action(ParentDir)")
 	else: execute("Container.Refresh")

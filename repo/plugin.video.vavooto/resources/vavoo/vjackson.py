@@ -6,9 +6,6 @@ BASEURL = "https://vavoo.to/ccapi/"
 
 def menu(params):
 	set_content("files")
-	# edit kasi
-	# if len(lines)>0: addDir2("TV Favoriten (Live)", "DefaultAddonPVRClient", "favchannels")
-	# addDir2("Live", "DefaultAddonPVRClient", "channels")
 	addDir2("Live", "DefaultAddonPVRClient", "live")
 	addDir2("Filme", "DefaultMovies", "indexMovie")
 	addDir2("Serien", "DefaultTVShows", "indexSerie")
@@ -32,7 +29,8 @@ def indexSerie(params):
 
 def live(params):
 	try: lines = json.loads(getSetting("favs"))
-	except:	lines = []
+	except (TypeError, ValueError):
+		lines = []
 	if len(lines)>0: addDir2("Live - Favoriten", "DefaultAddonPVRClient", "favchannels")
 	addDir2("Live - Alle", "DefaultAddonPVRClient", "channels")
 	addDir2("Live - A bis Z", "DefaultAddonPVRClient", "a_z_tv")
@@ -86,7 +84,7 @@ def show(params):
 	set_content(content)
 	set_category(cat)
 	paramslist = [{"action": "get" if e["id"].startswith("movie") else "seasons" ,"id":e["id"], "n":e["name"]} for e in data]
-	with ThreadPoolExecutor(len(paramslist)) or 1 as executor:
+	with ThreadPoolExecutor(max_workers=max(len(paramslist), 1)) as executor:
 		future_to_url = {executor.submit(createListItem, urlparams):urlparams for urlparams in paramslist}
 		for future in as_completed(future_to_url):
 			urlparams = future_to_url[future]
@@ -104,8 +102,7 @@ def search(params):
 	cacheOk, history = get_cache("seriesearch" if type == "SERIEN" else "moviesearch")
 	if not cacheOk: history = {}
 	if not history or params.get("newsearch"):
-		try: a = history[-1]
-		except: a = ""
+		a = list(history.keys())[-1] if history else ""
 		heading="VAVOO.TO - %s SUCHE" % type
 		kb = xbmc.Keyboard(a, heading, False)
 		kb.doModal()
@@ -169,27 +166,30 @@ def episodes(params):
 def resolve(mirror):
 	log(mirror, header="Try to resolve:")
 	try: 
-		resolved= resolveurl.resolve(mirror["url"])
+		resolved = resolveurl.resolve(mirror["url"])
 		return resolved
-	except: pass
+	except Exception:
+		pass
 	try:
 		_headers={"user-agent": "MediaHubMX/2", "content-type": "application/json; charset=utf-8", "content-length": "102", "accept-encoding": "gzip", "mediahubmx-signature": getAuthSignature()}
 		_data = {"language":"de","region":"AT","url":mirror["url"],"clientVersion":"3.0.2"}
-		url = requests.post("https://vavoo.to/mediahubmx-resolve.json", json=_data, headers=_headers).json()["data"]["url"]
-		resolved= resolveurl.resolve(url)
+		url = request_json("POST", "https://vavoo.to/mediahubmx-resolve.json", json=_data, headers=_headers, timeout=10, retries=1)["data"]["url"]
+		resolved = resolveurl.resolve(url)
 		return resolved
-	except: pass
+	except Exception:
+		pass
 	try:
 		res = callApi2('open', {'link': mirror["url"]})[-1]
 		headers = res.get('headers', {})
-		resolved = session.get(res['url'], headers=headers, stream=True).url
-	except: return
+		resolved = request("GET", res['url'], headers=headers, stream=True, timeout=10, retries=1).url
+		return resolved
+	except Exception:
+		return
 
 def checkstream(url):
 	if not url: return
 	log(url, header="Checking Stream:")
 	try:
-		#if not url: raise Exception("Keine Url")
 		newurl, headers, params = url, {}, {}
 		if "|" in newurl:
 			newurl, headers = newurl.split("|")
@@ -197,10 +197,10 @@ def checkstream(url):
 		if "?" in newurl:
 			newurl, params = newurl.split("?")
 			params = dict(parse_qsl(params))
-		res = session.get(newurl, headers=headers, params=params, stream=True)
+		res = request("GET", newurl, headers=headers, params=params, stream=True, timeout=10, retries=0)
 		res.raise_for_status()
 		if "text" in res.headers.get("Content-Type","text"): raise Exception("Keine Videodatei")
-	except:
+	except Exception:
 		log(format_exc())
 		return
 	else: return url
@@ -220,7 +220,7 @@ def get(params):
 		if params.get("e"):_data={"language":"de","region":"AT","type":"series","ids":{"tmdb_id":params["id"].split(".")[1]},"name":name,"episode":{"season":params["s"],"episode":params["e"]},"clientVersion":"3.0.2"}
 		else: _data={"language":"de","region":"AT","type":"movie","ids":{"tmdb_id":params["id"].split(".")[1]},"name":name,"episode":{},"clientVersion":"3.0.2"}
 		url = "https://vavoo.to/mediahubmx-source.json"
-		mirrors = requests.post(url, json=_data, headers=_headers).json()
+		mirrors = request_json("POST", url, json=_data, headers=_headers, timeout=10, retries=1)
 		set_cache(params, mirrors, 1)
 	if not mirrors:
 		log("Keine Mirrors gefunden")
@@ -290,7 +290,7 @@ def callApi(action, params, method="GET", headers=None, **kwargs):
 	log(params, header="Action:%s params:" % action)
 	if not headers: headers = dict()
 	headers["auth-token"] = getAuthSignature()
-	resp = session.request(method, (BASEURL + action), params=params, headers=headers, **kwargs)
+	resp = request(method, (BASEURL + action), params=params, headers=headers, retries=1, timeout=10, **kwargs)
 	resp.raise_for_status()
 	data = resp.json()
 	log(data, header="callApi res:")
@@ -303,11 +303,25 @@ def callApi2(action, params):
 			return res
 		data = res["data"]
 		if type(data) is dict and data.get("type") == "fetch":
-			params, body, headers = data["params"], params.get("body"), params.get("headers")
-			try: resp = session.request(params.get("method", "GET").upper(), data["url"], headers={k:v[0] if type(v) in (list, tuple) else v for k, v in headers.items()} if headers else None, data=body.decode("base64") if body else None, allow_redirects=params.get("redirect", "follow") == "follow")
-			except: return
+			fetch_params = data.get("params", {})
+			body = fetch_params.get("body")
+			headers = fetch_params.get("headers")
+			decoded_body = base64.b64decode(body) if body else None
+			try:
+				resp = request(
+					fetch_params.get("method", "GET").upper(),
+					data["url"],
+					headers={k: v[0] if type(v) in (list, tuple) else v for k, v in headers.items()} if headers else None,
+					data=decoded_body,
+					allow_redirects=fetch_params.get("redirect", "follow") == "follow",
+					timeout=10,
+					retries=1
+				)
+			except Exception:
+				log(format_exc())
+				return
 			headers = dict(resp.headers)
-			resData = {"status": resp.status_code, "url": resp.url, "headers": headers, "data": base64.b64encode(resp.content).decode("utf-8").replace("\n", "") if data["body"] else None}
+			resData = {"status": resp.status_code, "url": resp.url, "headers": headers, "data": base64.b64encode(resp.content).decode("utf-8").replace("\n", "") if body else None}
 			log(resData)
 			res = callApi("res", {"id": res["id"]}, method="POST", json=resData, verify=False)
 		elif type(data) is dict and data.get("error"):

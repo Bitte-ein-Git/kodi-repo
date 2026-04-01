@@ -13,13 +13,8 @@ class StalkerPortal:
 		self.url = portal_url
 		self.portal_url = portal_url.rstrip("/").replace('/c', '/server/load.php')
 		self.mac = mac.strip()
-		# self.serial = self.generate_serial(self.mac)
-		# self.device_id = self.generate_device_id()
-		# self.device_id1 = self.device_id
-		# self.device_id2 = self.device_id
 		self.__token = Token()
 		self.__load_cache()
-		# self.random = None
 		self.headers = self.generate_headers()
 		self.backoff_factor = 1
 
@@ -27,7 +22,8 @@ class StalkerPortal:
 		try:
 			self.__token.__dict__ = json.loads(home.getProperty("token"))
 			log('Loading token from cache')
-		except: log('No token in cache')
+		except Exception:
+			log('No token in cache')
 
 	def __save_cache(self):
 		log('Saving token to cache')
@@ -35,17 +31,6 @@ class StalkerPortal:
 		self.__token.mac = self.mac
 		self.__token.url = self.portal_url
 		home.setProperty("token", json.dumps(self.__token.__dict__))
-
-	def generate_serial(self, mac):
-		md5_hash = md5(mac.encode()).hexdigest()
-		return md5_hash[:13].upper()
-
-	def generate_device_id(self):
-		mac_exact = self.mac.strip()
-		return sha256(mac_exact.encode()).hexdigest().upper()
-
-	def generate_random_value(self):
-		return ''.join(random.choices('0123456789abcdef', k=40))
 
 	def generate_headers(self, include_auth=True, include_token=True, custom_headers=None):
 		headers = {}
@@ -78,7 +63,7 @@ class StalkerPortal:
 		for attempt in range(1, retries + 2):
 			try:
 				log("Attempt %s: GET %s with params=%s" % (attempt, self.portal_url, params))
-				response = requests.get(self.portal_url, params=params, headers=self.headers, timeout=timeout)
+				response = request("GET", self.portal_url, params=params, headers=self.headers, timeout=timeout, retries=0)
 				log("Received response: %s" % response.status_code)
 				if response.status_code == 403:
 					log("Abbruch: HTTP 403 erhalten")
@@ -95,7 +80,8 @@ class StalkerPortal:
 						faultymac[self.portal_url].append(self.mac)
 					set_cache("faultymac", faultymac)
 					continue
-			except: log(format_exc())
+			except Exception:
+				log(format_exc())
 			if attempt < retries:
 				sleep_time = self.backoff_factor * (2 ** (attempt - 1))
 				log("Retrying after %s seconds..." % sleep_time)
@@ -109,19 +95,12 @@ class StalkerPortal:
 			response = self.make_request_with_retries(_params)
 			if response == "IP BLOCKED": return "IP BLOCKED"
 			token = response.get("token")
-		except: log(format_exc())
+		except Exception:
+			log(format_exc())
 		if token:
 			self.__token.value = token
 			self.__save_cache()
 			self.headers["Authorization"] = "Bearer %s" % token
-
-	def generate_token(self):
-		token_length = 32
-		return ''.join(random.choices(string.ascii_uppercase + string.digits, k=token_length))
-
-	def generate_prehash(self, token):
-		hash_object = sha1(token.encode())
-		return hash_object.hexdigest()
 
 	def ensure_token(self):
 		if self.__token.mac != self.mac or self.__token.url != self.portal_url or self.__token.value is None:
@@ -141,18 +120,13 @@ class StalkerPortal:
 			"hd": "1",
 			"ver": "ImageDescription: 0.2.18-r23-250; ImageDate: Thu Sep 13 11:31:16 EEST 2018; PORTAL version: 5.6.2; API Version: JS API version: 343; STB API version: 146; Player Engine version: 0x58c",
 			"num_banks": "2",
-			# "sn": self.serial,
 			"stb_type": "MAG250",
 			"client_type": "STB",
 			"image_version": "218",
 			"video_out": "hdmi",
-			# "device_id": self.device_id1,
-			# "device_id2": self.device_id2,
-			# "signature": self.generate_signature(),
 			"auth_second_step": "1",
 			"hw_version": "1.7-BD-00",
 			"not_valid_token": "0",
-			# "metrics": self.generate_metrics(),
 			"hw_version_2": sha1(self.mac.encode()).hexdigest(),
 			"timestamp": int(time.time()),
 			"api_signature": "262",
@@ -169,22 +143,12 @@ class StalkerPortal:
 			if token:
 				log("Profile token updated: %s" % token)
 				self.__token.value = token
-		except: log(format_exc())
+		except Exception:
+			log(format_exc())
 		else:
 			self.__save_cache()
 			self.headers["Authorization"] = "Bearer %s" % self.__token.value
 			log("function get_profile Updatet headers: %s" % self.headers)
-
-	def generate_signature(self):
-		data = self.mac + self.serial + self.device_id1 + self.device_id2
-		signature = sha256(data.encode()).hexdigest().upper()
-		return signature
-
-	def generate_metrics(self):
-		# if not self.random: self.random = self.generate_random_value()
-		metrics = {"mac": self.mac, "sn": self.serial, "type": "STB", "model": "MAG250", "uid": ""}  # , "random": self.random
-		metrics_str = json.dumps(metrics)
-		return metrics_str
 
 	def get_account_info(self):
 		_params = {"type": "account_info", "action": "get_main_info"}
@@ -219,9 +183,9 @@ class StalkerPortal:
 					streamurl = cmd['cmd'].split()[-1]
 				else:
 					streamurl, headers = self.get_tv_stream_url(cmd['cmd'])
-				res = requests.get(streamurl, headers=self.headers, timeout=10, stream=True)
+				res = request("GET", streamurl, headers=self.headers, timeout=10, stream=True, retries=0)
 				res.raise_for_status()
-			except:
+			except Exception:
 				cacheOk, faultymac = get_cache("faultymac")
 				if not cacheOk:
 					faultymac = {}
@@ -309,7 +273,7 @@ def get_genres():
 def get_maclists():
 	cacheOk, maclists = get_cache("maclists")
 	if not cacheOk: 
-		maclists = requests.get("https://github.com/michaz1988/michaz1988.github.io/releases/latest/download/maclist.json").json()
+		maclists = request_json("GET", "https://github.com/michaz1988/michaz1988.github.io/releases/latest/download/maclist.json", timeout=10, retries=1)
 		set_cache("maclists", maclists, 1)
 	return maclists
 
@@ -327,7 +291,10 @@ def new_mac(silent=False):
 	log("Getting New Mac")
 	url = get_cache_or_setting("stalkerurl")
 	maclists = get_maclists()
-	maclist = maclists[url]
+	maclist = maclists.get(url)
+	if not maclist:
+		log("Keine MAC-Liste für URL: %s" % url)
+		return False
 	return check_portal(url, maclist, silent)
 	
 def check_portal(url, maclist, silent=False):
@@ -352,9 +319,12 @@ def check_portal(url, maclist, silent=False):
 		log("Versuch :%s" % i)
 		setSetting("portal_ok", "Teste Mac Adressen, Versuch :%s/%s" % (i, retry))
 		if silent == False: progress.update(int(i / retry * 100), "Teste Mac Adressen, Versuch :%s/%s" % (i, retry))
-		while True:
-			mac = random.choice(maclist)
-			if mac not in faultymaclist: break
+		available_macs = [mac for mac in maclist if mac not in faultymaclist]
+		if not available_macs:
+			if silent == False: progress.close()
+			setSetting("portal_ok", "Keine gültige Mac")
+			return False
+		mac = random.choice(available_macs)
 		setSetting("mac", mac)
 		set_cache("mac", mac)
 		portal = StalkerPortal(url, mac)

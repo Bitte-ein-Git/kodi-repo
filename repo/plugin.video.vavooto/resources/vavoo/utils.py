@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import xbmcgui, xbmcaddon, sys, xbmc, os, time, json, xbmcplugin, requests, re
 import urllib3, resolveurl, base64, random, string, xbmcvfs
+import tempfile
 from datetime import datetime
 from hashlib import md5, sha256, sha1
 from dateutil.parser import parse
@@ -12,7 +13,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 try:
 	from infotagger.listitem import ListItemInfoTag
 	tagger = True
-except: tagger = False
+except Exception:
+	tagger = False
 
 def translatePath(*args):
 	return xbmcvfs.translatePath(*args)
@@ -40,22 +42,57 @@ openSettings = addon.openSettings
 execute = xbmc.executebuiltin
 getCondV = xbmc.getCondVisibility
 
+def request(method, url, retries=2, timeout=15, **kwargs):
+	kwargs.setdefault("timeout", timeout)
+	for attempt in range(retries + 1):
+		try:
+			return session.request(method, url, **kwargs)
+		except requests.RequestException:
+			if attempt >= retries:
+				raise
+			monitor.waitForAbort(min(2 ** attempt, 4))
+
+def request_json(method, url, retries=2, timeout=15, **kwargs):
+	response = request(method, url, retries=retries, timeout=timeout, **kwargs)
+	response.raise_for_status()
+	return response.json()
+
+def _decode_cache_bytes(raw_data):
+	try:
+		payload = decompress(raw_data)
+	except Exception:
+		payload = raw_data
+	if isinstance(payload, bytes):
+		payload = payload.decode("utf-8", "ignore")
+	return json.loads(payload)
+
+def _remove_cache_entry(path, key=None):
+	file_path = os.path.join(cachepath, path)
+	if os.path.isfile(file_path):
+		os.remove(file_path)
+	if key:
+		home.clearProperty(key)
+
 def clear(auto=False):
-	for a in os.listdir(cachepath):
-		file = os.path.join(cachepath, a)
-		key = a.replace(".json", "")
-		if auto:
-			m = open(file, "rb").read()
-			try: data = decompress(m)
-			except: data = m
-			r = json.loads(data)
-			sigValidUntil = r.get('sigValidUntil', 0)
-			if sigValidUntil != False and sigValidUntil < int(time.time()):
-				os.remove(file)
-				home.clearProperty(key)
-		else: 
-			os.remove(file)
-			home.clearProperty(key)
+	for path in os.listdir(cachepath):
+		key = path.replace(".json", "")
+		if not auto:
+			try:
+				_remove_cache_entry(path, key)
+			except Exception:
+				pass
+			continue
+		try:
+			with open(os.path.join(cachepath, path), "rb") as cache_file:
+				r = _decode_cache_bytes(cache_file.read())
+		except Exception:
+			continue
+		sigValidUntil = r.get('sigValidUntil', 0)
+		if sigValidUntil is not False and sigValidUntil < int(time.time()):
+			try:
+				_remove_cache_entry(path, key)
+			except Exception:
+				pass
 		
 clear(auto=True)
 
@@ -66,20 +103,10 @@ def getAuthSignature():
 		try:
 			_headers={"user-agent": "okhttp/4.11.0", "accept": "application/json", "content-type": "application/json; charset=utf-8", "content-length": "1106", "accept-encoding": "gzip"}
 			_data = {"token":"ldCvE092e7gER0rVIajfsXIvRhwlrAzP6_1oEJ4q6HH89QHt24v6NNL_jQJO219hiLOXF2hqEfsUuEWitEIGN4EaHHEHb7Cd7gojc5SQYRFzU3XWo_kMeryAUbcwWnQrnf0-","reason":"app-blur","locale":"de","theme":"dark","metadata":{"device":{"type":"Handset","brand":"google","model":"Nexus","name":"21081111RG","uniqueId":"d10e5d99ab665233"},"os":{"name":"android","version":"7.1.2","abis":["arm64-v8a"],"host":"android"},"app":{"platform":"android","version":"1.1.0","buildId":"97215000","engine":"hbc85","signatures":["6e8a975e3cbf07d5de823a760d4c2547f86c1403105020adee5de67ac510999e"],"installer":"com.android.vending"},"version":{"package":"app.lokke.main","binary":"1.1.0","js":"1.1.0"},"platform":{"isAndroid":True,"isIOS":False,"isTV":False,"isWeb":False,"isMobile":True,"isWebTV":False,"isElectron":False}},"appFocusTime":0,"playerActive":False,"playDuration":0,"devMode":True,"hasAddon":True,"castConnected":False,"package":"app.lokke.main","version":"1.1.0","process":"app","firstAppStart":1772388338206,"lastAppStart":1772388338206,"ipLocation":None,"adblockEnabled":False,"proxy":{"supported":["ss","openvpn"],"engine":"openvpn","ssVersion":1,"enabled":False,"autoServer":True,"id":"fi-hel"},"iap":{"supported":True}}
-			req = requests.post('https://www.lokke.app/api/app/ping', json=_data, headers=_headers).json()
+			req = request_json("POST", 'https://www.lokke.app/api/app/ping', json=_data, headers=_headers, timeout=10, retries=1)
 			return req.get("addonSig")
-		except: continue
-
-def gettsSignature():
-	i = 0
-	while i < 5:
-		i+=1
-		try:
-			vec = {"vec": "9frjpxPjxSNilxJPCJ0XGYs6scej3dW/h/VWlnKUiLSG8IP7mfyDU7NirOlld+VtCKGj03XjetfliDMhIev7wcARo+YTU8KPFuVQP9E2DVXzY2BFo1NhE6qEmPfNDnm74eyl/7iFJ0EETm6XbYyz8IKBkAqPN/Spp3PZ2ulKg3QBSDxcVN4R5zRn7OsgLJ2CNTuWkd/h451lDCp+TtTuvnAEhcQckdsydFhTZCK5IiWrrTIC/d4qDXEd+GtOP4hPdoIuCaNzYfX3lLCwFENC6RZoTBYLrcKVVgbqyQZ7DnLqfLqvf3z0FVUWx9H21liGFpByzdnoxyFkue3NzrFtkRL37xkx9ITucepSYKzUVEfyBh+/3mtzKY26VIRkJFkpf8KVcCRNrTRQn47Wuq4gC7sSwT7eHCAydKSACcUMMdpPSvbvfOmIqeBNA83osX8FPFYUMZsjvYNEE3arbFiGsQlggBKgg1V3oN+5ni3Vjc5InHg/xv476LHDFnNdAJx448ph3DoAiJjr2g4ZTNynfSxdzA68qSuJY8UjyzgDjG0RIMv2h7DlQNjkAXv4k1BrPpfOiOqH67yIarNmkPIwrIV+W9TTV/yRyE1LEgOr4DK8uW2AUtHOPA2gn6P5sgFyi68w55MZBPepddfYTQ+E1N6R/hWnMYPt/i0xSUeMPekX47iucfpFBEv9Uh9zdGiEB+0P3LVMP+q+pbBU4o1NkKyY1V8wH1Wilr0a+q87kEnQ1LWYMMBhaP9yFseGSbYwdeLsX9uR1uPaN+u4woO2g8sw9Y5ze5XMgOVpFCZaut02I5k0U4WPyN5adQjG8sAzxsI3KsV04DEVymj224iqg2Lzz53Xz9yEy+7/85ILQpJ6llCyqpHLFyHq/kJxYPhDUF755WaHJEaFRPxUqbparNX+mCE9Xzy7Q/KTgAPiRS41FHXXv+7XSPp4cy9jli0BVnYf13Xsp28OGs/D8Nl3NgEn3/eUcMN80JRdsOrV62fnBVMBNf36+LbISdvsFAFr0xyuPGmlIETcFyxJkrGZnhHAxwzsvZ+Uwf8lffBfZFPRrNv+tgeeLpatVcHLHZGeTgWWml6tIHwWUqv2TVJeMkAEL5PPS4Gtbscau5HM+FEjtGS+KClfX1CNKvgYJl7mLDEf5ZYQv5kHaoQ6RcPaR6vUNn02zpq5/X3EPIgUKF0r/0ctmoT84B2J1BKfCbctdFY9br7JSJ6DvUxyde68jB+Il6qNcQwTFj4cNErk4x719Y42NoAnnQYC2/qfL/gAhJl8TKMvBt3Bno+va8ve8E0z8yEuMLUqe8OXLce6nCa+L5LYK1aBdb60BYbMeWk1qmG6Nk9OnYLhzDyrd9iHDd7X95OM6X5wiMVZRn5ebw4askTTc50xmrg4eic2U1w1JpSEjdH/u/hXrWKSMWAxaj34uQnMuWxPZEXoVxzGyuUbroXRfkhzpqmqqqOcypjsWPdq5BOUGL/Riwjm6yMI0x9kbO8+VoQ6RYfjAbxNriZ1cQ+AW1fqEgnRWXmjt4Z1M0ygUBi8w71bDML1YG6UHeC2cJ2CCCxSrfycKQhpSdI1QIuwd2eyIpd4LgwrMiY3xNWreAF+qobNxvE7ypKTISNrz0iYIhU0aKNlcGwYd0FXIRfKVBzSBe4MRK2pGLDNO6ytoHxvJweZ8h1XG8RWc4aB5gTnB7Tjiqym4b64lRdj1DPHJnzD4aqRixpXhzYzWVDN2kONCR5i2quYbnVFN4sSfLiKeOwKX4JdmzpYixNZXjLkG14seS6KR0Wl8Itp5IMIWFpnNokjRH76RYRZAcx0jP0V5/GfNNTi5QsEU98en0SiXHQGXnROiHpRUDXTl8FmJORjwXc0AjrEMuQ2FDJDmAIlKUSLhjbIiKw3iaqp5TVyXuz0ZMYBhnqhcwqULqtFSuIKpaW8FgF8QJfP2frADf4kKZG1bQ99MrRrb2A="}
-			url = 'https://www.vavoo.tv/api/box/ping2'
-			req = requests.post(url, data=vec).json()
-			return req['response'].get('signed')
-		except: continue
+		except Exception:
+			continue
 
 def append_headers(headers):
 	return '|%s' % '&'.join(['%s=%s' % (key, quote_plus(headers[key])) for key in headers])
@@ -111,41 +138,56 @@ def selectDialog(list, heading=None, multiselect = False, preselect=False):
 
 def set_cache(key, value, timeout=False):
 	path = convertPluginParams(key)
-	data=json.dumps({"sigValidUntil": False if timeout == False else int(time.time()) +(timeout*3600),"value": value})
+	data = json.dumps({"sigValidUntil": False if timeout == False else int(time.time()) + (timeout * 3600), "value": value})
 	home.setProperty(path, data)
-	file = os.path.join(cachepath, path)
+	file_path = os.path.join(cachepath, path)
+	temp_path = None
 	if addon.getSetting("comp") == "true":
-		data = compress(data.encode())
-		k = open(file, "wb")
-	else: k = open(file, "w")
-	k.write(data)
-	k.close()
+		payload = compress(data.encode())
+		mode = "wb"
+	else:
+		payload = data
+		mode = "w"
+	try:
+		fd, temp_path = tempfile.mkstemp(dir=cachepath)
+		with os.fdopen(fd, mode) as cache_file:
+			cache_file.write(payload)
+		os.replace(temp_path, file_path)
+	except Exception:
+		if temp_path and os.path.exists(temp_path):
+			os.remove(temp_path)
 
 def get_cache(key):
 	path = convertPluginParams(key)
 	keyfile = home.getProperty(path)
 	if keyfile:
-		r = json.loads(keyfile)
+		try:
+			r = json.loads(keyfile)
+		except Exception:
+			home.clearProperty(path)
+			return False, None
 		sigValidUntil = r.get('sigValidUntil', 0)
 		if sigValidUntil == False or sigValidUntil > int(time.time()):
 			log(f"{key} from cache")
 			return True, r.get('value')
 		home.clearProperty(path)
 	else:
-		file = os.path.join(cachepath, path)
-		if os.path.isfile(file):
-			k = open(file, "rb").read()
-			try: data = decompress(k)
-			except: data = k
-			r = json.loads(data)
-			sigValidUntil = r.get('sigValidUntil', 0) 
+		file_path = os.path.join(cachepath, path)
+		if os.path.isfile(file_path):
+			try:
+				with open(file_path, "rb") as cache_file:
+					r = _decode_cache_bytes(cache_file.read())
+			except Exception:
+				os.remove(file_path)
+				return False, None
+			sigValidUntil = r.get('sigValidUntil', 0)
 			if sigValidUntil == False or sigValidUntil > int(time.time()):
 				value = r.get('value')
-				data=json.dumps({"sigValidUntil": sigValidUntil,"value": value})
+				data = json.dumps({"sigValidUntil": sigValidUntil, "value": value})
 				home.setProperty(path, data)
 				log(f"{key} from cache")
 				return True, value
-			os.remove(file)
+			os.remove(file_path)
 	return False, None
 
 def get_cache_or_setting(setting):
@@ -158,13 +200,13 @@ def get_cache_or_setting(setting):
 def del_cache(key):
 	path = convertPluginParams(key)
 	try:
-		file = os.path.join(cachepath, f"{path}.json")
-		if not os.path.isfile(file):
-			file = os.path.join(cachepath, path)
+		file = os.path.join(cachepath, path)
 		home.clearProperty(path)
-		os.remove(file)
+		if os.path.isfile(file):
+			os.remove(file)
 		log(f"Delete {key}")
-	except: pass
+	except Exception:
+		pass
 
 def filterout(name):
 	if addon.getSetting("filter") == "true":
@@ -303,7 +345,7 @@ def get_meta(param):
 
 	cacheOk, meta = get_cache({"id": param["id"]})
 	if not cacheOk:
-		meta = requests.get(tmdb_url, params=url_params).json()
+		meta = request_json("GET", tmdb_url, params=url_params, timeout=10, retries=1)
 		if "success" in meta and meta["success"] == False: return
 		set_cache({"id": param["id"]}, meta, 75600)
 	_seasons = [i for i in meta["seasons"] if i["season_number"] != 0] if meta.get("seasons") else []
@@ -376,7 +418,7 @@ def get_meta(param):
 			cacheOk, seasonmeta = get_cache({"id": param["id"], "s":param["s"]})
 			if not cacheOk:
 				tmdb_url+="/season/%s" % param["s"]
-				seasonmeta = requests.get(tmdb_url, params=url_params).json()
+				seasonmeta = request_json("GET", tmdb_url, params=url_params, timeout=10, retries=1)
 				set_cache({"id": param["id"], "s":param["s"]}, seasonmeta, 75600)
 			if seasonmeta.get('translations') and len(seasonmeta['translations']['translations']) > 0:
 				overviews = seasonmeta['translations']['translations']
@@ -398,7 +440,7 @@ def get_meta(param):
 		cacheOk, meta = get_cache({"id": param["id"], "s":param["s"]})
 		if not cacheOk:
 			tmdb_url+="/season/%s" % param["s"]
-			meta = requests.get(tmdb_url, params=url_params).json()
+			meta = request_json("GET", tmdb_url, params=url_params, timeout=10, retries=1)
 			set_cache({"id": param["id"], "s":param["s"]}, meta, 75600)
 		_episodes = meta["episodes"]
 		episode = [i for i in _episodes if i["episode_number"] == int(param["e"])][0]
@@ -409,7 +451,7 @@ def get_meta(param):
 			cacheOk, episodemeta = get_cache({"id": param["id"], "s":param["s"], "e":param["e"]})
 			if not cacheOk:
 				tmdb_url+="/season/%s/episode/%s" % (param["s"], param["e"])
-				episodemeta = requests.get(tmdb_url, params=url_params).json()
+				episodemeta = request_json("GET", tmdb_url, params=url_params, timeout=10, retries=1)
 				set_cache({"id": param["id"], "s":param["s"], "e": param["e"]}, episodemeta, 75600)
 			if episodemeta.get('translations') and len(episodemeta['translations']['translations']) > 0:
 				overviews = episodemeta['translations']['translations']
@@ -463,7 +505,8 @@ def get_meta(param):
 
 def log(msg, header=""):
 	try: msg = json.dumps(msg, indent=4)
-	except: pass
+	except Exception:
+		pass
 	if header: header+="\n"
 	out = "\n####VAVOOTO####\n%s%s\n########" % (header, msg)
 	mode = xbmc.LOGINFO if addon.getSetting("debug") == "true" else xbmc.LOGDEBUG
@@ -474,7 +517,9 @@ def showFailedNotification(msg="Keine Streams gefunden"):
 	execute("Notification(VAVOO.TO,%s,5000,%s)" % (msg,addonInfo("icon")))
 	sys.exit()
 	
-def addDir(name, params, iconimage="DefaultFolder.png", isFolder=True, context=[]):
+def addDir(name, params, iconimage="DefaultFolder.png", isFolder=True, context=None):
+	if context is None:
+		context = []
 	liz = ListItem(name)
 	liz.setArt({"icon":iconimage, "thumb":iconimage})
 	plot = " "
@@ -488,7 +533,9 @@ def addDir(name, params, iconimage="DefaultFolder.png", isFolder=True, context=[
 	info_tag.set_info(infoLabels)
 	add(params, liz, isFolder)
 
-def addDir2(name_, icon_, action, context = [], isFolder=True, **params):
+def addDir2(name_, icon_, action, context=None, isFolder=True, **params):
+	if context is None:
+		context = []
 	params["action"] = action
 	iconimage = getIcon(icon_) if getIcon(icon_) else icon_
 	addDir(name_, params, iconimage, isFolder, context)
