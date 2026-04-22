@@ -2777,621 +2777,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20260421143402 +0000" stop="20260421153407 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race: 50 Crowd Favourites</title>
-<sub-title lang="en">Mayhem, crashes and creativity</sub-title>
-<desc lang="en">Red Bull Soapbox Race: a hilarious race format in homemade motorless racecars hurtling down obstacle-laden courses. Laugh along with our edit of 50 of the favourite designs and moments from 2014-2025.</desc>
-<category lang="en">Soapbox Race</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:a81bbd9a-a95c-4c0f-84fe-3e6dfb38ddf4/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/red-bull-soapbox-race-50-crowd-favourites</url>
-<episode-num system="redbull.com">episode/rrn:content:films:a81bbd9a-a95c-4c0f-84fe-3e6dfb38ddf4</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260421153407 +0000" stop="20260421162732 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race: 50 Fastest &amp; Fearless</title>
-<sub-title lang="en">Mayhem, crashes and creativity</sub-title>
-<desc lang="en">Red Bull Soapbox Race: a hilarious race format in homemade motorless racecars hurtling down steep, obstacle-filled courses. Laugh along with our edit of 50 of the fastest runs from 2014-2025.</desc>
-<category lang="en">Soapbox Race</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:fa34ae5e-a972-448a-988d-43db3becee78/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/red-bull-soapbox-race-50-fastest-and-fearless</url>
-<episode-num system="redbull.com">episode/rrn:content:films:fa34ae5e-a972-448a-988d-43db3becee78</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260421162732 +0000" stop="20260421171620 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race: 50 Craziest Crashes</title>
-<sub-title lang="en">Mayhem, crashes and creativity </sub-title>
-<desc lang="en">Red Bull Soapbox Race: a hilarious race format in homemade motorless racecars hurtling down steep, obstacle-filled courses. Laugh along with our edit of 50 of the craziest crashes from 2015-2025.</desc>
-<category lang="en">Soapbox Race</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:318c3611-d308-4f2a-8985-9ed75c735e6c/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/red-bull-soapbox-race-50-craziest-crashes</url>
-<episode-num system="redbull.com">episode/rrn:content:films:318c3611-d308-4f2a-8985-9ed75c735e6c</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260421171620 +0000" stop="20260421174150 +0000" channel="Red Bull TV.en"><title lang="en">ABC of...</title>
-<sub-title lang="en">ABC of... Climbing</sub-title>
-<desc lang="en">Join Sasha DiGiulian as she takes you on an expedition around the globe with some of the world's top climbers. Get to know the language, the equipment, the history, and so much more.</desc>
-<category lang="en">Climbing</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:6f25351b-f58a-5738-abee-3c43ecf4c5ac/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/abc-of-s2-e1-climbing</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:adda8e37-cc7c-4904-80f4-76413c1a0fbb</episode-num>
-<episode-num system="xmltv_ns">1.0.0</episode-num>
-<episode-num system="original-air-date">2023-09-11 05:37:58</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:6f25351b-f58a-5738-abee-3c43ecf4c5ac</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260421174150 +0000" stop="20260421180851 +0000" channel="Red Bull TV.en"><title lang="en">Natural Heights</title>
-<sub-title lang="en">Janja Garnbret vs her 10th world title</sub-title>
-<desc lang="en">Janja Garnbret is chasing her 10th world title, and the pressure is unlike anything she’s faced before. Will shifting to the outdoors for new motivation help her, or push her closer to cracking?</desc>
-<category lang="en">Climbing</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:12179bff-a8f7-404f-a6ca-cda54ad5d28f/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:b205052d-66f5-41ad-8f4b-4d4ea76f80ab/natural-heights-s1-e1</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:b205052d-66f5-41ad-8f4b-4d4ea76f80ab</episode-num>
-<episode-num system="xmltv_ns">0.0.0</episode-num>
-<episode-num system="original-air-date">2026-03-02 19:49:42</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:12179bff-a8f7-404f-a6ca-cda54ad5d28f</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260421180851 +0000" stop="20260421183333 +0000" channel="Red Bull TV.en"><title lang="en">Natural Heights</title>
-<sub-title lang="en">Jakob Schubert sends a 9c route</sub-title>
-<desc lang="en">Join Jakob Schubert in Flatanger, Norway, as he battles for the first ascent of 'B.I.G.' (9c), relying on experience, creativity and relentless commitment to unlock this historic line.</desc>
-<category lang="en">Climbing</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:12179bff-a8f7-404f-a6ca-cda54ad5d28f/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:f95fb031-0cda-4134-803c-9879e012d813/natural-heights-s1-e2</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:f95fb031-0cda-4134-803c-9879e012d813</episode-num>
-<episode-num system="xmltv_ns">0.1.0</episode-num>
-<episode-num system="original-air-date">2026-03-04 10:14:18</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:12179bff-a8f7-404f-a6ca-cda54ad5d28f</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260421183333 +0000" stop="20260421185737 +0000" channel="Red Bull TV.en"><title lang="en">Natural Heights</title>
-<sub-title lang="en">Nika Potapova: nothing to lose, but a lot to prove</sub-title>
-<desc lang="en">Nika Potapova is chasing the dream of becoming a pro climber, no matter the cost. The sacrifices are real, the pressure is constant and the outcome is far from guaranteed.</desc>
-<category lang="en">Climbing</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:12179bff-a8f7-404f-a6ca-cda54ad5d28f/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:33e76f0e-f60d-4f2f-b364-5eb0b75de5f4/natural-heights-s1-e3</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:33e76f0e-f60d-4f2f-b364-5eb0b75de5f4</episode-num>
-<episode-num system="xmltv_ns">0.2.0</episode-num>
-<episode-num system="original-air-date">2026-03-02 19:00:00</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:12179bff-a8f7-404f-a6ca-cda54ad5d28f</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260421185737 +0000" stop="20260421192315 +0000" channel="Red Bull TV.en"><title lang="en">Natural Heights</title>
-<sub-title lang="en">Alberto Ginés López takes on a 180m wall</sub-title>
-<desc lang="en">Alberto Ginés López taps into his competitive fire as he and partner Jenya Kazbekova race up 180m of hard multi-pitch climbing on Switzerland’s iconic Verzasca Dam. In this format, every move matters.</desc>
-<category lang="en">Climbing</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:12179bff-a8f7-404f-a6ca-cda54ad5d28f/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:e21529d9-0555-4b35-8b23-f5e304ff6b9e/natural-heights-s1-e4</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:e21529d9-0555-4b35-8b23-f5e304ff6b9e</episode-num>
-<episode-num system="xmltv_ns">0.3.0</episode-num>
-<episode-num system="original-air-date">2026-03-02 19:24:04</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:12179bff-a8f7-404f-a6ca-cda54ad5d28f</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260421192315 +0000" stop="20260421194845 +0000" channel="Red Bull TV.en"><title lang="en">Jaan Roose: Life on the Line</title>
-<sub-title lang="en">Planning a mind-boggling 3.6km slackline walk</sub-title>
-<desc lang="en">World champion slackliner Jaan Roose makes history as the first person to walk a record-breaking 3.6km slackline across the Strait of Messina, from mainland Italy to Sicily.</desc>
-<category lang="en">Slacklining</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:1270f178-903b-4427-9899-1e1fe576369a/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/jaan-roose-life-on-the-line</url>
-<episode-num system="redbull.com">episode/rrn:content:films:1270f178-903b-4427-9899-1e1fe576369a</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260421194845 +0000" stop="20260421201325 +0000" channel="Red Bull TV.en"><title lang="en">Adventures Unpacked with Beau Miles</title>
-<sub-title lang="en">The rapid no woman had ever run – Nouria Newman</sub-title>
-<desc lang="en">Nouria Newman shares how one adventure shaped her approach to expeditions. She and two friends kayaked one of the world's most challenging sections of whitewater: the Rondu Gorge in Pakistan.</desc>
-<category lang="en">Canoeing</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:ebf64d04-c622-4c37-8683-ebac1815005a/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/adventures-unpacked-with-beau-miles-s1-e1</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:6d27379d-575d-4670-8c57-fa203f887de7</episode-num>
-<episode-num system="xmltv_ns">0.0.0</episode-num>
-<episode-num system="original-air-date">2025-12-29 07:45:47</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:ebf64d04-c622-4c37-8683-ebac1815005a</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2025</date></programme>
-  <programme start="20260421201325 +0000" stop="20260421203927 +0000" channel="Red Bull TV.en"><title lang="en">Adventures Unpacked with Beau Miles</title>
-<sub-title lang="en">Skiing the world's 6,000m peaks – Jérémie Heitz</sub-title>
-<desc lang="en">Jérémie Heitz revisits his groundbreaking steep-skiing expeditions with Sam Anthamatten, journeys that took them across towering 6,000m peaks and some of the planet’s most formidable mountain ranges.</desc>
-<category lang="en">Skiing</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:ebf64d04-c622-4c37-8683-ebac1815005a/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/adventures-unpacked-with-beau-miles-s1-e3</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:41a595db-9414-44c3-8f83-649dafa83e22</episode-num>
-<episode-num system="xmltv_ns">0.2.0</episode-num>
-<episode-num system="original-air-date">2025-12-29 06:53:08</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:ebf64d04-c622-4c37-8683-ebac1815005a</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2025</date></programme>
-  <programme start="20260421203927 +0000" stop="20260421212033 +0000" channel="Red Bull TV.en"><title lang="en"/>
-<sub-title lang="en">Program information unavailable at this time</sub-title>
-<desc lang="en"/>
-<icon src="https://resources.redbull.tv/unknown/rbtv_display_art_portrait"/>
-<url/>
-<episode-num system="redbull.com">episode/unknown</episode-num>
-<episode-num system="original-air-date">2023-04-02 18:04:08</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260421212033 +0000" stop="20260421215624 +0000" channel="Red Bull TV.en"><title lang="en">Don't Look Down</title>
-<sub-title lang="en">How Kriss Kyle rode a BMX park in the sky</sub-title>
-<desc lang="en">2,000ft in the air. Sub-zero temperatures. Who said you can't ride a BMX park in the sky? This is how Kriss Kyle's daring idea grew into a mind-boggling feat of aeronautical engineering and BMX-riding skill.</desc>
-<category lang="en">Bmx</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:7485d80b-3833-4323-a778-3d2e50a87d41/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/dont-look-down</url>
-<episode-num system="redbull.com">episode/rrn:content:films:7485d80b-3833-4323-a778-3d2e50a87d41</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260421215624 +0000" stop="20260421222224 +0000" channel="Red Bull TV.en"><title lang="en">For Reals</title>
-<sub-title lang="en">From soapbox madness to skydiving with an FMX bike</sub-title>
-<desc lang="en">Snowboarding – or, rather sandboarding – in the desert. Rally cars on frozen lakes. The wackiness of soapbox racing. Skydiving with a motocross bike. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e9</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:25bd9023-2792-464f-a774-984f840f4a4e</episode-num>
-<episode-num system="xmltv_ns">0.8.0</episode-num>
-<episode-num system="original-air-date">2024-10-21 23:48:12</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2024</date></programme>
-  <programme start="20260421222224 +0000" stop="20260421224900 +0000" channel="Red Bull TV.en"><title lang="en">For Reals</title>
-<sub-title lang="en">From freerunning Greek isles to skiing the Streif</sub-title>
-<desc lang="en">A gnarly shipping container BMX set-up. Freerunning in Santorini. Taking on the Streif at night. Enduro riding on a volcano. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e8</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:ff4396fb-683e-449c-a211-427bd260059d</episode-num>
-<episode-num system="xmltv_ns">0.7.0</episode-num>
-<episode-num system="original-air-date">2024-10-21 23:21:36</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2024</date></programme>
-  <programme start="20260421224900 +0000" stop="20260421231500 +0000" channel="Red Bull TV.en"><title lang="en">For Reals</title>
-<sub-title lang="en">From a pinball human to 93kph speed skating</sub-title>
-<desc lang="en">Speed skating into the record books at 93kph. Office skateboarding. BASE jumping on Mount Everest. Diving into crocodile waters. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e3</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:8864b788-5908-493e-83ec-3421aa40df59</episode-num>
-<episode-num system="xmltv_ns">0.2.0</episode-num>
-<episode-num system="original-air-date">2024-10-20 23:46:52</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2024</date></programme>
-  <programme start="20260421231500 +0000" stop="20260421234100 +0000" channel="Red Bull TV.en"><title lang="en">For Reals</title>
-<sub-title lang="en">From skydiving with skis to flying into a volcano</sub-title>
-<desc lang="en">Flying a plane 245kph through a tunnel. A wingsuit flight across the crater of an active volcano. A record-breaking truck jump in a ghost town. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:f2cb2ce7-09e1-4656-a37f-a10c80b56502/for-reals-s1-e4</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:f2cb2ce7-09e1-4656-a37f-a10c80b56502</episode-num>
-<episode-num system="xmltv_ns">0.3.0</episode-num>
-<episode-num system="original-air-date">2024-10-21 00:13:28</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2024</date></programme>
-  <programme start="20260421234100 +0000" stop="20260422000736 +0000" channel="Red Bull TV.en"><title lang="en">For Reals</title>
-<sub-title lang="en">From BASE jumping a cave to a flying mega swing </sub-title>
-<desc lang="en">Wingsuit flying through London’s Tower Bridge at 246kph. Swinging from a hot air balloon. Slacklining the length of two football fields. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e7</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:2664328f-b440-42e2-9241-b99235650fb9</episode-num>
-<episode-num system="xmltv_ns">0.6.0</episode-num>
-<episode-num system="original-air-date">2024-10-21 22:55:36</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2024</date></programme>
-  <programme start="20260422000736 +0000" stop="20260422011321 +0000" channel="Red Bull TV.en"><title lang="en">ANYTIME</title>
-<sub-title lang="en">A 2025 Emmy® Award-winning film, where epic freeride mountain biking is redefined - presented by Shimano</sub-title>
-<desc lang="en">Winner of a 2025 Emmy® Award, this generational freeride mountain bike film from Red Bull Media House and Anthill Films follows the ambitions of a small group of elite riders as they attempt to redefine the frontiers of the sport.</desc>
-<category lang="en">Mountain Bike Freestyle</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:f9d7a128-fd11-4e0c-9049-77de0f9515bd/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/anytime</url>
-<episode-num system="redbull.com">episode/rrn:content:films:f9d7a128-fd11-4e0c-9049-77de0f9515bd</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260422011321 +0000" stop="20260422013915 +0000" channel="Red Bull TV.en"><title lang="en">ABC of...</title>
-<sub-title lang="en">ABC of... BMX</sub-title>
-<desc lang="en">BMX, or Bicycle Motocross, has a long and rich history with creative riders constantly improving the sport. Get to know the ways this sport has continued to develop thanks to so many pioneers.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:6f25351b-f58a-5738-abee-3c43ecf4c5ac/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/abc-of-bmx-abc-of-s01-e17</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:18728d16-065e-5778-b49a-b0c90a0dd835</episode-num>
-<episode-num system="xmltv_ns">0.16.0</episode-num>
-<episode-num system="original-air-date">2023-09-10 11:44:26</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:6f25351b-f58a-5738-abee-3c43ecf4c5ac</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260422013915 +0000" stop="20260422021112 +0000" channel="Red Bull TV.en"><title lang="en">20 Years of Red Bull Valparaíso Cerro Abajo</title>
-<sub-title lang="en">The story behind the largest urban downhill race in the world</sub-title>
-<desc lang="en">Relive 20 years of the largest urban downhill race in the world and learn about the beginnings of Red Bull Valparaíso Cerro Abajo as an idea that arose among a group of friends.</desc>
-<category lang="en">Mountain Bike Downhill</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:7e191ebf-5078-4ce6-9031-a0f99da6d9fa/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:films:7e191ebf-5078-4ce6-9031-a0f99da6d9fa/20-years-of-red-bull-valparaiso-cerro-abajo</url>
-<episode-num system="redbull.com">episode/rrn:content:films:7e191ebf-5078-4ce6-9031-a0f99da6d9fa</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260422021112 +0000" stop="20260422025418 +0000" channel="Red Bull TV.en"><title lang="en">Encouraged: Building the Future</title>
-<sub-title lang="en">BMXer Courage Adams goes home to build a skatepark</sub-title>
-<desc lang="en">Courage Adams returns to Nigeria to build the first-ever skatepark in Lagos, giving local BMX fanatics the opportunity to push the limits of the local sports scene. </desc>
-<category lang="en">Bmx</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:ce2581ae-ab9d-4a00-9205-4d21ca07414a/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/encouraged-2</url>
-<episode-num system="redbull.com">episode/rrn:content:films:ce2581ae-ab9d-4a00-9205-4d21ca07414a</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260422025418 +0000" stop="20260422032050 +0000" channel="Red Bull TV.en"><title lang="en">ABC of...</title>
-<sub-title lang="en">ABC of... Mountain Biking</sub-title>
-<desc lang="en">Rob Warner gives a master class in all things mountain biking, from terminology and disciplines to history and heroes of the sport – a must for anyone looking to test their mettle in the world of MTB.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:6f25351b-f58a-5738-abee-3c43ecf4c5ac/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/abc-of-mountain-biking-abc-of-s01-e07</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:c45e932d-d37b-5ba9-b23e-391d4ad233f6</episode-num>
-<episode-num system="xmltv_ns">0.6.0</episode-num>
-<episode-num system="original-air-date">2023-05-14 05:27:53</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:6f25351b-f58a-5738-abee-3c43ecf4c5ac</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260422032050 +0000" stop="20260422042456 +0000" channel="Red Bull TV.en"><title lang="en">Emerald Storm</title>
-<sub-title lang="en">The history of Irish downhill mountain biking</sub-title>
-<desc lang="en">Across four decades and five generations, watch the evolution of Irish MTB, from casual rides with friends to fierce battles on the world’s biggest stage: the UCI Downhill World Cup.</desc>
-<category lang="en">Mountain Bike Downhill</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:d64dfe6f-7616-4e0b-8932-65f4d928f004/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/emerald-storm</url>
-<episode-num system="redbull.com">episode/rrn:content:films:d64dfe6f-7616-4e0b-8932-65f4d928f004</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260422042456 +0000" stop="20260422045106 +0000" channel="Red Bull TV.en"><title lang="en">ABC of...</title>
-<sub-title lang="en">ABC of... Drifting</sub-title>
-<desc lang="en">Driver Dave Egan gives the lowdown on one of the craziest motorsports around: drifting. From the rules to the people, get a crash course on the sport that's all about speed, style, smoke and skill.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:6f25351b-f58a-5738-abee-3c43ecf4c5ac/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/abc-of-drifting</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:a8e10ac7-f6ab-47ef-8a5d-397b52bdf5ed</episode-num>
-<episode-num system="xmltv_ns">1.2.0</episode-num>
-<episode-num system="original-air-date">2023-05-14 16:19:53</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:6f25351b-f58a-5738-abee-3c43ecf4c5ac</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260422045106 +0000" stop="20260422050148 +0000" channel="Red Bull TV.en"><title lang="en">Drift Queen</title>
-<sub-title lang="en">Back behind the wheel</sub-title>
-<desc lang="en">From knowing absolutely nothing about drifting to being dropped right in the middle of it, Becky Evans, aka Queen B, has fallen in love with drifting. But does she have what it takes to compete?</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:1baca8be-771f-5044-9888-b136d8c94002/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/drift-queen-s2-e1</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:9ab519de-520f-4801-9c98-6cc3b81e38f2</episode-num>
-<episode-num system="xmltv_ns">1.0.0</episode-num>
-<episode-num system="original-air-date">2026-04-20 22:43:29</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:1baca8be-771f-5044-9888-b136d8c94002</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260422050148 +0000" stop="20260422051213 +0000" channel="Red Bull TV.en"><title lang="en">Drift Queen</title>
-<sub-title lang="en">Hand brake 101</sub-title>
-<desc lang="en">Queen B is back in Garage D getting her drift car competition-ready. As new gadgets are added to the car, she finds herself having to learn new tricks.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:1baca8be-771f-5044-9888-b136d8c94002/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/drift-queen-s2-e2</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:72c43f44-d0fa-4e68-8478-89acbafae091</episode-num>
-<episode-num system="xmltv_ns">1.1.0</episode-num>
-<episode-num system="original-air-date">2026-03-17 21:27:09</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:1baca8be-771f-5044-9888-b136d8c94002</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260422051213 +0000" stop="20260422052222 +0000" channel="Red Bull TV.en"><title lang="en">Drift Queen</title>
-<sub-title lang="en">Goodwood Festival of Speed</sub-title>
-<desc lang="en">Join Becky Evans, aka Queen B, as she heads to Goodwood to tap up some of the biggest names in drifting for advice ahead of her first drifting competition.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:1baca8be-771f-5044-9888-b136d8c94002/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/drift-queen-s2-e3</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:c8fe5a60-797e-4b9f-a21b-cccfd5d37e62</episode-num>
-<episode-num system="xmltv_ns">1.2.0</episode-num>
-<episode-num system="original-air-date">2026-04-20 23:04:37</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:1baca8be-771f-5044-9888-b136d8c94002</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260422052222 +0000" stop="20260422053510 +0000" channel="Red Bull TV.en"><title lang="en">Drift Queen</title>
-<sub-title lang="en">Track training in Ireland</sub-title>
-<desc lang="en">Queen B heads to Ireland to team up with reigning Formula D champion James Deane for some serious track training. The time crunch starts to weigh on her and she gives it everything she has.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:1baca8be-771f-5044-9888-b136d8c94002/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/drift-queen-s2-e4</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:5dd97343-50c5-410e-a8ff-501fbad4f5ef</episode-num>
-<episode-num system="xmltv_ns">1.3.0</episode-num>
-<episode-num system="original-air-date">2026-03-17 21:02:10</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:1baca8be-771f-5044-9888-b136d8c94002</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260422053510 +0000" stop="20260422054335 +0000" channel="Red Bull TV.en"><title lang="en">Drift Queen</title>
-<sub-title lang="en">How to approach a line</sub-title>
-<desc lang="en">With only four weeks to go before the DriftCup competition Queen B takes the opportunity to go to Scotland and find out how other drifters approach their lines.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:1baca8be-771f-5044-9888-b136d8c94002/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/drift-queen-s2-e5</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:c3aada4b-41cd-4e37-97fd-7e8fc1587e2c</episode-num>
-<episode-num system="xmltv_ns">1.4.0</episode-num>
-<episode-num system="original-air-date">2026-04-20 23:27:34</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:1baca8be-771f-5044-9888-b136d8c94002</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260422054335 +0000" stop="20260422055132 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
-<sub-title lang="en">2016's best runs</sub-title>
-<desc lang="en">Fearless was very much the watch word during 2016's Red Bull Soapbox Races, as these flat out and crash-filled runs from Santiago to Mumbai and Cork show.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-fast-and-fearless-e3</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:c7ea1b5d-6a2b-4ba2-a5d4-a5b31fd8671e</episode-num>
-<episode-num system="xmltv_ns">0.2.0</episode-num>
-<episode-num system="original-air-date">2023-04-30 13:17:03</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260422055132 +0000" stop="20260422060000 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
-<sub-title lang="en">2014's best crashes and smashes</sub-title>
-<desc lang="en">Want to see the Popemobile take a massive front flip spill? Of course you do, so hit play and enjoy 2014's funniest crashes and smashes.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-craziest-crashes-e1</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:d221a98e-6be1-4f97-b1ed-f452c9993745</episode-num>
-<episode-num system="xmltv_ns">2.0.0</episode-num>
-<episode-num system="original-air-date">2024-04-06 19:53:54</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2024</date></programme>
-  <programme start="20260422060000 +0000" stop="20260422061519 +0000" channel="Red Bull TV.en"><title lang="en">Drift Queen</title>
-<sub-title lang="en">Up for the DriftCup</sub-title>
-<desc lang="en">After some last-minute finishing touches in the custom shop, Queen B and crew head to Scotland for her first-ever drifting competition.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:1baca8be-771f-5044-9888-b136d8c94002/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/drift-queen-s2-e8</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:e777c3a0-6116-444a-94c6-b1e513f11a7f</episode-num>
-<episode-num system="xmltv_ns">1.7.0</episode-num>
-<episode-num system="original-air-date">2026-03-17 21:37:35</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:1baca8be-771f-5044-9888-b136d8c94002</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260422061519 +0000" stop="20260422064037 +0000" channel="Red Bull TV.en"><title lang="en"/>
-<sub-title lang="en">Program information unavailable at this time</sub-title>
-<desc lang="en"/>
-<icon src="https://resources.redbull.tv/unknown/rbtv_display_art_portrait"/>
-<url/>
-<episode-num system="redbull.com">episode/unknown</episode-num>
-<episode-num system="original-air-date">2023-04-02 18:04:08</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260422064037 +0000" stop="20260422065753 +0000" channel="Red Bull TV.en"><title lang="en">Flight Plan: Lawrence Brothers</title>
-<sub-title lang="en">Pro motocross prodigy</sub-title>
-<desc lang="en">Jett’s 2021 summer kicked off by taking an early lead in the 250 Pro Motocross Championship, while he had a surprise meeting with a fellow former motocross prodigy: Travis Pastrana.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:f8954397-470c-4120-8883-e862d4eea331/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/flight-plan-the-jett-lawrence-series-s1-e1</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:9880afd2-2a2f-49a6-b2b6-02068890120e</episode-num>
-<episode-num system="xmltv_ns">0.0.0</episode-num>
-<episode-num system="original-air-date">2023-08-13 11:39:49</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:f8954397-470c-4120-8883-e862d4eea331</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260422065753 +0000" stop="20260422071624 +0000" channel="Red Bull TV.en"><title lang="en">Flight Plan: Lawrence Brothers</title>
-<sub-title lang="en">Ignoring distractions</sub-title>
-<desc lang="en">The road to success isn't always easy, and the Lawrences know all about making sacrifices. Efforts culminate for the family though when Jett closes in on the 250 Pro Motocross 2021 title at Hangtown.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:f8954397-470c-4120-8883-e862d4eea331/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/flight-plan-the-jett-lawrence-series-s1-e2</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:85c88493-f26a-4515-a206-25735d5b11c8</episode-num>
-<episode-num system="xmltv_ns">0.1.0</episode-num>
-<episode-num system="original-air-date">2023-08-13 11:57:06</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:f8954397-470c-4120-8883-e862d4eea331</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260422071624 +0000" stop="20260422073401 +0000" channel="Red Bull TV.en"><title lang="en">Flight Plan: Lawrence Brothers</title>
-<sub-title lang="en">Donut bet with Márquez</sub-title>
-<desc lang="en">Jett travels to Texas for the Grand Prix of the Americas to rip minis with multi-time MotoGP™ world champ Marc Márquez, and makes a deal with Marc to give him a donut on the podium if he wins the GP.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:f8954397-470c-4120-8883-e862d4eea331/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/flight-plan-the-jett-lawrence-series-s1-e3</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:fadcb6f9-01bd-4494-bf1f-5c397d4a01ce</episode-num>
-<episode-num system="xmltv_ns">0.2.0</episode-num>
-<episode-num system="original-air-date">2023-08-13 12:15:36</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:f8954397-470c-4120-8883-e862d4eea331</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260422073401 +0000" stop="20260422074944 +0000" channel="Red Bull TV.en"><title lang="en">Flight Plan: Lawrence Brothers</title>
-<sub-title lang="en">Business of Supercross</sub-title>
-<desc lang="en">Jett preps for the 2022 AMA Supercross season and Hunter rips pit bikes with a fellow Aussie motorsport legend, F1’s Daniel Ricciardo. And Jett’s agent kicks off plans for the Jettson clothing brand.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:f8954397-470c-4120-8883-e862d4eea331/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/flight-plan-the-jett-lawrence-series-s1-e4</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:e10178c9-c39a-4506-a656-7dda7bd3cb3b</episode-num>
-<episode-num system="xmltv_ns">0.3.0</episode-num>
-<episode-num system="original-air-date">2023-08-20 09:25:40</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:f8954397-470c-4120-8883-e862d4eea331</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260422074944 +0000" stop="20260422080827 +0000" channel="Red Bull TV.en"><title lang="en">Flight Plan: Lawrence Brothers</title>
-<sub-title lang="en">The Motocross of Nations</sub-title>
-<desc lang="en">Jett and Hunter team up on the track representing Team Australia at the Motocross of Nations at Red Bud, where Jett makes his professional debut on the factory Honda CRF450.</desc>
-<category lang="en">Motocross</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:f8954397-470c-4120-8883-e862d4eea331/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:6e7c18bf-594a-4566-8ea8-97365bcf713d/flight-plan-s2-e5</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:6e7c18bf-594a-4566-8ea8-97365bcf713d</episode-num>
-<episode-num system="xmltv_ns">1.4.0</episode-num>
-<episode-num system="original-air-date">2023-05-28 10:02:56</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:f8954397-470c-4120-8883-e862d4eea331</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260422080827 +0000" stop="20260422083354 +0000" channel="Red Bull TV.en"><title lang="en">ABC of...</title>
-<sub-title lang="en">ABC of... Skateboarding</sub-title>
-<desc lang="en">See how skateboarding is all about self-expression through the sport's history, from the pioneers of sidewalk surfing to today's top skateboarders.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:6f25351b-f58a-5738-abee-3c43ecf4c5ac/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/abc-of-skateboarding-abc-of-s01-e13</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:835b1138-ae1e-5028-9cad-43b6ebaf9167</episode-num>
-<episode-num system="xmltv_ns">0.12.0</episode-num>
-<episode-num system="original-air-date">2026-02-11 07:40:51</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:6f25351b-f58a-5738-abee-3c43ecf4c5ac</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260422083354 +0000" stop="20260422085355 +0000" channel="Red Bull TV.en"><title lang="en">Leticia Pushes Mzansi</title>
-<sub-title lang="en">Meet the ladies of South Africa's skate scene</sub-title>
-<desc lang="en">Leticia Bufoni and Aldana Bertran explore South Africa's flourishing female skate scene from Johannesburg to Cape Town as they meet legend Melissa Williams and a new wave of rippers.</desc>
-<category lang="en">Skateboarding</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:167d2ec5-97a9-4483-a131-4e750602aadb/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/leticia-pushes-mzansi</url>
-<episode-num system="redbull.com">episode/rrn:content:films:167d2ec5-97a9-4483-a131-4e750602aadb</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260422085355 +0000" stop="20260422091426 +0000" channel="Red Bull TV.en"><title lang="en">Sandro Dias redefines the limits of skateboarding</title>
-<sub-title lang="en">Red Bull Building Drop highlights</sub-title>
-<desc lang="en">Sandro Dias brings to life the urban legend of skating down a building shaped like a quarter pipe, and redefines the limits of skateboarding. Watch as he sets two new world records.</desc>
-<category lang="en">Skateboarding</category>
-<icon src="https://resources.redbull.tv/rrn:content:videos:23c897ba-69d6-4d14-b2ea-13602ade4a6d/rbtv_display_art_portrait"/>
-<url>https://www.redbull.com/int-en/videos/red-bull-building-drop-2025-highlights</url>
-<episode-num system="redbull.com">episode/rrn:content:videos:23c897ba-69d6-4d14-b2ea-13602ade4a6d</episode-num>
-<episode-num system="original-air-date">2025-10-01 19:00:00</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2025</date></programme>
-  <programme start="20260422091426 +0000" stop="20260422094826 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Drop In Tour</title>
-<sub-title lang="en">South America Tour</sub-title>
-<desc lang="en">Skaters Ryan Sheckler, Jamie Foy, Torey Pudwill, Felipe Gustavo, Ryan Decenzo, Alex Sorgente, Angelo Caro, Gustavo Ribeiro, Gavin Bottger and friends rip right through Brazil, Argentina and Chile.</desc>
-<category lang="en">Skateboard Street</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:94a86d40-5c7d-4f01-95b7-838b6c5fb48e/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/red-bull-drop-in-tour-south-america-tour</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:daaded1a-97a0-48d8-8136-a64224913a29</episode-num>
-<episode-num system="xmltv_ns">0.3.0</episode-num>
-<episode-num system="original-air-date">2025-04-23 12:26:15</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:94a86d40-5c7d-4f01-95b7-838b6c5fb48e</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2025</date></programme>
-  <programme start="20260422094826 +0000" stop="20260422102151 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Drop In Tour</title>
-<sub-title lang="en">Australia Tour</sub-title>
-<desc lang="en">Enjoy Jamie Foy, Torey Pudwill, Felipe Gustavo, TJ Rogers, Zion Wright, Gustavo Ribeiro, Alex Sorgente, Jake Wooten and Leticia Bufoni rocking four jam-packed skate demos.</desc>
-<category lang="en">Skateboarding</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:94a86d40-5c7d-4f01-95b7-838b6c5fb48e/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/red-bull-drop-in-tour-australia-tour</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:a4ec7627-fd8b-433a-9d9f-fced16e9cdbf</episode-num>
-<episode-num system="xmltv_ns">0.2.0</episode-num>
-<episode-num system="original-air-date">2024-01-14 04:06:44</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:94a86d40-5c7d-4f01-95b7-838b6c5fb48e</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2024</date></programme>
-  <programme start="20260422102151 +0000" stop="20260422111902 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race: 50 Genius Designs</title>
-<sub-title lang="en">Mayhem, crashes and creativity</sub-title>
-<desc lang="en">Red Bull Soapbox Race: a hilarious race format in homemade motorless racecars hurtling down steep, obstacle-filled courses. Laugh along with our edit of 50 of the most genius designs from 2014-2025.</desc>
-<category lang="en">Soapbox Race</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:69d16b4b-e32b-417e-bf66-1f5cca38c218/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/red-bull-soapbox-race-50-genius-designs</url>
-<episode-num system="redbull.com">episode/rrn:content:films:69d16b4b-e32b-417e-bf66-1f5cca38c218</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260422111902 +0000" stop="20260422121908 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race: 50 Crowd Favourites</title>
-<sub-title lang="en">Mayhem, crashes and creativity</sub-title>
-<desc lang="en">Red Bull Soapbox Race: a hilarious race format in homemade motorless racecars hurtling down obstacle-laden courses. Laugh along with our edit of 50 of the favourite designs and moments from 2014-2025.</desc>
-<category lang="en">Soapbox Race</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:a81bbd9a-a95c-4c0f-84fe-3e6dfb38ddf4/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/red-bull-soapbox-race-50-crowd-favourites</url>
-<episode-num system="redbull.com">episode/rrn:content:films:a81bbd9a-a95c-4c0f-84fe-3e6dfb38ddf4</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260422121908 +0000" stop="20260422131232 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race: 50 Fastest &amp; Fearless</title>
-<sub-title lang="en">Mayhem, crashes and creativity</sub-title>
-<desc lang="en">Red Bull Soapbox Race: a hilarious race format in homemade motorless racecars hurtling down steep, obstacle-filled courses. Laugh along with our edit of 50 of the fastest runs from 2014-2025.</desc>
-<category lang="en">Soapbox Race</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:fa34ae5e-a972-448a-988d-43db3becee78/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/red-bull-soapbox-race-50-fastest-and-fearless</url>
-<episode-num system="redbull.com">episode/rrn:content:films:fa34ae5e-a972-448a-988d-43db3becee78</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260422131232 +0000" stop="20260422140120 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race: 50 Craziest Crashes</title>
-<sub-title lang="en">Mayhem, crashes and creativity </sub-title>
-<desc lang="en">Red Bull Soapbox Race: a hilarious race format in homemade motorless racecars hurtling down steep, obstacle-filled courses. Laugh along with our edit of 50 of the craziest crashes from 2015-2025.</desc>
-<category lang="en">Soapbox Race</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:318c3611-d308-4f2a-8985-9ed75c735e6c/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/red-bull-soapbox-race-50-craziest-crashes</url>
-<episode-num system="redbull.com">episode/rrn:content:films:318c3611-d308-4f2a-8985-9ed75c735e6c</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260422140120 +0000" stop="20260422142650 +0000" channel="Red Bull TV.en"><title lang="en">ABC of...</title>
-<sub-title lang="en">ABC of... Climbing</sub-title>
-<desc lang="en">Join Sasha DiGiulian as she takes you on an expedition around the globe with some of the world's top climbers. Get to know the language, the equipment, the history, and so much more.</desc>
-<category lang="en">Climbing</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:6f25351b-f58a-5738-abee-3c43ecf4c5ac/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/abc-of-s2-e1-climbing</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:adda8e37-cc7c-4904-80f4-76413c1a0fbb</episode-num>
-<episode-num system="xmltv_ns">1.0.0</episode-num>
-<episode-num system="original-air-date">2023-09-11 05:37:58</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:6f25351b-f58a-5738-abee-3c43ecf4c5ac</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
   <programme start="20260422142650 +0000" stop="20260422145351 +0000" channel="Red Bull TV.en"><title lang="en">Natural Heights</title>
 <sub-title lang="en">Janja Garnbret vs her 10th world title</sub-title>
 <desc lang="en">Janja Garnbret is chasing her 10th world title, and the pressure is unlike anything she’s faced before. Will shifting to the outdoors for new motivation help her, or push her closer to cracking?</desc>
@@ -3473,6 +2858,662 @@
 <value>NR</value>
 </rating>
 <date>2025</date></programme>
+  <programme start="20260422165826 +0000" stop="20260422172427 +0000" channel="Red Bull TV.en"><title lang="en">Adventures Unpacked with Beau Miles</title>
+<sub-title lang="en">Skiing the world's 6,000m peaks – Jérémie Heitz</sub-title>
+<desc lang="en">Jérémie Heitz revisits his groundbreaking steep-skiing expeditions with Sam Anthamatten, journeys that took them across towering 6,000m peaks and some of the planet’s most formidable mountain ranges.</desc>
+<category lang="en">Skiing</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:ebf64d04-c622-4c37-8683-ebac1815005a/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/adventures-unpacked-with-beau-miles-s1-e3</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:41a595db-9414-44c3-8f83-649dafa83e22</episode-num>
+<episode-num system="xmltv_ns">0.2.0</episode-num>
+<episode-num system="original-air-date">2025-12-29 06:53:08</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:ebf64d04-c622-4c37-8683-ebac1815005a</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2025</date></programme>
+  <programme start="20260422172427 +0000" stop="20260422180534 +0000" channel="Red Bull TV.en"><title lang="en"/>
+<sub-title lang="en">Program information unavailable at this time</sub-title>
+<desc lang="en"/>
+<icon src="https://resources.redbull.tv/unknown/rbtv_display_art_portrait"/>
+<url/>
+<episode-num system="redbull.com">episode/unknown</episode-num>
+<episode-num system="original-air-date">2023-04-02 18:04:08</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260422180534 +0000" stop="20260422184124 +0000" channel="Red Bull TV.en"><title lang="en">Don't Look Down</title>
+<sub-title lang="en">How Kriss Kyle rode a BMX park in the sky</sub-title>
+<desc lang="en">2,000ft in the air. Sub-zero temperatures. Who said you can't ride a BMX park in the sky? This is how Kriss Kyle's daring idea grew into a mind-boggling feat of aeronautical engineering and BMX-riding skill.</desc>
+<category lang="en">Bmx</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:7485d80b-3833-4323-a778-3d2e50a87d41/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/dont-look-down</url>
+<episode-num system="redbull.com">episode/rrn:content:films:7485d80b-3833-4323-a778-3d2e50a87d41</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260422184124 +0000" stop="20260422190724 +0000" channel="Red Bull TV.en"><title lang="en">For Reals</title>
+<sub-title lang="en">From soapbox madness to skydiving with an FMX bike</sub-title>
+<desc lang="en">Snowboarding – or, rather sandboarding – in the desert. Rally cars on frozen lakes. The wackiness of soapbox racing. Skydiving with a motocross bike. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e9</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:25bd9023-2792-464f-a774-984f840f4a4e</episode-num>
+<episode-num system="xmltv_ns">0.8.0</episode-num>
+<episode-num system="original-air-date">2024-10-21 23:48:12</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2024</date></programme>
+  <programme start="20260422190724 +0000" stop="20260422193400 +0000" channel="Red Bull TV.en"><title lang="en">For Reals</title>
+<sub-title lang="en">From freerunning Greek isles to skiing the Streif</sub-title>
+<desc lang="en">A gnarly shipping container BMX set-up. Freerunning in Santorini. Taking on the Streif at night. Enduro riding on a volcano. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e8</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:ff4396fb-683e-449c-a211-427bd260059d</episode-num>
+<episode-num system="xmltv_ns">0.7.0</episode-num>
+<episode-num system="original-air-date">2024-10-21 23:21:36</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2024</date></programme>
+  <programme start="20260422193400 +0000" stop="20260422200000 +0000" channel="Red Bull TV.en"><title lang="en">For Reals</title>
+<sub-title lang="en">From a pinball human to 93kph speed skating</sub-title>
+<desc lang="en">Speed skating into the record books at 93kph. Office skateboarding. BASE jumping on Mount Everest. Diving into crocodile waters. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e3</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:8864b788-5908-493e-83ec-3421aa40df59</episode-num>
+<episode-num system="xmltv_ns">0.2.0</episode-num>
+<episode-num system="original-air-date">2024-10-20 23:46:52</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2024</date></programme>
+  <programme start="20260422200000 +0000" stop="20260422202600 +0000" channel="Red Bull TV.en"><title lang="en">For Reals</title>
+<sub-title lang="en">From skydiving with skis to flying into a volcano</sub-title>
+<desc lang="en">Flying a plane 245kph through a tunnel. A wingsuit flight across the crater of an active volcano. A record-breaking truck jump in a ghost town. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:f2cb2ce7-09e1-4656-a37f-a10c80b56502/for-reals-s1-e4</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:f2cb2ce7-09e1-4656-a37f-a10c80b56502</episode-num>
+<episode-num system="xmltv_ns">0.3.0</episode-num>
+<episode-num system="original-air-date">2024-10-21 00:13:28</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2024</date></programme>
+  <programme start="20260422202600 +0000" stop="20260422205236 +0000" channel="Red Bull TV.en"><title lang="en">For Reals</title>
+<sub-title lang="en">From BASE jumping a cave to a flying mega swing </sub-title>
+<desc lang="en">Wingsuit flying through London’s Tower Bridge at 246kph. Swinging from a hot air balloon. Slacklining the length of two football fields. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e7</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:2664328f-b440-42e2-9241-b99235650fb9</episode-num>
+<episode-num system="xmltv_ns">0.6.0</episode-num>
+<episode-num system="original-air-date">2024-10-21 22:55:36</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2024</date></programme>
+  <programme start="20260422205236 +0000" stop="20260422215821 +0000" channel="Red Bull TV.en"><title lang="en">ANYTIME</title>
+<sub-title lang="en">A 2025 Emmy® Award-winning film, where epic freeride mountain biking is redefined - presented by Shimano</sub-title>
+<desc lang="en">Winner of a 2025 Emmy® Award, this generational freeride mountain bike film from Red Bull Media House and Anthill Films follows the ambitions of a small group of elite riders as they attempt to redefine the frontiers of the sport.</desc>
+<category lang="en">Mountain Bike Freestyle</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:f9d7a128-fd11-4e0c-9049-77de0f9515bd/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/anytime</url>
+<episode-num system="redbull.com">episode/rrn:content:films:f9d7a128-fd11-4e0c-9049-77de0f9515bd</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260422215821 +0000" stop="20260422222415 +0000" channel="Red Bull TV.en"><title lang="en">ABC of...</title>
+<sub-title lang="en">ABC of... BMX</sub-title>
+<desc lang="en">BMX, or Bicycle Motocross, has a long and rich history with creative riders constantly improving the sport. Get to know the ways this sport has continued to develop thanks to so many pioneers.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:6f25351b-f58a-5738-abee-3c43ecf4c5ac/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/abc-of-bmx-abc-of-s01-e17</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:18728d16-065e-5778-b49a-b0c90a0dd835</episode-num>
+<episode-num system="xmltv_ns">0.16.0</episode-num>
+<episode-num system="original-air-date">2023-09-10 11:44:26</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:6f25351b-f58a-5738-abee-3c43ecf4c5ac</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260422222415 +0000" stop="20260422225612 +0000" channel="Red Bull TV.en"><title lang="en">20 Years of Red Bull Valparaíso Cerro Abajo</title>
+<sub-title lang="en">The story behind the largest urban downhill race in the world</sub-title>
+<desc lang="en">Relive 20 years of the largest urban downhill race in the world and learn about the beginnings of Red Bull Valparaíso Cerro Abajo as an idea that arose among a group of friends.</desc>
+<category lang="en">Mountain Bike Downhill</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:7e191ebf-5078-4ce6-9031-a0f99da6d9fa/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:films:7e191ebf-5078-4ce6-9031-a0f99da6d9fa/20-years-of-red-bull-valparaiso-cerro-abajo</url>
+<episode-num system="redbull.com">episode/rrn:content:films:7e191ebf-5078-4ce6-9031-a0f99da6d9fa</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260422225612 +0000" stop="20260422233918 +0000" channel="Red Bull TV.en"><title lang="en">Encouraged: Building the Future</title>
+<sub-title lang="en">BMXer Courage Adams goes home to build a skatepark</sub-title>
+<desc lang="en">Courage Adams returns to Nigeria to build the first-ever skatepark in Lagos, giving local BMX fanatics the opportunity to push the limits of the local sports scene. </desc>
+<category lang="en">Bmx</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:ce2581ae-ab9d-4a00-9205-4d21ca07414a/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/encouraged-2</url>
+<episode-num system="redbull.com">episode/rrn:content:films:ce2581ae-ab9d-4a00-9205-4d21ca07414a</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260422233918 +0000" stop="20260423000550 +0000" channel="Red Bull TV.en"><title lang="en">ABC of...</title>
+<sub-title lang="en">ABC of... Mountain Biking</sub-title>
+<desc lang="en">Rob Warner gives a master class in all things mountain biking, from terminology and disciplines to history and heroes of the sport – a must for anyone looking to test their mettle in the world of MTB.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:6f25351b-f58a-5738-abee-3c43ecf4c5ac/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/abc-of-mountain-biking-abc-of-s01-e07</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:c45e932d-d37b-5ba9-b23e-391d4ad233f6</episode-num>
+<episode-num system="xmltv_ns">0.6.0</episode-num>
+<episode-num system="original-air-date">2023-05-14 05:27:53</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:6f25351b-f58a-5738-abee-3c43ecf4c5ac</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260423000550 +0000" stop="20260423010956 +0000" channel="Red Bull TV.en"><title lang="en">Emerald Storm</title>
+<sub-title lang="en">The history of Irish downhill mountain biking</sub-title>
+<desc lang="en">Across four decades and five generations, watch the evolution of Irish MTB, from casual rides with friends to fierce battles on the world’s biggest stage: the UCI Downhill World Cup.</desc>
+<category lang="en">Mountain Bike Downhill</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:d64dfe6f-7616-4e0b-8932-65f4d928f004/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/emerald-storm</url>
+<episode-num system="redbull.com">episode/rrn:content:films:d64dfe6f-7616-4e0b-8932-65f4d928f004</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260423010956 +0000" stop="20260423013606 +0000" channel="Red Bull TV.en"><title lang="en">ABC of...</title>
+<sub-title lang="en">ABC of... Drifting</sub-title>
+<desc lang="en">Driver Dave Egan gives the lowdown on one of the craziest motorsports around: drifting. From the rules to the people, get a crash course on the sport that's all about speed, style, smoke and skill.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:6f25351b-f58a-5738-abee-3c43ecf4c5ac/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/abc-of-drifting</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:a8e10ac7-f6ab-47ef-8a5d-397b52bdf5ed</episode-num>
+<episode-num system="xmltv_ns">1.2.0</episode-num>
+<episode-num system="original-air-date">2023-05-14 16:19:53</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:6f25351b-f58a-5738-abee-3c43ecf4c5ac</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260423013606 +0000" stop="20260423014648 +0000" channel="Red Bull TV.en"><title lang="en">Drift Queen</title>
+<sub-title lang="en">Back behind the wheel</sub-title>
+<desc lang="en">From knowing absolutely nothing about drifting to being dropped right in the middle of it, Becky Evans, aka Queen B, has fallen in love with drifting. But does she have what it takes to compete?</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:1baca8be-771f-5044-9888-b136d8c94002/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/drift-queen-s2-e1</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:9ab519de-520f-4801-9c98-6cc3b81e38f2</episode-num>
+<episode-num system="xmltv_ns">1.0.0</episode-num>
+<episode-num system="original-air-date">2026-04-20 22:43:29</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:1baca8be-771f-5044-9888-b136d8c94002</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260423014648 +0000" stop="20260423015714 +0000" channel="Red Bull TV.en"><title lang="en">Drift Queen</title>
+<sub-title lang="en">Hand brake 101</sub-title>
+<desc lang="en">Queen B is back in Garage D getting her drift car competition-ready. As new gadgets are added to the car, she finds herself having to learn new tricks.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:1baca8be-771f-5044-9888-b136d8c94002/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/drift-queen-s2-e2</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:72c43f44-d0fa-4e68-8478-89acbafae091</episode-num>
+<episode-num system="xmltv_ns">1.1.0</episode-num>
+<episode-num system="original-air-date">2026-03-17 21:27:09</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:1baca8be-771f-5044-9888-b136d8c94002</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260423015714 +0000" stop="20260423020722 +0000" channel="Red Bull TV.en"><title lang="en">Drift Queen</title>
+<sub-title lang="en">Goodwood Festival of Speed</sub-title>
+<desc lang="en">Join Becky Evans, aka Queen B, as she heads to Goodwood to tap up some of the biggest names in drifting for advice ahead of her first drifting competition.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:1baca8be-771f-5044-9888-b136d8c94002/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/drift-queen-s2-e3</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:c8fe5a60-797e-4b9f-a21b-cccfd5d37e62</episode-num>
+<episode-num system="xmltv_ns">1.2.0</episode-num>
+<episode-num system="original-air-date">2026-04-20 23:04:37</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:1baca8be-771f-5044-9888-b136d8c94002</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260423020722 +0000" stop="20260423022010 +0000" channel="Red Bull TV.en"><title lang="en">Drift Queen</title>
+<sub-title lang="en">Track training in Ireland</sub-title>
+<desc lang="en">Queen B heads to Ireland to team up with reigning Formula D champion James Deane for some serious track training. The time crunch starts to weigh on her and she gives it everything she has.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:1baca8be-771f-5044-9888-b136d8c94002/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/drift-queen-s2-e4</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:5dd97343-50c5-410e-a8ff-501fbad4f5ef</episode-num>
+<episode-num system="xmltv_ns">1.3.0</episode-num>
+<episode-num system="original-air-date">2026-03-17 21:02:10</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:1baca8be-771f-5044-9888-b136d8c94002</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260423022010 +0000" stop="20260423022835 +0000" channel="Red Bull TV.en"><title lang="en">Drift Queen</title>
+<sub-title lang="en">How to approach a line</sub-title>
+<desc lang="en">With only four weeks to go before the DriftCup competition Queen B takes the opportunity to go to Scotland and find out how other drifters approach their lines.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:1baca8be-771f-5044-9888-b136d8c94002/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/drift-queen-s2-e5</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:c3aada4b-41cd-4e37-97fd-7e8fc1587e2c</episode-num>
+<episode-num system="xmltv_ns">1.4.0</episode-num>
+<episode-num system="original-air-date">2026-04-20 23:27:34</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:1baca8be-771f-5044-9888-b136d8c94002</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260423022835 +0000" stop="20260423024131 +0000" channel="Red Bull TV.en"><title lang="en">Drift Queen</title>
+<sub-title lang="en">Put your game face on</sub-title>
+<desc lang="en">Queen B meets up with Jojo Sharp at Driftland, in Fife, Scotland, to walk through the track and plan the drive. Once it's planned, it's time to test drive and find the edges.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:1baca8be-771f-5044-9888-b136d8c94002/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/drift-queen-s2-e6</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:a7d52b15-84ae-47b6-ba8c-a812583eea0d</episode-num>
+<episode-num system="xmltv_ns">1.5.0</episode-num>
+<episode-num system="original-air-date">2026-04-20 23:35:59</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:1baca8be-771f-5044-9888-b136d8c94002</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260423024131 +0000" stop="20260423025418 +0000" channel="Red Bull TV.en"><title lang="en">Drift Queen</title>
+<sub-title lang="en">It's tandem time</sub-title>
+<desc lang="en">Queen B learns the tricks to chasing and leading in a drift competition with the help of 2017 British Drift Champion, Matt Carter.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:1baca8be-771f-5044-9888-b136d8c94002/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/drift-queen-s2-e7</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:57a83de7-8c74-42dc-ad44-7234e1edb4f2</episode-num>
+<episode-num system="xmltv_ns">1.6.0</episode-num>
+<episode-num system="original-air-date">2026-03-17 21:14:23</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:1baca8be-771f-5044-9888-b136d8c94002</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260423025418 +0000" stop="20260423030937 +0000" channel="Red Bull TV.en"><title lang="en">Drift Queen</title>
+<sub-title lang="en">Up for the DriftCup</sub-title>
+<desc lang="en">After some last-minute finishing touches in the custom shop, Queen B and crew head to Scotland for her first-ever drifting competition.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:1baca8be-771f-5044-9888-b136d8c94002/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/drift-queen-s2-e8</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:e777c3a0-6116-444a-94c6-b1e513f11a7f</episode-num>
+<episode-num system="xmltv_ns">1.7.0</episode-num>
+<episode-num system="original-air-date">2026-03-17 21:37:35</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:1baca8be-771f-5044-9888-b136d8c94002</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260423030937 +0000" stop="20260423033455 +0000" channel="Red Bull TV.en"><title lang="en"/>
+<sub-title lang="en">Program information unavailable at this time</sub-title>
+<desc lang="en"/>
+<icon src="https://resources.redbull.tv/unknown/rbtv_display_art_portrait"/>
+<url/>
+<episode-num system="redbull.com">episode/unknown</episode-num>
+<episode-num system="original-air-date">2023-04-02 18:04:08</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260423033455 +0000" stop="20260423035212 +0000" channel="Red Bull TV.en"><title lang="en">Flight Plan: Lawrence Brothers</title>
+<sub-title lang="en">Pro motocross prodigy</sub-title>
+<desc lang="en">Jett’s 2021 summer kicked off by taking an early lead in the 250 Pro Motocross Championship, while he had a surprise meeting with a fellow former motocross prodigy: Travis Pastrana.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:f8954397-470c-4120-8883-e862d4eea331/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/flight-plan-the-jett-lawrence-series-s1-e1</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:9880afd2-2a2f-49a6-b2b6-02068890120e</episode-num>
+<episode-num system="xmltv_ns">0.0.0</episode-num>
+<episode-num system="original-air-date">2023-08-13 11:39:49</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:f8954397-470c-4120-8883-e862d4eea331</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260423035212 +0000" stop="20260423041042 +0000" channel="Red Bull TV.en"><title lang="en">Flight Plan: Lawrence Brothers</title>
+<sub-title lang="en">Ignoring distractions</sub-title>
+<desc lang="en">The road to success isn't always easy, and the Lawrences know all about making sacrifices. Efforts culminate for the family though when Jett closes in on the 250 Pro Motocross 2021 title at Hangtown.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:f8954397-470c-4120-8883-e862d4eea331/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/flight-plan-the-jett-lawrence-series-s1-e2</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:85c88493-f26a-4515-a206-25735d5b11c8</episode-num>
+<episode-num system="xmltv_ns">0.1.0</episode-num>
+<episode-num system="original-air-date">2023-08-13 11:57:06</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:f8954397-470c-4120-8883-e862d4eea331</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260423041042 +0000" stop="20260423042819 +0000" channel="Red Bull TV.en"><title lang="en">Flight Plan: Lawrence Brothers</title>
+<sub-title lang="en">Donut bet with Márquez</sub-title>
+<desc lang="en">Jett travels to Texas for the Grand Prix of the Americas to rip minis with multi-time MotoGP™ world champ Marc Márquez, and makes a deal with Marc to give him a donut on the podium if he wins the GP.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:f8954397-470c-4120-8883-e862d4eea331/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/flight-plan-the-jett-lawrence-series-s1-e3</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:fadcb6f9-01bd-4494-bf1f-5c397d4a01ce</episode-num>
+<episode-num system="xmltv_ns">0.2.0</episode-num>
+<episode-num system="original-air-date">2023-08-13 12:15:36</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:f8954397-470c-4120-8883-e862d4eea331</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260423042819 +0000" stop="20260423044402 +0000" channel="Red Bull TV.en"><title lang="en">Flight Plan: Lawrence Brothers</title>
+<sub-title lang="en">Business of Supercross</sub-title>
+<desc lang="en">Jett preps for the 2022 AMA Supercross season and Hunter rips pit bikes with a fellow Aussie motorsport legend, F1’s Daniel Ricciardo. And Jett’s agent kicks off plans for the Jettson clothing brand.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:f8954397-470c-4120-8883-e862d4eea331/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/flight-plan-the-jett-lawrence-series-s1-e4</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:e10178c9-c39a-4506-a656-7dda7bd3cb3b</episode-num>
+<episode-num system="xmltv_ns">0.3.0</episode-num>
+<episode-num system="original-air-date">2023-08-20 09:25:40</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:f8954397-470c-4120-8883-e862d4eea331</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260423044402 +0000" stop="20260423050245 +0000" channel="Red Bull TV.en"><title lang="en">Flight Plan: Lawrence Brothers</title>
+<sub-title lang="en">The Motocross of Nations</sub-title>
+<desc lang="en">Jett and Hunter team up on the track representing Team Australia at the Motocross of Nations at Red Bud, where Jett makes his professional debut on the factory Honda CRF450.</desc>
+<category lang="en">Motocross</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:f8954397-470c-4120-8883-e862d4eea331/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:6e7c18bf-594a-4566-8ea8-97365bcf713d/flight-plan-s2-e5</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:6e7c18bf-594a-4566-8ea8-97365bcf713d</episode-num>
+<episode-num system="xmltv_ns">1.4.0</episode-num>
+<episode-num system="original-air-date">2023-05-28 10:02:56</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:f8954397-470c-4120-8883-e862d4eea331</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260423050245 +0000" stop="20260423052813 +0000" channel="Red Bull TV.en"><title lang="en">ABC of...</title>
+<sub-title lang="en">ABC of... Skateboarding</sub-title>
+<desc lang="en">See how skateboarding is all about self-expression through the sport's history, from the pioneers of sidewalk surfing to today's top skateboarders.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:6f25351b-f58a-5738-abee-3c43ecf4c5ac/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/abc-of-skateboarding-abc-of-s01-e13</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:835b1138-ae1e-5028-9cad-43b6ebaf9167</episode-num>
+<episode-num system="xmltv_ns">0.12.0</episode-num>
+<episode-num system="original-air-date">2026-02-11 07:40:51</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:6f25351b-f58a-5738-abee-3c43ecf4c5ac</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260423052813 +0000" stop="20260423054813 +0000" channel="Red Bull TV.en"><title lang="en">Leticia Pushes Mzansi</title>
+<sub-title lang="en">Meet the ladies of South Africa's skate scene</sub-title>
+<desc lang="en">Leticia Bufoni and Aldana Bertran explore South Africa's flourishing female skate scene from Johannesburg to Cape Town as they meet legend Melissa Williams and a new wave of rippers.</desc>
+<category lang="en">Skateboarding</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:167d2ec5-97a9-4483-a131-4e750602aadb/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/leticia-pushes-mzansi</url>
+<episode-num system="redbull.com">episode/rrn:content:films:167d2ec5-97a9-4483-a131-4e750602aadb</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260423054813 +0000" stop="20260423060000 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
+<sub-title lang="en">2015's best crashes and smashes</sub-title>
+<desc lang="en">From a hall-of-fame driver bail in Holland to one of the worst soapbox designs to ever hit the track, 2015's races had some classic crashes.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-craziest-crashes-e2</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:3ab45909-7939-4f16-86b6-6cce13fa16ee</episode-num>
+<episode-num system="xmltv_ns">2.1.0</episode-num>
+<episode-num system="original-air-date">2023-04-23 12:36:09</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260423060000 +0000" stop="20260423062030 +0000" channel="Red Bull TV.en"><title lang="en">Sandro Dias redefines the limits of skateboarding</title>
+<sub-title lang="en">Red Bull Building Drop highlights</sub-title>
+<desc lang="en">Sandro Dias brings to life the urban legend of skating down a building shaped like a quarter pipe, and redefines the limits of skateboarding. Watch as he sets two new world records.</desc>
+<category lang="en">Skateboarding</category>
+<icon src="https://resources.redbull.tv/rrn:content:videos:23c897ba-69d6-4d14-b2ea-13602ade4a6d/rbtv_display_art_portrait"/>
+<url>https://www.redbull.com/int-en/videos/red-bull-building-drop-2025-highlights</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:23c897ba-69d6-4d14-b2ea-13602ade4a6d</episode-num>
+<episode-num system="original-air-date">2025-10-01 19:00:00</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2025</date></programme>
+  <programme start="20260423062030 +0000" stop="20260423065431 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Drop In Tour</title>
+<sub-title lang="en">South America Tour</sub-title>
+<desc lang="en">Skaters Ryan Sheckler, Jamie Foy, Torey Pudwill, Felipe Gustavo, Ryan Decenzo, Alex Sorgente, Angelo Caro, Gustavo Ribeiro, Gavin Bottger and friends rip right through Brazil, Argentina and Chile.</desc>
+<category lang="en">Skateboard Street</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:94a86d40-5c7d-4f01-95b7-838b6c5fb48e/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/red-bull-drop-in-tour-south-america-tour</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:daaded1a-97a0-48d8-8136-a64224913a29</episode-num>
+<episode-num system="xmltv_ns">0.3.0</episode-num>
+<episode-num system="original-air-date">2025-04-23 12:26:15</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:94a86d40-5c7d-4f01-95b7-838b6c5fb48e</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2025</date></programme>
+  <programme start="20260423065431 +0000" stop="20260423072756 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Drop In Tour</title>
+<sub-title lang="en">Australia Tour</sub-title>
+<desc lang="en">Enjoy Jamie Foy, Torey Pudwill, Felipe Gustavo, TJ Rogers, Zion Wright, Gustavo Ribeiro, Alex Sorgente, Jake Wooten and Leticia Bufoni rocking four jam-packed skate demos.</desc>
+<category lang="en">Skateboarding</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:94a86d40-5c7d-4f01-95b7-838b6c5fb48e/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/red-bull-drop-in-tour-australia-tour</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:a4ec7627-fd8b-433a-9d9f-fced16e9cdbf</episode-num>
+<episode-num system="xmltv_ns">0.2.0</episode-num>
+<episode-num system="original-air-date">2024-01-14 04:06:44</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:94a86d40-5c7d-4f01-95b7-838b6c5fb48e</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2024</date></programme>
+  <programme start="20260423072756 +0000" stop="20260423082506 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race: 50 Genius Designs</title>
+<sub-title lang="en">Mayhem, crashes and creativity</sub-title>
+<desc lang="en">Red Bull Soapbox Race: a hilarious race format in homemade motorless racecars hurtling down steep, obstacle-filled courses. Laugh along with our edit of 50 of the most genius designs from 2014-2025.</desc>
+<category lang="en">Soapbox Race</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:69d16b4b-e32b-417e-bf66-1f5cca38c218/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/red-bull-soapbox-race-50-genius-designs</url>
+<episode-num system="redbull.com">episode/rrn:content:films:69d16b4b-e32b-417e-bf66-1f5cca38c218</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260423082506 +0000" stop="20260423092512 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race: 50 Crowd Favourites</title>
+<sub-title lang="en">Mayhem, crashes and creativity</sub-title>
+<desc lang="en">Red Bull Soapbox Race: a hilarious race format in homemade motorless racecars hurtling down obstacle-laden courses. Laugh along with our edit of 50 of the favourite designs and moments from 2014-2025.</desc>
+<category lang="en">Soapbox Race</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:a81bbd9a-a95c-4c0f-84fe-3e6dfb38ddf4/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/red-bull-soapbox-race-50-crowd-favourites</url>
+<episode-num system="redbull.com">episode/rrn:content:films:a81bbd9a-a95c-4c0f-84fe-3e6dfb38ddf4</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260423092512 +0000" stop="20260423101836 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race: 50 Fastest &amp; Fearless</title>
+<sub-title lang="en">Mayhem, crashes and creativity</sub-title>
+<desc lang="en">Red Bull Soapbox Race: a hilarious race format in homemade motorless racecars hurtling down steep, obstacle-filled courses. Laugh along with our edit of 50 of the fastest runs from 2014-2025.</desc>
+<category lang="en">Soapbox Race</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:fa34ae5e-a972-448a-988d-43db3becee78/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/red-bull-soapbox-race-50-fastest-and-fearless</url>
+<episode-num system="redbull.com">episode/rrn:content:films:fa34ae5e-a972-448a-988d-43db3becee78</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260423101836 +0000" stop="20260423110725 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race: 50 Craziest Crashes</title>
+<sub-title lang="en">Mayhem, crashes and creativity </sub-title>
+<desc lang="en">Red Bull Soapbox Race: a hilarious race format in homemade motorless racecars hurtling down steep, obstacle-filled courses. Laugh along with our edit of 50 of the craziest crashes from 2015-2025.</desc>
+<category lang="en">Soapbox Race</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:318c3611-d308-4f2a-8985-9ed75c735e6c/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/red-bull-soapbox-race-50-craziest-crashes</url>
+<episode-num system="redbull.com">episode/rrn:content:films:318c3611-d308-4f2a-8985-9ed75c735e6c</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260423110725 +0000" stop="20260423113255 +0000" channel="Red Bull TV.en"><title lang="en">ABC of...</title>
+<sub-title lang="en">ABC of... Climbing</sub-title>
+<desc lang="en">Join Sasha DiGiulian as she takes you on an expedition around the globe with some of the world's top climbers. Get to know the language, the equipment, the history, and so much more.</desc>
+<category lang="en">Climbing</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:6f25351b-f58a-5738-abee-3c43ecf4c5ac/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/abc-of-s2-e1-climbing</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:adda8e37-cc7c-4904-80f4-76413c1a0fbb</episode-num>
+<episode-num system="xmltv_ns">1.0.0</episode-num>
+<episode-num system="original-air-date">2023-09-11 05:37:58</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:6f25351b-f58a-5738-abee-3c43ecf4c5ac</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260423113255 +0000" stop="20260423115956 +0000" channel="Red Bull TV.en"><title lang="en">Natural Heights</title>
+<sub-title lang="en">Janja Garnbret vs her 10th world title</sub-title>
+<desc lang="en">Janja Garnbret is chasing her 10th world title, and the pressure is unlike anything she’s faced before. Will shifting to the outdoors for new motivation help her, or push her closer to cracking?</desc>
+<category lang="en">Climbing</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:12179bff-a8f7-404f-a6ca-cda54ad5d28f/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:b205052d-66f5-41ad-8f4b-4d4ea76f80ab/natural-heights-s1-e1</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:b205052d-66f5-41ad-8f4b-4d4ea76f80ab</episode-num>
+<episode-num system="xmltv_ns">0.0.0</episode-num>
+<episode-num system="original-air-date">2026-03-02 19:49:42</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:12179bff-a8f7-404f-a6ca-cda54ad5d28f</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260423115956 +0000" stop="20260423122437 +0000" channel="Red Bull TV.en"><title lang="en">Natural Heights</title>
+<sub-title lang="en">Jakob Schubert sends a 9c route</sub-title>
+<desc lang="en">Join Jakob Schubert in Flatanger, Norway, as he battles for the first ascent of 'B.I.G.' (9c), relying on experience, creativity and relentless commitment to unlock this historic line.</desc>
+<category lang="en">Climbing</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:12179bff-a8f7-404f-a6ca-cda54ad5d28f/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:f95fb031-0cda-4134-803c-9879e012d813/natural-heights-s1-e2</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:f95fb031-0cda-4134-803c-9879e012d813</episode-num>
+<episode-num system="xmltv_ns">0.1.0</episode-num>
+<episode-num system="original-air-date">2026-03-04 10:14:18</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:12179bff-a8f7-404f-a6ca-cda54ad5d28f</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260423122437 +0000" stop="20260423124842 +0000" channel="Red Bull TV.en"><title lang="en">Natural Heights</title>
+<sub-title lang="en">Nika Potapova: nothing to lose, but a lot to prove</sub-title>
+<desc lang="en">Nika Potapova is chasing the dream of becoming a pro climber, no matter the cost. The sacrifices are real, the pressure is constant and the outcome is far from guaranteed.</desc>
+<category lang="en">Climbing</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:12179bff-a8f7-404f-a6ca-cda54ad5d28f/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:33e76f0e-f60d-4f2f-b364-5eb0b75de5f4/natural-heights-s1-e3</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:33e76f0e-f60d-4f2f-b364-5eb0b75de5f4</episode-num>
+<episode-num system="xmltv_ns">0.2.0</episode-num>
+<episode-num system="original-air-date">2026-03-02 19:00:00</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:12179bff-a8f7-404f-a6ca-cda54ad5d28f</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260423124842 +0000" stop="20260423131419 +0000" channel="Red Bull TV.en"><title lang="en">Natural Heights</title>
+<sub-title lang="en">Alberto Ginés López takes on a 180m wall</sub-title>
+<desc lang="en">Alberto Ginés López taps into his competitive fire as he and partner Jenya Kazbekova race up 180m of hard multi-pitch climbing on Switzerland’s iconic Verzasca Dam. In this format, every move matters.</desc>
+<category lang="en">Climbing</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:12179bff-a8f7-404f-a6ca-cda54ad5d28f/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:e21529d9-0555-4b35-8b23-f5e304ff6b9e/natural-heights-s1-e4</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:e21529d9-0555-4b35-8b23-f5e304ff6b9e</episode-num>
+<episode-num system="xmltv_ns">0.3.0</episode-num>
+<episode-num system="original-air-date">2026-03-02 19:24:04</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:12179bff-a8f7-404f-a6ca-cda54ad5d28f</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260423131419 +0000" stop="20260423133950 +0000" channel="Red Bull TV.en"><title lang="en">Jaan Roose: Life on the Line</title>
+<sub-title lang="en">Planning a mind-boggling 3.6km slackline walk</sub-title>
+<desc lang="en">World champion slackliner Jaan Roose makes history as the first person to walk a record-breaking 3.6km slackline across the Strait of Messina, from mainland Italy to Sicily.</desc>
+<category lang="en">Slacklining</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:1270f178-903b-4427-9899-1e1fe576369a/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/jaan-roose-life-on-the-line</url>
+<episode-num system="redbull.com">episode/rrn:content:films:1270f178-903b-4427-9899-1e1fe576369a</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260423133950 +0000" stop="20260423140430 +0000" channel="Red Bull TV.en"><title lang="en">Adventures Unpacked with Beau Miles</title>
+<sub-title lang="en">The rapid no woman had ever run – Nouria Newman</sub-title>
+<desc lang="en">Nouria Newman shares how one adventure shaped her approach to expeditions. She and two friends kayaked one of the world's most challenging sections of whitewater: the Rondu Gorge in Pakistan.</desc>
+<category lang="en">Canoeing</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:ebf64d04-c622-4c37-8683-ebac1815005a/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/adventures-unpacked-with-beau-miles-s1-e1</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:6d27379d-575d-4670-8c57-fa203f887de7</episode-num>
+<episode-num system="xmltv_ns">0.0.0</episode-num>
+<episode-num system="original-air-date">2025-12-29 07:45:47</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:ebf64d04-c622-4c37-8683-ebac1815005a</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2025</date></programme>
+  <programme start="20260423140430 +0000" stop="20260423143032 +0000" channel="Red Bull TV.en"><title lang="en">Adventures Unpacked with Beau Miles</title>
+<sub-title lang="en">Skiing the world's 6,000m peaks – Jérémie Heitz</sub-title>
+<desc lang="en">Jérémie Heitz revisits his groundbreaking steep-skiing expeditions with Sam Anthamatten, journeys that took them across towering 6,000m peaks and some of the planet’s most formidable mountain ranges.</desc>
+<category lang="en">Skiing</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:ebf64d04-c622-4c37-8683-ebac1815005a/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/adventures-unpacked-with-beau-miles-s1-e3</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:41a595db-9414-44c3-8f83-649dafa83e22</episode-num>
+<episode-num system="xmltv_ns">0.2.0</episode-num>
+<episode-num system="original-air-date">2025-12-29 06:53:08</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:ebf64d04-c622-4c37-8683-ebac1815005a</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2025</date></programme>
+  <programme start="20260423143032 +0000" stop="20260423151138 +0000" channel="Red Bull TV.en"><title lang="en"/>
+<sub-title lang="en">Program information unavailable at this time</sub-title>
+<desc lang="en"/>
+<icon src="https://resources.redbull.tv/unknown/rbtv_display_art_portrait"/>
+<url/>
+<episode-num system="redbull.com">episode/unknown</episode-num>
+<episode-num system="original-air-date">2023-04-02 18:04:08</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260423151138 +0000" stop="20260423154728 +0000" channel="Red Bull TV.en"><title lang="en">Don't Look Down</title>
+<sub-title lang="en">How Kriss Kyle rode a BMX park in the sky</sub-title>
+<desc lang="en">2,000ft in the air. Sub-zero temperatures. Who said you can't ride a BMX park in the sky? This is how Kriss Kyle's daring idea grew into a mind-boggling feat of aeronautical engineering and BMX-riding skill.</desc>
+<category lang="en">Bmx</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:7485d80b-3833-4323-a778-3d2e50a87d41/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/dont-look-down</url>
+<episode-num system="redbull.com">episode/rrn:content:films:7485d80b-3833-4323-a778-3d2e50a87d41</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260423154728 +0000" stop="20260423161328 +0000" channel="Red Bull TV.en"><title lang="en">For Reals</title>
+<sub-title lang="en">From soapbox madness to skydiving with an FMX bike</sub-title>
+<desc lang="en">Snowboarding – or, rather sandboarding – in the desert. Rally cars on frozen lakes. The wackiness of soapbox racing. Skydiving with a motocross bike. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e9</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:25bd9023-2792-464f-a774-984f840f4a4e</episode-num>
+<episode-num system="xmltv_ns">0.8.0</episode-num>
+<episode-num system="original-air-date">2024-10-21 23:48:12</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2024</date></programme>
+  <programme start="20260423161328 +0000" stop="20260423164004 +0000" channel="Red Bull TV.en"><title lang="en">For Reals</title>
+<sub-title lang="en">From freerunning Greek isles to skiing the Streif</sub-title>
+<desc lang="en">A gnarly shipping container BMX set-up. Freerunning in Santorini. Taking on the Streif at night. Enduro riding on a volcano. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e8</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:ff4396fb-683e-449c-a211-427bd260059d</episode-num>
+<episode-num system="xmltv_ns">0.7.0</episode-num>
+<episode-num system="original-air-date">2024-10-21 23:21:36</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2024</date></programme>
+  <programme start="20260423164004 +0000" stop="20260423170604 +0000" channel="Red Bull TV.en"><title lang="en">For Reals</title>
+<sub-title lang="en">From a pinball human to 93kph speed skating</sub-title>
+<desc lang="en">Speed skating into the record books at 93kph. Office skateboarding. BASE jumping on Mount Everest. Diving into crocodile waters. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e3</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:8864b788-5908-493e-83ec-3421aa40df59</episode-num>
+<episode-num system="xmltv_ns">0.2.0</episode-num>
+<episode-num system="original-air-date">2024-10-20 23:46:52</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2024</date></programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
   </channel>
