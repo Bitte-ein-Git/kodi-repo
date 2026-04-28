@@ -5122,10 +5122,10 @@
     <desc lang="en">At Home TV &amp; Luxauto TV.</desc>
   </programme>
   <programme start="20260430130000 +0000" stop="20260430150000 +0000" channel="RTL.Zwee.lu"><title lang="en">RTL Radio Web TV</title>
-    <desc lang="en">RTL Radio Web TV.</desc>
+    <desc lang="en">RTL Radio Web TV. — iptv-epg.org/kofi</desc>
   </programme>
   <programme start="20260430150000 +0000" stop="20260430160000 +0000" channel="RTL.Zwee.lu"><title lang="en">At Home TV &amp; Luxauto TV</title>
-    <desc lang="en">At Home TV &amp; Luxauto TV. — iptv-epg.org/kofi</desc>
+    <desc lang="en">At Home TV &amp; Luxauto TV.</desc>
   </programme>
   <programme start="20260430160000 +0000" stop="20260430173000 +0000" channel="RTL.Zwee.lu"><title lang="en">RTL Radio Web TV</title>
     <desc lang="en">RTL Radio Web TV.</desc>
@@ -5143,7 +5143,7 @@
     <desc lang="en">De Magazin.</desc>
   </programme>
   <programme start="20260430183000 +0000" stop="20260430190000 +0000" channel="RTL.Zwee.lu"><title lang="en">De Journal</title>
-    <desc lang="en">De Journal.</desc>
+    <desc lang="en">De Journal. — iptv-epg.org/kofi</desc>
   </programme>
   <programme start="20260430190000 +0000" stop="20260430193000 +0000" channel="RTL.Zwee.lu"><title lang="en">De Journal</title>
     <desc lang="en">De Journal.</desc>
@@ -5155,7 +5155,7 @@
     <desc lang="en">De Journal.</desc>
   </programme>
   <programme start="20260430230000 +0000" stop="20260430233000 +0000" channel="RTL.Zwee.lu"><title lang="en">De Journal</title>
-    <desc lang="en">De Journal. — iptv-epg.org/kofi</desc>
+    <desc lang="en">De Journal.</desc>
   </programme>
   <programme start="20260430233000 +0000" stop="20260501050000 +0000" channel="RTL.Zwee.lu"><title lang="en">De Journal</title>
     <desc lang="en">De Journal.</desc>
