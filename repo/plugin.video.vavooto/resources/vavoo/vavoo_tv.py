@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 from vavoo.utils import *
 
+urllib3.disable_warnings()
+
 def vavoo_groups():
 	log("Getting VAVOO groups and md5")
 	groups=[]
@@ -28,12 +30,12 @@ def choose():
 	return group
 
 def new_vav_channels(group):
-	_headers={"user-agent": "okhttp/4.11.0", "accept": "application/json", "content-type": "application/json; charset=utf-8", "content-length": "1106", "accept-encoding": "gzip", "mediahubmx-signature": getAuthSignature()}
+	_headers={"user-agent": "MediaHubMX/2", "accept": "application/json", "content-type": "application/json; charset=utf-8", "content-length": "1106", "accept-encoding": "gzip", "mediahubmx-signature": getAuthSignature()}
 	items = []
 	cursor = 0
 	while cursor != None: 
 		try:
-			_data={"language":"de","region":"AT","catalogId":"iptv","id":"iptv","adult":False,"search":"","sort":"name","filter":{"group":group},"cursor":cursor,"clientVersion":"3.0.2"}
+			_data={"language":"de","region":"AT","catalogId":"iptv","id":"iptv","adult":False,"search":"","sort":"name","filter":{"group":group},"cursor":cursor,"clientVersion":"3.1.0"}
 			req = request_json("POST", "https://vavoo.to/mediahubmx-catalog.json", json=_data, headers=_headers, timeout=10, retries=1)
 			for r in req["items"]:
 				items.append({"url": r["url"], "name": r["name"], "group": r["group"]})
