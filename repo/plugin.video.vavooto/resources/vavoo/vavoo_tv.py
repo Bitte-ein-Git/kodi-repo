@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 from vavoo.utils import *
 
-urllib3.disable_warnings()
-
 def vavoo_groups():
 	log("Getting VAVOO groups and md5")
 	groups=[]

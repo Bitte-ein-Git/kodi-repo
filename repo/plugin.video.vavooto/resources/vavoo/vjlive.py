@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 from vavoo.utils import *
 
-urllib3.disable_warnings()
-
 chanicons = ['13thstreet.png', '3sat.png', 'animalplanet.png', 'anixe.png', 'ard.png', 'ardalpha.png', 'arte.png', 'atv.png', 'atv2.png', 'automotorsport.png', 'axnblack.png', 'axnwhite.png', 'br.png', 'cartoonito.png', 'cartoonnetwork.png', 'comedycentral.png', 'curiositychannel.png', 'fix&foxi.png', 'dazn1.png', 'dazn2.png', 'deluxemusic.png', 'nationalgeographic.png', 'dmax.png', 'eurosport1.png', 'eurosport2.png', 'nickjunior.png', 'superrtl.png', 'heimatkanal.png', 'history.png', 'hr.png', 'jukebox.png', 'kabel1doku.png', 'pro7.png', 'pro7maxx.png', 'pro7fun.png', 'rtl2.png', 'kika.png', 'kinowelt.png', 'mdr.png', 'universaltv.png', 'discovery.png', 'mtv.png', 'n24doku.png', 'natgeowild.png', 'sky1.png', 'ndr.png', 'nickelodeon.png', 'nitro.png', 'romancetv.png', 'ntv.png', 'one.png', 'orf1.png', 'orf2.png', 'orf3.png', 'orfsportplus.png', 'phoenix.png', 'geotv.png', 'puls24.png', 'puls4.png', 'rbb.png', 'ric.png', 'motorvision.png', 'rtl.png', 'rtlcrime.png', 'rtlliving.png', 'kabel1.png', 'rtlpassion.png', 'rtlup.png', 'sat1.png', 'sat1emotions.png', 'sat1gold.png', 'servustv.png', 'silverline.png', 'sixx.png', 'skyatlantic.png', 'skycinemaaction.png', 'skycinemaclassics.png', 'skycinemafamily.png', 'skycinemahighlights.png', 'skycinemapremieren.png', 'skycrime.png', 'skydocumentaries.png', 'skykrimi.png', 'skynature.png', 'skyreplay.png', 'skyshowcase.png', 'spiegelgeschichte.png', 'kabel1classics.png', 'sport1.png', 'sportdigital.png', 'swr.png', 'syfy.png', 'tagesschau24.png', 'tele5.png', 'tlc.png', 'toggoplus.png', 'crime+investigation.png', 'vox.png', 'voxup.png', 'warnertvcomedy.png', 'warnertvfilm.png', 'warnertvserie.png', 'wdr.png', 'welt.png', 'weltderwunder.png', 'zdf.png', 'zdfinfo.png', 'zdfneo.png', 'zeeone.png', 'skycinemathriller.png']
 
 def resolve_link(link):
@@ -20,7 +18,7 @@ def resolve_link(link):
 			return None, None
 	else:
 		_headers = {"user-agent": "MediaHubMX/2", "accept": "application/json", "content-type": "application/json; charset=utf-8", "content-length": "115", "accept-encoding": "gzip", "mediahubmx-signature": getAuthSignature()}
-		_data = {"language": "de", "region": "AT", "url": link, "clientVersion": "3.1.0"}
+		_data = {"language": "de", "region": "AT", "url": link, "clientVersion": "3.0.2"}
 		url = "https://vavoo.to/mediahubmx-resolve.json"
 		streamurl = request_json("POST", url, json=_data, headers=_headers, timeout=10, retries=1)[0]["url"]
 		status = int(request("GET", streamurl, timeout=10, stream=True, retries=0, verify=False).status_code)
@@ -135,10 +133,20 @@ def livePlay(name, type=None, group=None):
 	else: inputstream = "inputstream.ffmpegdirect"
 	o.setProperty("inputstream", inputstream)
 	if inputstream == "inputstream.ffmpegdirect":
-		o.setProperty("inputstream.ffmpegdirect.is_realtime_stream", "true")
-		o.setProperty("inputstream.ffmpegdirect.stream_mode", "timeshift")
-		if getSetting("openmode") != "0": o.setProperty("inputstream.ffmpegdirect.open_mode", "ffmpeg" if getSetting("openmode") == "1" else "curl")
-		if "hls" in url or "m3u8" in url: o.setProperty("inputstream.ffmpegdirect.manifest_type", "hls")
+		o.setProperty('inputstream', 'inputstream.ffmpegdirect')
+		o.setProperty('inputstream.ffmpegdirect.is_realtime_stream', 'true')
+		o.setProperty('inputstream.ffmpegdirect.stream_mode', 'timeshift')
+		o.setProperty('inputstream.ffmpegdirect.open_mode', 'ffmpeg')
+		o.setProperty('inputstream.ffmpegdirect.manifest_type', 'hls')
+		o.setProperty('inputstream.ffmpegdirect.protocol_whitelist','http,https,tcp,tls,crypto')
+		stream_opts = ':'.join(['http_persistent=1','multiple_requests=1','reconnect=1','reconnect_streamed=1','reconnect_delay_max=2','timeout=10000000'])
+		o.setProperty('inputstream.ffmpegdirect.stream_opts',stream_opts)
+		o.setProperty('inputstream.ffmpegdirect.user_agent', 'libmpv')
+		#if getSetting("openmode") != "0": o.setProperty("inputstream.ffmpegdirect.open_mode", "ffmpeg" if getSetting("openmode") == "1" else "curl")
+	else:
+		o.setProperty('inputstream.adaptive.manifest_type', 'hls')
+		o.setProperty('inputstream.adaptive.stream_selection_type', 'adaptive')
+		o.setProperty('inputstream.adaptive.config', '{"ssl_verify_peer":false}')
 	if headers:
 		if inputstream == "inputstream.adaptive":
 			o.setProperty(f'{inputstream}.common_headers', headers)

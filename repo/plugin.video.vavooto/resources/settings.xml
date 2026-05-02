@@ -4,7 +4,7 @@
     <setting default="5" id="count" label="Countdown Zeit" type="number" option="int" visible="eq(-1,1)" />
     <setting default="false" id="stream_count" type="bool" label="Anzahl Streams in Title anzeigen"/>
     <setting default="0" id="hlsinputstream" label="HLS Inputstream Addon" type="enum" visible="System.HasAddon(inputstream.ffmpegdirect)" values="ffmpeg|adaptive" />
-    <setting default="0" id="openmode" label="ffmpeg Open Mode" type="enum" visible="System.HasAddon(inputstream.ffmpegdirect)" values="default|ffmpeg|curl" />
+    <!--<setting default="0" id="openmode" label="ffmpeg Open Mode" type="enum" visible="System.HasAddon(inputstream.ffmpegdirect)" values="default|ffmpeg|curl" />-->
     <setting default="true" id="filter" type="bool" label="Kanalfilter verwenden"/>
     <setting label="m3u erstellen" type="action" action="RunPlugin(plugin://plugin.video.vavooto/?action=makem3u)"/>
     <setting label="Alle Favoriten entfernen" type="action" action="RunPlugin(plugin://plugin.video.vavooto/?action=delallTvFavorit)"/>
