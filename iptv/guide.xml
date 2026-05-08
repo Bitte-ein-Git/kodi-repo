@@ -4511,86 +4511,6 @@
     <display-name>RTL Zwee</display-name>
     <icon src="https://iptv-epg.org/logos/Luxembourg/RTLZwee.lu.png"/>
   </channel>
-  <programme start="20260507070000 +0000" stop="20260507090000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">At Home TV &amp; Luxauto TV.</desc>
-    <title lang="en">At Home TV &amp; Luxauto TV</title>
-  </programme>
-  <programme start="20260507090000 +0000" stop="20260507120000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">RTL Radio Web TV.</desc>
-    <title lang="en">RTL Radio Web TV</title>
-  </programme>
-  <programme start="20260507120000 +0000" stop="20260507130000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">At Home TV &amp; Luxauto TV.</desc>
-    <title lang="en">At Home TV &amp; Luxauto TV</title>
-  </programme>
-  <programme start="20260507130000 +0000" stop="20260507150000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">RTL Radio Web TV.</desc>
-    <title lang="en">RTL Radio Web TV</title>
-  </programme>
-  <programme start="20260507150000 +0000" stop="20260507160000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">At Home TV &amp; Luxauto TV.</desc>
-    <title lang="en">At Home TV &amp; Luxauto TV</title>
-  </programme>
-  <programme start="20260507160000 +0000" stop="20260507173000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">RTL Radio Web TV.</desc>
-    <title lang="en">RTL Radio Web TV</title>
-  </programme>
-  <programme start="20260507173000 +0000" stop="20260507175000 +0000" channel="RTL.Zwee.lu"><category lang="en">Unterhaltung</category>
-    <date>2026</date>
-    <desc lang="en">Musekbox.</desc>
-    <title lang="en">Musekbox</title>
-  </programme>
-  <programme start="20260507175000 +0000" stop="20260507180000 +0000" channel="RTL.Zwee.lu"><category lang="en">Kindersendung</category>
-    <date>2026</date>
-    <desc lang="en">KannaTiVi.</desc>
-    <title lang="en">KannaTiVi</title>
-  </programme>
-  <programme start="20260507180000 +0000" stop="20260507180300 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">De Journal Newsflash.</desc>
-    <title lang="en">De Journal Newsflash</title>
-  </programme>
-  <programme start="20260507180300 +0000" stop="20260507183000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">De Magazin.</desc>
-    <title lang="en">De Magazin</title>
-  </programme>
-  <programme start="20260507183000 +0000" stop="20260507190000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">De Journal.</desc>
-    <title lang="en">De Journal</title>
-  </programme>
-  <programme start="20260507190000 +0000" stop="20260507193000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">De Journal.</desc>
-    <title lang="en">De Journal</title>
-  </programme>
-  <programme start="20260507193000 +0000" stop="20260507223000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">De Journal.</desc>
-    <title lang="en">De Journal</title>
-  </programme>
-  <programme start="20260507223000 +0000" stop="20260507230000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">De Journal.</desc>
-    <title lang="en">De Journal</title>
-  </programme>
-  <programme start="20260507230000 +0000" stop="20260507233000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">De Journal.</desc>
-    <title lang="en">De Journal</title>
-  </programme>
-  <programme start="20260507233000 +0000" stop="20260508050000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">De Journal.</desc>
-    <title lang="en">De Journal</title>
-  </programme>
   <programme start="20260508050000 +0000" stop="20260508060000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
     <date>2026</date>
     <desc lang="en">At Home TV &amp; Luxauto TV.</desc>
@@ -5207,5 +5127,95 @@
     <date>2026</date>
     <desc lang="en">At Home TV &amp; Luxauto TV.</desc>
     <title lang="en">At Home TV &amp; Luxauto TV</title>
+  </programme>
+  <programme start="20260514050000 +0000" stop="20260514060000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">At Home TV &amp; Luxauto TV.</desc>
+    <title lang="en">At Home TV &amp; Luxauto TV</title>
+  </programme>
+  <programme start="20260514060000 +0000" stop="20260514070000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">Rediffusioun vu Journal a Magazin.</desc>
+    <title lang="en">Rediffusioun vu Journal a Magazin</title>
+  </programme>
+  <programme start="20260514070000 +0000" stop="20260514090000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">At Home TV &amp; Luxauto TV.</desc>
+    <title lang="en">At Home TV &amp; Luxauto TV</title>
+  </programme>
+  <programme start="20260514090000 +0000" stop="20260514120000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">RTL Radio Web TV.</desc>
+    <title lang="en">RTL Radio Web TV</title>
+  </programme>
+  <programme start="20260514120000 +0000" stop="20260514130000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">At Home TV &amp; Luxauto TV.</desc>
+    <title lang="en">At Home TV &amp; Luxauto TV</title>
+  </programme>
+  <programme start="20260514130000 +0000" stop="20260514150000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">RTL Radio Web TV.</desc>
+    <title lang="en">RTL Radio Web TV</title>
+  </programme>
+  <programme start="20260514150000 +0000" stop="20260514160000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">At Home TV &amp; Luxauto TV.</desc>
+    <title lang="en">At Home TV &amp; Luxauto TV</title>
+  </programme>
+  <programme start="20260514160000 +0000" stop="20260514173000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">RTL Radio Web TV.</desc>
+    <title lang="en">RTL Radio Web TV</title>
+  </programme>
+  <programme start="20260514173000 +0000" stop="20260514175000 +0000" channel="RTL.Zwee.lu"><category lang="en">Unterhaltung</category>
+    <date>2026</date>
+    <desc lang="en">Musekbox.</desc>
+    <title lang="en">Musekbox</title>
+  </programme>
+  <programme start="20260514175000 +0000" stop="20260514180000 +0000" channel="RTL.Zwee.lu"><category lang="en">Kindersendung</category>
+    <date>2026</date>
+    <desc lang="en">KannaTiVi.</desc>
+    <title lang="en">KannaTiVi</title>
+  </programme>
+  <programme start="20260514180000 +0000" stop="20260514180300 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">De Journal Newsflash.</desc>
+    <title lang="en">De Journal Newsflash</title>
+  </programme>
+  <programme start="20260514180300 +0000" stop="20260514183000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">De Magazin.</desc>
+    <title lang="en">De Magazin</title>
+  </programme>
+  <programme start="20260514183000 +0000" stop="20260514190000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">De Journal.</desc>
+    <title lang="en">De Journal</title>
+  </programme>
+  <programme start="20260514190000 +0000" stop="20260514193000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">De Journal.</desc>
+    <title lang="en">De Journal</title>
+  </programme>
+  <programme start="20260514193000 +0000" stop="20260514223000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">De Journal.</desc>
+    <title lang="en">De Journal</title>
+  </programme>
+  <programme start="20260514223000 +0000" stop="20260514230000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">De Journal.</desc>
+    <title lang="en">De Journal</title>
+  </programme>
+  <programme start="20260514230000 +0000" stop="20260514233000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">De Journal.</desc>
+    <title lang="en">De Journal</title>
+  </programme>
+  <programme start="20260514233000 +0000" stop="20260515050000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">De Journal.</desc>
+    <title lang="en">De Journal</title>
   </programme>
 </tv>
