@@ -226,16 +226,17 @@ def get_list_items(response_items,
                         'icon': response_item['image']['url'],
                         'thumb': response_item['image']['url'],
                 })
-            if response_item.get('livestream').get('brand', {}).get('logo') is not None:
+            if response_item.get('livestream') and response_item.get('livestream').get('brand', {}).get('logo') is not None:
                 epg_metadata['art'].update({'clearlogo': compat._format('{}/profile:original', response_item['livestream']['brand']['logo']['url'].rsplit('/', 1)[0])})
 
-            list_items.append(
-                    get_dir_entry(is_folder=False,
-                                  metadata=epg_metadata,
-                                  mode='play_video',
-                                  client_data=dumps(get_video_client_data(response_item['livestream']['id'], 'LIVE')),
-                                  video_id=response_item['livestream']['id'],
-                                  stream_type='LIVE'))
+            if response_item.get('livestream') and response_item.get('livestream', {}).get('id') is not None:
+                list_items.append(
+                        get_dir_entry(is_folder=False,
+                                      metadata=epg_metadata,
+                                      mode='play_video',
+                                      client_data=dumps(get_video_client_data(response_item['livestream']['id'], 'LIVE')),
+                                      video_id=response_item['livestream']['id'],
+                                      stream_type='LIVE'))
 
     return list_items
 
@@ -418,14 +419,15 @@ def channels(stream_type, title):
 
                 if brand_epg['type'] == 'ON_DEMAND' and brand_epg['epgEvents'][0].get('program') is not None:
                     response_item = brand_epg['epgEvents'][0]['program']
-                    list_items.append(
-                            get_dir_entry(is_folder=False,
-                                          mode='play_video',
-                                          movie_id=response_item['id'],
-                                          metadata=metadata,
-                                          video_id=response_item['video']['id'],
-                                          client_data=dumps(get_video_client_data(response_item['video']['id'], 'VOD', response_item)),
-                                          path=response_item['path']))
+                    if response_item.get('id') is not None:
+                        list_items.append(
+                                get_dir_entry(is_folder=False,
+                                              mode='play_video',
+                                              movie_id=response_item['id'],
+                                              metadata=metadata,
+                                              video_id=response_item['video']['id'],
+                                              client_data=dumps(get_video_client_data(response_item['video']['id'], 'VOD', response_item)),
+                                              path=response_item['path']))
                 else:
                     list_items.append(
                             get_dir_entry(is_folder=False,
