@@ -4567,110 +4567,6 @@
   <channel id="RTLTeleLuxembourg.lu">
     <display-name>RTL Télé Lëtzebuerg</display-name>
   </channel>
-  <programme start="20260522050000 +0000" stop="20260522060000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Rediffusioun vu Magazin a Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260522060000 +0000" stop="20260522090000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260522090000 +0000" stop="20260522110000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>At Home TV And Luxauto TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260522110000 +0000" stop="20260522130000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260522130000 +0000" stop="20260522140000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>At Home TV And Luxauto TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260522140000 +0000" stop="20260522173000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260522173000 +0000" stop="20260522175000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Musekbox</title>
-    <desc>Unterhaltung</desc>
-  </programme>
-  <programme start="20260522175000 +0000" stop="20260522180000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>KannaTiVi</title>
-    <desc>Kindersendung</desc>
-  </programme>
-  <programme start="20260522180000 +0000" stop="20260522180300 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Journal Newsflash</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260522180300 +0000" stop="20260522183000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Live! Planet People</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260522183000 +0000" stop="20260522190000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260522190000 +0000" stop="20260522190300 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Journal Newsflash</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260522190300 +0000" stop="20260522193000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Live! Planet People</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260522193000 +0000" stop="20260522200000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260522200000 +0000" stop="20260522200300 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Journal Newsflash</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260522200300 +0000" stop="20260522203000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Live! Planet People</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260522203000 +0000" stop="20260522210000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260522210000 +0000" stop="20260522210300 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Journal Newsflash</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260522210300 +0000" stop="20260522213000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Live! Planet People</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260522213000 +0000" stop="20260522220000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260522220000 +0000" stop="20260522220300 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Journal Newsflash</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260522220300 +0000" stop="20260522223000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Live! Planet People</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260522223000 +0000" stop="20260522230000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260522230000 +0000" stop="20260522233000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Passepartout</title>
-    <desc>Kultur</desc>
-  </programme>
-  <programme start="20260522233000 +0000" stop="20260523000000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260523000000 +0000" stop="20260523050000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Rediffusioune vu Passepartout a Journal</title>
-    <desc>Info</desc>
-  </programme>
   <programme start="20260523050000 +0000" stop="20260523060000 +0000" channel="RTLTeleLuxembourg.lu">
     <title>Rediffusioune vu Journal</title>
     <desc>Info</desc>
@@ -4699,13 +4595,9 @@
     <title>RTL Radio Web TV</title>
     <desc>Info</desc>
   </programme>
-  <programme start="20260523144500 +0000" stop="20260523173000 +0000" channel="RTLTeleLuxembourg.lu">
+  <programme start="20260523144500 +0000" stop="20260523180000 +0000" channel="RTLTeleLuxembourg.lu">
     <title>RTL Sport: Futtball: BGL League Bissen vs. Differdange</title>
     <desc>BGL Leaguebr /Bissen-Differdangebr /Commentaire Serge Olmo a Gilles Triccabr /Présentatioun Sam Rickalbr /</desc>
-  </programme>
-  <programme start="20260523173000 +0000" stop="20260523180000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Musekbox</title>
-    <desc>Unterhaltung</desc>
   </programme>
   <programme start="20260523180000 +0000" stop="20260523183000 +0000" channel="RTLTeleLuxembourg.lu">
     <title>Passepartout</title>
@@ -4775,98 +4667,94 @@
     <title>RTL Radio Web TV</title>
     <desc>Info</desc>
   </programme>
+  <programme start="20260524120000 +0000" stop="20260524130000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Nordliicht TV</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260524130000 +0000" stop="20260524150000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Hei Elei Retro</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260524150000 +0000" stop="20260524160000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>At Home TV And Luxauto TV</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260524160000 +0000" stop="20260524173000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260524173000 +0000" stop="20260524180000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>KannaTiVi</title>
+    <desc>Kindersendung</desc>
+  </programme>
+  <programme start="20260524180000 +0000" stop="20260524183000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>RTL Sport</title>
+    <desc>Magazin</desc>
+  </programme>
+  <programme start="20260524183000 +0000" stop="20260524190000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>De Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260524190000 +0000" stop="20260524193000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>RTL Sport</title>
+    <desc>Magazin</desc>
+  </programme>
+  <programme start="20260524193000 +0000" stop="20260524200000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>De Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260524200000 +0000" stop="20260524203000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>RTL Sport</title>
+    <desc>Magazin</desc>
+  </programme>
+  <programme start="20260524203000 +0000" stop="20260524210000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>De Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260524210000 +0000" stop="20260524213000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>RTL Sport</title>
+    <desc>Magazin</desc>
+  </programme>
+  <programme start="20260524213000 +0000" stop="20260524220000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>De Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260524220000 +0000" stop="20260524223000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>RTL Sport</title>
+    <desc>Magazin</desc>
+  </programme>
+  <programme start="20260524223000 +0000" stop="20260524230000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>De Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260524230000 +0000" stop="20260524233000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Gol</title>
+    <desc>Déi grouss Matcher, Hannergrënn a Reportagen, Klibb, Spiller a Fans... De grousse Magazin zesumme mat der FLF all Méindegowend nom Journal op der Tëlee.br /br /</desc>
+  </programme>
+  <programme start="20260524233000 +0000" stop="20260525000000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>De Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260525000000 +0000" stop="20260525050000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Rediffusioun vu Gol, Magazin a Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260525050000 +0000" stop="20260525060000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Rediffusioune vun RTL Documentaire a Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260525060000 +0000" stop="20260525090000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260525090000 +0000" stop="20260525110000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>At Home TV And Luxauto TV</title>
+    <desc>Info</desc>
+  </programme>
   <channel id="RTL.Zwee.lu">
     <display-name>RTL Zwee</display-name>
     <icon src="https://iptv-epg.org/images/oHSmItP6WtPBct623O8G2WwY1UUKinaauYHEqQcVkJSEsQDupbBGhIXVqycpGDDKb6tbS71i4meL--qsxVwayBEazAz7nFhF2bF3ODnkZwi2DIDY"/>
   </channel>
-  <programme start="20260522050000 +0000" stop="20260522060000 +0000" channel="RTL.Zwee.lu">
-    <title>At Home TV And Luxauto TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260522060000 +0000" stop="20260522070000 +0000" channel="RTL.Zwee.lu">
-    <title>Rediffusioun vu Journal a Magazin</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260522070000 +0000" stop="20260522090000 +0000" channel="RTL.Zwee.lu">
-    <title>At Home TV And Luxauto TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260522090000 +0000" stop="20260522120000 +0000" channel="RTL.Zwee.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260522120000 +0000" stop="20260522130000 +0000" channel="RTL.Zwee.lu">
-    <title>At Home TV And Luxauto TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260522130000 +0000" stop="20260522150000 +0000" channel="RTL.Zwee.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260522150000 +0000" stop="20260522160000 +0000" channel="RTL.Zwee.lu">
-    <title>At Home TV And Luxauto TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260522160000 +0000" stop="20260522173000 +0000" channel="RTL.Zwee.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260522173000 +0000" stop="20260522175000 +0000" channel="RTL.Zwee.lu">
-    <title>Musekbox</title>
-    <desc>Unterhaltung</desc>
-  </programme>
-  <programme start="20260522175000 +0000" stop="20260522180000 +0000" channel="RTL.Zwee.lu">
-    <title>KannaTiVi</title>
-    <desc>Kindersendung</desc>
-  </programme>
-  <programme start="20260522180000 +0000" stop="20260522180300 +0000" channel="RTL.Zwee.lu">
-    <title>De Journal Newsflash</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260522180300 +0000" stop="20260522183000 +0000" channel="RTL.Zwee.lu">
-    <title>De Magazin</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260522183000 +0000" stop="20260522190000 +0000" channel="RTL.Zwee.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260522190000 +0000" stop="20260522193000 +0000" channel="RTL.Zwee.lu">
-    <title>Rediffusioun vun der Sendung vum leschte Sonndeg</title>
-    <desc>Rediffusioun vun der Sendung vum leschte Sonndeg</desc>
-  </programme>
-  <programme start="20260522193000 +0000" stop="20260522200000 +0000" channel="RTL.Zwee.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260522200000 +0000" stop="20260522203000 +0000" channel="RTL.Zwee.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260522203000 +0000" stop="20260522210000 +0000" channel="RTL.Zwee.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260522210000 +0000" stop="20260522212500 +0000" channel="RTL.Zwee.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260522212500 +0000" stop="20260522230000 +0000" channel="RTL.Zwee.lu">
-    <title>FORMULA 1 Grousse Präis vu Kanada SprintQ</title>
-    <desc>Hightech, Speed an ëmmer um Limitt. De ganze Weekend, vum Qualifying samsdes bis bei d'Course sonndes, d'Formel 1 ass elo live op RTL ZWEE.</desc>
-  </programme>
-  <programme start="20260522230000 +0000" stop="20260522233000 +0000" channel="RTL.Zwee.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260522233000 +0000" stop="20260523000000 +0000" channel="RTL.Zwee.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260523000000 +0000" stop="20260523051000 +0000" channel="RTL.Zwee.lu">
-    <title>At Home TV And Luxauto TV</title>
-    <desc>Info</desc>
-  </programme>
   <programme start="20260523051000 +0000" stop="20260523060000 +0000" channel="RTL.Zwee.lu">
     <title>At Home TV And Luxauto TV</title>
     <desc>Info</desc>
@@ -4943,90 +4831,73 @@
     <title>RTL Radio Web TV</title>
     <desc>Info</desc>
   </programme>
-  <programme start="20260524100000 +0000" stop="20260524110000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <desc lang="en">Lauschtert d'Mass um Sonndeg am Livestream op RTL Zwee.</desc>
-    <title lang="en">Tëleesmass vun Ehnen/Einen</title>
+  <programme start="20260524100000 +0000" stop="20260524110000 +0000" channel="RTL.Zwee.lu">
+    <title>Tëleesmass vun Ehnen/Einen</title>
+    <desc>Lauschtert d'Mass um Sonndeg am Livestream op RTL Zwee.</desc>
   </programme>
-  <programme start="20260524110000 +0000" stop="20260524150000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">RTL Radio Web TV.</desc>
-    <title lang="en">RTL Radio Web TV</title>
+  <programme start="20260524110000 +0000" stop="20260524150000 +0000" channel="RTL.Zwee.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
   </programme>
-  <programme start="20260524150000 +0000" stop="20260524173000 +0000" channel="RTL.Zwee.lu"><category lang="en">Sport</category>
-    <category>Sports</category>
-    <desc lang="en">RTL Sport Spezial: Basket 5ième Finale.</desc>
-    <title lang="en">RTL Sport Spezial: Basket 5ième Finale</title>
+  <programme start="20260524150000 +0000" stop="20260524173000 +0000" channel="RTL.Zwee.lu">
+    <title>RTL Sport Spezial: Basket 5ième Finale</title>
+    <desc>Sport</desc>
   </programme>
-  <programme start="20260524173000 +0000" stop="20260524180000 +0000" channel="RTL.Zwee.lu"><category lang="en">Kindersendung</category>
-    <date>2026</date>
-    <desc lang="en">KannaTiVi.</desc>
-    <title lang="en">KannaTiVi</title>
+  <programme start="20260524173000 +0000" stop="20260524180000 +0000" channel="RTL.Zwee.lu">
+    <title>KannaTiVi</title>
+    <desc>Kindersendung</desc>
   </programme>
-  <programme start="20260524180000 +0000" stop="20260524183000 +0000" channel="RTL.Zwee.lu"><category lang="en">Magazin</category>
-    <date>2026</date>
-    <desc lang="en">RTL Sport.</desc>
-    <title lang="en">RTL Sport</title>
+  <programme start="20260524180000 +0000" stop="20260524183000 +0000" channel="RTL.Zwee.lu">
+    <title>RTL Sport</title>
+    <desc>Magazin</desc>
   </programme>
-  <programme start="20260524183000 +0000" stop="20260524190000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">De Journal.</desc>
-    <title lang="en">De Journal</title>
+  <programme start="20260524183000 +0000" stop="20260524190000 +0000" channel="RTL.Zwee.lu">
+    <title>De Journal</title>
+    <desc>Info</desc>
   </programme>
-  <programme start="20260524190000 +0000" stop="20260524193000 +0000" channel="RTL.Zwee.lu"><category lang="en">Magazin</category>
-    <date>2026</date>
-    <desc lang="en">RTL Sport.</desc>
-    <title lang="en">RTL Sport</title>
+  <programme start="20260524190000 +0000" stop="20260524193000 +0000" channel="RTL.Zwee.lu">
+    <title>RTL Sport</title>
+    <desc>Magazin</desc>
   </programme>
-  <programme start="20260524193000 +0000" stop="20260524200000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">De Journal.</desc>
-    <title lang="en">De Journal</title>
+  <programme start="20260524193000 +0000" stop="20260524200000 +0000" channel="RTL.Zwee.lu">
+    <title>De Journal</title>
+    <desc>Info</desc>
   </programme>
-  <programme start="20260524200000 +0000" stop="20260524203000 +0000" channel="RTL.Zwee.lu"><category lang="en">Magazin</category>
-    <date>2026</date>
-    <desc lang="en">RTL Sport.</desc>
-    <title lang="en">RTL Sport</title>
+  <programme start="20260524200000 +0000" stop="20260524203000 +0000" channel="RTL.Zwee.lu">
+    <title>RTL Sport</title>
+    <desc>Magazin</desc>
   </programme>
-  <programme start="20260524203000 +0000" stop="20260524230000 +0000" channel="RTL.Zwee.lu"><category lang="en">Motorsport</category>
-    <category>Sports</category>
-    <date>2026</date>
-    <desc lang="en">Hightech, Speed an ëmmer um Limitt. De ganze Weekend, vum Qualifying samsdes bis bei d'Course sonndes, d'Formel 1 ass elo live op RTL ZWEE.</desc>
-    <title lang="en">FORMULA 1 Grousse Präis vu Kanada Course</title>
+  <programme start="20260524203000 +0000" stop="20260524230000 +0000" channel="RTL.Zwee.lu">
+    <title>FORMULA 1 Grousse Präis vu Kanada Course</title>
+    <desc>Hightech, Speed an ëmmer um Limitt. De ganze Weekend, vum Qualifying samsdes bis bei d'Course sonndes, d'Formel 1 ass elo live op RTL ZWEE.</desc>
   </programme>
-  <programme start="20260524230000 +0000" stop="20260524233000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">De Journal.</desc>
-    <title lang="en">De Journal</title>
+  <programme start="20260524230000 +0000" stop="20260524233000 +0000" channel="RTL.Zwee.lu">
+    <title>De Journal</title>
+    <desc>Info</desc>
   </programme>
-  <programme start="20260524233000 +0000" stop="20260525000000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">De Journal.</desc>
-    <title lang="en">De Journal</title>
+  <programme start="20260524233000 +0000" stop="20260525000000 +0000" channel="RTL.Zwee.lu">
+    <title>De Journal</title>
+    <desc>Info</desc>
   </programme>
-  <programme start="20260525000000 +0000" stop="20260525050000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">At Home TV &amp; Luxauto TV.</desc>
-    <title lang="en">At Home TV &amp; Luxauto TV</title>
+  <programme start="20260525000000 +0000" stop="20260525050000 +0000" channel="RTL.Zwee.lu">
+    <title>At Home TV And Luxauto TV</title>
+    <desc>Info</desc>
   </programme>
-  <programme start="20260525050000 +0000" stop="20260525060000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">At Home TV &amp; Luxauto TV.</desc>
-    <title lang="en">At Home TV &amp; Luxauto TV</title>
+  <programme start="20260525050000 +0000" stop="20260525060000 +0000" channel="RTL.Zwee.lu">
+    <title>At Home TV And Luxauto TV</title>
+    <desc>Info</desc>
   </programme>
-  <programme start="20260525060000 +0000" stop="20260525070000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">Rediffusioun vu Journal a Magazin.</desc>
-    <title lang="en">Rediffusioun vu Journal a Magazin</title>
+  <programme start="20260525060000 +0000" stop="20260525070000 +0000" channel="RTL.Zwee.lu">
+    <title>Rediffusioun vu Journal a Magazin</title>
+    <desc>Info</desc>
   </programme>
-  <programme start="20260525070000 +0000" stop="20260525090000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">At Home TV &amp; Luxauto TV.</desc>
-    <title lang="en">At Home TV &amp; Luxauto TV</title>
+  <programme start="20260525070000 +0000" stop="20260525090000 +0000" channel="RTL.Zwee.lu">
+    <title>At Home TV And Luxauto TV</title>
+    <desc>Info</desc>
   </programme>
-  <programme start="20260525090000 +0000" stop="20260525120000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">RTL Radio Web TV.</desc>
-    <title lang="en">RTL Radio Web TV</title>
+  <programme start="20260525090000 +0000" stop="20260525120000 +0000" channel="RTL.Zwee.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
   </programme>
   <programme start="20260525120000 +0000" stop="20260525130000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
     <date>2026</date>
