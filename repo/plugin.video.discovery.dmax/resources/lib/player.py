@@ -73,7 +73,7 @@ class discoMaster():
 					self.playback.current = self.playback.getTime()
 				if self.playback.complete == 999999:
 					self.playback.complete = self.playback.getTotalTime()
-					begins_running = f"{convert_times(self.playback.complete, False, 0)}.000" if KODI_un21 else convert_times(self.playback.complete)
+					begins_running = f"{convert_times(self.playback.complete, False, 0)}.000" if KODI_BUILD <= 20 else convert_times(self.playback.complete)
 					debug_MS(f"(player.discoMaster[4]) -> [PLAYER]: STARTING === COURSE_no : {self.playback.passage} === TOTAL_TIME : {begins_running} -> Modus gesamte Videolaufzeit abrufen ===")
 				if self.playback.current != 0 and self.playback.complete != 999999:
 					if xbmc.getCondVisibility('Player.Seeking') or not xbmc.getCondVisibility('Player.Playing'): # Wenn das Video durch eine Anwenderaktion unterbrochen wird, die nächsten Schritte überspringen
@@ -98,9 +98,9 @@ class discoMaster():
 				break
 
 	def track_quick(self, INSTANCE, FINISH, ACTUAL, TOTAL):
-		actual_running = int(round(ACTUAL*1000)) + 500 if KODI_un21 else int(ACTUAL*1000) + 500
+		actual_running = int(round(ACTUAL*1000)) + 500 if KODI_BUILD <= 20 else int(ACTUAL*1000) + 500
 		if not FINISH and actual_running >= int(TOTAL)*1000: # Plus 500 msek. da die Gesamtlaufzeit in KODI 19+20 keine Millisekunden hat // ab KODI 21 mit Millisekunden
-			ending_running = f"{convert_times(TOTAL, False, 0)}.000" if KODI_un21 else convert_times(TOTAL)
+			ending_running = f"{convert_times(TOTAL, False, 0)}.000" if KODI_BUILD <= 20 else convert_times(TOTAL)
 			log(f"(player.discoMaster[8]) -> [PLAYER]: FORCE_STOPPING === ACTUAL_TIME : {convert_times(ACTUAL)} || TOTAL_TIME : {ending_running} ===")
 			self.playback.finished = True
 			try:

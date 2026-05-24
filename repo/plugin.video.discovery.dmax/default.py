@@ -20,43 +20,41 @@
 '''
 
 from resources.lib.common import *
-from resources.lib import navigator
+from resources.lib.navigator import clientMaster
 params = dict(parse_qsl(sys.argv[2][1:]))
 
 
 def run():
 	if params:
-		if params['mode'] == 'listThemes':
-			navigator.listThemes()
-		elif params['mode'] == 'listAlphabet':
-			navigator.listAlphabet()
-		elif params['mode'] == 'listSeries':
-			navigator.listSeries(params['url'], params.get('page', '1'), params.get('marker', 'standard'), params.get('transmit', ''))
-		elif params['mode'] == 'listEpisodes':
-			navigator.listEpisodes(params['url'], params.get('genre', ''), params.get('name', ''))
-		elif params['mode'] == 'playVideo':
-			navigator.playVideo(params['url'])
-		elif params['mode'] == 'listFavorites':
-			navigator.listFavorites()
+		if params['mode'] == 'list_themes':
+			clientMaster().list_themes()
+		elif params['mode'] == 'list_alphabet':
+			clientMaster().list_alphabet(params['link'], params['phase'])
+		elif params['mode'] == 'list_series':
+			clientMaster().list_series(params['link'], params['marker'], params['phase'], params.get('extra', {}))
+		elif params['mode'] == 'list_episodes':
+			clientMaster().list_episodes(params['link'], params['marker'], params['phase'], params.get('show', None))
+		elif params['mode'] == 'play_video':
+			clientMaster().play_video(params['url'])
+		elif params['mode'] == 'list_favorites':
+			clientMaster().list_favorites()
 		elif params['mode'] == 'favorit_construct':
-			navigator.favorit_construct(**params)
-		elif params['mode'] == 'aConfigs':
+			clientMaster().favorit_construct(**params)
+		elif params['mode'] == 'antuning':
 			addon.openSettings()
 			xbmc.executebuiltin('Container.Refresh')
-		elif params['mode'] == 'iConfigs':
+		elif params['mode'] == 'ietuning':
 			xbmcaddon.Addon('inputstream.adaptive').openSettings()
 	else: ##### Delete old Files in Userdata-Folder 'settings' to cleanup old Entries #####
-		DONE = False ##### [plugin.video.discovery.dmax v.3.0.9+v.3.1.0+v.3.2.8] - 22.03.2021+11.04.2021+21.07.2024 #####
+		DONE = False ##### [plugin.video.discovery.dmax v.3.0.9+v.3.1.0+v.3.2.8+v.3.3.4] - 22.03.21+11.04.21+21.07.24+24.05.26 #####
 		firstSCRIPT = xbmcvfs.translatePath(os.path.join(f"special://home{os.sep}addons{os.sep}{addon_id}{os.sep}lib{os.sep}")).encode('utf-8').decode('utf-8')
 		UNO = xbmcvfs.translatePath(os.path.join(firstSCRIPT, 'only_at_FIRSTSTART'))
 		if xbmcvfs.exists(UNO):
 			SOURCE = xbmcvfs.translatePath(os.path.join(f"special://home{os.sep}userdata{os.sep}addon_data{os.sep}{addon_id}{os.sep}")).encode('utf-8').decode('utf-8')
 			if xbmcvfs.exists(SOURCE):
-				OLD_SETTINGS = xbmcvfs.translatePath(os.path.join(SOURCE, 'settings.xml'))
 				try:
 					xbmc.executeJSONRPC(f'{{"jsonrpc":"2.0","id":1,"method":"Addons.SetAddonEnabled","params":{{"addonid":"{addon_id}","enabled":false}}}}')
-					if xbmcvfs.exists(OLD_SETTINGS):
-						xbmcvfs.delete(OLD_SETTINGS) # Delete OLD_SETTINGS File
+					shutil.rmtree(SOURCE, ignore_errors=True)
 				except: pass
 				xbmcvfs.delete(UNO)
 				xbmc.executeJSONRPC(f'{{"jsonrpc":"2.0","id":1,"method":"Addons.SetAddonEnabled","params":{{"addonid":"{addon_id}","enabled":true}}}}')
@@ -69,9 +67,9 @@ def run():
 		else:
 			DONE = True
 		if DONE is True:
-			if not xbmcvfs.exists(os.path.join(dataPath, 'settings.xml')):
-				xbmcvfs.mkdirs(dataPath)
+			if not xbmcvfs.exists(os.path.join(addon_profile, 'settings.xml')):
+				xbmcvfs.mkdirs(addon_profile)
 				xbmc.executebuiltin(f"Addon.OpenSettings({addon_id})")
-			navigator.mainMenu()
+			clientMaster().main_menu()
 
 run()

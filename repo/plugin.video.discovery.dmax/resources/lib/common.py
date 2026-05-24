@@ -14,7 +14,7 @@ import time
 from datetime import datetime, timedelta
 from calendar import timegm as TGM
 import requests
-import ssl
+from requests.adapters import HTTPAdapter
 from urllib.parse import parse_qsl, urlencode, quote_plus, unquote_plus
 from concurrent.futures import *
 import urllib3
@@ -29,42 +29,38 @@ addon_id							= addon.getAddonInfo('id')
 addon_name						= addon.getAddonInfo('name')
 addon_version					= addon.getAddonInfo('version')
 addon_desc						= addon.getAddonInfo('description')
-addonPath							= xbmcvfs.translatePath(addon.getAddonInfo('path')).encode('utf-8').decode('utf-8')
-dataPath								= xbmcvfs.translatePath(addon.getAddonInfo('profile')).encode('utf-8').decode('utf-8')
-FAVORIT_FILE						= xbmcvfs.translatePath(os.path.join(dataPath, 'favorites_DMAX.json'))
-tempSTORE						= xbmcvfs.translatePath(os.path.join(dataPath, 'tempSTORE', '')).encode('utf-8').decode('utf-8')
-storeSECRET						= xbmcvfs.translatePath(os.path.join(tempSTORE, 'FREE_SECRET'))
-defaultFanart						= os.path.join(addonPath, 'resources', 'media', 'fanart.jpg')
-icon										= os.path.join(addonPath, 'resources', 'media', 'icon.png')
-artpic									= os.path.join(addonPath, 'resources', 'media', '').encode('utf-8').decode('utf-8')
-alppic									= os.path.join(addonPath, 'resources', 'media', 'alphabet', '').encode('utf-8').decode('utf-8')
-FORCE_PLAYER					= (True if addon.getSetting('force_stopping') == 'true' else False)
-SORTING							= int(addon.getSetting('sorting_technique'))
+addon_folder						= xbmcvfs.translatePath(addon.getAddonInfo('path'))
+addon_profile					= xbmcvfs.translatePath(addon.getAddonInfo('profile'))
+FAVORIT_FILE						= xbmcvfs.translatePath(os.path.join(addon_profile, 'favorites_TLC.json'))
+tempSTORE						= xbmcvfs.translatePath(os.path.join(addon_profile, 'tempSTORE', ''))
+publicSECRET						= xbmcvfs.translatePath(os.path.join(tempSTORE, 'PUBLIC_SECRET'))
+defaultFanart						= os.path.join(addon_folder, 'resources', 'media', 'fanart.jpg')
+icon										= os.path.join(addon_folder, 'resources', 'media', 'icon.png')
+artpic									= os.path.join(addon_folder, 'resources', 'media', '')
+alppic									= os.path.join(addon_folder, 'resources', 'media', 'alphabet', '')
+clamps_player					= (True if addon.getSetting('force_stopping') == 'true' else False)
+courses								= int(addon.getSetting('sorting_technique'))
 useThumbAsFanart			= addon.getSetting('use_fanart') == 'true'
-enableADJUSTMENT			= addon.getSetting('show_settings') == 'true'
+enable_tune						= addon.getSetting('show_settings') == 'true'
 DEB_LEVEL							= (xbmc.LOGINFO if addon.getSetting('enable_debug') == 'true' else xbmc.LOGDEBUG)
-KODI_ov20							= int(xbmc.getInfoLabel('System.BuildVersion')[0:2]) >= 20
-KODI_un21							= int(xbmc.getInfoLabel('System.BuildVersion')[0:2]) <= 20
-DISCO_CHANNEL				= '94' # '94' = DMAX // '148' = HGTV // '95' = TLC // '626' = TELE5
-PUBLIC_CHANNEL				= 'dmaxde' # 'dmaxde' = DMAX // 'hgtvde' = HGTV // 'tlcde' = TLC // 'tele5' = TELE5
-DISCO_REALM					= 'dmaxde' # 'dmaxde' = DMAX // 'hgtv' = HGTV // 'tlcde' = TLC // 'dmaxde' = TELE5
-PUBLIC_REALM					= 'de' # https://public.aurora.enhanced.live/token?realm=de
-PUBLIC_HOST					= 'https://public.aurora.enhanced.live'
-AURORA_DEFAULT			= f"{PUBLIC_HOST}/site/page/sendungen/?include=default,advancedSearch&filter[environment]={PUBLIC_CHANNEL}&v=2"
-AURORA_SEARCH				= f"{AURORA_DEFAULT.replace('/page/sendungen/', '/search/taxonomy/')}&filter[slug]={{}}&page[size]=200"
-DISCO_HOST						= 'https://eu1-prod.disco-api.com'
-EUAPI_SHOWS					= f"{DISCO_HOST}/content/shows?include=images,genres"
-EUAPI_VIDEOS					= f"{DISCO_HOST}/content/videos?include=show,images,genres"
-ACCESS_URL						= f"{DISCO_HOST}/token?realm={DISCO_REALM}"
-BASE_URL							= 'https://dmax.de/'
-agent_WEB							= 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:147.0) Gecko/20100101 Firefox/147.0'
+KODI_BUILD						= int(xbmc.getInfoLabel('System.BuildVersion')[0:2])
+BASE_URL							= 'https://dmax.de/' # 'https://dmax.de/' = DMAX // 'https://de.hgtv.com/' = HGTV // 'https://tlc.de/' = TLC // 'https://tele5.de/' = TELE5
+HEAD_WEB							= 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:150.0) Gecko/20100101 Firefox/150.0'
+DEFAULT_HEADERS			= {'Accept': 'application/json, text/plain, */*', 'Content-Type': 'application/json; charset=utf-8', 'DNT': '1', 'Accept-Encoding': 'gzip', \
+	'Accept-Language': 'de-DE,de;q=0.9,en;q=0.8', 'sec-ch-ua-platform': 'Windows', 'Origin': BASE_URL[:-1], 'Referer': BASE_URL}
+STONE_HEADERS				= {**DEFAULT_HEADERS, **{'X-Device-Info': 'STONEJS/1 (Unknown/Unknown; Windows/NT 10.0; Unknown)', \
+	'X-disco-client': 'WEB:UNKNOWN:wbdatv:2.1.9', 'X-disco-params': 'realm=de'}}
+PUBIS_START						= 'https://public.aurora.enhanced.live'
+PUBIS_ENDES						= f"include=default,advancedSearch&filter[environment]=dmaxde&v=2" # 'dmaxde' = DMAX // 'hgtvde' = HGTV // 'tlcde' = TLC // 'tele5' = TELE5
+AURA_NORM						= f"{PUBIS_START}/site/page/sendungen/?{PUBIS_ENDES}"
+AURA_HOME						= f"{PUBIS_START}/site/page/homepage/?{PUBIS_ENDES}"
+AURA_SHOWS					= f"{PUBIS_START}/site/page/{{}}/?{PUBIS_ENDES}&parent_slug={{}}"
+AURA_VIDEOS					= f"{PUBIS_START}/site/shows/{{}}/?{PUBIS_ENDES}"
+AURA_SEARCH					= f"{PUBIS_START}/site/search/taxonomy/?{PUBIS_ENDES}&filter[slug]={{}}&page[size]=200"
+AURA_PLAYER					= f"{PUBIS_START}/playback/v3/videoPlaybackInfo"
+AURA_ACCESS					= f"{PUBIS_START}/token?realm=de" # https://public.aurora.enhanced.live/token?realm=de
 
 xbmcplugin.setContent(ADDON_HANDLE, 'tvshows')
-
-def py3_dec(d, nom='utf-8', ign='ignore'):
-	if isinstance(d, bytes):
-		d = d.decode(nom, ign)
-	return d
 
 def translation(id):
 	return addon.getLocalizedString(id)
@@ -105,7 +101,13 @@ def plugin_operate(MARKING):
 def get_sorting():
 	return [xbmcplugin.SORT_METHOD_UNSORTED, xbmcplugin.SORT_METHOD_LABEL_IGNORE_THE, xbmcplugin.SORT_METHOD_DURATION, xbmcplugin.SORT_METHOD_EPISODE, xbmcplugin.SORT_METHOD_DATE]
 
-def get_CentralTime(info): # 2024-05-05T19:10:00Z
+def convert_times(TIMING=None, ROUNDED=True, PLACES=3):
+	DEMAND = float(int(round(TIMING*1000))) if ROUNDED is True else float(int(TIMING*1000))
+	if ROUNDED is True and PLACES == 3:
+		return str(timedelta(milliseconds=DEMAND))[: - PLACES]
+	return str(timedelta(milliseconds=DEMAND))
+
+def convert_region(info): # 2026-05-16T19:10:00+00:00
 	CONVERTED = datetime(*(time.strptime(info[:19], '%Y-%m-%dT%H:%M:%S')[0:6]))
 	try:
 		LOCAL_DATE = datetime.fromtimestamp(TGM(CONVERTED.timetuple()))
@@ -116,24 +118,14 @@ def get_CentralTime(info): # 2024-05-05T19:10:00Z
 		LOCAL_DATE = LOCAL_DATE - timedelta(hours=datetime.timetuple(LOCAL_DATE).tm_isdst)
 	return LOCAL_DATE
 
-def get_RunTime(info, event='SECONDS'):
-	if event == 'SECONDS':
-		return "{0:.0f}".format(int(info) // 1000)
-	return "{0:.0f}".format(round(timedelta(milliseconds=int(info)) / timedelta(minutes=1)))
-
-def convert_times(TIMING=None, ROUNDED=True, PLACES=3):
-	DEMAND = float(int(round(TIMING*1000))) if ROUNDED is True else float(int(TIMING*1000))
-	if ROUNDED is True and PLACES == 3:
-		return str(timedelta(milliseconds=DEMAND))[: - PLACES]
-	return str(timedelta(milliseconds=DEMAND))
-
-def preserve(storage, content=None):
-	if content is not None:
-		with open(storage, 'w') as topics:
-			json.dump(content, topics, indent=2, sort_keys=True)
+def preserve(store, facts=None, arrive=None):
+	if facts is not None:
+		with open(store, 'w') as topics:
+			json.dump(facts, topics, indent=2, sort_keys=True)
 	else:
-		with open(storage, 'r') as topics:
-			arrive = json.load(topics)
+		if xbmcvfs.exists(store) and os.path.exists(store) and os.stat(store).st_size > 0:
+			with open(store, 'r') as topics:
+				arrive = json.load(topics)
 		return arrive
 
 def clear_umlaut(changes):
@@ -144,8 +136,8 @@ def clear_umlaut(changes):
 	return changes
 
 def clear_invalid(changes):
-	if changes is not None: # Replace Umlaut to Single Letter (AURORA=escape-vermaechtnis-der-wikinger -> DISCO=escape-vermachtnis-der-wikinger)
-		for cn in (('Ae', 'A'), ('ae', 'a'), ('Oe', 'O'), ('oe', 'o'), ('Ue', 'U'), ('ue', 'u'), ('ss', '')):
+	if changes is not None: # Ersetze den Umlaut und bestimmte Zeichen, um einen Slug für die entsprechende TV-Show für den Weiterleitungs-Link zu generieren
+		for cn in (('Ä', 'Ae'), ('ä', 'ae'), ('Ö', 'Oe'), ('ö', 'oe'), ('Ü', 'Ue'), ('ü', 'ue'), ('ß', 'ss'), ('&', 'und'), (',', ''), ('.', ''), (':', ''), ('!', ''), ('?', ''), ('(', ''), (')', ''),  (' - ', '-'), (' ', '-'), ('--', '-')):
 			changes = changes.replace(*cn)
 		changes = changes.strip()
 	return changes
@@ -156,56 +148,92 @@ def cleaning(text):
 			("&#x27;", "'"), ('&#34;', '"'), ('&#39;', '\''), ('&#039;', '\''), ('&#x00c4', 'Ä'), ('&#x00e4', 'ä'), ('&#x00d6', 'Ö'), ('&#x00f6', 'ö'), ('&#x00dc', 'Ü'), ('&#x00fc', 'ü'), ('&#x00df', 'ß'), ('&#xD;', ''),
 			('&#xC4;', 'Ä'), ('&#xE4;', 'ä'), ('&#xD6;', 'Ö'), ('&#xF6;', 'ö'), ('&#xDC;', 'Ü'), ('&#xFC;', 'ü'), ('&#xDF;', 'ß'), ('&#x201E;', '„'), ('&#xB4;', '´'), ('&#x2013;', '-'), ('&#xA0;', ' '),
 			('&Auml;', 'Ä'), ('&Euml;', 'Ë'), ('&Iuml;', 'Ï'), ('&Ouml;', 'Ö'), ('&Uuml;', 'Ü'), ('&auml;', 'ä'), ('&euml;', 'ë'), ('&iuml;', 'ï'), ('&ouml;', 'ö'), ('&uuml;', 'ü'), ('&#376;', 'Ÿ'), ('&yuml;', 'ÿ'),
-			('&agrave;', 'à'), ('&Agrave;', 'À'), ('&aacute;', 'á'), ('&Aacute;', 'Á'), ('&acirc;', 'â'), ('&Acirc;', 'Â'), ('&egrave;', 'è'), ('&Egrave;', 'È'), ('&eacute;', 'é'), ('&Eacute;', 'É'), ('&ecirc;', 'ê'), ('&Ecirc;', 'Ê'),
-			('&igrave;', 'ì'), ('&Igrave;', 'Ì'), ('&iacute;', 'í'), ('&Iacute;', 'Í'), ('&icirc;', 'î'), ('&Icirc;', 'Î'), ('&ograve;', 'ò'), ('&Ograve;', 'Ò'), ('&oacute;', 'ó'), ('&Oacute;', 'Ó'), ('&ocirc;', 'ô'), ('&Ocirc;', 'Ô'),
-			('&ugrave;', 'ù'), ('&Ugrave;', 'Ù'), ('&uacute;', 'ú'), ('&Uacute;', 'Ú'), ('&ucirc;', 'û'), ('&Ucirc;', 'Û'), ('&yacute;', 'ý'), ('&Yacute;', 'Ý'),
-			('&atilde;', 'ã'), ('&Atilde;', 'Ã'), ('&ntilde;', 'ñ'), ('&Ntilde;', 'Ñ'), ('&otilde;', 'õ'), ('&Otilde;', 'Õ'), ('&Scaron;', 'Š'), ('&scaron;', 'š'), ('&ccedil;', 'ç'), ('&Ccedil;', 'Ç'),
-			('&alpha;', 'a'), ('&Alpha;', 'A'), ('&aring;', 'å'), ('&Aring;', 'Å'), ('&aelig;', 'æ'), ('&AElig;', 'Æ'), ('&epsilon;', 'e'), ('&Epsilon;', 'Ε'), ('&eth;', 'ð'), ('&ETH;', 'Ð'), ('&gamma;', 'g'), ('&Gamma;', 'G'),
-			('&oslash;', 'ø'), ('&Oslash;', 'Ø'), ('&theta;', 'θ'), ('&thorn;', 'þ'), ('&THORN;', 'Þ'), ('&bull;', '•'), ('&iexcl;', '¡'), ('&iquest;', '¿'), ('&copy;', '(c)'), ('\t', '    '), ('<br />', ' - '), ('</p>\n<p></p>', ''),
-			("&rsquo;", "’"), ("&lsquo;", "‘"), ("&sbquo;", "’"), ('&rdquo;', '”'), ('&ldquo;', '“'), ('&bdquo;', '”'), ('&rsaquo;', '›'), ('lsaquo;', '‹'), ('&raquo;', '»'), ('&laquo;', '«'), ('<p></p><p>', '[CR][CR]'),
+			("&rsquo;", "’"), ("&lsquo;", "‘"), ("&sbquo;", "’"), ('&rdquo;', '”'), ('&ldquo;', '“'), ('&bdquo;', '”'), ('&rsaquo;', '›'), ('lsaquo;', '‹'), ('&raquo;', '»'), ('&laquo;', '«'), ('\n', ' '), ('<br>', '[CR]'), ('</p><p>', '[CR]'),
 			('\\xC4', 'Ä'), ('\\xE4', 'ä'), ('\\xD6', 'Ö'), ('\\xF6', 'ö'), ('\\xDC', 'Ü'), ('\\xFC', 'ü'), ('\\xDF', 'ß'), ('\\x201E', '„'), ('\\x28', '('), ('\\x29', ')'), ('\\x2F', '/'), ('\\x2D', '-'), ('\\x20', ' '), ('\\x3A', ':'), ("\\'", "'")):
 			text = text.replace(*tx)
-		text = re.sub(r'\<.*?\>', '', text)
-		text = text.strip()
+		text = re.sub(r'\<.*?\>', '', text).strip()
 	return text
 
-def create_entries(metadata, SIGNS=None):
+def create_entries(metadata, entries='DEFAULT', persist=1):
+	if entries == 'COLLATE':
+		#log(f"(common.create_entries[1]) xxxxx METAS-01 : {metadata} xxxxx")
+		shorten = metadata['Contents'] if metadata.get('Contents', {}) else metadata
+		series, showSlug, local_start, start_times, starting, airing, local_ends, ends_times, mpaa = (None for _ in range(9))
+		collate, (note_1, note_2) = '2026-01-01T00:01', ("" for _ in range(2))
+		title, episSlug = cleaning(shorten['title']), (shorten.get('alternateId', None) or shorten.get('url', None))
+		show_title = (shorten.get('show', {}).get('title', '') or metadata.get('SeriesTitle', ''))
+		series, showSlug = cleaning(show_title), clear_invalid(show_title).lower()
+		episID, showID = shorten.get('id', None), (shorten.get('show', {}).get('id', '') or shorten.get('showId', '') or None)
+		model = shorten.get('videoType', 'UNKNOWN')
+		duration = int(shorten['videoDuration']) // 1000 if str(shorten.get('videoDuration')).isdecimal() else None
+		season = f"{int(shorten['seasonNumber']):02}" if str(shorten.get('seasonNumber')).isdecimal() and int(shorten['seasonNumber']) != 0 else None
+		episode = f"{int(shorten['episodeNumber']):02}" if str(shorten.get('episodeNumber')).isdecimal() and int(shorten['episodeNumber']) != 0 else None
+		if shorten.get('contentRating', '') and str(shorten['contentRating'].get('code')).isdecimal():
+			mpaa = translation(30623).format(shorten['contentRating']['code']) if str(shorten['contentRating']['code']) != '0' else translation(30624)
+		if str(shorten.get('publishStart'))[:4].isdecimal():
+			local_start = convert_region(shorten['publishStart'])
+			start_times = local_start.strftime('%d{0}%m{0}%y {1} %H{2}%M').format('.', '•', ':')
+			collate = local_start.strftime('%Y-%m-%dT%H:%M')
+			starting = local_start.strftime('%Y-%m-%dT%H:%M') if KODI_BUILD >= 20 else LOCALstart.strftime('%d.%m.%Y') # 2026-05-16T19:10:00 = NEWFORMAT // 16.05.2026 = OLDFORMAT
+			airing = local_start.strftime('%d.%m.%Y') # FirstAired
+		if str(shorten.get('publishEnd'))[:4].isdecimal():
+			local_ends = convert_region(shorten['publishEnd'])
+			ends_times = local_ends.strftime('%d{0}%m{0}%y {1} %H{2}%M').format('.', '•', ':')
+		if start_times and ends_times: note_1 = translation(30625).format(start_times, ends_times)
+		elif start_times and ends_times is None: note_1 = translation(30626).format(start_times)
+		elif start_times is None and ends_times is None: note_1 = '[CR]'
+		thumb = shorten['poster']['src'] if shorten.get('poster', '') and shorten['poster'].get('src', '') else \
+			shorten['meta']['thumbnailUrl'] if shorten.get('meta', '') and shorten['meta'].get('thumbnailUrl', '') else f"{artpic}standard.png"
+		note_2 = shorten['description'] if shorten.get('description', '') and len(shorten['description']) > 20 else shorten['meta']['description'] if \
+			shorten.get('meta', '') and shorten['meta'].get('description', '') and len(shorten['meta']['description']) > 20 else ""
+		species = ' / '.join(sorted([tax.get('title', '') for tax in shorten.get('taxonomies', {}) if tax.get('category') == 'genre'][:2]))
+		pioneer, medias = translation(30627).format(season, episode) if season and episode else None, 'episode' if season and episode else 'movie'
+		suffix = translation(30629) if local_start and local_start > (datetime.now() - timedelta(days=7, hours=2)) else \
+			translation(30630) if local_ends and local_ends < (datetime.now() + timedelta(days=7, hours=2)) else ""
+		full_name= f"{pioneer} {title}{suffix}" if pioneer else f"{title}{suffix}"
+		teaser, short_name = f"{series}[CR]{note_1}{note_2}" if series else note_1+note_2, re.sub(r'\[.*?\]', '', full_name)
+		debug_MS("* * * * * * * * * * * * * * * * * * * * * * *")
+		debug_MS(f"(navigator.list_episodes[3]) ##### POSITION : {persist} || NAME : {short_name} || IDD : {episID} || DURATION : {duration} #####")
+		debug_MS(f"(navigator.list_episodes[3]) ##### START : {collate} || SEASON : {season} || EPISODE : {episode} || MPAA : {mpaa} #####")
+		debug_MS(f"(navigator.list_episodes[3]) ##### SERIE : {series} || IMAGE : {thumb} #####")
+		metadata = {'Title': full_name, 'TvShowTitle': series, 'Plot': teaser, 'Season': season,'Episode': episode, 'Duration': duration, \
+			'Date': starting, 'Aired': airing, 'Genre': species, 'Mpaa': mpaa, 'Mediatype': medias, 'Image': thumb, 'Reference': 'Single'}
 	listitem = xbmcgui.ListItem(metadata['Title'])
-	vinfo = listitem.getVideoInfoTag() if KODI_ov20 else {}
-	if KODI_ov20: vinfo.setTitle(metadata['Title'])
+	vinfo = listitem.getVideoInfoTag() if KODI_BUILD >= 20 else {}
+	if KODI_BUILD >= 20: vinfo.setTitle(metadata['Title'])
 	else: vinfo['Title'] = metadata['Title']
 	if metadata.get('TvShowTitle', ''):
-		if KODI_ov20: vinfo.setTvShowTitle(metadata['TvShowTitle'])
+		if KODI_BUILD >= 20: vinfo.setTvShowTitle(metadata['TvShowTitle'])
 		else: vinfo['Tvshowtitle'] = metadata['TvShowTitle']
 	description = metadata['Plot'] if metadata.get('Plot') not in ['', 'None', None] else ' '
-	if KODI_ov20: vinfo.setPlot(description)
+	if KODI_BUILD >= 20: vinfo.setPlot(description)
 	else: vinfo['Plot'] = description
 	if str(metadata.get('Duration')).isdecimal():
-		if KODI_ov20: vinfo.setDuration(int(metadata['Duration']))
+		if KODI_BUILD >= 20: vinfo.setDuration(int(metadata['Duration']))
 		else: vinfo['Duration'] = metadata['Duration']
 	if str(metadata.get('Season')).isdecimal():
-		if KODI_ov20: vinfo.setSeason(int(metadata['Season']))
+		if KODI_BUILD >= 20: vinfo.setSeason(int(metadata['Season']))
 		else: vinfo['Season'] = metadata['Season']
 	if str(metadata.get('Episode')).isdecimal():
-		if KODI_ov20: vinfo.setEpisode(int(metadata['Episode']))
+		if KODI_BUILD >= 20: vinfo.setEpisode(int(metadata['Episode']))
 		else: vinfo['Episode'] = metadata['Episode']
 	if metadata.get('Date', ''):
-		if KODI_ov20: listitem.setDateTime(metadata['Date'])
+		if KODI_BUILD >= 20: listitem.setDateTime(metadata['Date'])
 		else: vinfo['Date'] = metadata['Date']
 	if metadata.get('Aired', ''):
-		if KODI_ov20: vinfo.setFirstAired(metadata['Aired'])
+		if KODI_BUILD >= 20: vinfo.setFirstAired(metadata['Aired'])
 		else: vinfo['Aired'] = metadata['Aired']
-	if str(metadata.get('Year')).isdecimal():
-		if KODI_ov20: vinfo.setYear(int(metadata['Year']))
-		else: vinfo['Year'] = metadata['Year']
+	if str(metadata.get('Aired'))[6:10].isdecimal():
+		if KODI_BUILD >= 20: vinfo.setYear(int(metadata['Aired'][6:10]))
+		else: vinfo['Year'] = metadata['Aired'][6:10]
 	if metadata.get('Genre', ''):
-		if KODI_ov20: vinfo.setGenres([metadata['Genre']])
+		if KODI_BUILD >= 20: vinfo.setGenres([metadata['Genre']])
 		else: vinfo['Genre'] = metadata['Genre']
 	if metadata.get('Mpaa', ''):
-		if KODI_ov20: vinfo.setMpaa(metadata['Mpaa'])
+		if KODI_BUILD >= 20: vinfo.setMpaa(metadata['Mpaa'])
 		else: vinfo['Mpaa'] = metadata['Mpaa']
 	if metadata.get('Mediatype', ''):
-		if KODI_ov20: vinfo.setMediaType(metadata['Mediatype'])
+		if KODI_BUILD >= 20: vinfo.setMediaType(metadata['Mediatype'])
 		else: vinfo['Mediatype'] = metadata['Mediatype']
 	picture = metadata['Image'] if metadata.get('Image') else f"{artpic}standard.png"
 	listitem.setArt({'icon': icon, 'thumb': picture, 'poster': picture, 'fanart': defaultFanart})
@@ -214,5 +242,5 @@ def create_entries(metadata, SIGNS=None):
 		listitem.setArt({'fanart': picture})
 	if metadata.get('Reference') == 'Single':
 		listitem.setProperty('IsPlayable', 'true')
-	if not KODI_ov20: listitem.setInfo('Video', vinfo)
+	if KODI_BUILD < 20: listitem.setInfo('Video', vinfo)
 	return listitem

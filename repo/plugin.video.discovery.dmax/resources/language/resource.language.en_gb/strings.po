@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI-Addons\n"
 "Report-Msgid-Bugs-To: alanwww1@kodi.org\n"
 "POT-Creation-Date: 2020-06-26 17:00+0000\n"
-"PO-Revision-Date: 2026-02-28 18:00+0000\n"
+"PO-Revision-Date: 2026-05-23 18:00+0000\n"
 "Last-Translator: realvito\n"
 "Language-Team: ENGLISH\n"
 "MIME-Version: 1.0\n"
@@ -103,7 +103,7 @@ msgstr ""
 # WARNING/INFORMATION-MESSAGES-NOTIFICATION
 
 msgctxt "#30521"
-msgid "DMAX : [COLOR orangered]!!! {}[/COLOR][COLOR blue]{}[/COLOR][COLOR orangered] - ERROR !!![/COLOR]"
+msgid "DMAX : [COLOR orangered]!!! {} - ERROR !!![/COLOR]"
 msgstr ""
 
 msgctxt "#30522"
@@ -111,7 +111,7 @@ msgid "[COLOR orangered]An error has occured, please check *LOG* ![/COLOR]"
 msgstr ""
 
 msgctxt "#30523"
-msgid "ERROR = [COLOR orangered]{} ![/COLOR]"
+msgid "[B][COLOR orangered]{} ![/COLOR][/B]"
 msgstr ""
 
 msgctxt "#30524"
@@ -127,7 +127,7 @@ msgid "[B]≡ [COLOR blue]{}[/COLOR] ≡ in the DMAX-Mediathek[/B]"
 msgstr ""
 
 msgctxt "#30527"
-msgid "[COLOR orangered]The requested *VideoLink* does NOT exist ![/COLOR]"
+msgid "[B][COLOR orangered]The requested *VideoLink* does NOT exist ![/COLOR][/B]"
 msgstr ""
 
 msgctxt "#30528"
@@ -204,19 +204,19 @@ msgid "{}[COLOR lime]  (new)[/COLOR]"
 msgstr ""
 
 msgctxt "#30623"
-msgid "[COLOR lime]Next Page ({})  >>>[/COLOR]"
+msgid "From Age {}"
 msgstr ""
 
 msgctxt "#30624"
-msgid "[COLOR lime]  (new)[/COLOR]"
+msgid "without age restriction"
 msgstr ""
 
 msgctxt "#30625"
-msgid "[COLOR orangered]  (ending soon)[/COLOR]"
+msgid "From [COLOR chartreuse]{}[/COLOR] to [COLOR orangered]{}[/COLOR][CR][CR]"
 msgstr ""
 
 msgctxt "#30626"
-msgid "[COLOR orange]S{}E{}:[/COLOR]"
+msgid "From [COLOR chartreuse]{}[/COLOR][CR][CR]"
 msgstr ""
 
 msgctxt "#30627"
@@ -224,22 +224,22 @@ msgid "[COLOR chartreuse]S{}E{}:[/COLOR]"
 msgstr ""
 
 msgctxt "#30628"
-msgid "From [COLOR chartreuse]{}[/COLOR] to [COLOR orangered]{}[/COLOR][CR][CR]"
+msgid "[COLOR orange]S{}E{}:[/COLOR]"
 msgstr ""
 
 msgctxt "#30629"
-msgid "From [COLOR chartreuse]{}[/COLOR][CR][CR]"
+msgid "[COLOR lime]  (new)[/COLOR]"
 msgstr ""
 
 msgctxt "#30630"
-msgid "From Age {}"
+msgid "[COLOR orangered]  (ending soon)[/COLOR]"
 msgstr ""
 
-msgctxt "#30631"
-msgid "without age restriction"
+msgctxt "#30640"
+msgid "[COLOR lime]Next Page ({})  >>>[/COLOR]"
 msgstr ""
 
-# empty strings from id 30632 to 30650
+# empty strings from id 30641 to 30650
 
 msgctxt "#30651"
 msgid "[B][COLOR chartreuse]Add to DMAX-Favourites ...[/COLOR][/B]"
