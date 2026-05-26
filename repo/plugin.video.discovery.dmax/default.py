@@ -20,33 +20,33 @@
 '''
 
 from resources.lib.common import *
-from resources.lib.navigator import clientMaster
+from resources.lib import navigator
 params = dict(parse_qsl(sys.argv[2][1:]))
 
 
 def run():
 	if params:
 		if params['mode'] == 'list_themes':
-			clientMaster().list_themes()
+			navigator.list_themes()
 		elif params['mode'] == 'list_alphabet':
-			clientMaster().list_alphabet(params['link'], params['phase'])
+			navigator.list_alphabet(params['link'], params['phase'])
 		elif params['mode'] == 'list_series':
-			clientMaster().list_series(params['link'], params['marker'], params['phase'], params.get('extra', {}))
+			navigator.list_series(params['link'], params['marker'], params['phase'], params.get('extra', {}))
 		elif params['mode'] == 'list_episodes':
-			clientMaster().list_episodes(params['link'], params['marker'], params['phase'], params.get('show', None))
+			navigator.list_episodes(params['link'], params['marker'], params['phase'], params.get('show', None))
 		elif params['mode'] == 'play_video':
-			clientMaster().play_video(params['url'])
+			navigator.play_video(params['url'])
 		elif params['mode'] == 'list_favorites':
-			clientMaster().list_favorites()
+			navigator.list_favorites()
 		elif params['mode'] == 'favorit_construct':
-			clientMaster().favorit_construct(**params)
+			navigator.favorit_construct(**params)
 		elif params['mode'] == 'antuning':
 			addon.openSettings()
 			xbmc.executebuiltin('Container.Refresh')
 		elif params['mode'] == 'ietuning':
 			xbmcaddon.Addon('inputstream.adaptive').openSettings()
 	else: ##### Delete old Files in Userdata-Folder 'settings' to cleanup old Entries #####
-		DONE = False ##### [plugin.video.discovery.dmax v.3.0.9+v.3.1.0+v.3.2.8+v.3.3.4] - 22.03.21+11.04.21+21.07.24+24.05.26 #####
+		DONE = False ##### [plugin.video.discovery.dmax v.3.0.9+v.3.1.0+v.3.2.8+v.3.3.4+v.3.3.5] - 22.03.21+11.04.21+21.07.24+24.05.26+26.05.26 #####
 		firstSCRIPT = xbmcvfs.translatePath(os.path.join(f"special://home{os.sep}addons{os.sep}{addon_id}{os.sep}lib{os.sep}")).encode('utf-8').decode('utf-8')
 		UNO = xbmcvfs.translatePath(os.path.join(firstSCRIPT, 'only_at_FIRSTSTART'))
 		if xbmcvfs.exists(UNO):
@@ -70,6 +70,6 @@ def run():
 			if not xbmcvfs.exists(os.path.join(addon_profile, 'settings.xml')):
 				xbmcvfs.mkdirs(addon_profile)
 				xbmc.executebuiltin(f"Addon.OpenSettings({addon_id})")
-			clientMaster().main_menu()
+			navigator.main_menu()
 
 run()

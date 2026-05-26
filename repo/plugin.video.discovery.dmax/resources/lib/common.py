@@ -31,7 +31,7 @@ addon_version					= addon.getAddonInfo('version')
 addon_desc						= addon.getAddonInfo('description')
 addon_folder						= xbmcvfs.translatePath(addon.getAddonInfo('path'))
 addon_profile					= xbmcvfs.translatePath(addon.getAddonInfo('profile'))
-FAVORIT_FILE						= xbmcvfs.translatePath(os.path.join(addon_profile, 'favorites_TLC.json'))
+FAVORIT_FILE						= xbmcvfs.translatePath(os.path.join(addon_profile, 'favorites_DMAX.json'))
 tempSTORE						= xbmcvfs.translatePath(os.path.join(addon_profile, 'tempSTORE', ''))
 publicSECRET						= xbmcvfs.translatePath(os.path.join(tempSTORE, 'PUBLIC_SECRET'))
 defaultFanart						= os.path.join(addon_folder, 'resources', 'media', 'fanart.jpg')
@@ -46,7 +46,7 @@ DEB_LEVEL							= (xbmc.LOGINFO if addon.getSetting('enable_debug') == 'true' el
 KODI_BUILD						= int(xbmc.getInfoLabel('System.BuildVersion')[0:2])
 BASE_URL							= 'https://dmax.de/' # 'https://dmax.de/' = DMAX // 'https://de.hgtv.com/' = HGTV // 'https://tlc.de/' = TLC // 'https://tele5.de/' = TELE5
 HEAD_WEB							= 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:150.0) Gecko/20100101 Firefox/150.0'
-DEFAULT_HEADERS			= {'Accept': 'application/json, text/plain, */*', 'Content-Type': 'application/json; charset=utf-8', 'DNT': '1', 'Accept-Encoding': 'gzip', \
+DEFAULT_HEADERS			= {'Accept': 'application/json, text/plain, */*', 'Content-Type': 'application/json; charset=utf-8', 'DNT': '1', 'Accept-Encoding': 'gzip, deflate', \
 	'Accept-Language': 'de-DE,de;q=0.9,en;q=0.8', 'sec-ch-ua-platform': 'Windows', 'Origin': BASE_URL[:-1], 'Referer': BASE_URL}
 STONE_HEADERS				= {**DEFAULT_HEADERS, **{'X-Device-Info': 'STONEJS/1 (Unknown/Unknown; Windows/NT 10.0; Unknown)', \
 	'X-disco-client': 'WEB:UNKNOWN:wbdatv:2.1.9', 'X-disco-params': 'realm=de'}}
@@ -54,7 +54,7 @@ PUBIS_START						= 'https://public.aurora.enhanced.live'
 PUBIS_ENDES						= f"include=default,advancedSearch&filter[environment]=dmaxde&v=2" # 'dmaxde' = DMAX // 'hgtvde' = HGTV // 'tlcde' = TLC // 'tele5' = TELE5
 AURA_NORM						= f"{PUBIS_START}/site/page/sendungen/?{PUBIS_ENDES}"
 AURA_HOME						= f"{PUBIS_START}/site/page/homepage/?{PUBIS_ENDES}"
-AURA_SHOWS					= f"{PUBIS_START}/site/page/{{}}/?{PUBIS_ENDES}&parent_slug={{}}"
+AURA_ITEMS						= f"{PUBIS_START}/site/page/{{}}/?{PUBIS_ENDES}&parent_slug=sendungen"
 AURA_VIDEOS					= f"{PUBIS_START}/site/shows/{{}}/?{PUBIS_ENDES}"
 AURA_SEARCH					= f"{PUBIS_START}/site/search/taxonomy/?{PUBIS_ENDES}&filter[slug]={{}}&page[size]=200"
 AURA_PLAYER					= f"{PUBIS_START}/playback/v3/videoPlaybackInfo"
@@ -191,7 +191,7 @@ def create_entries(metadata, entries='DEFAULT', persist=1):
 		suffix = translation(30629) if local_start and local_start > (datetime.now() - timedelta(days=7, hours=2)) else \
 			translation(30630) if local_ends and local_ends < (datetime.now() + timedelta(days=7, hours=2)) else ""
 		full_name= f"{pioneer} {title}{suffix}" if pioneer else f"{title}{suffix}"
-		teaser, short_name = f"{series}[CR]{note_1}{note_2}" if series else note_1+note_2, re.sub(r'\[.*?\]', '', full_name)
+		teaser, short_name = f"{series}[CR]{note_1}{cleaning(note_2)}" if series else note_1+cleaning(note_2), re.sub(r'\[.*?\]', '', full_name)
 		debug_MS("* * * * * * * * * * * * * * * * * * * * * * *")
 		debug_MS(f"(navigator.list_episodes[3]) ##### POSITION : {persist} || NAME : {short_name} || IDD : {episID} || DURATION : {duration} #####")
 		debug_MS(f"(navigator.list_episodes[3]) ##### START : {collate} || SEASON : {season} || EPISODE : {episode} || MPAA : {mpaa} #####")
