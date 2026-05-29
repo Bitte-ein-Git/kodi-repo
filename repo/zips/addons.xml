@@ -168,7 +168,7 @@ CI &amp; build changes
       <fanart>resources/fanart.png</fanart>
     </assets>
   </extension>
-</addon><addon id="plugin.video.joyn" name="[COLOR darkturquoise]Jo[/COLOR][COLOR mediumspringgreen]yn[/COLOR]" version="fordy-2.5.43+matrix.1" provider-name="Bitte ein Git!, knaerzche, Maven">
+</addon><addon id="plugin.video.joyn" name="[COLOR darkturquoise]Jo[/COLOR][COLOR mediumspringgreen]yn[/COLOR]" version="fordy-2.5.44+matrix.1" provider-name="Bitte ein Git!, knaerzche, Maven">
 	<requires>
 		<import addon="inputstream.adaptive" version="2.5.0" />
 		<import addon="script.module.inputstreamhelper" version="0.4.4" />
