@@ -42,6 +42,45 @@ openSettings = addon.openSettings
 execute = xbmc.executebuiltin
 getCondV = xbmc.getCondVisibility
 
+
+_LOKKE_URL = 'https://www.lokke.app/api/app/ping'
+_LOKKE_UA = 'electron-fetch/1.0 electron (+https://github.com/arantes555/electron-fetch)'
+_DEVICE_TOKEN = 'VnPX5t9tSWccXKBF5tIFuL_Fk8-003ZCH2Ns6as20OegRliqWc_Xz3dTVBxa7tN-HAVNp0wIN0sEyDfHtk_SrdE-qyVrtQ4P3ZWoY66k_BOrM1BNu8FxMbuINVzXYiiJABS0'
+_DEVICE_ID = '57eca59a-bfae-4300-a1d5-9e06061e985d'
+_FIRST_START = 1773926709904
+
+def _build_payload():
+    now_ms = int(time.time() * 1000)
+    return {
+        "adblockEnabled": True,
+        "appFocusTime": now_ms - _FIRST_START,
+        "castConnected": False,
+        "devMode": False,
+        "firstAppStart": _FIRST_START,
+        "hasAddon": True,
+        "iap": {"supported": False},
+        "ipLocation": {"city": "Ladendorf", "country": "AT", "ip": "178.113.252.97"},
+        "lastAppStart": now_ms,
+        "locale": "de",
+        "metadata": {
+            "app": {"binary": "4.1.1", "js": "4.1.1", "package": "app.lokke.main"},
+            "device": {"isAndroid": False, "isElectron": True, "isIOS": False, "isMobile": False, "isTV": False, "isWeb": False, "isWebTV": False},
+            "os": {"abis": ["x64"], "host": "DESKTOP-2OH9ER9", "name": "win32", "version": "Windows 10 Enterprise LTSC 2024"},
+            "platform": {"type": "desktop", "uniqueId": _DEVICE_ID},
+            "version": "electron"
+        },
+        "package": "app.lokke.main",
+        "playDuration": 0,
+        "playerActive": False,
+        "process": "app",
+        "proxy": False,
+        "ss": {"autoServer": False, "enabled": False, "engine": "cz-prg", "id": "openvpn", "ssVersion": 0, "supported": False},
+        "reason": "app-focus",
+        "theme": "dark",
+        "token": _DEVICE_TOKEN,
+        "version": "4.1.1"
+    }
+
 def request(method, url, retries=2, timeout=15, **kwargs):
 	kwargs.setdefault("timeout", timeout)
 	for attempt in range(retries + 1):
@@ -101,10 +140,11 @@ def getAuthSignature():
 	while i < 5:
 		i+=1
 		try:
-			_headers = {'accept':'application/json','content-type':'application/json; charset=utf-8','user-agent':'electron-fetch/1.0 electron (+https://github.com/arantes555/electron-fetch)','Accept-Language':'de'}
-			_data = {"reason":"app-focus","locale":"de","theme":"dark","metadata":{"device":{"type":"Handset","brand":"google","model":"Nexus","name":"21081111RG","uniqueId":"d10e5d99ab665233"},"os":{"name":"android","version":"7.1.2","abis":["arm64-v8a"],"host":"android"},"app":{"platform":"android","version":"1.1.0","buildId":"97215000","engine":"hbc85","signatures":["6e8a975e3cbf07d5de823a760d4c2547f86c1403105020adee5de67ac510999e"],"installer":"com.android.vending"},"version":{"package":"app.lokke.main","binary":"4.1.1","js":"4.1.1"},"platform":{"isAndroid":True,"isIOS":False,"isTV":False,"isWeb":False,"isMobile":True,"isWebTV":False,"isElectron":False}},"appFocusTime":314,"playerActive":False,"playDuration":0,"devMode":True,"hasAddon":True,"castConnected":False,"package":"app.lokke.main","version":"4.1.1","process":"app","firstAppStart":1777415870151,"lastAppStart":1777415870151,"ipLocation":None,"adblockEnabled":False,"proxy":{"supported":["ss","openvpn"],"engine":"openvpn","ssVersion":1,"enabled":False,"autoServer":True,"id":"fi-hel"},"iap":{"supported":True}}
-			req = request_json("POST", 'https://www.lokke.app/api/app/ping', json=_data, headers=_headers, timeout=10, retries=1)
-			return req.get("addonSig")
+			_headers = {'accept':'application/json','content-type':'application/json; charset=utf-8','user-agent':_LOKKE_UA,'Accept-Language':'de'}
+			#_data = {"reason":"app-focus","locale":"de","theme":"dark","metadata":{"device":{"type":"Handset","brand":"google","model":"Nexus","name":"21081111RG","uniqueId":"d10e5d99ab665233"},"os":{"name":"android","version":"7.1.2","abis":["arm64-v8a"],"host":"android"},"app":{"platform":"android","version":"1.1.0","buildId":"97215000","engine":"hbc85","signatures":["6e8a975e3cbf07d5de823a760d4c2547f86c1403105020adee5de67ac510999e"],"installer":"com.android.vending"},"version":{"package":"app.lokke.main","binary":"4.1.1","js":"4.1.1"},"platform":{"isAndroid":True,"isIOS":False,"isTV":False,"isWeb":False,"isMobile":True,"isWebTV":False,"isElectron":False}},"appFocusTime":314,"playerActive":False,"playDuration":0,"devMode":True,"hasAddon":True,"castConnected":False,"package":"app.lokke.main","version":"4.1.1","process":"app","firstAppStart":1777415870151,"lastAppStart":1777415870151,"ipLocation":None,"adblockEnabled":False,"proxy":{"supported":["ss","openvpn"],"engine":"openvpn","ssVersion":1,"enabled":False,"autoServer":True,"id":"fi-hel"},"iap":{"supported":True}}
+			req = request_json("POST", 'https://www.lokke.app/api/app/ping', json=_build_payload(), headers=_headers, timeout=10, retries=1)
+			sig = req.get("addonSig") or req.get("signature") or req.get("mediahubmxSignature") or req.get("mediahubmx-signature") or req.get("token") or ""
+			return sig
 		except Exception:
 			continue
 
