@@ -14,16 +14,18 @@ def resolve_link(link):
 				return link, "&".join([f"{k}={v}" for k, v in headers.items()])
 		except Exception:
 			log(format_exc())
-		else:
-			return None, None
+		return None, None
 	else:
 		_headers = {"user-agent": "MediaHubMX/2", "accept": "application/json", "content-type": "application/json; charset=utf-8", "content-length": "115", "accept-encoding": "gzip", "mediahubmx-signature": getAuthSignature()}
 		_data = {"language": "de", "region": "AT", "url": link, "clientVersion": "3.0.2"}
 		url = "https://vavoo.to/mediahubmx-resolve.json"
-		streamurl = request_json("POST", url, json=_data, headers=_headers, timeout=10, retries=1)[0]["url"]
-		status = int(request("GET", streamurl, timeout=10, stream=True, retries=0, verify=False).status_code)
-		log(f"function resolve_link Staus :{status}")
-		if status < 400: return streamurl, None
+		try:
+			streamurl = request_json("POST", url, json=_data, headers=_headers, timeout=10, retries=1)[0]["url"]
+			status = int(request("GET", streamurl, timeout=10, stream=True, retries=0, verify=False).status_code)
+			log(f"function resolve_link Staus :{status}")
+			if status < 400: return streamurl, None
+		except Exception:
+			log(format_exc())
 		return None, None
 
 def get_stalker_channels(genres=False):
