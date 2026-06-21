@@ -3072,325 +3072,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20260619174308 +0000" stop="20260619175811 +0000" channel="Red Bull TV.en"><title lang="en">Skate Tales</title>
-<sub-title lang="en">From the streets to global skate icon: Tiago Lemos</sub-title>
-<desc lang="en">Madars Apse travels to Brazil to trace Tiago Lemos’s journey from the streets to global skate stardom. Watch how he chased a bigger dream and rose from one of skateboarding’s toughest scenes.</desc>
-<category lang="en">Skateboarding</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:b113bbe1-71cd-4916-95d5-93b8bc2a4156/skate-tales-s5-e2</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:b113bbe1-71cd-4916-95d5-93b8bc2a4156</episode-num>
-<episode-num system="xmltv_ns">4.1.0</episode-num>
-<episode-num system="original-air-date">2026-06-01 19:26:34</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260619175811 +0000" stop="20260619184200 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
-<sub-title lang="en">San Marino, Italy</sub-title>
-<desc lang="en">The race with no engine and many obstacles will test the participants throughout the day. Have the teams done enough to let their machines race to the finish line or will the obstacles be too big?</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:5145facd-dcf2-4a35-a8c9-727b068785dc/red-bull-soapbox-race-2022-season-e2</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:5145facd-dcf2-4a35-a8c9-727b068785dc</episode-num>
-<episode-num system="xmltv_ns">9.1.0</episode-num>
-<episode-num system="original-air-date">2023-10-01 14:27:22</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260619184200 +0000" stop="20260619185050 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
-<sub-title lang="en">2018's best crashes and smashes</sub-title>
-<desc lang="en">Skinny wheels, a narrow wheelbase and a tall chassis are a recipe for big soapbox racing crashes and 2018's biggest spills are the proof.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-craziest-crashes-e5</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:bef85b6c-e86e-4cb4-b101-7aad303f39e0</episode-num>
-<episode-num system="xmltv_ns">2.4.0</episode-num>
-<episode-num system="original-air-date">2023-04-02 11:04:16</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260619185050 +0000" stop="20260619190328 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
-<sub-title lang="en">2019's best crashes and smashes</sub-title>
-<desc lang="en">To win in Red Bull Soapbox Race, first you've got to finish. This is not easy for these hard-crashing teams from 2019's championship.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-craziest-crashes-e6</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:8019e6c7-6886-42a8-8a8e-efe1f7c47d3d</episode-num>
-<episode-num system="xmltv_ns">2.5.0</episode-num>
-<episode-num system="original-air-date">2023-09-25 11:43:53</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260619190328 +0000" stop="20260619191226 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
-<sub-title lang="en">2014's fan-favourite teams</sub-title>
-<desc lang="en">If you can't build a fast soapbox, you can at least build an fun one to entertain the huge crowds and these were 2014's fan favourites.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-crowd-favourites-e1</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:0f198110-f827-469e-a813-14da8008d06d</episode-num>
-<episode-num system="xmltv_ns">3.0.0</episode-num>
-<episode-num system="original-air-date">2024-04-28 03:00:40</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2024</date></programme>
-  <programme start="20260619191226 +0000" stop="20260619192300 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
-<sub-title lang="en">2015's fan-favourite teams</sub-title>
-<desc lang="en">How do win over a Red Bull Soapbox Race crowd? Destroying your racer and the course itself certainly helps, as 2015's highlights prove.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-crowd-favourites-e2</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:ecb73db8-db30-4e0d-a590-09f89efebe09</episode-num>
-<episode-num system="xmltv_ns">3.1.0</episode-num>
-<episode-num system="original-air-date">2023-04-23 12:55:16</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260619192300 +0000" stop="20260619193314 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
-<sub-title lang="en">2016's fan-favourite teams</sub-title>
-<desc lang="en">Speed wins a Red Bull Soapbox Race, but eccentric design, a big show and bigger crashes win you the crowd. Case in point, 2016's crowd favourites.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-crowd-favourites-e3</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:75074492-c8f7-43af-950a-6e200d1cea06</episode-num>
-<episode-num system="xmltv_ns">3.2.0</episode-num>
-<episode-num system="original-air-date">2023-04-30 13:24:59</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260619193314 +0000" stop="20260619194643 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
-<sub-title lang="en">2017's fan-favourite teams</sub-title>
-<desc lang="en">As 2017's fan favourites teach us, two-wheeled designs never work, and everyone loves a pop culture referencing racer – especially if they self-destruct.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-crowd-favourites-e4</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:08b294ee-9ae3-48e4-82df-fa6e28c149e0</episode-num>
-<episode-num system="xmltv_ns">3.3.0</episode-num>
-<episode-num system="original-air-date">2023-06-18 04:14:45</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260619194643 +0000" stop="20260619195732 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
-<sub-title lang="en">2018's fan-favourite teams</sub-title>
-<desc lang="en">Creativity and soapbox building skills improve every year and 2018's races featured some of the best-looking racers yet to wow fans.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-crowd-favourites-e5</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:e55c4a90-dc09-49d3-b7f5-e2bae9b6caa1</episode-num>
-<episode-num system="xmltv_ns">3.4.0</episode-num>
-<episode-num system="original-air-date">2023-04-02 11:23:10</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260619195732 +0000" stop="20260619200917 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
-<sub-title lang="en">2019's fan-favourite teams</sub-title>
-<desc lang="en">A brilliant transformer design, top-notch dancing dads and a flaming witch going down in a blaze of glory won the crowds' hearts in 2019.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-crowd-favourites-e6</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:0558aea0-10ec-4352-b59b-2bfd5cd3c90d</episode-num>
-<episode-num system="xmltv_ns">3.5.0</episode-num>
-<episode-num system="original-air-date">2023-09-25 11:56:30</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260619200917 +0000" stop="20260619210628 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race: 50 Genius Designs</title>
-<sub-title lang="en">Mayhem, crashes and creativity</sub-title>
-<desc lang="en">Red Bull Soapbox Race: a hilarious race format in homemade motorless racecars hurtling down steep, obstacle-filled courses. Laugh along with our edit of 50 of the most genius designs from 2014-2025.</desc>
-<category lang="en">Soapbox Race</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:69d16b4b-e32b-417e-bf66-1f5cca38c218/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:films:69d16b4b-e32b-417e-bf66-1f5cca38c218/red-bull-soapbox-race-50-genius-designs</url>
-<episode-num system="redbull.com">episode/rrn:content:films:69d16b4b-e32b-417e-bf66-1f5cca38c218</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260619210628 +0000" stop="20260619222741 +0000" channel="Red Bull TV.en"><title lang="en">Against the Odds</title>
-<sub-title lang="en">Team OG's rise from esports underdogs to victors</sub-title>
-<desc lang="en">Rising from rock bottom and defying the odds to shoot for gaming's biggest prize, this is how Team OG's unconventional esports approach led them to go for Dota 2 glory at The International competition.</desc>
-<category lang="en">Esports</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:0825a746-5930-539d-a1dd-d06a7d94ae18/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/films/against-the-odds</url>
-<episode-num system="redbull.com">episode/rrn:content:films:0825a746-5930-539d-a1dd-d06a7d94ae18</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260619222741 +0000" stop="20260619224102 +0000" channel="Red Bull TV.en"><title lang="en">Class in Session</title>
-<sub-title lang="en">Maps and movement</sub-title>
-<desc lang="en">Learn what makes each VALORANT map unique and examine how abilities are used in special areas, as well as what to look out for when navigating as a team across every battlefield in the game.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:ee3d0ae2-880a-4996-8754-338025c8e8ab/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/class-in-session-renox-valorant-academy-s2-e2</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:3c546454-cb1c-40a4-9e1c-7c99d64ae944</episode-num>
-<episode-num system="xmltv_ns">1.1.0</episode-num>
-<episode-num system="original-air-date">2026-02-27 14:47:45</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:ee3d0ae2-880a-4996-8754-338025c8e8ab</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260619224102 +0000" stop="20260619225441 +0000" channel="Red Bull TV.en"><title lang="en">Class in Session</title>
-<sub-title lang="en">Overall strategy</sub-title>
-<desc lang="en">It’s time to put it all together. With the knowledge of team compositions, maps and careful communication under your belt, join our squad of students as they complete a series of drills.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:ee3d0ae2-880a-4996-8754-338025c8e8ab/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/class-in-session-renox-valorant-academy-s2-e4</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:ef08b738-6486-424d-a4b5-b5e695a11030</episode-num>
-<episode-num system="xmltv_ns">1.3.0</episode-num>
-<episode-num system="original-air-date">2026-02-27 14:23:11</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:ee3d0ae2-880a-4996-8754-338025c8e8ab</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260619225441 +0000" stop="20260619230949 +0000" channel="Red Bull TV.en"><title lang="en">Levels</title>
-<sub-title lang="en">Ubisoft's Crew Motorfest</sub-title>
-<desc lang="en">Deep dive into the making of the new game by Ubisoft Studios, The Crew Motorfest. Join us in unveiling Hawaii's role in the game, the director's vision and exclusive behind-the-scenes content.</desc>
-<category lang="en">Esports</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:ce90ac7a-6cf2-500d-b4e9-ce0273fe80fe/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:38aca99a-82c7-4bbe-a7b4-3db7a95fdc19/levels-s2-e2</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:38aca99a-82c7-4bbe-a7b4-3db7a95fdc19</episode-num>
-<episode-num system="xmltv_ns">1.1.0</episode-num>
-<episode-num system="original-air-date">2023-10-14 19:48:00</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:ce90ac7a-6cf2-500d-b4e9-ce0273fe80fe</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260619230949 +0000" stop="20260619232830 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Kumite 2021</title>
-<sub-title lang="en">History of Kumite – part 2</sub-title>
-<desc lang="en">Learn more about the legacy of Red Bull Kumite as the event went international, a new generation of top competitors emerged and a new crop of champions were crowned inside the cage.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:videos:79eb5ec5-5c94-49f3-b262-d315ef0152ad/rbtv_display_art_portrait"/>
-<url>https://www.redbull.com/int-en/videos/red-bull-kumite-2021-history-of-kumite-part-2</url>
-<episode-num system="redbull.com">episode/rrn:content:videos:79eb5ec5-5c94-49f3-b262-d315ef0152ad</episode-num>
-<episode-num system="original-air-date">2026-06-16 02:16:52</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260619232830 +0000" stop="20260619234219 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Kumite 2021</title>
-<sub-title lang="en">History of Kumite – part 1</sub-title>
-<desc lang="en">Dive into the history of Red Bull Kumite, from its origins in Street Fighter IV to its evolution with the birth of Street Fighter V, and find out what makes it the stuff of esports legend.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:videos:631ce034-0575-432b-8e4d-176a80920a49/rbtv_display_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:videos:631ce034-0575-432b-8e4d-176a80920a49/red-bull-kumite-2021-history-of-kumite-part-1</url>
-<episode-num system="redbull.com">episode/rrn:content:videos:631ce034-0575-432b-8e4d-176a80920a49</episode-num>
-<episode-num system="original-air-date">2026-06-16 02:35:33</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260619234219 +0000" stop="20260619235750 +0000" channel="Red Bull TV.en"><title lang="en">Levels</title>
-<sub-title lang="en">Ubisoft's Riders Republic</sub-title>
-<desc lang="en">Conquering the mountains is the name of the game in Riders Republic. We take a peek behind the scenes of Ubisoft's latest extreme sports thriller, where players can play whatever sport they want.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:ce90ac7a-6cf2-500d-b4e9-ce0273fe80fe/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:138882b8-7264-454f-a8f6-0131950bd826/levels-s2-e1</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:138882b8-7264-454f-a8f6-0131950bd826</episode-num>
-<episode-num system="xmltv_ns">1.0.0</episode-num>
-<episode-num system="original-air-date">2026-06-16 02:48:46</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:ce90ac7a-6cf2-500d-b4e9-ce0273fe80fe</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260619235750 +0000" stop="20260620004104 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
-<sub-title lang="en">San Marino, Italy</sub-title>
-<desc lang="en">The race with no engine and many obstacles will test the participants throughout the day. Have the teams done enough to let their machines race to the finish line or will the obstacles be too big?</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:5145facd-dcf2-4a35-a8c9-727b068785dc/red-bull-soapbox-race-2022-season-e2</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:5145facd-dcf2-4a35-a8c9-727b068785dc</episode-num>
-<episode-num system="xmltv_ns">9.1.0</episode-num>
-<episode-num system="original-air-date">2023-10-01 14:27:22</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260620004104 +0000" stop="20260620004954 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
-<sub-title lang="en">2018's best crashes and smashes</sub-title>
-<desc lang="en">Skinny wheels, a narrow wheelbase and a tall chassis are a recipe for big soapbox racing crashes and 2018's biggest spills are the proof.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-craziest-crashes-e5</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:bef85b6c-e86e-4cb4-b101-7aad303f39e0</episode-num>
-<episode-num system="xmltv_ns">2.4.0</episode-num>
-<episode-num system="original-air-date">2023-04-02 11:04:16</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260620004954 +0000" stop="20260620010231 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
-<sub-title lang="en">2019's best crashes and smashes</sub-title>
-<desc lang="en">To win in Red Bull Soapbox Race, first you've got to finish. This is not easy for these hard-crashing teams from 2019's championship.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-craziest-crashes-e6</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:8019e6c7-6886-42a8-8a8e-efe1f7c47d3d</episode-num>
-<episode-num system="xmltv_ns">2.5.0</episode-num>
-<episode-num system="original-air-date">2023-09-25 11:43:53</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260620010231 +0000" stop="20260620011206 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
-<sub-title lang="en">2014's fan-favourite teams</sub-title>
-<desc lang="en">If you can't build a fast soapbox, you can at least build an fun one to entertain the huge crowds and these were 2014's fan favourites.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-crowd-favourites-e1</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:0f198110-f827-469e-a813-14da8008d06d</episode-num>
-<episode-num system="xmltv_ns">3.0.0</episode-num>
-<episode-num system="original-air-date">2024-04-28 03:00:40</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2024</date></programme>
-  <programme start="20260620011206 +0000" stop="20260620012240 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
-<sub-title lang="en">2015's fan-favourite teams</sub-title>
-<desc lang="en">How do win over a Red Bull Soapbox Race crowd? Destroying your racer and the course itself certainly helps, as 2015's highlights prove.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-crowd-favourites-e2</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:ecb73db8-db30-4e0d-a590-09f89efebe09</episode-num>
-<episode-num system="xmltv_ns">3.1.0</episode-num>
-<episode-num system="original-air-date">2023-04-23 12:55:16</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260620012240 +0000" stop="20260620013254 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
-<sub-title lang="en">2016's fan-favourite teams</sub-title>
-<desc lang="en">Speed wins a Red Bull Soapbox Race, but eccentric design, a big show and bigger crashes win you the crowd. Case in point, 2016's crowd favourites.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-crowd-favourites-e3</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:75074492-c8f7-43af-950a-6e200d1cea06</episode-num>
-<episode-num system="xmltv_ns">3.2.0</episode-num>
-<episode-num system="original-air-date">2023-04-30 13:24:59</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260620013254 +0000" stop="20260620014623 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
-<sub-title lang="en">2017's fan-favourite teams</sub-title>
-<desc lang="en">As 2017's fan favourites teach us, two-wheeled designs never work, and everyone loves a pop culture referencing racer – especially if they self-destruct.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-crowd-favourites-e4</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:08b294ee-9ae3-48e4-82df-fa6e28c149e0</episode-num>
-<episode-num system="xmltv_ns">3.3.0</episode-num>
-<episode-num system="original-air-date">2023-06-18 04:14:45</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
   <programme start="20260620014623 +0000" stop="20260620015635 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
 <sub-title lang="en">2018's fan-favourite teams</sub-title>
 <desc lang="en">Creativity and soapbox building skills improve every year and 2018's races featured some of the best-looking racers yet to wow fans.</desc>
@@ -4044,6 +3725,348 @@
 <value>NR</value>
 </rating>
 <date>2026</date></programme>
+  <programme start="20260620200310 +0000" stop="20260620201918 +0000" channel="Red Bull TV.en"><title lang="en">Levels</title>
+<sub-title lang="en">Ubisoft's Riders Republic</sub-title>
+<desc lang="en">Conquering the mountains is the name of the game in Riders Republic. We take a peek behind the scenes of Ubisoft's latest extreme sports thriller, where players can play whatever sport they want.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:ce90ac7a-6cf2-500d-b4e9-ce0273fe80fe/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:138882b8-7264-454f-a8f6-0131950bd826/levels-s2-e1</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:138882b8-7264-454f-a8f6-0131950bd826</episode-num>
+<episode-num system="xmltv_ns">1.0.0</episode-num>
+<episode-num system="original-air-date">2026-06-16 02:48:46</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:ce90ac7a-6cf2-500d-b4e9-ce0273fe80fe</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260620201918 +0000" stop="20260620210231 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
+<sub-title lang="en">San Marino, Italy</sub-title>
+<desc lang="en">The race with no engine and many obstacles will test the participants throughout the day. Have the teams done enough to let their machines race to the finish line or will the obstacles be too big?</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:5145facd-dcf2-4a35-a8c9-727b068785dc/red-bull-soapbox-race-2022-season-e2</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:5145facd-dcf2-4a35-a8c9-727b068785dc</episode-num>
+<episode-num system="xmltv_ns">9.1.0</episode-num>
+<episode-num system="original-air-date">2023-10-01 14:27:22</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260620210231 +0000" stop="20260620211121 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
+<sub-title lang="en">2018's best crashes and smashes</sub-title>
+<desc lang="en">Skinny wheels, a narrow wheelbase and a tall chassis are a recipe for big soapbox racing crashes and 2018's biggest spills are the proof.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-craziest-crashes-e5</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:bef85b6c-e86e-4cb4-b101-7aad303f39e0</episode-num>
+<episode-num system="xmltv_ns">2.4.0</episode-num>
+<episode-num system="original-air-date">2023-04-02 11:04:16</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260620211121 +0000" stop="20260620212359 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
+<sub-title lang="en">2019's best crashes and smashes</sub-title>
+<desc lang="en">To win in Red Bull Soapbox Race, first you've got to finish. This is not easy for these hard-crashing teams from 2019's championship.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-craziest-crashes-e6</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:8019e6c7-6886-42a8-8a8e-efe1f7c47d3d</episode-num>
+<episode-num system="xmltv_ns">2.5.0</episode-num>
+<episode-num system="original-air-date">2023-09-25 11:43:53</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260620212359 +0000" stop="20260620213334 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
+<sub-title lang="en">2014's fan-favourite teams</sub-title>
+<desc lang="en">If you can't build a fast soapbox, you can at least build an fun one to entertain the huge crowds and these were 2014's fan favourites.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-crowd-favourites-e1</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:0f198110-f827-469e-a813-14da8008d06d</episode-num>
+<episode-num system="xmltv_ns">3.0.0</episode-num>
+<episode-num system="original-air-date">2024-04-28 03:00:40</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2024</date></programme>
+  <programme start="20260620213334 +0000" stop="20260620214407 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
+<sub-title lang="en">2015's fan-favourite teams</sub-title>
+<desc lang="en">How do win over a Red Bull Soapbox Race crowd? Destroying your racer and the course itself certainly helps, as 2015's highlights prove.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-crowd-favourites-e2</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:ecb73db8-db30-4e0d-a590-09f89efebe09</episode-num>
+<episode-num system="xmltv_ns">3.1.0</episode-num>
+<episode-num system="original-air-date">2023-04-23 12:55:16</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260620214407 +0000" stop="20260620215421 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
+<sub-title lang="en">2016's fan-favourite teams</sub-title>
+<desc lang="en">Speed wins a Red Bull Soapbox Race, but eccentric design, a big show and bigger crashes win you the crowd. Case in point, 2016's crowd favourites.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-crowd-favourites-e3</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:75074492-c8f7-43af-950a-6e200d1cea06</episode-num>
+<episode-num system="xmltv_ns">3.2.0</episode-num>
+<episode-num system="original-air-date">2023-04-30 13:24:59</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260620215421 +0000" stop="20260620220750 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
+<sub-title lang="en">2017's fan-favourite teams</sub-title>
+<desc lang="en">As 2017's fan favourites teach us, two-wheeled designs never work, and everyone loves a pop culture referencing racer – especially if they self-destruct.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-crowd-favourites-e4</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:08b294ee-9ae3-48e4-82df-fa6e28c149e0</episode-num>
+<episode-num system="xmltv_ns">3.3.0</episode-num>
+<episode-num system="original-air-date">2023-06-18 04:14:45</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260620220750 +0000" stop="20260620221803 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
+<sub-title lang="en">2018's fan-favourite teams</sub-title>
+<desc lang="en">Creativity and soapbox building skills improve every year and 2018's races featured some of the best-looking racers yet to wow fans.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-crowd-favourites-e5</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:e55c4a90-dc09-49d3-b7f5-e2bae9b6caa1</episode-num>
+<episode-num system="xmltv_ns">3.4.0</episode-num>
+<episode-num system="original-air-date">2023-04-02 11:23:10</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260620221803 +0000" stop="20260620222948 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
+<sub-title lang="en">2019's fan-favourite teams</sub-title>
+<desc lang="en">A brilliant transformer design, top-notch dancing dads and a flaming witch going down in a blaze of glory won the crowds' hearts in 2019.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-crowd-favourites-e6</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:0558aea0-10ec-4352-b59b-2bfd5cd3c90d</episode-num>
+<episode-num system="xmltv_ns">3.5.0</episode-num>
+<episode-num system="original-air-date">2023-09-25 11:56:30</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260620222948 +0000" stop="20260620223851 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
+<sub-title lang="en">2015's best runs</sub-title>
+<desc lang="en">Flying bodywork, broken steering, a feuding royal family and some seriously rapid rides star in the highlights from 2015's seven-stop Red Bull Soapbox Race series.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-fast-and-fearless-e2</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:63e39bc2-e1a2-48c2-a8e1-144ee6bd2529</episode-num>
+<episode-num system="xmltv_ns">0.1.0</episode-num>
+<episode-num system="original-air-date">2023-04-23 12:46:14</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260620223851 +0000" stop="20260620224723 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
+<sub-title lang="en">2016's best runs</sub-title>
+<desc lang="en">Fearless was very much the watch word during 2016's Red Bull Soapbox Races, as these flat out and crash-filled runs from Santiago to Mumbai and Cork show.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-fast-and-fearless-e3</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:c7ea1b5d-6a2b-4ba2-a5d4-a5b31fd8671e</episode-num>
+<episode-num system="xmltv_ns">0.2.0</episode-num>
+<episode-num system="original-air-date">2023-04-30 13:17:03</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260620224723 +0000" stop="20260620225743 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
+<sub-title lang="en">2017's best runs</sub-title>
+<desc lang="en">Every year the Red Bull Soapbox racers get faster. In 2017 the gadgets included the fastest musical drum set in history.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-fast-and-fearless-e4</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:340b79b2-493a-4e2a-9a76-ee9a1919064c</episode-num>
+<episode-num system="xmltv_ns">0.3.0</episode-num>
+<episode-num system="original-air-date">2023-06-18 04:04:25</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260620225743 +0000" stop="20260620230707 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
+<sub-title lang="en">2018's best runs</sub-title>
+<desc lang="en">What do flying Italian bagpipes and South Africa's fastest Stone Age racer have in common? They both made the cut among 2018's best Red Bull Soapbox Race runs.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-fast-and-fearless-e5</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:ade926e3-5095-4398-b28f-66f417bf3e03</episode-num>
+<episode-num system="xmltv_ns">0.4.0</episode-num>
+<episode-num system="original-air-date">2023-04-02 11:13:46</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260620230707 +0000" stop="20260620231928 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
+<sub-title lang="en">2019's top car designs </sub-title>
+<desc lang="en">A genius reversing caravan, a bang-on tribute to Mr Bean and one very wobbly piñata took home 2019's gold stars for soapbox design.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/red-bull-soapbox-race-genius-designs-e6</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:c5589b1a-bbe7-40d0-bbcf-a070da48ff4b</episode-num>
+<episode-num system="xmltv_ns">1.5.0</episode-num>
+<episode-num system="original-air-date">2023-09-25 11:31:32</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260620231928 +0000" stop="20260620234416 +0000" channel="Red Bull TV.en"><title lang="en">Reel Rock</title>
+<sub-title lang="en">Balance</sub-title>
+<desc lang="en">After dominating the competition circuit, Shauna Coxsey becomes a mother and tackles the new challenge of sending elite boulder problems with a toddler in tow.</desc>
+<category lang="en">Climbing</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:ee9893bb-ae42-4a88-b295-8a8cf5524c81/reel-rock-s11-e1</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:ee9893bb-ae42-4a88-b295-8a8cf5524c81</episode-num>
+<episode-num system="xmltv_ns">10.0.0</episode-num>
+<episode-num system="original-air-date">2026-03-04 09:49:29</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260620234416 +0000" stop="20260621000555 +0000" channel="Red Bull TV.en"><title lang="en">Reel Rock</title>
+<sub-title lang="en">Sufferfest – below zero</sub-title>
+<desc lang="en">Join Alex Honnold and Cedar Wright in one of the coldest and most remote places on Earth: Antarctica. No strangers to sufferfests, this duo climb a series of first ascents on massive granite towers.</desc>
+<category lang="en">Climbing</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/reel-rock-s11-e2</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:1fd0318a-d42e-49e5-8ad0-699325b30e5f</episode-num>
+<episode-num system="xmltv_ns">10.1.0</episode-num>
+<episode-num system="original-air-date">2026-02-17 01:04:26</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260621000555 +0000" stop="20260621002709 +0000" channel="Red Bull TV.en"><title lang="en">Reel Rock</title>
+<sub-title lang="en">The best things in life are free</sub-title>
+<desc lang="en">At just 18, Will Moss keeps the ‘Gunks’, on the map as a destination for hard trad climbing with his groundbreaking first ascent of one of the Northeast USA’s most legendary cliffs.</desc>
+<category lang="en">Climbing</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:3fc1c2a3-902c-403b-abf2-02aa21404b24/reel-rock-s11-e3</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:3fc1c2a3-902c-403b-abf2-02aa21404b24</episode-num>
+<episode-num system="xmltv_ns">10.2.0</episode-num>
+<episode-num system="original-air-date">2026-03-04 09:06:37</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260621002709 +0000" stop="20260621004458 +0000" channel="Red Bull TV.en"><title lang="en">Reel Rock</title>
+<sub-title lang="en">Riders on the storm – part 1</sub-title>
+<desc lang="en">Siebe Vanhee enlists his childhood heroes, Sean Villanueva O'Driscoll and Nico Favresse, to attempt the first free ascent of a legendary alpine big wall in Patagonia, Argentina.</desc>
+<category lang="en">Climbing</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:372aaa27-1bb7-4861-8d71-7c373b5f95e3/reel-rock-s11-e4</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:372aaa27-1bb7-4861-8d71-7c373b5f95e3</episode-num>
+<episode-num system="xmltv_ns">10.3.0</episode-num>
+<episode-num system="original-air-date">2026-03-02 18:40:44</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260621004458 +0000" stop="20260621010226 +0000" channel="Red Bull TV.en"><title lang="en">Reel Rock</title>
+<sub-title lang="en">Riders on the storm – part 2</sub-title>
+<desc lang="en">The Belgian big-wallers are forced to ride out a raging storm and deal with frozen feet, ice-covered crux pitches and a few inner demons on their 18-day quest to reach the summit.</desc>
+<category lang="en">Climbing</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:d8ccce96-a688-4dd8-ac4d-c3e72dfb1fd4/reel-rock-s11-e5</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:d8ccce96-a688-4dd8-ac4d-c3e72dfb1fd4</episode-num>
+<episode-num system="xmltv_ns">10.4.0</episode-num>
+<episode-num system="original-air-date">2026-02-18 16:48:41</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260621010226 +0000" stop="20260621012858 +0000" channel="Red Bull TV.en"><title lang="en">Reel Rock</title>
+<sub-title lang="en">Stumped</sub-title>
+<desc lang="en">Maureen Beck may have been born missing her lower left arm, but that hasn’t stopped her from going hard. She’s not here to be your inspiration, she’s here to conquer overhanging boulders.</desc>
+<category lang="en">Climbing</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:de9735b8-f862-4ed0-814c-b1e5be3b4091/reel-rock-s11-e6</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:de9735b8-f862-4ed0-814c-b1e5be3b4091</episode-num>
+<episode-num system="xmltv_ns">10.5.0</episode-num>
+<episode-num system="original-air-date">2026-03-03 00:11:13</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260621012858 +0000" stop="20260621015105 +0000" channel="Red Bull TV.en"><title lang="en">Reel Rock</title>
+<sub-title lang="en">The walk of life</sub-title>
+<desc lang="en">As he chases the hardest climb of his life, a first ascent of what may be the world's first E12, British climber James Pearson edges toward a deeper reckoning with self-acceptance.</desc>
+<category lang="en">Climbing</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:557fb178-a975-4084-aeda-8937663a7245/reel-rock-s11-e7</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:557fb178-a975-4084-aeda-8937663a7245</episode-num>
+<episode-num system="xmltv_ns">10.6.0</episode-num>
+<episode-num system="original-air-date">2026-03-03 00:37:46</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260621015105 +0000" stop="20260621025801 +0000" channel="Red Bull TV.en"><title lang="en">Yamnuska: The Ragged Edge </title>
+<sub-title lang="en">Explore the legacy of Canada's climbing icon, Mount Yamnuska</sub-title>
+<desc lang="en">Follow modern-day adventurers Vikki Weldon and Quentin Roberts as they embark on a climbing journey through time, celebrating the rich history of one of Canada’s most iconic cliffs, Mount Yamnuska.</desc>
+<category lang="en">Climbing</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:c47d4c1b-6090-415b-83cf-81cdfc4bbdb4/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/films/yamnuska-the-ragged-edge</url>
+<episode-num system="redbull.com">episode/rrn:content:films:c47d4c1b-6090-415b-83cf-81cdfc4bbdb4</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260621025801 +0000" stop="20260621032401 +0000" channel="Red Bull TV.en"><title lang="en"/>
+<sub-title lang="en">Program information unavailable at this time</sub-title>
+<desc lang="en"/>
+<icon src="https://resources.redbull.tv/unknown/rbtv_display_art_portrait"/>
+<url/>
+<episode-num system="redbull.com">episode/unknown</episode-num>
+<episode-num system="original-air-date">2023-04-02 18:04:08</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260621032401 +0000" stop="20260621035001 +0000" channel="Red Bull TV.en"><title lang="en">Pushing Progression</title>
+<sub-title lang="en">Freestyle football</sub-title>
+<desc lang="en">This is the story of freestyle football – and how the scene around it has transcended sport and established Red Bull Street Style as a competition that brings the world together.</desc>
+<category lang="en">Freestyle Soccer</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:0dcc398c-5268-4062-a405-a947cc6e75c6/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/pushing-progression-s1-e1</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:59634730-f152-423e-b609-67efac7b0a23</episode-num>
+<episode-num system="xmltv_ns">0.0.0</episode-num>
+<episode-num system="original-air-date">2023-09-24 03:56:04</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:0dcc398c-5268-4062-a405-a947cc6e75c6</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260621035001 +0000" stop="20260621041601 +0000" channel="Red Bull TV.en"><title lang="en">Pushing Progression</title>
+<sub-title lang="en">Breaking</sub-title>
+<desc lang="en">Uncover the evolution of breaking as Busta Rhymes and dancers from different generations share their thoughts on breaking's progress from Bronx backyards to global stages like Red Bull BC One.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:0dcc398c-5268-4062-a405-a947cc6e75c6/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/pushing-progression-s1-e7</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:99536bba-240e-4008-92d2-60f96c11f46f</episode-num>
+<episode-num system="xmltv_ns">0.6.0</episode-num>
+<episode-num system="original-air-date">2023-10-01 08:42:14</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:0dcc398c-5268-4062-a405-a947cc6e75c6</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
   </channel>
