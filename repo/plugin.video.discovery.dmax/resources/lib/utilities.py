@@ -49,12 +49,12 @@ class clientHelper():
 		COMBI_NEW, number, counter, fixation, = [], len(stacks), 0, requests.Session()
 		fixation.mount('https://', HTTPAdapter(pool_connections=int(number), pool_maxsize=int(number), pool_block=True)) # Pool-Verbindungen und -Grösse auf tatsächlichen Inhalt festlegen, um Fehlermeldungen zu vermeiden
 		def download(pos, code, link, coident):
-			heading = {**STONE_HEADERS, **{'User-Agent': HEAD_WEB, 'Authorization': f"Bearer {coident}"}}
+			heading = {**STONE_HEADERS, **{'User-Agent': WEB_AGENT, 'Authorization': f"Bearer {coident}"}}
 			try:
 				resp_uno = fixation.request(method, link, headers=heading, allow_redirects=redirects, timeout=timeout)
 				resp_uno.raise_for_status()
 				debug_MS(f"(utilities.track_several[1.1]) === POS : {pos} || STATUS : {resp_uno.status_code} || URL : {resp_uno.url} || HEADER : {resp_uno.request.headers} ===")
-				return f'{{"Position":{pos},"NaviCode":"{code}","Demand":"{link}",{resp_uno.text[1:-1]}}}'
+				return f'{{"Count_2":{pos},"Slug_2":"{code}","Link_2":"{link}",{resp_uno.text[1:-1]}}}'
 			except Exception as exc_uno:
 				failing(f"(utilities.track_several[1.1]) ERROR - RESPONSE - ERROR ##### POS : {pos} === URL : {link} === FAILURE : {exc_uno} #####")
 				if link.endswith('parent_slug=sendungen'):
@@ -63,22 +63,23 @@ class clientHelper():
 						resp_due = fixation.request(method, modificato, headers=heading, allow_redirects=redirects, timeout=timeout)
 						resp_due.raise_for_status()
 						debug_MS(f"(utilities.track_several[1.2]) === POS : {pos} || STATUS : {resp_due.status_code} || URL : {resp_due.url} || HEADER : {resp_due.request.headers} ===")
-						return f'{{"Position":{pos},"NaviCode":"{code}","Demand":"{modificato}",{resp_due.text[1:-1]}}}'
+						return f'{{"Count_2":{pos},"Slug_2":"{code}","Link_2":"{modificato}",{resp_due.text[1:-1]}}}'
 					except Exception as exc_due:
 						failing(f"(utilities.track_several[1.2]) ERROR - RESPONSE - ERROR ##### POS : {pos} === URL : {modificato} === FAILURE : {exc_due} #####")
 				return f'{{"Position":{pos},"Status":"ERROR"}}'
 		with ThreadPoolExecutor(max_workers=workers) as executor:
 			debug_MS("+++++++++++++++++++++++++++++++++++++++++++++")
 			coident = self.check_authtoken()
-			picker = [executor.submit(download, pos, code, link, coident) for pos, code, link in stacks]
+			picker = [executor.submit(download, single['Count_1'], single['Slug_1'], single['Link_1'], coident) for single in stacks]
 			wait(picker, timeout=30, return_when=ALL_COMPLETED)
 			for future, section in zip(as_completed(picker), stacks):
 				counter += 1
 				try:
 					COMBI_NEW.append(json.loads(future.result()))
 				except Exception as exc_tre:
-					if counter == 1: dialog.notification(translation(30521).format('DETAILS'), translation(30523).format(exc_tre), f"{artpic}icon.png", 12000)
-					failing(f"(utilities.track_several[2]) ERROR - EXEPTION - ERROR ##### POS : {section[0]} === URL : {section[2]} === FAILURE : {exc_tre} #####")
+					if counter == 1:
+						dialog.notification(translation(30521).format('DETAILS'), translation(30523).format(exc_tre), f"{artpic}icon.png", 12000)
+					failing(f"(utilities.track_several[2]) ERROR - EXEPTION - ERROR ##### POS : {section['Count_1']} === URL : {section['Link_1']} === FAILURE : {exc_tre} #####")
 					executor.shutdown()
 			if COMBI_NEW:
 				matching = [flop for flop in COMBI_NEW[:] if flop.get('Status', 'OOKAY') == 'ERROR']
@@ -89,8 +90,8 @@ class clientHelper():
 	def track_content(self, url, method='GET', queries='JSON', headers={}, redirects=True, data=None, json=None, timeout=30):
 		attempts, ANSWER = 0, None
 		if method == 'POST':
-			heading = {**headers, **{'User-Agent': HEAD_WEB, 'Authorization': f"Bearer {self.check_authtoken()}"}}
-		else: heading = {**headers, **{'User-Agent': HEAD_WEB}}
+			heading = {**headers, **{'User-Agent': WEB_AGENT, 'Authorization': f"Bearer {self.check_authtoken()}"}}
+		else: heading = {**headers, **{'User-Agent': WEB_AGENT}}
 		while not ANSWER and attempts < 2: # 2 x Pingversuche für den Request ::: zur Überprüfung der Verfügbarkeit der URL
 			attempts += 1
 			try:

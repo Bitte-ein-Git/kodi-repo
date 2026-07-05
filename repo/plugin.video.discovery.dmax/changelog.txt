@@ -1,4 +1,10 @@
 ﻿
+[B]Version 3.3.6+matrix.1  (05.07.2026)[/B]
+- Endfassung des Addons nach API-Umstellung
+- fixed: In der Rubrik = 'Neue Sendungen (Serien)' werden nicht alle Serien mit neuen Episoden der letzten sieben Tage angezeigt
+- fixed: In der Rubrik = 'Neue Sendungen (Episoden)' wird nur maximal eine neue Episode einer Serie gelistet, auch wenn mehrere neue Episoden existieren
+- added: In der Rubrik = 'Neue Sendungen (Episoden)' den Serientitel auch im Titel anzeigen (settings)
+
 [B]Version 3.3.5+matrix.1  (26.05.2026)[/B]
 - fixed: Möglicherweise werden im Addon nicht alle verfügbaren Sendungen gelistet (Provider hat Abfrage-URL verändert)
 

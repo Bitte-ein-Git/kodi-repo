@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI-Addons\n"
 "Report-Msgid-Bugs-To: alanwww1@kodi.org\n"
 "POT-Creation-Date: 2020-06-26 17:00+0000\n"
-"PO-Revision-Date: 2026-05-23 18:00+0000\n"
+"PO-Revision-Date: 2026-07-04 16:00+0000\n"
 "Last-Translator: realvito\n"
 "Language-Team: GERMAN\n"
 "MIME-Version: 1.0\n"
@@ -35,30 +35,34 @@ msgid "[B][COLOR yellow]STOP[/COLOR][/B] playback at the end of the video [B][CO
 msgstr "[B][COLOR yellow]STOPP[/COLOR][/B] der Wiedergabe bei Video-Ende [B][COLOR yellow]erzwingen[/COLOR][/B] (sonst Providersteuerung)"
 
 msgctxt "#30111"
+msgid "Show Series title in Title (New Episodes)"
+msgstr "Serientitel im Titel anzeigen (Neue Episoden)"
+
+msgctxt "#30112"
 msgid "Sorting of Episodes"
 msgstr "Sortierung der Episoden"
 
-msgctxt "#30112"
+msgctxt "#30113"
 msgid "Highest Episodenumber display on top"
 msgstr "Höchste Episodennummer oben anzeigen"
 
-msgctxt "#30113"
+msgctxt "#30114"
 msgid "Other methods to choose from"
 msgstr "Weitere Methoden zur Auswahl"
 
-msgctxt "#30114"
+msgctxt "#30115"
 msgid "Use Thumb as Background-Fanart"
 msgstr "Thumb als Hintergrund-Fanart nutzen"
 
-msgctxt "#30115"
+msgctxt "#30116"
 msgid "Show Addon-Settings in the overview"
 msgstr "Addon-Einstellungen in der Übersicht anzeigen"
 
-msgctxt "#30116"
+msgctxt "#30117"
 msgid "Detailed Addon-Debug (otherwise only Minimal-Log)"
 msgstr "Addon-Debug mit Details (sonst nur Minimal-Log)"
 
-# empty strings from id 30117 to 30229
+# empty strings from id 30118 to 30229
 # SETTINGS-TITLES
 
 msgctxt "#30230"
@@ -66,22 +70,26 @@ msgid "[B][COLOR ff0099ff]PLAYBACK-STOP[/COLOR][/B]"
 msgstr "[B][COLOR ff0099ff]WIEDERGABE-STOPP[/COLOR][/B]"
 
 msgctxt "#30231"
+msgid "[B][COLOR ff0099ff]TITLE/DISPLAY[/COLOR][/B]"
+msgstr "[B][COLOR ff0099ff]TITEL/ANZEIGE[/COLOR][/B]"
+
+msgctxt "#30232"
 msgid "[B][COLOR ff0099ff]EPISODES[/COLOR][/B]"
 msgstr "[B][COLOR ff0099ff]EPISODEN[/COLOR][/B]"
 
-msgctxt "#30232"
+msgctxt "#30233"
 msgid "[B][COLOR ff0099ff]FANART[/COLOR][/B]"
 msgstr "[B][COLOR ff0099ff]FANART[/COLOR][/B]"
 
-msgctxt "#30233"
+msgctxt "#30234"
 msgid "[B][COLOR ff0099ff]SETTINGS[/COLOR][/B]"
 msgstr "[B][COLOR ff0099ff]EINSTELLUNGEN[/COLOR][/B]"
 
-msgctxt "#30234"
+msgctxt "#30235"
 msgid "[B][COLOR ff0099ff]LOG[/COLOR][/B]"
 msgstr "[B][COLOR ff0099ff]LOG[/COLOR][/B]"
 
-# empty strings from id 30235 to 30350
+# empty strings from id 30236 to 30350
 # SETTINGS-DESCRIPTIONS
 
 msgctxt "#30351"
@@ -158,28 +166,28 @@ msgid "[B][COLOR chartreuse]★ My DMAX Favourites ★[/COLOR][/B]"
 msgstr "[B][COLOR chartreuse]★ Meine DMAX Favoriten ★[/COLOR][/B]"
 
 msgctxt "#30602"
-msgid "[COLOR deepskyblue]•[/COLOR] New Shows (Series)"
-msgstr "[COLOR deepskyblue]•[/COLOR] Neue Sendungen (Serien)"
+msgid "[B][COLOR lime]•[/COLOR] New Shows (Series)[/B]"
+msgstr "[B][COLOR lime]•[/COLOR] Neue Sendungen (Serien)[/B]"
 
 msgctxt "#30603"
-msgid "[COLOR deepskyblue]•[/COLOR] New Shows (Episodes)"
-msgstr "[COLOR deepskyblue]•[/COLOR] Neue Sendungen (Episoden)"
+msgid "[B][COLOR lime]•[/COLOR] New Shows (Episodes)[/B]"
+msgstr "[B][COLOR lime]•[/COLOR] Neue Sendungen (Episoden)[/B]"
 
 msgctxt "#30604"
-msgid "Last Chance"
-msgstr "Letzte Chance"
+msgid "[B]Last Chance[/B]"
+msgstr "[B]Letzte Chance[/B]"
 
 msgctxt "#30605"
-msgid "Topics"
-msgstr "Themen"
+msgid "[B]Topics[/B]"
+msgstr "[B]Themen[/B]"
 
 msgctxt "#30606"
-msgid "Listing from A-Z"
-msgstr "Auflistung von A-Z"
+msgid "[B]Listing from A-Z[/B]"
+msgstr "[B]Auflistung von A-Z[/B]"
 
 msgctxt "#30607"
-msgid "All Shows"
-msgstr "Alle Sendungen"
+msgid "[B]All Shows[/B]"
+msgstr "[B]Alle Sendungen[/B]"
 
 msgctxt "#30608"
 msgid "DMAX Settings"
@@ -196,8 +204,8 @@ msgid "{}  [COLOR gold][{}][/COLOR]"
 msgstr "{}  [COLOR gold][{}][/COLOR]"
 
 msgctxt "#30621"
-msgid "{}[COLOR orangered]  (ending soon)[/COLOR]"
-msgstr "{}[COLOR orangered]  (endet bald)[/COLOR]"
+msgid "{}[COLOR orangered]  (ending)[/COLOR]"
+msgstr "{}[COLOR orangered]  (endet)[/COLOR]"
 
 msgctxt "#30622"
 msgid "{}[COLOR lime]  (new)[/COLOR]"
@@ -220,20 +228,20 @@ msgid "From [COLOR chartreuse]{}[/COLOR][CR][CR]"
 msgstr "Vom [COLOR chartreuse]{}[/COLOR][CR][CR]"
 
 msgctxt "#30627"
-msgid "[COLOR chartreuse]S{}E{}:[/COLOR]"
-msgstr "[COLOR chartreuse]S{}E{}:[/COLOR]"
+msgid "[COLOR chartreuse]S{}E{}: [/COLOR]{}"
+msgstr "[COLOR chartreuse]S{}E{}: [/COLOR]{}"
 
 msgctxt "#30628"
-msgid "[COLOR orange]S{}E{}:[/COLOR]"
-msgstr "[COLOR orange]S{}E{}:[/COLOR]"
+msgid "[COLOR orange]S{}E{}: [/COLOR]{}"
+msgstr "[COLOR orange]S{}E{}: [/COLOR]{}"
 
 msgctxt "#30629"
 msgid "[COLOR lime]  (new)[/COLOR]"
 msgstr "[COLOR lime]  (neu)[/COLOR]"
 
 msgctxt "#30630"
-msgid "[COLOR orangered]  (ending soon)[/COLOR]"
-msgstr "[COLOR orangered]  (endet bald)[/COLOR]"
+msgid "[COLOR orangered]  (ending)[/COLOR]"
+msgstr "[COLOR orangered]  (endet)[/COLOR]"
 
 msgctxt "#30640"
 msgid "[COLOR lime]Next Page ({})  >>>[/COLOR]"

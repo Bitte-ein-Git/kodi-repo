@@ -39,13 +39,14 @@ icon										= os.path.join(addon_folder, 'resources', 'media', 'icon.png')
 artpic									= os.path.join(addon_folder, 'resources', 'media', '')
 alppic									= os.path.join(addon_folder, 'resources', 'media', 'alphabet', '')
 clamps_player					= (True if addon.getSetting('force_stopping') == 'true' else False)
+complete_titles					= addon.getSetting('complete_titles') == 'true'
 courses								= int(addon.getSetting('sorting_technique'))
-useThumbAsFanart			= addon.getSetting('use_fanart') == 'true'
+using_fanart						= addon.getSetting('use_fanart') == 'true'
 enable_tune						= addon.getSetting('show_settings') == 'true'
 DEB_LEVEL							= (xbmc.LOGINFO if addon.getSetting('enable_debug') == 'true' else xbmc.LOGDEBUG)
 KODI_BUILD						= int(xbmc.getInfoLabel('System.BuildVersion')[0:2])
 BASE_URL							= 'https://dmax.de/' # 'https://dmax.de/' = DMAX // 'https://de.hgtv.com/' = HGTV // 'https://tlc.de/' = TLC // 'https://tele5.de/' = TELE5
-HEAD_WEB							= 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:150.0) Gecko/20100101 Firefox/150.0'
+WEB_AGENT						= 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:152.0) Gecko/20100101 Firefox/152.0'
 DEFAULT_HEADERS			= {'Accept': 'application/json, text/plain, */*', 'Content-Type': 'application/json; charset=utf-8', 'DNT': '1', 'Accept-Encoding': 'gzip, deflate', \
 	'Accept-Language': 'de-DE,de;q=0.9,en;q=0.8', 'sec-ch-ua-platform': 'Windows', 'Origin': BASE_URL[:-1], 'Referer': BASE_URL}
 STONE_HEADERS				= {**DEFAULT_HEADERS, **{'X-Device-Info': 'STONEJS/1 (Unknown/Unknown; Windows/NT 10.0; Unknown)', \
@@ -154,93 +155,95 @@ def cleaning(text):
 		text = re.sub(r'\<.*?\>', '', text).strip()
 	return text
 
-def create_entries(metadata, entries='DEFAULT', persist=1):
-	if entries == 'COLLATE':
-		#log(f"(common.create_entries[1]) xxxxx METAS-01 : {metadata} xxxxx")
-		shorten = metadata['Contents'] if metadata.get('Contents', {}) else metadata
-		series, showSlug, local_start, start_times, starting, airing, local_ends, ends_times, mpaa = (None for _ in range(9))
+def create_entries(metas, version='DEFAULT', persist=1):
+	if version in ['COLLECT', 'NEWEST']:
+		metas = {key: value for key, value in metas.items() if value is not None}
+		#log(f"(common.create_entries[1]) xxxxx METAS-01 : {metas} xxxxx")
+		show_name, showSlug, mpaa, local_start, start_times, starting, airing, local_ends, ends_times, species = (None for _ in range(10))
 		collate, (note_1, note_2) = '2026-01-01T00:01', ("" for _ in range(2))
-		title, episSlug = cleaning(shorten['title']), (shorten.get('alternateId', None) or shorten.get('url', None))
-		show_title = (shorten.get('show', {}).get('title', '') or metadata.get('SeriesTitle', ''))
-		series, showSlug = cleaning(show_title), clear_invalid(show_title).lower()
-		episID, showID = shorten.get('id', None), (shorten.get('show', {}).get('id', '') or shorten.get('showId', '') or None)
-		model = shorten.get('videoType', 'UNKNOWN')
-		duration = int(shorten['videoDuration']) // 1000 if str(shorten.get('videoDuration')).isdecimal() else None
-		season = f"{int(shorten['seasonNumber']):02}" if str(shorten.get('seasonNumber')).isdecimal() and int(shorten['seasonNumber']) != 0 else None
-		episode = f"{int(shorten['episodeNumber']):02}" if str(shorten.get('episodeNumber')).isdecimal() and int(shorten['episodeNumber']) != 0 else None
-		if shorten.get('contentRating', '') and str(shorten['contentRating'].get('code')).isdecimal():
-			mpaa = translation(30623).format(shorten['contentRating']['code']) if str(shorten['contentRating']['code']) != '0' else translation(30624)
-		if str(shorten.get('publishStart'))[:4].isdecimal():
-			local_start = convert_region(shorten['publishStart'])
+		titling, episSlug = cleaning(metas['title']), (metas.get('alternateId', None) or metas.get('url', None))
+		show_title = (metas.get('show', {}).get('title', '') or metas.get('ShowTitle', ''))
+		show_name, showSlug = cleaning(show_title), (metas.get('Slug_2', '') or clear_invalid(show_title).lower())
+		episID, showID = metas.get('id', None), (metas.get('show', {}).get('id', '') or metas.get('showId', '') or None)
+		model = metas.get('videoType', 'UNKNOWN')
+		duration = int(metas['videoDuration']) // 1000 if str(metas.get('videoDuration')).isdecimal() else None
+		season = f"{int(metas['seasonNumber']):02}" if str(metas.get('seasonNumber')).isdecimal() and int(metas['seasonNumber']) != 0 else None
+		episode = f"{int(metas['episodeNumber']):02}" if str(metas.get('episodeNumber')).isdecimal() and int(metas['episodeNumber']) != 0 else None
+		if str(metas.get('contentRating', {}).get('code')).isdecimal():
+			mpaa = translation(30623).format(metas['contentRating']['code']) if str(metas['contentRating']['code']) != '0' else translation(30624)
+		if str(metas.get('publishStart'))[:4].isdecimal():
+			local_start = convert_region(metas['publishStart'])
 			start_times = local_start.strftime('%d{0}%m{0}%y {1} %H{2}%M').format('.', '•', ':')
 			collate = local_start.strftime('%Y-%m-%dT%H:%M')
 			starting = local_start.strftime('%Y-%m-%dT%H:%M') if KODI_BUILD >= 20 else LOCALstart.strftime('%d.%m.%Y') # 2026-05-16T19:10:00 = NEWFORMAT // 16.05.2026 = OLDFORMAT
 			airing = local_start.strftime('%d.%m.%Y') # FirstAired
-		if str(shorten.get('publishEnd'))[:4].isdecimal():
-			local_ends = convert_region(shorten['publishEnd'])
+		if str(metas.get('publishEnd'))[:4].isdecimal():
+			local_ends = convert_region(metas['publishEnd'])
 			ends_times = local_ends.strftime('%d{0}%m{0}%y {1} %H{2}%M').format('.', '•', ':')
 		if start_times and ends_times: note_1 = translation(30625).format(start_times, ends_times)
 		elif start_times and ends_times is None: note_1 = translation(30626).format(start_times)
-		elif start_times is None and ends_times is None: note_1 = '[CR]'
-		thumb = shorten['poster']['src'] if shorten.get('poster', '') and shorten['poster'].get('src', '') else \
-			shorten['meta']['thumbnailUrl'] if shorten.get('meta', '') and shorten['meta'].get('thumbnailUrl', '') else f"{artpic}standard.png"
-		note_2 = shorten['description'] if shorten.get('description', '') and len(shorten['description']) > 20 else shorten['meta']['description'] if \
-			shorten.get('meta', '') and shorten['meta'].get('description', '') and len(shorten['meta']['description']) > 20 else ""
-		species = ' / '.join(sorted([tax.get('title', '') for tax in shorten.get('taxonomies', {}) if tax.get('category') == 'genre'][:2]))
-		pioneer, medias = translation(30627).format(season, episode) if season and episode else None, 'episode' if season and episode else 'movie'
+		thumb = (metas.get('poster', {}).get('src', None) or metas.get('meta', {}).get('thumbnailUrl', None))
+		story = metas['description'] if metas.get('description', None) else ""
+		note_2 = cleaning(story) if len(story) > 20 else metas.get('ShowTeaser', '')
+		if metas.get('show', {}).get('taxonomies', ''):
+			species = ' / '.join(sorted([tax.get('title', '') for tax in metas['show']['taxonomies'] if tax.get('category') == 'genre'][:2]))
+		pioneer, tables = translation(30627).format(season, episode, titling) if season and episode else titling, 'episode' if season and episode else 'movie'
 		suffix = translation(30629) if local_start and local_start > (datetime.now() - timedelta(days=7, hours=2)) else \
 			translation(30630) if local_ends and local_ends < (datetime.now() + timedelta(days=7, hours=2)) else ""
-		full_name= f"{pioneer} {title}{suffix}" if pioneer else f"{title}{suffix}"
-		teaser, short_name = f"{series}[CR]{note_1}{cleaning(note_2)}" if series else note_1+cleaning(note_2), re.sub(r'\[.*?\]', '', full_name)
+		full_name = f"{pioneer}{suffix}" if version != 'NEWEST' else pioneer
+		if version == 'NEWEST' and complete_titles and show_name:
+			full_name = f"{pioneer} - {show_name}"
+		teaser = f"{show_name}[CR]{note_1}{note_2}" if show_name and note_1 != "" else f"{show_name}[CR][CR]{note_2}" if show_name and note_1 == "" else note_1+note_2
+		short_name = re.sub(r'\[.*?\]', '', full_name)
 		debug_MS("* * * * * * * * * * * * * * * * * * * * * * *")
 		debug_MS(f"(navigator.list_episodes[3]) ##### POSITION : {persist} || NAME : {short_name} || IDD : {episID} || DURATION : {duration} #####")
 		debug_MS(f"(navigator.list_episodes[3]) ##### START : {collate} || SEASON : {season} || EPISODE : {episode} || MPAA : {mpaa} #####")
-		debug_MS(f"(navigator.list_episodes[3]) ##### SERIE : {series} || IMAGE : {thumb} #####")
-		metadata = {'Title': full_name, 'TvShowTitle': series, 'Plot': teaser, 'Season': season,'Episode': episode, 'Duration': duration, \
-			'Date': starting, 'Aired': airing, 'Genre': species, 'Mpaa': mpaa, 'Mediatype': medias, 'Image': thumb, 'Reference': 'Single'}
-	listitem = xbmcgui.ListItem(metadata['Title'])
+		debug_MS(f"(navigator.list_episodes[3]) ##### SERIE : {show_name} || IMAGE : {thumb} #####")
+		metas = {'Title': full_name, 'TvShowTitle': show_name, 'Plot': teaser, 'Season': season,'Episode': episode, 'Duration': duration, \
+			'Date': starting, 'Aired': airing, 'Genre': species, 'Mpaa': mpaa, 'Mediatype': tables, 'Image': thumb, 'Reference': 'Single'}
+	listitem = xbmcgui.ListItem(metas['Title'])
 	vinfo = listitem.getVideoInfoTag() if KODI_BUILD >= 20 else {}
-	if KODI_BUILD >= 20: vinfo.setTitle(metadata['Title'])
-	else: vinfo['Title'] = metadata['Title']
-	if metadata.get('TvShowTitle', ''):
-		if KODI_BUILD >= 20: vinfo.setTvShowTitle(metadata['TvShowTitle'])
-		else: vinfo['Tvshowtitle'] = metadata['TvShowTitle']
-	description = metadata['Plot'] if metadata.get('Plot') not in ['', 'None', None] else ' '
+	if KODI_BUILD >= 20: vinfo.setTitle(metas['Title'])
+	else: vinfo['Title'] = metas['Title']
+	if metas.get('TvShowTitle', ''):
+		if KODI_BUILD >= 20: vinfo.setTvShowTitle(metas['TvShowTitle'])
+		else: vinfo['Tvshowtitle'] = metas['TvShowTitle']
+	description = metas['Plot'] if metas.get('Plot') not in ['', 'None', None] else ' '
 	if KODI_BUILD >= 20: vinfo.setPlot(description)
 	else: vinfo['Plot'] = description
-	if str(metadata.get('Duration')).isdecimal():
-		if KODI_BUILD >= 20: vinfo.setDuration(int(metadata['Duration']))
-		else: vinfo['Duration'] = metadata['Duration']
-	if str(metadata.get('Season')).isdecimal():
-		if KODI_BUILD >= 20: vinfo.setSeason(int(metadata['Season']))
-		else: vinfo['Season'] = metadata['Season']
-	if str(metadata.get('Episode')).isdecimal():
-		if KODI_BUILD >= 20: vinfo.setEpisode(int(metadata['Episode']))
-		else: vinfo['Episode'] = metadata['Episode']
-	if metadata.get('Date', ''):
-		if KODI_BUILD >= 20: listitem.setDateTime(metadata['Date'])
-		else: vinfo['Date'] = metadata['Date']
-	if metadata.get('Aired', ''):
-		if KODI_BUILD >= 20: vinfo.setFirstAired(metadata['Aired'])
-		else: vinfo['Aired'] = metadata['Aired']
-	if str(metadata.get('Aired'))[6:10].isdecimal():
-		if KODI_BUILD >= 20: vinfo.setYear(int(metadata['Aired'][6:10]))
-		else: vinfo['Year'] = metadata['Aired'][6:10]
-	if metadata.get('Genre', ''):
-		if KODI_BUILD >= 20: vinfo.setGenres([metadata['Genre']])
-		else: vinfo['Genre'] = metadata['Genre']
-	if metadata.get('Mpaa', ''):
-		if KODI_BUILD >= 20: vinfo.setMpaa(metadata['Mpaa'])
-		else: vinfo['Mpaa'] = metadata['Mpaa']
-	if metadata.get('Mediatype', ''):
-		if KODI_BUILD >= 20: vinfo.setMediaType(metadata['Mediatype'])
-		else: vinfo['Mediatype'] = metadata['Mediatype']
-	picture = metadata['Image'] if metadata.get('Image') else f"{artpic}standard.png"
+	if str(metas.get('Duration')).isdecimal():
+		if KODI_BUILD >= 20: vinfo.setDuration(int(metas['Duration']))
+		else: vinfo['Duration'] = metas['Duration']
+	if str(metas.get('Season')).isdecimal():
+		if KODI_BUILD >= 20: vinfo.setSeason(int(metas['Season']))
+		else: vinfo['Season'] = metas['Season']
+	if str(metas.get('Episode')).isdecimal():
+		if KODI_BUILD >= 20: vinfo.setEpisode(int(metas['Episode']))
+		else: vinfo['Episode'] = metas['Episode']
+	if metas.get('Date', ''):
+		if KODI_BUILD >= 20: listitem.setDateTime(metas['Date'])
+		else: vinfo['Date'] = metas['Date']
+	if metas.get('Aired', ''):
+		if KODI_BUILD >= 20: vinfo.setFirstAired(metas['Aired'])
+		else: vinfo['Aired'] = metas['Aired']
+	if str(metas.get('Aired'))[6:10].isdecimal():
+		if KODI_BUILD >= 20: vinfo.setYear(int(metas['Aired'][6:10]))
+		else: vinfo['Year'] = metas['Aired'][6:10]
+	if metas.get('Genre', ''):
+		if KODI_BUILD >= 20: vinfo.setGenres([metas['Genre']])
+		else: vinfo['Genre'] = metas['Genre']
+	if metas.get('Mpaa', ''):
+		if KODI_BUILD >= 20: vinfo.setMpaa(str(metas['Mpaa']))
+		else: vinfo['Mpaa'] = str(metas['Mpaa'])
+	if metas.get('Mediatype', ''):
+		if KODI_BUILD >= 20: vinfo.setMediaType(metas['Mediatype'])
+		else: vinfo['Mediatype'] = metas['Mediatype']
+	picture = metas['Image'] if metas.get('Image') else f"{artpic}standard.png"
 	listitem.setArt({'icon': icon, 'thumb': picture, 'poster': picture, 'fanart': defaultFanart})
-	if metadata.get('Cover'): listitem.setArt({'poster': metadata['Cover']})
-	if useThumbAsFanart and not artpic in picture:
+	if metas.get('Cover'): listitem.setArt({'poster': metas['Cover']})
+	if using_fanart and picture and not artpic in picture:
 		listitem.setArt({'fanart': picture})
-	if metadata.get('Reference') == 'Single':
+	if metas.get('Reference') == 'Single':
 		listitem.setProperty('IsPlayable', 'true')
 	if KODI_BUILD < 20: listitem.setInfo('Video', vinfo)
 	return listitem
