@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-09-15 10:50+0000\n"
-"Last-Translator: Centauri <lillelau4@gmail.com>\n"
+"PO-Revision-Date: 2026-07-05 21:03+0000\n"
+"Last-Translator: Ulrik <ulrik.johansen@me.com>\n"
 "Language-Team: Danish <https://translate.jellyfin.org/projects/jellyfin/"
 "jellyfin-kodi/da/>\n"
 "Language: da_dk\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11.4\n"
+"X-Generator: Weblate 5.15.1\n"
 
 msgctxt "#30160"
 msgid "Max stream bitrate"
@@ -29,7 +29,7 @@ msgstr "For episoder"
 
 msgctxt "#30091"
 msgid "Confirm file deletion"
-msgstr "Bekræft fil fjernelse"
+msgstr "Bekræft sletning af fil"
 
 msgctxt "#30024"
 msgid "Username"
@@ -45,11 +45,11 @@ msgstr "Enhedsnavn"
 
 msgctxt "#30004"
 msgid "Log level"
-msgstr "Log level"
+msgstr "Logniveau"
 
 msgctxt "#30003"
 msgid "Login method"
-msgstr "Login metode"
+msgstr "Login-metode"
 
 msgctxt "#30002"
 msgid "Force HTTP playback"
@@ -57,11 +57,11 @@ msgstr "Tving HTTP-afspilning"
 
 msgctxt "#30001"
 msgid "Server name"
-msgstr "Server navn"
+msgstr "Servernavn"
 
 msgctxt "#30000"
 msgid "Server address"
-msgstr "Server adresse"
+msgstr "Serveradresse"
 
 msgctxt "#30509"
 msgid "Enable music library"
@@ -109,7 +109,7 @@ msgstr "Jellyfin-indstillinger"
 
 msgctxt "#30305"
 msgid "TV Shows"
-msgstr "TV-serier"
+msgstr "Serier"
 
 msgctxt "#30302"
 msgid "Movies"
@@ -157,7 +157,7 @@ msgstr "Nulstil lokal Kodi-database"
 
 msgctxt "#30235"
 msgid "Interface"
-msgstr "Grænseflade"
+msgstr "Brugerflade"
 
 msgctxt "#30230"
 msgid "Recommended Items"
@@ -177,11 +177,11 @@ msgstr "Samlinger"
 
 msgctxt "#30182"
 msgid "Favorite Episodes"
-msgstr "Favoritafsnit"
+msgstr "Favoritepisoder"
 
 msgctxt "#30181"
 msgid "Favorite Shows"
-msgstr "Favorit TV-serier"
+msgstr "Favoritserier"
 
 msgctxt "#30180"
 msgid "Favorite Movies"
@@ -189,11 +189,11 @@ msgstr "Favoritfilm"
 
 msgctxt "#30179"
 msgid "Next Episodes"
-msgstr "Næste afsnit"
+msgstr "Næste episoder"
 
 msgctxt "#30178"
 msgid "In Progress Episodes"
-msgstr "Påbegyndte afsnit"
+msgstr "Påbegyndte episoder"
 
 msgctxt "#30177"
 msgid "In Progress Movies"
@@ -201,7 +201,7 @@ msgstr "Påbegyndte film"
 
 msgctxt "#30175"
 msgid "Recently Added Episodes"
-msgstr "Nyligt tilføjede afsnit"
+msgstr "Nyligt tilføjede episoder"
 
 msgctxt "#30174"
 msgid "Recently Added Movies"
@@ -209,11 +209,11 @@ msgstr "Nyligt tilføjede film"
 
 msgctxt "#30171"
 msgid "In Progress TV Shows"
-msgstr "Påbegyndte TV-serier"
+msgstr "Påbegyndte serier"
 
 msgctxt "#30170"
 msgid "Recently Added TV Shows"
-msgstr "Nyligt tilføjede TV-serier"
+msgstr "Nyligt tilføjede serier"
 
 msgctxt "#30165"
 msgid "Allow burned subtitles"
@@ -245,19 +245,19 @@ msgstr "Jellyfin til Kodi"
 
 msgctxt "#30535"
 msgid "Generate a new device Id"
-msgstr "Generer en ny enheds ID"
+msgstr "Generér et nyt enheds-ID"
 
 msgctxt "#30522"
 msgid "Transcode H265/HEVC"
-msgstr "Omkod H.265/HEVC"
+msgstr "Transkodning af H.265/HEVC"
 
 msgctxt "#33196"
 msgid "Advanced options"
-msgstr "Avanceret indstillinger"
+msgstr "Avancerede indstillinger"
 
 msgctxt "#33202"
 msgid "Transcode H265/HEVC RExt"
-msgstr "Omkod H265/HEVC RExt"
+msgstr "Transkodning af H265/HEVC RExt"
 
 msgctxt "#33201"
 msgid "Max artwork resolution"
@@ -278,16 +278,16 @@ msgstr "Vælg hvilke bibloteker der skal opdateres"
 msgctxt "#33197"
 msgid "A sync is already running, please wait until it completes and try again."
 msgstr ""
-"Der bliver allerede synkroniseret, vent venligst til at synkroniseringen er "
-"færdig og prøv derefter igen."
+"Der kører allerede en synkronisering. Vent venligst, indtil den er færdig, "
+"og prøv igen."
 
 msgctxt "#33195"
 msgid "Enable Jellyfin for Kodi"
-msgstr "Aktiver Jellyfin for Kodi"
+msgstr "Aktivér Jellyfin til Kodi"
 
 msgctxt "#33194"
 msgid "Manage libraries"
-msgstr "Administrer bibloteker"
+msgstr "Administrér bibloteker"
 
 msgctxt "#33193"
 msgid "Restarting..."
@@ -299,7 +299,8 @@ msgstr "Genstart Jellyfin for Kodi for at anvende ændringer?"
 
 msgctxt "#33185"
 msgid "Enable sync during playback (may cause some lag)"
-msgstr "Aktiver synkronisering under afspilning (kan medføre lag)"
+msgstr ""
+"Aktivér synkronisering under afspilning (kan medføre en vis forsinkelse)"
 
 msgctxt "#33184"
 msgid "Remove libraries"
@@ -307,11 +308,11 @@ msgstr "Fjern bibloteker"
 
 msgctxt "#33183"
 msgid "Enable the option to play with cinema mode"
-msgstr "Aktiver indstilling for at afspille i biograftilstand"
+msgstr "Aktivér indstillingen for at spille i biograf-tilstand"
 
 msgctxt "#33182"
 msgid "Play with cinema mode"
-msgstr "Spil med biograftilstand"
+msgstr "Afspil med biograf-tilstand"
 
 msgctxt "#33181"
 msgid "Restarting to apply the patch"
@@ -323,7 +324,7 @@ msgstr "Genstart Jellyfin for Kodi"
 
 msgctxt "#33179"
 msgid "Force transcode"
-msgstr "Tving omkodning"
+msgstr "Tving transkodning"
 
 msgctxt "#33178"
 msgid "Processing updates"
@@ -331,12 +332,12 @@ msgstr "Behandler opdateringer"
 
 msgctxt "#33177"
 msgid "Display the progress bar if update count greater than"
-msgstr "Vis fremskridsbar hvis opdater tal er større end"
+msgstr "Vis statusbjælken, hvis antallet af opdateringer er større end"
 
 msgctxt "#33176"
 msgid "Update or repair your libraries to apply the changes below."
 msgstr ""
-"Opdater eller reparer dine bibloteker for at anvende de nedenstående "
+"Opdatér eller reparer dine biblioteker for at implementere nedenstående "
 "ændringer."
 
 msgctxt "#33175"
@@ -386,19 +387,19 @@ msgstr "(dynamisk)"
 
 msgctxt "#33165"
 msgid "Failed to create backup"
-msgstr "Kunne ikke lave sikkerhedskopi"
+msgstr "Det lykkedes ikke at oprette en sikkerhedskopi"
 
 msgctxt "#33164"
 msgid "Mask sensitive information in log (does not apply to kodi logging)"
-msgstr "Gem sensitive oplysninger i logfil (Gælder ikke for Kodi logging)"
+msgstr "Skjul følsomme oplysninger i logfiler (gælder ikke for Kodi-logning)"
 
 msgctxt "#33162"
 msgid "Reset the music library?"
-msgstr "Nulstil musik bibloteket?"
+msgstr "Skal musikbiblioteket nulstilles?"
 
 msgctxt "#33161"
 msgid "Update password"
-msgstr "Opdater adganskode"
+msgstr "Opdatér adgangskode"
 
 msgctxt "#33160"
 msgid "To avoid errors, please update Jellyfin for Kodi to version: "
@@ -407,11 +408,11 @@ msgstr ""
 
 msgctxt "#33163"
 msgid "Disabled/Media default"
-msgstr "Deaktiver/Medie standard"
+msgstr "Deaktiveret/Medie-standardindstilling"
 
 msgctxt "#33159"
 msgid "Enable audio/subtitles selection"
-msgstr "Aktiver lyd/undertekster selektion"
+msgstr "Aktivér valg af lydspor/undertekster"
 
 msgctxt "#33158"
 msgid "Subtitles only"
@@ -438,7 +439,7 @@ msgstr "Tilføj bibloteker"
 
 msgctxt "#33153"
 msgid "Your Jellyfin theme media has been synced to Kodi"
-msgstr "Dit Jellyfin tema medie er blevet synkroniseret til Kodi"
+msgstr "Dine Jellyfin-temamedier er blevet synkroniseret med Kodi"
 
 msgctxt "#33152"
 msgid "Unable to locate TV Tunes in Kodi."
@@ -453,7 +454,7 @@ msgstr ""
 
 msgctxt "#33150"
 msgid "Update server information"
-msgstr "Opdater server information"
+msgstr "Opdatér serveroplysninger"
 
 msgctxt "#33149"
 msgid "Unable to connect to this server."
@@ -496,11 +497,11 @@ msgstr "Fjern server"
 
 msgctxt "#33140"
 msgid "Repair libraries"
-msgstr "Reparer bibloteker"
+msgstr "Reparér biblioteker"
 
 msgctxt "#33139"
 msgid "Update libraries"
-msgstr "Opdater bibloteker"
+msgstr "Opdatér biblioteker"
 
 msgctxt "#33138"
 msgid "You can update your library manually rather than rely on the server plugin Kodi Sync Queue. Launch the add-on and update libraries (or per library). To remove content, you'll need to repair the library."
@@ -512,17 +513,17 @@ msgstr ""
 
 msgctxt "#33137"
 msgid "Enable Kodi Sync Queue"
-msgstr "Aktiver Kodi Sync Queue"
+msgstr "Aktivér Kodi-synkroniseringskøen"
 
 msgctxt "#33136"
 msgid "Update library"
-msgstr "Opdater biblotek"
+msgstr "Opdatér bibliotek"
 
 msgctxt "#33135"
 msgid "Kodi will now restart to apply a small patch for your Kodi version."
 msgstr ""
-"Kodi vil nu genstarte for at anvende en lille opdatering til din Kodi "
-"version."
+"Kodi genstarter nu for at installere en lille opdatering til din version af "
+"Kodi."
 
 msgctxt "#33134"
 msgid "Add server"
@@ -530,11 +531,11 @@ msgstr "Tilføj server"
 
 msgctxt "#33133"
 msgid "Remove library from Kodi"
-msgstr "Fjern biblotek fra Kodi"
+msgstr "Fjern biblioteket fra Kodi"
 
 msgctxt "#33132"
 msgid "Repair library"
-msgstr "Reparer biblotek"
+msgstr "Reparér bibliotek"
 
 msgctxt "#33131"
 msgid "Refreshing boxsets"
@@ -563,7 +564,7 @@ msgstr "Inkluder folk (langsom)"
 
 msgctxt "#33123"
 msgid "Sync library to Kodi"
-msgstr "Synkroniser biblotek til Kodi"
+msgstr "Synkronisér biblioteket med Kodi"
 
 msgctxt "#33122"
 msgid "Restart Kodi to resume where you left off."
@@ -592,15 +593,15 @@ msgstr ""
 
 msgctxt "#33116"
 msgid "Compress artwork (reduces quality)"
-msgstr "Komprimer kunstværk (reducerer kvaliteten)"
+msgstr "Komprimér billedmateriale (reducerer kvaliteten)"
 
 msgctxt "#33115"
 msgid "Transcode options"
-msgstr "Omkodningsindstillinger"
+msgstr "Indstillinger for transkodning"
 
 msgctxt "#33114"
 msgid "Enable external subtitles"
-msgstr "Aktiver eksterne undertekster"
+msgstr "Aktivér eksterne undertekster"
 
 msgctxt "#33113"
 msgid "Applies to Add-on playback mode only"
@@ -635,11 +636,11 @@ msgstr ""
 
 msgctxt "#33106"
 msgid "Enable the option to transcode"
-msgstr "Aktiver indstilling for transkodning"
+msgstr "Aktivér muligheden for transkodning"
 
 msgctxt "#33105"
 msgid "Enable the context menu"
-msgstr "Aktiver genvejsmenuen"
+msgstr "Aktivér kontekstmenuen"
 
 msgctxt "#33104"
 msgid "Find more info in the github wiki/Create-and-restore-from-backup."
@@ -665,7 +666,7 @@ msgstr ""
 
 msgctxt "#33098"
 msgid "Refresh boxsets"
-msgstr "Opdater samlinger"
+msgstr "Opdater boks-sæt"
 
 msgctxt "#33097"
 msgid "Important, cleanonupdate was removed in your advanced settings to prevent conflict with Jellyfin for Kodi. Kodi will restart now."
@@ -675,19 +676,19 @@ msgstr ""
 
 msgctxt "#33093"
 msgid "Backup folder"
-msgstr "Sikkerhedskopierings mappe"
+msgstr "Sikkerhedskopimappe"
 
 msgctxt "#33092"
 msgid "Create a backup"
-msgstr "Lav en sikkerhedskopi"
+msgstr "Opret en sikkerhedskopi"
 
 msgctxt "#33091"
 msgid "Created backup at:"
-msgstr "Lavet sikkerhedskopi den:"
+msgstr "Sikkerhedskopien blev oprettet:"
 
 msgctxt "#33090"
 msgid "Replace existing backup?"
-msgstr "Erstat eksisterende sikerhedskopier?"
+msgstr "Skal den eksisterende sikkerhedskopi erstattes?"
 
 msgctxt "#33089"
 msgid "Enter folder name for backup"
@@ -729,11 +730,11 @@ msgstr "Tilføj/fjern bruger fra sessionen"
 
 msgctxt "#33060"
 msgid "Sync theme media"
-msgstr "Synkroniser tema medie"
+msgstr "Synkroniser temaets medier"
 
 msgctxt "#33058"
 msgid "Perform local database reset"
-msgstr "Udfør lokal database genstart"
+msgstr "Udfør en nulstilling af den lokale database"
 
 msgctxt "#33054"
 msgid "Add user to session"
@@ -746,10 +747,10 @@ msgstr "Ny"
 msgctxt "#33048"
 msgid "You may need to verify your network credentials in the add-on settings or use the Jellyfin path substitution to format your path correctly (Jellyfin dashboard > library). Stop syncing?"
 msgstr ""
-"Du bliver måske nødt til at verificere dine netværks oplysninger under "
-"tilføjelses indstillinger eller bruge Jellyfin sti substitution til at "
-"formatere din sti korrekt (Jellyfin dashboard > biblotek). Stop "
-"synkronisering?"
+"Det kan være nødvendigt at bekræfte dine netværksoplysninger i "
+"tillægsindstillingerne eller bruge Jellyfins sti-erstatning for at formatere "
+"din sti korrekt (Jellyfin-dashboard > bibliotek). Vil du stoppe "
+"synkroniseringen?"
 
 msgctxt "#33047"
 msgid "Kodi can't locate file:"
@@ -757,7 +758,7 @@ msgstr "Kodi kan ikke finde filen:"
 
 msgctxt "#33039"
 msgid "Enable music library?"
-msgstr "Aktiver musik biblotek?"
+msgstr "Skal musikbiblioteket aktiveres?"
 
 msgctxt "#33036"
 msgid "Add-on (default)"
@@ -784,7 +785,7 @@ msgstr "Indsamler:"
 
 msgctxt "#33016"
 msgid "Play trailers?"
-msgstr "Afspil forfilm?"
+msgstr "Afspil trailere?"
 
 msgctxt "#33015"
 msgid "Delete file from Jellyfin?"
@@ -792,11 +793,11 @@ msgstr "Slet fil fra Jellyfin?"
 
 msgctxt "#33014"
 msgid "Choose the subtitles stream"
-msgstr "Vælg underskrift strømmen"
+msgstr "Vælg undertekststrøm"
 
 msgctxt "#33013"
 msgid "Choose the audio stream"
-msgstr "Vælg lyd strømmen"
+msgstr "Vælg lydstrøm"
 
 msgctxt "#33009"
 msgid "Invalid username or password"
@@ -832,7 +833,7 @@ msgstr "Log venligst ind"
 
 msgctxt "#30611"
 msgid "Manually add server"
-msgstr "Manuel tilføj server"
+msgstr "Tilføj server manuelt"
 
 msgctxt "#30610"
 msgid "Connect to"
@@ -852,7 +853,7 @@ msgstr "Vælg primær server"
 
 msgctxt "#30606"
 msgid "Cancel"
-msgstr "Afbrud"
+msgstr "Annullér"
 
 msgctxt "#30605"
 msgid "Sign in"
@@ -864,7 +865,7 @@ msgstr "Adgangskode"
 
 msgctxt "#30547"
 msgid "Display message"
-msgstr "Visningsbesked"
+msgstr "Vis besked"
 
 msgctxt "#30543"
 msgid "Username or email"
@@ -872,7 +873,7 @@ msgstr "Brugernavn eller email"
 
 msgctxt "#30540"
 msgid "Manual login"
-msgstr "Manuel log ind"
+msgstr "Manuel login"
 
 msgctxt "#30539"
 msgid "Login"
@@ -896,15 +897,15 @@ msgstr "Varighed af video biblotek pop up"
 
 msgctxt "#30531"
 msgid "Enable new content"
-msgstr "Aktiver nyt indhold"
+msgstr "Aktivér nyt indhold"
 
 msgctxt "#30530"
 msgid "Enable server restart message"
-msgstr "Aktiver server genstart besked"
+msgstr "Aktivér meddelelse om genstart af serveren"
 
 msgctxt "#30529"
 msgid "Startup delay (in seconds)"
-msgstr "Opstart forsinkelse (i sekunder)"
+msgstr "Opstartsforsinkelse (i sekunder)"
 
 msgctxt "#30528"
 msgid "Permanent users"
@@ -920,15 +921,15 @@ msgstr "Spring slette bekræftelse over (brug på egen risiko)"
 
 msgctxt "#30519"
 msgid "Ask to play trailers"
-msgstr "Soørg om at afspille trailers"
+msgstr "Spørg om at få vist trailere"
 
 msgctxt "#30518"
 msgid "Enable cinema mode"
-msgstr "Aktiver biograf tilstand"
+msgstr "Aktivér biograf-tilstand"
 
 msgctxt "#30517"
 msgid "Network credentials"
-msgstr "Netværks sikkerhed"
+msgstr "Netværksadgangskoder"
 
 msgctxt "#30516"
 msgid "Playback"
@@ -936,11 +937,11 @@ msgstr "Afspilning"
 
 msgctxt "#30511"
 msgid "Playback mode"
-msgstr "Afspilnings metode"
+msgstr "Afspilningstilstand"
 
 msgctxt "#30412"
 msgid "Transcode"
-msgstr "Transskribere"
+msgstr "Transkode"
 
 msgctxt "#30402"
 msgid "Jellyfin transcode"
@@ -948,23 +949,23 @@ msgstr "Jellyfin"
 
 msgctxt "#30524"
 msgid "Transcode VC-1"
-msgstr "Omkod VC-1"
+msgstr "Transkode VC-1"
 
 msgctxt "#30523"
 msgid "Transcode MPEG2"
-msgstr "Omkod MPEG2"
+msgstr "Transkode MPEG2"
 
 msgctxt "#30525"
 msgid "Transcode VP9"
-msgstr "Omkod VP9"
+msgstr "Transkode VP9"
 
 msgctxt "#33037"
 msgid "Native (direct paths)"
-msgstr "Oprindelig (direkte stier)"
+msgstr "Indbygget (direkte stier)"
 
 msgctxt "#30526"
 msgid "Transcode AV1"
-msgstr "Omkod AV1"
+msgstr "Transkode AV1"
 
 msgctxt "#30527"
 msgid "Ignore specials in next episodes"
@@ -972,11 +973,11 @@ msgstr "Ignorer specials i de næste afsnit"
 
 msgctxt "#30537"
 msgid "Transcode Hi10P"
-msgstr "Omkod Hi10P"
+msgstr "Transkode Hi10P"
 
 msgctxt "#30545"
 msgid "Enable server offline"
-msgstr "Aktiver server offline"
+msgstr "Aktivér server offline"
 
 msgctxt "#30613"
 msgid "Change Jellyfin Connect user"
@@ -994,23 +995,23 @@ msgstr ""
 
 msgctxt "#33125"
 msgid "Enable remote control"
-msgstr "Aktiver fjernstyring"
+msgstr "Aktivér fjernbetjening"
 
 msgctxt "#30512"
 msgid "Enable artwork caching"
-msgstr "Aktiver kunstværks caching"
+msgstr "Aktivér cachelagring af grafik"
 
 msgctxt "#30515"
 msgid "Paging - max items requested (default: 15)"
-msgstr "personsøgning - maks Elementer efterspurgt (standard:15)"
+msgstr "Paging – maksimalt antal anmodede poster (standard: 15)"
 
 msgctxt "#33204"
 msgid "Finish"
-msgstr "Fuldføre"
+msgstr "Afslut"
 
 msgctxt "#33205"
 msgid "New Path Replacement"
-msgstr "Ny stierstatning"
+msgstr "Udskiftning af ny sti"
 
 msgctxt "#33207"
 msgid "Local Path"
@@ -1018,7 +1019,7 @@ msgstr "Lokal sti"
 
 msgctxt "#33203"
 msgid "Manage path replacements"
-msgstr "Håndter stierstatninger"
+msgstr "Administrer erstatning af stier"
 
 msgctxt "#33206"
 msgid "Remote Path"
@@ -1179,3 +1180,87 @@ msgstr "14,0 Mbps"
 msgctxt "#33229"
 msgid "16.0 Mbps"
 msgstr "16,0 Mbps"
+
+msgctxt "#30618"
+msgid "Quick Connect"
+msgstr "Lyn-forbind"
+
+msgctxt "#30619"
+msgid "Enter this code in the Jellyfin app or web interface:"
+msgstr "Indtast denne kode i Jellyfin-appen eller webbrugerfladen:"
+
+msgctxt "#30620"
+msgid "Waiting for authorization..."
+msgstr "Venter på godkendelse…"
+
+msgctxt "#30621"
+msgid "Quick Connect is not available on this server"
+msgstr "Lyn-forbind er ikke tilgængeligt på denne server"
+
+msgctxt "#30622"
+msgid "Quick Connect timed out. Please try again."
+msgstr "Tidsfristen for Lyn-forbind blev overskredet. Prøv igen."
+
+msgctxt "#33246"
+msgid "Segment Skipping"
+msgstr "Segmentspring"
+
+msgctxt "#33247"
+msgid "Enable segment skipping"
+msgstr "Aktivér segment overspringning"
+
+msgctxt "#33248"
+msgid "Skip mode"
+msgstr "Spring over-tilstand"
+
+msgctxt "#33249"
+msgid "Auto skip"
+msgstr "Spring over automatisk"
+
+msgctxt "#33250"
+msgid "Show skip button"
+msgstr "Vis spring over-knap"
+
+msgctxt "#33251"
+msgid "Ask every time"
+msgstr "Spørg hver gang"
+
+msgctxt "#33252"
+msgid "Introduction"
+msgstr "Introduktion"
+
+msgctxt "#33253"
+msgid "Credits"
+msgstr "Rulletekster"
+
+msgctxt "#33254"
+msgid "Recap"
+msgstr "Resumé"
+
+msgctxt "#33255"
+msgid "Preview"
+msgstr "Smagsprøve"
+
+msgctxt "#33256"
+msgid "Skip"
+msgstr "Spring over"
+
+msgctxt "#33257"
+msgid "Skip intro?"
+msgstr "Spring intro over?"
+
+msgctxt "#33258"
+msgid "Skip credits?"
+msgstr "Spring rulletekster over?"
+
+msgctxt "#33259"
+msgid "Commercial"
+msgstr "Reklame"
+
+msgctxt "#33260"
+msgid "Press SELECT to skip"
+msgstr "Tryk VÆLG for at springe over"
+
+msgctxt "#33261"
+msgid "Off"
+msgstr "Fra"

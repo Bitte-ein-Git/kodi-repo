@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-02-01 17:36+0000\n"
-"Last-Translator: KecskeTech <teonyitas@gmail.com>\n"
+"PO-Revision-Date: 2026-04-14 11:38+0000\n"
+"Last-Translator: Szilki077 <szilkimappa@gmail.com>\n"
 "Language-Team: Hungarian <https://translate.jellyfin.org/projects/jellyfin/"
 "jellyfin-kodi/hu/>\n"
 "Language: hu_hu\n"
@@ -240,7 +240,7 @@ msgstr "Törlöd az összes gyorsítótárazott grafikát?"
 
 msgctxt "#33074"
 msgid "Are you sure you want to reset your local Kodi database?"
-msgstr "Biztosan visszaállítod a helyi Kodi adatbázist?"
+msgstr "Biztos vagy benne, hogy visszaállítod a helyi Kodi adatbázist?"
 
 msgctxt "#33064"
 msgid "Remove user from the session"
@@ -331,11 +331,11 @@ msgstr "Törlöd a fájlt a Jellyfinből?"
 
 msgctxt "#33014"
 msgid "Choose the subtitles stream"
-msgstr "Válaszd ki a feliratsávot"
+msgstr "Válassz feliratsávot"
 
 msgctxt "#33013"
 msgid "Choose the audio stream"
-msgstr "Válaszd ki az audiostreamet"
+msgstr "Válassz hang sávot"
 
 msgctxt "#33009"
 msgid "Invalid username or password"
@@ -1192,3 +1192,87 @@ msgstr "256"
 msgctxt "#33244"
 msgid "320"
 msgstr "320"
+
+msgctxt "#30618"
+msgid "Quick Connect"
+msgstr "Gyors csatlakozás"
+
+msgctxt "#30619"
+msgid "Enter this code in the Jellyfin app or web interface:"
+msgstr "Írja be ezt a kódot a Jellyfin alkalmazásba vagy a webes felületre:"
+
+msgctxt "#30620"
+msgid "Waiting for authorization..."
+msgstr "Várakozás az engedélyezésre..."
+
+msgctxt "#30621"
+msgid "Quick Connect is not available on this server"
+msgstr "A gyors csatlakozás nem elérhető ezen a szerveren"
+
+msgctxt "#30622"
+msgid "Quick Connect timed out. Please try again."
+msgstr "A Quick Connect időtúllépett. Kérjük, próbálja meg újra."
+
+msgctxt "#33246"
+msgid "Segment Skipping"
+msgstr "Szegmens kihagyása"
+
+msgctxt "#33247"
+msgid "Enable segment skipping"
+msgstr "Szegmens átugrásának engedélyezése"
+
+msgctxt "#33248"
+msgid "Skip mode"
+msgstr "Kihagyás mód"
+
+msgctxt "#33249"
+msgid "Auto skip"
+msgstr "Automatikus kihagyás"
+
+msgctxt "#33250"
+msgid "Show skip button"
+msgstr "Kihagyás gomb megjelenítése"
+
+msgctxt "#33251"
+msgid "Ask every time"
+msgstr "Kérdezd meg minden alkalommal"
+
+msgctxt "#33252"
+msgid "Introduction"
+msgstr "Bevezetés"
+
+msgctxt "#33253"
+msgid "Credits"
+msgstr "Kredit"
+
+msgctxt "#33254"
+msgid "Recap"
+msgstr "Újrafutóz"
+
+msgctxt "#33255"
+msgid "Preview"
+msgstr "Előnézet"
+
+msgctxt "#33256"
+msgid "Skip"
+msgstr "Kihagyás"
+
+msgctxt "#33257"
+msgid "Skip intro?"
+msgstr "Kihagyja a bevezetőt?"
+
+msgctxt "#33258"
+msgid "Skip credits?"
+msgstr "Kihagyja a krediteket?"
+
+msgctxt "#33259"
+msgid "Commercial"
+msgstr "Kereskedelmi"
+
+msgctxt "#33260"
+msgid "Press SELECT to skip"
+msgstr "Nyomja meg a KIVÁLASZTÁS gombot a kihagyáshoz"
+
+msgctxt "#33261"
+msgid "Off"
+msgstr "Ki"

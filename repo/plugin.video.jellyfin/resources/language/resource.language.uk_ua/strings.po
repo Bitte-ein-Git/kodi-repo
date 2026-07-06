@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-11-12 01:25+0000\n"
-"Last-Translator: pisa <jellyfin@catalyst.name>\n"
+"PO-Revision-Date: 2026-04-20 19:15+0000\n"
+"Last-Translator: kscop-n1 <karpenko.serhii@outlook.com>\n"
 "Language-Team: Ukrainian <https://translate.jellyfin.org/projects/jellyfin/"
 "jellyfin-kodi/uk/>\n"
 "Language: uk_ua\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.14\n"
+"X-Generator: Weblate 5.15.1\n"
 
 msgctxt "#30229"
 msgid "Random Items"
@@ -1180,3 +1180,87 @@ msgstr "40,0 Мбіт/с"
 msgctxt "#33236"
 msgid "100.0 Mbps"
 msgstr "100,0 Мбіт/с"
+
+msgctxt "#30618"
+msgid "Quick Connect"
+msgstr "Швидке підключення"
+
+msgctxt "#30619"
+msgid "Enter this code in the Jellyfin app or web interface:"
+msgstr "Введіть цей код у програму Jellyfin або веб-версії:"
+
+msgctxt "#30620"
+msgid "Waiting for authorization..."
+msgstr "Очікування авторизації..."
+
+msgctxt "#30621"
+msgid "Quick Connect is not available on this server"
+msgstr "Швидке підключення не доступно на цьому сервері"
+
+msgctxt "#30622"
+msgid "Quick Connect timed out. Please try again."
+msgstr "Час очікування швидкого підключення минув. Спробуйте ще раз."
+
+msgctxt "#33246"
+msgid "Segment Skipping"
+msgstr "Пропуск Сегментів"
+
+msgctxt "#33247"
+msgid "Enable segment skipping"
+msgstr "Включити пропуск сегментів"
+
+msgctxt "#33248"
+msgid "Skip mode"
+msgstr "Режим пропуску"
+
+msgctxt "#33249"
+msgid "Auto skip"
+msgstr "Авто пропуск"
+
+msgctxt "#33250"
+msgid "Show skip button"
+msgstr "Показати кнопку пропуску"
+
+msgctxt "#33251"
+msgid "Ask every time"
+msgstr "Питати щоразу"
+
+msgctxt "#33252"
+msgid "Introduction"
+msgstr "Вступна частина"
+
+msgctxt "#33253"
+msgid "Credits"
+msgstr "Титри"
+
+msgctxt "#33254"
+msgid "Recap"
+msgstr "Стислий переказ"
+
+msgctxt "#33255"
+msgid "Preview"
+msgstr "Попередній перегляд"
+
+msgctxt "#33256"
+msgid "Skip"
+msgstr "Пропуск"
+
+msgctxt "#33257"
+msgid "Skip intro?"
+msgstr "Пропустити вступ?"
+
+msgctxt "#33258"
+msgid "Skip credits?"
+msgstr "Пропустити титри?"
+
+msgctxt "#33259"
+msgid "Commercial"
+msgstr "Реклама"
+
+msgctxt "#33260"
+msgid "Press SELECT to skip"
+msgstr "Натисніть ВИБРАТИ, щоб пропустити"
+
+msgctxt "#33261"
+msgid "Off"
+msgstr "Виключити"
