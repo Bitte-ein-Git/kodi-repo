@@ -378,7 +378,7 @@ def GrabJSON(url, postData=None):
     def do(url, postData):
         GrabJSON.runs = True
         """ Wrapper to facilitate logging """
-        headers = {'accept': 'application/json'}
+        headers = {'accept': 'application/json', "X-Requested-With": "XMLHttpRequest"}
         if re.match(r'/(?:gp/video/)?search(?:Default)?/', url):
             up = urlparse(url)
             qs = parse_qs(up.query)
@@ -400,7 +400,7 @@ def GrabJSON(url, postData=None):
             if _s.json_dump_raw:
                 Prune(o)
         else:
-            m = json.loads(r)
+            m = HTMLdoc(r) if '<!doctype html>' in r else json.loads(r)
             if ('widgets' in m) and ('Storefront' in m['widgets']):
                 m = m['widgets']['Storefront']
             elif 'body' in m or 'props' in m or 'init' in m:
@@ -444,6 +444,23 @@ def GrabJSON(url, postData=None):
                 Prune(m)
             o = m
         return o if o else None
+
+    def HTMLdoc(r):
+        matches = BeautifulSoup(r, 'html.parser').find_all('script', {'type': re.compile('(?:text/template|application/json)')})
+        if not matches:
+            matches = Captcha(r)
+            if not matches:
+                Log('No JSON objects found in the page', Log.ERROR)
+                return None
+
+        # Create a single object containing all the data from the multiple JSON objects in the page
+        o = {}
+        for m in matches:
+            if not (m.id is None or 'hydration-data' in m.id):
+                continue
+            m = json.loads(Unescape(m.string.strip()))
+            Merge(o, m)
+        return o
 
     def Captcha(r):
         from .login import MFACheck

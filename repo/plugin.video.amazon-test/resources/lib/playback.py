@@ -143,7 +143,8 @@ def PlayVideo(name, asin, adultstr, streamtype, forcefb=0):
                         returl = re.sub(regex, r'\1', returl)
                     if 'amazon.pv-cdn.net' in returl:
                         returl = returl.replace( '/dm/', '/')
-                    returl = returl.replace('/ondemand/', '/').replace('/ww_dub/', '/').replace('/iad_2/', '/')
+                    returl = re.sub(r'(\/ww_[^\/]*)', '', returl)
+                    returl = returl.replace('/ondemand/', '/').replace('/iad_2/', '/')
                     if not getURL(returl, rjson=False, check=retmpd):
                         returl = urlset['url']
 
