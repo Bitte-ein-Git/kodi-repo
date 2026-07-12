@@ -6,6 +6,7 @@ from resources.lib.gui.gui import cGui
 settings.init()
 sourcesFolder = os.path.join(xbmcaddon.Addon("plugin.video.xstream").getAddonInfo("path"), "sites")
 sys.path.append(sourcesFolder)
+sys.path.append(xbmcaddon.Addon("plugin.video.xstream").getAddonInfo("path"))
 session = requests.session()
 dialog = xbmcgui.DialogProgress()
 urllib3.disable_warnings()

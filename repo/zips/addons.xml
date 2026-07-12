@@ -255,7 +255,7 @@ CI &amp; build changes
 - added: Timeshift-Funktion zu-/ab-schaltbar für TV-Live und EventStreams (settings: default=abgeschaltet)
 		</news>
 	</extension>
-</addon><addon id="plugin.video.vavooto" name="VAVOO.TO" version="fordy-2026.07.03" provider-name="kasi,michaz">
+</addon><addon id="plugin.video.vavooto" name="VAVOO.TO" version="fordy-2026.07.12" provider-name="kasi,michaz">
 	<requires>
 		<import addon="xbmc.python" version="3.0.1" />
 		<import addon="script.module.requests" />
@@ -725,7 +725,7 @@ CI &amp; build changes
             <icon>icon.png</icon>
         </assets>
 	</extension>
-</addon><addon id="script.module.xstreamscraper" name="[COLOR darkorange]» Autom. Quellen-Suche[/COLOR]" provider-name="Bitte-ein-Git!" version="fordy-2025.08.14">
+</addon><addon id="script.module.xstreamscraper" name="[COLOR darkorange]» Autom. Quellen-Suche[/COLOR]" provider-name="Bitte-ein-Git!" version="fordy-2026.07.08">
 	<requires>
 		<import addon="plugin.video.vavooto" />
         <import addon="script.module.requests" />
