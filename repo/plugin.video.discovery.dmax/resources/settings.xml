@@ -16,10 +16,7 @@
 					<default>false</default>
 					<control type="toggle"/>
 				</setting>
-			</group>
-			<group id="4"/>
-			<group id="5" label="30232">
-				<setting id="sorting_technique" type="integer" label="30112" help="">
+				<setting id="titles_layout" type="integer" label="30112" help="" parent="complete_titles">
 					<level>0</level>
 					<default>0</default>
 					<constraints>
@@ -28,14 +25,35 @@
 							<option label="30114">1</option>
 						</options>
 					</constraints>
+					<dependencies>
+						<dependency type="enable">
+							<condition operator="is" setting="complete_titles">true</condition>
+						</dependency>
+					</dependencies>
 					<control type="list" format="string">
 						<heading>30112</heading>
 					</control>
 				</setting>
 			</group>
+			<group id="4"/>
+			<group id="5" label="30232">
+				<setting id="sorting_technique" type="integer" label="30115" help="">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30116">0</option>
+							<option label="30117">1</option>
+						</options>
+					</constraints>
+					<control type="list" format="string">
+						<heading>30115</heading>
+					</control>
+				</setting>
+			</group>
 			<group id="6"/>
 			<group id="7" label="30233">
-				<setting id="use_fanart" type="boolean" label="30115" help="">
+				<setting id="use_fanart" type="boolean" label="30118" help="">
 					<level>0</level>
 					<default>true</default>
 					<control type="toggle"/>
@@ -44,7 +62,7 @@
 		</category>
 		<category id="fortgeschritten" label="30001" help="">
 			<group id="1" label="30234">
-				<setting id="show_settings" type="boolean" label="30116" help="">
+				<setting id="show_settings" type="boolean" label="30119" help="">
 					<level>0</level>
 					<default>true</default>
 					<control type="toggle"/>
@@ -52,7 +70,7 @@
 			</group>
 			<group id="2"/>
 			<group id="3" label="30235">
-				<setting id="enable_debug" type="boolean" label="30117" help="">
+				<setting id="enable_debug" type="boolean" label="30120" help="">
 					<level>0</level>
 					<default>false</default>
 					<control type="toggle"/>

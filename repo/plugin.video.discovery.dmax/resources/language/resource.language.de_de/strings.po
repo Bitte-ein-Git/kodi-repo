@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI-Addons\n"
 "Report-Msgid-Bugs-To: alanwww1@kodi.org\n"
 "POT-Creation-Date: 2020-06-26 17:00+0000\n"
-"PO-Revision-Date: 2026-07-04 16:00+0000\n"
+"PO-Revision-Date: 2026-07-11 18:00+0000\n"
 "Last-Translator: realvito\n"
 "Language-Team: GERMAN\n"
 "MIME-Version: 1.0\n"
@@ -39,30 +39,42 @@ msgid "Show Series title in Title (New Episodes)"
 msgstr "Serientitel im Titel anzeigen (Neue Episoden)"
 
 msgctxt "#30112"
+msgid "Title > Layout"
+msgstr "Titel > Anordnung"
+
+msgctxt "#30113"
+msgid "[B][COLOR yellow]Title ► Seriestitle[/COLOR][/B]"
+msgstr "[B][COLOR yellow]Titel ► Serientitel[/COLOR][/B]"
+
+msgctxt "#30114"
+msgid "[B][COLOR yellow]Seriestitle ► Title[/COLOR][/B]"
+msgstr "[B][COLOR yellow]Serientitel ► Titel[/COLOR][/B]"
+
+msgctxt "#30115"
 msgid "Sorting of Episodes"
 msgstr "Sortierung der Episoden"
 
-msgctxt "#30113"
+msgctxt "#30116"
 msgid "Highest Episodenumber display on top"
 msgstr "Höchste Episodennummer oben anzeigen"
 
-msgctxt "#30114"
+msgctxt "#30117"
 msgid "Other methods to choose from"
 msgstr "Weitere Methoden zur Auswahl"
 
-msgctxt "#30115"
+msgctxt "#30118"
 msgid "Use Thumb as Background-Fanart"
 msgstr "Thumb als Hintergrund-Fanart nutzen"
 
-msgctxt "#30116"
+msgctxt "#30119"
 msgid "Show Addon-Settings in the overview"
 msgstr "Addon-Einstellungen in der Übersicht anzeigen"
 
-msgctxt "#30117"
+msgctxt "#30120"
 msgid "Detailed Addon-Debug (otherwise only Minimal-Log)"
 msgstr "Addon-Debug mit Details (sonst nur Minimal-Log)"
 
-# empty strings from id 30118 to 30229
+# empty strings from id 30121 to 30229
 # SETTINGS-TITLES
 
 msgctxt "#30230"

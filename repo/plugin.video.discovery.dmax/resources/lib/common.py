@@ -10,6 +10,7 @@ import xbmcaddon
 import json
 import xbmcvfs
 import shutil
+import base64
 import time
 from datetime import datetime, timedelta
 from calendar import timegm as TGM
@@ -40,6 +41,7 @@ artpic									= os.path.join(addon_folder, 'resources', 'media', '')
 alppic									= os.path.join(addon_folder, 'resources', 'media', 'alphabet', '')
 clamps_player					= (True if addon.getSetting('force_stopping') == 'true' else False)
 complete_titles					= addon.getSetting('complete_titles') == 'true'
+titles_layout						= int(addon.getSetting('titles_layout'))
 courses								= int(addon.getSetting('sorting_technique'))
 using_fanart						= addon.getSetting('use_fanart') == 'true'
 enable_tune						= addon.getSetting('show_settings') == 'true'
@@ -51,6 +53,9 @@ DEFAULT_HEADERS			= {'Accept': 'application/json, text/plain, */*', 'Content-Typ
 	'Accept-Language': 'de-DE,de;q=0.9,en;q=0.8', 'sec-ch-ua-platform': 'Windows', 'Origin': BASE_URL[:-1], 'Referer': BASE_URL}
 STONE_HEADERS				= {**DEFAULT_HEADERS, **{'X-Device-Info': 'STONEJS/1 (Unknown/Unknown; Windows/NT 10.0; Unknown)', \
 	'X-disco-client': 'WEB:UNKNOWN:wbdatv:2.1.9', 'X-disco-params': 'realm=de'}}
+CLOUD_ARTS						= 'https://d2v9mhsiek5lbq.cloudfront.net/'
+CLOUD_TVIS						= f'{{"bucket":"loma-media-de","key":"{{code}}","edits":{{"resize":{{"fit":"cover","width":{{size}}}},"jpeg":{{"quality":85}}}}}}'
+CLOUD_EPIS						= f'{{"bucket":"aurora-content-images","key":"{{code}}","edits":{{"resize":{{"fit":"cover","width":{{size}}}},"jpeg":{{"quality":80}}}}}}'
 PUBIS_START						= 'https://public.aurora.enhanced.live'
 PUBIS_ENDES						= f"include=default,advancedSearch&filter[environment]=dmaxde&v=2" # 'dmaxde' = DMAX // 'hgtvde' = HGTV // 'tlcde' = TLC // 'tele5' = TELE5
 AURA_NORM						= f"{PUBIS_START}/site/page/sendungen/?{PUBIS_ENDES}"
@@ -183,16 +188,18 @@ def create_entries(metas, version='DEFAULT', persist=1):
 		if start_times and ends_times: note_1 = translation(30625).format(start_times, ends_times)
 		elif start_times and ends_times is None: note_1 = translation(30626).format(start_times)
 		thumb = (metas.get('poster', {}).get('src', None) or metas.get('meta', {}).get('thumbnailUrl', None))
+		if thumb: thumb = CLOUD_ARTS+base64.urlsafe_b64encode(CLOUD_EPIS.replace('{code}', thumb.split('nced.live/')[1]).replace('{size}', '1920').encode()).decode()
 		story = metas['description'] if metas.get('description', None) else ""
 		note_2 = cleaning(story) if len(story) > 20 else metas.get('ShowTeaser', '')
 		if metas.get('show', {}).get('taxonomies', ''):
-			species = ' / '.join(sorted([tax.get('title', '') for tax in metas['show']['taxonomies'] if tax.get('category') == 'genre'][:2]))
+			species = ' / '.join(sorted([tax.get('title', '').title() for tax in metas['show']['taxonomies'] if tax.get('category') == 'genre'][:2]))
 		pioneer, tables = translation(30627).format(season, episode, titling) if season and episode else titling, 'episode' if season and episode else 'movie'
 		suffix = translation(30629) if local_start and local_start > (datetime.now() - timedelta(days=7, hours=2)) else \
 			translation(30630) if local_ends and local_ends < (datetime.now() + timedelta(days=7, hours=2)) else ""
 		full_name = f"{pioneer}{suffix}" if version != 'NEWEST' else pioneer
 		if version == 'NEWEST' and complete_titles and show_name:
-			full_name = f"{pioneer} - {show_name}"
+			prefix = f"{pioneer.split('[/COLOR]')[0]}[/COLOR]" if '[/COLOR]' in pioneer else pioneer
+			full_name = f"{pioneer} - {show_name}" if titles_layout == 0 else f"{prefix}{show_name} - {titling}"
 		teaser = f"{show_name}[CR]{note_1}{note_2}" if show_name and note_1 != "" else f"{show_name}[CR][CR]{note_2}" if show_name and note_1 == "" else note_1+note_2
 		short_name = re.sub(r'\[.*?\]', '', full_name)
 		debug_MS("* * * * * * * * * * * * * * * * * * * * * * *")

@@ -1,4 +1,8 @@
 ﻿
+[B]Version 3.3.7+matrix  (12.07.2026)[/B]
+- fixed: Bilder für Serien werden nicht mehr angezeigt (Provider hat Bilder-Links base64 codiert)
+- added: In der Rubrik = 'Neue Sendungen (Episoden)' Anordnung des Titels + Serientitels selbst bestimmen (settings)
+
 [B]Version 3.3.6+matrix.1  (05.07.2026)[/B]
 - Endfassung des Addons nach API-Umstellung
 - fixed: In der Rubrik = 'Neue Sendungen (Serien)' werden nicht alle Serien mit neuen Episoden der letzten sieben Tage angezeigt

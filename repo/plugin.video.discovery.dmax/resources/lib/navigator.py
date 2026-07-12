@@ -75,7 +75,9 @@ def list_series(target, marker, phase, extra): # 'revise_Favorites'; 'revise_Ser
 					if convert_region(shows.get('publishStart')) > (datetime.now() - timedelta(days=7, hours=2)):
 						full_name = translation(30622).format(full_name)
 				thumb = (shows.get('show', {}).get('image', {}).get('url', None) or shows.get('ShowImage', None))
+				if thumb: thumb = CLOUD_ARTS+base64.urlsafe_b64encode(CLOUD_TVIS.replace('{code}', thumb.split('media-de/')[1]).replace('{size}', '1920').encode()).decode()
 				poster = (shows.get('show', {}).get('poster', {}).get('url', None) or shows.get('ShowPoster', None))
+				if poster: poster = CLOUD_ARTS+base64.urlsafe_b64encode(CLOUD_TVIS.replace('{code}', poster.split('media-de/')[1]).replace('{size}', '500').encode()).decode()
 				story = shows['show']['description'] if shows.get('show', {}).get('description', None) else ""
 				teaser, operation = cleaning(story) if len(story) > 20 else shows.get('ShowTeaser', ''), 'adding'
 				if marker != 'revise_Favorites' and preserve(FAVORIT_FILE) is not None:
