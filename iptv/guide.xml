@@ -5451,4 +5451,32 @@
     <desc lang="en">Rediffusioune vu Journal a Journal vum Tour.</desc>
     <title lang="en">Rediffusioune vu Journal a Journal vum Tour</title>
   </programme>
+  <programme start="20260720050000 +0000" stop="20260720060000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">Rediffusioune vu Journal.</desc>
+    <title lang="en">Rediffusioune vu Journal</title>
+  </programme>
+  <programme start="20260720060000 +0000" stop="20260720180000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">RTL Radio Web TV.</desc>
+    <title lang="en">RTL Radio Web TV</title>
+  </programme>
+  <programme start="20260720180000 +0000" stop="20260720182000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">De Journal.</desc>
+    <title lang="en">De Journal</title>
+  </programme>
+  <programme start="20260720182000 +0000" stop="20260720182700 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <desc lang="en">De Summer zu Lëtzebuerg! Vun Summeraktivitéiten, aussergewéinleche Platzen a Personnagen – och an de Summerméint bidde mer Reportagen iwwert d'Liewen zu Lëtzebuerg.</desc>
+    <title lang="en">De Summermagazin</title>
+  </programme>
+  <programme start="20260720182700 +0000" stop="20260720183000 +0000" channel="RTL.Zwee.lu"><category lang="en">Nachrichten</category>
+    <desc lang="en">Meteo.</desc>
+    <title lang="en">Meteo</title>
+  </programme>
+  <programme start="20260720183000 +0000" stop="20260721050000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">Rediffusioune vu Journal a Summermagazin.</desc>
+    <title lang="en">Rediffusioune vu Journal a Summermagazin</title>
+  </programme>
 </tv>
