@@ -4801,46 +4801,6 @@
   <channel id="RTLTeleLuxembourg.lu">
     <display-name>RTL Télé Lëtzebuerg</display-name>
   </channel>
-  <programme start="20260719050000 +0000" stop="20260719060000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Rediffusioune vu Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260719060000 +0000" stop="20260719100000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260719100000 +0000" stop="20260719110000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Tëleesmass vu Beetebuerg/Bettembourg</title>
-    <desc>Lauschtert d'Mass um Sonndeg am Livestream op RTL Zwee.</desc>
-  </programme>
-  <programme start="20260719110000 +0000" stop="20260719140000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260719140000 +0000" stop="20260719172500 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>RTL Sport: Tour de France 15.Etapp Champagnole / Plateau de Solaison</title>
-    <desc>15.Etapp Champagnole / Plateau de Solaisonbr /D'Etapp vum Dag live kommentéiert vun eise Vëlosexperten.</desc>
-  </programme>
-  <programme start="20260719172500 +0000" stop="20260719180000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260719180000 +0000" stop="20260719182000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260719182000 +0000" stop="20260719182700 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Journal vum Tour</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260719182700 +0000" stop="20260719183000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Meteo</title>
-    <desc>Nachrichten</desc>
-  </programme>
-  <programme start="20260719183000 +0000" stop="20260720050000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Rediffusioune vu Journal</title>
-    <desc>Info</desc>
-  </programme>
   <programme start="20260720050000 +0000" stop="20260720060000 +0000" channel="RTLTeleLuxembourg.lu">
     <title>Rediffusioune vu Journal</title>
     <desc>Info</desc>
@@ -4873,54 +4833,42 @@
     <title>RTL Radio Web TV</title>
     <desc>Info</desc>
   </programme>
+  <programme start="20260721140000 +0000" stop="20260721172000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>RTL Sport: Tour de France 16.Etapp Evian les Bains / Thonon les Bains (Individual TT)</title>
+    <desc>16.Etapp Evian les Bains / Thonon les Bains (Individual TT)br /D'Etapp vum Dag live kommentéiert vun eise Vëlosexperten.</desc>
+  </programme>
+  <programme start="20260721172000 +0000" stop="20260721180000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260721180000 +0000" stop="20260721182000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>De Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260721182000 +0000" stop="20260721182700 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>De Journal vum Tour</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260721182700 +0000" stop="20260721183000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Meteo</title>
+    <desc>Nachrichten</desc>
+  </programme>
+  <programme start="20260721183000 +0000" stop="20260722050000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Rediffusioune vu Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260722050000 +0000" stop="20260722060000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Rediffusioune vu Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260722060000 +0000" stop="20260722140000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
+  </programme>
   <channel id="RTL.Zwee.lu">
     <display-name>RTL Zwee</display-name>
     <icon src="https://iptv-epg.org/images/oHSmItP6WtPBct623O8G2WwY1UUKinaauYHEqQcVkJSEsQDupbBGhIXVqycpGDDKb6tbS71i4meL--qsxVwayBEazAz7nFhF2bF3ODnkZwi2DIDY"/>
   </channel>
-  <programme start="20260719050000 +0000" stop="20260719060000 +0000" channel="RTL.Zwee.lu">
-    <title>Rediffusioune vu Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260719060000 +0000" stop="20260719100000 +0000" channel="RTL.Zwee.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260719100000 +0000" stop="20260719104500 +0000" channel="RTL.Zwee.lu">
-    <title>Tëleesmass vu Beetebuerg/Bettembourg</title>
-    <desc>Lauschtert d'Mass um Sonndeg am Livestream op RTL Zwee.</desc>
-  </programme>
-  <programme start="20260719104500 +0000" stop="20260719120000 +0000" channel="RTL.Zwee.lu">
-    <title>RTL Sport: PORSCHE MOBIL 1 SUPERCUP</title>
-    <desc>Motorsport</desc>
-  </programme>
-  <programme start="20260719120000 +0000" stop="20260719131000 +0000" channel="RTL.Zwee.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260719131000 +0000" stop="20260719161500 +0000" channel="RTL.Zwee.lu">
-    <title>FORMULA 1 MOËT And CHANDON BELGIAN GRAND PRIX 2026 Course</title>
-    <desc>Hightech, Speed an ëmmer um Limitt. De ganze Weekend, vum Qualifying samsdes bis bei d'Course sonndes, d'Formel 1 ass elo live op RTL ZWEE.</desc>
-  </programme>
-  <programme start="20260719161500 +0000" stop="20260719180000 +0000" channel="RTL.Zwee.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260719180000 +0000" stop="20260719182000 +0000" channel="RTL.Zwee.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260719182000 +0000" stop="20260719182700 +0000" channel="RTL.Zwee.lu">
-    <title>De Journal vum Tour</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260719182700 +0000" stop="20260719183000 +0000" channel="RTL.Zwee.lu">
-    <title>Meteo</title>
-    <desc>Nachrichten</desc>
-  </programme>
-  <programme start="20260719183000 +0000" stop="20260720050000 +0000" channel="RTL.Zwee.lu">
-    <title>Rediffusioune vu Journal a Journal vum Tour</title>
-    <desc>Info</desc>
-  </programme>
   <programme start="20260720050000 +0000" stop="20260720060000 +0000" channel="RTL.Zwee.lu">
     <title>Rediffusioune vu Journal</title>
     <desc>Info</desc>
@@ -4953,34 +4901,29 @@
     <title>RTL Radio Web TV</title>
     <desc>Info</desc>
   </programme>
-  <programme start="20260721180000 +0000" stop="20260721182000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">De Journal.</desc>
-    <title lang="en">De Journal</title>
+  <programme start="20260721180000 +0000" stop="20260721182000 +0000" channel="RTL.Zwee.lu">
+    <title>De Journal</title>
+    <desc>Info</desc>
   </programme>
-  <programme start="20260721182000 +0000" stop="20260721182700 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">De Journal vum Tour.</desc>
-    <title lang="en">De Journal vum Tour</title>
+  <programme start="20260721182000 +0000" stop="20260721182700 +0000" channel="RTL.Zwee.lu">
+    <title>De Journal vum Tour</title>
+    <desc>Info</desc>
   </programme>
-  <programme start="20260721182700 +0000" stop="20260721183000 +0000" channel="RTL.Zwee.lu"><category lang="en">Nachrichten</category>
-    <desc lang="en">Meteo.</desc>
-    <title lang="en">Meteo</title>
+  <programme start="20260721182700 +0000" stop="20260721183000 +0000" channel="RTL.Zwee.lu">
+    <title>Meteo</title>
+    <desc>Nachrichten</desc>
   </programme>
-  <programme start="20260721183000 +0000" stop="20260722050000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">Rediffusioune vu Journal a Journal vum Tour.</desc>
-    <title lang="en">Rediffusioune vu Journal a Journal vum Tour</title>
+  <programme start="20260721183000 +0000" stop="20260722050000 +0000" channel="RTL.Zwee.lu">
+    <title>Rediffusioune vu Journal a Journal vum Tour</title>
+    <desc>Info</desc>
   </programme>
-  <programme start="20260722050000 +0000" stop="20260722060000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">Rediffusioune vu Journal.</desc>
-    <title lang="en">Rediffusioune vu Journal</title>
+  <programme start="20260722050000 +0000" stop="20260722060000 +0000" channel="RTL.Zwee.lu">
+    <title>Rediffusioune vu Journal</title>
+    <desc>Info</desc>
   </programme>
-  <programme start="20260722060000 +0000" stop="20260722180000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">RTL Radio Web TV.</desc>
-    <title lang="en">RTL Radio Web TV</title>
+  <programme start="20260722060000 +0000" stop="20260722180000 +0000" channel="RTL.Zwee.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
   </programme>
   <programme start="20260722180000 +0000" stop="20260722182000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
     <date>2026</date>
