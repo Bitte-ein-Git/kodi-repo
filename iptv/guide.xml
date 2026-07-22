@@ -5249,4 +5249,33 @@
     <desc lang="en">Rediffusioune vu Journal a Summermagazin.</desc>
     <title lang="en">Rediffusioune vu Journal a Summermagazin</title>
   </programme>
+  <programme start="20260728050000 +0000" stop="20260728060000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">Rediffusioune vu Journal.</desc>
+    <title lang="en">Rediffusioune vu Journal</title>
+  </programme>
+  <programme start="20260728060000 +0000" stop="20260728180000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">RTL Radio Web TV.</desc>
+    <title lang="en">RTL Radio Web TV</title>
+  </programme>
+  <programme start="20260728180000 +0000" stop="20260728182000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">De Journal.</desc>
+    <title lang="en">De Journal</title>
+  </programme>
+  <programme start="20260728182000 +0000" stop="20260728182700 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">RTL suergt am Summer fir eenzegaarteg Owender mat Live-Bands an aussergewéinleche Privatgäert am Land. E gefleegte Blummegaart, e schéine Weier, oder eng flott Grill-Plaz? Mir hunn am Virfeld via Opruff déi schéinste Gäert am Land gesicht. Vum 28. Juli bis den 31. Juli stelle mir eise Magazin-Studio a 4 ausgewielte Gäert op a sende vun do aus live.</desc>
+    <title lang="en">De Summermagazin: Rock am Gaart</title>
+  </programme>
+  <programme start="20260728182700 +0000" stop="20260728183000 +0000" channel="RTL.Zwee.lu"><category lang="en">Nachrichten</category>
+    <desc lang="en">Meteo.</desc>
+    <title lang="en">Meteo</title>
+  </programme>
+  <programme start="20260728183000 +0000" stop="20260729050000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">Rediffusioune vu Journal a Journal vum Tour.</desc>
+    <title lang="en">Rediffusioune vu Journal a Journal vum Tour</title>
+  </programme>
 </tv>
