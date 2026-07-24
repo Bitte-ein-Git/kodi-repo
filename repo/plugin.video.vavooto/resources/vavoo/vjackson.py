@@ -74,11 +74,12 @@ def a_z_tv(params):
 	end()
 
 def show(params):
-	data = cachedcall("list", params)
+	is_catalog_search = params["id"] in ("tmdb.movie", "tmdb.series")
+	data = catalog_search(params) if is_catalog_search else cachedcall("list", params)
 	content, next = "seasons", data["next"]
-	data = [i for i in data["data"] if i.get("description")]
-	cat = "Beliebte Serien" if "popular" in params["id"] else "Angesagte Serien"
-	if params["id"].startswith("movie"):
+	data = [i for i in data["data"] if is_catalog_search or i.get("description")]
+	cat = "Suchergebnisse" if is_catalog_search else ("Beliebte Serien" if "popular" in params["id"] else "Angesagte Serien")
+	if params["id"].startswith("movie") or params["id"] == "tmdb.movie":
 		cat = cat.replace("Serien", "Filme")
 		content = "movies"
 	set_content(content)
@@ -93,8 +94,62 @@ def show(params):
 				isFolder = False if o.getProperty("IsPlayable") == "true" else True
 				if not isFolder: o.addContextMenuItems([("Manuelle Stream Auswahl", "RunPlugin(%s&manual=true)" % url_for(urlparams))])
 				add(urlparams, o, isFolder)
-	if next: addDir(">>> Weiter", {"action": "show", "id": next})
+	if next is not None:
+		if is_catalog_search:
+			addDir(">>> Weiter", {"action": "show", "id": params["id"], "search": params["search"], "cursor": next})
+		else:
+			addDir(">>> Weiter", {"action": "show", "id": next})
 	end()
+
+def catalog_search(params):
+	catalog_id = params["id"]
+	cursor = params.get("cursor")
+	if cursor in (None, "", "None"):
+		cursor = None
+	elif isinstance(cursor, str) and cursor.isdigit():
+		cursor = int(cursor)
+	_headers = {
+		"user-agent": "MediaHubMX/2",
+		"accept": "application/json",
+		"content-type": "application/json; charset=utf-8",
+		"accept-encoding": "gzip",
+		"mediahubmx-signature": getAuthSignature()
+	}
+	_data = {
+		"language": "de",
+		"region": "AT",
+		"catalogId": catalog_id,
+		"id": catalog_id,
+		"adult": False,
+		"search": params["search"],
+		"sort": "",
+		"filter": {},
+		"cursor": cursor,
+		"clientVersion": "3.1.0"
+	}
+	req = request_json("POST", "https://vavoo.to/mediahubmx-catalog.json", json=_data, headers=_headers, timeout=10, retries=1)
+	items = req.get("items", req.get("data", []))
+	media_type = "series" if catalog_id == "tmdb.series" else "movie"
+	result = []
+	for item in items:
+		item = dict(item)
+		ids = item.get("ids") or {}
+		item_type = item.get("type") or media_type
+		if item_type not in ("movie", "series"):
+			item_type = media_type
+		item_id = str(item.get("id") or ids.get("tmdb_id") or item.get("tmdbId") or item.get("tmdb_id") or "")
+		for prefix in ("tmdb.movie.", "tmdb.series.", "tmdb:movie:", "tmdb:series:"):
+			if item_id.startswith(prefix):
+				item_id = item_id[len(prefix):]
+				break
+		if item_id.isdigit():
+			item_id = "%s.%s" % (item_type, item_id)
+		if not item_id.startswith(("movie.", "series.")):
+			continue
+		item["id"] = item_id
+		item["name"] = item.get("name", item.get("title", ""))
+		result.append(item)
+	return {"data": result, "next": req.get("nextCursor")}
 
 
 def search(params):
@@ -107,17 +162,23 @@ def search(params):
 		kb = xbmc.Keyboard(a, heading, False)
 		kb.doModal()
 		if (kb.isConfirmed()):
-			query = kb.getText().replace(".", "%2E")
-			para = "%s.search=%s" % (params["id"], query)
+			query = kb.getText().strip()
+			if not query:
+				return
+			para = {"id": "tmdb.series" if type == "SERIEN" else "tmdb.movie", "search": query}
 			history[query] = para
 			set_cache("seriesearch" if type == "SERIEN" else "moviesearch", history, False)
-			show({"id" : para})
+			show(para)
 		else: return
 	else:
 		addDir2("Neue Suche", "DefaultAddonsSearch", "search", id=params["id"], newsearch=True)
 		for a in history:
 			cm = [("Suchverlauf löschen", "RunPlugin(%s?action=delete_search&id=%s)" % (sys.argv[0], params["id"])), ("Suche löschen", "RunPlugin(%s?action=delete_search&id=%s&single=%s)" % (sys.argv[0], params["id"], a))]
-			addDir2(a, "DefaultAddonsSearch", "show", context=cm, id=history[a])
+			search_params = history[a]
+			if isinstance(search_params, dict):
+				addDir2(a, "DefaultAddonsSearch", "show", context=cm, **search_params)
+			else:
+				addDir2(a, "DefaultAddonsSearch", "show", context=cm, id=search_params)
 		end()
 
 def genres(params):
