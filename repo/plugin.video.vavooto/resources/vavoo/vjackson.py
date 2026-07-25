@@ -75,10 +75,10 @@ def a_z_tv(params):
 
 def show(params):
 	is_catalog_search = params["id"] in ("tmdb.movie", "tmdb.series")
-	data = catalog_search(params) if is_catalog_search else cachedcall("list", params)
+	data = catalog_list(params)
 	content, next = "seasons", data["next"]
-	data = [i for i in data["data"] if is_catalog_search or i.get("description")]
-	cat = "Suchergebnisse" if is_catalog_search else ("Beliebte Serien" if "popular" in params["id"] else "Angesagte Serien")
+	data = data["data"]
+	cat = params.get("genre") or ("Suchergebnisse" if is_catalog_search else ("Beliebte Serien" if "popular" in params["id"] else "Angesagte Serien"))
 	if params["id"].startswith("movie") or params["id"] == "tmdb.movie":
 		cat = cat.replace("Serien", "Filme")
 		content = "movies"
@@ -95,14 +95,23 @@ def show(params):
 				if not isFolder: o.addContextMenuItems([("Manuelle Stream Auswahl", "RunPlugin(%s&manual=true)" % url_for(urlparams))])
 				add(urlparams, o, isFolder)
 	if next is not None:
-		if is_catalog_search:
-			addDir(">>> Weiter", {"action": "show", "id": params["id"], "search": params["search"], "cursor": next})
-		else:
-			addDir(">>> Weiter", {"action": "show", "id": next})
+		next_params = dict(params)
+		next_params.update({"action": "show", "cursor": next})
+		addDir(">>> Weiter", next_params)
 	end()
 
-def catalog_search(params):
+def catalog_list(params):
 	catalog_id = params["id"]
+	request_id = catalog_id
+	sort = ""
+	filters = {}
+	if catalog_id not in ("tmdb.movie", "tmdb.series"):
+		media_type = "series" if catalog_id.startswith("series") else "movie"
+		catalog_id = "tmdb.%s" % media_type
+		request_id = params["id"].replace(".", "/", 1)
+		sort = "trendingDay" if "trending" in params["id"] else "popularity"
+	if params.get("genre"):
+		filters["genre"] = [params["genre"]]
 	cursor = params.get("cursor")
 	if cursor in (None, "", "None"):
 		cursor = None
@@ -119,11 +128,11 @@ def catalog_search(params):
 		"language": "de",
 		"region": "AT",
 		"catalogId": catalog_id,
-		"id": catalog_id,
+		"id": request_id,
 		"adult": False,
-		"search": params["search"],
-		"sort": "",
-		"filter": {},
+		"search": params.get("search", ""),
+		"sort": sort,
+		"filter": filters,
 		"cursor": cursor,
 		"clientVersion": "3.1.0"
 	}
@@ -194,7 +203,7 @@ def genres(params):
 		{"genre": "Mystery", "icon":"Mystery"}, {"genre": "Liebesfilm", "icon":"Romance"}, {"genre": "Science Fiction", "icon":"Sci-Fi"}, {"genre": "TV-Film", "icon":"Mini-Series"},
 		{"genre": "Thriller", "icon":"Thriller"}, {"genre": "Kriegsfilm", "icon":"War"}, {"genre": "Western", "icon":"Western"}]
 	genrelist= serie_genrelist if params["id"].startswith("serie") else movie_genrelist
-	for genre in genrelist: addDir2(genre["genre"], genre["icon"], "show", id="%s.genre=%s" % (params["id"], genre["genre"]))
+	for genre in genrelist: addDir2(genre["genre"], genre["icon"], "show", id=params["id"], genre=genre["genre"])
 	end()
 
 def seasons(params):
@@ -338,14 +347,6 @@ def get(params):
 				from vavoo.player import cPlayer
 				player().play(streamurl, o)
 				return cPlayer().startPlayer()
-
-def cachedcall(action, params, timeout=24):
-	cacheOk, content = get_cache(params)
-	if cacheOk: return content
-	else:
-		content = callApi2(action, params)
-		set_cache(params, content, timeout=timeout)
-		return content
 
 def callApi(action, params, method="GET", headers=None, **kwargs):
 	log(params, header="Action:%s params:" % action)
