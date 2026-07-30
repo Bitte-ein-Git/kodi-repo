@@ -5125,30 +5125,6 @@
   <channel id="RTLTeleLuxembourg.lu">
     <display-name>RTL Télé Lëtzebuerg</display-name>
   </channel>
-  <programme start="20260729050000 +0000" stop="20260729060000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Rediffusioune vu Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260729060000 +0000" stop="20260729180000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260729180000 +0000" stop="20260729182000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260729182000 +0000" stop="20260729182700 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Summermagazin: Rock am Gaart</title>
-    <desc>RTL suergt am Summer fir eenzegaarteg Owender mat Live-Bands an aussergewéinleche Privatgäert am Land. E gefleegte Blummegaart, e schéine Weier, oder eng flott Grill-Plaz? Mir hunn am Virfeld via Opruff déi schéinste Gäert am Land gesicht. Vum 28. Juli bis den 31. Juli stelle mir eise Magazin-Studio a 4 ausgewielte Gäert op a sende vun do aus live.</desc>
-  </programme>
-  <programme start="20260729182700 +0000" stop="20260729183000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Meteo</title>
-    <desc>Nachrichten</desc>
-  </programme>
-  <programme start="20260729183000 +0000" stop="20260730050000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Rediffusioune vu Journal</title>
-    <desc>Info</desc>
-  </programme>
   <programme start="20260730050000 +0000" stop="20260730060000 +0000" channel="RTLTeleLuxembourg.lu">
     <title>Rediffusioune vu Journal</title>
     <desc>Info</desc>
@@ -5181,34 +5157,34 @@
     <title>RTL Radio Web TV</title>
     <desc>Info</desc>
   </programme>
+  <programme start="20260731180000 +0000" stop="20260731182000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>De Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260731182000 +0000" stop="20260731182700 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>De Summermagazin: Rock am Gaart</title>
+    <desc>RTL suergt am Summer fir eenzegaarteg Owender mat Live-Bands an aussergewéinleche Privatgäert am Land. E gefleegte Blummegaart, e schéine Weier, oder eng flott Grill-Plaz? Mir hunn am Virfeld via Opruff déi schéinste Gäert am Land gesicht. Vum 28. Juli bis den 31. Juli stelle mir eise Magazin-Studio a 4 ausgewielte Gäert op a sende vun do aus live.</desc>
+  </programme>
+  <programme start="20260731182700 +0000" stop="20260731183000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Meteo</title>
+    <desc>Nachrichten</desc>
+  </programme>
+  <programme start="20260731183000 +0000" stop="20260801050000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Rediffusioune vu Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260801050000 +0000" stop="20260801060000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Rediffusioune vu Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260801060000 +0000" stop="20260801180000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
+  </programme>
   <channel id="RTL.Zwee.lu">
     <display-name>RTL Zwee</display-name>
     <icon src="https://iptv-epg.org/images/oHSmItP6WtPBct623O8G2WwY1UUKinaauYHEqQcVkJSEsQDupbBGhIXVqycpGDDKb6tbS71i4meL--qsxVwayBEazAz7nFhF2bF3ODnkZwi2DIDY"/>
   </channel>
-  <programme start="20260729050000 +0000" stop="20260729060000 +0000" channel="RTL.Zwee.lu">
-    <title>Rediffusioune vu Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260729060000 +0000" stop="20260729180000 +0000" channel="RTL.Zwee.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260729180000 +0000" stop="20260729182000 +0000" channel="RTL.Zwee.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260729182000 +0000" stop="20260729182700 +0000" channel="RTL.Zwee.lu">
-    <title>De Summermagazin: Rock am Gaart</title>
-    <desc>RTL suergt am Summer fir eenzegaarteg Owender mat Live-Bands an aussergewéinleche Privatgäert am Land. E gefleegte Blummegaart, e schéine Weier, oder eng flott Grill-Plaz? Mir hunn am Virfeld via Opruff déi schéinste Gäert am Land gesicht. Vum 28. Juli bis den 31. Juli stelle mir eise Magazin-Studio a 4 ausgewielte Gäert op a sende vun do aus live.</desc>
-  </programme>
-  <programme start="20260729182700 +0000" stop="20260729183000 +0000" channel="RTL.Zwee.lu">
-    <title>Meteo</title>
-    <desc>Nachrichten</desc>
-  </programme>
-  <programme start="20260729183000 +0000" stop="20260730050000 +0000" channel="RTL.Zwee.lu">
-    <title>Rediffusioune vu Journal a Journal vum Tour</title>
-    <desc>Info</desc>
-  </programme>
   <programme start="20260730050000 +0000" stop="20260730060000 +0000" channel="RTL.Zwee.lu">
     <title>Rediffusioune vu Journal</title>
     <desc>Info</desc>
@@ -5241,34 +5217,29 @@
     <title>RTL Radio Web TV</title>
     <desc>Info</desc>
   </programme>
-  <programme start="20260731180000 +0000" stop="20260731182000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">De Journal.</desc>
-    <title lang="en">De Journal</title>
+  <programme start="20260731180000 +0000" stop="20260731182000 +0000" channel="RTL.Zwee.lu">
+    <title>De Journal</title>
+    <desc>Info</desc>
   </programme>
-  <programme start="20260731182000 +0000" stop="20260731182700 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">RTL suergt am Summer fir eenzegaarteg Owender mat Live-Bands an aussergewéinleche Privatgäert am Land. E gefleegte Blummegaart, e schéine Weier, oder eng flott Grill-Plaz? Mir hunn am Virfeld via Opruff déi schéinste Gäert am Land gesicht. Vum 28. Juli bis den 31. Juli stelle mir eise Magazin-Studio a 4 ausgewielte Gäert op a sende vun do aus live.</desc>
-    <title lang="en">De Summermagazin: Rock am Gaart</title>
+  <programme start="20260731182000 +0000" stop="20260731182700 +0000" channel="RTL.Zwee.lu">
+    <title>De Summermagazin: Rock am Gaart</title>
+    <desc>RTL suergt am Summer fir eenzegaarteg Owender mat Live-Bands an aussergewéinleche Privatgäert am Land. E gefleegte Blummegaart, e schéine Weier, oder eng flott Grill-Plaz? Mir hunn am Virfeld via Opruff déi schéinste Gäert am Land gesicht. Vum 28. Juli bis den 31. Juli stelle mir eise Magazin-Studio a 4 ausgewielte Gäert op a sende vun do aus live.</desc>
   </programme>
-  <programme start="20260731182700 +0000" stop="20260731182700 +0000" channel="RTL.Zwee.lu"><category lang="en">Nachrichten</category>
-    <desc lang="en">Meteo.</desc>
-    <title lang="en">Meteo</title>
+  <programme start="20260731182700 +0000" stop="20260731183000 +0000" channel="RTL.Zwee.lu">
+    <title>Meteo</title>
+    <desc>Nachrichten</desc>
   </programme>
-  <programme start="20260731183000 +0000" stop="20260801050000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">Rediffusioune vu Journal a Journal vum Tour.</desc>
-    <title lang="en">Rediffusioune vu Journal a Journal vum Tour</title>
+  <programme start="20260731183000 +0000" stop="20260801050000 +0000" channel="RTL.Zwee.lu">
+    <title>Rediffusioune vu Journal a Journal vum Tour</title>
+    <desc>Info</desc>
   </programme>
-  <programme start="20260801050000 +0000" stop="20260801060000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">Rediffusioune vu Journal.</desc>
-    <title lang="en">Rediffusioune vu Journal</title>
+  <programme start="20260801050000 +0000" stop="20260801060000 +0000" channel="RTL.Zwee.lu">
+    <title>Rediffusioune vu Journal</title>
+    <desc>Info</desc>
   </programme>
-  <programme start="20260801060000 +0000" stop="20260801180000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">RTL Radio Web TV.</desc>
-    <title lang="en">RTL Radio Web TV</title>
+  <programme start="20260801060000 +0000" stop="20260801180000 +0000" channel="RTL.Zwee.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
   </programme>
   <programme start="20260801180000 +0000" stop="20260801182000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
     <date>2026</date>
