@@ -5384,4 +5384,32 @@
     <desc lang="en">Rediffusioun vu Journal a Magazin.</desc>
     <title lang="en">Rediffusioun vu Journal a Magazin</title>
   </programme>
+  <programme start="20260805050000 +0000" stop="20260805060000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">Rediffusioune vu Journal.</desc>
+    <title lang="en">Rediffusioune vu Journal</title>
+  </programme>
+  <programme start="20260805060000 +0000" stop="20260805180000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">RTL Radio Web TV.</desc>
+    <title lang="en">RTL Radio Web TV</title>
+  </programme>
+  <programme start="20260805180000 +0000" stop="20260805182000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">De Journal.</desc>
+    <title lang="en">De Journal</title>
+  </programme>
+  <programme start="20260805182000 +0000" stop="20260805182700 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <desc lang="en">DerWäert – D'Geschicht hannert Ärem Schatz.</desc>
+    <title lang="en">DerWäert – D'Geschicht hannert Ärem Schatz</title>
+  </programme>
+  <programme start="20260805182700 +0000" stop="20260805183000 +0000" channel="RTL.Zwee.lu"><category lang="en">Nachrichten</category>
+    <desc lang="en">Meteo.</desc>
+    <title lang="en">Meteo</title>
+  </programme>
+  <programme start="20260805183000 +0000" stop="20260806050000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">Rediffusioun vu Journal a Magazin.</desc>
+    <title lang="en">Rediffusioun vu Journal a Magazin</title>
+  </programme>
 </tv>
