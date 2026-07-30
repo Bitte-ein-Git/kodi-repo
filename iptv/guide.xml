@@ -3083,439 +3083,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20260729034154 +0000" stop="20260729041416 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Drop In Tour</title>
-<sub-title lang="en">Join the Red Bull Skate team on tour</sub-title>
-<desc lang="en">Join the Red Bull Skate team during a whirlwind two weeks on the road as they visit Barcelona, Prague, Cologne, Marseille and Amsterdam, hitting the streets in between demos.</desc>
-<category lang="en">Skateboarding</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:94a86d40-5c7d-4f01-95b7-838b6c5fb48e/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/red-bull-drop-in-euro-tour-2022</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:c3bc7b7e-8127-4a7a-a708-c879165fb359</episode-num>
-<episode-num system="xmltv_ns">0.0.0</episode-num>
-<episode-num system="original-air-date">2026-07-14 00:26:04</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:94a86d40-5c7d-4f01-95b7-838b6c5fb48e</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260729041416 +0000" stop="20260729043146 +0000" channel="Red Bull TV.en"><title lang="en">Skate Tales</title>
-<sub-title lang="en">Sergio Yuppie</sub-title>
-<desc lang="en">Madars Apse travels to Brazil to learn from downhill skateboarding legend Sergio Yuppie. Visit Yuppie's factory to see a skateboard get made before it even hits the streets.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/skate-tales-s1-e2</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:a3d231f9-4577-40f0-80ee-bc452d690683</episode-num>
-<episode-num system="xmltv_ns">0.1.0</episode-num>
-<episode-num system="original-air-date">2023-10-23 05:23:37</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260729043146 +0000" stop="20260729045442 +0000" channel="Red Bull TV.en"><title lang="en">Skate Tales</title>
-<sub-title lang="en">Skate Tales: Detroit</sub-title>
-<desc lang="en">Even the huge physical and emotional blow of total sight loss didn't stop Dan Mancina from getting back on his skateboard. This is how he amazingly relearned to do what he loves.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/skate-tales-s1-e3</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:90907d4d-3ad7-41fd-afb1-79c34c0d87df</episode-num>
-<episode-num system="xmltv_ns">0.2.0</episode-num>
-<episode-num system="original-air-date">2023-10-15 01:50:43</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260729045442 +0000" stop="20260729051538 +0000" channel="Red Bull TV.en"><title lang="en">Skate Tales</title>
-<sub-title lang="en">Skate Ethiopia</sub-title>
-<desc lang="en">When a 60-man crew of international volunteers built a skatepark in Addis Ababa, Ethiopia in 2016, it kick-started a mushrooming cultural revolution in the birthplace of Rastafarianism.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/skate-tales-s1-e4</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:0c48c14a-a5da-4bd5-92cc-82dcb4e39901</episode-num>
-<episode-num system="xmltv_ns">0.3.0</episode-num>
-<episode-num system="original-air-date">2024-09-16 05:38:30</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2024</date></programme>
-  <programme start="20260729051538 +0000" stop="20260729053615 +0000" channel="Red Bull TV.en"><title lang="en">Skate Tales</title>
-<sub-title lang="en">Osaka Daggers</sub-title>
-<desc lang="en">Madars Apse travels to Osaka, Japan, to meet the Osaka Daggers skate crew. This crew built the underground skate scene in Japan and when you see them skate you'll see the passion they bring.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/skate-tales-s1-e6</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:7d99d165-35be-47c8-b186-5629d2feb510</episode-num>
-<episode-num system="xmltv_ns">0.5.0</episode-num>
-<episode-num system="original-air-date">2023-10-23 05:02:26</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260729053615 +0000" stop="20260729060000 +0000" channel="Red Bull TV.en"><title lang="en">Skate Tales</title>
-<sub-title lang="en">Wes Kremer in San Diego</sub-title>
-<desc lang="en">As the 2014 Thrasher Magazine Skater of the Year, Wes Kremer is one of the best ever to do it, but avoids social media. Madars Apse’s Skate Tales tracks him down to find out his reasons.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/skate-tales-s3-e1</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:88184b8e-44b5-4eb7-8c38-32dc42b869a9</episode-num>
-<episode-num system="xmltv_ns">2.0.0</episode-num>
-<episode-num system="original-air-date">2023-07-03 12:06:33</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260729060000 +0000" stop="20260729062013 +0000" channel="Red Bull TV.en"><title lang="en">Skate Tales</title>
-<sub-title lang="en">Vitória Mendonça</sub-title>
-<desc lang="en">Madars Apse meets Brazilian female skateboarding trailblazer Vitória Mendonça, who came from humble roots to become a skateboarder, model and youth icon.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/skate-tales-s3-e3</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:6ea4c116-f8ac-42bd-857b-634815fe11d9</episode-num>
-<episode-num system="xmltv_ns">2.2.0</episode-num>
-<episode-num system="original-air-date">2023-07-09 14:50:47</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260729062013 +0000" stop="20260729064121 +0000" channel="Red Bull TV.en"><title lang="en">Skate Tales</title>
-<sub-title lang="en">Richie Jackson</sub-title>
-<desc lang="en">Richie Jackson has thrown skateboarding's unwritten rulebook in the bin. His wild imagination and inventive approach broke the internet and split skating opinion in two.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/skate-tales-s3-e5</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:9d521898-414f-44c8-8059-9bd2e1095750</episode-num>
-<episode-num system="xmltv_ns">2.4.0</episode-num>
-<episode-num system="original-air-date">2023-07-16 08:20:08</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260729064121 +0000" stop="20260729073502 +0000" channel="Red Bull TV.en"><title lang="en">Castles in the Sky</title>
-<sub-title lang="en">A completely new approach to surf filmmaking</sub-title>
-<desc lang="en">Filmed in five countries over three years, Castles in the Sky delves into the heart of the locations while the surfers travel through them with a sense of open-minded awe.</desc>
-<category lang="en">Surfing</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:2cc8eb16-a62d-435b-a92d-c238340e59dd/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:films:2cc8eb16-a62d-435b-a92d-c238340e59dd/castles-in-the-sky</url>
-<episode-num system="redbull.com">episode/rrn:content:films:2cc8eb16-a62d-435b-a92d-c238340e59dd</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260729073502 +0000" stop="20260729082034 +0000" channel="Red Bull TV.en"><title lang="en">Creepy Fingers</title>
-<sub-title lang="en">Witness surfer antics in a journey of playful exploration</sub-title>
-<desc lang="en">What are Creepy Fingers? Witness the antics of surfers like Ozzie Wright, Dean Morrison and others in a cinematic journey exploring beauty, silliness and human existence.</desc>
-<category lang="en">Surfing</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:d6cc0087-70ce-4c27-9663-ce8a87da76bf/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:films:d6cc0087-70ce-4c27-9663-ce8a87da76bf/creepy-fingers</url>
-<episode-num system="redbull.com">episode/rrn:content:films:d6cc0087-70ce-4c27-9663-ce8a87da76bf</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260729082034 +0000" stop="20260729091524 +0000" channel="Red Bull TV.en"><title lang="en">Distance Between Dreams</title>
-<sub-title lang="en">Redefining big wave surfing</sub-title>
-<desc lang="en">A crew of top surfers, headed by Ian Walsh, paddle in on one of the world’s biggest waves: Jaws. Already formidable, the Hawaiian break's been sent to new heights by weather phenomenon El Niño.</desc>
-<category lang="en">Surfing</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:7bd31a91-86e1-5a1c-8cfd-48efd4e2b7d0/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:films:7bd31a91-86e1-5a1c-8cfd-48efd4e2b7d0/distance-between-dreams</url>
-<episode-num system="redbull.com">episode/rrn:content:films:7bd31a91-86e1-5a1c-8cfd-48efd4e2b7d0</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260729091524 +0000" stop="20260729095924 +0000" channel="Red Bull TV.en"><title lang="en">Inside Pro Surfing</title>
-<sub-title lang="en">WSL MEO Rip Curl Pro Portugal</sub-title>
-<desc lang="en">As the dust settles on the MEO Rip Curl Pro Portugal, come backstage for a closer study of Peniche’s biggest storylines, from the lineup and on dry land.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:1fd62542-4bd8-4abf-984f-080c5e5d7fdc/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/inside-pro-surfing-2025-e3</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:79a52422-56db-41ec-bfd1-c30e1a2a76a4</episode-num>
-<episode-num system="xmltv_ns">0.2.0</episode-num>
-<episode-num system="original-air-date">2025-05-01 22:25:42</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:1fd62542-4bd8-4abf-984f-080c5e5d7fdc</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2025</date></programme>
-  <programme start="20260729095924 +0000" stop="20260729103939 +0000" channel="Red Bull TV.en"><title lang="en">Momentum</title>
-<sub-title lang="en">A new surf era begins with Kelly Slater, Rob Machado and rising stars </sub-title>
-<desc lang="en">Featuring some of the first sections of New School surfers – Kelly Slater, Rob Machado, Shane Dorian, Benji Weatherley and Kalani Robb – Momentum marks the beginning of a new era in surfing. </desc>
-<category lang="en">Surfing</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:1c22f2b4-31c7-4d72-a055-ba872e249138/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:films:1c22f2b4-31c7-4d72-a055-ba872e249138/momentum</url>
-<episode-num system="redbull.com">episode/rrn:content:films:1c22f2b4-31c7-4d72-a055-ba872e249138</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260729103939 +0000" stop="20260729111559 +0000" channel="Red Bull TV.en"><title lang="en">Drive Thru Europe</title>
-<sub-title lang="en">Revealing Europe's historic wave spots</sub-title>
-<desc lang="en">Follow pro surfers Kelly Slater, Benji Weatherley, Pat O'Connell, Ry Craike and Rizal Tanjung on their adventures through some of Europe's most mystical and historic surf spots.</desc>
-<category lang="en">Surfing</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:37b07789-4fab-430a-bac9-d879ca71d85d/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:films:37b07789-4fab-430a-bac9-d879ca71d85d/drive-thru-europe</url>
-<episode-num system="redbull.com">episode/rrn:content:films:37b07789-4fab-430a-bac9-d879ca71d85d</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260729111559 +0000" stop="20260729120310 +0000" channel="Red Bull TV.en"><title lang="en">Good Times</title>
-<sub-title lang="en">See the surfers that rule the scene at their best</sub-title>
-<desc lang="en">The Momentum surfers don't have to worry about crushing the established hierarchy of surfing when they ARE the established hierarchy. See them shine as they dominate competition and freesurfing.</desc>
-<category lang="en">Free Surfing</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:8c399560-76b3-42b5-a613-561ccadd5efd/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:films:8c399560-76b3-42b5-a613-561ccadd5efd/good-times</url>
-<episode-num system="redbull.com">episode/rrn:content:films:8c399560-76b3-42b5-a613-561ccadd5efd</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260729120310 +0000" stop="20260729131045 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Signature Series</title>
-<sub-title lang="en">Kenda Tennessee Knockout</sub-title>
-<desc lang="en">It was blood, sweat and tears in the Great Smoky Mountains as America's top off-road motorcycle riders faced a brutal test of man and machine at the annual Tennessee Knockout Extreme Enduro.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:c08b99ca-2cf7-5b5b-8c70-8e28505a0e67/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/red-bull-signature-series-2020-season-e7</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:9f8ea186-cb83-4046-8ed8-8b151ebb4b46</episode-num>
-<episode-num system="xmltv_ns">2019.6.0</episode-num>
-<episode-num system="original-air-date">2023-04-22 20:57:22</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:c08b99ca-2cf7-5b5b-8c70-8e28505a0e67</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260729131045 +0000" stop="20260729141856 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Signature Series</title>
-<sub-title lang="en">Crandon World Cup</sub-title>
-<desc lang="en">More than 50,000 fans gather in Crandon, Wisconsin, to cheer for their favourite drivers as they race on the longest and the fastest short-course track for Crandon World Championship Off-Road Races.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:c08b99ca-2cf7-5b5b-8c70-8e28505a0e67/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/red-bull-signature-series-2020-season-e8</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:06285607-ff31-4239-b91c-1c4db2dd0a62</episode-num>
-<episode-num system="xmltv_ns">2019.7.0</episode-num>
-<episode-num system="original-air-date">2023-04-23 07:40:46</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:c08b99ca-2cf7-5b5b-8c70-8e28505a0e67</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260729141856 +0000" stop="20260729152642 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Signature Series</title>
-<sub-title lang="en">Volcom Pipe Pro</sub-title>
-<desc lang="en">The world's best surfers converge on the legendary Banzai Pipeline break in Oahu, Hawaii, for some of the best swells the contest has ever seen.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:c08b99ca-2cf7-5b5b-8c70-8e28505a0e67/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/red-bull-signature-series-2019-s19-e1-volcom-pipe-pro</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:e07cadf3-d3b0-40da-accf-c1d9ededf1dd</episode-num>
-<episode-num system="xmltv_ns">2018.0.0</episode-num>
-<episode-num system="original-air-date">2023-10-01 03:05:02</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:c08b99ca-2cf7-5b5b-8c70-8e28505a0e67</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260729152642 +0000" stop="20260729155318 +0000" channel="Red Bull TV.en"><title lang="en">For Reals</title>
-<sub-title lang="en">From a paper plane contest to diving off ruins </sub-title>
-<desc lang="en">Swamp buggy racing. Sprinting down from the peak of a mountain on a bike. High diving off ancient ruins. Getting the perfect surf shot. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e5</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:6a64ab5e-c10a-4065-9f16-0c91a4bc226d</episode-num>
-<episode-num system="xmltv_ns">0.4.0</episode-num>
-<episode-num system="original-air-date">2024-10-21 00:39:28</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2024</date></programme>
-  <programme start="20260729155318 +0000" stop="20260729161918 +0000" channel="Red Bull TV.en"><title lang="en">For Reals</title>
-<sub-title lang="en">From F1 desert racing to a skatepark in the sky </sub-title>
-<desc lang="en">Wakeskating off a Dubai skyscraper. F1 drivers racing on Floridan waters and in the Nevada desert. Riding a skatepark attached to a hot air balloon. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e1</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:cff46697-c2b7-46aa-a674-e152be37dbe4</episode-num>
-<episode-num system="xmltv_ns">0.0.0</episode-num>
-<episode-num system="original-air-date">2024-10-20 22:54:52</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2024</date></programme>
-  <programme start="20260729161918 +0000" stop="20260729164518 +0000" channel="Red Bull TV.en"><title lang="en">For Reals</title>
-<sub-title lang="en">From skydiving with skis to flying into a volcano</sub-title>
-<desc lang="en">Flying a plane 245kph through a tunnel. A wingsuit flight across the crater of an active volcano. A record-breaking truck jump in a ghost town. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:f2cb2ce7-09e1-4656-a37f-a10c80b56502/for-reals-s1-e4</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:f2cb2ce7-09e1-4656-a37f-a10c80b56502</episode-num>
-<episode-num system="xmltv_ns">0.3.0</episode-num>
-<episode-num system="original-air-date">2024-10-21 00:13:28</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2024</date></programme>
-  <programme start="20260729164518 +0000" stop="20260729171118 +0000" channel="Red Bull TV.en"><title lang="en">For Reals</title>
-<sub-title lang="en">From F1 soapbox racing to breaking world records</sub-title>
-<desc lang="en">Breaking world records – it's all in a day's work for Red Bull athletes! See Felix Baumgartner jump from space, 65 women skydive together and one BMXer conquer the globe's biggest full loop.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:90e91a7d-74bb-42b7-b9b3-078865d7b451/for-reals-s1-e2</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:90e91a7d-74bb-42b7-b9b3-078865d7b451</episode-num>
-<episode-num system="xmltv_ns">0.1.0</episode-num>
-<episode-num system="original-air-date">2024-10-20 23:20:52</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2024</date></programme>
-  <programme start="20260729171118 +0000" stop="20260729173754 +0000" channel="Red Bull TV.en"><title lang="en">For Reals</title>
-<sub-title lang="en">From a pinball human to 93kph speed skating</sub-title>
-<desc lang="en">Speed skating into the record books at 93kph. Office skateboarding. BASE jumping on Mount Everest. Diving into crocodile waters. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:8864b788-5908-493e-83ec-3421aa40df59/for-reals-s1-e3</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:8864b788-5908-493e-83ec-3421aa40df59</episode-num>
-<episode-num system="xmltv_ns">0.2.0</episode-num>
-<episode-num system="original-air-date">2024-10-20 23:46:52</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2024</date></programme>
-  <programme start="20260729173754 +0000" stop="20260729180354 +0000" channel="Red Bull TV.en"><title lang="en">For Reals</title>
-<sub-title lang="en">From skateboarding out a plane to 180m wall climb</sub-title>
-<desc lang="en">Touring a town in style on a snowmobile. Freerunning through an airport. Skateboarding out of a flying plane. Ice climbing Niagra Falls. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e6</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:da0954da-ca98-4cec-8425-06146469e566</episode-num>
-<episode-num system="xmltv_ns">0.5.0</episode-num>
-<episode-num system="original-air-date">2024-10-21 01:05:28</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2024</date></programme>
-  <programme start="20260729180354 +0000" stop="20260729182954 +0000" channel="Red Bull TV.en"><title lang="en">For Reals</title>
-<sub-title lang="en">From BASE jumping a cave to a flying mega swing </sub-title>
-<desc lang="en">Wingsuit flying through London’s Tower Bridge at 246kph. Swinging from a hot air balloon. Slacklining the length of two football fields. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e7</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:2664328f-b440-42e2-9241-b99235650fb9</episode-num>
-<episode-num system="xmltv_ns">0.6.0</episode-num>
-<episode-num system="original-air-date">2024-10-21 22:55:36</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2024</date></programme>
-  <programme start="20260729182954 +0000" stop="20260729185613 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Romaniacs 2025</title>
-<sub-title lang="en">Highlights from Red Bull Romaniacs</sub-title>
-<desc lang="en">The toughest Hard Enduro riders on Earth fought each other and the landscape for victory – over four days of gruelling racing in the mountains of Romania.</desc>
-<category lang="en">Hard Enduro</category>
-<icon src="https://resources.redbull.tv/rrn:content:videos:217e516b-7062-4288-8bcb-5b0cdc6a451e/rbtv_display_art_portrait"/>
-<url>https://www.redbull.com/int-en/videos/red-bull-romaniacs-2025-highlights</url>
-<episode-num system="redbull.com">episode/rrn:content:videos:217e516b-7062-4288-8bcb-5b0cdc6a451e</episode-num>
-<episode-num system="original-air-date">2026-06-01 21:03:44</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260729185613 +0000" stop="20260729193832 +0000" channel="Red Bull TV.en"><title lang="en">Unrideable</title>
-<sub-title lang="en">Changing perspectives</sub-title>
-<desc lang="en">Wade Young aims to prove his worth as a privateer in the 2024 Xross Hard Enduro Rally and Red Bull Romaniacs after being dropped by his old team for Teodor Kabakchiev.</desc>
-<category lang="en">Motocross</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:dded073d-0c56-4fd5-a5c8-21b2e024484c/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/unrideable-s1-e2</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:94cdee99-1374-4832-a565-3757ad9ad5e5</episode-num>
-<episode-num system="xmltv_ns">0.1.0</episode-num>
-<episode-num system="original-air-date">2025-12-20 02:48:19</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:dded073d-0c56-4fd5-a5c8-21b2e024484c</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2025</date></programme>
-  <programme start="20260729193832 +0000" stop="20260729201840 +0000" channel="Red Bull TV.en"><title lang="en">Unrideable</title>
-<sub-title lang="en">Sacrifices</sub-title>
-<desc lang="en">Billy Bolt returns, as Mario Román chases his title dream. The rivals battle in Türkiye, racing literally from sea to sky.</desc>
-<category lang="en">Motocross</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:dded073d-0c56-4fd5-a5c8-21b2e024484c/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/unrideable-s1-e4</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:6ed4b948-70dd-47fb-91a6-aa76fe5337b2</episode-num>
-<episode-num system="xmltv_ns">0.3.0</episode-num>
-<episode-num system="original-air-date">2025-12-20 04:14:27</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:dded073d-0c56-4fd5-a5c8-21b2e024484c</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2025</date></programme>
-  <programme start="20260729201840 +0000" stop="20260729205621 +0000" channel="Red Bull TV.en"><title lang="en">Unrideable</title>
-<sub-title lang="en">Through the pain</sub-title>
-<desc lang="en">Big drama kicks off at 24MX Hixpania Hard Enduro – the 2024 season finale. Can Manuel Lettenbichler win the World Championship again or will someone else rise to glory?</desc>
-<category lang="en">Motocross</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:dded073d-0c56-4fd5-a5c8-21b2e024484c/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/unrideable-s1-e5</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:c71ba784-140a-4a36-b6a9-021f2f0faf25</episode-num>
-<episode-num system="xmltv_ns">0.4.0</episode-num>
-<episode-num system="original-air-date">2025-12-20 04:55:11</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:dded073d-0c56-4fd5-a5c8-21b2e024484c</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2025</date></programme>
-  <programme start="20260729205621 +0000" stop="20260729211604 +0000" channel="Red Bull TV.en"><title lang="en">Reel Rock</title>
-<sub-title lang="en">Cenote</sub-title>
-<desc lang="en">A papaya farmer explores the magical cenotes of the Yucatán Peninsula and discovers sport climbing. His discovery causes him to make a life-changing decision to follow his new passion.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/reel-rock-s8-e4</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:ec98b60b-7b80-4633-aa04-aaadafba6139</episode-num>
-<episode-num system="xmltv_ns">7.3.0</episode-num>
-<episode-num system="original-air-date">2023-04-23 09:28:23</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260729211604 +0000" stop="20260729213449 +0000" channel="Red Bull TV.en"><title lang="en">Reel Rock</title>
-<sub-title lang="en">Cuddle part 1</sub-title>
-<desc lang="en">The tireless duo Tommy Caldwell and Alex Honnold face several setbacks when ascending 17 peaks in the Colorado mountains. Tommy’s childhood friend Adam Stack comes to the rescue in an epic adventure.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/reel-rock-s8-e5</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:d9885b15-fbb3-430e-9a34-8379fc455dd4</episode-num>
-<episode-num system="xmltv_ns">7.4.0</episode-num>
-<episode-num system="original-air-date">2023-05-01 14:37:48</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
-  <programme start="20260729213449 +0000" stop="20260729215945 +0000" channel="Red Bull TV.en"><title lang="en">Reel Rock</title>
-<sub-title lang="en">Flex</sub-title>
-<desc lang="en">Climbing couple Matty Hong and Margo Hayes take on Kryptonite and Flex Luthor – two of the most legendary climbs in Colorado, USA. Flex Luthor hasn't been climbed by anyone for almost 20 years.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:5b2a52ca-3fd5-47f2-ac50-24ec1ef3528c/reel-rock-s8-e9</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:5b2a52ca-3fd5-47f2-ac50-24ec1ef3528c</episode-num>
-<episode-num system="xmltv_ns">7.8.0</episode-num>
-<episode-num system="original-air-date">2024-05-26 10:03:18</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2024</date></programme>
-  <programme start="20260729215945 +0000" stop="20260729222947 +0000" channel="Red Bull TV.en"><title lang="en">Reel Rock</title>
-<sub-title lang="en">Bridge boys</sub-title>
-<desc lang="en">The pandemic forces a pair of obsessed crack climbers to find their next climbing adventure in the UK. An 800m bridge is selected and requires them to eat and sleep while hanging under a motorway.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.com/int-en/episodes/reel-rock-s8-e8</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:482cfa67-edf4-4134-88cd-48bf07a5b48c</episode-num>
-<episode-num system="xmltv_ns">7.7.0</episode-num>
-<episode-num system="original-air-date">2024-05-26 09:33:53</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2024</date></programme>
-  <programme start="20260729222947 +0000" stop="20260729224855 +0000" channel="Red Bull TV.en"><title lang="en">Reel Rock</title>
-<sub-title lang="en">This is Beth</sub-title>
-<desc lang="en">An intimate look beneath the success of legendary climber Beth Rodden, diving into her struggles and transformation.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:2454fb6b-ead1-4353-b6c6-8970b05f7d87/reel-rock-s8-e7</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:2454fb6b-ead1-4353-b6c6-8970b05f7d87</episode-num>
-<episode-num system="xmltv_ns">7.6.0</episode-num>
-<episode-num system="original-air-date">2023-08-06 10:12:29</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2023</date></programme>
   <programme start="20260729224855 +0000" stop="20260729230803 +0000" channel="Red Bull TV.en"><title lang="en">Reel Rock</title>
 <sub-title lang="en">Cuddle part 2</sub-title>
 <desc lang="en">Tommy Caldwell and Alex Honnold find themselves without food and essential gear in the mountains. Tommy’s childhood friend Adam Stack comes to the rescue and help them complete an epic adventure.</desc>
@@ -3744,6 +3311,467 @@
 <value>NR</value>
 </rating>
 <date>2025</date></programme>
+  <programme start="20260730060000 +0000" stop="20260730064359 +0000" channel="Red Bull TV.en"><title lang="en">Inside Pro Surfing</title>
+<sub-title lang="en">WSL MEO Rip Curl Pro Portugal</sub-title>
+<desc lang="en">As the dust settles on the MEO Rip Curl Pro Portugal, come backstage for a closer study of Peniche’s biggest storylines, from the lineup and on dry land.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:1fd62542-4bd8-4abf-984f-080c5e5d7fdc/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/inside-pro-surfing-2025-e3</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:79a52422-56db-41ec-bfd1-c30e1a2a76a4</episode-num>
+<episode-num system="xmltv_ns">0.2.0</episode-num>
+<episode-num system="original-air-date">2025-05-01 22:25:42</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:1fd62542-4bd8-4abf-984f-080c5e5d7fdc</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2025</date></programme>
+  <programme start="20260730064359 +0000" stop="20260730072415 +0000" channel="Red Bull TV.en"><title lang="en">Momentum</title>
+<sub-title lang="en">A new surf era begins with Kelly Slater, Rob Machado and rising stars </sub-title>
+<desc lang="en">Featuring some of the first sections of New School surfers – Kelly Slater, Rob Machado, Shane Dorian, Benji Weatherley and Kalani Robb – Momentum marks the beginning of a new era in surfing. </desc>
+<category lang="en">Surfing</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:1c22f2b4-31c7-4d72-a055-ba872e249138/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:films:1c22f2b4-31c7-4d72-a055-ba872e249138/momentum</url>
+<episode-num system="redbull.com">episode/rrn:content:films:1c22f2b4-31c7-4d72-a055-ba872e249138</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260730072415 +0000" stop="20260730080035 +0000" channel="Red Bull TV.en"><title lang="en">Drive Thru Europe</title>
+<sub-title lang="en">Revealing Europe's historic wave spots</sub-title>
+<desc lang="en">Follow pro surfers Kelly Slater, Benji Weatherley, Pat O'Connell, Ry Craike and Rizal Tanjung on their adventures through some of Europe's most mystical and historic surf spots.</desc>
+<category lang="en">Surfing</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:37b07789-4fab-430a-bac9-d879ca71d85d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:films:37b07789-4fab-430a-bac9-d879ca71d85d/drive-thru-europe</url>
+<episode-num system="redbull.com">episode/rrn:content:films:37b07789-4fab-430a-bac9-d879ca71d85d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260730080035 +0000" stop="20260730084746 +0000" channel="Red Bull TV.en"><title lang="en">Good Times</title>
+<sub-title lang="en">See the surfers that rule the scene at their best</sub-title>
+<desc lang="en">The Momentum surfers don't have to worry about crushing the established hierarchy of surfing when they ARE the established hierarchy. See them shine as they dominate competition and freesurfing.</desc>
+<category lang="en">Free Surfing</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:8c399560-76b3-42b5-a613-561ccadd5efd/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:films:8c399560-76b3-42b5-a613-561ccadd5efd/good-times</url>
+<episode-num system="redbull.com">episode/rrn:content:films:8c399560-76b3-42b5-a613-561ccadd5efd</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260730084746 +0000" stop="20260730095521 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Signature Series</title>
+<sub-title lang="en">Kenda Tennessee Knockout</sub-title>
+<desc lang="en">It was blood, sweat and tears in the Great Smoky Mountains as America's top off-road motorcycle riders faced a brutal test of man and machine at the annual Tennessee Knockout Extreme Enduro.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:c08b99ca-2cf7-5b5b-8c70-8e28505a0e67/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/red-bull-signature-series-2020-season-e7</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:9f8ea186-cb83-4046-8ed8-8b151ebb4b46</episode-num>
+<episode-num system="xmltv_ns">2019.6.0</episode-num>
+<episode-num system="original-air-date">2023-04-22 20:57:22</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:c08b99ca-2cf7-5b5b-8c70-8e28505a0e67</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260730095521 +0000" stop="20260730110332 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Signature Series</title>
+<sub-title lang="en">Crandon World Cup</sub-title>
+<desc lang="en">More than 50,000 fans gather in Crandon, Wisconsin, to cheer for their favourite drivers as they race on the longest and the fastest short-course track for Crandon World Championship Off-Road Races.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:c08b99ca-2cf7-5b5b-8c70-8e28505a0e67/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/red-bull-signature-series-2020-season-e8</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:06285607-ff31-4239-b91c-1c4db2dd0a62</episode-num>
+<episode-num system="xmltv_ns">2019.7.0</episode-num>
+<episode-num system="original-air-date">2023-04-23 07:40:46</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:c08b99ca-2cf7-5b5b-8c70-8e28505a0e67</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260730110332 +0000" stop="20260730121118 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Signature Series</title>
+<sub-title lang="en">Volcom Pipe Pro</sub-title>
+<desc lang="en">The world's best surfers converge on the legendary Banzai Pipeline break in Oahu, Hawaii, for some of the best swells the contest has ever seen.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:c08b99ca-2cf7-5b5b-8c70-8e28505a0e67/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/red-bull-signature-series-2019-s19-e1-volcom-pipe-pro</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:e07cadf3-d3b0-40da-accf-c1d9ededf1dd</episode-num>
+<episode-num system="xmltv_ns">2018.0.0</episode-num>
+<episode-num system="original-air-date">2023-10-01 03:05:02</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:c08b99ca-2cf7-5b5b-8c70-8e28505a0e67</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260730121118 +0000" stop="20260730123754 +0000" channel="Red Bull TV.en"><title lang="en">For Reals</title>
+<sub-title lang="en">From a paper plane contest to diving off ruins </sub-title>
+<desc lang="en">Swamp buggy racing. Sprinting down from the peak of a mountain on a bike. High diving off ancient ruins. Getting the perfect surf shot. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e5</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:6a64ab5e-c10a-4065-9f16-0c91a4bc226d</episode-num>
+<episode-num system="xmltv_ns">0.4.0</episode-num>
+<episode-num system="original-air-date">2024-10-21 00:39:28</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2024</date></programme>
+  <programme start="20260730123754 +0000" stop="20260730130354 +0000" channel="Red Bull TV.en"><title lang="en">For Reals</title>
+<sub-title lang="en">From F1 desert racing to a skatepark in the sky </sub-title>
+<desc lang="en">Wakeskating off a Dubai skyscraper. F1 drivers racing on Floridan waters and in the Nevada desert. Riding a skatepark attached to a hot air balloon. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e1</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:cff46697-c2b7-46aa-a674-e152be37dbe4</episode-num>
+<episode-num system="xmltv_ns">0.0.0</episode-num>
+<episode-num system="original-air-date">2024-10-20 22:54:52</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2024</date></programme>
+  <programme start="20260730130354 +0000" stop="20260730132954 +0000" channel="Red Bull TV.en"><title lang="en">For Reals</title>
+<sub-title lang="en">From skydiving with skis to flying into a volcano</sub-title>
+<desc lang="en">Flying a plane 245kph through a tunnel. A wingsuit flight across the crater of an active volcano. A record-breaking truck jump in a ghost town. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:f2cb2ce7-09e1-4656-a37f-a10c80b56502/for-reals-s1-e4</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:f2cb2ce7-09e1-4656-a37f-a10c80b56502</episode-num>
+<episode-num system="xmltv_ns">0.3.0</episode-num>
+<episode-num system="original-air-date">2024-10-21 00:13:28</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2024</date></programme>
+  <programme start="20260730132954 +0000" stop="20260730135554 +0000" channel="Red Bull TV.en"><title lang="en">For Reals</title>
+<sub-title lang="en">From F1 soapbox racing to breaking world records</sub-title>
+<desc lang="en">Breaking world records – it's all in a day's work for Red Bull athletes! See Felix Baumgartner jump from space, 65 women skydive together and one BMXer conquer the globe's biggest full loop.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:90e91a7d-74bb-42b7-b9b3-078865d7b451/for-reals-s1-e2</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:90e91a7d-74bb-42b7-b9b3-078865d7b451</episode-num>
+<episode-num system="xmltv_ns">0.1.0</episode-num>
+<episode-num system="original-air-date">2024-10-20 23:20:52</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2024</date></programme>
+  <programme start="20260730135554 +0000" stop="20260730142230 +0000" channel="Red Bull TV.en"><title lang="en">For Reals</title>
+<sub-title lang="en">From a pinball human to 93kph speed skating</sub-title>
+<desc lang="en">Speed skating into the record books at 93kph. Office skateboarding. BASE jumping on Mount Everest. Diving into crocodile waters. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:8864b788-5908-493e-83ec-3421aa40df59/for-reals-s1-e3</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:8864b788-5908-493e-83ec-3421aa40df59</episode-num>
+<episode-num system="xmltv_ns">0.2.0</episode-num>
+<episode-num system="original-air-date">2024-10-20 23:46:52</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2024</date></programme>
+  <programme start="20260730142230 +0000" stop="20260730144830 +0000" channel="Red Bull TV.en"><title lang="en">For Reals</title>
+<sub-title lang="en">From skateboarding out a plane to 180m wall climb</sub-title>
+<desc lang="en">Touring a town in style on a snowmobile. Freerunning through an airport. Skateboarding out of a flying plane. Ice climbing Niagra Falls. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e6</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:da0954da-ca98-4cec-8425-06146469e566</episode-num>
+<episode-num system="xmltv_ns">0.5.0</episode-num>
+<episode-num system="original-air-date">2024-10-21 01:05:28</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2024</date></programme>
+  <programme start="20260730144830 +0000" stop="20260730151430 +0000" channel="Red Bull TV.en"><title lang="en">For Reals</title>
+<sub-title lang="en">From BASE jumping a cave to a flying mega swing </sub-title>
+<desc lang="en">Wingsuit flying through London’s Tower Bridge at 246kph. Swinging from a hot air balloon. Slacklining the length of two football fields. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/for-reals-s1-e7</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:2664328f-b440-42e2-9241-b99235650fb9</episode-num>
+<episode-num system="xmltv_ns">0.6.0</episode-num>
+<episode-num system="original-air-date">2024-10-21 22:55:36</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2024</date></programme>
+  <programme start="20260730151430 +0000" stop="20260730154049 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Romaniacs 2025</title>
+<sub-title lang="en">Highlights from Red Bull Romaniacs</sub-title>
+<desc lang="en">The toughest Hard Enduro riders on Earth fought each other and the landscape for victory – over four days of gruelling racing in the mountains of Romania.</desc>
+<category lang="en">Hard Enduro</category>
+<icon src="https://resources.redbull.tv/rrn:content:videos:217e516b-7062-4288-8bcb-5b0cdc6a451e/rbtv_display_art_portrait"/>
+<url>https://www.redbull.com/int-en/videos/red-bull-romaniacs-2025-highlights</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:217e516b-7062-4288-8bcb-5b0cdc6a451e</episode-num>
+<episode-num system="original-air-date">2026-06-01 21:03:44</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260730154049 +0000" stop="20260730162308 +0000" channel="Red Bull TV.en"><title lang="en">Unrideable</title>
+<sub-title lang="en">Changing perspectives</sub-title>
+<desc lang="en">Wade Young aims to prove his worth as a privateer in the 2024 Xross Hard Enduro Rally and Red Bull Romaniacs after being dropped by his old team for Teodor Kabakchiev.</desc>
+<category lang="en">Motocross</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:dded073d-0c56-4fd5-a5c8-21b2e024484c/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/unrideable-s1-e2</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:94cdee99-1374-4832-a565-3757ad9ad5e5</episode-num>
+<episode-num system="xmltv_ns">0.1.0</episode-num>
+<episode-num system="original-air-date">2025-12-20 02:48:19</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:dded073d-0c56-4fd5-a5c8-21b2e024484c</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2025</date></programme>
+  <programme start="20260730162308 +0000" stop="20260730170316 +0000" channel="Red Bull TV.en"><title lang="en">Unrideable</title>
+<sub-title lang="en">Sacrifices</sub-title>
+<desc lang="en">Billy Bolt returns, as Mario Román chases his title dream. The rivals battle in Türkiye, racing literally from sea to sky.</desc>
+<category lang="en">Motocross</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:dded073d-0c56-4fd5-a5c8-21b2e024484c/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/unrideable-s1-e4</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:6ed4b948-70dd-47fb-91a6-aa76fe5337b2</episode-num>
+<episode-num system="xmltv_ns">0.3.0</episode-num>
+<episode-num system="original-air-date">2025-12-20 04:14:27</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:dded073d-0c56-4fd5-a5c8-21b2e024484c</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2025</date></programme>
+  <programme start="20260730170316 +0000" stop="20260730174057 +0000" channel="Red Bull TV.en"><title lang="en">Unrideable</title>
+<sub-title lang="en">Through the pain</sub-title>
+<desc lang="en">Big drama kicks off at 24MX Hixpania Hard Enduro – the 2024 season finale. Can Manuel Lettenbichler win the World Championship again or will someone else rise to glory?</desc>
+<category lang="en">Motocross</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:dded073d-0c56-4fd5-a5c8-21b2e024484c/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/unrideable-s1-e5</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:c71ba784-140a-4a36-b6a9-021f2f0faf25</episode-num>
+<episode-num system="xmltv_ns">0.4.0</episode-num>
+<episode-num system="original-air-date">2025-12-20 04:55:11</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:dded073d-0c56-4fd5-a5c8-21b2e024484c</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2025</date></programme>
+  <programme start="20260730174057 +0000" stop="20260730180039 +0000" channel="Red Bull TV.en"><title lang="en">Reel Rock</title>
+<sub-title lang="en">Cenote</sub-title>
+<desc lang="en">A papaya farmer explores the magical cenotes of the Yucatán Peninsula and discovers sport climbing. His discovery causes him to make a life-changing decision to follow his new passion.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/reel-rock-s8-e4</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:ec98b60b-7b80-4633-aa04-aaadafba6139</episode-num>
+<episode-num system="xmltv_ns">7.3.0</episode-num>
+<episode-num system="original-air-date">2023-04-23 09:28:23</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260730180039 +0000" stop="20260730181925 +0000" channel="Red Bull TV.en"><title lang="en">Reel Rock</title>
+<sub-title lang="en">Cuddle part 1</sub-title>
+<desc lang="en">The tireless duo Tommy Caldwell and Alex Honnold face several setbacks when ascending 17 peaks in the Colorado mountains. Tommy’s childhood friend Adam Stack comes to the rescue in an epic adventure.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/reel-rock-s8-e5</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:d9885b15-fbb3-430e-9a34-8379fc455dd4</episode-num>
+<episode-num system="xmltv_ns">7.4.0</episode-num>
+<episode-num system="original-air-date">2023-05-01 14:37:48</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260730181925 +0000" stop="20260730184421 +0000" channel="Red Bull TV.en"><title lang="en">Reel Rock</title>
+<sub-title lang="en">Flex</sub-title>
+<desc lang="en">Climbing couple Matty Hong and Margo Hayes take on Kryptonite and Flex Luthor – two of the most legendary climbs in Colorado, USA. Flex Luthor hasn't been climbed by anyone for almost 20 years.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:5b2a52ca-3fd5-47f2-ac50-24ec1ef3528c/reel-rock-s8-e9</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:5b2a52ca-3fd5-47f2-ac50-24ec1ef3528c</episode-num>
+<episode-num system="xmltv_ns">7.8.0</episode-num>
+<episode-num system="original-air-date">2024-05-26 10:03:18</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2024</date></programme>
+  <programme start="20260730184421 +0000" stop="20260730191423 +0000" channel="Red Bull TV.en"><title lang="en">Reel Rock</title>
+<sub-title lang="en">Bridge boys</sub-title>
+<desc lang="en">The pandemic forces a pair of obsessed crack climbers to find their next climbing adventure in the UK. An 800m bridge is selected and requires them to eat and sleep while hanging under a motorway.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/reel-rock-s8-e8</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:482cfa67-edf4-4134-88cd-48bf07a5b48c</episode-num>
+<episode-num system="xmltv_ns">7.7.0</episode-num>
+<episode-num system="original-air-date">2024-05-26 09:33:53</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2024</date></programme>
+  <programme start="20260730191423 +0000" stop="20260730193330 +0000" channel="Red Bull TV.en"><title lang="en">Reel Rock</title>
+<sub-title lang="en">This is Beth</sub-title>
+<desc lang="en">An intimate look beneath the success of legendary climber Beth Rodden, diving into her struggles and transformation.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:2454fb6b-ead1-4353-b6c6-8970b05f7d87/reel-rock-s8-e7</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:2454fb6b-ead1-4353-b6c6-8970b05f7d87</episode-num>
+<episode-num system="xmltv_ns">7.6.0</episode-num>
+<episode-num system="original-air-date">2023-08-06 10:12:29</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260730193330 +0000" stop="20260730195239 +0000" channel="Red Bull TV.en"><title lang="en">Reel Rock</title>
+<sub-title lang="en">Cuddle part 2</sub-title>
+<desc lang="en">Tommy Caldwell and Alex Honnold find themselves without food and essential gear in the mountains. Tommy’s childhood friend Adam Stack comes to the rescue and help them complete an epic adventure.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/reel-rock-s8-e6</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:c038ad0f-7ce7-4825-b47e-5c5de25ff2c6</episode-num>
+<episode-num system="xmltv_ns">7.5.0</episode-num>
+<episode-num system="original-air-date">2023-04-30 18:01:22</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260730195239 +0000" stop="20260730201455 +0000" channel="Red Bull TV.en"><title lang="en">Reel Rock</title>
+<sub-title lang="en">Big things to come</sub-title>
+<desc lang="en">Elite climber Alex Johnson has attempted to climb the iconic boulder The Swarm, California, for a decade. Not succeeding breaks her down into self-reflection where she finally accepts her sexuality.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/reel-rock-s8-e3</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:0108c81c-1dea-4614-815c-5b6e4cd8ee03</episode-num>
+<episode-num system="xmltv_ns">7.2.0</episode-num>
+<episode-num system="original-air-date">2023-04-23 09:06:10</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260730201455 +0000" stop="20260730204448 +0000" channel="Red Bull TV.en"><title lang="en">Reel Rock</title>
+<sub-title lang="en">Barefoot Charles</sub-title>
+<desc lang="en">Charles Albert is like a ‘French Mowgli’ growing up at the bouldering utopia Fontainebleau. He took up climbing as a child and when he needed new climbing shoes as a teenager, he continued barefooted.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/reel-rock-s8-e2</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:58cf2fff-f1d3-497b-87ad-56c5bee3f3df</episode-num>
+<episode-num system="xmltv_ns">7.1.0</episode-num>
+<episode-num system="original-air-date">2023-04-16 00:41:29</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260730204448 +0000" stop="20260730211713 +0000" channel="Red Bull TV.en"><title lang="en"/>
+<sub-title lang="en">Program information unavailable at this time</sub-title>
+<desc lang="en"/>
+<icon src="https://resources.redbull.tv/unknown/rbtv_display_art_portrait"/>
+<url/>
+<episode-num system="redbull.com">episode/unknown</episode-num>
+<episode-num system="original-air-date">2023-04-02 18:04:08</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260730211713 +0000" stop="20260730214934 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Drop In Tour</title>
+<sub-title lang="en">Join the Red Bull Skate team on tour</sub-title>
+<desc lang="en">Join the Red Bull Skate team during a whirlwind two weeks on the road as they visit Barcelona, Prague, Cologne, Marseille and Amsterdam, hitting the streets in between demos.</desc>
+<category lang="en">Skateboarding</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:94a86d40-5c7d-4f01-95b7-838b6c5fb48e/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/red-bull-drop-in-euro-tour-2022</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:c3bc7b7e-8127-4a7a-a708-c879165fb359</episode-num>
+<episode-num system="xmltv_ns">0.0.0</episode-num>
+<episode-num system="original-air-date">2026-07-14 00:26:04</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:94a86d40-5c7d-4f01-95b7-838b6c5fb48e</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260730214934 +0000" stop="20260730220705 +0000" channel="Red Bull TV.en"><title lang="en">Skate Tales</title>
+<sub-title lang="en">Sergio Yuppie</sub-title>
+<desc lang="en">Madars Apse travels to Brazil to learn from downhill skateboarding legend Sergio Yuppie. Visit Yuppie's factory to see a skateboard get made before it even hits the streets.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/skate-tales-s1-e2</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:a3d231f9-4577-40f0-80ee-bc452d690683</episode-num>
+<episode-num system="xmltv_ns">0.1.0</episode-num>
+<episode-num system="original-air-date">2023-10-23 05:23:37</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260730220705 +0000" stop="20260730223001 +0000" channel="Red Bull TV.en"><title lang="en">Skate Tales</title>
+<sub-title lang="en">Skate Tales: Detroit</sub-title>
+<desc lang="en">Even the huge physical and emotional blow of total sight loss didn't stop Dan Mancina from getting back on his skateboard. This is how he amazingly relearned to do what he loves.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/skate-tales-s1-e3</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:90907d4d-3ad7-41fd-afb1-79c34c0d87df</episode-num>
+<episode-num system="xmltv_ns">0.2.0</episode-num>
+<episode-num system="original-air-date">2023-10-15 01:50:43</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260730223001 +0000" stop="20260730225057 +0000" channel="Red Bull TV.en"><title lang="en">Skate Tales</title>
+<sub-title lang="en">Skate Ethiopia</sub-title>
+<desc lang="en">When a 60-man crew of international volunteers built a skatepark in Addis Ababa, Ethiopia in 2016, it kick-started a mushrooming cultural revolution in the birthplace of Rastafarianism.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/skate-tales-s1-e4</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:0c48c14a-a5da-4bd5-92cc-82dcb4e39901</episode-num>
+<episode-num system="xmltv_ns">0.3.0</episode-num>
+<episode-num system="original-air-date">2024-09-16 05:38:30</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2024</date></programme>
+  <programme start="20260730225057 +0000" stop="20260730231134 +0000" channel="Red Bull TV.en"><title lang="en">Skate Tales</title>
+<sub-title lang="en">Osaka Daggers</sub-title>
+<desc lang="en">Madars Apse travels to Osaka, Japan, to meet the Osaka Daggers skate crew. This crew built the underground skate scene in Japan and when you see them skate you'll see the passion they bring.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/skate-tales-s1-e6</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:7d99d165-35be-47c8-b186-5629d2feb510</episode-num>
+<episode-num system="xmltv_ns">0.5.0</episode-num>
+<episode-num system="original-air-date">2023-10-23 05:02:26</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260730231134 +0000" stop="20260730233340 +0000" channel="Red Bull TV.en"><title lang="en">Skate Tales</title>
+<sub-title lang="en">Wes Kremer in San Diego</sub-title>
+<desc lang="en">As the 2014 Thrasher Magazine Skater of the Year, Wes Kremer is one of the best ever to do it, but avoids social media. Madars Apse’s Skate Tales tracks him down to find out his reasons.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/skate-tales-s3-e1</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:88184b8e-44b5-4eb7-8c38-32dc42b869a9</episode-num>
+<episode-num system="xmltv_ns">2.0.0</episode-num>
+<episode-num system="original-air-date">2023-07-03 12:06:33</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260730233340 +0000" stop="20260730235441 +0000" channel="Red Bull TV.en"><title lang="en">Skate Tales</title>
+<sub-title lang="en">Takahiro Morita</sub-title>
+<desc lang="en">Madars heads to Japan to meet Takahiro Morita, who more than anyone gave Japanese skate culture its own distinctive twist.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/skate-tales-s3-e2</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:58b75b33-8ff8-4601-8f88-3020d7390137</episode-num>
+<episode-num system="xmltv_ns">2.1.0</episode-num>
+<episode-num system="original-air-date">2023-07-03 12:29:19</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260730235441 +0000" stop="20260731001454 +0000" channel="Red Bull TV.en"><title lang="en">Skate Tales</title>
+<sub-title lang="en">Vitória Mendonça</sub-title>
+<desc lang="en">Madars Apse meets Brazilian female skateboarding trailblazer Vitória Mendonça, who came from humble roots to become a skateboarder, model and youth icon.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.com/int-en/episodes/skate-tales-s3-e3</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:6ea4c116-f8ac-42bd-857b-634815fe11d9</episode-num>
+<episode-num system="xmltv_ns">2.2.0</episode-num>
+<episode-num system="original-air-date">2023-07-09 14:50:47</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2023</date></programme>
+  <programme start="20260731001454 +0000" stop="20260731010835 +0000" channel="Red Bull TV.en"><title lang="en">Castles in the Sky</title>
+<sub-title lang="en">A completely new approach to surf filmmaking</sub-title>
+<desc lang="en">Filmed in five countries over three years, Castles in the Sky delves into the heart of the locations while the surfers travel through them with a sense of open-minded awe.</desc>
+<category lang="en">Surfing</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:2cc8eb16-a62d-435b-a92d-c238340e59dd/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:films:2cc8eb16-a62d-435b-a92d-c238340e59dd/castles-in-the-sky</url>
+<episode-num system="redbull.com">episode/rrn:content:films:2cc8eb16-a62d-435b-a92d-c238340e59dd</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
   </channel>
