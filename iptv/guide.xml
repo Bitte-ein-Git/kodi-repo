@@ -5032,30 +5032,6 @@
   <channel id="RTLTeleLuxembourg.lu">
     <display-name>RTL Télé Lëtzebuerg</display-name>
   </channel>
-  <programme start="20260730050000 +0000" stop="20260730060000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Rediffusioune vu Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260730060000 +0000" stop="20260730180000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260730180000 +0000" stop="20260730182000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260730182000 +0000" stop="20260730182700 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Summermagazin: Rock am Gaart</title>
-    <desc>RTL suergt am Summer fir eenzegaarteg Owender mat Live-Bands an aussergewéinleche Privatgäert am Land. E gefleegte Blummegaart, e schéine Weier, oder eng flott Grill-Plaz? Mir hunn am Virfeld via Opruff déi schéinste Gäert am Land gesicht. Vum 28. Juli bis den 31. Juli stelle mir eise Magazin-Studio a 4 ausgewielte Gäert op a sende vun do aus live.</desc>
-  </programme>
-  <programme start="20260730182700 +0000" stop="20260730183000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Meteo</title>
-    <desc>Nachrichten</desc>
-  </programme>
-  <programme start="20260730183000 +0000" stop="20260731050000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Rediffusioune vu Journal</title>
-    <desc>Info</desc>
-  </programme>
   <programme start="20260731050000 +0000" stop="20260731060000 +0000" channel="RTLTeleLuxembourg.lu">
     <title>Rediffusioune vu Journal</title>
     <desc>Info</desc>
@@ -5088,34 +5064,34 @@
     <title>RTL Radio Web TV</title>
     <desc>Info</desc>
   </programme>
+  <programme start="20260801180000 +0000" stop="20260801182000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>De Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260801182000 +0000" stop="20260801182700 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>De Summermagazin</title>
+    <desc>De Summer zu Lëtzebuerg! Vun Summeraktivitéiten, aussergewéinleche Platzen a Personnagen – och an de Summerméint bidde mer Reportagen iwwert d'Liewen zu Lëtzebuerg.</desc>
+  </programme>
+  <programme start="20260801182700 +0000" stop="20260801183000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Meteo</title>
+    <desc>Nachrichten</desc>
+  </programme>
+  <programme start="20260801183000 +0000" stop="20260802050000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Rediffusioune vu Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260802050000 +0000" stop="20260802060000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Rediffusioune vu Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260802060000 +0000" stop="20260802180000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
+  </programme>
   <channel id="RTL.Zwee.lu">
     <display-name>RTL Zwee</display-name>
     <icon src="https://iptv-epg.org/images/oHSmItP6WtPBct623O8G2WwY1UUKinaauYHEqQcVkJSEsQDupbBGhIXVqycpGDDKb6tbS71i4meL--qsxVwayBEazAz7nFhF2bF3ODnkZwi2DIDY"/>
   </channel>
-  <programme start="20260730050000 +0000" stop="20260730060000 +0000" channel="RTL.Zwee.lu">
-    <title>Rediffusioune vu Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260730060000 +0000" stop="20260730180000 +0000" channel="RTL.Zwee.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260730180000 +0000" stop="20260730182000 +0000" channel="RTL.Zwee.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260730182000 +0000" stop="20260730182700 +0000" channel="RTL.Zwee.lu">
-    <title>De Summermagazin: Rock am Gaart</title>
-    <desc>RTL suergt am Summer fir eenzegaarteg Owender mat Live-Bands an aussergewéinleche Privatgäert am Land. E gefleegte Blummegaart, e schéine Weier, oder eng flott Grill-Plaz? Mir hunn am Virfeld via Opruff déi schéinste Gäert am Land gesicht. Vum 28. Juli bis den 31. Juli stelle mir eise Magazin-Studio a 4 ausgewielte Gäert op a sende vun do aus live.</desc>
-  </programme>
-  <programme start="20260730182700 +0000" stop="20260730183000 +0000" channel="RTL.Zwee.lu">
-    <title>Meteo</title>
-    <desc>Nachrichten</desc>
-  </programme>
-  <programme start="20260730183000 +0000" stop="20260731050000 +0000" channel="RTL.Zwee.lu">
-    <title>Rediffusioune vu Journal a Journal vum Tour</title>
-    <desc>Info</desc>
-  </programme>
   <programme start="20260731050000 +0000" stop="20260731060000 +0000" channel="RTL.Zwee.lu">
     <title>Rediffusioune vu Journal</title>
     <desc>Info</desc>
@@ -5148,33 +5124,29 @@
     <title>RTL Radio Web TV</title>
     <desc>Info</desc>
   </programme>
-  <programme start="20260801180000 +0000" stop="20260801182000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">De Journal.</desc>
-    <title lang="en">De Journal</title>
+  <programme start="20260801180000 +0000" stop="20260801182000 +0000" channel="RTL.Zwee.lu">
+    <title>De Journal</title>
+    <desc>Info</desc>
   </programme>
-  <programme start="20260801182000 +0000" stop="20260801182700 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <desc lang="en">De Summer zu Lëtzebuerg! Vun Summeraktivitéiten, aussergewéinleche Platzen a Personnagen – och an de Summerméint bidde mer Reportagen iwwert d'Liewen zu Lëtzebuerg.</desc>
-    <title lang="en">De Summermagazin</title>
+  <programme start="20260801182000 +0000" stop="20260801182700 +0000" channel="RTL.Zwee.lu">
+    <title>De Summermagazin</title>
+    <desc>De Summer zu Lëtzebuerg! Vun Summeraktivitéiten, aussergewéinleche Platzen a Personnagen – och an de Summerméint bidde mer Reportagen iwwert d'Liewen zu Lëtzebuerg.</desc>
   </programme>
-  <programme start="20260801182700 +0000" stop="20260801183000 +0000" channel="RTL.Zwee.lu"><category lang="en">Nachrichten</category>
-    <desc lang="en">Meteo.</desc>
-    <title lang="en">Meteo</title>
+  <programme start="20260801182700 +0000" stop="20260801183000 +0000" channel="RTL.Zwee.lu">
+    <title>Meteo</title>
+    <desc>Nachrichten</desc>
   </programme>
-  <programme start="20260801183000 +0000" stop="20260802050000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">Rediffusioun vu Journal a Magazin.</desc>
-    <title lang="en">Rediffusioun vu Journal a Magazin</title>
+  <programme start="20260801183000 +0000" stop="20260802050000 +0000" channel="RTL.Zwee.lu">
+    <title>Rediffusioun vu Journal a Magazin</title>
+    <desc>Info</desc>
   </programme>
-  <programme start="20260802050000 +0000" stop="20260802060000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">Rediffusioune vu Journal.</desc>
-    <title lang="en">Rediffusioune vu Journal</title>
+  <programme start="20260802050000 +0000" stop="20260802060000 +0000" channel="RTL.Zwee.lu">
+    <title>Rediffusioune vu Journal</title>
+    <desc>Info</desc>
   </programme>
-  <programme start="20260802060000 +0000" stop="20260802100000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">RTL Radio Web TV.</desc>
-    <title lang="en">RTL Radio Web TV</title>
+  <programme start="20260802060000 +0000" stop="20260802100000 +0000" channel="RTL.Zwee.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
   </programme>
   <programme start="20260802100000 +0000" stop="20260802110000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
     <date>2026</date>
