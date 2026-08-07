@@ -1,5 +1,8 @@
 ﻿
-[B]Version 3.3.7+matrix  (12.07.2026)[/B]
+[B]Version 3.3.8+matrix.1  (06.08.2026)[/B]
+- fixed: 'SERIEN-SPECIALS' werden nicht angezeigt
+
+[B]Version 3.3.7+matrix.1  (12.07.2026)[/B]
 - fixed: Bilder für Serien werden nicht mehr angezeigt (Provider hat Bilder-Links base64 codiert)
 - added: In der Rubrik = 'Neue Sendungen (Episoden)' Anordnung des Titels + Serientitels selbst bestimmen (settings)
 

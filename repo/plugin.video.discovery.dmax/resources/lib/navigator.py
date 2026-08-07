@@ -101,7 +101,7 @@ def list_episodes(target, marker, phase, tvshow): # 'news_Episodes'
 		if courses == 1:
 			contents = _fetch_pages(combo_links)
 			for method in get_sorting(): xbmcplugin.addSortMethod(ADDON_HANDLE, method)
-		else: contents = sorted(_fetch_pages(combo_links), key=lambda asx: (int(asx.get('seasonNumber', 1)), int(asx.get('episodeNumber', 1))), reverse=True)
+		else: contents = sorted(_fetch_pages(combo_links), key=lambda asx: (int(asx.get('seasonNumber', 1) or 1), int(asx.get('episodeNumber', 1) or 1)), reverse=True)
 	for each_due in contents:
 		if marker == 'news_Episodes' and str(each_due.get('publishStart'))[:4].isdecimal():
 			if convert_region(each_due['publishStart']) < (datetime.now() - timedelta(days=7, hours=2)): continue # Beiträge älter als 7 Tage ausblenden
@@ -165,17 +165,19 @@ def _fetch_pages(templates):
 	if package:
 		for article in json.loads(package):
 			if article is not None and article.get('blocks', []) and len(article['blocks']) > 0 and any(sonic.get('type') in ['sonicShowBlock', 'seoSonicShowBlock'] for sonic in article.get('blocks', {})):
-				show_table = next(filter(lambda sox: sox.get('type') == 'showHeaderBlock' and sox.get('show', {}), article['blocks']), None) # Suche nach den Inhalten im 'show' Ordner
+				points, show_table = 0, next(filter(lambda sox: sox.get('type') == 'showHeaderBlock' and sox.get('show', {}), article['blocks']), None) # Suche nach den Inhalten im 'show' Ordner
+				if any(share.get('type') == 'sonicVideoBlock' and share.get('item', {}) and share['item'].get('videoType', 'EPISODE').upper() == 'STANDALONE' for share in article.get('blocks', {})): points += 1
 				for bodies in article['blocks']:
-					if bodies.get('type') in ['sonicShowBlock', 'seoSonicShowBlock'] and bodies.get('items', {}):
-						points = len(bodies.get('items', {}))
-						for scraps in bodies.get('items', {}):
-							if not str(scraps.get('videoDuration')).isdecimal(): continue
-							if scraps.get('show', {}) and show_table:
-								scraps['show'].update({key: value for key, value in show_table['show'].items() if value not in ['', 'None', None]}) # Kopiere Show-Ordner in 2. Ebene zu 'show'
-							scraps.pop('schedule', None); scraps.pop('features', None); scraps.pop('contentDescriptors', None); scraps.pop('package', None)
-							embrace = {**scraps, **{'Count_2': article.get('Count_2'), 'Slug_2': article.get('Slug_2'), 'Link_2': article.get('Link_2'), 'TotalTracks': points}}
-							yield embrace
+					elements = bodies.get('items', {}) if bodies.get('type') in ['sonicShowBlock', 'seoSonicShowBlock'] and bodies.get('items', {}) else [bodies.get('item', {})] if \
+						bodies.get('type') == 'sonicVideoBlock' and bodies.get('item', {}) and bodies['item'].get('videoType', 'EPISODE').upper() == 'STANDALONE' else []
+					if bodies.get('type') in ['sonicShowBlock', 'seoSonicShowBlock'] and bodies.get('items', {}): points += len(bodies.get('items', {}))
+					for scraps in elements:
+						if not str(scraps.get('videoDuration')).isdecimal(): continue
+						if scraps.get('show', {}) and show_table:
+							scraps['show'].update({key: value for key, value in show_table['show'].items() if value not in ['', 'None', None]}) # Kopiere Show-Ordner in 2. Ebene zu 'show'
+						scraps.pop('schedule', None); scraps.pop('features', None); scraps.pop('contentDescriptors', None); scraps.pop('package', None)
+						embrace = {**scraps, **{'Count_2': article.get('Count_2'), 'Slug_2': article.get('Slug_2'), 'Link_2': article.get('Link_2'), 'TotalTracks': points}}
+						yield embrace
 
 def play_video(video_id):
 	debug_MS("(navigator.play_video) ------------------------------------------------ START = play_video -----------------------------------------------")

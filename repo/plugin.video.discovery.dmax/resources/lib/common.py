@@ -48,7 +48,7 @@ enable_tune						= addon.getSetting('show_settings') == 'true'
 DEB_LEVEL							= (xbmc.LOGINFO if addon.getSetting('enable_debug') == 'true' else xbmc.LOGDEBUG)
 KODI_BUILD						= int(xbmc.getInfoLabel('System.BuildVersion')[0:2])
 BASE_URL							= 'https://dmax.de/' # 'https://dmax.de/' = DMAX // 'https://de.hgtv.com/' = HGTV // 'https://tlc.de/' = TLC // 'https://tele5.de/' = TELE5
-WEB_AGENT						= 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:152.0) Gecko/20100101 Firefox/152.0'
+WEB_AGENT						= 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:153.0) Gecko/20100101 Firefox/153.0'
 DEFAULT_HEADERS			= {'Accept': 'application/json, text/plain, */*', 'Content-Type': 'application/json; charset=utf-8', 'DNT': '1', 'Accept-Encoding': 'gzip, deflate', \
 	'Accept-Language': 'de-DE,de;q=0.9,en;q=0.8', 'sec-ch-ua-platform': 'Windows', 'Origin': BASE_URL[:-1], 'Referer': BASE_URL}
 STONE_HEADERS				= {**DEFAULT_HEADERS, **{'X-Device-Info': 'STONEJS/1 (Unknown/Unknown; Windows/NT 10.0; Unknown)', \
