@@ -393,7 +393,7 @@ class logger:
 
 	@staticmethod
 	def __writeLog(sLog, cLogLevel=xbmc.LOGDEBUG):
-		from resources.lib.handler.ParameterHandler import ParameterHandler
+		from resources.lib.handler.parameterHandler import ParameterHandler
 		params = ParameterHandler()
 		#if utils.get_setting("debug") == 'true':
 		if True:

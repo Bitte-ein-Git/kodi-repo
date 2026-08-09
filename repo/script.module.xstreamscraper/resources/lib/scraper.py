@@ -3,10 +3,26 @@ import os, sys, xbmc, xbmcplugin, xbmcgui, xbmcaddon, requests, six, json, concu
 from six.moves.urllib.parse import parse_qsl, urlparse
 from resources.lib import tools, settings
 from resources.lib.gui.gui import cGui
+import resources
+import resources.lib
+import resources.lib.gui
+import resources.lib.handler
 settings.init()
-sourcesFolder = os.path.join(xbmcaddon.Addon("plugin.video.xstream").getAddonInfo("path"), "sites")
+xstreamFolder = xbmcaddon.Addon("plugin.video.xstream").getAddonInfo("path")
+sourcesFolder = os.path.join(xstreamFolder, "sites")
 sys.path.append(sourcesFolder)
-sys.path.append(xbmcaddon.Addon("plugin.video.xstream").getAddonInfo("path"))
+sys.path.append(xstreamFolder)
+
+# The scraper ships compatibility replacements in its own resources package.
+# Keep those first, but also expose modules added by newer xStream versions.
+for package, folder in (
+	(resources, os.path.join(xstreamFolder, "resources")),
+	(resources.lib, os.path.join(xstreamFolder, "resources", "lib")),
+	(resources.lib.gui, os.path.join(xstreamFolder, "resources", "lib", "gui")),
+	(resources.lib.handler, os.path.join(xstreamFolder, "resources", "lib", "handler")),
+):
+	if folder not in package.__path__:
+		package.__path__.append(folder)
 session = requests.session()
 dialog = xbmcgui.DialogProgress()
 urllib3.disable_warnings()

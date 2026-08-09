@@ -6,7 +6,7 @@ from resources.lib.tools import logger, cParser
 from resources.lib import common, settings
 from resources.lib.config import cConfig
 from resources.lib.gui.guiElement import cGuiElement
-from resources.lib.handler.ParameterHandler import ParameterHandler
+from resources.lib.handler.parameterHandler import ParameterHandler
 from six.moves.urllib.parse import quote_plus, urlencode
 
 
