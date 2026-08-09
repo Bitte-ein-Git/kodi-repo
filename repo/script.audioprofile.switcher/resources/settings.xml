@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="Profile Setup">
+        <!-- Profile 1 -->
+        <setting id="profile_1_enabled" type="bool" label="Profile 1" default="false" />
+        <setting id="profile_1_name" type="text" label="  ↳ Custom Name (z.B. Stereo)" default="" visible="eq(-1,true)" />
+        
+        <!-- Profile 2 -->
+        <setting id="profile_2_enabled" type="bool" label="Profile 2" default="false" />
+        <setting id="profile_2_name" type="text" label="  ↳ Custom Name" default="" visible="eq(-1,true)" />
+        
+        <!-- Profile 3 -->
+        <setting id="profile_3_enabled" type="bool" label="Profile 3" default="false" />
+        <setting id="profile_3_name" type="text" label="  ↳ Custom Name" default="" visible="eq(-1,true)" />
+        
+        <!-- Profile 4 -->
+        <setting id="profile_4_enabled" type="bool" label="Profile 4" default="false" />
+        <setting id="profile_4_name" type="text" label="  ↳ Custom Name" default="" visible="eq(-1,true)" />
+        
+        <!-- Profile 5 -->
+        <setting id="profile_5_enabled" type="bool" label="Profile 5" default="false" />
+        <setting id="profile_5_name" type="text" label="  ↳ Custom Name" default="" visible="eq(-1,true)" />
+        
+        <!-- Profile 6 -->
+        <setting id="profile_6_enabled" type="bool" label="Profile 6" default="false" />
+        <setting id="profile_6_name" type="text" label="  ↳ Custom Name" default="" visible="eq(-1,true)" />
+        
+        <!-- Profile 7 -->
+        <setting id="profile_7_enabled" type="bool" label="Profile 7" default="false" />
+        <setting id="profile_7_name" type="text" label="  ↳ Custom Name" default="" visible="eq(-1,true)" />
+        
+        <!-- Profile 8 -->
+        <setting id="profile_8_enabled" type="bool" label="Profile 8" default="false" />
+        <setting id="profile_8_name" type="text" label="  ↳ Custom Name" default="" visible="eq(-1,true)" />
+        
+        <!-- Profile 9 -->
+        <setting id="profile_9_enabled" type="bool" label="Profile 9" default="false" />
+        <setting id="profile_9_name" type="text" label="  ↳ Custom Name" default="" visible="eq(-1,true)" />
+        
+        <!-- Profile 10 -->
+        <setting id="profile_10_enabled" type="bool" label="Profile 10" default="false" />
+        <setting id="profile_10_name" type="text" label="  ↳ Custom Name" default="" visible="eq(-1,true)" />
+    </category>
+</settings>

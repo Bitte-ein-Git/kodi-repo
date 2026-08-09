@@ -75,7 +75,7 @@
 - added: In der Rubrik = 'Neue Sendungen (Episoden)' Anordnung des Titels + Serientitels selbst bestimmen (settings)
 		</news>
 	</extension>
-</addon><addon id="plugin.video.jellyfin" name="Jellyfin" version="fordy-2.1.0+py3" provider-name="Jellyfin Contributors">
+</addon><addon id="plugin.video.jellyfin" name="[COLOR crimson]» Fordy-Media[/COLOR]" version="1.0.0+py3" provider-name="Bitte ein Git!">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.requests" version="2.22.0+matrix.1" />
@@ -86,7 +86,7 @@
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video audio image</provides>
   </extension>
-  <extension point="xbmc.service" library="service.py" start="login">
+  <extension point="xbmc.service" library="service.py" start="startup">
 	</extension>
   <extension point="kodi.context.item">
     <menu id="kodi.core.main">
@@ -100,7 +100,6 @@
         <label>30402</label>
         <visible>[[!String.IsEmpty(ListItem.DBID) + !String.IsEqual(ListItem.DBID,-1) |
 					!String.IsEmpty(ListItem.Property(jellyfinid))] + [String.IsEqual(ListItem.DBTYPE,movie) |
-					String.Contains(Container.FolderPath,livetv) |
 					String.IsEqual(ListItem.DBTYPE,episode)]] +
 					!String.IsEmpty(Window(10000).Property(jellyfin_context_transcode))</visible>
       </item>
@@ -113,7 +112,7 @@
     <forum>https://forum.jellyfin.org</forum>
     <website>https://jellyfin.org/</website>
     <source>https://github.com/jellyfin/jellyfin-kodi</source>
-    <summary lang="en" />
+    <summary lang="en_GB">Fork - addon name/ui changed</summary>
     <description lang="en">Welcome to Jellyfin for Kodi!
 A whole new way to manage and view your media library. The Jellyfin addon for Kodi combines the best of Kodi - ultra smooth navigation, beautiful UIs and playback of any file under the sun, and Jellyfin - the most powerful fully open source multi-client media metadata indexer and server.
 
@@ -122,43 +121,25 @@ Jellyfin for Kodi is the absolute best way to enjoy the incredible Kodi playback
 * Instant synchronization with the Jellyfin server
 * Full support for Movie, TV and Music collections
 * Jellyfin Server direct stream and transcoding support - use Kodi when you are away from home!</description>
-    <news>v2.1.0 (2026-07-05):
-:tada: New features and improvements
-------------------------------------
-+ fix(music): populate album duration on sync (#1147) @kontell
-+ Decouple segment checking from playback reporting (#1116) @CeruleanRed
-+ feat(entrypoint): accept timestamp (#1133) @Rijul-A
-+ Add support for TV show trailers (#1138) @bossanova808
-+ fix(browse): add sort methods inside collections (#1134) @Rijul-A
-+ Add Quick Connect support (#1117) @mkopec
-+ Support "GuestStar" person type in TV episode actors (#1111) @ErwinBr
-
+    <news>v1.1.1 (2025-10-20):
 Bug Fixes
 ---------
-+ Honor the cast command's StartPositionTicks as the resume position (#1154) @jeremiahrose
-+ Report a track's start position as 0, not the stale player clock (#1153) @jeremiahrose
-+ Honor StartIndex in remote Play commands so the selected track plays (#1152) @jeremiahrose
-+ Fix: Only transcode with mp4 container when the preferred codec is av1 to avoid seeking failure (#1136) @nkestrel
-+ fix(monitor): skip server_instance setup when get_device returns no sessions (#1141) @SAY-5
-+ Clamp media segment skip targets before EOF (#1114) @penggongkui-job
-+ Fix websocket authentication (#1121) @mcarlton00
-+ Fix: Correct missing thumbnails for Guest Star actors in TV Shows (#1124) @ErwinBr
-+ fix(player): re-detect audio and subs (#1115) @Rijul-A
-+ queries_music: update album title when album updated in jellyfin (#1108) @csaavedra
-+ music.py: fix addition of song artist different from album artist (#1107) @csaavedra
++ Escape null character in log output (#1055) @oddstr13
++ Remove setting of (#1051) @bossanova808
 
 Code or Repo Maintenance
 ------------------------
-+ Run the black formatter (#1127) @oddstr13
++ Remove angelblue05 from the plugin provider name (#1054) @oddstr13
++ Split and index in a way that gracefully falls back to no split (#1053) @oddstr13
++ Misc cleanup and refractoring (#1045) @oddstr13
+
+Documentation updates
+---------------------
++ Remove angelblue05 from the plugin provider name (#1054) @oddstr13
 
 CI &amp; build changes
 ------------------
-+ Update github/codeql-action action to v4.35.1 (#1120) @[renovate[bot]](https://github.com/apps/renovate)
-+ Update codecov/codecov-action action to v6 (#1119) @[renovate[bot]](https://github.com/apps/renovate)
-+ Update actions/upload-artifact action to v7 (#1101) @[renovate[bot]](https://github.com/apps/renovate)
-+ Update codecov/codecov-action action to v5.5.3 (#1112) @[renovate[bot]](https://github.com/apps/renovate)
-+ Update release-drafter/release-drafter action to v6.4.0 (#1102) @[renovate[bot]](https://github.com/apps/renovate)
-+ Update github/codeql-action action to v4.34.1 (#1099) @[renovate[bot]](https://github.com/apps/renovate)</news>
++ Update github/codeql-action action to v4 (#1050) @[renovate[bot]](https://github.com/apps/renovate)</news>
     <assets>
       <icon>resources/icon.png</icon>
       <fanart>resources/fanart.png</fanart>
@@ -649,6 +630,21 @@ CI &amp; build changes
       <fanart>fanart.jpg</fanart>
     </assets>
   </extension>
+</addon><addon id="script.audioprofile.switcher" name="Audio Profile Switcher" version="1.0.0" provider-name="Bitte-ein-Git!">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.audio.profiles" version="1.0.0" optional="false" />
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="de">Simple 1-click UI for "Audio Profiles" Addon</summary>
+        <platform>all</platform>
+        <assets>
+          <icon>icon.png</icon>
+        </assets>
+    </extension>
 </addon><addon id="script.module.amazoncaptcha" name="amazoncaptcha" version="0.5.11" provider-name="Anatolii Maliarov">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
@@ -775,7 +771,7 @@ EPG: http://localhost:4700/api/file/guide.xml</description>
       <icon>icon.png</icon>
     </assets>
   </extension>
-</addon><addon id="service.audioprofile.switcher" name="Audio Profile Switcher" version="1.0.1" provider-name="Bitte-ein-Git!">
+</addon><addon id="service.auto.audioprofile" name="Auto Audio Profile" version="1.0.0" provider-name="Bitte-ein-Git!">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.audio.profiles" version="1.0.0" />
@@ -783,10 +779,10 @@ EPG: http://localhost:4700/api/file/guide.xml</description>
   <extension point="xbmc.service" library="service.py" start="login" />
   <extension point="xbmc.addon.metadata">
     <summary lang="en_GB">Automatically switch audio profiles based on channel count.</summary>
-    <description lang="en_GB">Simple audio profile switcher using Add-on:Audio Profiles.. 2ch Audio = Profile2 / Multichannel = Profile1</description>
+    <description lang="en_GB">Simple Auto Audio Profile using Add-on:Audio Profiles.. 2ch Audio = Profile2 / Multichannel = Profile1</description>
     <platform>all</platform>
     <license>MIT</license>
-    <source>https://github.com/Bitte-ein-Git/kodi-repo/repo/service.audioprofile.switcher</source>
+    <source>https://github.com/Bitte-ein-Git/kodi-repo/repo/service.auto.audioprofile</source>
     <assets>
       <icon>icon.png</icon>
     </assets>
