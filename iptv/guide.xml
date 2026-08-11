@@ -5128,4 +5128,34 @@
     <desc lang="en">Rediffusioune vu Journal a Magazin.</desc>
     <title lang="en">Rediffusioune vu Journal a Magazin</title>
   </programme>
+  <programme start="20260817050000 +0000" stop="20260817060000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">Rediffusioune vu Journal.</desc>
+    <title lang="en">Rediffusioune vu Journal</title>
+  </programme>
+  <programme start="20260817060000 +0000" stop="20260817180000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">RTL Radio Web TV.</desc>
+    <title lang="en">RTL Radio Web TV</title>
+  </programme>
+  <programme start="20260817180000 +0000" stop="20260817182000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">De Journal.</desc>
+    <title lang="en">De Journal</title>
+  </programme>
+  <programme start="20260817182000 +0000" stop="20260817182700 +0000" channel="RTL.Zwee.lu"><category lang="en">Magazin</category>
+    <date>2026</date>
+    <desc lang="en">Déi grouss Matcher, Hannergrënn a Reportagen, Klibb, Spiller a Fans... De grousse Magazin zesumme mat der FLF all Méindegowend nom Journal op der Tëlee.&lt;br /&gt;&lt;br /&gt;.</desc>
+    <title lang="en">Gol</title>
+  </programme>
+  <programme start="20260817182700 +0000" stop="20260817183000 +0000" channel="RTL.Zwee.lu"><category lang="en">Nachrichten</category>
+    <date>2026</date>
+    <desc lang="en">Meteo.</desc>
+    <title lang="en">Meteo</title>
+  </programme>
+  <programme start="20260817183000 +0000" stop="20260818050000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">Rediffusioun vu Journal a Magazin.</desc>
+    <title lang="en">Rediffusioun vu Journal a Magazin</title>
+  </programme>
 </tv>
