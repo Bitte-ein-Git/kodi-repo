@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 from vavoo.utils import *
 
+def _portal_flag(value):
+	return str(value).strip().lower() in ("1", "true", "yes")
+
 class Token:
 	def __init__(self, value=None, time=0, mac=None, url=None):
 		self.value = value
@@ -149,6 +152,16 @@ class StalkerPortal:
 			self.__save_cache()
 			self.headers["Authorization"] = "Bearer %s" % self.__token.value
 			log("function get_profile Updatet headers: %s" % self.headers)
+			self.watchdog()
+
+	def watchdog(self):
+		return self.make_request_with_retries({
+			"type": "watchdog",
+			"action": "get_events",
+			"init": "0",
+			"cur_play_type": "1",
+			"event_active_id": "0"
+		})
 
 	def get_account_info(self):
 		_params = {"type": "account_info", "action": "get_main_info"}
@@ -179,10 +192,10 @@ class StalkerPortal:
 					return "IP BLOCKED"
 				set_cache("sta_channels", chans,  int(getSetting("stalk_cache")))
 				cmd = random.choice(chans)
-				if cmd["use_http_tmp_link"] == "0":
+				if not _portal_flag(cmd.get("use_http_tmp_link")) and not _portal_flag(cmd.get("use_load_balancing")):
 					streamurl = cmd['cmd'].split()[-1]
 				else:
-					streamurl, headers = self.get_tv_stream_url(cmd['cmd'])
+					streamurl, headers = self.get_tv_stream_url(cmd)
 				res = request("GET", streamurl, headers=self.headers, timeout=10, stream=True, retries=0)
 				res.raise_for_status()
 			except Exception:
@@ -241,17 +254,32 @@ class StalkerPortal:
 			return "IP BLOCKED"
 		if isinstance(response, dict): data = response["data"]
 		else: return {}
-		chan = [{"name": a["name"], "cmd": a["cmd"], "use_http_tmp_link": a["use_http_tmp_link"], "tv_genre_id": a["tv_genre_id"]} for a in data]
+		chan = [{
+			"name": a["name"],
+			"cmd": a["cmd"],
+			"use_http_tmp_link": a.get("use_http_tmp_link", 0),
+			"use_load_balancing": a.get("use_load_balancing", 0),
+			"tv_genre_id": a["tv_genre_id"]
+		} for a in data]
 		return chan
 
-	def get_tv_stream_url(self, cmd):
-		resp = self.make_request_with_retries({"type": "itv", "action": "create_link", "cmd": cmd})
-		if resp == "IP BLOCKED":
-			setSetting("account_info", "IP BLOCKED")
-			setSetting("portal_ok", "IP BLOCKED")
-			setSetting("stalker", "false")
-			return None, self.headers
-		cmd = resp["cmd"]
+	def get_tv_stream_url(self, channel):
+		if isinstance(channel, dict):
+			cmd = channel.get("cmd", "")
+			create_link = _portal_flag(channel.get("use_http_tmp_link")) or _portal_flag(channel.get("use_load_balancing"))
+		else:
+			# Alte Cache-Einträge enthalten nur cmd. Das bisherige Verhalten bleibt
+			# dafür erhalten, bis die Senderliste neu geladen wurde.
+			cmd = channel
+			create_link = True
+		if create_link:
+			resp = self.make_request_with_retries({"type": "itv", "action": "create_link", "cmd": cmd})
+			if resp == "IP BLOCKED":
+				setSetting("account_info", "IP BLOCKED")
+				setSetting("portal_ok", "IP BLOCKED")
+				setSetting("stalker", "false")
+				return None, self.headers
+			cmd = resp["cmd"]
 		return cmd.split()[-1], self.headers
 				
 def get_genres():

@@ -37,6 +37,21 @@ def cleantitle(title):
 	a = tools.cParser.replace("(s\d\de\d\d|staffel \d+-\d+|\((\d{4})\))", "", title.lower())
 	return tools.cParser.replace("( |-|:)", "", a)
 
+def _episode_number(result):
+	for key, value in result.items():
+		if "pisode" in key.lower():
+			episode = tools.cParser.replace("[^0-9]", "", str(value))
+			if episode:
+				return episode
+	if result.get("mediaType") == "episode":
+		for value in (result.get("sUrl"), result.get("url"), result.get("title")):
+			if not value:
+				continue
+			is_match, episode = tools.cParser.parseSingleResult(str(value), r"(?:episode|folge)[\s_-]*(\d+)")
+			if is_match:
+				return episode
+	return None
+
 def get_episodes(sources, s, e):
 	episoden = []
 	for count, source in enumerate(sources, 1):
@@ -45,23 +60,19 @@ def get_episodes(sources, s, e):
 			dialog.update(int(count * 25 /len(sources)+50), "Filtere Seite %s..." % site)
 			if dialog.iscanceled(): return showFailedNotification("Abgebrochen")
 			tools.logger.info("Filtere %s" % site)
-			for result in plugin(source):
+			for result in plugin(source) or []:
 				if "pisode" in result.keys() or result.get("mediaType") == "episode":
-					for a in result.keys():
-						if "pisode" in a:
-							episode = tools.cParser.replace("[^0-9]", "", result[a])
-							if episode and int(episode) == int(e):
-								episoden.append(result)
+					episode = _episode_number(result)
+					if episode and int(episode) == int(e):
+						episoden.append(result)
 				else:
 					season = result.get("season")
 					if season and int(season) == int(s):
-						for results in plugin(result):
+						for results in plugin(result) or []:
 							if "pisode" in results.keys() or results.get("mediaType") == "episode":
-								for b in results.keys():
-									if "pisode" in b:
-										episode = tools.cParser.replace("[^0-9]", "", results[b])
-										if episode and int(episode) == int(e):
-											episoden.append(results)
+								episode = _episode_number(results)
+								if episode and int(episode) == int(e):
+									episoden.append(results)
 		except Exception as e:
 			tools.logger.error(e)
 			import traceback
