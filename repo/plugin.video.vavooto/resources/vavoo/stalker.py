@@ -65,15 +65,33 @@ class StalkerPortal:
 		params["JsHttpRequest"] = "1-xml"
 		for attempt in range(1, retries + 2):
 			try:
-				log("Attempt %s: GET %s with params=%s" % (attempt, self.portal_url, params))
-				response = request("GET", self.portal_url, params=params, headers=self.headers, timeout=timeout, retries=0)
-				log("Received response: %s" % response.status_code)
-				if response.status_code == 403:
-					log("Abbruch: HTTP 403 erhalten")
+				try:
+					log("Attempt %s: GET %s with params=%s" % (attempt, self.portal_url, params))
+					response = request("GET", self.portal_url, params=params, headers=self.headers, timeout=timeout, retries=0)
+					log("Received response: %s" % response.status_code)
+					a = response.text
+					blocked = response.status_code == 403 or "IP adresiniz engellenmistir." in a
+					failed = response.status_code >= 400 or blocked or "js" not in a
+				except Exception:
+					log("Erster Portalversuch fehlgeschlagen:\n%s" % format_exc())
+					a = ""
+					blocked = False
+					failed = True
+				if failed and self.headers.get("User-Agent") != BROWSER_UA:
+					log("Zweiter Versuch mit Chrome User-Agent")
+					chrome_headers = dict(self.headers)
+					chrome_headers["User-Agent"] = BROWSER_UA
+					response = request("GET", self.portal_url, params=params, headers=chrome_headers, timeout=timeout, retries=0)
+					log("Chrome-Versuch, Antwort: %s" % response.status_code)
+					a = response.text
+					blocked = response.status_code == 403 or "IP adresiniz engellenmistir." in a
+					failed = response.status_code >= 400 or blocked or "js" not in a
+					if not failed:
+						self.headers = chrome_headers
+				if blocked:
+					log("Abbruch: Portal auch mit Chrome User-Agent blockiert")
 					return "IP BLOCKED"
-				a = response.text
-				if "IP adresiniz engellenmistir." in a: return "IP BLOCKED"
-				elif "js" in a: return json.loads(a)["js"]
+				if "js" in a: return json.loads(a)["js"]
 				else:
 					cacheOk, faultymac = get_cache("faultymac")
 					if not cacheOk: faultymac = {}
