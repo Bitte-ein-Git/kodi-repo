@@ -4801,30 +4801,6 @@
   <channel id="RTLTeleLuxembourg.lu">
     <display-name>RTL Télé Lëtzebuerg</display-name>
   </channel>
-  <programme start="20260818050000 +0000" stop="20260818060000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Rediffusioune vu Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260818060000 +0000" stop="20260818180000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260818180000 +0000" stop="20260818182000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260818182000 +0000" stop="20260818182700 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>DerWäert – D'Geschicht hannert Ärem Schatz</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260818182700 +0000" stop="20260818183000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Meteo</title>
-    <desc>Nachrichten</desc>
-  </programme>
-  <programme start="20260818183000 +0000" stop="20260819050000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Rediffusioune vu Journal</title>
-    <desc>Info</desc>
-  </programme>
   <programme start="20260819050000 +0000" stop="20260819060000 +0000" channel="RTLTeleLuxembourg.lu">
     <title>Rediffusioune vu Journal</title>
     <desc>Info</desc>
@@ -4857,34 +4833,34 @@
     <title>RTL Radio Web TV</title>
     <desc>Info</desc>
   </programme>
+  <programme start="20260820180000 +0000" stop="20260820182000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>De Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260820182000 +0000" stop="20260820182700 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>DerWäert – D'Geschicht hannert Ärem Schatz</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260820182700 +0000" stop="20260820183000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Meteo</title>
+    <desc>Nachrichten</desc>
+  </programme>
+  <programme start="20260820183000 +0000" stop="20260821050000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Rediffusioune vu Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260821050000 +0000" stop="20260821060000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Rediffusioune vu Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260821060000 +0000" stop="20260821180000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
+  </programme>
   <channel id="RTL.Zwee.lu">
     <display-name>RTL Zwee</display-name>
     <icon src="https://iptv-epg.org/images/oHSmItP6WtPBct623O8G2WwY1UUKinaauYHEqQcVkJSEsQDupbBGhIXVqycpGDDKb6tbS71i4meL--qsxVwayBEazAz7nFhF2bF3ODnkZwi2DIDY"/>
   </channel>
-  <programme start="20260818050000 +0000" stop="20260818060000 +0000" channel="RTL.Zwee.lu">
-    <title>Rediffusioune vu Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260818060000 +0000" stop="20260818180000 +0000" channel="RTL.Zwee.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260818180000 +0000" stop="20260818182000 +0000" channel="RTL.Zwee.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260818182000 +0000" stop="20260818182700 +0000" channel="RTL.Zwee.lu">
-    <title>DerWäert – D'Geschicht hannert Ärem Schatz</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260818182700 +0000" stop="20260818183000 +0000" channel="RTL.Zwee.lu">
-    <title>Meteo</title>
-    <desc>Nachrichten</desc>
-  </programme>
-  <programme start="20260818183000 +0000" stop="20260819050000 +0000" channel="RTL.Zwee.lu">
-    <title>Rediffusioun vu Journal a Magazin</title>
-    <desc>Info</desc>
-  </programme>
   <programme start="20260819050000 +0000" stop="20260819060000 +0000" channel="RTL.Zwee.lu">
     <title>Rediffusioune vu Journal</title>
     <desc>Info</desc>
@@ -4917,34 +4893,29 @@
     <title>RTL Radio Web TV</title>
     <desc>Info</desc>
   </programme>
-  <programme start="20260820180000 +0000" stop="20260820182000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">De Journal.</desc>
-    <title lang="en">De Journal</title>
+  <programme start="20260820180000 +0000" stop="20260820182000 +0000" channel="RTL.Zwee.lu">
+    <title>De Journal</title>
+    <desc>Info</desc>
   </programme>
-  <programme start="20260820182000 +0000" stop="20260820182700 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <desc lang="en">DerWäert – D'Geschicht hannert Ärem Schatz.</desc>
-    <title lang="en">DerWäert – D'Geschicht hannert Ärem Schatz</title>
+  <programme start="20260820182000 +0000" stop="20260820182700 +0000" channel="RTL.Zwee.lu">
+    <title>DerWäert – D'Geschicht hannert Ärem Schatz</title>
+    <desc>Info</desc>
   </programme>
-  <programme start="20260820182700 +0000" stop="20260820183000 +0000" channel="RTL.Zwee.lu"><category lang="en">Nachrichten</category>
-    <date>2026</date>
-    <desc lang="en">Meteo.</desc>
-    <title lang="en">Meteo</title>
+  <programme start="20260820182700 +0000" stop="20260820183000 +0000" channel="RTL.Zwee.lu">
+    <title>Meteo</title>
+    <desc>Nachrichten</desc>
   </programme>
-  <programme start="20260820183000 +0000" stop="20260821050000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">Rediffusioun vu Journal a Magazin.</desc>
-    <title lang="en">Rediffusioun vu Journal a Magazin</title>
+  <programme start="20260820183000 +0000" stop="20260821050000 +0000" channel="RTL.Zwee.lu">
+    <title>Rediffusioun vu Journal a Magazin</title>
+    <desc>Info</desc>
   </programme>
-  <programme start="20260821050000 +0000" stop="20260821060000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">Rediffusioune vu Journal.</desc>
-    <title lang="en">Rediffusioune vu Journal</title>
+  <programme start="20260821050000 +0000" stop="20260821060000 +0000" channel="RTL.Zwee.lu">
+    <title>Rediffusioune vu Journal</title>
+    <desc>Info</desc>
   </programme>
-  <programme start="20260821060000 +0000" stop="20260821112500 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">RTL Radio Web TV.</desc>
-    <title lang="en">RTL Radio Web TV</title>
+  <programme start="20260821060000 +0000" stop="20260821112500 +0000" channel="RTL.Zwee.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
   </programme>
   <programme start="20260821112500 +0000" stop="20260821123000 +0000" channel="RTL.Zwee.lu"><category lang="en">Motorsport</category>
     <category>Sports</category>
