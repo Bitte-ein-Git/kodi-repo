@@ -9,7 +9,6 @@ from six.moves.html_entities import name2codepoint
 from difflib import SequenceMatcher
 from functools import lru_cache
 from os import path, chdir
-if six.PY3: unicode = str
 
 addon = xbmcaddon.Addon()
 addonInfo = addon.getAddonInfo
@@ -20,23 +19,13 @@ set_setting = addon.setSetting
 api_key="86dd18b04874d9c94afadde7993d94e3"
 tmdburl = "https://api.themoviedb.org/3/"
 tmdbimg = "https://image.tmdb.org/t/p/%s%s"
-translatePath = xbmc.translatePath if six.PY2 else xbmcvfs.translatePath
+translatePath = xbmcvfs.translatePath
 
 class validater():
 	pass
 
-def py2dec(msg):
-	if six.PY2:
-		return msg.decode("utf-8")
-	return msg
-	
-def py2enc(msg):
-	if six.PY2:
-		return msg.encode("utf-8")
-	return msg
-
 def translate_path(*args):
-	return py2dec(translatePath(os.path.join(*args)))
+	return translatePath(os.path.join(*args))
 
 addonPath = common.addonPath
 profilePath = common.profilePath
@@ -52,8 +41,7 @@ def getAuthSignature():
 	return req.get("addonSig")
 
 def ok(heading, line1, line2="", line3=""):
-	if six.PY3:return xbmcgui.Dialog().ok(heading, line1+"\n"+line2+"\n"+line3)
-	else:return xbmcgui.Dialog().ok(heading, line1,line2,line3)
+	return xbmcgui.Dialog().ok(heading, line1+"\n"+line2+"\n"+line3)
 
 def md5(fname):
     hash_md5 = hashlib.md5()
@@ -91,10 +79,7 @@ def repair(force=False):
 		new_xml.append(' </category>')
 		new_xml.append('</settings>')
 		new_xml = six.ensure_text('\n'.join(new_xml))
-		if six.PY3: 
-			with open(settingsxml, 'w', encoding='utf-8') as f: f.write(new_xml)
-		else:
-			with open(settingsxml, 'w') as f: f.write(new_xml.encode('utf8'))
+		with open(settingsxml, 'w', encoding='utf-8') as f: f.write(new_xml)
 	if firststart or force:
 		xbmcaddon.Addon("plugin.video.themoviedb.helper").setSetting("players_url", "https://michaz1988.github.io/players.zip")
 		xbmc.executebuiltin('RunScript(plugin.video.themoviedb.helper, update_players)')
@@ -111,8 +96,7 @@ def selectDialog(list, heading=None, multiselect = False):
 	return xbmcgui.Dialog().select(str(heading), list)
 
 def yesno(heading, line1, line2="", line3="", nolabel="", yeslabel=""):
-	if six.PY3:return xbmcgui.Dialog().yesno(heading, line1+"\n"+line2+"\n"+line3, nolabel, yeslabel)
-	else:return xbmcgui.Dialog().yesno(heading, line1,line2,line3, nolabel, yeslabel)
+	return xbmcgui.Dialog().yesno(heading, line1+"\n"+line2+"\n"+line3, nolabel, yeslabel)
 
 def get_data(params):
 	from resources.lib.handler.requestHandler import cRequestHandler
@@ -175,8 +159,6 @@ def getIcon(name, original=False):
 def convertPluginParams(params):
 	p = []
 	for key, value in list(params.items()):
-		if isinstance(value, unicode):
-			value = py2enc(value)
 		p.append(urlencode({key: value}))
 	return ('&').join(sorted(p))
 
@@ -336,7 +318,7 @@ class cParser:
 
     @staticmethod
     def getNumberFromString(sValue):
-        aMatches = re.compile('\d+').findall(sValue)
+        aMatches = re.compile(r'\d+').findall(sValue)
         if len(aMatches) > 0:
             return int(aMatches[0])
         return 0

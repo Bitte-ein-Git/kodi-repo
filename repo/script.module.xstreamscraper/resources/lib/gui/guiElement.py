@@ -75,17 +75,17 @@ class cGuiElement:
 
 	def getTitle(self):
 		if ' (19' in self.__sTitle or ' (20' in self.__sTitle:
-			isMatch, aYear = cParser.parse(self.__sTitle, '(.*?)\(((19\d{2}|20\d{2}))\)')
+			isMatch, aYear = cParser.parse(self.__sTitle, r'(.*?)\(((19\d{2}|20\d{2}))\)')
 			if isMatch:
 				self.__sTitle = aYear[0][0]
 				self.setYear(aYear[0][1])
 		if '*19' in self.__sTitle or '*20' in self.__sTitle:
-			isMatch, aYear = cParser.parse(self.__sTitle, '(.*?)\*((19\d{2}|20\d{2}))\*')
+			isMatch, aYear = cParser.parse(self.__sTitle, r'(.*?)\*((19\d{2}|20\d{2}))\*')
 			if isMatch:
 				self.__sTitle = aYear[0][0]
 				self.setYear(aYear[0][1])
 		if '*english*' in self.__sTitle.lower():
-			isMatch, aLang = cParser.parse(self.__sTitle, '(.*?)\*(.*?)\*')
+			isMatch, aLang = cParser.parse(self.__sTitle, r'(.*?)\*(.*?)\*')
 			if isMatch:
 				self.__sTitle = aLang[0][0]
 				self.setLanguage('Englisch')

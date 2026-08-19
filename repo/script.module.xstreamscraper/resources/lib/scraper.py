@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import os, sys, xbmc, xbmcplugin, xbmcgui, xbmcaddon, requests, six, json, concurrent.futures, urllib3
+import os, sys, xbmc, xbmcplugin, xbmcgui, xbmcaddon, requests, json, concurrent.futures, urllib3
 from six.moves.urllib.parse import parse_qsl, urlparse
 from resources.lib import tools, settings
 from resources.lib.gui.gui import cGui
@@ -34,7 +34,7 @@ def showFailedNotification(msg="Keine Streams gefunden"):
 	xbmcplugin.setResolvedUrl(int(sys.argv[1]), False, o)
 
 def cleantitle(title):
-	a = tools.cParser.replace("(s\d\de\d\d|staffel \d+-\d+|\((\d{4})\))", "", title.lower())
+	a = tools.cParser.replace(r"(s\d\de\d\d|staffel \d+-\d+|\((\d{4})\))", "", title.lower())
 	return tools.cParser.replace("( |-|:)", "", a)
 
 def _episode_number(result):
@@ -177,13 +177,13 @@ def searchGlobal(sSearchText, searchtitles, isSerie, _type, _id, season, episode
         title, originaltitle, language, quality, mediaType, year = cleantitle(result.get("title")), result.get("title"), result.get("language"), result.get("quality"), result.get("mediaType"), result.get("year")
 
         if not year and (' (19' in title or ' (20' in title):
-            isMatch, aYear = tools.cParser.parse(title, '(.*?)\(((19\d{2}|20\d{2}))\)')
+            isMatch, aYear = tools.cParser.parse(title, r'(.*?)\(((19\d{2}|20\d{2}))\)')
             if isMatch:
                 title = aYear[0][0].strip()
                 year = aYear[0][1]
 
         if not year and ('*19' in title or '*20' in title):
-            isMatch, aYear = tools.cParser.parse(title, '(.*?)\*((19\d{2}|20\d{2}))\*')
+            isMatch, aYear = tools.cParser.parse(title, r'(.*?)\*((19\d{2}|20\d{2}))\*')
             if isMatch:
                 title = aYear[0][0].strip()
                 year = aYear[0][1]
@@ -198,10 +198,10 @@ def searchGlobal(sSearchText, searchtitles, isSerie, _type, _id, season, episode
             set_skip(" Wrong Media")
 
         if isSerie:
-            isMatch, found = tools.cParser.parseSingleResult(title, "(season\d+|staffel\d+)")
+            isMatch, found = tools.cParser.parseSingleResult(title, r"(season\d+|staffel\d+)")
             if isMatch:
                 title = title.replace(found, "")
-                ok, aMatches = tools.cParser.parseSingleResult(found, "\d+")
+                ok, aMatches = tools.cParser.parseSingleResult(found, r"\d+")
                 if ok and int(season) != int(aMatches):
                     set_skip(" Wrong Season")
 
@@ -294,10 +294,7 @@ def _play(url):
 	o = xbmcgui.ListItem(xbmc.getInfoLabel("ListItem.Label"))
 	o.setProperty("IsPlayable", "true")
 	if ".m3u8" in url:
-		if six.PY2: 
-			o.setProperty("inputstreamaddon", "inputstream.adaptive")
-			o.setProperty("inputstream.adaptive.manifest_type", "hls")
-		else: o.setProperty("inputstream", "inputstream.adaptive")
+		o.setProperty("inputstream", "inputstream.adaptive")
 		o.setProperty('inputstream.adaptive.config', '{"ssl_verify_peer":false}')
 		if "|" in url:
 			url, headers = url.split("|")
