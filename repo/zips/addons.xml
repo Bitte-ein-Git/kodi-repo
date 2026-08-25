@@ -256,7 +256,7 @@ CI &amp; build changes
 - added: Timeshift-Funktion zu-/ab-schaltbar für TV-Live und EventStreams (settings: default=abgeschaltet)
 		</news>
 	</extension>
-</addon><addon id="plugin.video.vavooto" name="VAVOO.TO" version="fordy-2026.08.17" provider-name="kasi,michaz">
+</addon><addon id="plugin.video.vavooto" name="VAVOO.TO" version="fordy-2026.08.24" provider-name="kasi,michaz">
 	<requires>
 		<import addon="xbmc.python" version="3.0.1" />
 		<import addon="script.module.requests" />
@@ -741,7 +741,7 @@ CI &amp; build changes
             <icon>icon.png</icon>
         </assets>
 	</extension>
-</addon><addon id="script.module.xstreamscraper" name="[COLOR darkorange]» Autom. Quellen-Suche[/COLOR]" provider-name="Bitte-ein-Git!" version="fordy-2026.08.18">
+</addon><addon id="script.module.xstreamscraper" name="[COLOR darkorange]» Autom. Quellen-Suche[/COLOR]" provider-name="Bitte-ein-Git!" version="fordy-2026.08.24">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="plugin.video.vavooto" />
@@ -757,6 +757,8 @@ CI &amp; build changes
     </extension>
     <extension point="xbmc.service" library="service.py" start="startup" />
     <extension point="xbmc.addon.metadata">
+        <summary lang="de_DE">xStream-Quellen für den TMDb Helper</summary>
+        <description lang="de_DE">Bindet xStream- und VAVOO-Quellen in den TMDb Helper ein und ermittelt passende Streams für Filme und Serien.</description>
         <assets>
             <icon>icon.png</icon>
             <screenshot>icon.png</screenshot>
