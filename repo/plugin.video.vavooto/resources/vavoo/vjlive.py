@@ -3,14 +3,54 @@ from vavoo.utils import *
 
 chanicons = ['13thstreet.png', '3sat.png', 'animalplanet.png', 'anixe.png', 'ard.png', 'ardalpha.png', 'arte.png', 'atv.png', 'atv2.png', 'automotorsport.png', 'axnblack.png', 'axnwhite.png', 'br.png', 'cartoonito.png', 'cartoonnetwork.png', 'comedycentral.png', 'curiositychannel.png', 'fix&foxi.png', 'dazn1.png', 'dazn2.png', 'deluxemusic.png', 'nationalgeographic.png', 'dmax.png', 'eurosport1.png', 'eurosport2.png', 'nickjunior.png', 'superrtl.png', 'heimatkanal.png', 'history.png', 'hr.png', 'jukebox.png', 'kabel1doku.png', 'pro7.png', 'pro7maxx.png', 'pro7fun.png', 'rtl2.png', 'kika.png', 'kinowelt.png', 'mdr.png', 'universaltv.png', 'discovery.png', 'mtv.png', 'n24doku.png', 'natgeowild.png', 'sky1.png', 'ndr.png', 'nickelodeon.png', 'nitro.png', 'romancetv.png', 'ntv.png', 'one.png', 'orf1.png', 'orf2.png', 'orf3.png', 'orfsportplus.png', 'phoenix.png', 'geotv.png', 'puls24.png', 'puls4.png', 'rbb.png', 'ric.png', 'motorvision.png', 'rtl.png', 'rtlcrime.png', 'rtlliving.png', 'kabel1.png', 'rtlpassion.png', 'rtlup.png', 'sat1.png', 'sat1emotions.png', 'sat1gold.png', 'servustv.png', 'silverline.png', 'sixx.png', 'skyatlantic.png', 'skycinemaaction.png', 'skycinemaclassics.png', 'skycinemafamily.png', 'skycinemahighlights.png', 'skycinemapremieren.png', 'skycrime.png', 'skydocumentaries.png', 'skykrimi.png', 'skynature.png', 'skyreplay.png', 'skyshowcase.png', 'spiegelgeschichte.png', 'kabel1classics.png', 'sport1.png', 'sportdigital.png', 'swr.png', 'syfy.png', 'tagesschau24.png', 'tele5.png', 'tlc.png', 'toggoplus.png', 'crime+investigation.png', 'vox.png', 'voxup.png', 'warnertvcomedy.png', 'warnertvfilm.png', 'warnertvserie.png', 'wdr.png', 'welt.png', 'weltderwunder.png', 'zdf.png', 'zdfinfo.png', 'zdfneo.png', 'zeeone.png', 'skycinemathriller.png']
 
+def test_m3u8(url, headers=None, verify=True):
+	headers = headers or {}
+	response = None
+	try:
+		response = request("GET", url, headers=headers, timeout=10, stream=True, retries=0, verify=verify)
+		response.raise_for_status()
+		is_hls = "m3u8" in url.lower() or "/hls/" in url.lower() or "mpegurl" in response.headers.get("Content-Type", "").lower()
+		if getSetting("live_m3u8_test") != "true" or not is_hls:
+			return True
+
+		playlist_url = url
+		for level in range(2):
+			text = response.text
+			response.close()
+			response = None
+			if "#EXTM3U" not in text[:1024]:
+				raise ValueError("Ungültige M3U8-Playlist")
+			entries = [line.strip() for line in text.splitlines() if line.strip() and not line.lstrip().startswith("#")]
+			if not entries:
+				raise ValueError("M3U8 enthält keine Medien-URL")
+			target = urljoin(playlist_url, entries[0])
+			if "#EXT-X-STREAM-INF" in text and level == 0:
+				playlist_url = target
+				response = request("GET", target, headers=headers, timeout=10, stream=True, retries=0, verify=verify)
+				response.raise_for_status()
+				continue
+
+			segment_headers = dict(headers)
+			segment_headers["Range"] = "bytes=0-1023"
+			response = request("GET", target, headers=segment_headers, timeout=10, stream=True, retries=0, verify=verify)
+			response.raise_for_status()
+			if not next(response.iter_content(1), b""):
+				raise ValueError("M3U8-Mediensegment ist leer")
+			return True
+	except Exception:
+		log("M3U8-Streamtest fehlgeschlagen\n%s" % format_exc())
+		return False
+	finally:
+		if response is not None:
+			response.close()
+
 def resolve_link(link):
 	if isinstance(link, dict) or not "vavoo" in link:
 		from vavoo.stalker import StalkerPortal
 		try:
 			link, headers = StalkerPortal(get_cache_or_setting("stalkerurl"), get_cache_or_setting("mac")).get_tv_stream_url(link)
-			status = int(request("GET", link, headers=headers, timeout=10, stream=True, retries=0).status_code)
-			log(f"function resolve_link Staus :{status}")
-			if status < 400: 
+			if test_m3u8(link, headers):
+				log("function resolve_link Status: OK")
 				return link, "&".join([f"{k}={v}" for k, v in headers.items()])
 		except Exception:
 			log(format_exc())
@@ -21,9 +61,9 @@ def resolve_link(link):
 		url = "https://vavoo.to/mediahubmx-resolve.json"
 		try:
 			streamurl = request_json("POST", url, json=_data, headers=_headers, timeout=10, retries=1)[0]["url"]
-			status = int(request("GET", streamurl, timeout=10, stream=True, retries=0, verify=False).status_code)
-			log(f"function resolve_link Staus :{status}")
-			if status < 400: return streamurl, None
+			if test_m3u8(streamurl, verify=False):
+				log("function resolve_link Status: OK")
+				return streamurl, None
 		except Exception:
 			log(format_exc())
 		return None, None
@@ -97,7 +137,15 @@ def handle_wait(kanal):
 	progress.close()
 	return True
 
-def livePlay(name, type=None, group=None):
+def livePlay(name, type=None, group=None, retry='0'):
+	try:
+		retry = max(0, int(retry))
+	except (TypeError, ValueError):
+		retry = 0
+	try:
+		max_retries = max(0, int(getSetting("live_retry_count")))
+	except (TypeError, ValueError):
+		max_retries = 1
 	m = getchannels(type, group).get(name)
 	if not m:
 		showFailedNotification()
@@ -133,6 +181,10 @@ def livePlay(name, type=None, group=None):
 			if i >= len(m): i = 0
 	set_cache("last", {"idn": name, "num": i}, 2)
 	title = title if title else name
+	live_player = None
+	if getSetting("live_auto_retry") == "true" and retry < max_retries:
+		from vavoo.player import LivePlayer
+		live_player = LivePlayer()
 	infoLabels = {"title": title, "plot": "[B]%s[/B] - Stream %s von %s" % (name, i + 1, len(m))}
 	o = ListItem(name)
 	log("Spiele %s" % url)
@@ -165,6 +217,23 @@ def livePlay(name, type=None, group=None):
 	info_tag.set_info(infoLabels)
 	set_resolved(o)
 	end()
+	if live_player:
+		try:
+			retry_delay = max(1, int(getSetting("live_retry_delay")))
+		except (TypeError, ValueError):
+			retry_delay = 10
+		result = live_player.wait_for_failure(retry_delay)
+		if result in ("ended", "stalled"):
+			log("Live-TV-Stream %s; resolve Sender erneut" % result)
+			dialog.notification("VAVOO.TO", "Stream unterbrochen - verbinde erneut", xbmcgui.NOTIFICATION_INFO, 3000)
+			if result == "stalled" and live_player.isPlaying():
+				live_player.stop()
+			params = {"name": name, "retry": str(retry + 1)}
+			if type: params["type"] = type
+			if group: params["group"] = group
+			live_player.play(url_for(params))
+		else:
+			log("Live-TV Auto-Retry nicht gestartet: %s" % result)
 
 def makem3u():
 	m3u = ["#EXTM3U\n"]
