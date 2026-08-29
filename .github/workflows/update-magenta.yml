@@ -42,8 +42,9 @@ jobs:
         run: |
           git config user.name "📺 EPG [🤖Bot]"
           git config user.email "epg-bot@heyfordy.dev"
-          # Füge beide Dateien hinzu
+          # Füge alle Dateien hinzu
           git add iptv/magenta.xml
+          git add iptv/magenta.xml.gz
           git add iptv/magenta_lite.xml
           git commit -m "📺 EPG » 🧰 MagentaTV updated!" || echo "No changes to commit"
           git commit -m "$(TZ='Europe/Berlin' date +"%d.%m.%Y %H:%M:%S %Z")" || echo "-"
