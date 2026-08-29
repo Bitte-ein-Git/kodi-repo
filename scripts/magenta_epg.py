@@ -7,6 +7,7 @@ import xml.etree.ElementTree as ET
 from xml.dom import minidom
 import os
 import re
+import gzip
 
 # Configuration
 BOOTSTRAP_TEMPLATE = "https://prod.dcm.telekom-dienste.de/v1/settings/{configGroupId}/bootstrap?"
@@ -416,9 +417,17 @@ class MagentaEPG:
                         ep_elem.text = ep_str
 
         xmlstr = minidom.parseString(ET.tostring(root)).toprettyxml(indent="   ")
+        
+        # 1. Unkomprimierte Datei speichern
         with open(filename, "w", encoding="utf-8") as f:
             f.write(xmlstr)
-        print("Done.")
+            
+        # 2. GZ komprimierte Datei speichern
+        gz_filename = filename + ".gz"
+        with gzip.open(gz_filename, "wt", encoding="utf-8") as f_gz:
+            f_gz.write(xmlstr)
+            
+        print(f"Done. Saved to {filename} and {gz_filename}")
 
 if __name__ == "__main__":
     scraper = MagentaEPG()
