@@ -1,3 +1,34 @@
+2026.08.29.12
+- Fehler beim Laden der Kanalliste behoben (Absicherung der Stalker/VAVOO/LiteTV Rückgabewerte).
+
+2026.08.29.11
+- Integrierter lokaler HLS Proxy für VAVOO Live-Streams zur Stabilisierung von Transport und Segment-Pufferung.
+
+2026.08.29.10
+- LiteTV Ländergruppen-Menü und Auswahl entfernt; alle LiteTV-Sender (inkl. SRF und Servus TV) werden nahtlos in einer Liste bereitgestellt.
+
+2026.08.29.9
+- Integrierter nativer HTTP/2 Proxy & FooBarX Decoder für Nydus Live-HD-Streams (VOX, RTL, SAT.1, ProSieben etc.).
+- Vollständige Autonomie ohne externe System-Tools (reine Python HTTP/2-Engine).
+
+2026.08.29.8
+- Vollständige Bereinigung und lokale Validierung der LiteTV-Sender & Streams.
+- Korrigierte M3U8-Segment-Validierung bei verschachtelten Master-Playlists.
+
+2026.08.29.7
+- Priorisierung der Nydus HD-Streams (1024x576/720p) vor den SD-Hopslan-Streams für optimale Bildqualität.
+- Automatisches Leeren veralteter LiteTV-Cacheeinträge.
+
+2026.08.29.6
+- Integrierter Nydus HD Stream-Proxy & FooBarX TS-Decoder für verschlüsselte Live-HD-Streams (VOX, RTL, SAT.1, SRF etc.).
+- Robustes Segment-Handling und direkter Playback-Support in Kodi.
+
+2026.08.29.5
+- LiteTV (2ix2 und Nydus) als zusätzliche Live-TV-Quelle für DE, AT und CH integriert.
+- Eigener Menüpunkt „LITETV - GRUPPEN“ in Live-Gruppen und Integration in Live-Alle.
+- Einstellbare Quellen-Priorität (Vorrang zwischen VAVOO, Stalker und LiteTV) in den TV-Settings hinzugefügt.
+- Eigene Einstellungen für LiteTV mit Ein-/Ausschalten, Ländergruppen-Auswahl und Cache-Verwaltung.
+
 2026.08.29.4
 - M3U8-Streams werden vor der Wiedergabe inklusive Unter-Playlist und Mediensegment geprüft.
 - Bei einem erkannten Streamstillstand wird beim nächsten Versuch die nächste Quelle verwendet.
