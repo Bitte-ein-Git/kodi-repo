@@ -1,0 +1,133 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-id="1183" tvg-logo="https://michaz1988.github.io/logos/animalplanet.png" group-title="Dokus & Wissen",Animal Planet
+plugin://plugin.video.vavooto/?name=ANIMAL+PLANET
+
+#EXTINF:-1 tvg-id="656" tvg-logo="https://michaz1988.github.io/logos/automotorsport.png" group-title="Dokus & Wissen",Auto Motor Sport
+plugin://plugin.video.vavooto/?name=AUTO+MOTOR+SPORT
+
+#EXTINF:-1 tvg-id="756" tvg-logo="https://michaz1988.github.io/logos/curiositychannel.png" group-title="Dokus & Wissen",Curiosity Channel
+plugin://plugin.video.vavooto/?name=CURIOSITY+CHANNEL
+
+#EXTINF:-1 tvg-id="531" tvg-logo="https://michaz1988.github.io/logos/cartoonnetwork.png" group-title="Pay-TV",Cartoon Network
+plugin://plugin.video.vavooto/?name=CARTOON+NETWORK
+
+#EXTINF:-1 tvg-id="471" tvg-logo="https://michaz1988.github.io/logos/13thstreet.png" group-title="Pay-TV",13TH Street
+plugin://plugin.video.vavooto/?name=13TH+STREET
+
+#EXTINF:-1 tvg-id="468" tvg-logo="https://michaz1988.github.io/logos/axnblack.png" group-title="Pay-TV",AXN BLACK
+plugin://plugin.video.vavooto/?name=AXN+BLACK
+
+#EXTINF:-1 tvg-id="778" tvg-logo="https://michaz1988.github.io/logos/axnwhite.png" group-title="Pay-TV",AXN WHITE
+plugin://plugin.video.vavooto/?name=AXN+WHITE
+
+#EXTINF:-1 tvg-id="138" tvg-logo="https://michaz1988.github.io/logos/discovery.png" group-title="Pay-TV",Discovery
+plugin://plugin.video.vavooto/?name=DISCOVERY
+
+#EXTINF:-1 tvg-id="12188" tvg-logo="https://michaz1988.github.io/logos/dazn1.png" group-title="Sport",DAZN 1
+plugin://plugin.video.vavooto/?name=DAZN+1
+
+#EXTINF:-1 tvg-id="12189" tvg-logo="https://michaz1988.github.io/logos/dazn2.png" group-title="Sport",DAZN 2
+plugin://plugin.video.vavooto/?name=DAZN+2
+
+#EXTINF:-1 tvg-id="18" tvg-logo="https://michaz1988.github.io/logos/eurosport2.png" group-title="Sport",Eurosport 2
+plugin://plugin.video.vavooto/?name=EUROSPORT+2
+
+#EXTINF:-1 tvg-id="568" tvg-logo="https://michaz1988.github.io/logos/fix&foxi.png" group-title="Pay-TV",Fix und Foxi
+plugin://plugin.video.vavooto/?name=FIX+%26+FOXI
+
+#EXTINF:-1 tvg-id="4002" tvg-logo="https://michaz1988.github.io/logos/geotv.png" group-title="Pay-TV",Geo
+plugin://plugin.video.vavooto/?name=GEO+TV
+
+#EXTINF:-1 tvg-id="452" tvg-logo="https://michaz1988.github.io/logos/history.png" group-title="Pay-TV",History
+plugin://plugin.video.vavooto/?name=HISTORY
+
+#EXTINF:-1 tvg-id="492" tvg-logo="https://michaz1988.github.io/logos/kabel1classics.png" group-title="Pay-TV",Kabel 1 Classics
+plugin://plugin.video.vavooto/?name=KABEL+1+CLASSICS
+
+#EXTINF:-1 tvg-id="450" tvg-logo="https://michaz1988.github.io/logos/kinowelt.png" group-title="Pay-TV",Kinowelt
+plugin://plugin.video.vavooto/?name=KINOWELT
+
+#EXTINF:-1 tvg-id="627" tvg-logo="https://michaz1988.github.io/logos/motorvision.png" group-title="Pay-TV",Motorvision
+plugin://plugin.video.joyn/?mode=play_video&video_id=motorvision-de-hd&stream_type=LIVE
+
+#EXTINF:-1 tvg-id="453" tvg-logo="https://michaz1988.github.io/logos/nationalgeographic.png" group-title="Pay-TV",National Geographic
+plugin://plugin.video.vavooto/?name=NATIONAL+GEOGRAPHIC
+
+#EXTINF:-1 tvg-id="626" tvg-logo="https://michaz1988.github.io/logos/natgeowild.png" group-title="Pay-TV",National Geographic Wild
+plugin://plugin.video.vavooto/?name=NAT+GEO+WILD
+
+#EXTINF:-1 tvg-id="765" tvg-logo="https://michaz1988.github.io/logos/pro7fun.png" group-title="Pay-TV",ProSieben  FUN
+plugin://plugin.video.vavooto/?name=PRO+7+FUN
+
+#EXTINF:-1 tvg-id="527" tvg-logo="https://michaz1988.github.io/logos/rtlcrime.png" group-title="Pay-TV",RTL Crime
+plugin://plugin.video.vavooto/?name=RTL+CRIME
+
+#EXTINF:-1 tvg-id="528" tvg-logo="https://michaz1988.github.io/logos/rtlliving.png" group-title="Pay-TV",RTL Living
+plugin://plugin.video.vavooto/?name=RTL+LIVING
+
+#EXTINF:-1 tvg-id="529" tvg-logo="https://michaz1988.github.io/logos/rtlpassion.png" group-title="Pay-TV",RTL Passion
+plugin://plugin.video.vavooto/?name=RTL+PASSION
+
+#EXTINF:-1 tvg-id="766" tvg-logo="https://michaz1988.github.io/logos/sat1emotions.png" group-title="Pay-TV",Sat 1 Emotions
+plugin://plugin.video.vavooto/?name=SAT+1+EMOTIONS
+
+#EXTINF:-1 tvg-id="451" tvg-logo="https://michaz1988.github.io/logos/silverline.png" group-title="Pay-TV",Silverline
+plugin://plugin.video.vavooto/?name=SILVERLINE
+
+#EXTINF:-1 tvg-id="767" tvg-logo="https://michaz1988.github.io/logos/skyatlantic.png" group-title="Pay-TV",Sky Atlantic
+plugin://plugin.video.vavooto/?name=SKY+ATLANTIC
+
+#EXTINF:-1 tvg-id="613" tvg-logo="https://michaz1988.github.io/logos/skycinemaaction.png" group-title="Pay-TV",Sky Cinema Action
+plugin://plugin.video.vavooto/?name=SKY+CINEMA+ACTION
+
+#EXTINF:-1 tvg-id="614" tvg-logo="https://michaz1988.github.io/logos/skycinemaclassics.png" group-title="Pay-TV",Sky Cinema Classics
+plugin://plugin.video.vavooto/?name=SKY+CINEMA+CLASSICS
+
+#EXTINF:-1 tvg-id="12042" tvg-logo="https://michaz1988.github.io/logos/skycinemafamily.png" group-title="Pay-TV",Sky Cinema Family
+plugin://plugin.video.vavooto/?name=SKY+CINEMA+FAMILY
+
+#EXTINF:-1 tvg-id="12195" tvg-logo="https://michaz1988.github.io/logos/skycinemahighlights.png" group-title="Pay-TV",Sky Cinema Highlights
+plugin://plugin.video.vavooto/?name=SKY+CINEMA+HIGHLIGHTS
+
+#EXTINF:-1 tvg-id="610" tvg-logo="https://michaz1988.github.io/logos/skycinemapremieren.png" group-title="Pay-TV",Sky Cinema Premieren
+plugin://plugin.video.vavooto/?name=SKY+CINEMA+PREMIEREN
+
+#EXTINF:-1 tvg-id="603" tvg-logo="https://michaz1988.github.io/logos/skycrime.png" group-title="Pay-TV",Sky Crime
+plugin://plugin.video.vavooto/?name=SKY+CRIME
+
+#EXTINF:-1 tvg-id="12148" tvg-logo="https://michaz1988.github.io/logos/skydocumentaries.png" group-title="Pay-TV",Sky Documentaries
+plugin://plugin.video.vavooto/?name=SKY+DOCUMENTARIES
+
+#EXTINF:-1 tvg-id="615" tvg-logo="https://michaz1988.github.io/logos/skykrimi.png" group-title="Pay-TV",Sky Krimi
+plugin://plugin.video.vavooto/?name=SKY+KRIMI
+
+#EXTINF:-1 tvg-id="12147" tvg-logo="https://michaz1988.github.io/logos/skynature.png" group-title="Pay-TV",Sky Nature
+plugin://plugin.video.vavooto/?name=SKY+NATURE
+
+#EXTINF:-1 tvg-id="12046" tvg-logo="https://michaz1988.github.io/logos/sky1.png" group-title="Pay-TV",Sky ONE
+plugin://plugin.video.vavooto/?name=SKY+ONE
+
+#EXTINF:-1 tvg-id="12184" tvg-logo="https://michaz1988.github.io/logos/skyshowcase.png" group-title="Pay-TV",Sky Showcase
+plugin://plugin.video.vavooto/?name=SKY+SHOWCASE
+
+#EXTINF:-1 tvg-id="625" tvg-logo="https://michaz1988.github.io/logos/spiegelgeschichte.png" group-title="Pay-TV",Spiegel Geschichte
+plugin://plugin.video.vavooto/?name=SPIEGEL+GESCHICHTE
+
+#EXTINF:-1 tvg-id="564" tvg-logo="https://michaz1988.github.io/logos/sportdigital.png" group-title="Sport",Sport digital
+plugin://plugin.video.vavooto/?name=SPORT+DIGITAL
+
+#EXTINF:-1 tvg-id="472" tvg-logo="https://michaz1988.github.io/logos/syfy.png" group-title="Pay-TV",Syfy
+plugin://plugin.video.vavooto/?name=SYFY
+
+#EXTINF:-1 tvg-id="782" tvg-logo="https://michaz1988.github.io/logos/universaltv.png" group-title="Pay-TV",Universal Channel
+plugin://plugin.video.vavooto/?name=UNIVERSAL+TV
+
+#EXTINF:-1 tvg-id="12035" tvg-logo="https://michaz1988.github.io/logos/warnertvcomedy.png" group-title="Pay-TV",WarnerTV Comedy
+plugin://plugin.video.vavooto/?name=WARNER+TV+COMEDY
+
+#EXTINF:-1 tvg-id="633" tvg-logo="https://michaz1988.github.io/logos/warnertvfilm.png" group-title="Pay-TV",WarnerTV Film
+plugin://plugin.video.vavooto/?name=WARNER+TV+FILM
+
+#EXTINF:-1 tvg-id="590" tvg-logo="https://michaz1988.github.io/logos/warnertvserie.png" group-title="Pay-TV",WarnerTV Serie
+plugin://plugin.video.vavooto/?name=WARNER+TV+SERIE
