@@ -2979,386 +2979,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20260902224617 +0000" stop="20260902232018 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Drop In Tour</title>
-<sub-title lang="en">South America Tour</sub-title>
-<desc lang="en">Skaters Ryan Sheckler, Jamie Foy, Torey Pudwill, Felipe Gustavo, Ryan Decenzo, Alex Sorgente, Angelo Caro, Gustavo Ribeiro, Gavin Bottger and friends rip right through Brazil, Argentina and Chile.</desc>
-<category lang="en">Skateboard Street</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:94a86d40-5c7d-4f01-95b7-838b6c5fb48e/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:daaded1a-97a0-48d8-8136-a64224913a29/red-bull-drop-in-tour-south-america-tour</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:daaded1a-97a0-48d8-8136-a64224913a29</episode-num>
-<episode-num system="xmltv_ns">0.3.0</episode-num>
-<episode-num system="original-air-date">2026-08-25 13:25:46</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:94a86d40-5c7d-4f01-95b7-838b6c5fb48e</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260902232018 +0000" stop="20260902233520 +0000" channel="Red Bull TV.en"><title lang="en">Skate Tales</title>
-<sub-title lang="en">Andy Anderson skates in Venice Beach</sub-title>
-<desc lang="en">Andy Anderson is skateboarding's chameleon. Whether it's street or park, contest or freestyle, it's all in Andy's world. Madars Apse heads to LA's Venice Beach to meet the legend who defies labels.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:8b8fb23a-3e22-40b7-a94b-07ede17ed8ef/skate-tales-s4-e1</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:8b8fb23a-3e22-40b7-a94b-07ede17ed8ef</episode-num>
-<episode-num system="xmltv_ns">3.0.0</episode-num>
-<episode-num system="original-air-date">2026-08-31 20:38:36</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260902233520 +0000" stop="20260902235143 +0000" channel="Red Bull TV.en"><title lang="en">Skate Tales</title>
-<sub-title lang="en">Milton Martinez – street legend born into skating</sub-title>
-<desc lang="en">Raised in a family immersed in skate culture, Milton Martinez rose to fame in Argentina. But to truly make his mark, he embarked on a US adventure. Skate Tales takes him back to where it all began.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:b0b066db-fcac-4d5a-8f9f-07aa4bf1568b/skate-tales-s4-e2</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:b0b066db-fcac-4d5a-8f9f-07aa4bf1568b</episode-num>
-<episode-num system="xmltv_ns">3.1.0</episode-num>
-<episode-num system="original-air-date">2026-08-31 20:53:39</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260902235143 +0000" stop="20260903003543 +0000" channel="Red Bull TV.en"><title lang="en">Inside Pro Surfing</title>
-<sub-title lang="en">Rip Curl Pro Bells Beach</sub-title>
-<desc lang="en">Elite surfers compete at the Rip Curl Pro Bells Beach, chasing legendary Australian waves and pushing their limits on one of the world’s most iconic and challenging surf breaks.</desc>
-<category lang="en">Surfing Competition</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:1fd62542-4bd8-4abf-984f-080c5e5d7fdc/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:eda111c3-ac88-4aed-8183-420f0d88410b/inside-pro-surfing-s2-e1</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:eda111c3-ac88-4aed-8183-420f0d88410b</episode-num>
-<episode-num system="xmltv_ns">1.0.0</episode-num>
-<episode-num system="original-air-date">2026-08-31 21:10:02</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:1fd62542-4bd8-4abf-984f-080c5e5d7fdc</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260903003543 +0000" stop="20260903011943 +0000" channel="Red Bull TV.en"><title lang="en">WSL Replay</title>
-<sub-title lang="en">Bonsoy Gold Coast Pro</sub-title>
-<desc lang="en">The 2026 Gold Coast Pro served up four days of spectacular waves, insane surfing, and a crowd energy like no other.</desc>
-<category lang="en">Surfing Competition</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:171ade0d-688d-4032-8869-99250b3f627c/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:28c45e40-cf04-40ad-ae7b-8893a923cd2a/wsl-replay-s1-e3</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:28c45e40-cf04-40ad-ae7b-8893a923cd2a</episode-num>
-<episode-num system="xmltv_ns">0.2.0</episode-num>
-<episode-num system="original-air-date">2026-08-31 21:54:02</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:171ade0d-688d-4032-8869-99250b3f627c</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260903011943 +0000" stop="20260903020539 +0000" channel="Red Bull TV.en"><title lang="en">NOW DAYS</title>
-<sub-title lang="en">Trailblazing women changing surfing forever</sub-title>
-<desc lang="en">This is what happens when generational talents converge in the water, blurring the line between friendship and rivalry, where proximity, repetition and shared conditions elevate everyone involved.</desc>
-<category lang="en">Surfing</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:ecf024bf-0f10-48df-a47f-181a0a9d36f1/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:films:ecf024bf-0f10-48df-a47f-181a0a9d36f1/now-days</url>
-<episode-num system="redbull.com">episode/rrn:content:films:ecf024bf-0f10-48df-a47f-181a0a9d36f1</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260903020539 +0000" stop="20260903030351 +0000" channel="Red Bull TV.en"><title lang="en">Blue Crush</title>
-<sub-title lang="en">The rise of women's surfing in the 1990s</sub-title>
-<desc lang="en">A landmark film of its time, Blue Crush captures the rise of women’s surfing in the late '90s, led by Lisa Andersen, Rochelle Ballard, Layne Beachley, Serena Brooke and Megan Abubo.</desc>
-<category lang="en">Surfing</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:909fbda4-9108-4f7f-a395-f3a02edf0e27/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:films:909fbda4-9108-4f7f-a395-f3a02edf0e27/blue-crush</url>
-<episode-num system="redbull.com">episode/rrn:content:films:909fbda4-9108-4f7f-a395-f3a02edf0e27</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-</programme>
-  <programme start="20260903030351 +0000" stop="20260903032951 +0000" channel="Red Bull TV.en"><title lang="en">For Reals</title>
-<sub-title lang="en">From freerunning Greek isles to skiing the Streif</sub-title>
-<desc lang="en">A gnarly shipping container BMX set-up. Freerunning in Santorini. Taking on the Streif at night. Enduro riding on a volcano. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:ff4396fb-683e-449c-a211-427bd260059d/for-reals-s1-e8</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:ff4396fb-683e-449c-a211-427bd260059d</episode-num>
-<episode-num system="xmltv_ns">0.7.0</episode-num>
-<episode-num system="original-air-date">2026-08-11 14:21:25</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260903032951 +0000" stop="20260903035627 +0000" channel="Red Bull TV.en"><title lang="en">For Reals</title>
-<sub-title lang="en">From F1 soapbox racing to breaking world records</sub-title>
-<desc lang="en">Breaking world records – it's all in a day's work for Red Bull athletes! See Felix Baumgartner jump from space, 65 women skydive together and one BMXer conquer the globe's biggest full loop.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:90e91a7d-74bb-42b7-b9b3-078865d7b451/for-reals-s1-e2</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:90e91a7d-74bb-42b7-b9b3-078865d7b451</episode-num>
-<episode-num system="xmltv_ns">0.1.0</episode-num>
-<episode-num system="original-air-date">2026-08-11 16:06:01</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260903035627 +0000" stop="20260903042227 +0000" channel="Red Bull TV.en"><title lang="en">For Reals</title>
-<sub-title lang="en">From soapbox madness to skydiving with an FMX bike</sub-title>
-<desc lang="en">Snowboarding – or, rather sandboarding – in the desert. Rally cars on frozen lakes. The wackiness of soapbox racing. Skydiving with a motocross bike. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:25bd9023-2792-464f-a774-984f840f4a4e/for-reals-s1-e9</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:25bd9023-2792-464f-a774-984f840f4a4e</episode-num>
-<episode-num system="xmltv_ns">0.8.0</episode-num>
-<episode-num system="original-air-date">2026-08-11 15:40:01</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260903042227 +0000" stop="20260903044827 +0000" channel="Red Bull TV.en"><title lang="en">For Reals</title>
-<sub-title lang="en">From a pinball human to 93kph speed skating</sub-title>
-<desc lang="en">Speed skating into the record books at 93kph. Office skateboarding. BASE jumping on Mount Everest. Diving into crocodile waters. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:8864b788-5908-493e-83ec-3421aa40df59/for-reals-s1-e3</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:8864b788-5908-493e-83ec-3421aa40df59</episode-num>
-<episode-num system="xmltv_ns">0.2.0</episode-num>
-<episode-num system="original-air-date">2026-08-11 16:58:37</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260903044827 +0000" stop="20260903051503 +0000" channel="Red Bull TV.en"><title lang="en">For Reals</title>
-<sub-title lang="en">From BASE jumping a cave to a flying mega swing </sub-title>
-<desc lang="en">Wingsuit flying through London’s Tower Bridge at 246kph. Swinging from a hot air balloon. Slacklining the length of two football fields. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:2664328f-b440-42e2-9241-b99235650fb9/for-reals-s1-e7</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:2664328f-b440-42e2-9241-b99235650fb9</episode-num>
-<episode-num system="xmltv_ns">0.6.0</episode-num>
-<episode-num system="original-air-date">2026-08-18 12:16:26</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260903051503 +0000" stop="20260903054103 +0000" channel="Red Bull TV.en"><title lang="en">For Reals</title>
-<sub-title lang="en">From wingsuits to parachutes</sub-title>
-<desc lang="en">Freethrow master vs robot. High-flying action from wingsuits to parachutes. Wakeboarding in Chile. Barrel racing with a dirtbike. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:00ea3330-3896-488e-ad9a-35fcee77cee4/for-reals-s1-e10</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:00ea3330-3896-488e-ad9a-35fcee77cee4</episode-num>
-<episode-num system="xmltv_ns">0.9.0</episode-num>
-<episode-num system="original-air-date">2026-09-01 02:33:21</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260903054103 +0000" stop="20260903054903 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
-<sub-title lang="en">2014's best runs</sub-title>
-<desc lang="en">These are the fearless teams who pushed their soapbox racers to the limits to smash the speed limits and sometimes the track markers in 2014's races.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:92104b5e-210a-4035-82ea-482019925ec0/red-bull-soapbox-race-fast-and-fearless-e1</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:92104b5e-210a-4035-82ea-482019925ec0</episode-num>
-<episode-num system="xmltv_ns">0.0.0</episode-num>
-<episode-num system="original-air-date">2026-08-20 17:38:54</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260903054903 +0000" stop="20260903060000 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
-<sub-title lang="en">2018's top car designs</sub-title>
-<desc lang="en">From a rapid UFO to a seriously engineered vintage airliner and real life unicorn, 2018's top soapbox designs really flew down the track.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:2e79c872-afeb-4a4f-9459-5240e9cea7f3/red-bull-soapbox-race-genius-designs-e5</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:2e79c872-afeb-4a4f-9459-5240e9cea7f3</episode-num>
-<episode-num system="xmltv_ns">1.4.0</episode-num>
-<episode-num system="original-air-date">2026-08-13 17:31:10</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260903060000 +0000" stop="20260903063217 +0000" channel="Red Bull TV.en"><title lang="en">Michelle Khare's Great World Race</title>
-<sub-title lang="en">Pt. 2: I ran 7 marathons in 7 days on 7 continents</sub-title>
-<desc lang="en">Michelle battles extreme heat in Australia and Abu Dhabi, forming powerful bonds with fellow racers as injuries and exhaustion threaten the race.</desc>
-<category lang="en">Running</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:8c01bf90-9eef-4a56-8bc3-0a2fcfdc7fcf/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:3633c16e-98e3-4450-80c8-5268d578951c/michelle-khares-great-world-race-s1-e2</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:3633c16e-98e3-4450-80c8-5268d578951c</episode-num>
-<episode-num system="xmltv_ns">0.1.0</episode-num>
-<episode-num system="original-air-date">2026-09-01 03:25:21</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:8c01bf90-9eef-4a56-8bc3-0a2fcfdc7fcf</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260903063217 +0000" stop="20260903065432 +0000" channel="Red Bull TV.en"><title lang="en">Michelle Khare's Great World Race</title>
-<sub-title lang="en">Pt. 3: I ran 7 marathons in 7 days on 7 continents</sub-title>
-<desc lang="en">Michelle faces Colombia’s brutal heat and humidity in the final stretch of the Great World Race. With everything on the line, will she make it to the final finish?</desc>
-<category lang="en">Running</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:8c01bf90-9eef-4a56-8bc3-0a2fcfdc7fcf/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:be4f126f-3667-4156-b2fd-069bdfc645d5/michelle-khares-great-world-race-s1-e3</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:be4f126f-3667-4156-b2fd-069bdfc645d5</episode-num>
-<episode-num system="xmltv_ns">0.2.0</episode-num>
-<episode-num system="original-air-date">2026-09-01 03:57:39</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:8c01bf90-9eef-4a56-8bc3-0a2fcfdc7fcf</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260903065432 +0000" stop="20260903073518 +0000" channel="Red Bull TV.en"><title lang="en">Michelle Khare's Great World Race</title>
-<sub-title lang="en">Pt. 1: I ran 7 marathons in 7 days on 7 continents</sub-title>
-<desc lang="en">After months of elite training Michelle begins The Great World Race, racing from Cape Town to the blistering cold of Antarctica, where she must finish in 8 hours or be left behind.</desc>
-<category lang="en">Running</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:8c01bf90-9eef-4a56-8bc3-0a2fcfdc7fcf/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:a3931605-32cb-413b-980f-3811cc8a263a/michelle-khares-great-world-race-s1-e1</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:a3931605-32cb-413b-980f-3811cc8a263a</episode-num>
-<episode-num system="xmltv_ns">0.0.0</episode-num>
-<episode-num system="original-air-date">2026-09-01 04:19:54</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:8c01bf90-9eef-4a56-8bc3-0a2fcfdc7fcf</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260903073518 +0000" stop="20260903082754 +0000" channel="Red Bull TV.en"><title lang="en">Wings for Life World Run 2026</title>
-<sub-title lang="en">Relive the world's largest running event</sub-title>
-<desc lang="en">Watch the best moments from the 13th edition of the world’s largest running event. Runners and wheelchair-users across the globe came together with a shared goal: find a cure for spinal cord injury.</desc>
-<category lang="en">Running</category>
-<icon src="https://resources.redbull.tv/rrn:content:videos:0f11daab-b1a5-4462-b6b8-da84cc918d61/rbtv_display_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:videos:0f11daab-b1a5-4462-b6b8-da84cc918d61/wings-for-life-world-run-2026-highlights</url>
-<episode-num system="redbull.com">episode/rrn:content:videos:0f11daab-b1a5-4462-b6b8-da84cc918d61</episode-num>
-<episode-num system="original-air-date">2026-09-01 05:00:39</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260903082754 +0000" stop="20260903085354 +0000" channel="Red Bull TV.en"><title lang="en">Mondo Classic 2025</title>
-<sub-title lang="en">Pole vaulting highlights from Mondo Classic</sub-title>
-<desc lang="en">Watch world-class pole vaulting at its best as Armand 'Mondo' Duplantis takes on his fiercest competitors on his home turf in Sweden at Mondo Classic 2025, a gala-format event set to music.</desc>
-<category lang="en">Pole Vault</category>
-<icon src="https://resources.redbull.tv/rrn:content:videos:47a8bc5a-fd51-47c8-ba84-64ce6f25034a/rbtv_display_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:videos:47a8bc5a-fd51-47c8-ba84-64ce6f25034a/mondo-classic-2025-highlights</url>
-<episode-num system="redbull.com">episode/rrn:content:videos:47a8bc5a-fd51-47c8-ba84-64ce6f25034a</episode-num>
-<episode-num system="original-air-date">2026-09-01 05:53:16</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260903085354 +0000" stop="20260903093442 +0000" channel="Red Bull TV.en"><title lang="en">More Than Machine</title>
-<sub-title lang="en">Let the games begin</sub-title>
-<desc lang="en">Kalle Rovanperä delivers a shock announcement about his future that reverberates through the paddock. Meanwhile, ruthless battles for the Drivers' Championship take a dramatic turn in Central Europe.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:c7cc0e54-a96b-48e6-bb4b-64ed56bb9ad8/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:a4765d3c-2b5d-4d8c-af16-ec187de6af33/more-than-machine-s2-e6</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:a4765d3c-2b5d-4d8c-af16-ec187de6af33</episode-num>
-<episode-num system="xmltv_ns">0.5.0</episode-num>
-<episode-num system="original-air-date">2026-09-01 06:19:16</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:c7cc0e54-a96b-48e6-bb4b-64ed56bb9ad8</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260903093442 +0000" stop="20260903101347 +0000" channel="Red Bull TV.en"><title lang="en">More Than Machine</title>
-<sub-title lang="en">Resilience</sub-title>
-<desc lang="en">Can Latvian superstar Mārtiņš Sesks bounce back from his lost podium in 2024 to prove he belongs at rally sport's highest level?</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:c7cc0e54-a96b-48e6-bb4b-64ed56bb9ad8/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:591e97e4-cdda-4cd2-a8d1-1530923d6954/more-than-machine-s2-e4</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:591e97e4-cdda-4cd2-a8d1-1530923d6954</episode-num>
-<episode-num system="xmltv_ns">0.3.0</episode-num>
-<episode-num system="original-air-date">2026-09-01 07:00:03</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:c7cc0e54-a96b-48e6-bb4b-64ed56bb9ad8</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260903101347 +0000" stop="20260903105911 +0000" channel="Red Bull TV.en"><title lang="en">More Than Machine</title>
-<sub-title lang="en">Fortune favours the brave</sub-title>
-<desc lang="en">The 2025 season concludes with a dramatic double-header in Japan and Saudi Arabia. From heart-stopping crashes to a stunning run in the Saudi dunes, it all comes down to one final Power Stage.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:c7cc0e54-a96b-48e6-bb4b-64ed56bb9ad8/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:dc8e6b49-0e77-4ebf-b2cf-abb46c33e13d/more-than-machine-s2-e7</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:dc8e6b49-0e77-4ebf-b2cf-abb46c33e13d</episode-num>
-<episode-num system="xmltv_ns">0.6.0</episode-num>
-<episode-num system="original-air-date">2026-09-01 07:39:09</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:c7cc0e54-a96b-48e6-bb4b-64ed56bb9ad8</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260903105911 +0000" stop="20260903114355 +0000" channel="Red Bull TV.en"><title lang="en">More Than Machine</title>
-<sub-title lang="en">Cause and effect</sub-title>
-<desc lang="en">Reigning champ Kalle Rovanperä fights a defiant car, while Takamoto Katsuta battles to save his career. Tension explodes when young challenger Oliver Solberg is given an opportunity to prove himself.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:shows:c7cc0e54-a96b-48e6-bb4b-64ed56bb9ad8/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:e5a9b860-61b6-4b45-b9d0-26e01073fe7c/more-than-machine-s2-e5</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:e5a9b860-61b6-4b45-b9d0-26e01073fe7c</episode-num>
-<episode-num system="xmltv_ns">0.4.0</episode-num>
-<episode-num system="original-air-date">2026-09-01 08:24:32</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:c7cc0e54-a96b-48e6-bb4b-64ed56bb9ad8</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260903114355 +0000" stop="20260903122624 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Erzbergrodeo</title>
-<sub-title lang="en">Carnage from the hardest race on Earth</sub-title>
-<desc lang="en">Experience huge crashes, impossible recoveries, iconic battles and chaos on the Iron Giant over 30 years of Red Bull Erzbergrodeo history, the toughest Hard Enduro race in the world.</desc>
-<category lang="en">Hard Enduro</category>
-<icon src="https://resources.redbull.tv/rrn:content:videos:da1b92ae-91d1-4f37-9dc0-431e94673713/rbtv_display_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:videos:da1b92ae-91d1-4f37-9dc0-431e94673713/carnage-from-the-hardest-race-on-earth</url>
-<episode-num system="redbull.com">episode/rrn:content:videos:da1b92ae-91d1-4f37-9dc0-431e94673713</episode-num>
-<episode-num system="original-air-date">2026-08-25 08:04:26</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260903122624 +0000" stop="20260903124138 +0000" channel="Red Bull TV.en"><title lang="en">Behind the Bullet</title>
-<sub-title lang="en">The return of the fastest MX racer on the planet</sub-title>
-<desc lang="en">After a year filled with injuries and disappointments, Jeffrey ‘The Bullet’ Herlings readies himself to compete for the title once again. Is he still the fastest rider on the planet?</desc>
-<category lang="en">Motocross</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:062c4bd2-5c56-4745-8546-0eea2893dcdd/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:0e899466-1ce7-4554-b1ca-aa3acf3dd991/behind-the-bullet-s2-e1</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:0e899466-1ce7-4554-b1ca-aa3acf3dd991</episode-num>
-<episode-num system="xmltv_ns">1.0.0</episode-num>
-<episode-num system="original-air-date">2026-08-25 05:39:56</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:062c4bd2-5c56-4745-8546-0eea2893dcdd</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260903124138 +0000" stop="20260903125340 +0000" channel="Red Bull TV.en"><title lang="en">Behind the Bullet</title>
-<sub-title lang="en">Is Jeffrey Herlings Grand Prix ready?</sub-title>
-<desc lang="en">Jeffrey Herlings's iron will to win is strong, but after a season on the sidelines due to injury it will take a monumental team effort to exceed expectations at the opening round of the 2023 season.</desc>
-<category lang="en">Motocross</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:062c4bd2-5c56-4745-8546-0eea2893dcdd/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:c9d0d087-8023-416a-b2d4-ac05869e9c50/behind-the-bullet-s2-e2</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:c9d0d087-8023-416a-b2d4-ac05869e9c50</episode-num>
-<episode-num system="xmltv_ns">1.1.0</episode-num>
-<episode-num system="original-air-date">2026-08-25 04:49:30</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:062c4bd2-5c56-4745-8546-0eea2893dcdd</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260903125340 +0000" stop="20260903132131 +0000" channel="Red Bull TV.en"><title lang="en">Behind the Bullet</title>
-<sub-title lang="en">Jeffrey Herlings breaks the all-time wins record</sub-title>
-<desc lang="en">As The Bullet surpasses Stefan Everts's record with 102 grand prix victories at the MXGP of Spain, we explore how talent is identified, nurtured and utilised to achieve greatness.</desc>
-<category lang="en">Motocross</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:062c4bd2-5c56-4745-8546-0eea2893dcdd/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:60360696-43ac-42a8-bbc4-2a0293e98e00/behind-the-bullet-s2-e3</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:60360696-43ac-42a8-bbc4-2a0293e98e00</episode-num>
-<episode-num system="xmltv_ns">1.2.0</episode-num>
-<episode-num system="original-air-date">2026-08-25 05:55:10</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:062c4bd2-5c56-4745-8546-0eea2893dcdd</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
-  <programme start="20260903132131 +0000" stop="20260903134642 +0000" channel="Red Bull TV.en"><title lang="en">Behind the Bullet</title>
-<sub-title lang="en">Jeffrey Herlings prepares for high stakes GP</sub-title>
-<desc lang="en">Discover the meticulous preparation and unwavering determination of the KTM Factory Racing team as they navigate through the highs and lows of Grand Prix motocross racing.</desc>
-<category lang="en">Motocross</category>
-<icon src="https://resources.redbull.tv/rrn:content:shows:062c4bd2-5c56-4745-8546-0eea2893dcdd/rbtv_cover_art_portrait"/>
-<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:eff7fe0a-7a99-4c06-9657-bc8bc1914029/behind-the-bullet-s2-e4</url>
-<episode-num system="redbull.com">episode/rrn:content:episode-videos:eff7fe0a-7a99-4c06-9657-bc8bc1914029</episode-num>
-<episode-num system="xmltv_ns">1.3.0</episode-num>
-<episode-num system="original-air-date">2026-08-25 05:01:31</episode-num>
-<episode-num system="redbull.com">show/rrn:content:shows:062c4bd2-5c56-4745-8546-0eea2893dcdd</episode-num>
-<rating system="Red Bull TV">
-<value>NR</value>
-</rating>
-<date>2026</date></programme>
   <programme start="20260903134642 +0000" stop="20260903140032 +0000" channel="Red Bull TV.en"><title lang="en">Behind the Bullet</title>
 <sub-title lang="en">Jeffrey Herlings is not done yet!</sub-title>
 <desc lang="en">Go behind the scenes at rider equipment manufacturer Alpinestars as Jeffrey Herlings sets his sights on the 2024 MXGP season, in which he hopes for more success before his best years are behind him.</desc>
@@ -3668,6 +3288,432 @@
 <episode-num system="xmltv_ns">0.8.0</episode-num>
 <episode-num system="original-air-date">2026-08-11 15:40:01</episode-num>
 <episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260904011951 +0000" stop="20260904014551 +0000" channel="Red Bull TV.en"><title lang="en">For Reals</title>
+<sub-title lang="en">From a pinball human to 93kph speed skating</sub-title>
+<desc lang="en">Speed skating into the record books at 93kph. Office skateboarding. BASE jumping on Mount Everest. Diving into crocodile waters. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:8864b788-5908-493e-83ec-3421aa40df59/for-reals-s1-e3</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:8864b788-5908-493e-83ec-3421aa40df59</episode-num>
+<episode-num system="xmltv_ns">0.2.0</episode-num>
+<episode-num system="original-air-date">2026-08-11 16:58:37</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260904014551 +0000" stop="20260904021227 +0000" channel="Red Bull TV.en"><title lang="en">For Reals</title>
+<sub-title lang="en">From BASE jumping a cave to a flying mega swing </sub-title>
+<desc lang="en">Wingsuit flying through London’s Tower Bridge at 246kph. Swinging from a hot air balloon. Slacklining the length of two football fields. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:2664328f-b440-42e2-9241-b99235650fb9/for-reals-s1-e7</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:2664328f-b440-42e2-9241-b99235650fb9</episode-num>
+<episode-num system="xmltv_ns">0.6.0</episode-num>
+<episode-num system="original-air-date">2026-08-18 12:16:26</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260904021227 +0000" stop="20260904023827 +0000" channel="Red Bull TV.en"><title lang="en">For Reals</title>
+<sub-title lang="en">From wingsuits to parachutes</sub-title>
+<desc lang="en">Freethrow master vs robot. High-flying action from wingsuits to parachutes. Wakeboarding in Chile. Barrel racing with a dirtbike. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:00ea3330-3896-488e-ad9a-35fcee77cee4/for-reals-s1-e10</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:00ea3330-3896-488e-ad9a-35fcee77cee4</episode-num>
+<episode-num system="xmltv_ns">0.9.0</episode-num>
+<episode-num system="original-air-date">2026-09-01 02:33:21</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260904023827 +0000" stop="20260904030427 +0000" channel="Red Bull TV.en"><title lang="en">For Reals</title>
+<sub-title lang="en">From skydiving with skis to flying into a volcano</sub-title>
+<desc lang="en">Flying a plane 245kph through a tunnel. A wingsuit flight across the crater of an active volcano. A record-breaking truck jump in a ghost town. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:f2cb2ce7-09e1-4656-a37f-a10c80b56502/for-reals-s1-e4</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:f2cb2ce7-09e1-4656-a37f-a10c80b56502</episode-num>
+<episode-num system="xmltv_ns">0.3.0</episode-num>
+<episode-num system="original-air-date">2026-08-11 15:14:01</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:28251908-2cc8-489f-9bb6-9b563abaa72d</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260904030427 +0000" stop="20260904033644 +0000" channel="Red Bull TV.en"><title lang="en">Michelle Khare's Great World Race</title>
+<sub-title lang="en">Pt. 2: I ran 7 marathons in 7 days on 7 continents</sub-title>
+<desc lang="en">Michelle battles extreme heat in Australia and Abu Dhabi, forming powerful bonds with fellow racers as injuries and exhaustion threaten the race.</desc>
+<category lang="en">Running</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:8c01bf90-9eef-4a56-8bc3-0a2fcfdc7fcf/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:3633c16e-98e3-4450-80c8-5268d578951c/michelle-khares-great-world-race-s1-e2</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:3633c16e-98e3-4450-80c8-5268d578951c</episode-num>
+<episode-num system="xmltv_ns">0.1.0</episode-num>
+<episode-num system="original-air-date">2026-09-01 03:25:21</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:8c01bf90-9eef-4a56-8bc3-0a2fcfdc7fcf</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260904033644 +0000" stop="20260904035859 +0000" channel="Red Bull TV.en"><title lang="en">Michelle Khare's Great World Race</title>
+<sub-title lang="en">Pt. 3: I ran 7 marathons in 7 days on 7 continents</sub-title>
+<desc lang="en">Michelle faces Colombia’s brutal heat and humidity in the final stretch of the Great World Race. With everything on the line, will she make it to the final finish?</desc>
+<category lang="en">Running</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:8c01bf90-9eef-4a56-8bc3-0a2fcfdc7fcf/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:be4f126f-3667-4156-b2fd-069bdfc645d5/michelle-khares-great-world-race-s1-e3</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:be4f126f-3667-4156-b2fd-069bdfc645d5</episode-num>
+<episode-num system="xmltv_ns">0.2.0</episode-num>
+<episode-num system="original-air-date">2026-09-01 03:57:39</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:8c01bf90-9eef-4a56-8bc3-0a2fcfdc7fcf</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260904035859 +0000" stop="20260904043945 +0000" channel="Red Bull TV.en"><title lang="en">Michelle Khare's Great World Race</title>
+<sub-title lang="en">Pt. 1: I ran 7 marathons in 7 days on 7 continents</sub-title>
+<desc lang="en">After months of elite training Michelle begins The Great World Race, racing from Cape Town to the blistering cold of Antarctica, where she must finish in 8 hours or be left behind.</desc>
+<category lang="en">Running</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:8c01bf90-9eef-4a56-8bc3-0a2fcfdc7fcf/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:a3931605-32cb-413b-980f-3811cc8a263a/michelle-khares-great-world-race-s1-e1</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:a3931605-32cb-413b-980f-3811cc8a263a</episode-num>
+<episode-num system="xmltv_ns">0.0.0</episode-num>
+<episode-num system="original-air-date">2026-09-01 04:19:54</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:8c01bf90-9eef-4a56-8bc3-0a2fcfdc7fcf</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260904043945 +0000" stop="20260904053146 +0000" channel="Red Bull TV.en"><title lang="en">Wings for Life World Run 2026</title>
+<sub-title lang="en">Relive the world's largest running event</sub-title>
+<desc lang="en">Watch the best moments from the 13th edition of the world’s largest running event. Runners and wheelchair-users across the globe came together with a shared goal: find a cure for spinal cord injury.</desc>
+<category lang="en">Running</category>
+<icon src="https://resources.redbull.tv/rrn:content:videos:0f11daab-b1a5-4462-b6b8-da84cc918d61/rbtv_display_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:videos:0f11daab-b1a5-4462-b6b8-da84cc918d61/wings-for-life-world-run-2026-highlights</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:0f11daab-b1a5-4462-b6b8-da84cc918d61</episode-num>
+<episode-num system="original-air-date">2026-09-01 05:00:39</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260904053146 +0000" stop="20260904054044 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
+<sub-title lang="en">2014's fan-favourite teams</sub-title>
+<desc lang="en">If you can't build a fast soapbox, you can at least build an fun one to entertain the huge crowds and these were 2014's fan favourites.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:0f198110-f827-469e-a813-14da8008d06d/red-bull-soapbox-race-crowd-favourites-e1</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:0f198110-f827-469e-a813-14da8008d06d</episode-num>
+<episode-num system="xmltv_ns">3.0.0</episode-num>
+<episode-num system="original-air-date">2026-08-16 17:21:52</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260904054044 +0000" stop="20260904055008 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
+<sub-title lang="en">2018's best runs</sub-title>
+<desc lang="en">What do flying Italian bagpipes and South Africa's fastest Stone Age racer have in common? They both made the cut among 2018's best Red Bull Soapbox Race runs.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:ade926e3-5095-4398-b28f-66f417bf3e03/red-bull-soapbox-race-fast-and-fearless-e5</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:ade926e3-5095-4398-b28f-66f417bf3e03</episode-num>
+<episode-num system="xmltv_ns">0.4.0</episode-num>
+<episode-num system="original-air-date">2026-08-12 17:49:58</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260904055008 +0000" stop="20260904060000 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
+<sub-title lang="en">2016's top car designs</sub-title>
+<desc lang="en">Nothing less than infinity and beyond was enough for 2016's pop culture-inspired top soapbox design wizards... or at least the finish line.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:fddbee7e-0426-44c2-baa8-cba1fa6bed39/red-bull-soapbox-race-genius-designs-e3</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:fddbee7e-0426-44c2-baa8-cba1fa6bed39</episode-num>
+<episode-num system="xmltv_ns">1.2.0</episode-num>
+<episode-num system="original-air-date">2026-08-16 17:39:28</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260904060000 +0000" stop="20260904064047 +0000" channel="Red Bull TV.en"><title lang="en">More Than Machine</title>
+<sub-title lang="en">Let the games begin</sub-title>
+<desc lang="en">Kalle Rovanperä delivers a shock announcement about his future that reverberates through the paddock. Meanwhile, ruthless battles for the Drivers' Championship take a dramatic turn in Central Europe.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:c7cc0e54-a96b-48e6-bb4b-64ed56bb9ad8/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:a4765d3c-2b5d-4d8c-af16-ec187de6af33/more-than-machine-s2-e6</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:a4765d3c-2b5d-4d8c-af16-ec187de6af33</episode-num>
+<episode-num system="xmltv_ns">0.5.0</episode-num>
+<episode-num system="original-air-date">2026-09-01 06:19:16</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:c7cc0e54-a96b-48e6-bb4b-64ed56bb9ad8</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260904064047 +0000" stop="20260904071953 +0000" channel="Red Bull TV.en"><title lang="en">More Than Machine</title>
+<sub-title lang="en">Resilience</sub-title>
+<desc lang="en">Can Latvian superstar Mārtiņš Sesks bounce back from his lost podium in 2024 to prove he belongs at rally sport's highest level?</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:c7cc0e54-a96b-48e6-bb4b-64ed56bb9ad8/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:591e97e4-cdda-4cd2-a8d1-1530923d6954/more-than-machine-s2-e4</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:591e97e4-cdda-4cd2-a8d1-1530923d6954</episode-num>
+<episode-num system="xmltv_ns">0.3.0</episode-num>
+<episode-num system="original-air-date">2026-09-01 07:00:03</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:c7cc0e54-a96b-48e6-bb4b-64ed56bb9ad8</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260904071953 +0000" stop="20260904080516 +0000" channel="Red Bull TV.en"><title lang="en">More Than Machine</title>
+<sub-title lang="en">Fortune favours the brave</sub-title>
+<desc lang="en">The 2025 season concludes with a dramatic double-header in Japan and Saudi Arabia. From heart-stopping crashes to a stunning run in the Saudi dunes, it all comes down to one final Power Stage.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:c7cc0e54-a96b-48e6-bb4b-64ed56bb9ad8/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:dc8e6b49-0e77-4ebf-b2cf-abb46c33e13d/more-than-machine-s2-e7</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:dc8e6b49-0e77-4ebf-b2cf-abb46c33e13d</episode-num>
+<episode-num system="xmltv_ns">0.6.0</episode-num>
+<episode-num system="original-air-date">2026-09-01 07:39:09</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:c7cc0e54-a96b-48e6-bb4b-64ed56bb9ad8</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260904080516 +0000" stop="20260904085000 +0000" channel="Red Bull TV.en"><title lang="en">More Than Machine</title>
+<sub-title lang="en">Cause and effect</sub-title>
+<desc lang="en">Reigning champ Kalle Rovanperä fights a defiant car, while Takamoto Katsuta battles to save his career. Tension explodes when young challenger Oliver Solberg is given an opportunity to prove himself.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:c7cc0e54-a96b-48e6-bb4b-64ed56bb9ad8/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:e5a9b860-61b6-4b45-b9d0-26e01073fe7c/more-than-machine-s2-e5</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:e5a9b860-61b6-4b45-b9d0-26e01073fe7c</episode-num>
+<episode-num system="xmltv_ns">0.4.0</episode-num>
+<episode-num system="original-air-date">2026-09-01 08:24:32</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:c7cc0e54-a96b-48e6-bb4b-64ed56bb9ad8</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260904085000 +0000" stop="20260904093229 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Erzbergrodeo</title>
+<sub-title lang="en">Carnage from the hardest race on Earth</sub-title>
+<desc lang="en">Experience huge crashes, impossible recoveries, iconic battles and chaos on the Iron Giant over 30 years of Red Bull Erzbergrodeo history, the toughest Hard Enduro race in the world.</desc>
+<category lang="en">Hard Enduro</category>
+<icon src="https://resources.redbull.tv/rrn:content:videos:da1b92ae-91d1-4f37-9dc0-431e94673713/rbtv_display_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:videos:da1b92ae-91d1-4f37-9dc0-431e94673713/carnage-from-the-hardest-race-on-earth</url>
+<episode-num system="redbull.com">episode/rrn:content:videos:da1b92ae-91d1-4f37-9dc0-431e94673713</episode-num>
+<episode-num system="original-air-date">2026-08-25 08:04:26</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260904093229 +0000" stop="20260904094743 +0000" channel="Red Bull TV.en"><title lang="en">Behind the Bullet</title>
+<sub-title lang="en">The return of the fastest MX racer on the planet</sub-title>
+<desc lang="en">After a year filled with injuries and disappointments, Jeffrey ‘The Bullet’ Herlings readies himself to compete for the title once again. Is he still the fastest rider on the planet?</desc>
+<category lang="en">Motocross</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:062c4bd2-5c56-4745-8546-0eea2893dcdd/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:0e899466-1ce7-4554-b1ca-aa3acf3dd991/behind-the-bullet-s2-e1</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:0e899466-1ce7-4554-b1ca-aa3acf3dd991</episode-num>
+<episode-num system="xmltv_ns">1.0.0</episode-num>
+<episode-num system="original-air-date">2026-08-25 05:39:56</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:062c4bd2-5c56-4745-8546-0eea2893dcdd</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260904094743 +0000" stop="20260904095945 +0000" channel="Red Bull TV.en"><title lang="en">Behind the Bullet</title>
+<sub-title lang="en">Is Jeffrey Herlings Grand Prix ready?</sub-title>
+<desc lang="en">Jeffrey Herlings's iron will to win is strong, but after a season on the sidelines due to injury it will take a monumental team effort to exceed expectations at the opening round of the 2023 season.</desc>
+<category lang="en">Motocross</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:062c4bd2-5c56-4745-8546-0eea2893dcdd/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:c9d0d087-8023-416a-b2d4-ac05869e9c50/behind-the-bullet-s2-e2</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:c9d0d087-8023-416a-b2d4-ac05869e9c50</episode-num>
+<episode-num system="xmltv_ns">1.1.0</episode-num>
+<episode-num system="original-air-date">2026-08-25 04:49:30</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:062c4bd2-5c56-4745-8546-0eea2893dcdd</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260904095945 +0000" stop="20260904102736 +0000" channel="Red Bull TV.en"><title lang="en">Behind the Bullet</title>
+<sub-title lang="en">Jeffrey Herlings breaks the all-time wins record</sub-title>
+<desc lang="en">As The Bullet surpasses Stefan Everts's record with 102 grand prix victories at the MXGP of Spain, we explore how talent is identified, nurtured and utilised to achieve greatness.</desc>
+<category lang="en">Motocross</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:062c4bd2-5c56-4745-8546-0eea2893dcdd/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:60360696-43ac-42a8-bbc4-2a0293e98e00/behind-the-bullet-s2-e3</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:60360696-43ac-42a8-bbc4-2a0293e98e00</episode-num>
+<episode-num system="xmltv_ns">1.2.0</episode-num>
+<episode-num system="original-air-date">2026-08-25 05:55:10</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:062c4bd2-5c56-4745-8546-0eea2893dcdd</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260904102736 +0000" stop="20260904105247 +0000" channel="Red Bull TV.en"><title lang="en">Behind the Bullet</title>
+<sub-title lang="en">Jeffrey Herlings prepares for high stakes GP</sub-title>
+<desc lang="en">Discover the meticulous preparation and unwavering determination of the KTM Factory Racing team as they navigate through the highs and lows of Grand Prix motocross racing.</desc>
+<category lang="en">Motocross</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:062c4bd2-5c56-4745-8546-0eea2893dcdd/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:eff7fe0a-7a99-4c06-9657-bc8bc1914029/behind-the-bullet-s2-e4</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:eff7fe0a-7a99-4c06-9657-bc8bc1914029</episode-num>
+<episode-num system="xmltv_ns">1.3.0</episode-num>
+<episode-num system="original-air-date">2026-08-25 05:01:31</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:062c4bd2-5c56-4745-8546-0eea2893dcdd</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260904105247 +0000" stop="20260904110637 +0000" channel="Red Bull TV.en"><title lang="en">Behind the Bullet</title>
+<sub-title lang="en">Jeffrey Herlings is not done yet!</sub-title>
+<desc lang="en">Go behind the scenes at rider equipment manufacturer Alpinestars as Jeffrey Herlings sets his sights on the 2024 MXGP season, in which he hopes for more success before his best years are behind him.</desc>
+<category lang="en">Motocross</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:062c4bd2-5c56-4745-8546-0eea2893dcdd/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:53115200-c501-4596-bb30-c47487f30182/behind-the-bullet-s2-e5</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:53115200-c501-4596-bb30-c47487f30182</episode-num>
+<episode-num system="xmltv_ns">1.4.0</episode-num>
+<episode-num system="original-air-date">2026-08-25 05:26:07</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:062c4bd2-5c56-4745-8546-0eea2893dcdd</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260904110637 +0000" stop="20260904112151 +0000" channel="Red Bull TV.en"><title lang="en">Behind the Bullet</title>
+<sub-title lang="en">The return of the fastest MX racer on the planet</sub-title>
+<desc lang="en">After a year filled with injuries and disappointments, Jeffrey ‘The Bullet’ Herlings readies himself to compete for the title once again. Is he still the fastest rider on the planet?</desc>
+<category lang="en">Motocross</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:062c4bd2-5c56-4745-8546-0eea2893dcdd/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:0e899466-1ce7-4554-b1ca-aa3acf3dd991/behind-the-bullet-s2-e1</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:0e899466-1ce7-4554-b1ca-aa3acf3dd991</episode-num>
+<episode-num system="xmltv_ns">1.0.0</episode-num>
+<episode-num system="original-air-date">2026-08-25 05:39:56</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:062c4bd2-5c56-4745-8546-0eea2893dcdd</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260904112151 +0000" stop="20260904114954 +0000" channel="Red Bull TV.en"><title lang="en">Jorge Prado: Under the Lights</title>
+<sub-title lang="en">The 22-year-old MXGP champ chases a lifelong Supercross crown dream</sub-title>
+<desc lang="en">23-year-old Jorge Prado stands atop European motocross as reigning MXGP World Champion. Now he's chasing a lifelong dream and testing himself by racing Supercross under the bright lights in America.</desc>
+<category lang="en">Motocross</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:c8ddeafe-c02b-494f-b468-b39a4feef97f/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:films:c8ddeafe-c02b-494f-b468-b39a4feef97f/jorge-prado-under-the-lights</url>
+<episode-num system="redbull.com">episode/rrn:content:films:c8ddeafe-c02b-494f-b468-b39a4feef97f</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+</programme>
+  <programme start="20260904114954 +0000" stop="20260904123333 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
+<sub-title lang="en">Cincinnati, Ohio, USA</sub-title>
+<desc lang="en">Thousands gather in Cincinnati, Ohio, USA, to witness these wacky contraptions compete downhill against their biggest opponent… gravity.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:9ccbb389-7b27-59e4-b122-92f88eec8e2e/cincinnati-ohio-red-bull-soapbox-race-s06-e02</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:9ccbb389-7b27-59e4-b122-92f88eec8e2e</episode-num>
+<episode-num system="xmltv_ns">7.1.0</episode-num>
+<episode-num system="original-air-date">2026-09-01 12:09:10</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260904123333 +0000" stop="20260904131657 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
+<sub-title lang="en">Lisbon, Portugal</sub-title>
+<desc lang="en">The steep inclines of Lisbon, Portugal, played a perfect host to Red Bull Soapbox Race to provide the right amount of thrills as teams soared down in their own soapbox cart creations.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:c8dc5fab-a633-5ca0-9e2b-7d7504ec7746/lisbon-portugal-red-bull-soapbox-race-s06-e03</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:c8dc5fab-a633-5ca0-9e2b-7d7504ec7746</episode-num>
+<episode-num system="xmltv_ns">7.2.0</episode-num>
+<episode-num system="original-air-date">2026-09-01 12:52:49</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260904131657 +0000" stop="20260904140015 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
+<sub-title lang="en">Kaunas, Lithuania</sub-title>
+<desc lang="en">Red Bull Soapbox Race 2019 went to Lithuania's second-largest city, Kaunas, and teams behind the hilarious motorless race cars had the time of their lives.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:d7a15787-b6c9-4712-9630-db78f9fd860a/red-bull-soapbox-race-2019-season-e3</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:d7a15787-b6c9-4712-9630-db78f9fd860a</episode-num>
+<episode-num system="xmltv_ns">8.2.0</episode-num>
+<episode-num system="original-air-date">2026-09-01 13:36:14</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260904140015 +0000" stop="20260904144434 +0000" channel="Red Bull TV.en"><title lang="en">Red Bull Soapbox Race</title>
+<sub-title lang="en">Spa, Belgium</sub-title>
+<desc lang="en">Fearless teams race through obstacles in their engineless machines. The day brings many cheers from the enthusiastic crowds – as well as many crashes! So who will be the 2022 winner in Spa?</desc>
+<icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:f5f06b73-7e4a-4211-b3a1-cc7e9c9a80c3/red-bull-soapbox-race-2022-season-e3</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:f5f06b73-7e4a-4211-b3a1-cc7e9c9a80c3</episode-num>
+<episode-num system="xmltv_ns">9.2.0</episode-num>
+<episode-num system="original-air-date">2026-09-01 14:19:32</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260904144434 +0000" stop="20260904150033 +0000" channel="Red Bull TV.en"><title lang="en">Skate Tales</title>
+<sub-title lang="en">Hill bombing San Francisco with Nico Hiraga</sub-title>
+<desc lang="en">Madars Apse joins Nico Hiraga and a local crew to bomb hills and skate iconic San Francisco spots, exploring how the city’s chaotic energy shaped one of skateboarding’s most influential scenes.</desc>
+<category lang="en">Skateboarding</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:ebbd49d3-b5db-4c16-9505-a0425389f6be/skate-tales-s5-e1</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:ebbd49d3-b5db-4c16-9505-a0425389f6be</episode-num>
+<episode-num system="xmltv_ns">4.0.0</episode-num>
+<episode-num system="original-air-date">2026-08-11 03:52:31</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260904150033 +0000" stop="20260904151536 +0000" channel="Red Bull TV.en"><title lang="en">Skate Tales</title>
+<sub-title lang="en">From the streets to global skate icon: Tiago Lemos</sub-title>
+<desc lang="en">Madars Apse travels to Brazil to trace Tiago Lemos’s journey from the streets to global skate stardom. Watch how he chased a bigger dream and rose from one of skateboarding’s toughest scenes.</desc>
+<category lang="en">Skateboarding</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:b113bbe1-71cd-4916-95d5-93b8bc2a4156/skate-tales-s5-e2</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:b113bbe1-71cd-4916-95d5-93b8bc2a4156</episode-num>
+<episode-num system="xmltv_ns">4.1.0</episode-num>
+<episode-num system="original-air-date">2026-08-11 04:08:30</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260904151536 +0000" stop="20260904153021 +0000" channel="Red Bull TV.en"><title lang="en">Skate Tales</title>
+<sub-title lang="en">Inside the Dime Glory Challenge</sub-title>
+<desc lang="en">Madars Apse heads to Montréal for the Dime Glory Challenge. With Alexis Lacroix and Ryan Decenzo he explores the city’s skate scene before stepping into the chaos of skateboarding's most fun event.</desc>
+<category lang="en">Skateboarding</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:9d30a394-7b38-4124-894d-a6075538f70b/skate-tales-s5-e3</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:9d30a394-7b38-4124-894d-a6075538f70b</episode-num>
+<episode-num system="xmltv_ns">4.2.0</episode-num>
+<episode-num system="original-air-date">2026-08-11 04:24:09</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260904153021 +0000" stop="20260904154748 +0000" channel="Red Bull TV.en"><title lang="en">Skate Tales</title>
+<sub-title lang="en">Tokyo’s punk skater – Japanese Super Rat</sub-title>
+<desc lang="en">Madars Apse travels from Zushi to Tokyo with Kento Yoshioka, aka Japanese Super Rat, exploring Japan’s underground skate scene and meeting the creative minds behind Evisen and Tightbooth.</desc>
+<category lang="en">Skateboarding</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:c357b3c1-af8d-4289-88c2-657d3d33122a/skate-tales-s5-e4</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:c357b3c1-af8d-4289-88c2-657d3d33122a</episode-num>
+<episode-num system="xmltv_ns">4.3.0</episode-num>
+<episode-num system="original-air-date">2026-08-11 04:38:54</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce</episode-num>
+<rating system="Red Bull TV">
+<value>NR</value>
+</rating>
+<date>2026</date></programme>
+  <programme start="20260904154748 +0000" stop="20260904160505 +0000" channel="Red Bull TV.en"><title lang="en">Skate Tales</title>
+<sub-title lang="en">Breaking the YouTube algorithm with the Dern Bros</sub-title>
+<desc lang="en">Madars Apse along with Bam Margera and Jamie Thomas track the Dern Brothers from Florida to California to see how they built one of skateboarding’s biggest YouTube channels.</desc>
+<category lang="en">Skateboarding</category>
+<icon src="https://resources.redbull.tv/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce/rbtv_cover_art_portrait"/>
+<url>https://www.redbull.tv/en_INT/page/rrn:content:episode-videos:14833891-d9e0-4296-a0f7-03c636cc4477/skate-tales-s5-e5</url>
+<episode-num system="redbull.com">episode/rrn:content:episode-videos:14833891-d9e0-4296-a0f7-03c636cc4477</episode-num>
+<episode-num system="xmltv_ns">4.4.0</episode-num>
+<episode-num system="original-air-date">2026-08-11 04:56:21</episode-num>
+<episode-num system="redbull.com">show/rrn:content:shows:0edaf652-3e34-426b-bec2-b0f9c3e793ce</episode-num>
 <rating system="Red Bull TV">
 <value>NR</value>
 </rating>
