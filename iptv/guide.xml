@@ -4778,30 +4778,6 @@
   <channel id="RTLTeleLuxembourg.lu">
     <display-name>RTL Télé Lëtzebuerg</display-name>
   </channel>
-  <programme start="20260904050000 +0000" stop="20260904060000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Rediffusioune vu Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260904060000 +0000" stop="20260904180000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260904180000 +0000" stop="20260904182000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260904182000 +0000" stop="20260904182700 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Summermagazin</title>
-    <desc>De Summer zu Lëtzebuerg! Vun Summeraktivitéiten, aussergewéinleche Platzen a Personnagen – och an de Summerméint bidde mer Reportagen iwwert d'Liewen zu Lëtzebuerg.</desc>
-  </programme>
-  <programme start="20260904182700 +0000" stop="20260904183000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Meteo</title>
-    <desc>Nachrichten</desc>
-  </programme>
-  <programme start="20260904183000 +0000" stop="20260905050000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Rediffusioune vu Journal</title>
-    <desc>Info</desc>
-  </programme>
   <programme start="20260905050000 +0000" stop="20260905060000 +0000" channel="RTLTeleLuxembourg.lu">
     <title>Rediffusioune vu Journal</title>
     <desc>Info</desc>
@@ -4834,50 +4810,42 @@
     <title>RTL Radio Web TV</title>
     <desc>Info</desc>
   </programme>
+  <programme start="20260906100000 +0000" stop="20260906110000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Tëleesmass vun Habscht/Hobscheid</title>
+    <desc>Lauschtert d'Mass um Sonndeg am Livestream op RTL Zwee.</desc>
+  </programme>
+  <programme start="20260906110000 +0000" stop="20260906180000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260906180000 +0000" stop="20260906181700 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>De Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260906181700 +0000" stop="20260906182000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Meteo</title>
+    <desc>Nachrichten</desc>
+  </programme>
+  <programme start="20260906182000 +0000" stop="20260906200000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>De Summermagazin</title>
+    <desc>De Summer zu Lëtzebuerg! Vun Summeraktivitéiten, aussergewéinleche Platzen a Personnagen – och an de Summerméint bidde mer Reportagen iwwert d'Liewen zu Lëtzebuerg.</desc>
+  </programme>
+  <programme start="20260906200000 +0000" stop="20260907050000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Rediffusioune vu Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260907050000 +0000" stop="20260907060000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Rediffusioune vu Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20260907060000 +0000" stop="20260907180000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
+  </programme>
   <channel id="RTL.Zwee.lu">
     <display-name>RTL Zwee</display-name>
     <icon src="https://iptv-epg.org/images/oHSmItP6WtPBct623O8G2WwY1UUKinaauYHEqQcVkJSEsQDupbBGhIXVqycpGDDKb6tbS71i4meL--qsxVwayBEazAz7nFhF2bF3ODnkZwi2DIDY"/>
   </channel>
-  <programme start="20260904050000 +0000" stop="20260904060000 +0000" channel="RTL.Zwee.lu">
-    <title>Rediffusioune vu Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260904060000 +0000" stop="20260904122500 +0000" channel="RTL.Zwee.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260904122500 +0000" stop="20260904133500 +0000" channel="RTL.Zwee.lu">
-    <title>FORMULA 1 PIRELLI GRAN PREMIO D'ITALIA 2026 FP1</title>
-    <desc>Hightech, Speed an ëmmer um Limitt. De ganze Weekend, vum Qualifying samsdes bis bei d'Course sonndes, d'Formel 1 ass elo live op RTL ZWEE.</desc>
-  </programme>
-  <programme start="20260904133500 +0000" stop="20260904155500 +0000" channel="RTL.Zwee.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260904155500 +0000" stop="20260904170500 +0000" channel="RTL.Zwee.lu">
-    <title>FORMULA 1 PIRELLI GRAN PREMIO D'ITALIA 2026 FP2</title>
-    <desc>Hightech, Speed an ëmmer um Limitt. De ganze Weekend, vum Qualifying samsdes bis bei d'Course sonndes, d'Formel 1 ass elo live op RTL ZWEE.</desc>
-  </programme>
-  <programme start="20260904170500 +0000" stop="20260904180000 +0000" channel="RTL.Zwee.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260904180000 +0000" stop="20260904182000 +0000" channel="RTL.Zwee.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20260904182000 +0000" stop="20260904182700 +0000" channel="RTL.Zwee.lu">
-    <title>De Summermagazin</title>
-    <desc>De Summer zu Lëtzebuerg! Vun Summeraktivitéiten, aussergewéinleche Platzen a Personnagen – och an de Summerméint bidde mer Reportagen iwwert d'Liewen zu Lëtzebuerg.</desc>
-  </programme>
-  <programme start="20260904182700 +0000" stop="20260904183000 +0000" channel="RTL.Zwee.lu">
-    <title>Meteo</title>
-    <desc>Nachrichten</desc>
-  </programme>
-  <programme start="20260904183000 +0000" stop="20260905050000 +0000" channel="RTL.Zwee.lu">
-    <title>Rediffusioun vu Journal a Magazin</title>
-    <desc>Info</desc>
-  </programme>
   <programme start="20260905050000 +0000" stop="20260905060000 +0000" channel="RTL.Zwee.lu">
     <title>Rediffusioune vu Journal</title>
     <desc>Info</desc>
@@ -4926,61 +4894,49 @@
     <title>RTL Radio Web TV</title>
     <desc>Info</desc>
   </programme>
-  <programme start="20260906100000 +0000" stop="20260906104000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">Lauschtert d'Mass um Sonndeg am Livestream op RTL Zwee.</desc>
-    <title lang="en">Tëleesmass vun Habscht/Hobscheid</title>
+  <programme start="20260906100000 +0000" stop="20260906104000 +0000" channel="RTL.Zwee.lu">
+    <title>Tëleesmass vun Habscht/Hobscheid</title>
+    <desc>Lauschtert d'Mass um Sonndeg am Livestream op RTL Zwee.</desc>
   </programme>
-  <programme start="20260906104000 +0000" stop="20260906113000 +0000" channel="RTL.Zwee.lu"><category lang="en">Motorsport</category>
-    <category>Sports</category>
-    <date>2026</date>
-    <desc lang="en">PORSCHE MOBIL 1 SUPERCUP.</desc>
-    <title lang="en">PORSCHE MOBIL 1 SUPERCUP</title>
+  <programme start="20260906104000 +0000" stop="20260906113000 +0000" channel="RTL.Zwee.lu">
+    <title>PORSCHE MOBIL 1 SUPERCUP</title>
+    <desc>Motorsport</desc>
   </programme>
-  <programme start="20260906113000 +0000" stop="20260906133000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">RTL Radio Web TV.</desc>
-    <title lang="en">RTL Radio Web TV</title>
+  <programme start="20260906113000 +0000" stop="20260906133000 +0000" channel="RTL.Zwee.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
   </programme>
-  <programme start="20260906133000 +0000" stop="20260906161500 +0000" channel="RTL.Zwee.lu"><category lang="en">Motorsport</category>
-    <category>Sports</category>
-    <date>2026</date>
-    <desc lang="en">Hightech, Speed an ëmmer um Limitt. De ganze Weekend, vum Qualifying samsdes bis bei d'Course sonndes, d'Formel 1 ass elo live op RTL ZWEE.</desc>
-    <title lang="en">FORMULA 1 PIRELLI GRAN PREMIO D'ITALIA 2026 Course</title>
+  <programme start="20260906133000 +0000" stop="20260906161500 +0000" channel="RTL.Zwee.lu">
+    <title>FORMULA 1 PIRELLI GRAN PREMIO D'ITALIA 2026 Course</title>
+    <desc>Hightech, Speed an ëmmer um Limitt. De ganze Weekend, vum Qualifying samsdes bis bei d'Course sonndes, d'Formel 1 ass elo live op RTL ZWEE.</desc>
   </programme>
-  <programme start="20260906161500 +0000" stop="20260906180000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">RTL Radio Web TV.</desc>
-    <title lang="en">RTL Radio Web TV</title>
+  <programme start="20260906161500 +0000" stop="20260906180000 +0000" channel="RTL.Zwee.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
   </programme>
-  <programme start="20260906180000 +0000" stop="20260906182000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">De Journal.</desc>
-    <title lang="en">De Journal</title>
+  <programme start="20260906180000 +0000" stop="20260906182000 +0000" channel="RTL.Zwee.lu">
+    <title>De Journal</title>
+    <desc>Info</desc>
   </programme>
-  <programme start="20260906182000 +0000" stop="20260906182700 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <desc lang="en">De Summer zu Lëtzebuerg! Vun Summeraktivitéiten, aussergewéinleche Platzen a Personnagen – och an de Summerméint bidde mer Reportagen iwwert d'Liewen zu Lëtzebuerg.</desc>
-    <title lang="en">De Summermagazin</title>
+  <programme start="20260906182000 +0000" stop="20260906182700 +0000" channel="RTL.Zwee.lu">
+    <title>De Summermagazin</title>
+    <desc>De Summer zu Lëtzebuerg! Vun Summeraktivitéiten, aussergewéinleche Platzen a Personnagen – och an de Summerméint bidde mer Reportagen iwwert d'Liewen zu Lëtzebuerg.</desc>
   </programme>
-  <programme start="20260906182700 +0000" stop="20260906183000 +0000" channel="RTL.Zwee.lu"><category lang="en">Nachrichten</category>
-    <date>2026</date>
-    <desc lang="en">Meteo.</desc>
-    <title lang="en">Meteo</title>
+  <programme start="20260906182700 +0000" stop="20260906183000 +0000" channel="RTL.Zwee.lu">
+    <title>Meteo</title>
+    <desc>Nachrichten</desc>
   </programme>
-  <programme start="20260906183000 +0000" stop="20260907050000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">Rediffusioune vu Journal a Magazin.</desc>
-    <title lang="en">Rediffusioune vu Journal a Magazin</title>
+  <programme start="20260906183000 +0000" stop="20260907050000 +0000" channel="RTL.Zwee.lu">
+    <title>Rediffusioune vu Journal a Magazin</title>
+    <desc>Info</desc>
   </programme>
-  <programme start="20260907050000 +0000" stop="20260907060000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">Rediffusioune vu Journal.</desc>
-    <title lang="en">Rediffusioune vu Journal</title>
+  <programme start="20260907050000 +0000" stop="20260907060000 +0000" channel="RTL.Zwee.lu">
+    <title>Rediffusioune vu Journal</title>
+    <desc>Info</desc>
   </programme>
-  <programme start="20260907060000 +0000" stop="20260907180000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">RTL Radio Web TV.</desc>
-    <title lang="en">RTL Radio Web TV</title>
+  <programme start="20260907060000 +0000" stop="20260907180000 +0000" channel="RTL.Zwee.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
   </programme>
   <programme start="20260907180000 +0000" stop="20260907182000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
     <date>2026</date>
@@ -5115,6 +5071,57 @@
     <title lang="en">Champions League</title>
   </programme>
   <programme start="20260910223000 +0000" stop="20260911050000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">Rediffusioun vu Journal a Magazin.</desc>
+    <title lang="en">Rediffusioun vu Journal a Magazin</title>
+  </programme>
+  <programme start="20260911050000 +0000" stop="20260911060000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">Rediffusioune vu Journal.</desc>
+    <title lang="en">Rediffusioune vu Journal</title>
+  </programme>
+  <programme start="20260911060000 +0000" stop="20260911122500 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">RTL Radio Web TV.</desc>
+    <title lang="en">RTL Radio Web TV</title>
+  </programme>
+  <programme start="20260911122500 +0000" stop="20260911133500 +0000" channel="RTL.Zwee.lu"><category lang="en">Motorsport</category>
+    <category>Sports</category>
+    <date>2026</date>
+    <desc lang="en">Hightech, Speed an ëmmer um Limitt. De ganze Weekend, vum Qualifying samsdes bis bei d'Course sonndes, d'Formel 1 ass elo live op RTL ZWEE.</desc>
+    <title lang="en">FORMULA 1 TAG HEUER GRAN PREMIO DE ESPANA 2026 FP1</title>
+  </programme>
+  <programme start="20260911133500 +0000" stop="20260911155500 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">RTL Radio Web TV.</desc>
+    <title lang="en">RTL Radio Web TV</title>
+  </programme>
+  <programme start="20260911155500 +0000" stop="20260911170500 +0000" channel="RTL.Zwee.lu"><category lang="en">Motorsport</category>
+    <category>Sports</category>
+    <date>2026</date>
+    <desc lang="en">Hightech, Speed an ëmmer um Limitt. De ganze Weekend, vum Qualifying samsdes bis bei d'Course sonndes, d'Formel 1 ass elo live op RTL ZWEE.</desc>
+    <title lang="en">FORMULA 1 TAG HEUER GRAN PREMIO DE ESPANA 2026 FP2</title>
+  </programme>
+  <programme start="20260911170500 +0000" stop="20260911180000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">RTL Radio Web TV.</desc>
+    <title lang="en">RTL Radio Web TV</title>
+  </programme>
+  <programme start="20260911180000 +0000" stop="20260911182000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">De Journal.</desc>
+    <title lang="en">De Journal</title>
+  </programme>
+  <programme start="20260911182000 +0000" stop="20260911182700 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <desc lang="en">De Summer zu Lëtzebuerg! Vun Summeraktivitéiten, aussergewéinleche Platzen a Personnagen – och an de Summerméint bidde mer Reportagen iwwert d'Liewen zu Lëtzebuerg.</desc>
+    <title lang="en">De Summermagazin</title>
+  </programme>
+  <programme start="20260911182700 +0000" stop="20260911183000 +0000" channel="RTL.Zwee.lu"><category lang="en">Nachrichten</category>
+    <date>2026</date>
+    <desc lang="en">Meteo.</desc>
+    <title lang="en">Meteo</title>
+  </programme>
+  <programme start="20260911183000 +0000" stop="20260912050000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
     <date>2026</date>
     <desc lang="en">Rediffusioun vu Journal a Magazin.</desc>
     <title lang="en">Rediffusioun vu Journal a Magazin</title>
