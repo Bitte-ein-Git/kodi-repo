@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-06-25 01:26+0000\n"
+"PO-Revision-Date: 2026-09-07 09:46+0000\n"
 "Last-Translator: Gargotaire <gargots@gmail.com>\n"
 "Language-Team: Catalan <https://translate.jellyfin.org/projects/jellyfin/"
 "jellyfin-kodi/ca/>\n"
@@ -177,7 +177,7 @@ msgstr "Mode de reproducció"
 
 msgctxt "#30512"
 msgid "Enable artwork caching"
-msgstr "Habilita la memòria cau d'imatges"
+msgstr "Habilita la memòria cau de les il·lustracions"
 
 msgctxt "#30515"
 msgid "Paging - max items requested (default: 15)"
@@ -381,7 +381,7 @@ msgstr "Elimina l'usuari"
 
 msgctxt "#33086"
 msgid "Remove all cached artwork?"
-msgstr "Desitgeu eliminar la memòria cau d'imatges?"
+msgstr "Desitgeu eliminar la memòria cau de les il·lustracions?"
 
 msgctxt "#33088"
 msgid "Database reset has completed, Kodi will now restart to apply the changes."
@@ -867,7 +867,7 @@ msgstr ""
 
 msgctxt "#33201"
 msgid "Max artwork resolution"
-msgstr "Resolució màxima per a les imatges"
+msgstr "Resolució màxima per a les il·lustracions"
 
 msgctxt "#33033"
 msgid "A new device Id has been generated. Kodi will now restart."
@@ -989,7 +989,7 @@ msgstr "Opcions de transcodificació"
 
 msgctxt "#33116"
 msgid "Compress artwork (reduces quality)"
-msgstr "Comprimeix les imatges (reduint la qualitat)"
+msgstr "Comprimeix les il·lustracions (reduint la qualitat)"
 
 msgctxt "#33118"
 msgid "You've changed the playback mode. Kodi needs to be reset to apply the change, would you like to do this now?"
@@ -1275,3 +1275,31 @@ msgstr "Entreu aquest codi a l'aplicació de Jellyfin o a la interfície web:"
 msgctxt "#30622"
 msgid "Quick Connect timed out. Please try again."
 msgstr "S'ha esgotat el temps d'espera de Quick Connect. Torneu-ho a provar."
+
+msgctxt "#33262"
+msgid "Skip {0} ({1})"
+msgstr "Salta {0} ({1})"
+
+msgctxt "#33264"
+msgid "{0}m {1}s"
+msgstr "{0}m {1}s"
+
+msgctxt "#33265"
+msgid "{0}s"
+msgstr "{0}s"
+
+msgctxt "#33266"
+msgid "Intro"
+msgstr "Introducció"
+
+msgctxt "#33267"
+msgid "Outro"
+msgstr "Final"
+
+msgctxt "#33268"
+msgid "Ad"
+msgstr "Anunci"
+
+msgctxt "#33269"
+msgid "Enable UpNext add-on integration"
+msgstr "Activa la integració del complement UpNext"
