@@ -14,12 +14,11 @@ import base64
 import time
 from datetime import datetime, timedelta
 from calendar import timegm as TGM
-import requests
-from requests.adapters import HTTPAdapter
 from urllib.parse import parse_qsl, urlencode, quote_plus, unquote_plus
 from concurrent.futures import *
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+from .external import * # psf_requests, psf_requests.HTTPAdapter
 
 
 HOST_AND_PATH				= sys.argv[0]

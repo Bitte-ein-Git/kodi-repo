@@ -46,8 +46,8 @@ class clientHelper():
 		return SWITCH
 
 	def track_several(self, stacks, method='GET', queries='JSON', redirects=True, timeout=5, workers=20):
-		COMBI_NEW, number, counter, fixation, = [], len(stacks), 0, requests.Session()
-		fixation.mount('https://', HTTPAdapter(pool_connections=int(number), pool_maxsize=int(number), pool_block=True)) # Pool-Verbindungen und -Grösse auf tatsächlichen Inhalt festlegen, um Fehlermeldungen zu vermeiden
+		COMBI_NEW, number, counter, fixation, = [], len(stacks), 0, psf_requests.Session()
+		fixation.mount('https://', psf_requests.HTTPAdapter(pool_connections=int(number), pool_maxsize=int(number), pool_block=True)) # Pool-Verbindungen und -Grösse auf tatsächlichen Inhalt festlegen, um Fehlermeldungen zu vermeiden
 		def download(pos, code, link, coident):
 			heading = {**STONE_HEADERS, **{'User-Agent': WEB_AGENT, 'Authorization': f"Bearer {coident}"}}
 			try:
@@ -95,7 +95,7 @@ class clientHelper():
 		while not ANSWER and attempts < 2: # 2 x Pingversuche für den Request ::: zur Überprüfung der Verfügbarkeit der URL
 			attempts += 1
 			try:
-				response = requests.request(method, url, headers=heading, allow_redirects=redirects, data=data, json=json, timeout=timeout)
+				response = psf_requests.request(method, url, headers=heading, allow_redirects=redirects, data=data, json=json, timeout=timeout)
 				ANSWER = response.json() if queries == 'JSON' else response.text if queries == 'TEXT' else response
 				debug_MS(f"(utilities.track_content) === CALLBACK === STATUS : {response.status_code} || URL : {response.url} || HEADER : {response.request.headers} || DATA : {data} ===")
 				if queries == 'JSON' and not isinstance(ANSWER, list) and ANSWER.get('errors', {}):
