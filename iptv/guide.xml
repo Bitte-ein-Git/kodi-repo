@@ -5049,54 +5049,6 @@
   <channel id="RTLTeleLuxembourg.lu">
     <display-name>RTL Télé Lëtzebuerg</display-name>
   </channel>
-  <programme start="20261001070000 +0000" stop="20261001080000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Rediffusioun vu Magazin a Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261001080000 +0000" stop="20261001193000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261001193000 +0000" stop="20261001194700 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Musekbox</title>
-    <desc>Unterhaltung</desc>
-  </programme>
-  <programme start="20261001194700 +0000" stop="20261001200000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Invité vun der Redaktioun</title>
-    <desc>Gespräch</desc>
-  </programme>
-  <programme start="20261001200000 +0000" stop="20261001200200 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Meteoflash</title>
-    <desc>Nachrichten</desc>
-  </programme>
-  <programme start="20261001200200 +0000" stop="20261001203000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Schrëtt fir Schrëtt</title>
-    <desc>Et ginn Amenter am Liewen, do brauch et Courage fir weiderzegoen. Iwwert en halleft Joer hu mir siwe Leit an hirem Alldag begleet. Schrëtt fir Schrëtt – d'Dokuserie, elo ëmmer Donneschdes um 19 Auer.br /br /</desc>
-  </programme>
-  <programme start="20261001203000 +0000" stop="20261001205600 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261001205600 +0000" stop="20261001210000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Meteo</title>
-    <desc>Nachrichten</desc>
-  </programme>
-  <programme start="20261001210000 +0000" stop="20261001220000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Studio 2</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261001220000 +0000" stop="20261001230000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Rediffusioun vu Magazin a Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261001230000 +0000" stop="20261002000000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Studio 2</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261002000000 +0000" stop="20261002070000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Rediffusioun vu Magazin a Journal</title>
-    <desc>Info</desc>
-  </programme>
   <programme start="20261002070000 +0000" stop="20261002080000 +0000" channel="RTLTeleLuxembourg.lu">
     <title>Rediffusioun vu Magazin a Journal</title>
     <desc>Info</desc>
@@ -5133,50 +5085,62 @@
     <title>RTL Documentaire</title>
     <desc>Info</desc>
   </programme>
-  <programme start="20261002223000 +0000" stop="20261003005900 +0000" channel="RTLTeleLuxembourg.lu">
+  <programme start="20261002223000 +0000" stop="20261003070000 +0000" channel="RTLTeleLuxembourg.lu">
     <title>Rediffusioun vu Magazin a Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261003070000 +0000" stop="20261003080000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Rediffusioun vu Magazin a Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261003080000 +0000" stop="20261003100000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261003100000 +0000" stop="20261003110000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>KannaTiVi (Rediffusioun)</title>
+    <desc>Kindersendung</desc>
+  </programme>
+  <programme start="20261003110000 +0000" stop="20261003193000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261003193000 +0000" stop="20261003200000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Musekbox</title>
+    <desc>Unterhaltung</desc>
+  </programme>
+  <programme start="20261003200000 +0000" stop="20261003200200 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Meteoflash</title>
+    <desc>Nachrichten</desc>
+  </programme>
+  <programme start="20261003200200 +0000" stop="20261003203000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Passepartout</title>
+    <desc>Kultur</desc>
+  </programme>
+  <programme start="20261003203000 +0000" stop="20261003204900 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>De Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261003204900 +0000" stop="20261003205600 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Sport News</title>
+    <desc>Sportnews</desc>
+  </programme>
+  <programme start="20261003205600 +0000" stop="20261003210000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Meteo</title>
+    <desc>Nachrichten</desc>
+  </programme>
+  <programme start="20261003210000 +0000" stop="20261004000000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>RTL SPEZIAL – 1 Joer Trounwiessel</title>
+    <desc>Ee Joer nom Trounwiessel vum Grand-Duc Guillaume kucke mir nach eng Kéier op déi schéinste Momenter vun de grousse Feierlechkeeten zeréck.br /</desc>
+  </programme>
+  <programme start="20261004000000 +0000" stop="20261004005900 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Rediffusioun vu Passepartout a Journal</title>
     <desc>Info</desc>
   </programme>
   <channel id="RTL.Zwee.lu">
     <display-name>RTL Zwee</display-name>
     <icon src="https://iptv-epg.org/images/oHSmItP6WtPBct623O8G2WwY1UUKinaauYHEqQcVkJSEsQDupbBGhIXVqycpGDDKb6tbS71i4meL--qsxVwayBEazAz7nFhF2bF3ODnkZwi2DIDY"/>
   </channel>
-  <programme start="20261001070000 +0000" stop="20261001080000 +0000" channel="RTL.Zwee.lu">
-    <title>Rediffusioun vu Magazin a Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261001080000 +0000" stop="20261001193000 +0000" channel="RTL.Zwee.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261001193000 +0000" stop="20261001194700 +0000" channel="RTL.Zwee.lu">
-    <title>Musekbox</title>
-    <desc>Unterhaltung</desc>
-  </programme>
-  <programme start="20261001194700 +0000" stop="20261001200000 +0000" channel="RTL.Zwee.lu">
-    <title>Invité vun der Redaktioun</title>
-    <desc>Gespräch</desc>
-  </programme>
-  <programme start="20261001200000 +0000" stop="20261001200200 +0000" channel="RTL.Zwee.lu">
-    <title>Meteoflash</title>
-    <desc>Nachrichten</desc>
-  </programme>
-  <programme start="20261001200200 +0000" stop="20261001203000 +0000" channel="RTL.Zwee.lu">
-    <title>Schrëtt fir Schrëtt</title>
-    <desc>Et ginn Amenter am Liewen, do brauch et Courage fir weiderzegoen. Iwwert en halleft Joer hu mir siwe Leit an hirem Alldag begleet. Schrëtt fir Schrëtt – d'Dokuserie, elo ëmmer Donneschdes um 19 Auer.br /br /</desc>
-  </programme>
-  <programme start="20261001203000 +0000" stop="20261001205600 +0000" channel="RTL.Zwee.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261001205600 +0000" stop="20261001210000 +0000" channel="RTL.Zwee.lu">
-    <title>Meteo</title>
-    <desc>Nachrichten</desc>
-  </programme>
-  <programme start="20261001210000 +0000" stop="20261002070000 +0000" channel="RTL.Zwee.lu">
-    <title>Rediffusioun vu Magazin a Journal</title>
-    <desc>Info</desc>
-  </programme>
   <programme start="20261002070000 +0000" stop="20261002072500 +0000" channel="RTL.Zwee.lu">
     <title>Rediffusioun vu Magazin a Journal</title>
     <desc>Info</desc>
@@ -5221,8 +5185,36 @@
     <title>Meteo</title>
     <desc>Nachrichten</desc>
   </programme>
-  <programme start="20261002210000 +0000" stop="20261003005900 +0000" channel="RTL.Zwee.lu">
+  <programme start="20261002210000 +0000" stop="20261003070000 +0000" channel="RTL.Zwee.lu">
     <title>Rediffusioun vu Magazin a Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261003070000 +0000" stop="20261003072500 +0000" channel="RTL.Zwee.lu">
+    <title>Rediffusioune vu Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261003072500 +0000" stop="20261003083500 +0000" channel="RTL.Zwee.lu">
+    <title>FORMULA 1 GULF AIR BAHRAIN GRAND PRIX IN MALAYSIA FP3</title>
+    <desc>Motorsport</desc>
+  </programme>
+  <programme start="20261003083500 +0000" stop="20261003105500 +0000" channel="RTL.Zwee.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261003105500 +0000" stop="20261003121000 +0000" channel="RTL.Zwee.lu">
+    <title>FORMULA 1 GULF AIR BAHRAIN GRAND PRIX IN MALAYSIA Quali</title>
+    <desc>Motorsport</desc>
+  </programme>
+  <programme start="20261003121000 +0000" stop="20261003184500 +0000" channel="RTL.Zwee.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261003184500 +0000" stop="20261003220000 +0000" channel="RTL.Zwee.lu">
+    <title>RTL Sport: Futtball Nations League Estland vs Lëtzebuerg</title>
+    <desc>Futtball Nations League Estland vs Lëtzebuerg</desc>
+  </programme>
+  <programme start="20261003220000 +0000" stop="20261004005900 +0000" channel="RTL.Zwee.lu">
+    <title>Rediffusioune vu Passepartout a Journal</title>
     <desc>Info</desc>
   </programme>
   <programme start="20261002050000 +0000" stop="20261002052500 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
