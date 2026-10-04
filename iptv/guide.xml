@@ -4998,58 +4998,166 @@
   <channel id="RTLTeleLuxembourg.lu">
     <display-name>RTL Télé Lëtzebuerg</display-name>
   </channel>
-  <programme start="20261003070000 +0000" stop="20261003080000 +0000" channel="RTLTeleLuxembourg.lu">
+  <programme start="20261004070000 +0000" stop="20261004080000 +0000" channel="RTLTeleLuxembourg.lu">
     <title>Rediffusioun vu Magazin a Journal</title>
     <desc>Info</desc>
   </programme>
-  <programme start="20261003080000 +0000" stop="20261003100000 +0000" channel="RTLTeleLuxembourg.lu">
+  <programme start="20261004080000 +0000" stop="20261004100000 +0000" channel="RTLTeleLuxembourg.lu">
     <title>RTL Radio Web TV</title>
     <desc>Info</desc>
   </programme>
-  <programme start="20261003100000 +0000" stop="20261003110000 +0000" channel="RTLTeleLuxembourg.lu">
+  <programme start="20261004100000 +0000" stop="20261004103000 +0000" channel="RTLTeleLuxembourg.lu">
     <title>KannaTiVi (Rediffusioun)</title>
     <desc>Kindersendung</desc>
   </programme>
-  <programme start="20261003110000 +0000" stop="20261003193000 +0000" channel="RTLTeleLuxembourg.lu">
+  <programme start="20261004103000 +0000" stop="20261004113000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>PISA Classics</title>
+    <desc>Themen déi eis all beschäftegen, wëssenschaftlech hannerfrot vum Olivier Catani a Mister Science.</desc>
+  </programme>
+  <programme start="20261004113000 +0000" stop="20261004120000 +0000" channel="RTLTeleLuxembourg.lu">
     <title>RTL Radio Web TV</title>
     <desc>Info</desc>
   </programme>
-  <programme start="20261003193000 +0000" stop="20261003200000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Musekbox</title>
-    <desc>Unterhaltung</desc>
+  <programme start="20261004120000 +0000" stop="20261004130000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Tëleesmass vu Furen/Fouhren</title>
+    <desc>Info</desc>
   </programme>
-  <programme start="20261003200000 +0000" stop="20261003200200 +0000" channel="RTLTeleLuxembourg.lu">
+  <programme start="20261004130000 +0000" stop="20261004193000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261004193000 +0000" stop="20261004195200 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>KannaTiVi</title>
+    <desc>Kindersendung</desc>
+  </programme>
+  <programme start="20261004195200 +0000" stop="20261004200000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>KannaNiuuss</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261004200000 +0000" stop="20261004200200 +0000" channel="RTLTeleLuxembourg.lu">
     <title>Meteoflash</title>
     <desc>Nachrichten</desc>
   </programme>
-  <programme start="20261003200200 +0000" stop="20261003203000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Passepartout</title>
-    <desc>Kultur</desc>
+  <programme start="20261004200200 +0000" stop="20261004203000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>RTL Sport</title>
+    <desc>Magazin</desc>
   </programme>
-  <programme start="20261003203000 +0000" stop="20261003204900 +0000" channel="RTLTeleLuxembourg.lu">
+  <programme start="20261004203000 +0000" stop="20261004204900 +0000" channel="RTLTeleLuxembourg.lu">
     <title>De Journal</title>
     <desc>Info</desc>
   </programme>
-  <programme start="20261003204900 +0000" stop="20261003205600 +0000" channel="RTLTeleLuxembourg.lu">
+  <programme start="20261004204900 +0000" stop="20261004205600 +0000" channel="RTLTeleLuxembourg.lu">
     <title>Sport News</title>
     <desc>Sportnews</desc>
   </programme>
-  <programme start="20261003205600 +0000" stop="20261003210000 +0000" channel="RTLTeleLuxembourg.lu">
+  <programme start="20261004205600 +0000" stop="20261004210000 +0000" channel="RTLTeleLuxembourg.lu">
     <title>Meteo</title>
     <desc>Nachrichten</desc>
   </programme>
-  <programme start="20261003210000 +0000" stop="20261004000000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>RTL SPEZIAL – 1 Joer Trounwiessel</title>
-    <desc>Ee Joer nom Trounwiessel vum Grand-Duc Guillaume kucke mir nach eng Kéier op déi schéinste Momenter vun de grousse Feierlechkeeten zeréck.br /</desc>
+  <programme start="20261004210000 +0000" stop="20261005070000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Rediffusioun vu Magazin a Journal</title>
+    <desc>Info</desc>
   </programme>
-  <programme start="20261004000000 +0000" stop="20261004005900 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Rediffusioun vu Passepartout a Journal</title>
+  <programme start="20261005070000 +0000" stop="20261005080000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Rediffusioun vu Magazin a Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261005080000 +0000" stop="20261005200000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261005200000 +0000" stop="20261005200200 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Meteoflash</title>
+    <desc>Nachrichten</desc>
+  </programme>
+  <programme start="20261005200200 +0000" stop="20261005203000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Gol</title>
+    <desc>Magazin</desc>
+  </programme>
+  <programme start="20261005203000 +0000" stop="20261005205600 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>De Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261005205600 +0000" stop="20261005210000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Meteo</title>
+    <desc>Nachrichten</desc>
+  </programme>
+  <programme start="20261005210000 +0000" stop="20261006005900 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Rediffusioun vu Magazin a Journal</title>
     <desc>Info</desc>
   </programme>
   <channel id="RTL.Zwee.lu">
     <display-name>RTL Zwee</display-name>
     <icon src="https://iptv-epg.org/images/oHSmItP6WtPBct623O8G2WwY1UUKinaauYHEqQcVkJSEsQDupbBGhIXVqycpGDDKb6tbS71i4meL--qsxVwayBEazAz7nFhF2bF3ODnkZwi2DIDY"/>
   </channel>
+  <programme start="20261004070000 +0000" stop="20261004080000 +0000" channel="RTL.Zwee.lu">
+    <title>Rediffusioune vu Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261004080000 +0000" stop="20261004093000 +0000" channel="RTL.Zwee.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261004093000 +0000" stop="20261004121500 +0000" channel="RTL.Zwee.lu">
+    <title>FORMULA 1 GULF AIR BAHRAIN GRAND PRIX IN MALAYSIA Course</title>
+    <desc>Motorsport</desc>
+  </programme>
+  <programme start="20261004121500 +0000" stop="20261004130000 +0000" channel="RTL.Zwee.lu">
+    <title>Tëleesmass vu Furen/Fouhren</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261004130000 +0000" stop="20261004200000 +0000" channel="RTL.Zwee.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261004200000 +0000" stop="20261004200200 +0000" channel="RTL.Zwee.lu">
+    <title>De Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261004200200 +0000" stop="20261004202700 +0000" channel="RTL.Zwee.lu">
+    <title>RTL Sport</title>
+    <desc>Magazin</desc>
+  </programme>
+  <programme start="20261004202700 +0000" stop="20261004203000 +0000" channel="RTL.Zwee.lu">
+    <title>Meteo</title>
+    <desc>Nachrichten</desc>
+  </programme>
+  <programme start="20261004203000 +0000" stop="20261005070000 +0000" channel="RTL.Zwee.lu">
+    <title>Rediffusioun vu Magazin a Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261005070000 +0000" stop="20261005080000 +0000" channel="RTL.Zwee.lu">
+    <title>Rediffusioun vu Magazin a Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261005080000 +0000" stop="20261005193000 +0000" channel="RTL.Zwee.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261005193000 +0000" stop="20261005200000 +0000" channel="RTL.Zwee.lu">
+    <title>Musekbox</title>
+    <desc>Unterhaltung</desc>
+  </programme>
+  <programme start="20261005200000 +0000" stop="20261005200200 +0000" channel="RTL.Zwee.lu">
+    <title>Meteoflash</title>
+    <desc>Nachrichten</desc>
+  </programme>
+  <programme start="20261005200200 +0000" stop="20261005203000 +0000" channel="RTL.Zwee.lu">
+    <title>Gol</title>
+    <desc>Magazin</desc>
+  </programme>
+  <programme start="20261005203000 +0000" stop="20261005205600 +0000" channel="RTL.Zwee.lu">
+    <title>De Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261005205600 +0000" stop="20261005210000 +0000" channel="RTL.Zwee.lu">
+    <title>Meteo</title>
+    <desc>Nachrichten</desc>
+  </programme>
+  <programme start="20261005210000 +0000" stop="20261006005900 +0000" channel="RTL.Zwee.lu">
+    <title>Rediffusioun vu Magazin a Journal</title>
+    <desc>Info</desc>
+  </programme>
   <programme start="20261004050000 +0000" stop="20261004060000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
     <date>2026</date>
     <desc lang="en">Rediffusioune vu Journal.</desc>
