@@ -2793,63 +2793,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20261006164129 +0000" stop="20261006171946 +0000" channel="Red Bull TV.en"><title>Unrideable</title>
-<sub-title>Through the pain</sub-title>
-<desc>Big drama kicks off at 24MX Hixpania Hard Enduro – the 2024 season finale. Can Manuel Lettenbichler win the World Championship again or will someone else rise to glory?</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:c71ba784-140a-4a36-b6a9-021f2f0faf25/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.4.0</episode-num>
-<episode-num system="original-air-date">2026-10-06 16:41:29</episode-num>
-<date>2026</date></programme>
-  <programme start="20261006171946 +0000" stop="20261006174546 +0000" channel="Red Bull TV.en"><title>For Reals</title>
-<sub-title>From soapbox madness to skydiving with an FMX bike</sub-title>
-<desc>Snowboarding – or, rather sandboarding – in the desert. Rally cars on frozen lakes. The wackiness of soapbox racing. Skydiving with a motocross bike. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:25bd9023-2792-464f-a774-984f840f4a4e/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.8.0</episode-num>
-<episode-num system="original-air-date">2026-10-06 17:19:46</episode-num>
-<date>2026</date></programme>
-  <programme start="20261006174546 +0000" stop="20261006181146 +0000" channel="Red Bull TV.en"><title>For Reals</title>
-<sub-title>From F1 soapbox racing to breaking world records</sub-title>
-<desc>Breaking world records – it's all in a day's work for Red Bull athletes! See Felix Baumgartner jump from space, 65 women skydive together and one BMXer conquer the globe's biggest full loop.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:90e91a7d-74bb-42b7-b9b3-078865d7b451/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.1.0</episode-num>
-<episode-num system="original-air-date">2026-10-06 17:45:46</episode-num>
-<date>2026</date></programme>
-  <programme start="20261006181146 +0000" stop="20261006183746 +0000" channel="Red Bull TV.en"><title>For Reals</title>
-<sub-title>From a paper plane contest to diving off ruins</sub-title>
-<desc>Swamp buggy racing. Sprinting down from the peak of a mountain on a bike. High diving off ancient ruins. Getting the perfect surf shot. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:6a64ab5e-c10a-4065-9f16-0c91a4bc226d/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.4.0</episode-num>
-<episode-num system="original-air-date">2026-07-07 04:05:14</episode-num>
-<date>2026</date></programme>
-  <programme start="20261006183746 +0000" stop="20261006190422 +0000" channel="Red Bull TV.en"><title>For Reals</title>
-<sub-title>From F1 desert racing to a skatepark in the sky</sub-title>
-<desc>Wakeskating off a Dubai skyscraper. F1 drivers racing on Floridan waters and in the Nevada desert. Riding a skatepark attached to a hot air balloon. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:cff46697-c2b7-46aa-a674-e152be37dbe4/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.0.0</episode-num>
-<episode-num system="original-air-date">2026-07-07 02:20:38</episode-num>
-<date>2026</date></programme>
-  <programme start="20261006190422 +0000" stop="20261006193022 +0000" channel="Red Bull TV.en"><title>For Reals</title>
-<sub-title>From skateboarding out a plane to 180m wall climb</sub-title>
-<desc>Touring a town in style on a snowmobile. Freerunning through an airport. Skateboarding out of a flying plane. Ice climbing Niagra Falls. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:da0954da-ca98-4cec-8425-06146469e566/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.5.0</episode-num>
-<episode-num system="original-air-date">2026-10-06 19:04:22</episode-num>
-<date>2026</date></programme>
-  <programme start="20261006193022 +0000" stop="20261006195622 +0000" channel="Red Bull TV.en"><title>For Reals</title>
-<sub-title>From skydiving with skis to flying into a volcano</sub-title>
-<desc>Flying a plane 245kph through a tunnel. A wingsuit flight across the crater of an active volcano. A record-breaking truck jump in a ghost town. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:f2cb2ce7-09e1-4656-a37f-a10c80b56502/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.3.0</episode-num>
-<episode-num system="original-air-date">2026-10-06 19:30:22</episode-num>
-<date>2026</date></programme>
-  <programme start="20261006195622 +0000" stop="20261006212043 +0000" channel="Red Bull TV.en"><title>One Extraordinary Year</title>
-<sub-title>Athletes who weren't derailed from their dreams</sub-title>
-<desc>Beach volleyball duo Mol and Sorum, pole vaulter Mondo Duplantis and other world-class athletes reveal how they faced an upside down reality to keep alive their dreams of gold in 2021.</desc>
-<date>2021</date>
-<category>Movie</category>
-<icon src="https://image.tmdb.org/t/p/original/fExgwqMg4dQAPG6ZvXj3HC0iw2i.jpg"/>
-<episode-num system="themoviedb.org">movie/929869</episode-num>
-</programme>
   <programme start="20261006212043 +0000" stop="20261006223148 +0000" channel="Red Bull TV.en"><title>Drive Thru New Zealand</title>
 <sub-title>Travelling 3,700 km in pursuit of the best waves</sub-title>
 <desc>Surfers Donavon Frankenreiter, Benji Weatherley, Mark Occhilupo, Ozzie Wright, Pat O'Connell and Alex Gray embark on an adventure to New Zealand, travelling nearly 4,000km from Auckland to Dunedin.</desc>
@@ -3119,6 +3062,71 @@
 <icon src="https://resources.redbull.tv/rrn:content:episode-videos:25bd9023-2792-464f-a774-984f840f4a4e/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
 <episode-num system="xmltv_ns">0.8.0</episode-num>
 <episode-num system="original-air-date">2026-10-07 14:35:29</episode-num>
+<date>2026</date></programme>
+  <programme start="20261007150129 +0000" stop="20261007152729 +0000" channel="Red Bull TV.en"><title>For Reals</title>
+<sub-title>From F1 soapbox racing to breaking world records</sub-title>
+<desc>Breaking world records – it's all in a day's work for Red Bull athletes! See Felix Baumgartner jump from space, 65 women skydive together and one BMXer conquer the globe's biggest full loop.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:90e91a7d-74bb-42b7-b9b3-078865d7b451/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.1.0</episode-num>
+<episode-num system="original-air-date">2026-10-07 15:01:29</episode-num>
+<date>2026</date></programme>
+  <programme start="20261007152729 +0000" stop="20261007155329 +0000" channel="Red Bull TV.en"><title>For Reals</title>
+<sub-title>From a paper plane contest to diving off ruins</sub-title>
+<desc>Swamp buggy racing. Sprinting down from the peak of a mountain on a bike. High diving off ancient ruins. Getting the perfect surf shot. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:6a64ab5e-c10a-4065-9f16-0c91a4bc226d/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.4.0</episode-num>
+<episode-num system="original-air-date">2026-07-07 04:05:14</episode-num>
+<date>2026</date></programme>
+  <programme start="20261007155329 +0000" stop="20261007162005 +0000" channel="Red Bull TV.en"><title>For Reals</title>
+<sub-title>From F1 desert racing to a skatepark in the sky</sub-title>
+<desc>Wakeskating off a Dubai skyscraper. F1 drivers racing on Floridan waters and in the Nevada desert. Riding a skatepark attached to a hot air balloon. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:cff46697-c2b7-46aa-a674-e152be37dbe4/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.0.0</episode-num>
+<episode-num system="original-air-date">2026-07-07 02:20:38</episode-num>
+<date>2026</date></programme>
+  <programme start="20261007162005 +0000" stop="20261007164605 +0000" channel="Red Bull TV.en"><title>For Reals</title>
+<sub-title>From skateboarding out a plane to 180m wall climb</sub-title>
+<desc>Touring a town in style on a snowmobile. Freerunning through an airport. Skateboarding out of a flying plane. Ice climbing Niagra Falls. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:da0954da-ca98-4cec-8425-06146469e566/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.5.0</episode-num>
+<episode-num system="original-air-date">2026-10-07 16:20:05</episode-num>
+<date>2026</date></programme>
+  <programme start="20261007164605 +0000" stop="20261007171205 +0000" channel="Red Bull TV.en"><title>For Reals</title>
+<sub-title>From skydiving with skis to flying into a volcano</sub-title>
+<desc>Flying a plane 245kph through a tunnel. A wingsuit flight across the crater of an active volcano. A record-breaking truck jump in a ghost town. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:f2cb2ce7-09e1-4656-a37f-a10c80b56502/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.3.0</episode-num>
+<episode-num system="original-air-date">2026-10-07 16:46:05</episode-num>
+<date>2026</date></programme>
+  <programme start="20261007171205 +0000" stop="20261007183626 +0000" channel="Red Bull TV.en"><title>One Extraordinary Year</title>
+<sub-title>Athletes who weren't derailed from their dreams</sub-title>
+<desc>Beach volleyball duo Mol and Sorum, pole vaulter Mondo Duplantis and other world-class athletes reveal how they faced an upside down reality to keep alive their dreams of gold in 2021.</desc>
+<date>2021</date>
+<category>Movie</category>
+<icon src="https://image.tmdb.org/t/p/original/fExgwqMg4dQAPG6ZvXj3HC0iw2i.jpg"/>
+<episode-num system="themoviedb.org">movie/929869</episode-num>
+</programme>
+  <programme start="20261007183626 +0000" stop="20261007194731 +0000" channel="Red Bull TV.en"><title>Drive Thru New Zealand</title>
+<sub-title>Travelling 3,700 km in pursuit of the best waves</sub-title>
+<desc>Surfers Donavon Frankenreiter, Benji Weatherley, Mark Occhilupo, Ozzie Wright, Pat O'Connell and Alex Gray embark on an adventure to New Zealand, travelling nearly 4,000km from Auckland to Dunedin.</desc>
+<date>2008</date>
+<category>Movie</category>
+<icon src="https://image.tmdb.org/t/p/original/fuHMc5OZNIiW9UUlfTG6rNit4mG.jpg"/>
+<episode-num system="themoviedb.org">movie/650119</episode-num>
+</programme>
+  <programme start="20261007194731 +0000" stop="20261007201846 +0000" channel="Red Bull TV.en"><title>Milestone</title>
+<sub-title>An intimate portrayal of snowboarder Eero Ettala</sub-title>
+<desc>Follow professional snowboarder Eero Ettala behind the scenes as he works on a video part while balancing family life. The film reflects on his achievements throughout his career.</desc>
+<date>2024</date>
+<category>Movie</category>
+<icon src="https://image.tmdb.org/t/p/original/3bTpJmuQKYuiJuhPq3vEHBisbJM.jpg"/>
+<episode-num system="themoviedb.org">movie/1639512</episode-num>
+</programme>
+  <programme start="20261007201846 +0000" stop="20261007204544 +0000" channel="Red Bull TV.en"><title>Red Bull Erzbergrodeo 2025</title>
+<sub-title>Highlights from Red Bull Erzbergrodeo 2025</sub-title>
+<desc>Catch up on the best moments from the toughest Hard Enduro race on the planet. Can Manuel Lettenbichler make it four wins in a row, or is it time for a new champion of the 'Iron Giant'?</desc>
+<icon src="https://resources.redbull.tv/rrn:content:recap-videos:b167e467-c1a2-4051-942a-f8c33e812aba/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="original-air-date">2026-10-07 20:18:46</episode-num>
 <date>2026</date></programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
