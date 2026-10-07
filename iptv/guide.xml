@@ -2787,77 +2787,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20261007164605 +0000" stop="20261007171205 +0000" channel="Red Bull TV.en"><title>For Reals</title>
-<sub-title>From skydiving with skis to flying into a volcano</sub-title>
-<desc>Flying a plane 245kph through a tunnel. A wingsuit flight across the crater of an active volcano. A record-breaking truck jump in a ghost town. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:f2cb2ce7-09e1-4656-a37f-a10c80b56502/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.3.0</episode-num>
-<episode-num system="original-air-date">2026-10-07 16:46:05</episode-num>
-<date>2026</date></programme>
-  <programme start="20261007171205 +0000" stop="20261007183626 +0000" channel="Red Bull TV.en"><title>One Extraordinary Year</title>
-<sub-title>Athletes who weren't derailed from their dreams</sub-title>
-<desc>Beach volleyball duo Mol and Sorum, pole vaulter Mondo Duplantis and other world-class athletes reveal how they faced an upside down reality to keep alive their dreams of gold in 2021.</desc>
-<date>2021</date>
-<category>Movie</category>
-<icon src="https://image.tmdb.org/t/p/original/fExgwqMg4dQAPG6ZvXj3HC0iw2i.jpg"/>
-<episode-num system="themoviedb.org">movie/929869</episode-num>
-</programme>
-  <programme start="20261007183626 +0000" stop="20261007194731 +0000" channel="Red Bull TV.en"><title>Drive Thru New Zealand</title>
-<sub-title>Travelling 3,700 km in pursuit of the best waves</sub-title>
-<desc>Surfers Donavon Frankenreiter, Benji Weatherley, Mark Occhilupo, Ozzie Wright, Pat O'Connell and Alex Gray embark on an adventure to New Zealand, travelling nearly 4,000km from Auckland to Dunedin.</desc>
-<date>2008</date>
-<category>Movie</category>
-<icon src="https://image.tmdb.org/t/p/original/fuHMc5OZNIiW9UUlfTG6rNit4mG.jpg"/>
-<episode-num system="themoviedb.org">movie/650119</episode-num>
-</programme>
-  <programme start="20261007194731 +0000" stop="20261007201846 +0000" channel="Red Bull TV.en"><title>Milestone</title>
-<sub-title>An intimate portrayal of snowboarder Eero Ettala</sub-title>
-<desc>Follow professional snowboarder Eero Ettala behind the scenes as he works on a video part while balancing family life. The film reflects on his achievements throughout his career.</desc>
-<date>2024</date>
-<category>Movie</category>
-<icon src="https://image.tmdb.org/t/p/original/3bTpJmuQKYuiJuhPq3vEHBisbJM.jpg"/>
-<episode-num system="themoviedb.org">movie/1639512</episode-num>
-</programme>
-  <programme start="20261007201846 +0000" stop="20261007204544 +0000" channel="Red Bull TV.en"><title>Red Bull Erzbergrodeo 2025</title>
-<sub-title>Highlights from Red Bull Erzbergrodeo 2025</sub-title>
-<desc>Catch up on the best moments from the toughest Hard Enduro race on the planet. Can Manuel Lettenbichler make it four wins in a row, or is it time for a new champion of the 'Iron Giant'?</desc>
-<icon src="https://resources.redbull.tv/rrn:content:recap-videos:b167e467-c1a2-4051-942a-f8c33e812aba/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="original-air-date">2026-10-07 20:18:46</episode-num>
-<date>2026</date></programme>
-  <programme start="20261007204544 +0000" stop="20261007205254 +0000" channel="Red Bull TV.en"><title>F1 road trip from Czech Republic to Slovakia</title>
-<sub-title>From Castle to Castle</sub-title>
-<desc>Formula One pilot David Coulthard heads out on a very imaginative road trip from the castles of Prague, Czech Republic, to the castles of Bratislava, Slovakia.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:videos:e8b7778d-0b02-4521-bf7f-8c891ef8e100/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="original-air-date">2026-10-07 20:45:44</episode-num>
-<date>2026</date></programme>
-  <programme start="20261007205254 +0000" stop="20261007211819 +0000" channel="Red Bull TV.en"><title>Moto Rider vs Enduro Race</title>
-<sub-title>Carson Brown's epic ride at Red Bull Erzbergrodeo</sub-title>
-<desc>Carson Brown returns to Red Bull Erzbergrodeo for redemption in 2025. Join him as he tackles the Iron Giant, steep rock faces, sharp sections and relentless terrain in this intense 25-minute ride.</desc>
-<category>Movie</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:cb562e62-b622-4d54-9dcb-7d5ad2276804/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-</programme>
-  <programme start="20261007211819 +0000" stop="20261007214203 +0000" channel="Red Bull TV.en"><title>Rob Warner’s Wild Rides</title>
-<sub-title>Lesotho</sub-title>
-<desc>Mountain bikers Rob Warner and Matt Jones head to Lesotho where they experience a different kind of racing. While Matt rides down and around a gorge, Rob takes a shortcut.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:d4beaa98-9a2f-48d5-9a6d-64d3c4a0ff43/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.1.0</episode-num>
-<episode-num system="original-air-date">2026-10-07 21:18:19</episode-num>
-<date>2026</date></programme>
-  <programme start="20261007214203 +0000" stop="20261007220557 +0000" channel="Red Bull TV.en"><title>Rob Warner’s Wild Rides</title>
-<sub-title>Ecuador</sub-title>
-<desc>Former World Cup racer Rob Warner travels to Ecuador with rising MTB star Finn Iles to take on the Cotopaxi mountain and its oppressive high altitude.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:bbbc2d1c-3040-483b-899c-ee062028dbf6/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.2.0</episode-num>
-<episode-num system="original-air-date">2026-10-07 21:42:03</episode-num>
-<date>2026</date></programme>
-  <programme start="20261007220557 +0000" stop="20261007223121 +0000" channel="Red Bull TV.en"><title>EMIL – Every Mystery I’ve Lived</title>
-<sub-title>Emil Johansson's comeback</sub-title>
-<desc>Having won the world title in his rookie season in 2017, Emil Johansson spent 2018 struggling with an autoimmune disease. Now, still getting to grips with the disease, he's ready to make his return.</desc>
-<date>2019</date>
-<category>Movie</category>
-<icon src="https://image.tmdb.org/t/p/original/9oUfLtX6ckb4KolALkaqyEgerfm.jpg"/>
-<episode-num system="themoviedb.org">movie/1071886</episode-num>
-</programme>
   <programme start="20261007223121 +0000" stop="20261007230651 +0000" channel="Red Bull TV.en"><title>Past, Present, Future</title>
 <sub-title>The rise of downhill prodigy Vali Höll</sub-title>
 <desc>Uber-talented downhill prodigy Vali Höll won every race in her first junior World Cup season. Now stepping up to elite level, will she be able to keep winning against the world’s best?</desc>
@@ -3150,6 +3079,75 @@
 <desc>Follow elite female mountain bikers as they make freeride history, taking on Red Bull Rampage's toughest terrain. Their story reveals their drive, push for equality and lasting impact on their sport.</desc>
 <category>Movie</category>
 <icon src="https://resources.redbull.tv/rrn:content:films:7bf0f583-f1bf-4ae4-82cf-f8ec6e587994/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+</programme>
+  <programme start="20261008154500 +0000" stop="20261008190036 +0000" channel="Red Bull TV.en"><title>Red Bull Rampage 2026</title>
+<sub-title>Women's livestream: Red Bull Rampage</sub-title>
+<desc>The world’s best female freeride mountain bikers face the unforgiving Utah desert, taking on massive drops, technical lines and some of the most challenging terrain in the world at Red Bull Rampage.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:live-videos:8ad0e5c6-32db-4fee-ab1d-f15c59e2d198/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="original-air-date">2026-10-08 15:45:00</episode-num>
+<date>2026</date></programme>
+  <programme start="20261008190036 +0000" stop="20261008192315 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>Smile and fight</sub-title>
+<desc>After a breakthrough comp season in 2021, Natalia Grossman became the first American in 20 years to be the IFSC Climbing World Cup champion. Now, she's in the unfamiliar position of having to defend her title.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">8.0.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-08 19:00:36</episode-num>
+</programme>
+  <programme start="20261008192315 +0000" stop="20261008194733 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>Burning the flame part 1</sub-title>
+<desc>Big wall free climbing masters Babsi and Jacopo seek their greatest challenge yet: a free ascent of Eternal Flame, an elusive 3,000ft (914km). route up the legendary Nameless Tower in Pakistan.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">8.1.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-08 19:23:15</episode-num>
+</programme>
+  <programme start="20261008194733 +0000" stop="20261008201330 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>Burning the flame part 2</sub-title>
+<desc>With a fleeting weather window and the season coming to a close, Babsi Zangerl and Jacopo Larcher must conquer countless hard pitches in freezing temps to finish what they started.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">8.2.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-08 19:47:33</episode-num>
+</programme>
+  <programme start="20261008201330 +0000" stop="20261008203849 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>DNA</sub-title>
+<desc>Seb Bouin’s DNA (9c) features upside-down foot dynos, barely-real holds and endless movement out of a massive cave in France, signalling that Seb’s at the cutting edge of human performance on rock.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">8.3.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-08 20:13:30</episode-num>
+</programme>
+  <programme start="20261008203849 +0000" stop="20261008210428 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>House of the gods part 1</sub-title>
+<desc>World class rock climber Leo Houlding, Cumbrian climber Anna Taylor and jungle expert Waldo Etherington undertake a big wall expedition to climb a new route on the overhanging prow of Mount Roraima.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">8.5.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-08 20:38:49</episode-num>
+</programme>
+  <programme start="20261008210428 +0000" stop="20261008212527 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>House of the gods part 2</sub-title>
+<desc>With the first three pitches sent, the team’s “secret weapon”, Anna Taylor, must conquer the hardest pitch so far to keep the dream of a team free ascent alive.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">8.6.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-08 21:04:28</episode-num>
+</programme>
+  <programme start="20261008212527 +0000" stop="20261008214452 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>The Hurt: Alex Honnold in Nevada Part 2</sub-title>
+<desc>With nine routes down in the blazing sun and nine more to go, Alex Honnold gears up for the hardest climb so far – Nevada's Red Rock Canyon – just in time for nightfall.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">8.9.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-08 21:25:27</episode-num>
 </programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
