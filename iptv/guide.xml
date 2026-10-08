@@ -2942,88 +2942,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20261008134525 +0000" stop="20261008141201 +0000" channel="Red Bull TV.en"><title>For Reals</title>
-<sub-title>From skydiving with skis to flying into a volcano</sub-title>
-<desc>Flying a plane 245kph through a tunnel. A wingsuit flight across the crater of an active volcano. A record-breaking truck jump in a ghost town. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:f2cb2ce7-09e1-4656-a37f-a10c80b56502/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.3.0</episode-num>
-<episode-num system="original-air-date">2026-10-08 13:45:25</episode-num>
-<date>2026</date></programme>
-  <programme start="20261008141201 +0000" stop="20261008142002 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
-<sub-title>2014's best runs</sub-title>
-<desc>These are the fearless teams who pushed their soapbox racers to the limits to smash the speed limits and sometimes the track markers in 2014's races.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
-<episode-num system="xmltv_ns">0.0.0</episode-num>
-<episode-num system="themoviedb.org">series/287622</episode-num>
-<episode-num system="original-air-date">2026-10-08 14:12:01</episode-num>
-</programme>
-  <programme start="20261008142002 +0000" stop="20261008142839 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
-<sub-title>2014's top car designs</sub-title>
-<desc>Building fast racer is only part of the magic Red Bull Soapbox Race formula: it's also got to look good and these were 2014's hottest designs.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
-<episode-num system="xmltv_ns">1.0.0</episode-num>
-<episode-num system="themoviedb.org">series/287622</episode-num>
-<episode-num system="original-air-date">2026-10-08 14:20:02</episode-num>
-</programme>
-  <programme start="20261008142839 +0000" stop="20261008144208 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
-<sub-title>2017's fan-favourite teams</sub-title>
-<desc>As 2017's fan favourites teach us, two-wheeled designs never work, and everyone loves a pop culture referencing racer – especially if they self-destruct.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
-<episode-num system="xmltv_ns">3.3.0</episode-num>
-<episode-num system="themoviedb.org">series/287622</episode-num>
-<episode-num system="original-air-date">2026-10-08 14:28:39</episode-num>
-</programme>
-  <programme start="20261008144208 +0000" stop="20261008145117 +0000" channel="Red Bull TV.en"><title>Red Bull Rampage – extra</title>
-<sub-title>Women of freeride part 1 – originators</sub-title>
-<desc>We honour the trailblazing women who paved the way for today’s freeride progression, showcasing their unique styles as they break barriers and strive for a women’s category at Red Bull Rampage.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:videos:ae5391db-afb4-414f-9ef1-88b1eaf177a9/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="original-air-date">2026-10-08 14:42:08</episode-num>
-<date>2026</date></programme>
-  <programme start="20261008145117 +0000" stop="20261008150116 +0000" channel="Red Bull TV.en"><title>Women of Freeride -- Red Bull Rampage</title>
-<sub-title>Women of freeride part 2 – raising the bar</sub-title>
-<desc>Follow groundbreaking women freeride mountain bikers on their journey to compete at Red Bull Rampage, exploring the challenges that brought them to this mission as they push for inclusion.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:videos:a8c77229-5d2c-446d-8b86-c1b2cc40a41f/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="original-air-date">2026-10-08 14:51:17</episode-num>
-<date>2026</date></programme>
-  <programme start="20261008150116 +0000" stop="20261008151914 +0000" channel="Red Bull TV.en"><title>Red Bull Rampage – extra</title>
-<sub-title>Women of freeride part 3 – making history</sub-title>
-<desc>Experience an emotional journey and historic debut as women freeriders gear up for Red Bull Rampage. Witness their challenges, triumphs, and the fierce competition as they push the limits of freeride.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:videos:07e352cf-d97f-4d21-8e67-45dca14d0f9c/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="original-air-date">2026-10-08 15:01:16</episode-num>
-<date>2026</date></programme>
-  <programme start="20261008151914 +0000" stop="20261008154500 +0000" channel="Red Bull TV.en"><title>Making History: The Women of Freeride</title>
-<sub-title>Elite female riders fight for equality in their sport</sub-title>
-<desc>Follow elite female mountain bikers as they make freeride history, taking on Red Bull Rampage's toughest terrain. Their story reveals their drive, push for equality and lasting impact on their sport.</desc>
-<category>Movie</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:7bf0f583-f1bf-4ae4-82cf-f8ec6e587994/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-</programme>
-  <programme start="20261008154500 +0000" stop="20261008190036 +0000" channel="Red Bull TV.en"><title>Red Bull Rampage 2026</title>
-<sub-title>Women's livestream: Red Bull Rampage</sub-title>
-<desc>The world’s best female freeride mountain bikers face the unforgiving Utah desert, taking on massive drops, technical lines and some of the most challenging terrain in the world at Red Bull Rampage.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:live-videos:8ad0e5c6-32db-4fee-ab1d-f15c59e2d198/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="original-air-date">2026-10-08 15:45:00</episode-num>
-<date>2026</date></programme>
-  <programme start="20261008190036 +0000" stop="20261008192315 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>Smile and fight</sub-title>
-<desc>After a breakthrough comp season in 2021, Natalia Grossman became the first American in 20 years to be the IFSC Climbing World Cup champion. Now, she's in the unfamiliar position of having to defend her title.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">8.0.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-10-08 19:00:36</episode-num>
-</programme>
-  <programme start="20261008192315 +0000" stop="20261008194733 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>Burning the flame part 1</sub-title>
-<desc>Big wall free climbing masters Babsi and Jacopo seek their greatest challenge yet: a free ascent of Eternal Flame, an elusive 3,000ft (914km). route up the legendary Nameless Tower in Pakistan.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">8.1.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-10-08 19:23:15</episode-num>
-</programme>
   <programme start="20261008194733 +0000" stop="20261008201330 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
 <sub-title>Burning the flame part 2</sub-title>
 <desc>With a fleeting weather window and the season coming to a close, Babsi Zangerl and Jacopo Larcher must conquer countless hard pitches in freezing temps to finish what they started.</desc>
@@ -3272,6 +3190,61 @@
 <icon src="https://image.tmdb.org/t/p/original/fuHMc5OZNIiW9UUlfTG6rNit4mG.jpg"/>
 <episode-num system="themoviedb.org">movie/650119</episode-num>
 </programme>
+  <programme start="20261009131209 +0000" stop="20261009134324 +0000" channel="Red Bull TV.en"><title>Milestone</title>
+<sub-title>An intimate portrayal of snowboarder Eero Ettala</sub-title>
+<desc>Follow professional snowboarder Eero Ettala behind the scenes as he works on a video part while balancing family life. The film reflects on his achievements throughout his career.</desc>
+<date>2024</date>
+<category>Movie</category>
+<icon src="https://image.tmdb.org/t/p/original/3bTpJmuQKYuiJuhPq3vEHBisbJM.jpg"/>
+<episode-num system="themoviedb.org">movie/1639512</episode-num>
+</programme>
+  <programme start="20261009134324 +0000" stop="20261009141022 +0000" channel="Red Bull TV.en"><title>Red Bull Erzbergrodeo 2025</title>
+<sub-title>Highlights from Red Bull Erzbergrodeo 2025</sub-title>
+<desc>Catch up on the best moments from the toughest Hard Enduro race on the planet. Can Manuel Lettenbichler make it four wins in a row, or is it time for a new champion of the 'Iron Giant'?</desc>
+<icon src="https://resources.redbull.tv/rrn:content:recap-videos:b167e467-c1a2-4051-942a-f8c33e812aba/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="original-air-date">2026-10-09 13:43:24</episode-num>
+<date>2026</date></programme>
+  <programme start="20261009141022 +0000" stop="20261009143547 +0000" channel="Red Bull TV.en"><title>Moto Rider vs Enduro Race</title>
+<sub-title>Carson Brown's epic ride at Red Bull Erzbergrodeo</sub-title>
+<desc>Carson Brown returns to Red Bull Erzbergrodeo for redemption in 2025. Join him as he tackles the Iron Giant, steep rock faces, sharp sections and relentless terrain in this intense 25-minute ride.</desc>
+<category>Movie</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:cb562e62-b622-4d54-9dcb-7d5ad2276804/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+</programme>
+  <programme start="20261009143547 +0000" stop="20261009144257 +0000" channel="Red Bull TV.en"><title>F1 road trip from Czech Republic to Slovakia</title>
+<sub-title>From Castle to Castle</sub-title>
+<desc>Formula One pilot David Coulthard heads out on a very imaginative road trip from the castles of Prague, Czech Republic, to the castles of Bratislava, Slovakia.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:videos:e8b7778d-0b02-4521-bf7f-8c891ef8e100/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="original-air-date">2026-10-09 14:35:47</episode-num>
+<date>2026</date></programme>
+  <programme start="20261009144257 +0000" stop="20261009150642 +0000" channel="Red Bull TV.en"><title>Rob Warner’s Wild Rides</title>
+<sub-title>Lesotho</sub-title>
+<desc>Mountain bikers Rob Warner and Matt Jones head to Lesotho where they experience a different kind of racing. While Matt rides down and around a gorge, Rob takes a shortcut.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:d4beaa98-9a2f-48d5-9a6d-64d3c4a0ff43/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.1.0</episode-num>
+<episode-num system="original-air-date">2026-10-09 14:42:57</episode-num>
+<date>2026</date></programme>
+  <programme start="20261009150642 +0000" stop="20261009153035 +0000" channel="Red Bull TV.en"><title>Rob Warner’s Wild Rides</title>
+<sub-title>Ecuador</sub-title>
+<desc>Former World Cup racer Rob Warner travels to Ecuador with rising MTB star Finn Iles to take on the Cotopaxi mountain and its oppressive high altitude.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:bbbc2d1c-3040-483b-899c-ee062028dbf6/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.2.0</episode-num>
+<episode-num system="original-air-date">2026-10-09 15:06:42</episode-num>
+<date>2026</date></programme>
+  <programme start="20261009153035 +0000" stop="20261009154500 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
+<sub-title>2017's fan-favourite teams</sub-title>
+<desc>As 2017's fan favourites teach us, two-wheeled designs never work, and everyone loves a pop culture referencing racer – especially if they self-destruct.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
+<episode-num system="xmltv_ns">3.3.0</episode-num>
+<episode-num system="themoviedb.org">series/287622</episode-num>
+<episode-num system="original-air-date">2026-10-09 15:30:35</episode-num>
+</programme>
+  <programme start="20261009154500 +0000" stop="20261009190036 +0000" channel="Red Bull TV.en"><title>Red Bull Rampage 2026</title>
+<sub-title>Women's livestream: Red Bull Rampage</sub-title>
+<desc>The world’s best female freeride mountain bikers face the unforgiving Utah desert, taking on massive drops, technical lines and some of the most challenging terrain in the world at Red Bull Rampage.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:live-videos:8ad0e5c6-32db-4fee-ab1d-f15c59e2d198/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="original-air-date">2026-10-09 15:45:00</episode-num>
+<date>2026</date></programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
   </channel>
