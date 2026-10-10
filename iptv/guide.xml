@@ -3319,58 +3319,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20261010123118 +0000" stop="20261010125642 +0000" channel="Red Bull TV.en"><title>EMIL – Every Mystery I’ve Lived</title>
-<sub-title>Emil Johansson's comeback</sub-title>
-<desc>Having won the world title in his rookie season in 2017, Emil Johansson spent 2018 struggling with an autoimmune disease. Now, still getting to grips with the disease, he's ready to make his return.</desc>
-<date>2019</date>
-<category>Movie</category>
-<icon src="https://image.tmdb.org/t/p/original/9oUfLtX6ckb4KolALkaqyEgerfm.jpg"/>
-<episode-num system="themoviedb.org">movie/1071886</episode-num>
-</programme>
-  <programme start="20261010125642 +0000" stop="20261010133211 +0000" channel="Red Bull TV.en"><title>Past, Present, Future</title>
-<sub-title>The rise of downhill prodigy Vali Höll</sub-title>
-<desc>Uber-talented downhill prodigy Vali Höll won every race in her first junior World Cup season. Now stepping up to elite level, will she be able to keep winning against the world’s best?</desc>
-<date>2014</date>
-<category>Movie</category>
-<icon src="https://image.tmdb.org/t/p/original/sCtwpzwPWyG16PpMnHfIQhubkVN.jpg"/>
-<episode-num system="themoviedb.org">movie/596955</episode-num>
-</programme>
-  <programme start="20261010133211 +0000" stop="20261010134201 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
-<sub-title>2018's top car designs</sub-title>
-<desc>From a rapid UFO to a seriously engineered vintage airliner and real life unicorn, 2018's top soapbox designs really flew down the track.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
-<episode-num system="xmltv_ns">1.4.0</episode-num>
-<episode-num system="themoviedb.org">series/287622</episode-num>
-<episode-num system="original-air-date">2026-10-10 13:32:11</episode-num>
-</programme>
-  <programme start="20261010134201 +0000" stop="20261010135215 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
-<sub-title>2016's fan-favourite teams</sub-title>
-<desc>Speed wins a Red Bull Soapbox Race, but eccentric design, a big show and bigger crashes win you the crowd. Case in point, 2016's crowd favourites.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
-<episode-num system="xmltv_ns">3.2.0</episode-num>
-<episode-num system="themoviedb.org">series/287622</episode-num>
-<episode-num system="original-air-date">2026-10-10 13:42:01</episode-num>
-</programme>
-  <programme start="20261010135215 +0000" stop="20261010140341 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
-<sub-title>2016's best crashes and smashes</sub-title>
-<desc>The steepest competition hill ever in Ireland and the aptly named Death Roller made sure 2016 continued to deliver more epic soapbox crashes.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
-<episode-num system="xmltv_ns">2.2.0</episode-num>
-<episode-num system="themoviedb.org">series/287622</episode-num>
-<episode-num system="original-air-date">2026-10-10 13:52:15</episode-num>
-</programme>
-  <programme start="20261010140341 +0000" stop="20261010143000 +0000" channel="Red Bull TV.en"><title>ABC of...</title>
-<sub-title>ABC of… Mountain Biking</sub-title>
-<desc>Rob Warner gives a master class in all things mountain biking, from terminology and disciplines to history and heroes of the sport – a must for anyone looking to test their mettle in the world of MTB.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/x2uEzpoVHKwLriUyUMSmEkBYW7L.jpg"/>
-<episode-num system="xmltv_ns">0.6.0</episode-num>
-<episode-num system="themoviedb.org">series/218377</episode-num>
-<episode-num system="original-air-date">2026-10-10 14:03:41</episode-num>
-</programme>
   <programme start="20261010143000 +0000" stop="20261010192036 +0000" channel="Red Bull TV.en"><title>Red Bull Rampage 2026</title>
 <sub-title>Men's livestream: Red Bull Rampage</sub-title>
 <desc>Against a backdrop of towering sandstone cliffs and unforgiving terrain, top male freeride mountain bikers return to the Utah desert for a high-stakes showcase of technical lines, speed and precision.</desc>
@@ -3605,6 +3553,74 @@
 <icon src="https://resources.redbull.tv/rrn:content:episode-videos:969e80d6-8e70-4d4c-95ce-1f01a297f09f/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
 <episode-num system="xmltv_ns">0.3.0</episode-num>
 <episode-num system="original-air-date">2026-10-11 11:23:02</episode-num>
+<date>2026</date></programme>
+  <programme start="20261011114740 +0000" stop="20261011121020 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>Smile and fight</sub-title>
+<desc>After a breakthrough comp season in 2021, Natalia Grossman became the first American in 20 years to be the IFSC Climbing World Cup champion. Now, she's in the unfamiliar position of having to defend her title.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">8.0.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-11 11:47:40</episode-num>
+</programme>
+  <programme start="20261011121020 +0000" stop="20261011123438 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>Burning the flame part 1</sub-title>
+<desc>Big wall free climbing masters Babsi and Jacopo seek their greatest challenge yet: a free ascent of Eternal Flame, an elusive 3,000ft (914km). route up the legendary Nameless Tower in Pakistan.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">8.1.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-11 12:10:20</episode-num>
+</programme>
+  <programme start="20261011123438 +0000" stop="20261011130034 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>Burning the flame part 2</sub-title>
+<desc>With a fleeting weather window and the season coming to a close, Babsi Zangerl and Jacopo Larcher must conquer countless hard pitches in freezing temps to finish what they started.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">8.2.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-11 12:34:38</episode-num>
+</programme>
+  <programme start="20261011130034 +0000" stop="20261011132554 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>DNA</sub-title>
+<desc>Seb Bouin’s DNA (9c) features upside-down foot dynos, barely-real holds and endless movement out of a massive cave in France, signalling that Seb’s at the cutting edge of human performance on rock.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">8.3.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-11 13:00:34</episode-num>
+</programme>
+  <programme start="20261011132554 +0000" stop="20261011135133 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>House of the gods part 1</sub-title>
+<desc>World class rock climber Leo Houlding, Cumbrian climber Anna Taylor and jungle expert Waldo Etherington undertake a big wall expedition to climb a new route on the overhanging prow of Mount Roraima.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">8.5.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-11 13:25:54</episode-num>
+</programme>
+  <programme start="20261011135133 +0000" stop="20261011141646 +0000" channel="Red Bull TV.en"><title>Red Bull Flugtag</title>
+<sub-title>Hong Kong</sub-title>
+<desc>Some of the most creative aircraft soar at Victoria Harbour in Hong Kong. From Tim Burton-inspired flying saucers to exploding volcanoes, there’s an eclectic variety of homemade flying machines.</desc>
+<icon src="https://image.tmdb.org/t/p/original/1hqPsNOXjzRe9lM9yZDBiq3EUor.jpg"/>
+<episode-num system="xmltv_ns">1.5.0</episode-num>
+<episode-num system="themoviedb.org">series/304917</episode-num>
+<episode-num system="original-air-date">2026-10-11 13:51:33</episode-num>
+<date>2026</date></programme>
+  <programme start="20261011141646 +0000" stop="20261011143000 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
+<sub-title>2019's top car designs</sub-title>
+<desc>A genius reversing caravan, a bang-on tribute to Mr Bean and one very wobbly piñata took home 2019's gold stars for soapbox design.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
+<episode-num system="xmltv_ns">1.5.0</episode-num>
+<episode-num system="themoviedb.org">series/287622</episode-num>
+<episode-num system="original-air-date">2026-08-01 05:45:50</episode-num>
+</programme>
+  <programme start="20261011143000 +0000" stop="20261011192036 +0000" channel="Red Bull TV.en"><title>Red Bull Rampage 2026</title>
+<sub-title>Men's livestream: Red Bull Rampage</sub-title>
+<desc>Against a backdrop of towering sandstone cliffs and unforgiving terrain, top male freeride mountain bikers return to the Utah desert for a high-stakes showcase of technical lines, speed and precision.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:live-videos:d4046d87-fe89-4537-9fba-bc2eb2bedcb4/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="original-air-date">2026-10-11 14:30:00</episode-num>
 <date>2026</date></programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
