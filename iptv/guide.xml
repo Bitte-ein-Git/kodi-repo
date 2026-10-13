@@ -2899,24 +2899,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20261013153839 +0000" stop="20261013161946 +0000" channel="Red Bull TV.en"><title>Matt Jones: The Impossible Gap</title>
-<sub-title>Extreme mountain biking challenge</sub-title>
-<desc>Mountain biker Matt Jones attempts to jump his bike between two moving trucks, through an impossible gap that exists for less than a second. Watch Matt prepare for his time-critical feat of precision.</desc>
-<category>Movie</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:c0bf61ed-03b4-432f-be9f-b57fe65b4528/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-</programme>
-  <programme start="20261013161946 +0000" stop="20261013170215 +0000" channel="Red Bull TV.en"><title>Red Bull Erzbergrodeo</title>
-<sub-title>Carnage from the hardest race on Earth</sub-title>
-<desc>Experience huge crashes, impossible recoveries, iconic battles and chaos on the Iron Giant over 30 years of Red Bull Erzbergrodeo history, the toughest Hard Enduro race in the world.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:videos:da1b92ae-91d1-4f37-9dc0-431e94673713/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="original-air-date">2026-10-13 16:19:46</episode-num>
-<date>2026</date></programme>
-  <programme start="20261013170215 +0000" stop="20261013172753 +0000" channel="Red Bull TV.en"><title>Asa Vermette's Ascent</title>
-<sub-title>A rookie’s breakout year in downhill MTB</sub-title>
-<desc>One of mountain biking’s most exciting young riders, Asa Vermette, has secured a Junior world title. Follow his journey as he faces downhill’s toughest race in his debut Red Bull Hardline season.</desc>
-<category>Movie</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:2f27123f-6b9a-46a6-8be1-03cbdb5992e7/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-</programme>
   <programme start="20261013172753 +0000" stop="20261013175037 +0000" channel="Red Bull TV.en"><title>Paradigm</title>
 <sub-title>Mountain biking taken to new heights</sub-title>
 <desc>From the precision of slopestyle to the massive airs of freeride and the raw speed of downhill, Thomas Genon, Szymon Godziek, Emil Johansson and Kade Edwards deliver raw MTB talent and nonstop action.</desc>
@@ -3256,6 +3238,95 @@
 <episode-num system="themoviedb.org">series/217740</episode-num>
 <episode-num system="original-air-date">2026-10-14 11:12:22</episode-num>
 </programme>
+  <programme start="20261014114131 +0000" stop="20261014120521 +0000" channel="Red Bull TV.en"><title>The world's largest urban MTB downhill race</title>
+<sub-title>What is Red Bull Cerro Abajo?</sub-title>
+<desc>Find out all you need to know about the insane urban MTB downhill race, which sees riders race flat out down a steep course set in city streets, navigating stairs, rooftops, twisty alleys and more.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:videos:9c8bc91f-054a-41e4-912b-659e89f10ef6/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="original-air-date">2026-10-14 11:41:31</episode-num>
+<date>2026</date></programme>
+  <programme start="20261014120521 +0000" stop="20261014123211 +0000" channel="Red Bull TV.en"><title>Red Bull Cerro Abajo 2026</title>
+<sub-title>Red Bull Valparaíso Cerro Abajo highlights</sub-title>
+<desc>Relive the action as MTB riders from around the world took on the UNESCO World Heritage port city of Valparaíso for an epic, insane MTB race.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:videos:90f4a12c-8044-4f8d-86c0-999fee85d653/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="original-air-date">2026-10-14 12:05:21</episode-num>
+<date>2026</date></programme>
+  <programme start="20261014123211 +0000" stop="20261014131317 +0000" channel="Red Bull TV.en"><title>Matt Jones: The Impossible Gap</title>
+<sub-title>Extreme mountain biking challenge</sub-title>
+<desc>Mountain biker Matt Jones attempts to jump his bike between two moving trucks, through an impossible gap that exists for less than a second. Watch Matt prepare for his time-critical feat of precision.</desc>
+<category>Movie</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:c0bf61ed-03b4-432f-be9f-b57fe65b4528/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+</programme>
+  <programme start="20261014131317 +0000" stop="20261014135547 +0000" channel="Red Bull TV.en"><title>Red Bull Erzbergrodeo</title>
+<sub-title>Carnage from the hardest race on Earth</sub-title>
+<desc>Experience huge crashes, impossible recoveries, iconic battles and chaos on the Iron Giant over 30 years of Red Bull Erzbergrodeo history, the toughest Hard Enduro race in the world.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:videos:da1b92ae-91d1-4f37-9dc0-431e94673713/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="original-air-date">2026-10-14 13:13:17</episode-num>
+<date>2026</date></programme>
+  <programme start="20261014135547 +0000" stop="20261014142125 +0000" channel="Red Bull TV.en"><title>Asa Vermette's Ascent</title>
+<sub-title>A rookie’s breakout year in downhill MTB</sub-title>
+<desc>One of mountain biking’s most exciting young riders, Asa Vermette, has secured a Junior world title. Follow his journey as he faces downhill’s toughest race in his debut Red Bull Hardline season.</desc>
+<category>Movie</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:2f27123f-6b9a-46a6-8be1-03cbdb5992e7/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+</programme>
+  <programme start="20261014142125 +0000" stop="20261014144409 +0000" channel="Red Bull TV.en"><title>Paradigm</title>
+<sub-title>Mountain biking taken to new heights</sub-title>
+<desc>From the precision of slopestyle to the massive airs of freeride and the raw speed of downhill, Thomas Genon, Szymon Godziek, Emil Johansson and Kade Edwards deliver raw MTB talent and nonstop action.</desc>
+<date>2025</date>
+<category>Movie</category>
+<icon src="https://image.tmdb.org/t/p/original/xcZonwPFynraospKrWt3gqf6p9r.jpg"/>
+<episode-num system="themoviedb.org">movie/1583569</episode-num>
+</programme>
+  <programme start="20261014144409 +0000" stop="20261014151124 +0000" channel="Red Bull TV.en"><title>Progression</title>
+<sub-title>The female freeriders changing MTB</sub-title>
+<desc>Red Bull Formation 2021 brought together like-minded riders who want to progress and evolve their sport. These women are now changing the face of freeride mountain biking.</desc>
+<date>2009</date>
+<category>Movie</category>
+<icon src="https://image.tmdb.org/t/p/original/reqekrZxbpLBCouv6fxQ53bFN7U.jpg"/>
+<episode-num system="themoviedb.org">movie/31222</episode-num>
+</programme>
+  <programme start="20261014151124 +0000" stop="20261014152138 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
+<sub-title>2016's fan-favourite teams</sub-title>
+<desc>Speed wins a Red Bull Soapbox Race, but eccentric design, a big show and bigger crashes win you the crowd. Case in point, 2016's crowd favourites.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
+<episode-num system="xmltv_ns">3.2.0</episode-num>
+<episode-num system="themoviedb.org">series/287622</episode-num>
+<episode-num system="original-air-date">2026-10-14 15:11:24</episode-num>
+</programme>
+  <programme start="20261014152138 +0000" stop="20261014153507 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
+<sub-title>2017's fan-favourite teams</sub-title>
+<desc>As 2017's fan favourites teach us, two-wheeled designs never work, and everyone loves a pop culture referencing racer – especially if they self-destruct.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
+<episode-num system="xmltv_ns">3.3.0</episode-num>
+<episode-num system="themoviedb.org">series/287622</episode-num>
+<episode-num system="original-air-date">2026-10-14 15:21:38</episode-num>
+</programme>
+  <programme start="20261014153507 +0000" stop="20261014161850 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
+<sub-title>Spa, Belgium</sub-title>
+<desc>Fearless teams race through obstacles in their engineless machines. The day brings many cheers from the enthusiastic crowds – as well as many crashes! So who will be the 2022 winner in Spa?</desc>
+<icon src="https://image.tmdb.org/t/p/original/3hXoGBcSLabu2ViQDOMV1r0ejSN.jpg"/>
+<episode-num system="xmltv_ns">9.2.0</episode-num>
+<episode-num system="themoviedb.org">series/337165</episode-num>
+<episode-num system="original-air-date">2026-10-14 15:35:07</episode-num>
+<date>2026</date></programme>
+  <programme start="20261014161850 +0000" stop="20261014162740 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
+<sub-title>2018's best crashes and smashes</sub-title>
+<desc>Skinny wheels, a narrow wheelbase and a tall chassis are a recipe for big soapbox racing crashes and 2018's biggest spills are the proof.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
+<episode-num system="xmltv_ns">2.4.0</episode-num>
+<episode-num system="themoviedb.org">series/287622</episode-num>
+<episode-num system="original-air-date">2026-10-14 16:18:50</episode-num>
+</programme>
+  <programme start="20261014162740 +0000" stop="20261014164054 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
+<sub-title>2019's best crashes and smashes</sub-title>
+<desc>To win in Red Bull Soapbox Race, first you've got to finish. This is not easy for these hard-crashing teams from 2019's championship.</desc>
+<icon src="https://image.tmdb.org/t/p/original/3hXoGBcSLabu2ViQDOMV1r0ejSN.jpg"/>
+<episode-num system="xmltv_ns">2.5.0</episode-num>
+<episode-num system="themoviedb.org">series/337165</episode-num>
+<episode-num system="original-air-date">2026-10-14 16:27:40</episode-num>
+<date>2026</date></programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
   </channel>
