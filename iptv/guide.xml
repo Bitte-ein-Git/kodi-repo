@@ -2838,127 +2838,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20261014131317 +0000" stop="20261014135547 +0000" channel="Red Bull TV.en"><title>Red Bull Erzbergrodeo</title>
-<sub-title>Carnage from the hardest race on Earth</sub-title>
-<desc>Experience huge crashes, impossible recoveries, iconic battles and chaos on the Iron Giant over 30 years of Red Bull Erzbergrodeo history, the toughest Hard Enduro race in the world.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:videos:da1b92ae-91d1-4f37-9dc0-431e94673713/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="original-air-date">2026-10-14 13:13:17</episode-num>
-<date>2026</date></programme>
-  <programme start="20261014135547 +0000" stop="20261014142125 +0000" channel="Red Bull TV.en"><title>Asa Vermette's Ascent</title>
-<sub-title>A rookie’s breakout year in downhill MTB</sub-title>
-<desc>One of mountain biking’s most exciting young riders, Asa Vermette, has secured a Junior world title. Follow his journey as he faces downhill’s toughest race in his debut Red Bull Hardline season.</desc>
-<category>Movie</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:2f27123f-6b9a-46a6-8be1-03cbdb5992e7/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-</programme>
-  <programme start="20261014142125 +0000" stop="20261014144409 +0000" channel="Red Bull TV.en"><title>Paradigm</title>
-<sub-title>Mountain biking taken to new heights</sub-title>
-<desc>From the precision of slopestyle to the massive airs of freeride and the raw speed of downhill, Thomas Genon, Szymon Godziek, Emil Johansson and Kade Edwards deliver raw MTB talent and nonstop action.</desc>
-<date>2025</date>
-<category>Movie</category>
-<icon src="https://image.tmdb.org/t/p/original/xcZonwPFynraospKrWt3gqf6p9r.jpg"/>
-<episode-num system="themoviedb.org">movie/1583569</episode-num>
-</programme>
-  <programme start="20261014144409 +0000" stop="20261014151124 +0000" channel="Red Bull TV.en"><title>Progression</title>
-<sub-title>The female freeriders changing MTB</sub-title>
-<desc>Red Bull Formation 2021 brought together like-minded riders who want to progress and evolve their sport. These women are now changing the face of freeride mountain biking.</desc>
-<date>2009</date>
-<category>Movie</category>
-<icon src="https://image.tmdb.org/t/p/original/reqekrZxbpLBCouv6fxQ53bFN7U.jpg"/>
-<episode-num system="themoviedb.org">movie/31222</episode-num>
-</programme>
-  <programme start="20261014151124 +0000" stop="20261014152138 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
-<sub-title>2016's fan-favourite teams</sub-title>
-<desc>Speed wins a Red Bull Soapbox Race, but eccentric design, a big show and bigger crashes win you the crowd. Case in point, 2016's crowd favourites.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
-<episode-num system="xmltv_ns">3.2.0</episode-num>
-<episode-num system="themoviedb.org">series/287622</episode-num>
-<episode-num system="original-air-date">2026-10-14 15:11:24</episode-num>
-</programme>
-  <programme start="20261014152138 +0000" stop="20261014153507 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
-<sub-title>2017's fan-favourite teams</sub-title>
-<desc>As 2017's fan favourites teach us, two-wheeled designs never work, and everyone loves a pop culture referencing racer – especially if they self-destruct.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
-<episode-num system="xmltv_ns">3.3.0</episode-num>
-<episode-num system="themoviedb.org">series/287622</episode-num>
-<episode-num system="original-air-date">2026-10-14 15:21:38</episode-num>
-</programme>
-  <programme start="20261014153507 +0000" stop="20261014161850 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
-<sub-title>Spa, Belgium</sub-title>
-<desc>Fearless teams race through obstacles in their engineless machines. The day brings many cheers from the enthusiastic crowds – as well as many crashes! So who will be the 2022 winner in Spa?</desc>
-<icon src="https://image.tmdb.org/t/p/original/3hXoGBcSLabu2ViQDOMV1r0ejSN.jpg"/>
-<episode-num system="xmltv_ns">9.2.0</episode-num>
-<episode-num system="themoviedb.org">series/337165</episode-num>
-<episode-num system="original-air-date">2026-10-14 15:35:07</episode-num>
-<date>2026</date></programme>
-  <programme start="20261014161850 +0000" stop="20261014162740 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
-<sub-title>2018's best crashes and smashes</sub-title>
-<desc>Skinny wheels, a narrow wheelbase and a tall chassis are a recipe for big soapbox racing crashes and 2018's biggest spills are the proof.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
-<episode-num system="xmltv_ns">2.4.0</episode-num>
-<episode-num system="themoviedb.org">series/287622</episode-num>
-<episode-num system="original-air-date">2026-10-14 16:18:50</episode-num>
-</programme>
-  <programme start="20261014162740 +0000" stop="20261014164054 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
-<sub-title>2019's best crashes and smashes</sub-title>
-<desc>To win in Red Bull Soapbox Race, first you've got to finish. This is not easy for these hard-crashing teams from 2019's championship.</desc>
-<icon src="https://image.tmdb.org/t/p/original/3hXoGBcSLabu2ViQDOMV1r0ejSN.jpg"/>
-<episode-num system="xmltv_ns">2.5.0</episode-num>
-<episode-num system="themoviedb.org">series/337165</episode-num>
-<episode-num system="original-air-date">2026-10-14 16:27:40</episode-num>
-<date>2026</date></programme>
-  <programme start="20261014164054 +0000" stop="20261014165219 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
-<sub-title>2016's best crashes and smashes</sub-title>
-<desc>The steepest competition hill ever in Ireland and the aptly named Death Roller made sure 2016 continued to deliver more epic soapbox crashes.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
-<episode-num system="xmltv_ns">2.2.0</episode-num>
-<episode-num system="themoviedb.org">series/287622</episode-num>
-<episode-num system="original-air-date">2026-10-14 16:40:54</episode-num>
-</programme>
-  <programme start="20261014165219 +0000" stop="20261014173533 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
-<sub-title>San Marino, Italy</sub-title>
-<desc>The race with no engine and many obstacles will test the participants throughout the day. Have the teams done enough to let their machines race to the finish line or will the obstacles be too big?</desc>
-<icon src="https://image.tmdb.org/t/p/original/3hXoGBcSLabu2ViQDOMV1r0ejSN.jpg"/>
-<episode-num system="xmltv_ns">9.1.0</episode-num>
-<episode-num system="themoviedb.org">series/337165</episode-num>
-<episode-num system="original-air-date">2026-10-14 16:52:19</episode-num>
-<date>2026</date></programme>
-  <programme start="20261014173533 +0000" stop="20261014174431 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
-<sub-title>2014's fan-favourite teams</sub-title>
-<desc>If you can't build a fast soapbox, you can at least build an fun one to entertain the huge crowds and these were 2014's fan favourites.</desc>
-<icon src="https://image.tmdb.org/t/p/original/3hXoGBcSLabu2ViQDOMV1r0ejSN.jpg"/>
-<episode-num system="xmltv_ns">3.0.0</episode-num>
-<episode-num system="themoviedb.org">series/337165</episode-num>
-<episode-num system="original-air-date">2026-10-14 17:35:33</episode-num>
-<date>2026</date></programme>
-  <programme start="20261014174431 +0000" stop="20261014175710 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
-<sub-title>2017's best crashes and smashes</sub-title>
-<desc>Get the first aid kits ready because 2017's crash-reel includes some Hollywood action film-worthy smashes that undoubtedly stung a bit.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
-<episode-num system="xmltv_ns">2.3.0</episode-num>
-<episode-num system="themoviedb.org">series/287622</episode-num>
-<episode-num system="original-air-date">2026-10-14 17:44:31</episode-num>
-</programme>
-  <programme start="20261014175710 +0000" stop="20261014180744 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
-<sub-title>2015's fan-favourite teams</sub-title>
-<desc>How do win over a Red Bull Soapbox Race crowd? Destroying your racer and the course itself certainly helps, as 2015's highlights prove.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
-<episode-num system="xmltv_ns">3.1.0</episode-num>
-<episode-num system="themoviedb.org">series/287622</episode-num>
-<episode-num system="original-air-date">2026-10-14 17:57:10</episode-num>
-</programme>
-  <programme start="20261014180744 +0000" stop="20261014184001 +0000" channel="Red Bull TV.en"><title>Michelle Khare's Great World Race</title>
-<sub-title>Pt. 2: I ran 7 marathons in 7 days on 7 continents</sub-title>
-<desc>Michelle battles extreme heat in Australia and Abu Dhabi, forming powerful bonds with fellow racers as injuries and exhaustion threaten the race.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:3633c16e-98e3-4450-80c8-5268d578951c/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.1.0</episode-num>
-<episode-num system="original-air-date">2026-10-14 18:07:44</episode-num>
-<date>2026</date></programme>
   <programme start="20261014184001 +0000" stop="20261014192123 +0000" channel="Red Bull TV.en"><title>Michelle Khare's Great World Race</title>
 <sub-title>Pt. 1: I ran 7 marathons in 7 days on 7 continents</sub-title>
 <desc>After months of elite training Michelle begins The Great World Race, racing from Cape Town to the blistering cold of Antarctica, where she must finish in 8 hours or be left behind.</desc>
@@ -3252,6 +3131,80 @@
 <episode-num system="themoviedb.org">series/287622</episode-num>
 <episode-num system="original-air-date">2026-10-15 12:27:42</episode-num>
 </programme>
+  <programme start="20261015124111 +0000" stop="20261015132453 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
+<sub-title>Spa, Belgium</sub-title>
+<desc>Fearless teams race through obstacles in their engineless machines. The day brings many cheers from the enthusiastic crowds – as well as many crashes! So who will be the 2022 winner in Spa?</desc>
+<icon src="https://image.tmdb.org/t/p/original/3hXoGBcSLabu2ViQDOMV1r0ejSN.jpg"/>
+<episode-num system="xmltv_ns">9.2.0</episode-num>
+<episode-num system="themoviedb.org">series/337165</episode-num>
+<episode-num system="original-air-date">2026-10-15 12:41:11</episode-num>
+<date>2026</date></programme>
+  <programme start="20261015132453 +0000" stop="20261015133552 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
+<sub-title>2019's best runs</sub-title>
+<desc>With racing on four continents for the first time, 2019's races showcased some ultra-fast runs, but which teams won these wacky races?</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
+<episode-num system="xmltv_ns">0.5.0</episode-num>
+<episode-num system="themoviedb.org">series/287622</episode-num>
+<episode-num system="original-air-date">2026-10-15 13:24:53</episode-num>
+</programme>
+  <programme start="20261015133552 +0000" stop="20261015134906 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
+<sub-title>2019's best crashes and smashes</sub-title>
+<desc>To win in Red Bull Soapbox Race, first you've got to finish. This is not easy for these hard-crashing teams from 2019's championship.</desc>
+<icon src="https://image.tmdb.org/t/p/original/3hXoGBcSLabu2ViQDOMV1r0ejSN.jpg"/>
+<episode-num system="xmltv_ns">2.5.0</episode-num>
+<episode-num system="themoviedb.org">series/337165</episode-num>
+<episode-num system="original-air-date">2026-10-15 13:35:52</episode-num>
+<date>2026</date></programme>
+  <programme start="20261015134906 +0000" stop="20261015140051 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
+<sub-title>2019's fan-favourite teams</sub-title>
+<desc>A brilliant transformer design, top-notch dancing dads and a flaming witch going down in a blaze of glory won the crowds' hearts in 2019.</desc>
+<icon src="https://image.tmdb.org/t/p/original/3hXoGBcSLabu2ViQDOMV1r0ejSN.jpg"/>
+<episode-num system="xmltv_ns">3.5.0</episode-num>
+<episode-num system="themoviedb.org">series/337165</episode-num>
+<episode-num system="original-air-date">2026-10-15 13:49:06</episode-num>
+<date>2026</date></programme>
+  <programme start="20261015140051 +0000" stop="20261015141015 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
+<sub-title>2018's best runs</sub-title>
+<desc>What do flying Italian bagpipes and South Africa's fastest Stone Age racer have in common? They both made the cut among 2018's best Red Bull Soapbox Race runs.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
+<episode-num system="xmltv_ns">0.4.0</episode-num>
+<episode-num system="themoviedb.org">series/287622</episode-num>
+<episode-num system="original-air-date">2026-10-15 14:00:51</episode-num>
+</programme>
+  <programme start="20261015141015 +0000" stop="20261015142029 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
+<sub-title>2016's fan-favourite teams</sub-title>
+<desc>Speed wins a Red Bull Soapbox Race, but eccentric design, a big show and bigger crashes win you the crowd. Case in point, 2016's crowd favourites.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
+<episode-num system="xmltv_ns">3.2.0</episode-num>
+<episode-num system="themoviedb.org">series/287622</episode-num>
+<episode-num system="original-air-date">2026-10-15 14:10:15</episode-num>
+</programme>
+  <programme start="20261015142029 +0000" stop="20261015143000 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
+<sub-title>2014's best runs</sub-title>
+<desc>These are the fearless teams who pushed their soapbox racers to the limits to smash the speed limits and sometimes the track markers in 2014's races.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
+<episode-num system="xmltv_ns">0.0.0</episode-num>
+<episode-num system="themoviedb.org">series/287622</episode-num>
+<episode-num system="original-air-date">2026-10-15 14:20:29</episode-num>
+</programme>
+  <programme start="20261015143000 +0000" stop="20261015173020 +0000" channel="Red Bull TV.en"><title>Red Bull Rampage 2026</title>
+<sub-title>Women's livestream: Red Bull Rampage</sub-title>
+<desc>The world’s best female freeride mountain bikers face the unforgiving Utah desert, taking on massive drops, technical lines and some of the most challenging terrain in the world at Red Bull Rampage.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:live-videos:8ad0e5c6-32db-4fee-ab1d-f15c59e2d198/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="original-air-date">2026-10-15 14:30:00</episode-num>
+<date>2026</date></programme>
+  <programme start="20261015173020 +0000" stop="20261015181333 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
+<sub-title>San Marino, Italy</sub-title>
+<desc>The race with no engine and many obstacles will test the participants throughout the day. Have the teams done enough to let their machines race to the finish line or will the obstacles be too big?</desc>
+<icon src="https://image.tmdb.org/t/p/original/3hXoGBcSLabu2ViQDOMV1r0ejSN.jpg"/>
+<episode-num system="xmltv_ns">9.1.0</episode-num>
+<episode-num system="themoviedb.org">series/337165</episode-num>
+<episode-num system="original-air-date">2026-10-15 17:30:20</episode-num>
+<date>2026</date></programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
   </channel>
