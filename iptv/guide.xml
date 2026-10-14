@@ -2838,66 +2838,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20261014184001 +0000" stop="20261014192123 +0000" channel="Red Bull TV.en"><title>Michelle Khare's Great World Race</title>
-<sub-title>Pt. 1: I ran 7 marathons in 7 days on 7 continents</sub-title>
-<desc>After months of elite training Michelle begins The Great World Race, racing from Cape Town to the blistering cold of Antarctica, where she must finish in 8 hours or be left behind.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:a3931605-32cb-413b-980f-3811cc8a263a/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.0.0</episode-num>
-<episode-num system="original-air-date">2026-10-14 18:40:01</episode-num>
-<date>2026</date></programme>
-  <programme start="20261014192123 +0000" stop="20261014205729 +0000" channel="Red Bull TV.en"><title>Born to Fly</title>
-<sub-title>Mondo Duplantis's journey to pole vault sensation</sub-title>
-<desc>From child prodigy to a world great, Mondo Duplantis's journey to pole vault legend wasn't without challenges. His intimate story explores the unrelenting drive that propelled him to new heights.</desc>
-<date>2022</date>
-<category>Movie</category>
-<icon src="https://image.tmdb.org/t/p/original/xmTvJJzjnmahVvdBCbrZOsYupqO.jpg"/>
-<episode-num system="themoviedb.org">movie/1023164</episode-num>
-</programme>
-  <programme start="20261014205729 +0000" stop="20261014212259 +0000" channel="Red Bull TV.en"><title>ABC of...</title>
-<sub-title>ABC of... Climbing</sub-title>
-<desc>Join Sasha DiGiulian as she takes you on an expedition around the globe with some of the world's top climbers. Get to know the language, the equipment, the history, and so much more.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/vqael6A2gLqMJqCeV1v8QZVeY15.jpg"/>
-<episode-num system="xmltv_ns">1.0.0</episode-num>
-<episode-num system="themoviedb.org">series/205043</episode-num>
-<episode-num system="original-air-date">2026-10-14 20:57:29</episode-num>
-</programme>
-  <programme start="20261014212259 +0000" stop="20261014213953 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>Yeah buddy – part 1</sub-title>
-<desc>Australian prodigy Angie Scarth-Johnson joins adventure climber Hazel Findlay to tackle Mallorca’s top deep-water soloing routes, blending skill and thrill in breathtaking settings.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">9.0.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-10-14 21:22:59</episode-num>
-</programme>
-  <programme start="20261014213953 +0000" stop="20261014215700 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>Yeah buddy – part 2</sub-title>
-<desc>Angie Scarth-Johnson discovers that mastering climbing competition Psicobloc is as much mental as physical. To tackle tough moves high above the water, she'll have to face her fears.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">9.1.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-10-14 21:39:53</episode-num>
-</programme>
-  <programme start="20261014215700 +0000" stop="20261014221813 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>Soundscape</sub-title>
-<desc>Blind adventure athlete Erik Weihenmayer ascends a huge rock face in the Sierra Nevada. Using camera work and animation, the film brings to life a concept by adaptive climbing pioneer Timmy ONeill.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">9.2.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-10-14 21:57:00</episode-num>
-</programme>
-  <programme start="20261014221813 +0000" stop="20261014224207 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>With my heart</sub-title>
-<desc>Japanese climbing legend Sachi Amma journeys from three-time world champ to purist, culminating in a bold and visionary first ascent on Japan's Mt. Mizugaki.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">9.3.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-10-14 22:18:13</episode-num>
-</programme>
   <programme start="20261014224207 +0000" stop="20261014231258 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
 <sub-title>Black Pearl</sub-title>
 <desc>At 42, climber Chris Sharma takes on his toughest challenge with the first ascent of Black Pearl in Mallorca, pushing the limits of deep water soloing in this test of skill, strength and resilience.</desc>
@@ -3205,6 +3145,56 @@
 <episode-num system="themoviedb.org">series/337165</episode-num>
 <episode-num system="original-air-date">2026-10-15 17:30:20</episode-num>
 <date>2026</date></programme>
+  <programme start="20261015181333 +0000" stop="20261015184551 +0000" channel="Red Bull TV.en"><title>Michelle Khare's Great World Race</title>
+<sub-title>Pt. 2: I ran 7 marathons in 7 days on 7 continents</sub-title>
+<desc>Michelle battles extreme heat in Australia and Abu Dhabi, forming powerful bonds with fellow racers as injuries and exhaustion threaten the race.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:3633c16e-98e3-4450-80c8-5268d578951c/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.1.0</episode-num>
+<episode-num system="original-air-date">2026-10-15 18:13:33</episode-num>
+<date>2026</date></programme>
+  <programme start="20261015184551 +0000" stop="20261015192712 +0000" channel="Red Bull TV.en"><title>Michelle Khare's Great World Race</title>
+<sub-title>Pt. 1: I ran 7 marathons in 7 days on 7 continents</sub-title>
+<desc>After months of elite training Michelle begins The Great World Race, racing from Cape Town to the blistering cold of Antarctica, where she must finish in 8 hours or be left behind.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:a3931605-32cb-413b-980f-3811cc8a263a/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.0.0</episode-num>
+<episode-num system="original-air-date">2026-10-15 18:45:51</episode-num>
+<date>2026</date></programme>
+  <programme start="20261015192712 +0000" stop="20261015194419 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>Yeah buddy – part 2</sub-title>
+<desc>Angie Scarth-Johnson discovers that mastering climbing competition Psicobloc is as much mental as physical. To tackle tough moves high above the water, she'll have to face her fears.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">9.1.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-15 19:27:12</episode-num>
+</programme>
+  <programme start="20261015194419 +0000" stop="20261015201510 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>Black Pearl</sub-title>
+<desc>At 42, climber Chris Sharma takes on his toughest challenge with the first ascent of Black Pearl in Mallorca, pushing the limits of deep water soloing in this test of skill, strength and resilience.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">9.4.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-07-04 07:19:08</episode-num>
+</programme>
+  <programme start="20261015201510 +0000" stop="20261015203412 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>The puzzle</sub-title>
+<desc>Brette Harrington takes on an unfinished route on the remote Chinese Puzzle Wall, completing a climb started by her late partner, Marc-André LeClerc, in a heartfelt tribute to his legacy.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">9.5.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-15 20:15:10</episode-num>
+</programme>
+  <programme start="20261015203412 +0000" stop="20261015210620 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>Dropping Molly</sub-title>
+<desc>Join climber Molly Mitchell on her intense, years-long journey to complete a rare all-gear ascent of Crank-it in Boulder Canyon, a route known for its extreme difficulty and high risks.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">9.7.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-15 20:34:12</episode-num>
+</programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
   </channel>
