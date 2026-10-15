@@ -2908,70 +2908,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20261015143000 +0000" stop="20261015173020 +0000" channel="Red Bull TV.en"><title>Red Bull Rampage 2026</title>
-<sub-title>Women's livestream: Red Bull Rampage</sub-title>
-<desc>The world’s best female freeride mountain bikers face the unforgiving Utah desert, taking on massive drops, technical lines and some of the most challenging terrain in the world at Red Bull Rampage.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:live-videos:8ad0e5c6-32db-4fee-ab1d-f15c59e2d198/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="original-air-date">2026-10-15 14:30:00</episode-num>
-<date>2026</date></programme>
-  <programme start="20261015173020 +0000" stop="20261015181333 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
-<sub-title>San Marino, Italy</sub-title>
-<desc>The race with no engine and many obstacles will test the participants throughout the day. Have the teams done enough to let their machines race to the finish line or will the obstacles be too big?</desc>
-<icon src="https://image.tmdb.org/t/p/original/3hXoGBcSLabu2ViQDOMV1r0ejSN.jpg"/>
-<episode-num system="xmltv_ns">9.1.0</episode-num>
-<episode-num system="themoviedb.org">series/337165</episode-num>
-<episode-num system="original-air-date">2026-10-15 17:30:20</episode-num>
-<date>2026</date></programme>
-  <programme start="20261015181333 +0000" stop="20261015184551 +0000" channel="Red Bull TV.en"><title>Michelle Khare's Great World Race</title>
-<sub-title>Pt. 2: I ran 7 marathons in 7 days on 7 continents</sub-title>
-<desc>Michelle battles extreme heat in Australia and Abu Dhabi, forming powerful bonds with fellow racers as injuries and exhaustion threaten the race.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:3633c16e-98e3-4450-80c8-5268d578951c/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.1.0</episode-num>
-<episode-num system="original-air-date">2026-10-15 18:13:33</episode-num>
-<date>2026</date></programme>
-  <programme start="20261015184551 +0000" stop="20261015192712 +0000" channel="Red Bull TV.en"><title>Michelle Khare's Great World Race</title>
-<sub-title>Pt. 1: I ran 7 marathons in 7 days on 7 continents</sub-title>
-<desc>After months of elite training Michelle begins The Great World Race, racing from Cape Town to the blistering cold of Antarctica, where she must finish in 8 hours or be left behind.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:a3931605-32cb-413b-980f-3811cc8a263a/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.0.0</episode-num>
-<episode-num system="original-air-date">2026-10-15 18:45:51</episode-num>
-<date>2026</date></programme>
-  <programme start="20261015192712 +0000" stop="20261015194419 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>Yeah buddy – part 2</sub-title>
-<desc>Angie Scarth-Johnson discovers that mastering climbing competition Psicobloc is as much mental as physical. To tackle tough moves high above the water, she'll have to face her fears.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">9.1.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-10-15 19:27:12</episode-num>
-</programme>
-  <programme start="20261015194419 +0000" stop="20261015201510 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>Black Pearl</sub-title>
-<desc>At 42, climber Chris Sharma takes on his toughest challenge with the first ascent of Black Pearl in Mallorca, pushing the limits of deep water soloing in this test of skill, strength and resilience.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">9.4.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-07-04 07:19:08</episode-num>
-</programme>
-  <programme start="20261015201510 +0000" stop="20261015203412 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>The puzzle</sub-title>
-<desc>Brette Harrington takes on an unfinished route on the remote Chinese Puzzle Wall, completing a climb started by her late partner, Marc-André LeClerc, in a heartfelt tribute to his legacy.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">9.5.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-10-15 20:15:10</episode-num>
-</programme>
-  <programme start="20261015203412 +0000" stop="20261015210620 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>Dropping Molly</sub-title>
-<desc>Join climber Molly Mitchell on her intense, years-long journey to complete a rare all-gear ascent of Crank-it in Boulder Canyon, a route known for its extreme difficulty and high risks.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">9.7.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-10-15 20:34:12</episode-num>
-</programme>
   <programme start="20261015210620 +0000" stop="20261015214926 +0000" channel="Red Bull TV.en"><title>Encouraged: Building the Future</title>
 <sub-title>BMXer Courage Adams goes home to build a skatepark</sub-title>
 <desc>Courage Adams returns to Nigeria to build the first-ever skatepark in Lagos, giving local BMX fanatics the opportunity to push the limits of the local sports scene. </desc>
@@ -3310,6 +3246,38 @@
 <icon src="https://resources.redbull.tv/rrn:content:live-videos:d4046d87-fe89-4537-9fba-bc2eb2bedcb4/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
 <episode-num system="original-air-date">2026-10-16 14:30:00</episode-num>
 <date>2026</date></programme>
+  <programme start="20261016160644 +0000" stop="20261016174251 +0000" channel="Red Bull TV.en"><title>Born to Fly</title>
+<sub-title>Mondo Duplantis's journey to pole vault sensation</sub-title>
+<desc>From child prodigy to a world great, Mondo Duplantis's journey to pole vault legend wasn't without challenges. His intimate story explores the unrelenting drive that propelled him to new heights.</desc>
+<date>2022</date>
+<category>Movie</category>
+<icon src="https://image.tmdb.org/t/p/original/xmTvJJzjnmahVvdBCbrZOsYupqO.jpg"/>
+<episode-num system="themoviedb.org">movie/1023164</episode-num>
+</programme>
+  <programme start="20261016174251 +0000" stop="20261016182557 +0000" channel="Red Bull TV.en"><title>Encouraged: Building the Future</title>
+<sub-title>BMXer Courage Adams goes home to build a skatepark</sub-title>
+<desc>Courage Adams returns to Nigeria to build the first-ever skatepark in Lagos, giving local BMX fanatics the opportunity to push the limits of the local sports scene. </desc>
+<category>Movie</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:ce2581ae-ab9d-4a00-9205-4d21ca07414a/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+</programme>
+  <programme start="20261016182557 +0000" stop="20261016183434 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
+<sub-title>2014's top car designs</sub-title>
+<desc>Building fast racer is only part of the magic Red Bull Soapbox Race formula: it's also got to look good and these were 2014's hottest designs.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
+<episode-num system="xmltv_ns">1.0.0</episode-num>
+<episode-num system="themoviedb.org">series/287622</episode-num>
+<episode-num system="original-air-date">2026-10-16 18:25:57</episode-num>
+</programme>
+  <programme start="20261016183434 +0000" stop="20261016184500 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
+<sub-title>2015's best runs</sub-title>
+<desc>Flying bodywork, broken steering, a feuding royal family and some seriously rapid rides star in the highlights from 2015's seven-stop Red Bull Soapbox Race series.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
+<episode-num system="xmltv_ns">0.1.0</episode-num>
+<episode-num system="themoviedb.org">series/287622</episode-num>
+<episode-num system="original-air-date">2026-10-16 18:34:34</episode-num>
+</programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
   </channel>
