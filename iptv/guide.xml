@@ -2908,26 +2908,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20261015210620 +0000" stop="20261015214926 +0000" channel="Red Bull TV.en"><title>Encouraged: Building the Future</title>
-<sub-title>BMXer Courage Adams goes home to build a skatepark</sub-title>
-<desc>Courage Adams returns to Nigeria to build the first-ever skatepark in Lagos, giving local BMX fanatics the opportunity to push the limits of the local sports scene. </desc>
-<category>Movie</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:ce2581ae-ab9d-4a00-9205-4d21ca07414a/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-</programme>
-  <programme start="20261015214926 +0000" stop="20261015224020 +0000" channel="Red Bull TV.en"><title>A Biker's Ballad</title>
-<sub-title>Exploring MTB’s roots: A must-see for every rider</sub-title>
-<desc>14 riders. 7 years. This mountain biking epic takes a two-wheeled journey back to where the sport began in Crested Butte, Colorado, to celebrate its deep-rooted culture.</desc>
-<category>Movie</category>
-<icon src="https://image.tmdb.org/t/p/original/caoheEgsaDTlWDdeDn66wjRJUk0.jpg"/>
-<episode-num system="themoviedb.org">movie/860971</episode-num>
-</programme>
-  <programme start="20261015224020 +0000" stop="20261015234913 +0000" channel="Red Bull TV.en"><title>The Old World</title>
-<sub-title>A cinematic celebration of European biking culture</sub-title>
-<desc>Bridging the gap between mountain biking and BMX, The Old World shines a spotlight on the European riders dominating the world stage, from the rough the fjords of Norway to the Scottish Highlands.</desc>
-<category>Movie</category>
-<icon src="https://image.tmdb.org/t/p/original/vWS7h57IcTrpBUPNWbC5tWjjCy2.jpg"/>
-<episode-num system="themoviedb.org">movie/1116384</episode-num>
-</programme>
   <programme start="20261015234913 +0000" stop="20261016001248 +0000" channel="Red Bull TV.en"><title>UnBRAKEable</title>
 <sub-title>Patrick Seabase takes on the Swiss Alps</sub-title>
 <desc>A documentary about Patrick Seabase’s ultimate Tour de Suisse, riding almost 350km and 9,000m in elevation on a track bike within one day, connecting some of the most beautiful parts of Switzerland.</desc>
@@ -3278,6 +3258,33 @@
 <episode-num system="themoviedb.org">series/287622</episode-num>
 <episode-num system="original-air-date">2026-10-16 18:34:34</episode-num>
 </programme>
+  <programme start="20261016184500 +0000" stop="20261016213036 +0000" channel="Red Bull TV.en"><title>Red Bull Hardline 2026</title>
+<sub-title>Red Bull Hardline British Columbia 2026 livestream</sub-title>
+<desc>The world’s toughest MTB race pushes riders to their absolute limits on the most extreme, unforgiving terrain.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:live-videos:6933d1de-1fd1-4d7b-9ef9-6507588f1e75/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="original-air-date">2026-10-16 18:45:00</episode-num>
+<date>2026</date></programme>
+  <programme start="20261016213036 +0000" stop="20261016215636 +0000" channel="Red Bull TV.en"><title>For Reals</title>
+<sub-title>From skydiving with skis to flying into a volcano</sub-title>
+<desc>Flying a plane 245kph through a tunnel. A wingsuit flight across the crater of an active volcano. A record-breaking truck jump in a ghost town. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:f2cb2ce7-09e1-4656-a37f-a10c80b56502/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.3.0</episode-num>
+<episode-num system="original-air-date">2026-10-16 21:30:36</episode-num>
+<date>2026</date></programme>
+  <programme start="20261016215636 +0000" stop="20261016222236 +0000" channel="Red Bull TV.en"><title>For Reals</title>
+<sub-title>From BASE jumping a cave to a flying mega swing</sub-title>
+<desc>Wingsuit flying through London’s Tower Bridge at 246kph. Swinging from a hot air balloon. Slacklining the length of two football fields. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:2664328f-b440-42e2-9241-b99235650fb9/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.6.0</episode-num>
+<episode-num system="original-air-date">2026-07-12 15:05:22</episode-num>
+<date>2026</date></programme>
+  <programme start="20261016222236 +0000" stop="20261016224912 +0000" channel="Red Bull TV.en"><title>For Reals</title>
+<sub-title>From F1 desert racing to a skatepark in the sky</sub-title>
+<desc>Wakeskating off a Dubai skyscraper. F1 drivers racing on Floridan waters and in the Nevada desert. Riding a skatepark attached to a hot air balloon. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:cff46697-c2b7-46aa-a674-e152be37dbe4/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.0.0</episode-num>
+<episode-num system="original-air-date">2026-07-07 02:20:38</episode-num>
+<date>2026</date></programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
   </channel>
