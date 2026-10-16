@@ -2979,95 +2979,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20261016104658 +0000" stop="20261016113011 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
-<sub-title>San Marino, Italy</sub-title>
-<desc>The race with no engine and many obstacles will test the participants throughout the day. Have the teams done enough to let their machines race to the finish line or will the obstacles be too big?</desc>
-<icon src="https://image.tmdb.org/t/p/original/3hXoGBcSLabu2ViQDOMV1r0ejSN.jpg"/>
-<episode-num system="xmltv_ns">9.1.0</episode-num>
-<episode-num system="themoviedb.org">series/337165</episode-num>
-<episode-num system="original-air-date">2026-10-16 10:46:58</episode-num>
-<date>2026</date></programme>
-  <programme start="20261016113011 +0000" stop="20261016114156 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
-<sub-title>2019's fan-favourite teams</sub-title>
-<desc>A brilliant transformer design, top-notch dancing dads and a flaming witch going down in a blaze of glory won the crowds' hearts in 2019.</desc>
-<icon src="https://image.tmdb.org/t/p/original/3hXoGBcSLabu2ViQDOMV1r0ejSN.jpg"/>
-<episode-num system="xmltv_ns">3.5.0</episode-num>
-<episode-num system="themoviedb.org">series/337165</episode-num>
-<episode-num system="original-air-date">2026-10-16 11:30:11</episode-num>
-<date>2026</date></programme>
-  <programme start="20261016114156 +0000" stop="20261016115435 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
-<sub-title>2017's best crashes and smashes</sub-title>
-<desc>Get the first aid kits ready because 2017's crash-reel includes some Hollywood action film-worthy smashes that undoubtedly stung a bit.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
-<episode-num system="xmltv_ns">2.3.0</episode-num>
-<episode-num system="themoviedb.org">series/287622</episode-num>
-<episode-num system="original-air-date">2026-10-16 11:41:56</episode-num>
-</programme>
-  <programme start="20261016115435 +0000" stop="20261016120509 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
-<sub-title>2015's fan-favourite teams</sub-title>
-<desc>How do win over a Red Bull Soapbox Race crowd? Destroying your racer and the course itself certainly helps, as 2015's highlights prove.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
-<episode-num system="xmltv_ns">3.1.0</episode-num>
-<episode-num system="themoviedb.org">series/287622</episode-num>
-<episode-num system="original-air-date">2026-10-16 11:54:35</episode-num>
-</programme>
-  <programme start="20261016120509 +0000" stop="20261016123803 +0000" channel="Red Bull TV.en"><title>Michelle Khare's Great World Race</title>
-<sub-title>Pt. 2: I ran 7 marathons in 7 days on 7 continents</sub-title>
-<desc>Michelle battles extreme heat in Australia and Abu Dhabi, forming powerful bonds with fellow racers as injuries and exhaustion threaten the race.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:3633c16e-98e3-4450-80c8-5268d578951c/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.1.0</episode-num>
-<episode-num system="original-air-date">2026-10-16 12:05:09</episode-num>
-<date>2026</date></programme>
-  <programme start="20261016123803 +0000" stop="20261016131848 +0000" channel="Red Bull TV.en"><title>Michelle Khare's Great World Race</title>
-<sub-title>Pt. 1: I ran 7 marathons in 7 days on 7 continents</sub-title>
-<desc>After months of elite training Michelle begins The Great World Race, racing from Cape Town to the blistering cold of Antarctica, where she must finish in 8 hours or be left behind.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:a3931605-32cb-413b-980f-3811cc8a263a/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.0.0</episode-num>
-<episode-num system="original-air-date">2026-10-16 12:38:03</episode-num>
-<date>2026</date></programme>
-  <programme start="20261016131848 +0000" stop="20261016134418 +0000" channel="Red Bull TV.en"><title>ABC of...</title>
-<sub-title>ABC of... Climbing</sub-title>
-<desc>Join Sasha DiGiulian as she takes you on an expedition around the globe with some of the world's top climbers. Get to know the language, the equipment, the history, and so much more.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/vqael6A2gLqMJqCeV1v8QZVeY15.jpg"/>
-<episode-num system="xmltv_ns">1.0.0</episode-num>
-<episode-num system="themoviedb.org">series/205043</episode-num>
-<episode-num system="original-air-date">2026-10-16 13:18:48</episode-num>
-</programme>
-  <programme start="20261016134418 +0000" stop="20261016140112 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>Yeah buddy – part 1</sub-title>
-<desc>Australian prodigy Angie Scarth-Johnson joins adventure climber Hazel Findlay to tackle Mallorca’s top deep-water soloing routes, blending skill and thrill in breathtaking settings.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">9.0.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-10-16 13:44:18</episode-num>
-</programme>
-  <programme start="20261016140112 +0000" stop="20261016141819 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>Yeah buddy – part 2</sub-title>
-<desc>Angie Scarth-Johnson discovers that mastering climbing competition Psicobloc is as much mental as physical. To tackle tough moves high above the water, she'll have to face her fears.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">9.1.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-10-16 14:01:12</episode-num>
-</programme>
-  <programme start="20261016141819 +0000" stop="20261016143000 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
-<sub-title>2017's best runs</sub-title>
-<desc>Every year the Red Bull Soapbox racers get faster. In 2017 the gadgets included the fastest musical drum set in history.</desc>
-<icon src="https://image.tmdb.org/t/p/original/3hXoGBcSLabu2ViQDOMV1r0ejSN.jpg"/>
-<episode-num system="xmltv_ns">0.3.0</episode-num>
-<episode-num system="themoviedb.org">series/337165</episode-num>
-<episode-num system="original-air-date">2026-10-16 14:18:19</episode-num>
-<date>2026</date></programme>
-  <programme start="20261016143000 +0000" stop="20261016160644 +0000" channel="Red Bull TV.en"><title>Red Bull Rampage 2026</title>
-<sub-title>Men's livestream: Red Bull Rampage</sub-title>
-<desc>Against a backdrop of towering sandstone cliffs and unforgiving terrain, top male freeride mountain bikers return to the Utah desert for a high-stakes showcase of technical lines, speed and precision.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:live-videos:d4046d87-fe89-4537-9fba-bc2eb2bedcb4/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="original-air-date">2026-10-16 14:30:00</episode-num>
-<date>2026</date></programme>
   <programme start="20261016160644 +0000" stop="20261016174251 +0000" channel="Red Bull TV.en"><title>Born to Fly</title>
 <sub-title>Mondo Duplantis's journey to pole vault sensation</sub-title>
 <desc>From child prodigy to a world great, Mondo Duplantis's journey to pole vault legend wasn't without challenges. His intimate story explores the unrelenting drive that propelled him to new heights.</desc>
@@ -3367,6 +3278,60 @@
 <category>Movie</category>
 <icon src="https://image.tmdb.org/t/p/original/xmTvJJzjnmahVvdBCbrZOsYupqO.jpg"/>
 <episode-num system="themoviedb.org">movie/1023164</episode-num>
+</programme>
+  <programme start="20261017113739 +0000" stop="20261017120309 +0000" channel="Red Bull TV.en"><title>ABC of...</title>
+<sub-title>ABC of... Climbing</sub-title>
+<desc>Join Sasha DiGiulian as she takes you on an expedition around the globe with some of the world's top climbers. Get to know the language, the equipment, the history, and so much more.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/vqael6A2gLqMJqCeV1v8QZVeY15.jpg"/>
+<episode-num system="xmltv_ns">1.0.0</episode-num>
+<episode-num system="themoviedb.org">series/205043</episode-num>
+<episode-num system="original-air-date">2026-10-17 11:37:39</episode-num>
+</programme>
+  <programme start="20261017120309 +0000" stop="20261017122039 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>Yeah buddy – part 1</sub-title>
+<desc>Australian prodigy Angie Scarth-Johnson joins adventure climber Hazel Findlay to tackle Mallorca’s top deep-water soloing routes, blending skill and thrill in breathtaking settings.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">9.0.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-17 12:03:09</episode-num>
+</programme>
+  <programme start="20261017122039 +0000" stop="20261017123746 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>Yeah buddy – part 2</sub-title>
+<desc>Angie Scarth-Johnson discovers that mastering climbing competition Psicobloc is as much mental as physical. To tackle tough moves high above the water, she'll have to face her fears.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">9.1.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-17 12:20:39</episode-num>
+</programme>
+  <programme start="20261017123746 +0000" stop="20261017125823 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>Soundscape</sub-title>
+<desc>Blind adventure athlete Erik Weihenmayer ascends a huge rock face in the Sierra Nevada. Using camera work and animation, the film brings to life a concept by adaptive climbing pioneer Timmy ONeill.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">9.2.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-17 12:37:46</episode-num>
+</programme>
+  <programme start="20261017125823 +0000" stop="20261017132217 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>With my heart</sub-title>
+<desc>Japanese climbing legend Sachi Amma journeys from three-time world champ to purist, culminating in a bold and visionary first ascent on Japan's Mt. Mizugaki.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">9.3.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-17 12:58:23</episode-num>
+</programme>
+  <programme start="20261017132217 +0000" stop="20261017135308 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>Black Pearl</sub-title>
+<desc>At 42, climber Chris Sharma takes on his toughest challenge with the first ascent of Black Pearl in Mallorca, pushing the limits of deep water soloing in this test of skill, strength and resilience.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">9.4.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-07-04 07:19:08</episode-num>
 </programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
