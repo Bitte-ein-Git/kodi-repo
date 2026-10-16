@@ -2979,38 +2979,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20261016160644 +0000" stop="20261016174251 +0000" channel="Red Bull TV.en"><title>Born to Fly</title>
-<sub-title>Mondo Duplantis's journey to pole vault sensation</sub-title>
-<desc>From child prodigy to a world great, Mondo Duplantis's journey to pole vault legend wasn't without challenges. His intimate story explores the unrelenting drive that propelled him to new heights.</desc>
-<date>2022</date>
-<category>Movie</category>
-<icon src="https://image.tmdb.org/t/p/original/xmTvJJzjnmahVvdBCbrZOsYupqO.jpg"/>
-<episode-num system="themoviedb.org">movie/1023164</episode-num>
-</programme>
-  <programme start="20261016174251 +0000" stop="20261016182557 +0000" channel="Red Bull TV.en"><title>Encouraged: Building the Future</title>
-<sub-title>BMXer Courage Adams goes home to build a skatepark</sub-title>
-<desc>Courage Adams returns to Nigeria to build the first-ever skatepark in Lagos, giving local BMX fanatics the opportunity to push the limits of the local sports scene. </desc>
-<category>Movie</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:ce2581ae-ab9d-4a00-9205-4d21ca07414a/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-</programme>
-  <programme start="20261016182557 +0000" stop="20261016183434 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
-<sub-title>2014's top car designs</sub-title>
-<desc>Building fast racer is only part of the magic Red Bull Soapbox Race formula: it's also got to look good and these were 2014's hottest designs.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
-<episode-num system="xmltv_ns">1.0.0</episode-num>
-<episode-num system="themoviedb.org">series/287622</episode-num>
-<episode-num system="original-air-date">2026-10-16 18:25:57</episode-num>
-</programme>
-  <programme start="20261016183434 +0000" stop="20261016184500 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
-<sub-title>2015's best runs</sub-title>
-<desc>Flying bodywork, broken steering, a feuding royal family and some seriously rapid rides star in the highlights from 2015's seven-stop Red Bull Soapbox Race series.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
-<episode-num system="xmltv_ns">0.1.0</episode-num>
-<episode-num system="themoviedb.org">series/287622</episode-num>
-<episode-num system="original-air-date">2026-10-16 18:34:34</episode-num>
-</programme>
   <programme start="20261016184500 +0000" stop="20261016213036 +0000" channel="Red Bull TV.en"><title>Red Bull Hardline 2026</title>
 <sub-title>Red Bull Hardline British Columbia 2026 livestream</sub-title>
 <desc>The world’s toughest MTB race pushes riders to their absolute limits on the most extreme, unforgiving terrain.</desc>
@@ -3332,6 +3300,68 @@
 <episode-num system="xmltv_ns">9.4.0</episode-num>
 <episode-num system="themoviedb.org">series/55923</episode-num>
 <episode-num system="original-air-date">2026-07-04 07:19:08</episode-num>
+</programme>
+  <programme start="20261017135308 +0000" stop="20261017141211 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>The puzzle</sub-title>
+<desc>Brette Harrington takes on an unfinished route on the remote Chinese Puzzle Wall, completing a climb started by her late partner, Marc-André LeClerc, in a heartfelt tribute to his legacy.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">9.5.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-17 13:53:08</episode-num>
+</programme>
+  <programme start="20261017141211 +0000" stop="20261017144418 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>Dropping Molly</sub-title>
+<desc>Join climber Molly Mitchell on her intense, years-long journey to complete a rare all-gear ascent of Crank-it in Boulder Canyon, a route known for its extreme difficulty and high risks.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">9.7.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-17 14:12:11</episode-num>
+</programme>
+  <programme start="20261017144418 +0000" stop="20261017152724 +0000" channel="Red Bull TV.en"><title>Encouraged: Building the Future</title>
+<sub-title>BMXer Courage Adams goes home to build a skatepark</sub-title>
+<desc>Courage Adams returns to Nigeria to build the first-ever skatepark in Lagos, giving local BMX fanatics the opportunity to push the limits of the local sports scene. </desc>
+<category>Movie</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:ce2581ae-ab9d-4a00-9205-4d21ca07414a/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+</programme>
+  <programme start="20261017152724 +0000" stop="20261017161818 +0000" channel="Red Bull TV.en"><title>A Biker's Ballad</title>
+<sub-title>Exploring MTB’s roots: A must-see for every rider</sub-title>
+<desc>14 riders. 7 years. This mountain biking epic takes a two-wheeled journey back to where the sport began in Crested Butte, Colorado, to celebrate its deep-rooted culture.</desc>
+<category>Movie</category>
+<icon src="https://image.tmdb.org/t/p/original/caoheEgsaDTlWDdeDn66wjRJUk0.jpg"/>
+<episode-num system="themoviedb.org">movie/860971</episode-num>
+</programme>
+  <programme start="20261017161818 +0000" stop="20261017172711 +0000" channel="Red Bull TV.en"><title>The Old World</title>
+<sub-title>A cinematic celebration of European biking culture</sub-title>
+<desc>Bridging the gap between mountain biking and BMX, The Old World shines a spotlight on the European riders dominating the world stage, from the rough the fjords of Norway to the Scottish Highlands.</desc>
+<category>Movie</category>
+<icon src="https://image.tmdb.org/t/p/original/vWS7h57IcTrpBUPNWbC5tWjjCy2.jpg"/>
+<episode-num system="themoviedb.org">movie/1116384</episode-num>
+</programme>
+  <programme start="20261017172711 +0000" stop="20261017175122 +0000" channel="Red Bull TV.en"><title>UnBRAKEable</title>
+<sub-title>Patrick Seabase takes on the Swiss Alps</sub-title>
+<desc>A documentary about Patrick Seabase’s ultimate Tour de Suisse, riding almost 350km and 9,000m in elevation on a track bike within one day, connecting some of the most beautiful parts of Switzerland.</desc>
+<date>2021</date>
+<category>Movie</category>
+<icon src="https://image.tmdb.org/t/p/original/heDoCvd4c3WfTG2WkYQWN8LdmEq.jpg"/>
+<episode-num system="themoviedb.org">movie/1238784</episode-num>
+</programme>
+  <programme start="20261017175122 +0000" stop="20261017181722 +0000" channel="Red Bull TV.en"><title>For Reals</title>
+<sub-title>From skateboarding out a plane to 180m wall climb</sub-title>
+<desc>Touring a town in style on a snowmobile. Freerunning through an airport. Skateboarding out of a flying plane. Ice climbing Niagra Falls. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:da0954da-ca98-4cec-8425-06146469e566/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.5.0</episode-num>
+<episode-num system="original-air-date">2026-10-17 17:51:22</episode-num>
+<date>2026</date></programme>
+  <programme start="20261017181722 +0000" stop="20261017184500 +0000" channel="Red Bull TV.en"><title>ABC of...</title>
+<sub-title>ABC of… Mountain Biking</sub-title>
+<desc>Rob Warner gives a master class in all things mountain biking, from terminology and disciplines to history and heroes of the sport – a must for anyone looking to test their mettle in the world of MTB.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/x2uEzpoVHKwLriUyUMSmEkBYW7L.jpg"/>
+<episode-num system="xmltv_ns">0.6.0</episode-num>
+<episode-num system="themoviedb.org">series/218377</episode-num>
+<episode-num system="original-air-date">2026-10-17 18:17:22</episode-num>
 </programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
