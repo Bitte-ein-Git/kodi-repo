@@ -2979,58 +2979,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20261016184500 +0000" stop="20261016213036 +0000" channel="Red Bull TV.en"><title>Red Bull Hardline 2026</title>
-<sub-title>Red Bull Hardline British Columbia 2026 livestream</sub-title>
-<desc>The world’s toughest MTB race pushes riders to their absolute limits on the most extreme, unforgiving terrain.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:live-videos:6933d1de-1fd1-4d7b-9ef9-6507588f1e75/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="original-air-date">2026-10-16 18:45:00</episode-num>
-<date>2026</date></programme>
-  <programme start="20261016213036 +0000" stop="20261016215636 +0000" channel="Red Bull TV.en"><title>For Reals</title>
-<sub-title>From skydiving with skis to flying into a volcano</sub-title>
-<desc>Flying a plane 245kph through a tunnel. A wingsuit flight across the crater of an active volcano. A record-breaking truck jump in a ghost town. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:f2cb2ce7-09e1-4656-a37f-a10c80b56502/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.3.0</episode-num>
-<episode-num system="original-air-date">2026-10-16 21:30:36</episode-num>
-<date>2026</date></programme>
-  <programme start="20261016215636 +0000" stop="20261016222236 +0000" channel="Red Bull TV.en"><title>For Reals</title>
-<sub-title>From BASE jumping a cave to a flying mega swing</sub-title>
-<desc>Wingsuit flying through London’s Tower Bridge at 246kph. Swinging from a hot air balloon. Slacklining the length of two football fields. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:2664328f-b440-42e2-9241-b99235650fb9/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.6.0</episode-num>
-<episode-num system="original-air-date">2026-07-12 15:05:22</episode-num>
-<date>2026</date></programme>
-  <programme start="20261016222236 +0000" stop="20261016224912 +0000" channel="Red Bull TV.en"><title>For Reals</title>
-<sub-title>From F1 desert racing to a skatepark in the sky</sub-title>
-<desc>Wakeskating off a Dubai skyscraper. F1 drivers racing on Floridan waters and in the Nevada desert. Riding a skatepark attached to a hot air balloon. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:cff46697-c2b7-46aa-a674-e152be37dbe4/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.0.0</episode-num>
-<episode-num system="original-air-date">2026-07-07 02:20:38</episode-num>
-<date>2026</date></programme>
-  <programme start="20261016224912 +0000" stop="20261016231512 +0000" channel="Red Bull TV.en"><title>For Reals</title>
-<sub-title>From a paper plane contest to diving off ruins</sub-title>
-<desc>Swamp buggy racing. Sprinting down from the peak of a mountain on a bike. High diving off ancient ruins. Getting the perfect surf shot. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:6a64ab5e-c10a-4065-9f16-0c91a4bc226d/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.4.0</episode-num>
-<episode-num system="original-air-date">2026-07-07 04:05:14</episode-num>
-<date>2026</date></programme>
-  <programme start="20261016231512 +0000" stop="20261016233308 +0000" channel="Red Bull TV.en"><title>Skate Tales</title>
-<sub-title>Bam Margera</sub-title>
-<desc>Madars Apse begins his journey by traveling to Pennsylvania to meet up with the iconic Bam Margera to check out his skate barn and brand new ramps.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/bW09nvJQX66vIH0OpuJ3IIrue4i.jpg"/>
-<episode-num system="xmltv_ns">0.0.0</episode-num>
-<episode-num system="themoviedb.org">series/217740</episode-num>
-<episode-num system="original-air-date">2026-10-16 23:15:12</episode-num>
-</programme>
-  <programme start="20261016233308 +0000" stop="20261016235038 +0000" channel="Red Bull TV.en"><title>Skate Tales</title>
-<sub-title>Sergio Yuppie</sub-title>
-<desc>Madars Apse travels to Brazil to learn from downhill skateboarding legend Sergio Yuppie. Visit Yuppie's factory to see a skateboard get made before it even hits the streets.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/bW09nvJQX66vIH0OpuJ3IIrue4i.jpg"/>
-<episode-num system="xmltv_ns">0.1.0</episode-num>
-<episode-num system="themoviedb.org">series/217740</episode-num>
-<episode-num system="original-air-date">2026-10-16 23:33:08</episode-num>
-</programme>
   <programme start="20261016235038 +0000" stop="20261017001334 +0000" channel="Red Bull TV.en"><title>Skate Tales</title>
 <sub-title>Skate Tales: Detroit</sub-title>
 <desc>Even the huge physical and emotional blow of total sight loss didn't stop Dan Mancina from getting back on his skateboard. This is how he amazingly relearned to do what he loves.</desc>
@@ -3362,6 +3310,66 @@
 <episode-num system="xmltv_ns">0.6.0</episode-num>
 <episode-num system="themoviedb.org">series/218377</episode-num>
 <episode-num system="original-air-date">2026-10-17 18:17:22</episode-num>
+</programme>
+  <programme start="20261017184500 +0000" stop="20261017213036 +0000" channel="Red Bull TV.en"><title>Red Bull Hardline 2026</title>
+<sub-title>Red Bull Hardline British Columbia 2026 livestream</sub-title>
+<desc>The world’s toughest MTB race pushes riders to their absolute limits on the most extreme, unforgiving terrain.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:live-videos:6933d1de-1fd1-4d7b-9ef9-6507588f1e75/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="original-air-date">2026-10-17 18:45:00</episode-num>
+<date>2026</date></programme>
+  <programme start="20261017213036 +0000" stop="20261017214806 +0000" channel="Red Bull TV.en"><title>Skate Tales</title>
+<sub-title>Sergio Yuppie</sub-title>
+<desc>Madars Apse travels to Brazil to learn from downhill skateboarding legend Sergio Yuppie. Visit Yuppie's factory to see a skateboard get made before it even hits the streets.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/bW09nvJQX66vIH0OpuJ3IIrue4i.jpg"/>
+<episode-num system="xmltv_ns">0.1.0</episode-num>
+<episode-num system="themoviedb.org">series/217740</episode-num>
+<episode-num system="original-air-date">2026-10-17 21:30:36</episode-num>
+</programme>
+  <programme start="20261017214806 +0000" stop="20261017220902 +0000" channel="Red Bull TV.en"><title>Skate Tales</title>
+<sub-title>Skate Ethiopia</sub-title>
+<desc>When a 60-man crew of international volunteers built a skatepark in Addis Ababa, Ethiopia in 2016, it kick-started a mushrooming cultural revolution in the birthplace of Rastafarianism.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/bW09nvJQX66vIH0OpuJ3IIrue4i.jpg"/>
+<episode-num system="xmltv_ns">0.3.0</episode-num>
+<episode-num system="themoviedb.org">series/217740</episode-num>
+<episode-num system="original-air-date">2026-10-17 21:48:06</episode-num>
+</programme>
+  <programme start="20261017220902 +0000" stop="20261017222903 +0000" channel="Red Bull TV.en"><title>Skate Tales</title>
+<sub-title>Osaka Daggers</sub-title>
+<desc>Madars Apse travels to Osaka, Japan, to meet the Osaka Daggers skate crew. This crew built the underground skate scene in Japan and when you see them skate you'll see the passion they bring.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/bW09nvJQX66vIH0OpuJ3IIrue4i.jpg"/>
+<episode-num system="xmltv_ns">0.5.0</episode-num>
+<episode-num system="themoviedb.org">series/217740</episode-num>
+<episode-num system="original-air-date">2026-10-17 22:09:02</episode-num>
+</programme>
+  <programme start="20261017222903 +0000" stop="20261017225657 +0000" channel="Red Bull TV.en"><title>Skate Tales</title>
+<sub-title>Madars and the Fancy Lad crew</sub-title>
+<desc>The Fancy Lads are the most creative skate crew in the world, manipulating skateboard design to open up new vistas of trick options. Madars Apse stops by to investigate.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/bW09nvJQX66vIH0OpuJ3IIrue4i.jpg"/>
+<episode-num system="xmltv_ns">1.0.0</episode-num>
+<episode-num system="themoviedb.org">series/217740</episode-num>
+<episode-num system="original-air-date">2026-10-17 22:29:03</episode-num>
+</programme>
+  <programme start="20261017225657 +0000" stop="20261017232454 +0000" channel="Red Bull TV.en"><title>Skate Tales</title>
+<sub-title>Douglas Miles Jr and Apache Skateboards</sub-title>
+<desc>Legendary Latvian skateboarder Madars Apse heads to Arizona to join Apache Skateboards – a unique community skate company that fuses Native American culture with contemporary skateboard aesthetics.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/bW09nvJQX66vIH0OpuJ3IIrue4i.jpg"/>
+<episode-num system="xmltv_ns">1.2.0</episode-num>
+<episode-num system="themoviedb.org">series/217740</episode-num>
+<episode-num system="original-air-date">2026-10-17 22:56:57</episode-num>
+</programme>
+  <programme start="20261017232454 +0000" stop="20261017235327 +0000" channel="Red Bull TV.en"><title>Skate Tales</title>
+<sub-title>Gose Gerald &amp; Uganda Skateboard Society</sub-title>
+<desc>Imagine building an entire skatepark from internet tutorials – this is the fascinating Uganda Skateboard Society story that kickstarted a scene that made waves around the world.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/bW09nvJQX66vIH0OpuJ3IIrue4i.jpg"/>
+<episode-num system="xmltv_ns">1.4.0</episode-num>
+<episode-num system="themoviedb.org">series/217740</episode-num>
+<episode-num system="original-air-date">2026-10-17 23:24:54</episode-num>
 </programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
