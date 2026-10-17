@@ -3025,86 +3025,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20261017100133 +0000" stop="20261017113739 +0000" channel="Red Bull TV.en"><title>Born to Fly</title>
-<sub-title>Mondo Duplantis's journey to pole vault sensation</sub-title>
-<desc>From child prodigy to a world great, Mondo Duplantis's journey to pole vault legend wasn't without challenges. His intimate story explores the unrelenting drive that propelled him to new heights.</desc>
-<date>2022</date>
-<category>Movie</category>
-<icon src="https://image.tmdb.org/t/p/original/xmTvJJzjnmahVvdBCbrZOsYupqO.jpg"/>
-<episode-num system="themoviedb.org">movie/1023164</episode-num>
-</programme>
-  <programme start="20261017113739 +0000" stop="20261017120309 +0000" channel="Red Bull TV.en"><title>ABC of...</title>
-<sub-title>ABC of... Climbing</sub-title>
-<desc>Join Sasha DiGiulian as she takes you on an expedition around the globe with some of the world's top climbers. Get to know the language, the equipment, the history, and so much more.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/vqael6A2gLqMJqCeV1v8QZVeY15.jpg"/>
-<episode-num system="xmltv_ns">1.0.0</episode-num>
-<episode-num system="themoviedb.org">series/205043</episode-num>
-<episode-num system="original-air-date">2026-10-17 11:37:39</episode-num>
-</programme>
-  <programme start="20261017120309 +0000" stop="20261017122039 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>Yeah buddy – part 1</sub-title>
-<desc>Australian prodigy Angie Scarth-Johnson joins adventure climber Hazel Findlay to tackle Mallorca’s top deep-water soloing routes, blending skill and thrill in breathtaking settings.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">9.0.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-10-17 12:03:09</episode-num>
-</programme>
-  <programme start="20261017122039 +0000" stop="20261017123746 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>Yeah buddy – part 2</sub-title>
-<desc>Angie Scarth-Johnson discovers that mastering climbing competition Psicobloc is as much mental as physical. To tackle tough moves high above the water, she'll have to face her fears.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">9.1.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-10-17 12:20:39</episode-num>
-</programme>
-  <programme start="20261017123746 +0000" stop="20261017125823 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>Soundscape</sub-title>
-<desc>Blind adventure athlete Erik Weihenmayer ascends a huge rock face in the Sierra Nevada. Using camera work and animation, the film brings to life a concept by adaptive climbing pioneer Timmy ONeill.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">9.2.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-10-17 12:37:46</episode-num>
-</programme>
-  <programme start="20261017125823 +0000" stop="20261017132217 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>With my heart</sub-title>
-<desc>Japanese climbing legend Sachi Amma journeys from three-time world champ to purist, culminating in a bold and visionary first ascent on Japan's Mt. Mizugaki.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">9.3.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-10-17 12:58:23</episode-num>
-</programme>
-  <programme start="20261017132217 +0000" stop="20261017135308 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>Black Pearl</sub-title>
-<desc>At 42, climber Chris Sharma takes on his toughest challenge with the first ascent of Black Pearl in Mallorca, pushing the limits of deep water soloing in this test of skill, strength and resilience.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">9.4.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-07-04 07:19:08</episode-num>
-</programme>
-  <programme start="20261017135308 +0000" stop="20261017141211 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>The puzzle</sub-title>
-<desc>Brette Harrington takes on an unfinished route on the remote Chinese Puzzle Wall, completing a climb started by her late partner, Marc-André LeClerc, in a heartfelt tribute to his legacy.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">9.5.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-10-17 13:53:08</episode-num>
-</programme>
-  <programme start="20261017141211 +0000" stop="20261017144418 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>Dropping Molly</sub-title>
-<desc>Join climber Molly Mitchell on her intense, years-long journey to complete a rare all-gear ascent of Crank-it in Boulder Canyon, a route known for its extreme difficulty and high risks.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">9.7.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-10-17 14:12:11</episode-num>
-</programme>
   <programme start="20261017144418 +0000" stop="20261017152724 +0000" channel="Red Bull TV.en"><title>Encouraged: Building the Future</title>
 <sub-title>BMXer Courage Adams goes home to build a skatepark</sub-title>
 <desc>Courage Adams returns to Nigeria to build the first-ever skatepark in Lagos, giving local BMX fanatics the opportunity to push the limits of the local sports scene. </desc>
@@ -3372,6 +3292,71 @@
 <episode-num system="xmltv_ns">9.1.0</episode-num>
 <episode-num system="themoviedb.org">series/55923</episode-num>
 <episode-num system="original-air-date">2026-10-18 09:32:09</episode-num>
+</programme>
+  <programme start="20261018094916 +0000" stop="20261018101029 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>Soundscape</sub-title>
+<desc>Blind adventure athlete Erik Weihenmayer ascends a huge rock face in the Sierra Nevada. Using camera work and animation, the film brings to life a concept by adaptive climbing pioneer Timmy ONeill.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">9.2.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-18 09:49:16</episode-num>
+</programme>
+  <programme start="20261018101029 +0000" stop="20261018103423 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>With my heart</sub-title>
+<desc>Japanese climbing legend Sachi Amma journeys from three-time world champ to purist, culminating in a bold and visionary first ascent on Japan's Mt. Mizugaki.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">9.3.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-18 10:10:29</episode-num>
+</programme>
+  <programme start="20261018103423 +0000" stop="20261018110514 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>Black Pearl</sub-title>
+<desc>At 42, climber Chris Sharma takes on his toughest challenge with the first ascent of Black Pearl in Mallorca, pushing the limits of deep water soloing in this test of skill, strength and resilience.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">9.4.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-07-04 07:19:08</episode-num>
+</programme>
+  <programme start="20261018110514 +0000" stop="20261018112416 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>The puzzle</sub-title>
+<desc>Brette Harrington takes on an unfinished route on the remote Chinese Puzzle Wall, completing a climb started by her late partner, Marc-André LeClerc, in a heartfelt tribute to his legacy.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">9.5.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-18 11:05:14</episode-num>
+</programme>
+  <programme start="20261018112416 +0000" stop="20261018115624 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>Dropping Molly</sub-title>
+<desc>Join climber Molly Mitchell on her intense, years-long journey to complete a rare all-gear ascent of Crank-it in Boulder Canyon, a route known for its extreme difficulty and high risks.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">9.7.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-18 11:24:16</episode-num>
+</programme>
+  <programme start="20261018115624 +0000" stop="20261018123930 +0000" channel="Red Bull TV.en"><title>Encouraged: Building the Future</title>
+<sub-title>BMXer Courage Adams goes home to build a skatepark</sub-title>
+<desc>Courage Adams returns to Nigeria to build the first-ever skatepark in Lagos, giving local BMX fanatics the opportunity to push the limits of the local sports scene. </desc>
+<category>Movie</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:ce2581ae-ab9d-4a00-9205-4d21ca07414a/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+</programme>
+  <programme start="20261018123930 +0000" stop="20261018133024 +0000" channel="Red Bull TV.en"><title>A Biker's Ballad</title>
+<sub-title>Exploring MTB’s roots: A must-see for every rider</sub-title>
+<desc>14 riders. 7 years. This mountain biking epic takes a two-wheeled journey back to where the sport began in Crested Butte, Colorado, to celebrate its deep-rooted culture.</desc>
+<category>Movie</category>
+<icon src="https://image.tmdb.org/t/p/original/caoheEgsaDTlWDdeDn66wjRJUk0.jpg"/>
+<episode-num system="themoviedb.org">movie/860971</episode-num>
+</programme>
+  <programme start="20261018133024 +0000" stop="20261018143917 +0000" channel="Red Bull TV.en"><title>The Old World</title>
+<sub-title>A cinematic celebration of European biking culture</sub-title>
+<desc>Bridging the gap between mountain biking and BMX, The Old World shines a spotlight on the European riders dominating the world stage, from the rough the fjords of Norway to the Scottish Highlands.</desc>
+<category>Movie</category>
+<icon src="https://image.tmdb.org/t/p/original/vWS7h57IcTrpBUPNWbC5tWjjCy2.jpg"/>
+<episode-num system="themoviedb.org">movie/1116384</episode-num>
 </programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
