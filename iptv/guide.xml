@@ -2939,68 +2939,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20261018152928 +0000" stop="20261018155528 +0000" channel="Red Bull TV.en"><title>For Reals</title>
-<sub-title>From F1 soapbox racing to breaking world records</sub-title>
-<desc>Breaking world records – it's all in a day's work for Red Bull athletes! See Felix Baumgartner jump from space, 65 women skydive together and one BMXer conquer the globe's biggest full loop.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:90e91a7d-74bb-42b7-b9b3-078865d7b451/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.1.0</episode-num>
-<episode-num system="original-air-date">2026-10-18 15:29:28</episode-num>
-<date>2026</date></programme>
-  <programme start="20261018155528 +0000" stop="20261018162128 +0000" channel="Red Bull TV.en"><title>For Reals</title>
-<sub-title>From skydiving with skis to flying into a volcano</sub-title>
-<desc>Flying a plane 245kph through a tunnel. A wingsuit flight across the crater of an active volcano. A record-breaking truck jump in a ghost town. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:f2cb2ce7-09e1-4656-a37f-a10c80b56502/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.3.0</episode-num>
-<episode-num system="original-air-date">2026-10-18 15:55:28</episode-num>
-<date>2026</date></programme>
-  <programme start="20261018162128 +0000" stop="20261018164728 +0000" channel="Red Bull TV.en"><title>For Reals</title>
-<sub-title>From BASE jumping a cave to a flying mega swing</sub-title>
-<desc>Wingsuit flying through London’s Tower Bridge at 246kph. Swinging from a hot air balloon. Slacklining the length of two football fields. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:2664328f-b440-42e2-9241-b99235650fb9/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.6.0</episode-num>
-<episode-num system="original-air-date">2026-07-12 15:05:22</episode-num>
-<date>2026</date></programme>
-  <programme start="20261018164728 +0000" stop="20261018171404 +0000" channel="Red Bull TV.en"><title>For Reals</title>
-<sub-title>From F1 desert racing to a skatepark in the sky</sub-title>
-<desc>Wakeskating off a Dubai skyscraper. F1 drivers racing on Floridan waters and in the Nevada desert. Riding a skatepark attached to a hot air balloon. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:cff46697-c2b7-46aa-a674-e152be37dbe4/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.0.0</episode-num>
-<episode-num system="original-air-date">2026-07-07 02:20:38</episode-num>
-<date>2026</date></programme>
-  <programme start="20261018171404 +0000" stop="20261018174004 +0000" channel="Red Bull TV.en"><title>For Reals</title>
-<sub-title>From a paper plane contest to diving off ruins</sub-title>
-<desc>Swamp buggy racing. Sprinting down from the peak of a mountain on a bike. High diving off ancient ruins. Getting the perfect surf shot. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:6a64ab5e-c10a-4065-9f16-0c91a4bc226d/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.4.0</episode-num>
-<episode-num system="original-air-date">2026-07-07 04:05:14</episode-num>
-<date>2026</date></programme>
-  <programme start="20261018174004 +0000" stop="20261018175800 +0000" channel="Red Bull TV.en"><title>Skate Tales</title>
-<sub-title>Bam Margera</sub-title>
-<desc>Madars Apse begins his journey by traveling to Pennsylvania to meet up with the iconic Bam Margera to check out his skate barn and brand new ramps.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/bW09nvJQX66vIH0OpuJ3IIrue4i.jpg"/>
-<episode-num system="xmltv_ns">0.0.0</episode-num>
-<episode-num system="themoviedb.org">series/217740</episode-num>
-<episode-num system="original-air-date">2026-10-18 17:40:04</episode-num>
-</programme>
-  <programme start="20261018175800 +0000" stop="20261018180833 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
-<sub-title>2015's fan-favourite teams</sub-title>
-<desc>How do win over a Red Bull Soapbox Race crowd? Destroying your racer and the course itself certainly helps, as 2015's highlights prove.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
-<episode-num system="xmltv_ns">3.1.0</episode-num>
-<episode-num system="themoviedb.org">series/287622</episode-num>
-<episode-num system="original-air-date">2026-10-18 17:58:00</episode-num>
-</programme>
-  <programme start="20261018180833 +0000" stop="20261018181848 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
-<sub-title>2016's fan-favourite teams</sub-title>
-<desc>Speed wins a Red Bull Soapbox Race, but eccentric design, a big show and bigger crashes win you the crowd. Case in point, 2016's crowd favourites.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
-<episode-num system="xmltv_ns">3.2.0</episode-num>
-<episode-num system="themoviedb.org">series/287622</episode-num>
-<episode-num system="original-air-date">2026-10-18 18:08:33</episode-num>
-</programme>
   <programme start="20261018181848 +0000" stop="20261018184426 +0000" channel="Red Bull TV.en"><title>Asa Vermette's Ascent</title>
 <sub-title>A rookie’s breakout year in downhill MTB</sub-title>
 <desc>One of mountain biking’s most exciting young riders, Asa Vermette, has secured a Junior world title. Follow his journey as he faces downhill’s toughest race in his debut Red Bull Hardline season.</desc>
@@ -3358,6 +3296,22 @@
 <icon src="https://resources.redbull.tv/rrn:content:episode-videos:05e3878e-ee36-49a9-9ef1-592203766e7f/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
 <episode-num system="xmltv_ns">0.3.0</episode-num>
 <episode-num system="original-air-date">2026-10-19 14:24:07</episode-num>
+<date>2026</date></programme>
+  <programme start="20261019145007 +0000" stop="20261019155413 +0000" channel="Red Bull TV.en"><title>Red Bull Signature Series</title>
+<sub-title>Red Bull Straight Rhythm</sub-title>
+<desc>In this innovative evolution of Supercross a track is 'unwound' – no turns, just a half-mile-long straight rhythm section. The format pitted 32 riders in a head-to-head showdown of pure MX racing.</desc>
+<icon src="https://image.tmdb.org/t/p/original/mHoHpThci42Pg94k7o9jvG0YvjQ.jpg"/>
+<episode-num system="xmltv_ns">2016.9.0</episode-num>
+<episode-num system="themoviedb.org">series/218403</episode-num>
+<episode-num system="original-air-date">2026-10-19 14:50:07</episode-num>
+<date>2026</date></programme>
+  <programme start="20261019155413 +0000" stop="20261019163815 +0000" channel="Red Bull TV.en"><title>Red Bull Signature Series</title>
+<sub-title>Red Bull Solus</sub-title>
+<desc>Thirteen of the world's best skateboarders compete at Ryan Sheckler’s private skate park for Red Bull Solus. Relive the most memorable moments from the inaugural edition.</desc>
+<icon src="https://image.tmdb.org/t/p/original/mHoHpThci42Pg94k7o9jvG0YvjQ.jpg"/>
+<episode-num system="xmltv_ns">2019.4.0</episode-num>
+<episode-num system="themoviedb.org">series/218403</episode-num>
+<episode-num system="original-air-date">2026-10-19 15:54:13</episode-num>
 <date>2026</date></programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
