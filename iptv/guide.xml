@@ -2939,50 +2939,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20261018112416 +0000" stop="20261018115624 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>Dropping Molly</sub-title>
-<desc>Join climber Molly Mitchell on her intense, years-long journey to complete a rare all-gear ascent of Crank-it in Boulder Canyon, a route known for its extreme difficulty and high risks.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">9.7.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-10-18 11:24:16</episode-num>
-</programme>
-  <programme start="20261018115624 +0000" stop="20261018123930 +0000" channel="Red Bull TV.en"><title>Encouraged: Building the Future</title>
-<sub-title>BMXer Courage Adams goes home to build a skatepark</sub-title>
-<desc>Courage Adams returns to Nigeria to build the first-ever skatepark in Lagos, giving local BMX fanatics the opportunity to push the limits of the local sports scene. </desc>
-<category>Movie</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:ce2581ae-ab9d-4a00-9205-4d21ca07414a/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-</programme>
-  <programme start="20261018123930 +0000" stop="20261018133024 +0000" channel="Red Bull TV.en"><title>A Biker's Ballad</title>
-<sub-title>Exploring MTB’s roots: A must-see for every rider</sub-title>
-<desc>14 riders. 7 years. This mountain biking epic takes a two-wheeled journey back to where the sport began in Crested Butte, Colorado, to celebrate its deep-rooted culture.</desc>
-<category>Movie</category>
-<icon src="https://image.tmdb.org/t/p/original/caoheEgsaDTlWDdeDn66wjRJUk0.jpg"/>
-<episode-num system="themoviedb.org">movie/860971</episode-num>
-</programme>
-  <programme start="20261018133024 +0000" stop="20261018143917 +0000" channel="Red Bull TV.en"><title>The Old World</title>
-<sub-title>A cinematic celebration of European biking culture</sub-title>
-<desc>Bridging the gap between mountain biking and BMX, The Old World shines a spotlight on the European riders dominating the world stage, from the rough the fjords of Norway to the Scottish Highlands.</desc>
-<category>Movie</category>
-<icon src="https://image.tmdb.org/t/p/original/vWS7h57IcTrpBUPNWbC5tWjjCy2.jpg"/>
-<episode-num system="themoviedb.org">movie/1116384</episode-num>
-</programme>
-  <programme start="20261018143917 +0000" stop="20261018150252 +0000" channel="Red Bull TV.en"><title>UnBRAKEable</title>
-<sub-title>Patrick Seabase takes on the Swiss Alps</sub-title>
-<desc>A documentary about Patrick Seabase’s ultimate Tour de Suisse, riding almost 350km and 9,000m in elevation on a track bike within one day, connecting some of the most beautiful parts of Switzerland.</desc>
-<date>2021</date>
-<category>Movie</category>
-<icon src="https://image.tmdb.org/t/p/original/heDoCvd4c3WfTG2WkYQWN8LdmEq.jpg"/>
-<episode-num system="themoviedb.org">movie/1238784</episode-num>
-</programme>
-  <programme start="20261018150252 +0000" stop="20261018152928 +0000" channel="Red Bull TV.en"><title>For Reals</title>
-<sub-title>From skateboarding out a plane to 180m wall climb</sub-title>
-<desc>Touring a town in style on a snowmobile. Freerunning through an airport. Skateboarding out of a flying plane. Ice climbing Niagra Falls. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:da0954da-ca98-4cec-8425-06146469e566/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.5.0</episode-num>
-<episode-num system="original-air-date">2026-10-18 15:02:52</episode-num>
-<date>2026</date></programme>
   <programme start="20261018152928 +0000" stop="20261018155528 +0000" channel="Red Bull TV.en"><title>For Reals</title>
 <sub-title>From F1 soapbox racing to breaking world records</sub-title>
 <desc>Breaking world records – it's all in a day's work for Red Bull athletes! See Felix Baumgartner jump from space, 65 women skydive together and one BMXer conquer the globe's biggest full loop.</desc>
@@ -3337,6 +3293,72 @@
 <episode-num system="themoviedb.org">series/55923</episode-num>
 <episode-num system="original-air-date">2026-10-19 10:18:41</episode-num>
 </programme>
+  <programme start="20261019104401 +0000" stop="20261019110940 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>House of the gods part 1</sub-title>
+<desc>World class rock climber Leo Houlding, Cumbrian climber Anna Taylor and jungle expert Waldo Etherington undertake a big wall expedition to climb a new route on the overhanging prow of Mount Roraima.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">8.5.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-19 10:44:01</episode-num>
+</programme>
+  <programme start="20261019110940 +0000" stop="20261019113039 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>House of the gods part 2</sub-title>
+<desc>With the first three pitches sent, the team’s “secret weapon”, Anna Taylor, must conquer the hardest pitch so far to keep the dream of a team free ascent alive.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">8.6.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-19 11:09:40</episode-num>
+</programme>
+  <programme start="20261019113039 +0000" stop="20261019115004 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>The Hurt: Alex Honnold in Nevada Part 2</sub-title>
+<desc>With nine routes down in the blazing sun and nine more to go, Alex Honnold gears up for the hardest climb so far – Nevada's Red Rock Canyon – just in time for nightfall.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">8.9.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-19 11:30:39</episode-num>
+</programme>
+  <programme start="20261019115004 +0000" stop="20261019122717 +0000" channel="Red Bull TV.en"><title>Veeco: A Volcom Filmmaking Documentary</title>
+<sub-title>Veeco unveiled – untold stories behind groundbreaking films</sub-title>
+<desc>Take a journey through the Volcom film library and go behind the scenes with the filmmakers and riders as they share tales of blood, sweat and drama from Veeco Productions’ inception to the present.</desc>
+<category>Movie</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:c211d2ac-e692-4622-8e55-43dba4d6d035/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+</programme>
+  <programme start="20261019122717 +0000" stop="20261019125318 +0000" channel="Red Bull TV.en"><title>Pushing Progression</title>
+<sub-title>Freestyle football</sub-title>
+<desc>This is the story of freestyle football – and how the scene around it has transcended sport and established Red Bull Street Style as a competition that brings the world together.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:59634730-f152-423e-b609-67efac7b0a23/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.0.0</episode-num>
+<episode-num system="original-air-date">2026-10-19 12:27:17</episode-num>
+<date>2026</date></programme>
+  <programme start="20261019125318 +0000" stop="20261019131719 +0000" channel="Red Bull TV.en"><title>Red Bull Rapids 2022</title>
+<sub-title>A wild whitewater race</sub-title>
+<desc>This wild race sees teams create their own man-made vessels and race down a 234m whitewater rapids course where some will cross the finish line... while others may not.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:videos:114e15bc-76bb-4b5d-9620-738ce65ffbf0/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="original-air-date">2026-10-19 12:53:18</episode-num>
+<date>2026</date></programme>
+  <programme start="20261019131719 +0000" stop="20261019134319 +0000" channel="Red Bull TV.en"><title>Pushing Progression</title>
+<sub-title>Kiteboarding</sub-title>
+<desc>Explore the evolution of kiteboarding through the eyes of athletes like Robby Naish and see how events like Red Bull King of the Air and Red Bull Megaloop are pushing the progression of the sport.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:763418a2-90cf-4246-9dbe-0251948e1351/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.4.0</episode-num>
+<episode-num system="original-air-date">2026-10-19 13:17:19</episode-num>
+<date>2026</date></programme>
+  <programme start="20261019134319 +0000" stop="20261019142407 +0000" channel="Red Bull TV.en"><title>How Luke Czepiela Landed a Plane on a Tiny Helipad</title>
+<sub-title>The story behind Luke Czepiela’s iconic skyscraper plane landing</sub-title>
+<desc>Luke Czepiela pushed the limits of aviation and landed a plane on the famous helipad of Burj Al Arab Jumeirah in Dubai. We take a closer look behind the scenes of the project with unique footage.</desc>
+<category>Movie</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:6925af4d-ba7f-4b74-998e-99784ff58997/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+</programme>
+  <programme start="20261019142407 +0000" stop="20261019145007 +0000" channel="Red Bull TV.en"><title>Pushing Progression</title>
+<sub-title>Freeride mountain biking</sub-title>
+<desc>Kyle Strait, Cam McCaul, Jaxson Riddle and Hannah Bergemann look at what’s fuelled innovation in freeride MTB. Purveyor of progression, skier Lindsey Vonn joins the cast as a special guest.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:05e3878e-ee36-49a9-9ef1-592203766e7f/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.3.0</episode-num>
+<episode-num system="original-air-date">2026-10-19 14:24:07</episode-num>
+<date>2026</date></programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
   </channel>
