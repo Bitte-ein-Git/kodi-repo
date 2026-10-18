@@ -2939,34 +2939,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20261018181848 +0000" stop="20261018184426 +0000" channel="Red Bull TV.en"><title>Asa Vermette's Ascent</title>
-<sub-title>A rookie’s breakout year in downhill MTB</sub-title>
-<desc>One of mountain biking’s most exciting young riders, Asa Vermette, has secured a Junior world title. Follow his journey as he faces downhill’s toughest race in his debut Red Bull Hardline season.</desc>
-<category>Movie</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:2f27123f-6b9a-46a6-8be1-03cbdb5992e7/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-</programme>
-  <programme start="20261018184426 +0000" stop="20261018193520 +0000" channel="Red Bull TV.en"><title>A Biker's Ballad</title>
-<sub-title>Exploring MTB’s roots: A must-see for every rider</sub-title>
-<desc>14 riders. 7 years. This mountain biking epic takes a two-wheeled journey back to where the sport began in Crested Butte, Colorado, to celebrate its deep-rooted culture.</desc>
-<category>Movie</category>
-<icon src="https://image.tmdb.org/t/p/original/caoheEgsaDTlWDdeDn66wjRJUk0.jpg"/>
-<episode-num system="themoviedb.org">movie/860971</episode-num>
-</programme>
-  <programme start="20261018193520 +0000" stop="20261018204413 +0000" channel="Red Bull TV.en"><title>The Old World</title>
-<sub-title>A cinematic celebration of European biking culture</sub-title>
-<desc>Bridging the gap between mountain biking and BMX, The Old World shines a spotlight on the European riders dominating the world stage, from the rough the fjords of Norway to the Scottish Highlands.</desc>
-<category>Movie</category>
-<icon src="https://image.tmdb.org/t/p/original/vWS7h57IcTrpBUPNWbC5tWjjCy2.jpg"/>
-<episode-num system="themoviedb.org">movie/1116384</episode-num>
-</programme>
-  <programme start="20261018204413 +0000" stop="20261018210824 +0000" channel="Red Bull TV.en"><title>UnBRAKEable</title>
-<sub-title>Patrick Seabase takes on the Swiss Alps</sub-title>
-<desc>A documentary about Patrick Seabase’s ultimate Tour de Suisse, riding almost 350km and 9,000m in elevation on a track bike within one day, connecting some of the most beautiful parts of Switzerland.</desc>
-<date>2021</date>
-<category>Movie</category>
-<icon src="https://image.tmdb.org/t/p/original/heDoCvd4c3WfTG2WkYQWN8LdmEq.jpg"/>
-<episode-num system="themoviedb.org">movie/1238784</episode-num>
-</programme>
   <programme start="20261018210824 +0000" stop="20261018214854 +0000" channel="Red Bull TV.en"><title>Matt Jones: The Impossible Gap</title>
 <sub-title>Extreme mountain biking challenge</sub-title>
 <desc>Mountain biker Matt Jones attempts to jump his bike between two moving trucks, through an impossible gap that exists for less than a second. Watch Matt prepare for his time-critical feat of precision.</desc>
@@ -3312,6 +3284,42 @@
 <episode-num system="xmltv_ns">2019.4.0</episode-num>
 <episode-num system="themoviedb.org">series/218403</episode-num>
 <episode-num system="original-air-date">2026-10-19 15:54:13</episode-num>
+<date>2026</date></programme>
+  <programme start="20261019163815 +0000" stop="20261019172218 +0000" channel="Red Bull TV.en"><title>Red Bull Signature Series</title>
+<sub-title>Red Bull Imagination</sub-title>
+<desc>A brand new event created by Tyler Bereman, Red Bull Imagination saw the world’s best freeriders tackle a unique course in order to showcase their slopestyle creativity.</desc>
+<icon src="https://image.tmdb.org/t/p/original/mHoHpThci42Pg94k7o9jvG0YvjQ.jpg"/>
+<episode-num system="xmltv_ns">2019.8.0</episode-num>
+<episode-num system="themoviedb.org">series/218403</episode-num>
+<episode-num system="original-air-date">2026-10-19 16:38:15</episode-num>
+<date>2026</date></programme>
+  <programme start="20261019172218 +0000" stop="20261019174620 +0000" channel="Red Bull TV.en"><title>Rob Warner’s Wild Rides</title>
+<sub-title>Nepal</sub-title>
+<desc>Rob Warner and downhill pro Olly Wilkins ride around the world's tallest mountain range, starting at the foothills of the Himalayas in Nepal.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:969e80d6-8e70-4d4c-95ce-1f01a297f09f/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.3.0</episode-num>
+<episode-num system="original-air-date">2026-10-19 17:22:18</episode-num>
+<date>2026</date></programme>
+  <programme start="20261019174620 +0000" stop="20261019182526 +0000" channel="Red Bull TV.en"><title>Unrideable</title>
+<sub-title>Reign and rise</sub-title>
+<desc>Red Bull Erzbergrodeo pushes riders to the limit. Last year's winner, Manuel Lettenbichler, faces rising star Mitch Brightmore for 2024.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:3da5473a-7675-479c-920c-2f3f3c3ba84b/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.0.0</episode-num>
+<episode-num system="original-air-date">2026-10-19 17:46:20</episode-num>
+<date>2026</date></programme>
+  <programme start="20261019182526 +0000" stop="20261019190708 +0000" channel="Red Bull TV.en"><title>Unrideable</title>
+<sub-title>Changing perspectives</sub-title>
+<desc>Wade Young aims to prove his worth as a privateer in the 2024 Xross Hard Enduro Rally and Red Bull Romaniacs after being dropped by his old team for Teodor Kabakchiev.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:94cdee99-1374-4832-a565-3757ad9ad5e5/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.1.0</episode-num>
+<episode-num system="original-air-date">2026-10-19 18:25:26</episode-num>
+<date>2026</date></programme>
+  <programme start="20261019190708 +0000" stop="20261019194716 +0000" channel="Red Bull TV.en"><title>Unrideable</title>
+<sub-title>Sacrifices</sub-title>
+<desc>Billy Bolt returns, as Mario Román chases his title dream. The rivals battle in Türkiye, racing literally from sea to sky.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:6ed4b948-70dd-47fb-91a6-aa76fe5337b2/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.3.0</episode-num>
+<episode-num system="original-air-date">2026-10-19 19:07:08</episode-num>
 <date>2026</date></programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
