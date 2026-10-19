@@ -2939,32 +2939,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20261018210824 +0000" stop="20261018214854 +0000" channel="Red Bull TV.en"><title>Matt Jones: The Impossible Gap</title>
-<sub-title>Extreme mountain biking challenge</sub-title>
-<desc>Mountain biker Matt Jones attempts to jump his bike between two moving trucks, through an impossible gap that exists for less than a second. Watch Matt prepare for his time-critical feat of precision.</desc>
-<category>Movie</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:c0bf61ed-03b4-432f-be9f-b57fe65b4528/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-</programme>
-  <programme start="20261018214854 +0000" stop="20261018223124 +0000" channel="Red Bull TV.en"><title>Red Bull Erzbergrodeo</title>
-<sub-title>Carnage from the hardest race on Earth</sub-title>
-<desc>Experience huge crashes, impossible recoveries, iconic battles and chaos on the Iron Giant over 30 years of Red Bull Erzbergrodeo history, the toughest Hard Enduro race in the world.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:videos:da1b92ae-91d1-4f37-9dc0-431e94673713/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="original-air-date">2026-10-18 21:48:54</episode-num>
-<date>2026</date></programme>
-  <programme start="20261018223124 +0000" stop="20261018225702 +0000" channel="Red Bull TV.en"><title>Asa Vermette's Ascent</title>
-<sub-title>A rookie’s breakout year in downhill MTB</sub-title>
-<desc>One of mountain biking’s most exciting young riders, Asa Vermette, has secured a Junior world title. Follow his journey as he faces downhill’s toughest race in his debut Red Bull Hardline season.</desc>
-<category>Movie</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:2f27123f-6b9a-46a6-8be1-03cbdb5992e7/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-</programme>
-  <programme start="20261018225702 +0000" stop="20261018232022 +0000" channel="Red Bull TV.en"><title>Paradigm</title>
-<sub-title>Mountain biking taken to new heights</sub-title>
-<desc>From the precision of slopestyle to the massive airs of freeride and the raw speed of downhill, Thomas Genon, Szymon Godziek, Emil Johansson and Kade Edwards deliver raw MTB talent and nonstop action.</desc>
-<date>2025</date>
-<category>Movie</category>
-<icon src="https://image.tmdb.org/t/p/original/xcZonwPFynraospKrWt3gqf6p9r.jpg"/>
-<episode-num system="themoviedb.org">movie/1583569</episode-num>
-</programme>
   <programme start="20261018232022 +0000" stop="20261018234701 +0000" channel="Red Bull TV.en"><title>Progression</title>
 <sub-title>The female freeriders changing MTB</sub-title>
 <desc>Red Bull Formation 2021 brought together like-minded riders who want to progress and evolve their sport. These women are now changing the face of freeride mountain biking.</desc>
@@ -3320,6 +3294,34 @@
 <icon src="https://resources.redbull.tv/rrn:content:episode-videos:6ed4b948-70dd-47fb-91a6-aa76fe5337b2/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
 <episode-num system="xmltv_ns">0.3.0</episode-num>
 <episode-num system="original-air-date">2026-10-19 19:07:08</episode-num>
+<date>2026</date></programme>
+  <programme start="20261019194716 +0000" stop="20261019202533 +0000" channel="Red Bull TV.en"><title>Unrideable</title>
+<sub-title>Through the pain</sub-title>
+<desc>Big drama kicks off at 24MX Hixpania Hard Enduro – the 2024 season finale. Can Manuel Lettenbichler win the World Championship again or will someone else rise to glory?</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:c71ba784-140a-4a36-b6a9-021f2f0faf25/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.4.0</episode-num>
+<episode-num system="original-air-date">2026-10-19 19:47:16</episode-num>
+<date>2026</date></programme>
+  <programme start="20261019202533 +0000" stop="20261019205133 +0000" channel="Red Bull TV.en"><title>For Reals</title>
+<sub-title>From soapbox madness to skydiving with an FMX bike</sub-title>
+<desc>Snowboarding – or, rather sandboarding – in the desert. Rally cars on frozen lakes. The wackiness of soapbox racing. Skydiving with a motocross bike. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:25bd9023-2792-464f-a774-984f840f4a4e/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.8.0</episode-num>
+<episode-num system="original-air-date">2026-10-19 20:25:33</episode-num>
+<date>2026</date></programme>
+  <programme start="20261019205133 +0000" stop="20261019211733 +0000" channel="Red Bull TV.en"><title>For Reals</title>
+<sub-title>From F1 soapbox racing to breaking world records</sub-title>
+<desc>Breaking world records – it's all in a day's work for Red Bull athletes! See Felix Baumgartner jump from space, 65 women skydive together and one BMXer conquer the globe's biggest full loop.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:90e91a7d-74bb-42b7-b9b3-078865d7b451/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.1.0</episode-num>
+<episode-num system="original-air-date">2026-10-19 20:51:33</episode-num>
+<date>2026</date></programme>
+  <programme start="20261019211733 +0000" stop="20261019214333 +0000" channel="Red Bull TV.en"><title>For Reals</title>
+<sub-title>From a paper plane contest to diving off ruins</sub-title>
+<desc>Swamp buggy racing. Sprinting down from the peak of a mountain on a bike. High diving off ancient ruins. Getting the perfect surf shot. It's all in a day's work for Red Bull athletes!</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:6a64ab5e-c10a-4065-9f16-0c91a4bc226d/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.4.0</episode-num>
+<episode-num system="original-air-date">2026-07-07 04:05:14</episode-num>
 <date>2026</date></programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
