@@ -2963,115 +2963,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20261019230209 +0000" stop="20261020002631 +0000" channel="Red Bull TV.en"><title>One Extraordinary Year</title>
-<sub-title>Athletes who weren't derailed from their dreams</sub-title>
-<desc>Beach volleyball duo Mol and Sorum, pole vaulter Mondo Duplantis and other world-class athletes reveal how they faced an upside down reality to keep alive their dreams of gold in 2021.</desc>
-<date>2021</date>
-<category>Movie</category>
-<icon src="https://image.tmdb.org/t/p/original/fExgwqMg4dQAPG6ZvXj3HC0iw2i.jpg"/>
-<episode-num system="themoviedb.org">movie/929869</episode-num>
-</programme>
-  <programme start="20261020002631 +0000" stop="20261020013553 +0000" channel="Red Bull TV.en"><title>The Art of Flight</title>
-<sub-title>Travis Rice and Curt Morgan's iconic snowboard film</sub-title>
-<desc>Curt Morgan and Travis Rice create the world's most progressive snowboard film by combining cutting-edge cinematography, stunning locales and the best freestyle snowboarding ever captured.</desc>
-<date>2011</date>
-<category>Movie</category>
-<icon src="https://image.tmdb.org/t/p/original/q5k4edlPT6TeBnYzicIQSbprQIC.jpg"/>
-<episode-num system="themoviedb.org">movie/68450</episode-num>
-</programme>
-  <programme start="20261020013553 +0000" stop="20261020020708 +0000" channel="Red Bull TV.en"><title>Milestone</title>
-<sub-title>An intimate portrayal of snowboarder Eero Ettala</sub-title>
-<desc>Follow professional snowboarder Eero Ettala behind the scenes as he works on a video part while balancing family life. The film reflects on his achievements throughout his career.</desc>
-<date>2024</date>
-<category>Movie</category>
-<icon src="https://image.tmdb.org/t/p/original/3bTpJmuQKYuiJuhPq3vEHBisbJM.jpg"/>
-<episode-num system="themoviedb.org">movie/1639512</episode-num>
-</programme>
-  <programme start="20261020020708 +0000" stop="20261020023406 +0000" channel="Red Bull TV.en"><title>Red Bull Erzbergrodeo 2025</title>
-<sub-title>Highlights from Red Bull Erzbergrodeo 2025</sub-title>
-<desc>Catch up on the best moments from the toughest Hard Enduro race on the planet. Can Manuel Lettenbichler make it four wins in a row, or is it time for a new champion of the 'Iron Giant'?</desc>
-<icon src="https://resources.redbull.tv/rrn:content:recap-videos:b167e467-c1a2-4051-942a-f8c33e812aba/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="original-air-date">2026-10-20 02:07:08</episode-num>
-<date>2026</date></programme>
-  <programme start="20261020023406 +0000" stop="20261020025931 +0000" channel="Red Bull TV.en"><title>Moto Rider vs Enduro Race</title>
-<sub-title>Carson Brown's epic ride at Red Bull Erzbergrodeo</sub-title>
-<desc>Carson Brown returns to Red Bull Erzbergrodeo for redemption in 2025. Join him as he tackles the Iron Giant, steep rock faces, sharp sections and relentless terrain in this intense 25-minute ride.</desc>
-<category>Movie</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:cb562e62-b622-4d54-9dcb-7d5ad2276804/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-</programme>
-  <programme start="20261020025931 +0000" stop="20261020030641 +0000" channel="Red Bull TV.en"><title>F1 road trip from Czech Republic to Slovakia</title>
-<sub-title>From Castle to Castle</sub-title>
-<desc>Formula One pilot David Coulthard heads out on a very imaginative road trip from the castles of Prague, Czech Republic, to the castles of Bratislava, Slovakia.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:videos:e8b7778d-0b02-4521-bf7f-8c891ef8e100/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="original-air-date">2026-10-20 02:59:31</episode-num>
-<date>2026</date></programme>
-  <programme start="20261020030641 +0000" stop="20261020031724 +0000" channel="Red Bull TV.en"><title>Red Bull Racing Road Trips</title>
-<sub-title>F1 drivers cross the USA</sub-title>
-<desc>Enjoy the sights and sounds of America on an epic road trip. Daniel Ricciardo speeds down the tarmac in California, Utah and Nevada, and Max Verstappen has a blast in Colorado and Florida.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:61dad575-62d1-422b-b33c-8c9b466f4287/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.1.0</episode-num>
-<episode-num system="original-air-date">2026-10-20 03:06:41</episode-num>
-<date>2026</date></programme>
-  <programme start="20261020031724 +0000" stop="20261020033251 +0000" channel="Red Bull TV.en"><title>F1 tries out new modes of transportation</title>
-<sub-title>Formula Schnitzeljagd</sub-title>
-<desc>Red Bull Racing and Scuderia AlphaTauri F1 drivers race through Austria, solving challenges in unusual, traditional vehicles as a warm-up for the Austrian Grand Prix.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:videos:45e4487e-268f-4a98-bcfd-c867fb25750c/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="original-air-date">2026-10-20 03:17:24</episode-num>
-<date>2026</date></programme>
-  <programme start="20261020033251 +0000" stop="20261020033856 +0000" channel="Red Bull TV.en"><title>Red Bull Racing Road Trips</title>
-<sub-title>Red Bull Racing vs Best of British</sub-title>
-<desc>Can the RB7, one of Formula One's most decorated machines, overcome the ultimate British traffic jam? Watch the iconic car weave its way past a selection of the country's most recognisable road users.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:3b4a4f90-6217-453b-a799-3c6a9393fedc/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.7.0</episode-num>
-<episode-num system="original-air-date">2026-10-20 03:32:51</episode-num>
-<date>2026</date></programme>
-  <programme start="20261020033856 +0000" stop="20261020040225 +0000" channel="Red Bull TV.en"><title>Giving it Gears with Jason Goliath</title>
-<sub-title>Taking to the skies</sub-title>
-<desc>Jason and Nick visit legend of the skies Patrick Davidson. While learning all about him and his aerobatic sport they get a chance to explore his collection of planes and challenge him to a race.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:cc2d75b7-155d-4a42-84b1-b696b8f0f311/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.0.0</episode-num>
-<episode-num system="original-air-date">2026-10-20 03:38:56</episode-num>
-<date>2026</date></programme>
-  <programme start="20261020040225 +0000" stop="20261020043225 +0000" channel="Red Bull TV.en"><title>Giving it Gears with Jason Goliath</title>
-<sub-title>Dune racing with Kirsten Landman</sub-title>
-<desc>Jason and Nick track down endurance motorcyclist Kirsten Landman. After failing to beat her in a buggy-versus-bike race, Jason persuades her to join their team in the 2022 Red Bull Box Cart Race.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:4195edf7-d79a-4dfa-b8e7-2d7d9e6cf1d9/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.2.0</episode-num>
-<episode-num system="original-air-date">2026-10-20 04:02:25</episode-num>
-<date>2026</date></programme>
-  <programme start="20261020043225 +0000" stop="20261020044238 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
-<sub-title>2018's fan-favourite teams</sub-title>
-<desc>Creativity and soapbox building skills improve every year and 2018's races featured some of the best-looking racers yet to wow fans.</desc>
-<icon src="https://image.tmdb.org/t/p/original/3hXoGBcSLabu2ViQDOMV1r0ejSN.jpg"/>
-<episode-num system="xmltv_ns">3.4.0</episode-num>
-<episode-num system="themoviedb.org">series/337165</episode-num>
-<episode-num system="original-air-date">2026-10-20 04:32:25</episode-num>
-<date>2026</date></programme>
-  <programme start="20261020044238 +0000" stop="20261020045258 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
-<sub-title>2017's best runs</sub-title>
-<desc>Every year the Red Bull Soapbox racers get faster. In 2017 the gadgets included the fastest musical drum set in history.</desc>
-<icon src="https://image.tmdb.org/t/p/original/3hXoGBcSLabu2ViQDOMV1r0ejSN.jpg"/>
-<episode-num system="xmltv_ns">0.3.0</episode-num>
-<episode-num system="themoviedb.org">series/337165</episode-num>
-<episode-num system="original-air-date">2026-10-20 04:42:38</episode-num>
-<date>2026</date></programme>
-  <programme start="20261020045258 +0000" stop="20261020050312 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
-<sub-title>2015's top car designs</sub-title>
-<desc>From a beautifully engineered steampunk dragon to uncanny Indiana Jones tribute and a truly genius Albert Einstein soapbox, these were 2015's top racers.</desc>
-<icon src="https://image.tmdb.org/t/p/original/3hXoGBcSLabu2ViQDOMV1r0ejSN.jpg"/>
-<episode-num system="xmltv_ns">1.1.0</episode-num>
-<episode-num system="themoviedb.org">series/337165</episode-num>
-<episode-num system="original-air-date">2026-10-20 04:52:58</episode-num>
-<date>2026</date></programme>
-  <programme start="20261020050312 +0000" stop="20261020051438 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
-<sub-title>2016's best crashes and smashes</sub-title>
-<desc>The steepest competition hill ever in Ireland and the aptly named Death Roller made sure 2016 continued to deliver more epic soapbox crashes.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
-<episode-num system="xmltv_ns">2.2.0</episode-num>
-<episode-num system="themoviedb.org">series/287622</episode-num>
-<episode-num system="original-air-date">2026-10-20 05:03:12</episode-num>
-</programme>
   <programme start="20261020051438 +0000" stop="20261020052510 +0000" channel="Red Bull TV.en"><title>A flying contest like no other...</title>
 <sub-title>Red Bull Flugtag</sub-title>
 <desc>A flying contest like no other... where anyone and everyone can let their creativity fly and take a punt at launching their homemade machines and masterpieces into the abyss.</desc>
@@ -3326,6 +3217,67 @@
 <icon src="https://image.tmdb.org/t/p/original/3bTpJmuQKYuiJuhPq3vEHBisbJM.jpg"/>
 <episode-num system="themoviedb.org">movie/1639512</episode-num>
 </programme>
+  <programme start="20261020230121 +0000" stop="20261020232818 +0000" channel="Red Bull TV.en"><title>Red Bull Erzbergrodeo 2025</title>
+<sub-title>Highlights from Red Bull Erzbergrodeo 2025</sub-title>
+<desc>Catch up on the best moments from the toughest Hard Enduro race on the planet. Can Manuel Lettenbichler make it four wins in a row, or is it time for a new champion of the 'Iron Giant'?</desc>
+<icon src="https://resources.redbull.tv/rrn:content:recap-videos:b167e467-c1a2-4051-942a-f8c33e812aba/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="original-air-date">2026-10-20 23:01:21</episode-num>
+<date>2026</date></programme>
+  <programme start="20261020232818 +0000" stop="20261020235343 +0000" channel="Red Bull TV.en"><title>Moto Rider vs Enduro Race</title>
+<sub-title>Carson Brown's epic ride at Red Bull Erzbergrodeo</sub-title>
+<desc>Carson Brown returns to Red Bull Erzbergrodeo for redemption in 2025. Join him as he tackles the Iron Giant, steep rock faces, sharp sections and relentless terrain in this intense 25-minute ride.</desc>
+<category>Movie</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:cb562e62-b622-4d54-9dcb-7d5ad2276804/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+</programme>
+  <programme start="20261020235343 +0000" stop="20261021000054 +0000" channel="Red Bull TV.en"><title>F1 road trip from Czech Republic to Slovakia</title>
+<sub-title>From Castle to Castle</sub-title>
+<desc>Formula One pilot David Coulthard heads out on a very imaginative road trip from the castles of Prague, Czech Republic, to the castles of Bratislava, Slovakia.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:videos:e8b7778d-0b02-4521-bf7f-8c891ef8e100/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="original-air-date">2026-10-20 23:53:43</episode-num>
+<date>2026</date></programme>
+  <programme start="20261021000054 +0000" stop="20261021002438 +0000" channel="Red Bull TV.en"><title>Rob Warner’s Wild Rides</title>
+<sub-title>Lesotho</sub-title>
+<desc>Mountain bikers Rob Warner and Matt Jones head to Lesotho where they experience a different kind of racing. While Matt rides down and around a gorge, Rob takes a shortcut.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:d4beaa98-9a2f-48d5-9a6d-64d3c4a0ff43/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.1.0</episode-num>
+<episode-num system="original-air-date">2026-10-21 00:00:54</episode-num>
+<date>2026</date></programme>
+  <programme start="20261021002438 +0000" stop="20261021004831 +0000" channel="Red Bull TV.en"><title>Rob Warner’s Wild Rides</title>
+<sub-title>Ecuador</sub-title>
+<desc>Former World Cup racer Rob Warner travels to Ecuador with rising MTB star Finn Iles to take on the Cotopaxi mountain and its oppressive high altitude.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:bbbc2d1c-3040-483b-899c-ee062028dbf6/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.2.0</episode-num>
+<episode-num system="original-air-date">2026-10-21 00:24:38</episode-num>
+<date>2026</date></programme>
+  <programme start="20261021004831 +0000" stop="20261021011355 +0000" channel="Red Bull TV.en"><title>EMIL – Every Mystery I’ve Lived</title>
+<sub-title>Emil Johansson's comeback</sub-title>
+<desc>Having won the world title in his rookie season in 2017, Emil Johansson spent 2018 struggling with an autoimmune disease. Now, still getting to grips with the disease, he's ready to make his return.</desc>
+<date>2019</date>
+<category>Movie</category>
+<icon src="https://image.tmdb.org/t/p/original/9oUfLtX6ckb4KolALkaqyEgerfm.jpg"/>
+<episode-num system="themoviedb.org">movie/1071886</episode-num>
+</programme>
+  <programme start="20261021011355 +0000" stop="20261021014925 +0000" channel="Red Bull TV.en"><title>Past, Present, Future</title>
+<sub-title>The rise of downhill prodigy Vali Höll</sub-title>
+<desc>Uber-talented downhill prodigy Vali Höll won every race in her first junior World Cup season. Now stepping up to elite level, will she be able to keep winning against the world’s best?</desc>
+<date>2014</date>
+<category>Movie</category>
+<icon src="https://image.tmdb.org/t/p/original/sCtwpzwPWyG16PpMnHfIQhubkVN.jpg"/>
+<episode-num system="themoviedb.org">movie/596955</episode-num>
+</programme>
+  <programme start="20261021014925 +0000" stop="20261021021803 +0000" channel="Red Bull TV.en"><title>Shapes in the City</title>
+<sub-title>A surrealist BMX photo project comes to life</sub-title>
+<desc>A behind-the-scenes look at the coming to life of a magical BMX project. Meet South African rider Murray Loubser and get a no holds barred look at the creative team that brought this project to life.</desc>
+<category>Movie</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:3ea72ea3-163e-4609-af2d-4fac44c52a5b/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+</programme>
+  <programme start="20261021021803 +0000" stop="20261021024203 +0000" channel="Red Bull TV.en"><title>Rob Warner’s Wild Rides</title>
+<sub-title>Kenya</sub-title>
+<desc>Former World Cup racer Rob Warner heads to Kenya with freeride pro Matt Jones to ride one of the highest mountains in Africa and get up close to the local wildlife.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:b46f6d4b-0160-4167-a0e3-1c3e78e97882/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.0.0</episode-num>
+<episode-num system="original-air-date">2026-10-21 02:18:03</episode-num>
+<date>2026</date></programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
   </channel>
