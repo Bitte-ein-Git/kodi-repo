@@ -2963,135 +2963,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20261020051438 +0000" stop="20261020052510 +0000" channel="Red Bull TV.en"><title>A flying contest like no other...</title>
-<sub-title>Red Bull Flugtag</sub-title>
-<desc>A flying contest like no other... where anyone and everyone can let their creativity fly and take a punt at launching their homemade machines and masterpieces into the abyss.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:videos:2151b9b4-7f37-480e-a75f-af17b7fab5a6/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="original-air-date">2026-09-20 06:19:36</episode-num>
-<date>2026</date></programme>
-  <programme start="20261020052510 +0000" stop="20261020053556 +0000" channel="Red Bull TV.en"><title>Welcome to the fastest soapbox race on Earth</title>
-<sub-title>F1 drivers race soapboxes in Montreal</sub-title>
-<desc>Haystacks, home-made vehicles and crazy obstacles – it's Max Verstappen and Sergio Pérez of Red Bull Racing vs Racing Bulls' Yuki Tsunoda and Daniel Ricciardo in the soapbox race of the year!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:videos:cf50093c-c312-4ebc-baeb-dcfc5023de28/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="original-air-date">2026-10-20 05:25:10</episode-num>
-<date>2026</date></programme>
-  <programme start="20261020053556 +0000" stop="20261020054655 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
-<sub-title>2019's best runs</sub-title>
-<desc>With racing on four continents for the first time, 2019's races showcased some ultra-fast runs, but which teams won these wacky races?</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
-<episode-num system="xmltv_ns">0.5.0</episode-num>
-<episode-num system="themoviedb.org">series/287622</episode-num>
-<episode-num system="original-air-date">2026-10-20 05:35:56</episode-num>
-</programme>
-  <programme start="20261020054655 +0000" stop="20261020060000 +0000" channel="Red Bull TV.en"><title>The 7 Greatest Crashes</title>
-<sub-title>Red Bull Soapbox Race</sub-title>
-<desc>A race of pure fun and creativity entertains us with incredible costumes and brilliant design.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:videos:4b7659db-a618-4ca4-a682-748a14ceb498/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="original-air-date">2026-10-16 05:46:40</episode-num>
-<date>2026</date></programme>
-  <programme start="20261020060000 +0000" stop="20261020062239 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>Smile and fight</sub-title>
-<desc>After a breakthrough comp season in 2021, Natalia Grossman became the first American in 20 years to be the IFSC Climbing World Cup champion. Now, she's in the unfamiliar position of having to defend her title.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">8.0.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-10-20 06:00:00</episode-num>
-</programme>
-  <programme start="20261020062239 +0000" stop="20261020064657 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>Burning the flame part 1</sub-title>
-<desc>Big wall free climbing masters Babsi and Jacopo seek their greatest challenge yet: a free ascent of Eternal Flame, an elusive 3,000ft (914km). route up the legendary Nameless Tower in Pakistan.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">8.1.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-10-20 06:22:39</episode-num>
-</programme>
-  <programme start="20261020064657 +0000" stop="20261020071254 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>Burning the flame part 2</sub-title>
-<desc>With a fleeting weather window and the season coming to a close, Babsi Zangerl and Jacopo Larcher must conquer countless hard pitches in freezing temps to finish what they started.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">8.2.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-10-20 06:46:57</episode-num>
-</programme>
-  <programme start="20261020071254 +0000" stop="20261020073813 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>DNA</sub-title>
-<desc>Seb Bouin’s DNA (9c) features upside-down foot dynos, barely-real holds and endless movement out of a massive cave in France, signalling that Seb’s at the cutting edge of human performance on rock.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">8.3.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-10-20 07:12:54</episode-num>
-</programme>
-  <programme start="20261020073813 +0000" stop="20261020080352 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>House of the gods part 1</sub-title>
-<desc>World class rock climber Leo Houlding, Cumbrian climber Anna Taylor and jungle expert Waldo Etherington undertake a big wall expedition to climb a new route on the overhanging prow of Mount Roraima.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">8.5.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-10-20 07:38:13</episode-num>
-</programme>
-  <programme start="20261020080352 +0000" stop="20261020082451 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>House of the gods part 2</sub-title>
-<desc>With the first three pitches sent, the team’s “secret weapon”, Anna Taylor, must conquer the hardest pitch so far to keep the dream of a team free ascent alive.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">8.6.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-10-20 08:03:52</episode-num>
-</programme>
-  <programme start="20261020082451 +0000" stop="20261020084416 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>The Hurt: Alex Honnold in Nevada Part 2</sub-title>
-<desc>With nine routes down in the blazing sun and nine more to go, Alex Honnold gears up for the hardest climb so far – Nevada's Red Rock Canyon – just in time for nightfall.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">8.9.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-10-20 08:24:51</episode-num>
-</programme>
-  <programme start="20261020084416 +0000" stop="20261020092130 +0000" channel="Red Bull TV.en"><title>Veeco: A Volcom Filmmaking Documentary</title>
-<sub-title>Veeco unveiled – untold stories behind groundbreaking films</sub-title>
-<desc>Take a journey through the Volcom film library and go behind the scenes with the filmmakers and riders as they share tales of blood, sweat and drama from Veeco Productions’ inception to the present.</desc>
-<category>Movie</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:c211d2ac-e692-4622-8e55-43dba4d6d035/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-</programme>
-  <programme start="20261020092130 +0000" stop="20261020094730 +0000" channel="Red Bull TV.en"><title>Pushing Progression</title>
-<sub-title>Freestyle football</sub-title>
-<desc>This is the story of freestyle football – and how the scene around it has transcended sport and established Red Bull Street Style as a competition that brings the world together.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:59634730-f152-423e-b609-67efac7b0a23/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.0.0</episode-num>
-<episode-num system="original-air-date">2026-10-20 09:21:30</episode-num>
-<date>2026</date></programme>
-  <programme start="20261020094730 +0000" stop="20261020101132 +0000" channel="Red Bull TV.en"><title>Red Bull Rapids 2022</title>
-<sub-title>A wild whitewater race</sub-title>
-<desc>This wild race sees teams create their own man-made vessels and race down a 234m whitewater rapids course where some will cross the finish line... while others may not.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:videos:114e15bc-76bb-4b5d-9620-738ce65ffbf0/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="original-air-date">2026-10-20 09:47:30</episode-num>
-<date>2026</date></programme>
-  <programme start="20261020101132 +0000" stop="20261020103732 +0000" channel="Red Bull TV.en"><title>Pushing Progression</title>
-<sub-title>Kiteboarding</sub-title>
-<desc>Explore the evolution of kiteboarding through the eyes of athletes like Robby Naish and see how events like Red Bull King of the Air and Red Bull Megaloop are pushing the progression of the sport.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:763418a2-90cf-4246-9dbe-0251948e1351/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.4.0</episode-num>
-<episode-num system="original-air-date">2026-10-20 10:11:32</episode-num>
-<date>2026</date></programme>
-  <programme start="20261020103732 +0000" stop="20261020111820 +0000" channel="Red Bull TV.en"><title>How Luke Czepiela Landed a Plane on a Tiny Helipad</title>
-<sub-title>The story behind Luke Czepiela’s iconic skyscraper plane landing</sub-title>
-<desc>Luke Czepiela pushed the limits of aviation and landed a plane on the famous helipad of Burj Al Arab Jumeirah in Dubai. We take a closer look behind the scenes of the project with unique footage.</desc>
-<category>Movie</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:6925af4d-ba7f-4b74-998e-99784ff58997/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-</programme>
-  <programme start="20261020111820 +0000" stop="20261020114420 +0000" channel="Red Bull TV.en"><title>Pushing Progression</title>
-<sub-title>Freeride mountain biking</sub-title>
-<desc>Kyle Strait, Cam McCaul, Jaxson Riddle and Hannah Bergemann look at what’s fuelled innovation in freeride MTB. Purveyor of progression, skier Lindsey Vonn joins the cast as a special guest.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:05e3878e-ee36-49a9-9ef1-592203766e7f/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.3.0</episode-num>
-<episode-num system="original-air-date">2026-10-20 11:18:20</episode-num>
-<date>2026</date></programme>
   <programme start="20261020114420 +0000" stop="20261020124825 +0000" channel="Red Bull TV.en"><title>Red Bull Signature Series</title>
 <sub-title>Red Bull Straight Rhythm</sub-title>
 <desc>In this innovative evolution of Supercross a track is 'unwound' – no turns, just a half-mile-long straight rhythm section. The format pitted 32 riders in a head-to-head showdown of pure MX racing.</desc>
@@ -3277,6 +3148,133 @@
 <icon src="https://resources.redbull.tv/rrn:content:episode-videos:b46f6d4b-0160-4167-a0e3-1c3e78e97882/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
 <episode-num system="xmltv_ns">0.0.0</episode-num>
 <episode-num system="original-air-date">2026-10-21 02:18:03</episode-num>
+<date>2026</date></programme>
+  <programme start="20261021024203 +0000" stop="20261021030641 +0000" channel="Red Bull TV.en"><title>Rob Warner’s Wild Rides</title>
+<sub-title>Nepal</sub-title>
+<desc>Rob Warner and downhill pro Olly Wilkins ride around the world's tallest mountain range, starting at the foothills of the Himalayas in Nepal.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:969e80d6-8e70-4d4c-95ce-1f01a297f09f/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.3.0</episode-num>
+<episode-num system="original-air-date">2026-10-21 02:42:03</episode-num>
+<date>2026</date></programme>
+  <programme start="20261021030641 +0000" stop="20261021032921 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>Smile and fight</sub-title>
+<desc>After a breakthrough comp season in 2021, Natalia Grossman became the first American in 20 years to be the IFSC Climbing World Cup champion. Now, she's in the unfamiliar position of having to defend her title.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">8.0.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-21 03:06:41</episode-num>
+</programme>
+  <programme start="20261021032921 +0000" stop="20261021035339 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>Burning the flame part 1</sub-title>
+<desc>Big wall free climbing masters Babsi and Jacopo seek their greatest challenge yet: a free ascent of Eternal Flame, an elusive 3,000ft (914km). route up the legendary Nameless Tower in Pakistan.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">8.1.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-21 03:29:21</episode-num>
+</programme>
+  <programme start="20261021035339 +0000" stop="20261021041936 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>Burning the flame part 2</sub-title>
+<desc>With a fleeting weather window and the season coming to a close, Babsi Zangerl and Jacopo Larcher must conquer countless hard pitches in freezing temps to finish what they started.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">8.2.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-21 03:53:39</episode-num>
+</programme>
+  <programme start="20261021041936 +0000" stop="20261021044455 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>DNA</sub-title>
+<desc>Seb Bouin’s DNA (9c) features upside-down foot dynos, barely-real holds and endless movement out of a massive cave in France, signalling that Seb’s at the cutting edge of human performance on rock.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">8.3.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-21 04:19:36</episode-num>
+</programme>
+  <programme start="20261021044455 +0000" stop="20261021051034 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>House of the gods part 1</sub-title>
+<desc>World class rock climber Leo Houlding, Cumbrian climber Anna Taylor and jungle expert Waldo Etherington undertake a big wall expedition to climb a new route on the overhanging prow of Mount Roraima.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">8.5.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-21 04:44:55</episode-num>
+</programme>
+  <programme start="20261021051034 +0000" stop="20261021053133 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>House of the gods part 2</sub-title>
+<desc>With the first three pitches sent, the team’s “secret weapon”, Anna Taylor, must conquer the hardest pitch so far to keep the dream of a team free ascent alive.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">8.6.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-21 05:10:34</episode-num>
+</programme>
+  <programme start="20261021053133 +0000" stop="20261021053933 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
+<sub-title>2014's best runs</sub-title>
+<desc>These are the fearless teams who pushed their soapbox racers to the limits to smash the speed limits and sometimes the track markers in 2014's races.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
+<episode-num system="xmltv_ns">0.0.0</episode-num>
+<episode-num system="themoviedb.org">series/287622</episode-num>
+<episode-num system="original-air-date">2026-10-21 05:31:33</episode-num>
+</programme>
+  <programme start="20261021053933 +0000" stop="20261021054734 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
+<sub-title>2014's best runs</sub-title>
+<desc>These are the fearless teams who pushed their soapbox racers to the limits to smash the speed limits and sometimes the track markers in 2014's races.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
+<episode-num system="xmltv_ns">0.0.0</episode-num>
+<episode-num system="themoviedb.org">series/287622</episode-num>
+<episode-num system="original-air-date">2026-10-21 05:39:33</episode-num>
+</programme>
+  <programme start="20261021054734 +0000" stop="20261021060000 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
+<sub-title>2015's fan-favourite teams</sub-title>
+<desc>How do win over a Red Bull Soapbox Race crowd? Destroying your racer and the course itself certainly helps, as 2015's highlights prove.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
+<episode-num system="xmltv_ns">3.1.0</episode-num>
+<episode-num system="themoviedb.org">series/287622</episode-num>
+<episode-num system="original-air-date">2026-10-21 05:47:34</episode-num>
+</programme>
+  <programme start="20261021060000 +0000" stop="20261021063713 +0000" channel="Red Bull TV.en"><title>Veeco: A Volcom Filmmaking Documentary</title>
+<sub-title>Veeco unveiled – untold stories behind groundbreaking films</sub-title>
+<desc>Take a journey through the Volcom film library and go behind the scenes with the filmmakers and riders as they share tales of blood, sweat and drama from Veeco Productions’ inception to the present.</desc>
+<category>Movie</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:c211d2ac-e692-4622-8e55-43dba4d6d035/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+</programme>
+  <programme start="20261021063713 +0000" stop="20261021070313 +0000" channel="Red Bull TV.en"><title>Pushing Progression</title>
+<sub-title>Freestyle football</sub-title>
+<desc>This is the story of freestyle football – and how the scene around it has transcended sport and established Red Bull Street Style as a competition that brings the world together.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:59634730-f152-423e-b609-67efac7b0a23/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.0.0</episode-num>
+<episode-num system="original-air-date">2026-10-21 06:37:13</episode-num>
+<date>2026</date></programme>
+  <programme start="20261021070313 +0000" stop="20261021072715 +0000" channel="Red Bull TV.en"><title>Red Bull Rapids 2022</title>
+<sub-title>A wild whitewater race</sub-title>
+<desc>This wild race sees teams create their own man-made vessels and race down a 234m whitewater rapids course where some will cross the finish line... while others may not.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:videos:114e15bc-76bb-4b5d-9620-738ce65ffbf0/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="original-air-date">2026-10-21 07:03:13</episode-num>
+<date>2026</date></programme>
+  <programme start="20261021072715 +0000" stop="20261021075315 +0000" channel="Red Bull TV.en"><title>Pushing Progression</title>
+<sub-title>Kiteboarding</sub-title>
+<desc>Explore the evolution of kiteboarding through the eyes of athletes like Robby Naish and see how events like Red Bull King of the Air and Red Bull Megaloop are pushing the progression of the sport.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:763418a2-90cf-4246-9dbe-0251948e1351/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.4.0</episode-num>
+<episode-num system="original-air-date">2026-10-21 07:27:15</episode-num>
+<date>2026</date></programme>
+  <programme start="20261021075315 +0000" stop="20261021083403 +0000" channel="Red Bull TV.en"><title>How Luke Czepiela Landed a Plane on a Tiny Helipad</title>
+<sub-title>The story behind Luke Czepiela’s iconic skyscraper plane landing</sub-title>
+<desc>Luke Czepiela pushed the limits of aviation and landed a plane on the famous helipad of Burj Al Arab Jumeirah in Dubai. We take a closer look behind the scenes of the project with unique footage.</desc>
+<category>Movie</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:6925af4d-ba7f-4b74-998e-99784ff58997/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+</programme>
+  <programme start="20261021083403 +0000" stop="20261021090003 +0000" channel="Red Bull TV.en"><title>Pushing Progression</title>
+<sub-title>Freeride mountain biking</sub-title>
+<desc>Kyle Strait, Cam McCaul, Jaxson Riddle and Hannah Bergemann look at what’s fuelled innovation in freeride MTB. Purveyor of progression, skier Lindsey Vonn joins the cast as a special guest.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:05e3878e-ee36-49a9-9ef1-592203766e7f/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.3.0</episode-num>
+<episode-num system="original-air-date">2026-10-21 08:34:03</episode-num>
 <date>2026</date></programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
@@ -4671,34 +4669,6 @@
   <channel id="RTLTeleLuxembourg.lu">
     <display-name>RTL Télé Lëtzebuerg</display-name>
   </channel>
-  <programme start="20261019070000 +0000" stop="20261019080000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Rediffusioun vu Magazin a Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261019080000 +0000" stop="20261019200000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261019200000 +0000" stop="20261019200200 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Meteoflash</title>
-    <desc>Nachrichten</desc>
-  </programme>
-  <programme start="20261019200200 +0000" stop="20261019203000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Gol</title>
-    <desc>Magazin</desc>
-  </programme>
-  <programme start="20261019203000 +0000" stop="20261019205600 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261019205600 +0000" stop="20261019210000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Meteo</title>
-    <desc>Nachrichten</desc>
-  </programme>
-  <programme start="20261019210000 +0000" stop="20261020070000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Rediffusioun vu Magazin a Journal</title>
-    <desc>Info</desc>
-  </programme>
   <programme start="20261020070000 +0000" stop="20261020080000 +0000" channel="RTLTeleLuxembourg.lu">
     <title>Rediffusioun vu Magazin a Journal</title>
     <desc>Info</desc>
@@ -4747,42 +4717,50 @@
     <title>RTL Radio Web TV</title>
     <desc>Info</desc>
   </programme>
+  <programme start="20261021193000 +0000" stop="20261021194700 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Musekbox</title>
+    <desc>Unterhaltung</desc>
+  </programme>
+  <programme start="20261021194700 +0000" stop="20261021200000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Invité vun der Redaktioun</title>
+    <desc>Gespräch</desc>
+  </programme>
+  <programme start="20261021200000 +0000" stop="20261021200200 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Meteoflash</title>
+    <desc>Nachrichten</desc>
+  </programme>
+  <programme start="20261021200200 +0000" stop="20261021201500 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>De Magazin</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261021201500 +0000" stop="20261021203000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Magazin Interview</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261021203000 +0000" stop="20261021205600 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>De Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261021205600 +0000" stop="20261021210000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Meteo</title>
+    <desc>Nachrichten</desc>
+  </programme>
+  <programme start="20261021210000 +0000" stop="20261022070000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Rediffusioun vu Magazin a Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261022070000 +0000" stop="20261022080000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Rediffusioun vu Magazin a Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261022080000 +0000" stop="20261022193000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
+  </programme>
   <channel id="RTL.Zwee.lu">
     <display-name>RTL Zwee</display-name>
     <icon src="https://iptv-epg.org/images/oHSmItP6WtPBct623O8G2WwY1UUKinaauYHEqQcVkJSEsQDupbBGhIXVqycpGDDKb6tbS71i4meL--qsxVwayBEazAz7nFhF2bF3ODnkZwi2DIDY"/>
   </channel>
-  <programme start="20261019070000 +0000" stop="20261019080000 +0000" channel="RTL.Zwee.lu">
-    <title>Rediffusioun vu Magazin a Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261019080000 +0000" stop="20261019193000 +0000" channel="RTL.Zwee.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261019193000 +0000" stop="20261019200000 +0000" channel="RTL.Zwee.lu">
-    <title>Musekbox</title>
-    <desc>Unterhaltung</desc>
-  </programme>
-  <programme start="20261019200000 +0000" stop="20261019200200 +0000" channel="RTL.Zwee.lu">
-    <title>Meteoflash</title>
-    <desc>Nachrichten</desc>
-  </programme>
-  <programme start="20261019200200 +0000" stop="20261019203000 +0000" channel="RTL.Zwee.lu">
-    <title>Gol</title>
-    <desc>Magazin</desc>
-  </programme>
-  <programme start="20261019203000 +0000" stop="20261019205600 +0000" channel="RTL.Zwee.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261019205600 +0000" stop="20261019210000 +0000" channel="RTL.Zwee.lu">
-    <title>Meteo</title>
-    <desc>Nachrichten</desc>
-  </programme>
-  <programme start="20261019210000 +0000" stop="20261020070000 +0000" channel="RTL.Zwee.lu">
-    <title>Rediffusioun vu Magazin a Journal</title>
-    <desc>Info</desc>
-  </programme>
   <programme start="20261020070000 +0000" stop="20261020080000 +0000" channel="RTL.Zwee.lu">
     <title>Rediffusioun vu Magazin a Journal</title>
     <desc>Info</desc>
@@ -4836,6 +4814,58 @@
     <desc>Info</desc>
   </programme>
   <programme start="20261021080000 +0000" stop="20261021193000 +0000" channel="RTL.Zwee.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261021193000 +0000" stop="20261021194700 +0000" channel="RTL.Zwee.lu">
+    <title>Musekbox</title>
+    <desc>Unterhaltung</desc>
+  </programme>
+  <programme start="20261021194700 +0000" stop="20261021200000 +0000" channel="RTL.Zwee.lu">
+    <title>Invité vun der Redaktioun</title>
+    <desc>Gespräch</desc>
+  </programme>
+  <programme start="20261021200000 +0000" stop="20261021200200 +0000" channel="RTL.Zwee.lu">
+    <title>Meteoflash</title>
+    <desc>Nachrichten</desc>
+  </programme>
+  <programme start="20261021200200 +0000" stop="20261021201500 +0000" channel="RTL.Zwee.lu">
+    <title>De Magazin</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261021201500 +0000" stop="20261021203000 +0000" channel="RTL.Zwee.lu">
+    <title>Magazin Interview</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261021203000 +0000" stop="20261021205600 +0000" channel="RTL.Zwee.lu">
+    <title>De Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261021205600 +0000" stop="20261021210000 +0000" channel="RTL.Zwee.lu">
+    <title>Meteo</title>
+    <desc>Nachrichten</desc>
+  </programme>
+  <programme start="20261021210000 +0000" stop="20261021214500 +0000" channel="RTL.Zwee.lu">
+    <title>Rediffusioun vu Magazin a Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261021214500 +0000" stop="20261022000000 +0000" channel="RTL.Zwee.lu">
+    <title>Champions League</title>
+    <desc>Magazin</desc>
+  </programme>
+  <programme start="20261022000000 +0000" stop="20261022020000 +0000" channel="RTL.Zwee.lu">
+    <title>Rediffusioun vu Magazin a Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261022020000 +0000" stop="20261022070000 +0000" channel="RTL.Zwee.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261022070000 +0000" stop="20261022080000 +0000" channel="RTL.Zwee.lu">
+    <title>Rediffusioun vu Magazin a Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261022080000 +0000" stop="20261022193000 +0000" channel="RTL.Zwee.lu">
     <title>RTL Radio Web TV</title>
     <desc>Info</desc>
   </programme>
@@ -4993,11 +5023,6 @@
     <date>2026</date>
     <desc lang="en">Rediffusioun vu Magazin a Journal.</desc>
     <title lang="en">Rediffusioun vu Magazin a Journal</title>
-  </programme>
-  <programme start="20261022000000 +0000" stop="20261022050000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">RTL Radio Web TV.</desc>
-    <title lang="en">RTL Radio Web TV</title>
   </programme>
   <programme start="20261022050000 +0000" stop="20261022060000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
     <date>2026</date>
