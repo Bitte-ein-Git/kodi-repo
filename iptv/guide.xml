@@ -2972,90 +2972,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20261023120104 +0000" stop="20261023131027 +0000" channel="Red Bull TV.en"><title>The Art of Flight</title>
-<sub-title>Travis Rice and Curt Morgan's iconic snowboard film</sub-title>
-<desc>Curt Morgan and Travis Rice create the world's most progressive snowboard film by combining cutting-edge cinematography, stunning locales and the best freestyle snowboarding ever captured.</desc>
-<date>2011</date>
-<category>Movie</category>
-<icon src="https://image.tmdb.org/t/p/original/q5k4edlPT6TeBnYzicIQSbprQIC.jpg"/>
-<episode-num system="themoviedb.org">movie/68450</episode-num>
-</programme>
-  <programme start="20261023131027 +0000" stop="20261023134142 +0000" channel="Red Bull TV.en"><title>Milestone</title>
-<sub-title>An intimate portrayal of snowboarder Eero Ettala</sub-title>
-<desc>Follow professional snowboarder Eero Ettala behind the scenes as he works on a video part while balancing family life. The film reflects on his achievements throughout his career.</desc>
-<date>2024</date>
-<category>Movie</category>
-<icon src="https://image.tmdb.org/t/p/original/3bTpJmuQKYuiJuhPq3vEHBisbJM.jpg"/>
-<episode-num system="themoviedb.org">movie/1639512</episode-num>
-</programme>
-  <programme start="20261023134142 +0000" stop="20261023140840 +0000" channel="Red Bull TV.en"><title>Red Bull Erzbergrodeo 2025</title>
-<sub-title>Highlights from Red Bull Erzbergrodeo 2025</sub-title>
-<desc>Catch up on the best moments from the toughest Hard Enduro race on the planet. Can Manuel Lettenbichler make it four wins in a row, or is it time for a new champion of the 'Iron Giant'?</desc>
-<icon src="https://resources.redbull.tv/rrn:content:recap-videos:b167e467-c1a2-4051-942a-f8c33e812aba/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="original-air-date">2026-10-23 13:41:42</episode-num>
-<date>2026</date></programme>
-  <programme start="20261023140840 +0000" stop="20261023143405 +0000" channel="Red Bull TV.en"><title>Moto Rider vs Enduro Race</title>
-<sub-title>Carson Brown's epic ride at Red Bull Erzbergrodeo</sub-title>
-<desc>Carson Brown returns to Red Bull Erzbergrodeo for redemption in 2025. Join him as he tackles the Iron Giant, steep rock faces, sharp sections and relentless terrain in this intense 25-minute ride.</desc>
-<category>Movie</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:cb562e62-b622-4d54-9dcb-7d5ad2276804/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-</programme>
-  <programme start="20261023143405 +0000" stop="20261023144115 +0000" channel="Red Bull TV.en"><title>F1 road trip from Czech Republic to Slovakia</title>
-<sub-title>From Castle to Castle</sub-title>
-<desc>Formula One pilot David Coulthard heads out on a very imaginative road trip from the castles of Prague, Czech Republic, to the castles of Bratislava, Slovakia.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:videos:e8b7778d-0b02-4521-bf7f-8c891ef8e100/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="original-air-date">2026-10-23 14:34:05</episode-num>
-<date>2026</date></programme>
-  <programme start="20261023144115 +0000" stop="20261023150459 +0000" channel="Red Bull TV.en"><title>Rob Warner’s Wild Rides</title>
-<sub-title>Lesotho</sub-title>
-<desc>Mountain bikers Rob Warner and Matt Jones head to Lesotho where they experience a different kind of racing. While Matt rides down and around a gorge, Rob takes a shortcut.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:d4beaa98-9a2f-48d5-9a6d-64d3c4a0ff43/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.1.0</episode-num>
-<episode-num system="original-air-date">2026-10-23 14:41:15</episode-num>
-<date>2026</date></programme>
-  <programme start="20261023150459 +0000" stop="20261023152853 +0000" channel="Red Bull TV.en"><title>Rob Warner’s Wild Rides</title>
-<sub-title>Ecuador</sub-title>
-<desc>Former World Cup racer Rob Warner travels to Ecuador with rising MTB star Finn Iles to take on the Cotopaxi mountain and its oppressive high altitude.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:bbbc2d1c-3040-483b-899c-ee062028dbf6/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.2.0</episode-num>
-<episode-num system="original-air-date">2026-10-23 15:04:59</episode-num>
-<date>2026</date></programme>
-  <programme start="20261023152853 +0000" stop="20261023155417 +0000" channel="Red Bull TV.en"><title>EMIL – Every Mystery I’ve Lived</title>
-<sub-title>Emil Johansson's comeback</sub-title>
-<desc>Having won the world title in his rookie season in 2017, Emil Johansson spent 2018 struggling with an autoimmune disease. Now, still getting to grips with the disease, he's ready to make his return.</desc>
-<date>2019</date>
-<category>Movie</category>
-<icon src="https://image.tmdb.org/t/p/original/9oUfLtX6ckb4KolALkaqyEgerfm.jpg"/>
-<episode-num system="themoviedb.org">movie/1071886</episode-num>
-</programme>
-  <programme start="20261023155417 +0000" stop="20261023162947 +0000" channel="Red Bull TV.en"><title>Past, Present, Future</title>
-<sub-title>The rise of downhill prodigy Vali Höll</sub-title>
-<desc>Uber-talented downhill prodigy Vali Höll won every race in her first junior World Cup season. Now stepping up to elite level, will she be able to keep winning against the world’s best?</desc>
-<date>2014</date>
-<category>Movie</category>
-<icon src="https://image.tmdb.org/t/p/original/sCtwpzwPWyG16PpMnHfIQhubkVN.jpg"/>
-<episode-num system="themoviedb.org">movie/596955</episode-num>
-</programme>
-  <programme start="20261023162947 +0000" stop="20261023165824 +0000" channel="Red Bull TV.en"><title>Shapes in the City</title>
-<sub-title>A surrealist BMX photo project comes to life</sub-title>
-<desc>A behind-the-scenes look at the coming to life of a magical BMX project. Meet South African rider Murray Loubser and get a no holds barred look at the creative team that brought this project to life.</desc>
-<category>Movie</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:3ea72ea3-163e-4609-af2d-4fac44c52a5b/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-</programme>
-  <programme start="20261023165824 +0000" stop="20261023172225 +0000" channel="Red Bull TV.en"><title>Rob Warner’s Wild Rides</title>
-<sub-title>Kenya</sub-title>
-<desc>Former World Cup racer Rob Warner heads to Kenya with freeride pro Matt Jones to ride one of the highest mountains in Africa and get up close to the local wildlife.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:b46f6d4b-0160-4167-a0e3-1c3e78e97882/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.0.0</episode-num>
-<episode-num system="original-air-date">2026-10-23 16:58:24</episode-num>
-<date>2026</date></programme>
-  <programme start="20261023172225 +0000" stop="20261023174703 +0000" channel="Red Bull TV.en"><title>Rob Warner’s Wild Rides</title>
-<sub-title>Nepal</sub-title>
-<desc>Rob Warner and downhill pro Olly Wilkins ride around the world's tallest mountain range, starting at the foothills of the Himalayas in Nepal.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:969e80d6-8e70-4d4c-95ce-1f01a297f09f/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.3.0</episode-num>
-<episode-num system="original-air-date">2026-10-23 17:22:25</episode-num>
-<date>2026</date></programme>
   <programme start="20261023174703 +0000" stop="20261023180942 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
 <sub-title>Smile and fight</sub-title>
 <desc>After a breakthrough comp season in 2021, Natalia Grossman became the first American in 20 years to be the IFSC Climbing World Cup champion. Now, she's in the unfamiliar position of having to defend her title.</desc>
@@ -3274,6 +3190,118 @@
 <category>Movie</category>
 <icon src="https://image.tmdb.org/t/p/original/q5k4edlPT6TeBnYzicIQSbprQIC.jpg"/>
 <episode-num system="themoviedb.org">movie/68450</episode-num>
+</programme>
+  <programme start="20261024101820 +0000" stop="20261024104935 +0000" channel="Red Bull TV.en"><title>Milestone</title>
+<sub-title>An intimate portrayal of snowboarder Eero Ettala</sub-title>
+<desc>Follow professional snowboarder Eero Ettala behind the scenes as he works on a video part while balancing family life. The film reflects on his achievements throughout his career.</desc>
+<date>2024</date>
+<category>Movie</category>
+<icon src="https://image.tmdb.org/t/p/original/3bTpJmuQKYuiJuhPq3vEHBisbJM.jpg"/>
+<episode-num system="themoviedb.org">movie/1639512</episode-num>
+</programme>
+  <programme start="20261024104935 +0000" stop="20261024111632 +0000" channel="Red Bull TV.en"><title>Red Bull Erzbergrodeo 2025</title>
+<sub-title>Highlights from Red Bull Erzbergrodeo 2025</sub-title>
+<desc>Catch up on the best moments from the toughest Hard Enduro race on the planet. Can Manuel Lettenbichler make it four wins in a row, or is it time for a new champion of the 'Iron Giant'?</desc>
+<icon src="https://resources.redbull.tv/rrn:content:recap-videos:b167e467-c1a2-4051-942a-f8c33e812aba/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="original-air-date">2026-10-24 10:49:35</episode-num>
+<date>2026</date></programme>
+  <programme start="20261024111632 +0000" stop="20261024114157 +0000" channel="Red Bull TV.en"><title>Moto Rider vs Enduro Race</title>
+<sub-title>Carson Brown's epic ride at Red Bull Erzbergrodeo</sub-title>
+<desc>Carson Brown returns to Red Bull Erzbergrodeo for redemption in 2025. Join him as he tackles the Iron Giant, steep rock faces, sharp sections and relentless terrain in this intense 25-minute ride.</desc>
+<category>Movie</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:cb562e62-b622-4d54-9dcb-7d5ad2276804/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+</programme>
+  <programme start="20261024114157 +0000" stop="20261024115406 +0000" channel="Red Bull TV.en"><title>Oracle Red Bull Racing 2024 Launch – extra</title>
+<sub-title>World’s fastest filming drone chases Max Verstappen</sub-title>
+<desc>Watch Formula One track action at Silverstone like never before. The fastest-ever filming FPV drone keeps up with Liam Lawson, David Coulthard and Max Verstappen as they reach speeds of over 300kph.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:videos:c63071b7-696b-43f8-bbc9-84cbe04225fb/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="original-air-date">2026-07-05 05:19:42</episode-num>
+<date>2026</date></programme>
+  <programme start="20261024115406 +0000" stop="20261024121750 +0000" channel="Red Bull TV.en"><title>Rob Warner’s Wild Rides</title>
+<sub-title>Lesotho</sub-title>
+<desc>Mountain bikers Rob Warner and Matt Jones head to Lesotho where they experience a different kind of racing. While Matt rides down and around a gorge, Rob takes a shortcut.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:d4beaa98-9a2f-48d5-9a6d-64d3c4a0ff43/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.1.0</episode-num>
+<episode-num system="original-air-date">2026-10-24 11:54:06</episode-num>
+<date>2026</date></programme>
+  <programme start="20261024121750 +0000" stop="20261024124144 +0000" channel="Red Bull TV.en"><title>Rob Warner’s Wild Rides</title>
+<sub-title>Ecuador</sub-title>
+<desc>Former World Cup racer Rob Warner travels to Ecuador with rising MTB star Finn Iles to take on the Cotopaxi mountain and its oppressive high altitude.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:bbbc2d1c-3040-483b-899c-ee062028dbf6/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.2.0</episode-num>
+<episode-num system="original-air-date">2026-10-24 12:17:50</episode-num>
+<date>2026</date></programme>
+  <programme start="20261024124144 +0000" stop="20261024130708 +0000" channel="Red Bull TV.en"><title>EMIL – Every Mystery I’ve Lived</title>
+<sub-title>Emil Johansson's comeback</sub-title>
+<desc>Having won the world title in his rookie season in 2017, Emil Johansson spent 2018 struggling with an autoimmune disease. Now, still getting to grips with the disease, he's ready to make his return.</desc>
+<date>2019</date>
+<category>Movie</category>
+<icon src="https://image.tmdb.org/t/p/original/9oUfLtX6ckb4KolALkaqyEgerfm.jpg"/>
+<episode-num system="themoviedb.org">movie/1071886</episode-num>
+</programme>
+  <programme start="20261024130708 +0000" stop="20261024134237 +0000" channel="Red Bull TV.en"><title>Past, Present, Future</title>
+<sub-title>The rise of downhill prodigy Vali Höll</sub-title>
+<desc>Uber-talented downhill prodigy Vali Höll won every race in her first junior World Cup season. Now stepping up to elite level, will she be able to keep winning against the world’s best?</desc>
+<date>2014</date>
+<category>Movie</category>
+<icon src="https://image.tmdb.org/t/p/original/sCtwpzwPWyG16PpMnHfIQhubkVN.jpg"/>
+<episode-num system="themoviedb.org">movie/596955</episode-num>
+</programme>
+  <programme start="20261024134237 +0000" stop="20261024141115 +0000" channel="Red Bull TV.en"><title>Shapes in the City</title>
+<sub-title>A surrealist BMX photo project comes to life</sub-title>
+<desc>A behind-the-scenes look at the coming to life of a magical BMX project. Meet South African rider Murray Loubser and get a no holds barred look at the creative team that brought this project to life.</desc>
+<category>Movie</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:3ea72ea3-163e-4609-af2d-4fac44c52a5b/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+</programme>
+  <programme start="20261024141115 +0000" stop="20261024143516 +0000" channel="Red Bull TV.en"><title>Rob Warner’s Wild Rides</title>
+<sub-title>Kenya</sub-title>
+<desc>Former World Cup racer Rob Warner heads to Kenya with freeride pro Matt Jones to ride one of the highest mountains in Africa and get up close to the local wildlife.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:b46f6d4b-0160-4167-a0e3-1c3e78e97882/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.0.0</episode-num>
+<episode-num system="original-air-date">2026-10-24 14:11:15</episode-num>
+<date>2026</date></programme>
+  <programme start="20261024143516 +0000" stop="20261024145954 +0000" channel="Red Bull TV.en"><title>Rob Warner’s Wild Rides</title>
+<sub-title>Nepal</sub-title>
+<desc>Rob Warner and downhill pro Olly Wilkins ride around the world's tallest mountain range, starting at the foothills of the Himalayas in Nepal.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:969e80d6-8e70-4d4c-95ce-1f01a297f09f/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.3.0</episode-num>
+<episode-num system="original-air-date">2026-10-24 14:35:16</episode-num>
+<date>2026</date></programme>
+  <programme start="20261024145954 +0000" stop="20261024152233 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>Smile and fight</sub-title>
+<desc>After a breakthrough comp season in 2021, Natalia Grossman became the first American in 20 years to be the IFSC Climbing World Cup champion. Now, she's in the unfamiliar position of having to defend her title.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">8.0.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-24 14:59:54</episode-num>
+</programme>
+  <programme start="20261024152233 +0000" stop="20261024154651 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>Burning the flame part 1</sub-title>
+<desc>Big wall free climbing masters Babsi and Jacopo seek their greatest challenge yet: a free ascent of Eternal Flame, an elusive 3,000ft (914km). route up the legendary Nameless Tower in Pakistan.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">8.1.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-24 15:22:33</episode-num>
+</programme>
+  <programme start="20261024154651 +0000" stop="20261024161248 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>Burning the flame part 2</sub-title>
+<desc>With a fleeting weather window and the season coming to a close, Babsi Zangerl and Jacopo Larcher must conquer countless hard pitches in freezing temps to finish what they started.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">8.2.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-24 15:46:51</episode-num>
+</programme>
+  <programme start="20261024161248 +0000" stop="20261024163807 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>DNA</sub-title>
+<desc>Seb Bouin’s DNA (9c) features upside-down foot dynos, barely-real holds and endless movement out of a massive cave in France, signalling that Seb’s at the cutting edge of human performance on rock.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">8.3.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-24 16:12:48</episode-num>
 </programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
@@ -4685,61 +4713,6 @@
     <title>FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2026 Quali</title>
     <desc>Hightech, Speed an ëmmer um Limitt. De ganze Weekend, vum Qualifying samsdes bis bei d'Course sonndes, d'Formel 1 ass elo live op RTL ZWEE.</desc>
   </programme>
-  <programme start="20261022050000 +0000" stop="20261022060000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">Rediffusioun vu Magazin a Journal.</desc>
-    <title lang="en">Rediffusioun vu Magazin a Journal</title>
-  </programme>
-  <programme start="20261022060000 +0000" stop="20261022173000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">RTL Radio Web TV.</desc>
-    <title lang="en">RTL Radio Web TV</title>
-  </programme>
-  <programme start="20261022173000 +0000" stop="20261022174700 +0000" channel="RTL.Zwee.lu"><category lang="en">Unterhaltung</category>
-    <date>2026</date>
-    <desc lang="en">Musekbox.</desc>
-    <title lang="en">Musekbox</title>
-  </programme>
-  <programme start="20261022174700 +0000" stop="20261022180000 +0000" channel="RTL.Zwee.lu"><category lang="en">Gespräch</category>
-    <date>2026</date>
-    <desc lang="en">Invité vun der Redaktioun.</desc>
-    <title lang="en">Invité vun der Redaktioun</title>
-  </programme>
-  <programme start="20261022180000 +0000" stop="20261022180200 +0000" channel="RTL.Zwee.lu"><category lang="en">Nachrichten</category>
-    <date>2026</date>
-    <desc lang="en">Meteoflash.</desc>
-    <title lang="en">Meteoflash</title>
-  </programme>
-  <programme start="20261022180200 +0000" stop="20261022183000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">Et ginn Amenter am Liewen, do brauch et Courage fir weiderzegoen. Iwwert en halleft Joer hu mir siwe Leit an hirem Alldag begleet. Schrëtt fir Schrëtt – d'Dokuserie, elo ëmmer Donneschdes um 19 Auer.&lt;br /&gt;&lt;br /&gt;.</desc>
-    <title lang="en">Schrëtt fir Schrëtt</title>
-  </programme>
-  <programme start="20261022183000 +0000" stop="20261022185600 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">De Journal.</desc>
-    <title lang="en">De Journal</title>
-  </programme>
-  <programme start="20261022185600 +0000" stop="20261022190000 +0000" channel="RTL.Zwee.lu"><category lang="en">Nachrichten</category>
-    <date>2026</date>
-    <desc lang="en">Meteo.</desc>
-    <title lang="en">Meteo</title>
-  </programme>
-  <programme start="20261022190000 +0000" stop="20261022230500 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">Rediffusioun vu Magazin a Journal.</desc>
-    <title lang="en">Rediffusioun vu Magazin a Journal</title>
-  </programme>
-  <programme start="20261022230500 +0000" stop="20261023000000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">Rediffusioun vu Journal a Pisa.</desc>
-    <title lang="en">Rediffusioun vu Journal a Pisa</title>
-  </programme>
-  <programme start="20261023000000 +0000" stop="20261023050000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">RTL Radio Web TV.</desc>
-    <title lang="en">RTL Radio Web TV</title>
-  </programme>
   <programme start="20261023050000 +0000" stop="20261023103500 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
     <date>2026</date>
     <desc lang="en">Rediffusioun vu Magazin a Journal.</desc>
@@ -5009,6 +4982,51 @@
     <title lang="en">Meteo</title>
   </programme>
   <programme start="20261028200000 +0000" stop="20261029060000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">Rediffusioun vu Magazin a Journal.</desc>
+    <title lang="en">Rediffusioun vu Magazin a Journal</title>
+  </programme>
+  <programme start="20261029060000 +0000" stop="20261029070000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">Rediffusioun vu Magazin a Journal.</desc>
+    <title lang="en">Rediffusioun vu Magazin a Journal</title>
+  </programme>
+  <programme start="20261029070000 +0000" stop="20261029183000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">RTL Radio Web TV.</desc>
+    <title lang="en">RTL Radio Web TV</title>
+  </programme>
+  <programme start="20261029183000 +0000" stop="20261029184700 +0000" channel="RTL.Zwee.lu"><category lang="en">Unterhaltung</category>
+    <date>2026</date>
+    <desc lang="en">Musekbox.</desc>
+    <title lang="en">Musekbox</title>
+  </programme>
+  <programme start="20261029184700 +0000" stop="20261029190000 +0000" channel="RTL.Zwee.lu"><category lang="en">Gespräch</category>
+    <date>2026</date>
+    <desc lang="en">Invité vun der Redaktioun.</desc>
+    <title lang="en">Invité vun der Redaktioun</title>
+  </programme>
+  <programme start="20261029190000 +0000" stop="20261029190200 +0000" channel="RTL.Zwee.lu"><category lang="en">Nachrichten</category>
+    <date>2026</date>
+    <desc lang="en">Meteoflash.</desc>
+    <title lang="en">Meteoflash</title>
+  </programme>
+  <programme start="20261029190200 +0000" stop="20261029193000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">Et ginn Amenter am Liewen, do brauch et Courage fir weiderzegoen. Iwwert en halleft Joer hu mir siwe Leit an hirem Alldag begleet. Schrëtt fir Schrëtt – d'Dokuserie, elo ëmmer Donneschdes um 19 Auer.&lt;br /&gt;&lt;br /&gt;.</desc>
+    <title lang="en">Schrëtt fir Schrëtt</title>
+  </programme>
+  <programme start="20261029193000 +0000" stop="20261029195600 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">De Journal.</desc>
+    <title lang="en">De Journal</title>
+  </programme>
+  <programme start="20261029195600 +0000" stop="20261029200000 +0000" channel="RTL.Zwee.lu"><category lang="en">Nachrichten</category>
+    <date>2026</date>
+    <desc lang="en">Meteo.</desc>
+    <title lang="en">Meteo</title>
+  </programme>
+  <programme start="20261029200000 +0000" stop="20261030000500 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
     <date>2026</date>
     <desc lang="en">Rediffusioun vu Magazin a Journal.</desc>
     <title lang="en">Rediffusioun vu Magazin a Journal</title>
