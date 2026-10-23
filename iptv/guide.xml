@@ -2972,69 +2972,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20261023174703 +0000" stop="20261023180942 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>Smile and fight</sub-title>
-<desc>After a breakthrough comp season in 2021, Natalia Grossman became the first American in 20 years to be the IFSC Climbing World Cup champion. Now, she's in the unfamiliar position of having to defend her title.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">8.0.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-10-23 17:47:03</episode-num>
-</programme>
-  <programme start="20261023180942 +0000" stop="20261023183401 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>Burning the flame part 1</sub-title>
-<desc>Big wall free climbing masters Babsi and Jacopo seek their greatest challenge yet: a free ascent of Eternal Flame, an elusive 3,000ft (914km). route up the legendary Nameless Tower in Pakistan.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">8.1.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-10-23 18:09:42</episode-num>
-</programme>
-  <programme start="20261023183401 +0000" stop="20261023185957 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>Burning the flame part 2</sub-title>
-<desc>With a fleeting weather window and the season coming to a close, Babsi Zangerl and Jacopo Larcher must conquer countless hard pitches in freezing temps to finish what they started.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">8.2.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-10-23 18:34:01</episode-num>
-</programme>
-  <programme start="20261023185957 +0000" stop="20261023192516 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>DNA</sub-title>
-<desc>Seb Bouin’s DNA (9c) features upside-down foot dynos, barely-real holds and endless movement out of a massive cave in France, signalling that Seb’s at the cutting edge of human performance on rock.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">8.3.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-10-23 18:59:57</episode-num>
-</programme>
-  <programme start="20261023192516 +0000" stop="20261023195056 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>House of the gods part 1</sub-title>
-<desc>World class rock climber Leo Houlding, Cumbrian climber Anna Taylor and jungle expert Waldo Etherington undertake a big wall expedition to climb a new route on the overhanging prow of Mount Roraima.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">8.5.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-10-23 19:25:16</episode-num>
-</programme>
-  <programme start="20261023195056 +0000" stop="20261023201154 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>House of the gods part 2</sub-title>
-<desc>With the first three pitches sent, the team’s “secret weapon”, Anna Taylor, must conquer the hardest pitch so far to keep the dream of a team free ascent alive.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">8.6.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-10-23 19:50:56</episode-num>
-</programme>
-  <programme start="20261023201154 +0000" stop="20261023203120 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>The Hurt: Alex Honnold in Nevada Part 2</sub-title>
-<desc>With nine routes down in the blazing sun and nine more to go, Alex Honnold gears up for the hardest climb so far – Nevada's Red Rock Canyon – just in time for nightfall.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">8.9.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-10-23 20:11:54</episode-num>
-</programme>
   <programme start="20261023203120 +0000" stop="20261023210833 +0000" channel="Red Bull TV.en"><title>Veeco: A Volcom Filmmaking Documentary</title>
 <sub-title>Veeco unveiled – untold stories behind groundbreaking films</sub-title>
 <desc>Take a journey through the Volcom film library and go behind the scenes with the filmmakers and riders as they share tales of blood, sweat and drama from Veeco Productions’ inception to the present.</desc>
@@ -3303,6 +3240,59 @@
 <episode-num system="themoviedb.org">series/55923</episode-num>
 <episode-num system="original-air-date">2026-10-24 16:12:48</episode-num>
 </programme>
+  <programme start="20261024163807 +0000" stop="20261024170346 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>House of the gods part 1</sub-title>
+<desc>World class rock climber Leo Houlding, Cumbrian climber Anna Taylor and jungle expert Waldo Etherington undertake a big wall expedition to climb a new route on the overhanging prow of Mount Roraima.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">8.5.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-24 16:38:07</episode-num>
+</programme>
+  <programme start="20261024170346 +0000" stop="20261024172445 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>House of the gods part 2</sub-title>
+<desc>With the first three pitches sent, the team’s “secret weapon”, Anna Taylor, must conquer the hardest pitch so far to keep the dream of a team free ascent alive.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">8.6.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-24 17:03:46</episode-num>
+</programme>
+  <programme start="20261024172445 +0000" stop="20261024174410 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
+<sub-title>The Hurt: Alex Honnold in Nevada Part 2</sub-title>
+<desc>With nine routes down in the blazing sun and nine more to go, Alex Honnold gears up for the hardest climb so far – Nevada's Red Rock Canyon – just in time for nightfall.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
+<episode-num system="xmltv_ns">8.9.0</episode-num>
+<episode-num system="themoviedb.org">series/55923</episode-num>
+<episode-num system="original-air-date">2026-10-24 17:24:45</episode-num>
+</programme>
+  <programme start="20261024174410 +0000" stop="20261024182124 +0000" channel="Red Bull TV.en"><title>Veeco: A Volcom Filmmaking Documentary</title>
+<sub-title>Veeco unveiled – untold stories behind groundbreaking films</sub-title>
+<desc>Take a journey through the Volcom film library and go behind the scenes with the filmmakers and riders as they share tales of blood, sweat and drama from Veeco Productions’ inception to the present.</desc>
+<category>Movie</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:c211d2ac-e692-4622-8e55-43dba4d6d035/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+</programme>
+  <programme start="20261024182124 +0000" stop="20261024184724 +0000" channel="Red Bull TV.en"><title>Pushing Progression</title>
+<sub-title>Freestyle football</sub-title>
+<desc>This is the story of freestyle football – and how the scene around it has transcended sport and established Red Bull Street Style as a competition that brings the world together.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:59634730-f152-423e-b609-67efac7b0a23/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.0.0</episode-num>
+<episode-num system="original-air-date">2026-10-24 18:21:24</episode-num>
+<date>2026</date></programme>
+  <programme start="20261024184724 +0000" stop="20261024191500 +0000" channel="Red Bull TV.en"><title>Pushing Progression</title>
+<sub-title>Breaking</sub-title>
+<desc>Uncover the evolution of breaking as Busta Rhymes and dancers from different generations share their thoughts on breaking's progress from Bronx backyards to global stages like Red Bull BC One.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:99536bba-240e-4008-92d2-60f96c11f46f/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.6.0</episode-num>
+<episode-num system="original-air-date">2026-10-24 18:47:24</episode-num>
+<date>2026</date></programme>
+  <programme start="20261024191500 +0000" stop="20261024203036 +0000" channel="Red Bull TV.en"><title>Red Bull Dance Your Style 2026</title>
+<sub-title>Red Bull Dance Your Style World Final livestream</sub-title>
+<desc>From every corner of the globe, the boldest dancers converge for one unforgettable finale. The roar of the crowd decides who claims the crown, at this celebration of the raw artistry of street dance.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:live-videos:9cd18297-9dae-4b97-b33f-030fc5b2d4f3/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="original-air-date">2026-10-24 19:15:00</episode-num>
+<date>2026</date></programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
   </channel>
