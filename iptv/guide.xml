@@ -2980,62 +2980,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20261024065236 +0000" stop="20261024071836 +0000" channel="Red Bull TV.en"><title>For Reals</title>
-<sub-title>From skateboarding out a plane to 180m wall climb</sub-title>
-<desc>Touring a town in style on a snowmobile. Freerunning through an airport. Skateboarding out of a flying plane. Ice climbing Niagra Falls. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:da0954da-ca98-4cec-8425-06146469e566/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.5.0</episode-num>
-<episode-num system="original-air-date">2026-10-24 06:52:36</episode-num>
-<date>2026</date></programme>
-  <programme start="20261024071836 +0000" stop="20261024074436 +0000" channel="Red Bull TV.en"><title>For Reals</title>
-<sub-title>From skydiving with skis to flying into a volcano</sub-title>
-<desc>Flying a plane 245kph through a tunnel. A wingsuit flight across the crater of an active volcano. A record-breaking truck jump in a ghost town. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:f2cb2ce7-09e1-4656-a37f-a10c80b56502/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.3.0</episode-num>
-<episode-num system="original-air-date">2026-10-24 07:18:36</episode-num>
-<date>2026</date></programme>
-  <programme start="20261024074436 +0000" stop="20261024090857 +0000" channel="Red Bull TV.en"><title>One Extraordinary Year</title>
-<sub-title>Athletes who weren't derailed from their dreams</sub-title>
-<desc>Beach volleyball duo Mol and Sorum, pole vaulter Mondo Duplantis and other world-class athletes reveal how they faced an upside down reality to keep alive their dreams of gold in 2021.</desc>
-<date>2021</date>
-<category>Movie</category>
-<icon src="https://image.tmdb.org/t/p/original/fExgwqMg4dQAPG6ZvXj3HC0iw2i.jpg"/>
-<episode-num system="themoviedb.org">movie/929869</episode-num>
-</programme>
-  <programme start="20261024090857 +0000" stop="20261024101820 +0000" channel="Red Bull TV.en"><title>The Art of Flight</title>
-<sub-title>Travis Rice and Curt Morgan's iconic snowboard film</sub-title>
-<desc>Curt Morgan and Travis Rice create the world's most progressive snowboard film by combining cutting-edge cinematography, stunning locales and the best freestyle snowboarding ever captured.</desc>
-<date>2011</date>
-<category>Movie</category>
-<icon src="https://image.tmdb.org/t/p/original/q5k4edlPT6TeBnYzicIQSbprQIC.jpg"/>
-<episode-num system="themoviedb.org">movie/68450</episode-num>
-</programme>
-  <programme start="20261024101820 +0000" stop="20261024104935 +0000" channel="Red Bull TV.en"><title>Milestone</title>
-<sub-title>An intimate portrayal of snowboarder Eero Ettala</sub-title>
-<desc>Follow professional snowboarder Eero Ettala behind the scenes as he works on a video part while balancing family life. The film reflects on his achievements throughout his career.</desc>
-<date>2024</date>
-<category>Movie</category>
-<icon src="https://image.tmdb.org/t/p/original/3bTpJmuQKYuiJuhPq3vEHBisbJM.jpg"/>
-<episode-num system="themoviedb.org">movie/1639512</episode-num>
-</programme>
-  <programme start="20261024104935 +0000" stop="20261024111632 +0000" channel="Red Bull TV.en"><title>Red Bull Erzbergrodeo 2025</title>
-<sub-title>Highlights from Red Bull Erzbergrodeo 2025</sub-title>
-<desc>Catch up on the best moments from the toughest Hard Enduro race on the planet. Can Manuel Lettenbichler make it four wins in a row, or is it time for a new champion of the 'Iron Giant'?</desc>
-<icon src="https://resources.redbull.tv/rrn:content:recap-videos:b167e467-c1a2-4051-942a-f8c33e812aba/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="original-air-date">2026-10-24 10:49:35</episode-num>
-<date>2026</date></programme>
-  <programme start="20261024111632 +0000" stop="20261024114157 +0000" channel="Red Bull TV.en"><title>Moto Rider vs Enduro Race</title>
-<sub-title>Carson Brown's epic ride at Red Bull Erzbergrodeo</sub-title>
-<desc>Carson Brown returns to Red Bull Erzbergrodeo for redemption in 2025. Join him as he tackles the Iron Giant, steep rock faces, sharp sections and relentless terrain in this intense 25-minute ride.</desc>
-<category>Movie</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:cb562e62-b622-4d54-9dcb-7d5ad2276804/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-</programme>
-  <programme start="20261024114157 +0000" stop="20261024115406 +0000" channel="Red Bull TV.en"><title>Oracle Red Bull Racing 2024 Launch – extra</title>
-<sub-title>World’s fastest filming drone chases Max Verstappen</sub-title>
-<desc>Watch Formula One track action at Silverstone like never before. The fastest-ever filming FPV drone keeps up with Liam Lawson, David Coulthard and Max Verstappen as they reach speeds of over 300kph.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:videos:c63071b7-696b-43f8-bbc9-84cbe04225fb/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="original-air-date">2026-07-05 05:19:42</episode-num>
-<date>2026</date></programme>
   <programme start="20261024115406 +0000" stop="20261024121750 +0000" channel="Red Bull TV.en"><title>Rob Warner’s Wild Rides</title>
 <sub-title>Lesotho</sub-title>
 <desc>Mountain bikers Rob Warner and Matt Jones head to Lesotho where they experience a different kind of racing. While Matt rides down and around a gorge, Rob takes a shortcut.</desc>
@@ -3296,6 +3240,54 @@
 <category>Movie</category>
 <icon src="https://image.tmdb.org/t/p/original/q5k4edlPT6TeBnYzicIQSbprQIC.jpg"/>
 <episode-num system="themoviedb.org">movie/68450</episode-num>
+</programme>
+  <programme start="20261025070922 +0000" stop="20261025074037 +0000" channel="Red Bull TV.en"><title>Milestone</title>
+<sub-title>An intimate portrayal of snowboarder Eero Ettala</sub-title>
+<desc>Follow professional snowboarder Eero Ettala behind the scenes as he works on a video part while balancing family life. The film reflects on his achievements throughout his career.</desc>
+<date>2024</date>
+<category>Movie</category>
+<icon src="https://image.tmdb.org/t/p/original/3bTpJmuQKYuiJuhPq3vEHBisbJM.jpg"/>
+<episode-num system="themoviedb.org">movie/1639512</episode-num>
+</programme>
+  <programme start="20261025074037 +0000" stop="20261025080735 +0000" channel="Red Bull TV.en"><title>Red Bull Erzbergrodeo 2025</title>
+<sub-title>Highlights from Red Bull Erzbergrodeo 2025</sub-title>
+<desc>Catch up on the best moments from the toughest Hard Enduro race on the planet. Can Manuel Lettenbichler make it four wins in a row, or is it time for a new champion of the 'Iron Giant'?</desc>
+<icon src="https://resources.redbull.tv/rrn:content:recap-videos:b167e467-c1a2-4051-942a-f8c33e812aba/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="original-air-date">2026-10-25 07:40:37</episode-num>
+<date>2026</date></programme>
+  <programme start="20261025080735 +0000" stop="20261025083300 +0000" channel="Red Bull TV.en"><title>Moto Rider vs Enduro Race</title>
+<sub-title>Carson Brown's epic ride at Red Bull Erzbergrodeo</sub-title>
+<desc>Carson Brown returns to Red Bull Erzbergrodeo for redemption in 2025. Join him as he tackles the Iron Giant, steep rock faces, sharp sections and relentless terrain in this intense 25-minute ride.</desc>
+<category>Movie</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:cb562e62-b622-4d54-9dcb-7d5ad2276804/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+</programme>
+  <programme start="20261025083300 +0000" stop="20261025084010 +0000" channel="Red Bull TV.en"><title>F1 road trip from Czech Republic to Slovakia</title>
+<sub-title>From Castle to Castle</sub-title>
+<desc>Formula One pilot David Coulthard heads out on a very imaginative road trip from the castles of Prague, Czech Republic, to the castles of Bratislava, Slovakia.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:videos:e8b7778d-0b02-4521-bf7f-8c891ef8e100/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="original-air-date">2026-10-25 08:33:00</episode-num>
+<date>2026</date></programme>
+  <programme start="20261025084010 +0000" stop="20261025090354 +0000" channel="Red Bull TV.en"><title>Rob Warner’s Wild Rides</title>
+<sub-title>Lesotho</sub-title>
+<desc>Mountain bikers Rob Warner and Matt Jones head to Lesotho where they experience a different kind of racing. While Matt rides down and around a gorge, Rob takes a shortcut.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:d4beaa98-9a2f-48d5-9a6d-64d3c4a0ff43/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.1.0</episode-num>
+<episode-num system="original-air-date">2026-10-25 08:40:10</episode-num>
+<date>2026</date></programme>
+  <programme start="20261025090354 +0000" stop="20261025092748 +0000" channel="Red Bull TV.en"><title>Rob Warner’s Wild Rides</title>
+<sub-title>Ecuador</sub-title>
+<desc>Former World Cup racer Rob Warner travels to Ecuador with rising MTB star Finn Iles to take on the Cotopaxi mountain and its oppressive high altitude.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:bbbc2d1c-3040-483b-899c-ee062028dbf6/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.2.0</episode-num>
+<episode-num system="original-air-date">2026-10-25 09:03:54</episode-num>
+<date>2026</date></programme>
+  <programme start="20261025092748 +0000" stop="20261025095312 +0000" channel="Red Bull TV.en"><title>EMIL – Every Mystery I’ve Lived</title>
+<sub-title>Emil Johansson's comeback</sub-title>
+<desc>Having won the world title in his rookie season in 2017, Emil Johansson spent 2018 struggling with an autoimmune disease. Now, still getting to grips with the disease, he's ready to make his return.</desc>
+<date>2019</date>
+<category>Movie</category>
+<icon src="https://image.tmdb.org/t/p/original/9oUfLtX6ckb4KolALkaqyEgerfm.jpg"/>
+<episode-num system="themoviedb.org">movie/1071886</episode-num>
 </programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
@@ -4408,42 +4400,6 @@
   <channel id="RTLTeleLuxembourg.lu">
     <display-name>RTL Télé Lëtzebuerg</display-name>
   </channel>
-  <programme start="20261023070000 +0000" stop="20261023080000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Rediffusioun vu Magazin a Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261023080000 +0000" stop="20261023193000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261023193000 +0000" stop="20261023194700 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Musekbox</title>
-    <desc>Unterhaltung</desc>
-  </programme>
-  <programme start="20261023194700 +0000" stop="20261023200000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Invité vun der Redaktioun</title>
-    <desc>Gespräch</desc>
-  </programme>
-  <programme start="20261023200000 +0000" stop="20261023200200 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Meteoflash</title>
-    <desc>Nachrichten</desc>
-  </programme>
-  <programme start="20261023200200 +0000" stop="20261023203000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>PISA – de Wëssensmagazin</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261023203000 +0000" stop="20261023205600 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261023205600 +0000" stop="20261023210000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Meteo</title>
-    <desc>Nachrichten</desc>
-  </programme>
-  <programme start="20261023210000 +0000" stop="20261024070000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Rediffusioun vu Journal a Pisa</title>
-    <desc>Info</desc>
-  </programme>
   <programme start="20261024070000 +0000" stop="20261024080000 +0000" channel="RTLTeleLuxembourg.lu">
     <title>Rediffusioun vu Magazin a Journal</title>
     <desc>Info</desc>
@@ -4484,93 +4440,145 @@
     <title>Meteo</title>
     <desc>Nachrichten</desc>
   </programme>
-  <programme start="20261024210000 +0000" stop="20261025005900 +0000" channel="RTLTeleLuxembourg.lu">
+  <programme start="20261024210000 +0000" stop="20261025070000 +0000" channel="RTLTeleLuxembourg.lu">
     <title>Rediffusioune vu Passepartout a Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261025070000 +0000" stop="20261025080000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Rediffusioun vu Magazin a Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261025080000 +0000" stop="20261025100000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261025100000 +0000" stop="20261025103000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>KannaTiVi (Rediffusioun)</title>
+    <desc>Kindersendung</desc>
+  </programme>
+  <programme start="20261025103000 +0000" stop="20261025113000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>PISA Classics</title>
+    <desc>Themen déi eis all beschäftegen, wëssenschaftlech hannerfrot vum Olivier Catani a Mister Science.</desc>
+  </programme>
+  <programme start="20261025113000 +0000" stop="20261025193000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261025193000 +0000" stop="20261025195200 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>KannaTiVi</title>
+    <desc>Kindersendung</desc>
+  </programme>
+  <programme start="20261025195200 +0000" stop="20261025200000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>KannaNiuuss</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261025200000 +0000" stop="20261025200200 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Meteoflash</title>
+    <desc>Nachrichten</desc>
+  </programme>
+  <programme start="20261025200200 +0000" stop="20261025203000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>RTL Sport</title>
+    <desc>Magazin</desc>
+  </programme>
+  <programme start="20261025203000 +0000" stop="20261025204900 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>De Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261025204900 +0000" stop="20261025205600 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Sport News</title>
+    <desc>Sportnews</desc>
+  </programme>
+  <programme start="20261025205600 +0000" stop="20261025210000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Meteo</title>
+    <desc>Nachrichten</desc>
+  </programme>
+  <programme start="20261025210000 +0000" stop="20261026070000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Rediffusioun vu Magazin a Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261026070000 +0000" stop="20261026080000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Rediffusioun vu Magazin a Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261026080000 +0000" stop="20261026200000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>RTL Radio Web TV</title>
     <desc>Info</desc>
   </programme>
   <channel id="RTL.Zwee.lu">
     <display-name>RTL Zwee</display-name>
     <icon src="https://iptv-epg.org/images/oHSmItP6WtPBct623O8G2WwY1UUKinaauYHEqQcVkJSEsQDupbBGhIXVqycpGDDKb6tbS71i4meL--qsxVwayBEazAz7nFhF2bF3ODnkZwi2DIDY"/>
   </channel>
-  <programme start="20261023010500 +0000" stop="20261023020000 +0000" channel="RTL.Zwee.lu">
-    <title>Rediffusioun vu Journal a Pisa</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261023020000 +0000" stop="20261023070000 +0000" channel="RTL.Zwee.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261023070000 +0000" stop="20261023123500 +0000" channel="RTL.Zwee.lu">
-    <title>Rediffusioun vu Magazin a Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261023123500 +0000" stop="20261023162500 +0000" channel="RTL.Zwee.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261023162500 +0000" stop="20261023193000 +0000" channel="RTL.Zwee.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261023193000 +0000" stop="20261023194700 +0000" channel="RTL.Zwee.lu">
-    <title>Musekbox</title>
-    <desc>Unterhaltung</desc>
-  </programme>
-  <programme start="20261023194700 +0000" stop="20261023200000 +0000" channel="RTL.Zwee.lu">
-    <title>Invité vun der Redaktioun</title>
-    <desc>Gespräch</desc>
-  </programme>
-  <programme start="20261023200000 +0000" stop="20261023200200 +0000" channel="RTL.Zwee.lu">
-    <title>Meteoflash</title>
-    <desc>Nachrichten</desc>
-  </programme>
-  <programme start="20261023200200 +0000" stop="20261023202500 +0000" channel="RTL.Zwee.lu">
-    <title>PISA – de Wëssensmagazin</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261023202500 +0000" stop="20261023220000 +0000" channel="RTL.Zwee.lu">
-    <title>FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2026 FP1</title>
-    <desc>Hightech, Speed an ëmmer um Limitt. De ganze Weekend, vum Qualifying samsdes bis bei d'Course sonndes, d'Formel 1 ass elo live op RTL ZWEE.</desc>
-  </programme>
-  <programme start="20261023220000 +0000" stop="20261023235500 +0000" channel="RTL.Zwee.lu">
-    <title>Rediffusioun vu Magazin a Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261023235500 +0000" stop="20261024070000 +0000" channel="RTL.Zwee.lu">
-    <title>FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2026 FP2</title>
-    <desc>Hightech, Speed an ëmmer um Limitt. De ganze Weekend, vum Qualifying samsdes bis bei d'Course sonndes, d'Formel 1 ass elo live op RTL ZWEE.</desc>
-  </programme>
   <programme start="20261024070000 +0000" stop="20261024080000 +0000" channel="RTL.Zwee.lu">
     <title>Rediffusioune vu Journal</title>
     <desc>Info</desc>
   </programme>
-  <programme start="20261024080000 +0000" stop="20261024200000 +0000" channel="RTL.Zwee.lu">
+  <programme start="20261024080000 +0000" stop="20261024202500 +0000" channel="RTL.Zwee.lu">
     <title>RTL Radio Web TV</title>
     <desc>Info</desc>
-  </programme>
-  <programme start="20261024200000 +0000" stop="20261024200200 +0000" channel="RTL.Zwee.lu">
-    <title>Meteoflash</title>
-    <desc>Nachrichten</desc>
-  </programme>
-  <programme start="20261024200200 +0000" stop="20261024202500 +0000" channel="RTL.Zwee.lu">
-    <title>Passepartout</title>
-    <desc>Kultur</desc>
   </programme>
   <programme start="20261024202500 +0000" stop="20261024213500 +0000" channel="RTL.Zwee.lu">
     <title>FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2026 FP3</title>
     <desc>Hightech, Speed an ëmmer um Limitt. De ganze Weekend, vum Qualifying samsdes bis bei d'Course sonndes, d'Formel 1 ass elo live op RTL ZWEE.</desc>
   </programme>
-  <programme start="20261024213500 +0000" stop="20261024220000 +0000" channel="RTL.Zwee.lu">
+  <programme start="20261024213500 +0000" stop="20261024234500 +0000" channel="RTL.Zwee.lu">
     <title>De Journal</title>
     <desc>Info</desc>
   </programme>
-  <programme start="20261024220000 +0000" stop="20261024235500 +0000" channel="RTL.Zwee.lu">
-    <title>Rediffusioune vu Passepartout a Journal</title>
+  <programme start="20261024234500 +0000" stop="20261024235500 +0000" channel="RTL.Zwee.lu">
+    <title>RTL Radio Web TV</title>
     <desc>Info</desc>
   </programme>
-  <programme start="20261024235500 +0000" stop="20261025005900 +0000" channel="RTL.Zwee.lu">
+  <programme start="20261024235500 +0000" stop="20261025070000 +0000" channel="RTL.Zwee.lu">
     <title>FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2026 Quali</title>
     <desc>Hightech, Speed an ëmmer um Limitt. De ganze Weekend, vum Qualifying samsdes bis bei d'Course sonndes, d'Formel 1 ass elo live op RTL ZWEE.</desc>
+  </programme>
+  <programme start="20261025070000 +0000" stop="20261025080000 +0000" channel="RTL.Zwee.lu">
+    <title>Rediffusioune vu Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261025080000 +0000" stop="20261025120000 +0000" channel="RTL.Zwee.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261025120000 +0000" stop="20261025130000 +0000" channel="RTL.Zwee.lu">
+    <title>Tëleesmass vun Tratten/Troine</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261025130000 +0000" stop="20261025200000 +0000" channel="RTL.Zwee.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261025200000 +0000" stop="20261025200200 +0000" channel="RTL.Zwee.lu">
+    <title>Meteoflash</title>
+    <desc>Nachrichten</desc>
+  </programme>
+  <programme start="20261025200200 +0000" stop="20261025203000 +0000" channel="RTL.Zwee.lu">
+    <title>RTL Sport</title>
+    <desc>Magazin</desc>
+  </programme>
+  <programme start="20261025203000 +0000" stop="20261025205600 +0000" channel="RTL.Zwee.lu">
+    <title>De Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261025205600 +0000" stop="20261025210000 +0000" channel="RTL.Zwee.lu">
+    <title>Meteo</title>
+    <desc>Nachrichten</desc>
+  </programme>
+  <programme start="20261025210000 +0000" stop="20261025213000 +0000" channel="RTL.Zwee.lu">
+    <title>RTL Sport Rediffusioun</title>
+    <desc>Wat war de Weekend iwwer lass am Sport? Resultater, Biller, Reportagen – direkt nom Journal.</desc>
+  </programme>
+  <programme start="20261025213000 +0000" stop="20261026070000 +0000" channel="RTL.Zwee.lu">
+    <title>FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2026 Course</title>
+    <desc>Hightech, Speed an ëmmer um Limitt. De ganze Weekend, vum Qualifying samsdes bis bei d'Course sonndes, d'Formel 1 ass elo live op RTL ZWEE.</desc>
+  </programme>
+  <programme start="20261026070000 +0000" stop="20261026080000 +0000" channel="RTL.Zwee.lu">
+    <title>Rediffusioun vu Magazin a Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261026080000 +0000" stop="20261026193000 +0000" channel="RTL.Zwee.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
   </programme>
   <programme start="20261024050000 +0000" stop="20261024060000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
     <date>2026</date>
@@ -4618,20 +4626,10 @@
     <desc lang="en">Rediffusioune vu Journal.</desc>
     <title lang="en">Rediffusioune vu Journal</title>
   </programme>
-  <programme start="20261025070000 +0000" stop="20261025110000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">RTL Radio Web TV.</desc>
-    <title lang="en">RTL Radio Web TV</title>
-  </programme>
   <programme start="20261025110000 +0000" stop="20261025120000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
     <date>2026</date>
     <desc lang="en">Tëleesmass vun Tratten/Troine.</desc>
     <title lang="en">Tëleesmass vun Tratten/Troine</title>
-  </programme>
-  <programme start="20261025120000 +0000" stop="20261025190000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">RTL Radio Web TV.</desc>
-    <title lang="en">RTL Radio Web TV</title>
   </programme>
   <programme start="20261025190000 +0000" stop="20261025190200 +0000" channel="RTL.Zwee.lu"><category lang="en">Nachrichten</category>
     <date>2026</date>
@@ -4653,26 +4651,10 @@
     <desc lang="en">Meteo.</desc>
     <title lang="en">Meteo</title>
   </programme>
-  <programme start="20261025200000 +0000" stop="20261025203000 +0000" channel="RTL.Zwee.lu"><category lang="en">Magazin</category>
-    <date>2026</date>
-    <desc lang="en">Wat war de Weekend iwwer lass am Sport? Resultater, Biller, Reportagen – direkt nom Journal.</desc>
-    <title lang="en">RTL Sport Rediffusioun</title>
-  </programme>
-  <programme start="20261025203000 +0000" stop="20261026060000 +0000" channel="RTL.Zwee.lu"><category lang="en">Motorsport</category>
-    <category>Sports</category>
-    <date>2026</date>
-    <desc lang="en">Hightech, Speed an ëmmer um Limitt. De ganze Weekend, vum Qualifying samsdes bis bei d'Course sonndes, d'Formel 1 ass elo live op RTL ZWEE.</desc>
-    <title lang="en">FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2026 Course</title>
-  </programme>
   <programme start="20261026060000 +0000" stop="20261026070000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
     <date>2026</date>
     <desc lang="en">Rediffusioun vu Magazin a Journal.</desc>
     <title lang="en">Rediffusioun vu Magazin a Journal</title>
-  </programme>
-  <programme start="20261026070000 +0000" stop="20261026183000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">RTL Radio Web TV.</desc>
-    <title lang="en">RTL Radio Web TV</title>
   </programme>
   <programme start="20261026183000 +0000" stop="20261026190000 +0000" channel="RTL.Zwee.lu"><category lang="en">Unterhaltung</category>
     <date>2026</date>
