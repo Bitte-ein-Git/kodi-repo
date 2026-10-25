@@ -2857,82 +2857,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20261025114558 +0000" stop="20261025120837 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>Smile and fight</sub-title>
-<desc>After a breakthrough comp season in 2021, Natalia Grossman became the first American in 20 years to be the IFSC Climbing World Cup champion. Now, she's in the unfamiliar position of having to defend her title.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">8.0.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-10-25 11:45:58</episode-num>
-</programme>
-  <programme start="20261025120837 +0000" stop="20261025123256 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>Burning the flame part 1</sub-title>
-<desc>Big wall free climbing masters Babsi and Jacopo seek their greatest challenge yet: a free ascent of Eternal Flame, an elusive 3,000ft (914km). route up the legendary Nameless Tower in Pakistan.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">8.1.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-10-25 12:08:37</episode-num>
-</programme>
-  <programme start="20261025123256 +0000" stop="20261025125852 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>Burning the flame part 2</sub-title>
-<desc>With a fleeting weather window and the season coming to a close, Babsi Zangerl and Jacopo Larcher must conquer countless hard pitches in freezing temps to finish what they started.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">8.2.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-10-25 12:32:56</episode-num>
-</programme>
-  <programme start="20261025125852 +0000" stop="20261025132411 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>DNA</sub-title>
-<desc>Seb Bouin’s DNA (9c) features upside-down foot dynos, barely-real holds and endless movement out of a massive cave in France, signalling that Seb’s at the cutting edge of human performance on rock.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">8.3.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-10-25 12:58:52</episode-num>
-</programme>
-  <programme start="20261025132411 +0000" stop="20261025134951 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>House of the gods part 1</sub-title>
-<desc>World class rock climber Leo Houlding, Cumbrian climber Anna Taylor and jungle expert Waldo Etherington undertake a big wall expedition to climb a new route on the overhanging prow of Mount Roraima.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">8.5.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-10-25 13:24:11</episode-num>
-</programme>
-  <programme start="20261025134951 +0000" stop="20261025141049 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>House of the gods part 2</sub-title>
-<desc>With the first three pitches sent, the team’s “secret weapon”, Anna Taylor, must conquer the hardest pitch so far to keep the dream of a team free ascent alive.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">8.6.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-10-25 13:49:51</episode-num>
-</programme>
-  <programme start="20261025141049 +0000" stop="20261025143015 +0000" channel="Red Bull TV.en"><title>Reel Rock</title>
-<sub-title>The Hurt: Alex Honnold in Nevada Part 2</sub-title>
-<desc>With nine routes down in the blazing sun and nine more to go, Alex Honnold gears up for the hardest climb so far – Nevada's Red Rock Canyon – just in time for nightfall.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/o8Ck8KgyyHa6IgvbnKcepqovJvK.jpg"/>
-<episode-num system="xmltv_ns">8.9.0</episode-num>
-<episode-num system="themoviedb.org">series/55923</episode-num>
-<episode-num system="original-air-date">2026-10-25 14:10:49</episode-num>
-</programme>
-  <programme start="20261025143015 +0000" stop="20261025150728 +0000" channel="Red Bull TV.en"><title>Veeco: A Volcom Filmmaking Documentary</title>
-<sub-title>Veeco unveiled – untold stories behind groundbreaking films</sub-title>
-<desc>Take a journey through the Volcom film library and go behind the scenes with the filmmakers and riders as they share tales of blood, sweat and drama from Veeco Productions’ inception to the present.</desc>
-<category>Movie</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:c211d2ac-e692-4622-8e55-43dba4d6d035/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-</programme>
-  <programme start="20261025150728 +0000" stop="20261025153328 +0000" channel="Red Bull TV.en"><title>Pushing Progression</title>
-<sub-title>Freestyle football</sub-title>
-<desc>This is the story of freestyle football – and how the scene around it has transcended sport and established Red Bull Street Style as a competition that brings the world together.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:59634730-f152-423e-b609-67efac7b0a23/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.0.0</episode-num>
-<episode-num system="original-air-date">2026-10-25 15:07:28</episode-num>
-<date>2026</date></programme>
   <programme start="20261025153328 +0000" stop="20261025155730 +0000" channel="Red Bull TV.en"><title>Red Bull Rapids 2022</title>
 <sub-title>A wild whitewater race</sub-title>
 <desc>This wild race sees teams create their own man-made vessels and race down a 234m whitewater rapids course where some will cross the finish line... while others may not.</desc>
@@ -3155,6 +3079,84 @@
 <desc>NST Snow announces Super Sessions, the new first stage of the 2026 YETI Natural Selection Snow season. The results determine who advances to compete at YETI Natural Selection Snow in Revelstoke.</desc>
 <icon src="https://resources.redbull.tv/rrn:content:videos:f241ce4d-6d2e-47d5-8bee-5bec73b3b508/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
 <episode-num system="original-air-date">2026-10-26 09:30:13</episode-num>
+<date>2026</date></programme>
+  <programme start="20261026095102 +0000" stop="20261026103506 +0000" channel="Red Bull TV.en"><title>Volare: Valentino Guseli</title>
+<sub-title>The life of an Australian snowboarding prodigy</sub-title>
+<desc>Valentino Guseli shares his journey mastering big air, slopestyle and halfpipe, an achievement no snowboarder has accomplished – and reveals why family is at the heart of everything he does.</desc>
+<category>Movie</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:24ad6d48-1a91-4275-a35e-d2488def5847/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+</programme>
+  <programme start="20261026103506 +0000" stop="20261026111750 +0000" channel="Red Bull TV.en"><title>Paved</title>
+<sub-title>An unfiltered snow odyssey two years in the making</sub-title>
+<desc>Part history lesson, part hangout, part backcountry odyssey, Paved – a Burton and Red Bull Media House co-production – celebrates the passion and soul of snowboarding in raw, wry and light-hearted style.</desc>
+<category>Movie</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:518d59a1-abe6-47df-ad17-6f71d0ef7a0b/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="themoviedb.org">movie/1734146</episode-num>
+</programme>
+  <programme start="20261026111750 +0000" stop="20261026122613 +0000" channel="Red Bull TV.en"><title>Pressure Drop</title>
+<sub-title>Born from a dream, this is TGR’s 30th annual film</sub-title>
+<desc>Follow the world’s best skiers and snowboarders in a cinematic ride through risk, beauty and the pursuit of perfection.</desc>
+<date>2025</date>
+<category>Movie</category>
+<icon src="https://image.tmdb.org/t/p/original/a0bQqVs7F8d7K5fmY6WSl5Ed0v3.jpg"/>
+<episode-num system="themoviedb.org">movie/1581361</episode-num>
+</programme>
+  <programme start="20261026122613 +0000" stop="20261026124211 +0000" channel="Red Bull TV.en"><title>Skate Tales</title>
+<sub-title>Hill bombing San Francisco with Nico Hiraga</sub-title>
+<desc>Madars Apse joins Nico Hiraga and a local crew to bomb hills and skate iconic San Francisco spots, exploring how the city’s chaotic energy shaped one of skateboarding’s most influential scenes.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/bW09nvJQX66vIH0OpuJ3IIrue4i.jpg"/>
+<episode-num system="xmltv_ns">4.0.0</episode-num>
+<episode-num system="themoviedb.org">series/217740</episode-num>
+<episode-num system="original-air-date">2026-10-26 12:26:13</episode-num>
+</programme>
+  <programme start="20261026124211 +0000" stop="20261026125715 +0000" channel="Red Bull TV.en"><title>Skate Tales</title>
+<sub-title>From the streets to global skate icon: Tiago Lemos</sub-title>
+<desc>Madars Apse travels to Brazil to trace Tiago Lemos’s journey from the streets to global skate stardom. Watch how he chased a bigger dream and rose from one of skateboarding’s toughest scenes.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/bW09nvJQX66vIH0OpuJ3IIrue4i.jpg"/>
+<episode-num system="xmltv_ns">4.1.0</episode-num>
+<episode-num system="themoviedb.org">series/217740</episode-num>
+<episode-num system="original-air-date">2026-10-26 12:42:11</episode-num>
+</programme>
+  <programme start="20261026125715 +0000" stop="20261026131235 +0000" channel="Red Bull TV.en"><title>Skate Tales</title>
+<sub-title>Inside the Dime Glory Challenge</sub-title>
+<desc>Madars Apse heads to Montréal for the Dime Glory Challenge. With Alexis Lacroix and Ryan Decenzo he explores the city’s skate scene before stepping into the chaos of skateboarding's most fun event.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/bW09nvJQX66vIH0OpuJ3IIrue4i.jpg"/>
+<episode-num system="xmltv_ns">4.2.0</episode-num>
+<episode-num system="themoviedb.org">series/217740</episode-num>
+<episode-num system="original-air-date">2026-10-26 12:57:15</episode-num>
+</programme>
+  <programme start="20261026131235 +0000" stop="20261026132952 +0000" channel="Red Bull TV.en"><title>Skate Tales</title>
+<sub-title>Breaking the YouTube algorithm with the Dern Bros</sub-title>
+<desc>Madars Apse along with Bam Margera and Jamie Thomas track the Dern Brothers from Florida to California to see how they built one of skateboarding’s biggest YouTube channels.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/bW09nvJQX66vIH0OpuJ3IIrue4i.jpg"/>
+<episode-num system="xmltv_ns">4.4.0</episode-num>
+<episode-num system="themoviedb.org">series/217740</episode-num>
+<episode-num system="original-air-date">2026-10-26 13:12:35</episode-num>
+</programme>
+  <programme start="20261026132952 +0000" stop="20261026140353 +0000" channel="Red Bull TV.en"><title>Red Bull Drop In Tour</title>
+<sub-title>South America Tour</sub-title>
+<desc>Skaters Ryan Sheckler, Jamie Foy, Torey Pudwill, Felipe Gustavo, Ryan Decenzo, Alex Sorgente, Angelo Caro, Gustavo Ribeiro, Gavin Bottger and friends rip right through Brazil, Argentina and Chile.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:daaded1a-97a0-48d8-8136-a64224913a29/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.3.0</episode-num>
+<episode-num system="original-air-date">2026-10-26 13:29:52</episode-num>
+<date>2026</date></programme>
+  <programme start="20261026140353 +0000" stop="20261026142418 +0000" channel="Red Bull TV.en"><title>Greetings From</title>
+<sub-title>Johannesburg</sub-title>
+<desc>Explore the skateboarding scenes thriving throughout Jo'burg in 2023, from Westdene DIY to the Island Gals and the mighty Skate Society Soweto.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:a799e2a1-9428-472b-b272-7733ab5fa6dd/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">1.0.0</episode-num>
+<episode-num system="original-air-date">2026-10-26 14:03:53</episode-num>
+<date>2026</date></programme>
+  <programme start="20261026142418 +0000" stop="20261026143741 +0000" channel="Red Bull TV.en"><title>Greetings From</title>
+<sub-title>Virginia</sub-title>
+<desc>Gilbert Crockett and friends show us around the stores, brands and DIY skate spots that make for a uniquely homegrown skateboarding scene in the state capital of Virginia, USA.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:b7aa3de4-f539-42dd-97f0-804320369c65/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">1.2.0</episode-num>
+<episode-num system="original-air-date">2026-10-26 14:24:18</episode-num>
 <date>2026</date></programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
@@ -4553,16 +4555,6 @@
   <programme start="20261026210000 +0000" stop="20261027005900 +0000" channel="RTL.Zwee.lu">
     <title>Rediffusioun vu Magazin a Journal</title>
     <desc>Info</desc>
-  </programme>
-  <programme start="20261024180000 +0000" stop="20261024180200 +0000" channel="RTL.Zwee.lu"><category lang="en">Nachrichten</category>
-    <date>2026</date>
-    <desc lang="en">Meteoflash.</desc>
-    <title lang="en">Meteoflash</title>
-  </programme>
-  <programme start="20261024180200 +0000" stop="20261024182500 +0000" channel="RTL.Zwee.lu"><category lang="en">Kultur</category>
-    <date>2026</date>
-    <desc lang="en">Passepartout.</desc>
-    <title lang="en">Passepartout</title>
   </programme>
   <programme start="20261024182500 +0000" stop="20261024193500 +0000" channel="RTL.Zwee.lu"><category lang="en">Motorsport</category>
     <category>Sports</category>
