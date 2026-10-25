@@ -2857,43 +2857,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20261025183423 +0000" stop="20261025191825 +0000" channel="Red Bull TV.en"><title>Red Bull Signature Series</title>
-<sub-title>Red Bull Solus</sub-title>
-<desc>Thirteen of the world's best skateboarders compete at Ryan Sheckler’s private skate park for Red Bull Solus. Relive the most memorable moments from the inaugural edition.</desc>
-<icon src="https://image.tmdb.org/t/p/original/mHoHpThci42Pg94k7o9jvG0YvjQ.jpg"/>
-<episode-num system="xmltv_ns">2019.4.0</episode-num>
-<episode-num system="themoviedb.org">series/218403</episode-num>
-<episode-num system="original-air-date">2026-10-25 18:34:23</episode-num>
-<date>2026</date></programme>
-  <programme start="20261025191825 +0000" stop="20261025200228 +0000" channel="Red Bull TV.en"><title>Red Bull Signature Series</title>
-<sub-title>Red Bull Imagination</sub-title>
-<desc>A brand new event created by Tyler Bereman, Red Bull Imagination saw the world’s best freeriders tackle a unique course in order to showcase their slopestyle creativity.</desc>
-<icon src="https://image.tmdb.org/t/p/original/mHoHpThci42Pg94k7o9jvG0YvjQ.jpg"/>
-<episode-num system="xmltv_ns">2019.8.0</episode-num>
-<episode-num system="themoviedb.org">series/218403</episode-num>
-<episode-num system="original-air-date">2026-10-25 19:18:25</episode-num>
-<date>2026</date></programme>
-  <programme start="20261025200228 +0000" stop="20261025202630 +0000" channel="Red Bull TV.en"><title>Rob Warner’s Wild Rides</title>
-<sub-title>Nepal</sub-title>
-<desc>Rob Warner and downhill pro Olly Wilkins ride around the world's tallest mountain range, starting at the foothills of the Himalayas in Nepal.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:969e80d6-8e70-4d4c-95ce-1f01a297f09f/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.3.0</episode-num>
-<episode-num system="original-air-date">2026-10-25 20:02:28</episode-num>
-<date>2026</date></programme>
-  <programme start="20261025202630 +0000" stop="20261025210536 +0000" channel="Red Bull TV.en"><title>Unrideable</title>
-<sub-title>Reign and rise</sub-title>
-<desc>Red Bull Erzbergrodeo pushes riders to the limit. Last year's winner, Manuel Lettenbichler, faces rising star Mitch Brightmore for 2024.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:3da5473a-7675-479c-920c-2f3f3c3ba84b/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.0.0</episode-num>
-<episode-num system="original-air-date">2026-10-25 20:26:30</episode-num>
-<date>2026</date></programme>
-  <programme start="20261025210536 +0000" stop="20261025214719 +0000" channel="Red Bull TV.en"><title>Unrideable</title>
-<sub-title>Changing perspectives</sub-title>
-<desc>Wade Young aims to prove his worth as a privateer in the 2024 Xross Hard Enduro Rally and Red Bull Romaniacs after being dropped by his old team for Teodor Kabakchiev.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:94cdee99-1374-4832-a565-3757ad9ad5e5/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.1.0</episode-num>
-<episode-num system="original-air-date">2026-10-25 21:05:36</episode-num>
-<date>2026</date></programme>
   <programme start="20261025214719 +0000" stop="20261025222727 +0000" channel="Red Bull TV.en"><title>Unrideable</title>
 <sub-title>Sacrifices</sub-title>
 <desc>Billy Bolt returns, as Mario Román chases his title dream. The rivals battle in Türkiye, racing literally from sea to sky.</desc>
@@ -3160,6 +3123,41 @@
 <icon src="https://image.tmdb.org/t/p/original/5deEji7C9HuBsQSenuik2RGWHg1.jpg"/>
 <episode-num system="themoviedb.org">movie/666061</episode-num>
 </programme>
+  <programme start="20261026175515 +0000" stop="20261026181915 +0000" channel="Red Bull TV.en"><title>Take the Title</title>
+<sub-title>South African street dance culture</sub-title>
+<desc>Exploring South Africa's vibrant dance culture and how Red Bull Dance Your Style was established, featuring disciplines like Amapiano, Sbujwa, Loxion Bhenga, and Pantsula.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:b1310ea3-eb22-4285-804a-95f8dce3fadd/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.0.0</episode-num>
+<episode-num system="original-air-date">2026-10-26 17:55:15</episode-num>
+<date>2026</date></programme>
+  <programme start="20261026181915 +0000" stop="20261026184315 +0000" channel="Red Bull TV.en"><title>Take the Title</title>
+<sub-title>Can't stop us</sub-title>
+<desc>Look into Red Bull Dance Your Style 2021, what happened during the country tour, the national finals and the dramatic cancellation of the World Final due to Covid-19.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:301a9162-ddfd-423b-9ea7-b720f5dd1bc8/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.1.0</episode-num>
+<episode-num system="original-air-date">2026-10-26 18:19:15</episode-num>
+<date>2026</date></programme>
+  <programme start="20261026184315 +0000" stop="20261026190715 +0000" channel="Red Bull TV.en"><title>Take the Title</title>
+<sub-title>The next generation part 1</sub-title>
+<desc>It's the comeback episode! Red Bull Dance Your Style is back for 2023 and we now follow the new journey of the dancers' country tour and regional competitions while getting to know the key characters.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:a62fac73-4a3e-49fa-8468-c5f5a3edac71/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.2.0</episode-num>
+<episode-num system="original-air-date">2026-10-26 18:43:15</episode-num>
+<date>2026</date></programme>
+  <programme start="20261026190715 +0000" stop="20261026193151 +0000" channel="Red Bull TV.en"><title>Take the Title</title>
+<sub-title>The next generation part 2</sub-title>
+<desc>We take a deep dive behind the scenes of the National Final, follow the top 16 dancers in the country and find out who will be representing South Africa at the World Final event in December.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:32e54bec-9e73-4ddb-9edf-bbf2accd1a23/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.3.0</episode-num>
+<episode-num system="original-air-date">2026-10-26 19:07:15</episode-num>
+<date>2026</date></programme>
+  <programme start="20261026193151 +0000" stop="20261026194624 +0000" channel="Red Bull TV.en"><title>What it Takes to Break</title>
+<sub-title>Original moves</sub-title>
+<desc>B-Boys Phil Wizard and Lee learn the secrets of Menno's creativity before participating in a battle to test their originality and ability to create on the fly.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:70839843-7cff-419d-b527-d933ee408762/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.0.0</episode-num>
+<episode-num system="original-air-date">2026-10-26 19:31:51</episode-num>
+<date>2026</date></programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
   </channel>
