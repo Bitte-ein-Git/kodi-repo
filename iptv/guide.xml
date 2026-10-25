@@ -2857,40 +2857,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20261025153328 +0000" stop="20261025155730 +0000" channel="Red Bull TV.en"><title>Red Bull Rapids 2022</title>
-<sub-title>A wild whitewater race</sub-title>
-<desc>This wild race sees teams create their own man-made vessels and race down a 234m whitewater rapids course where some will cross the finish line... while others may not.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:videos:114e15bc-76bb-4b5d-9620-738ce65ffbf0/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="original-air-date">2026-10-25 15:33:28</episode-num>
-<date>2026</date></programme>
-  <programme start="20261025155730 +0000" stop="20261025162330 +0000" channel="Red Bull TV.en"><title>Pushing Progression</title>
-<sub-title>Kiteboarding</sub-title>
-<desc>Explore the evolution of kiteboarding through the eyes of athletes like Robby Naish and see how events like Red Bull King of the Air and Red Bull Megaloop are pushing the progression of the sport.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:763418a2-90cf-4246-9dbe-0251948e1351/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.4.0</episode-num>
-<episode-num system="original-air-date">2026-10-25 15:57:30</episode-num>
-<date>2026</date></programme>
-  <programme start="20261025162330 +0000" stop="20261025170418 +0000" channel="Red Bull TV.en"><title>How Luke Czepiela Landed a Plane on a Tiny Helipad</title>
-<sub-title>The story behind Luke Czepiela’s iconic skyscraper plane landing</sub-title>
-<desc>Luke Czepiela pushed the limits of aviation and landed a plane on the famous helipad of Burj Al Arab Jumeirah in Dubai. We take a closer look behind the scenes of the project with unique footage.</desc>
-<category>Movie</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:6925af4d-ba7f-4b74-998e-99784ff58997/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-</programme>
-  <programme start="20261025170418 +0000" stop="20261025173018 +0000" channel="Red Bull TV.en"><title>Pushing Progression</title>
-<sub-title>Freeride mountain biking</sub-title>
-<desc>Kyle Strait, Cam McCaul, Jaxson Riddle and Hannah Bergemann look at what’s fuelled innovation in freeride MTB. Purveyor of progression, skier Lindsey Vonn joins the cast as a special guest.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:05e3878e-ee36-49a9-9ef1-592203766e7f/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.3.0</episode-num>
-<episode-num system="original-air-date">2026-10-25 17:04:18</episode-num>
-<date>2026</date></programme>
-  <programme start="20261025173018 +0000" stop="20261025183423 +0000" channel="Red Bull TV.en"><title>Red Bull Signature Series</title>
-<sub-title>Red Bull Straight Rhythm</sub-title>
-<desc>In this innovative evolution of Supercross a track is 'unwound' – no turns, just a half-mile-long straight rhythm section. The format pitted 32 riders in a head-to-head showdown of pure MX racing.</desc>
-<icon src="https://image.tmdb.org/t/p/original/mHoHpThci42Pg94k7o9jvG0YvjQ.jpg"/>
-<episode-num system="xmltv_ns">2016.9.0</episode-num>
-<episode-num system="themoviedb.org">series/218403</episode-num>
-<episode-num system="original-air-date">2026-10-25 17:30:18</episode-num>
-<date>2026</date></programme>
   <programme start="20261025183423 +0000" stop="20261025191825 +0000" channel="Red Bull TV.en"><title>Red Bull Signature Series</title>
 <sub-title>Red Bull Solus</sub-title>
 <desc>Thirteen of the world's best skateboarders compete at Ryan Sheckler’s private skate park for Red Bull Solus. Relive the most memorable moments from the inaugural edition.</desc>
@@ -3158,6 +3124,42 @@
 <episode-num system="xmltv_ns">1.2.0</episode-num>
 <episode-num system="original-air-date">2026-10-26 14:24:18</episode-num>
 <date>2026</date></programme>
+  <programme start="20261026143741 +0000" stop="20261026150042 +0000" channel="Red Bull TV.en"><title>Greetings From</title>
+<sub-title>San Francisco</sub-title>
+<desc>Modern skateboarding owes a big thank you to the Bay Area skate scene. With more than its fair share of iconic spots and hills, San Francisco is a legendary skate destination like no other.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:371e9a7f-6e8e-4dc2-8db1-abc96ae6c2d1/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">1.3.0</episode-num>
+<episode-num system="original-air-date">2026-10-26 14:37:41</episode-num>
+<date>2026</date></programme>
+  <programme start="20261026150042 +0000" stop="20261026152819 +0000" channel="Red Bull TV.en"><title>Natural Heights</title>
+<sub-title>Janja Garnbret vs her 10th world title</sub-title>
+<desc>Janja Garnbret is chasing her 10th world title, and the pressure is unlike anything she’s faced before. Will shifting to the outdoors for new motivation help her, or push her closer to cracking?</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:b205052d-66f5-41ad-8f4b-4d4ea76f80ab/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.0.0</episode-num>
+<episode-num system="original-air-date">2026-10-26 15:00:42</episode-num>
+<date>2026</date></programme>
+  <programme start="20261026152819 +0000" stop="20261026155224 +0000" channel="Red Bull TV.en"><title>Natural Heights</title>
+<sub-title>Jakob Schubert sends a 9c route</sub-title>
+<desc>Join Jakob Schubert in Flatanger, Norway, as he battles for the first ascent of 'B.I.G.' (9c), relying on experience, creativity and relentless commitment to unlock this historic line.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:f95fb031-0cda-4134-803c-9879e012d813/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.1.0</episode-num>
+<episode-num system="original-air-date">2026-10-26 15:28:19</episode-num>
+<date>2026</date></programme>
+  <programme start="20261026155224 +0000" stop="20261026161629 +0000" channel="Red Bull TV.en"><title>Natural Heights</title>
+<sub-title>Nika Potapova: nothing to lose, but a lot to prove</sub-title>
+<desc>Nika Potapova is chasing the dream of becoming a pro climber, no matter the cost. The sacrifices are real, the pressure is constant and the outcome is far from guaranteed.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:33e76f0e-f60d-4f2f-b364-5eb0b75de5f4/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.2.0</episode-num>
+<episode-num system="original-air-date">2026-10-26 15:52:24</episode-num>
+<date>2026</date></programme>
+  <programme start="20261026161629 +0000" stop="20261026175515 +0000" channel="Red Bull TV.en"><title>Fine Lines</title>
+<sub-title>Life lessons from adventurous athletes</sub-title>
+<desc>The world’s most elite group of mountain adventurers take to life-threatening risks. At times brutally honest, other times pensive, these athletes’ stories reveal the triumph of the human spirit.</desc>
+<date>2019</date>
+<category>Movie</category>
+<icon src="https://image.tmdb.org/t/p/original/5deEji7C9HuBsQSenuik2RGWHg1.jpg"/>
+<episode-num system="themoviedb.org">movie/666061</episode-num>
+</programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
   </channel>
