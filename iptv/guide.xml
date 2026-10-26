@@ -2857,27 +2857,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20261025214719 +0000" stop="20261025222727 +0000" channel="Red Bull TV.en"><title>Unrideable</title>
-<sub-title>Sacrifices</sub-title>
-<desc>Billy Bolt returns, as Mario Román chases his title dream. The rivals battle in Türkiye, racing literally from sea to sky.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:6ed4b948-70dd-47fb-91a6-aa76fe5337b2/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.3.0</episode-num>
-<episode-num system="original-air-date">2026-10-25 21:47:19</episode-num>
-<date>2026</date></programme>
-  <programme start="20261025222727 +0000" stop="20261025230544 +0000" channel="Red Bull TV.en"><title>Unrideable</title>
-<sub-title>Through the pain</sub-title>
-<desc>Big drama kicks off at 24MX Hixpania Hard Enduro – the 2024 season finale. Can Manuel Lettenbichler win the World Championship again or will someone else rise to glory?</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:c71ba784-140a-4a36-b6a9-021f2f0faf25/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.4.0</episode-num>
-<episode-num system="original-air-date">2026-10-25 22:27:27</episode-num>
-<date>2026</date></programme>
-  <programme start="20261025230544 +0000" stop="20261025233144 +0000" channel="Red Bull TV.en"><title>For Reals</title>
-<sub-title>From soapbox madness to skydiving with an FMX bike</sub-title>
-<desc>Snowboarding – or, rather sandboarding – in the desert. Rally cars on frozen lakes. The wackiness of soapbox racing. Skydiving with a motocross bike. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:25bd9023-2792-464f-a774-984f840f4a4e/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.8.0</episode-num>
-<episode-num system="original-air-date">2026-10-25 23:05:44</episode-num>
-<date>2026</date></programme>
   <programme start="20261025233144 +0000" stop="20261025235744 +0000" channel="Red Bull TV.en"><title>For Reals</title>
 <sub-title>From F1 soapbox racing to breaking world records</sub-title>
 <desc>Breaking world records – it's all in a day's work for Red Bull athletes! See Felix Baumgartner jump from space, 65 women skydive together and one BMXer conquer the globe's biggest full loop.</desc>
@@ -3158,6 +3137,19 @@
 <episode-num system="xmltv_ns">0.0.0</episode-num>
 <episode-num system="original-air-date">2026-10-26 19:31:51</episode-num>
 <date>2026</date></programme>
+  <programme start="20261026194624 +0000" stop="20261026201141 +0000" channel="Red Bull TV.en"><title>What it Takes to Break</title>
+<sub-title>Unlimited rounds</sub-title>
+<desc>B-Boy Hong 10 teaches Phil Wizard how he's mastered the skills of endurance and stamina before challenging him to an unlimited rounds break battle in Seoul, South Korea.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:3e173197-bf53-465c-a4c5-f24460534d75/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.2.0</episode-num>
+<episode-num system="original-air-date">2026-10-26 19:46:24</episode-num>
+<date>2026</date></programme>
+  <programme start="20261026201141 +0000" stop="20261026203959 +0000" channel="Red Bull TV.en"><title>Return of the Lords</title>
+<sub-title>The iconic breaking event returned after 20 years</sub-title>
+<desc>From history-making veterans to the next generation, go beyond the battles of Red Bull Lords of the Floor 2024 as the world's best breaking crews battled it out in Seattle, USA.</desc>
+<category>Movie</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:45524e2c-6a9b-4370-9d10-c02058a4587d/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+</programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
   </channel>
@@ -4555,27 +4547,6 @@
   <programme start="20261026210000 +0000" stop="20261027005900 +0000" channel="RTL.Zwee.lu">
     <title>Rediffusioun vu Magazin a Journal</title>
     <desc>Info</desc>
-  </programme>
-  <programme start="20261024182500 +0000" stop="20261024193500 +0000" channel="RTL.Zwee.lu"><category lang="en">Motorsport</category>
-    <category>Sports</category>
-    <date>2026</date>
-    <desc lang="en">Hightech, Speed an ëmmer um Limitt. De ganze Weekend, vum Qualifying samsdes bis bei d'Course sonndes, d'Formel 1 ass elo live op RTL ZWEE.</desc>
-    <title lang="en">FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2026 FP3</title>
-  </programme>
-  <programme start="20261024193500 +0000" stop="20261024200000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">De Journal.</desc>
-    <title lang="en">De Journal</title>
-  </programme>
-  <programme start="20261024214500 +0000" stop="20261024215500 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">RTL Radio Web TV.</desc>
-    <title lang="en">RTL Radio Web TV</title>
-  </programme>
-  <programme start="20261024215500 +0000" stop="20261025060000 +0000" channel="RTL.Zwee.lu"><category lang="en">Motorsport</category>
-    <category>Sports</category>
-    <desc lang="en">Hightech, Speed an ëmmer um Limitt. De ganze Weekend, vum Qualifying samsdes bis bei d'Course sonndes, d'Formel 1 ass elo live op RTL ZWEE.</desc>
-    <title lang="en">FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2026 Quali</title>
   </programme>
   <programme start="20261025060000 +0000" stop="20261025070000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
     <date>2026</date>
