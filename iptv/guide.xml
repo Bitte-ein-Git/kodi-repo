@@ -2752,140 +2752,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20261027041636 +0000" stop="20261027050030 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
-<sub-title>Bern, Switzerland</sub-title>
-<desc>Join the wild ride at the Red Bull Soapbox Race 2023 in Switzerland as teams race homemade, gravity-powered cars through twists and turns, combining creativity, speed and a few crashes.</desc>
-<icon src="https://image.tmdb.org/t/p/original/3hXoGBcSLabu2ViQDOMV1r0ejSN.jpg"/>
-<episode-num system="xmltv_ns">10.0.0</episode-num>
-<episode-num system="themoviedb.org">series/337165</episode-num>
-<episode-num system="original-air-date">2026-07-04 02:26:47</episode-num>
-<date>2026</date></programme>
-  <programme start="20261027050030 +0000" stop="20261027051358 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
-<sub-title>2017's fan-favourite teams</sub-title>
-<desc>As 2017's fan favourites teach us, two-wheeled designs never work, and everyone loves a pop culture referencing racer – especially if they self-destruct.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
-<episode-num system="xmltv_ns">3.3.0</episode-num>
-<episode-num system="themoviedb.org">series/287622</episode-num>
-<episode-num system="original-air-date">2026-10-27 05:00:30</episode-num>
-</programme>
-  <programme start="20261027051358 +0000" stop="20261027053953 +0000" channel="Red Bull TV.en"><title>Red Bull Flugtag</title>
-<sub-title>Oslo, Norway</sub-title>
-<desc>Local flavours rule the day, as teams dress up their homemade flying machines in honour of local delicacies, native festivals and more.</desc>
-<icon src="https://image.tmdb.org/t/p/original/1hqPsNOXjzRe9lM9yZDBiq3EUor.jpg"/>
-<episode-num system="xmltv_ns">0.1.0</episode-num>
-<episode-num system="themoviedb.org">series/304917</episode-num>
-<episode-num system="original-air-date">2026-10-27 05:13:58</episode-num>
-<date>2026</date></programme>
-  <programme start="20261027053953 +0000" stop="20261027054943 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
-<sub-title>2018's top car designs</sub-title>
-<desc>From a rapid UFO to a seriously engineered vintage airliner and real life unicorn, 2018's top soapbox designs really flew down the track.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
-<episode-num system="xmltv_ns">1.4.0</episode-num>
-<episode-num system="themoviedb.org">series/287622</episode-num>
-<episode-num system="original-air-date">2026-10-27 05:39:53</episode-num>
-</programme>
-  <programme start="20261027054943 +0000" stop="20261027060000 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
-<sub-title>2018's best runs</sub-title>
-<desc>What do flying Italian bagpipes and South Africa's fastest Stone Age racer have in common? They both made the cut among 2018's best Red Bull Soapbox Race runs.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
-<episode-num system="xmltv_ns">0.4.0</episode-num>
-<episode-num system="themoviedb.org">series/287622</episode-num>
-<episode-num system="original-air-date">2026-10-27 05:49:43</episode-num>
-</programme>
-  <programme start="20261027060000 +0000" stop="20261027062013 +0000" channel="Red Bull TV.en"><title>Natural Selection Tour 2026</title>
-<sub-title>NST Snow Super Sessions – Utah</sub-title>
-<desc>NST Snow announces Super Sessions, the new first stage of the 2026 YETI Natural Selection Snow season. The results determine who advances to compete at YETI Natural Selection Snow in Revelstoke.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:videos:f241ce4d-6d2e-47d5-8bee-5bec73b3b508/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="original-air-date">2026-10-27 06:00:00</episode-num>
-<date>2026</date></programme>
-  <programme start="20261027062013 +0000" stop="20261027070453 +0000" channel="Red Bull TV.en"><title>Volare: Valentino Guseli</title>
-<sub-title>The life of an Australian snowboarding prodigy</sub-title>
-<desc>Valentino Guseli shares his journey mastering big air, slopestyle and halfpipe, an achievement no snowboarder has accomplished – and reveals why family is at the heart of everything he does.</desc>
-<category>Movie</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:24ad6d48-1a91-4275-a35e-d2488def5847/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-</programme>
-  <programme start="20261027070453 +0000" stop="20261027074701 +0000" channel="Red Bull TV.en"><title>Paved</title>
-<sub-title>An unfiltered snow odyssey two years in the making</sub-title>
-<desc>Part history lesson, part hangout, part backcountry odyssey, Paved – a Burton and Red Bull Media House co-production – celebrates the passion and soul of snowboarding in raw, wry and light-hearted style.</desc>
-<category>Movie</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:518d59a1-abe6-47df-ad17-6f71d0ef7a0b/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="themoviedb.org">movie/1734146</episode-num>
-</programme>
-  <programme start="20261027074701 +0000" stop="20261027085600 +0000" channel="Red Bull TV.en"><title>Pressure Drop</title>
-<sub-title>Born from a dream, this is TGR’s 30th annual film</sub-title>
-<desc>Follow the world’s best skiers and snowboarders in a cinematic ride through risk, beauty and the pursuit of perfection.</desc>
-<date>2025</date>
-<category>Movie</category>
-<icon src="https://image.tmdb.org/t/p/original/a0bQqVs7F8d7K5fmY6WSl5Ed0v3.jpg"/>
-<episode-num system="themoviedb.org">movie/1581361</episode-num>
-</programme>
-  <programme start="20261027085600 +0000" stop="20261027091158 +0000" channel="Red Bull TV.en"><title>Skate Tales</title>
-<sub-title>Hill bombing San Francisco with Nico Hiraga</sub-title>
-<desc>Madars Apse joins Nico Hiraga and a local crew to bomb hills and skate iconic San Francisco spots, exploring how the city’s chaotic energy shaped one of skateboarding’s most influential scenes.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/bW09nvJQX66vIH0OpuJ3IIrue4i.jpg"/>
-<episode-num system="xmltv_ns">4.0.0</episode-num>
-<episode-num system="themoviedb.org">series/217740</episode-num>
-<episode-num system="original-air-date">2026-10-27 08:56:00</episode-num>
-</programme>
-  <programme start="20261027091158 +0000" stop="20261027092702 +0000" channel="Red Bull TV.en"><title>Skate Tales</title>
-<sub-title>From the streets to global skate icon: Tiago Lemos</sub-title>
-<desc>Madars Apse travels to Brazil to trace Tiago Lemos’s journey from the streets to global skate stardom. Watch how he chased a bigger dream and rose from one of skateboarding’s toughest scenes.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/bW09nvJQX66vIH0OpuJ3IIrue4i.jpg"/>
-<episode-num system="xmltv_ns">4.1.0</episode-num>
-<episode-num system="themoviedb.org">series/217740</episode-num>
-<episode-num system="original-air-date">2026-10-27 09:11:58</episode-num>
-</programme>
-  <programme start="20261027092702 +0000" stop="20261027094146 +0000" channel="Red Bull TV.en"><title>Skate Tales</title>
-<sub-title>Inside the Dime Glory Challenge</sub-title>
-<desc>Madars Apse heads to Montréal for the Dime Glory Challenge. With Alexis Lacroix and Ryan Decenzo he explores the city’s skate scene before stepping into the chaos of skateboarding's most fun event.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/bW09nvJQX66vIH0OpuJ3IIrue4i.jpg"/>
-<episode-num system="xmltv_ns">4.2.0</episode-num>
-<episode-num system="themoviedb.org">series/217740</episode-num>
-<episode-num system="original-air-date">2026-10-27 09:27:02</episode-num>
-</programme>
-  <programme start="20261027094146 +0000" stop="20261027095903 +0000" channel="Red Bull TV.en"><title>Skate Tales</title>
-<sub-title>Breaking the YouTube algorithm with the Dern Bros</sub-title>
-<desc>Madars Apse along with Bam Margera and Jamie Thomas track the Dern Brothers from Florida to California to see how they built one of skateboarding’s biggest YouTube channels.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/bW09nvJQX66vIH0OpuJ3IIrue4i.jpg"/>
-<episode-num system="xmltv_ns">4.4.0</episode-num>
-<episode-num system="themoviedb.org">series/217740</episode-num>
-<episode-num system="original-air-date">2026-10-27 09:41:46</episode-num>
-</programme>
-  <programme start="20261027095903 +0000" stop="20261027103340 +0000" channel="Red Bull TV.en"><title>Red Bull Drop In Tour</title>
-<sub-title>South America Tour</sub-title>
-<desc>Skaters Ryan Sheckler, Jamie Foy, Torey Pudwill, Felipe Gustavo, Ryan Decenzo, Alex Sorgente, Angelo Caro, Gustavo Ribeiro, Gavin Bottger and friends rip right through Brazil, Argentina and Chile.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:daaded1a-97a0-48d8-8136-a64224913a29/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.3.0</episode-num>
-<episode-num system="original-air-date">2026-10-27 09:59:03</episode-num>
-<date>2026</date></programme>
-  <programme start="20261027103340 +0000" stop="20261027105405 +0000" channel="Red Bull TV.en"><title>Greetings From</title>
-<sub-title>Johannesburg</sub-title>
-<desc>Explore the skateboarding scenes thriving throughout Jo'burg in 2023, from Westdene DIY to the Island Gals and the mighty Skate Society Soweto.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:a799e2a1-9428-472b-b272-7733ab5fa6dd/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">1.0.0</episode-num>
-<episode-num system="original-air-date">2026-10-27 10:33:40</episode-num>
-<date>2026</date></programme>
-  <programme start="20261027105405 +0000" stop="20261027110728 +0000" channel="Red Bull TV.en"><title>Greetings From</title>
-<sub-title>Virginia</sub-title>
-<desc>Gilbert Crockett and friends show us around the stores, brands and DIY skate spots that make for a uniquely homegrown skateboarding scene in the state capital of Virginia, USA.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:b7aa3de4-f539-42dd-97f0-804320369c65/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">1.2.0</episode-num>
-<episode-num system="original-air-date">2026-10-27 10:54:05</episode-num>
-<date>2026</date></programme>
-  <programme start="20261027110728 +0000" stop="20261027113029 +0000" channel="Red Bull TV.en"><title>Greetings From</title>
-<sub-title>San Francisco</sub-title>
-<desc>Modern skateboarding owes a big thank you to the Bay Area skate scene. With more than its fair share of iconic spots and hills, San Francisco is a legendary skate destination like no other.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:371e9a7f-6e8e-4dc2-8db1-abc96ae6c2d1/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">1.3.0</episode-num>
-<episode-num system="original-air-date">2026-10-27 11:07:28</episode-num>
-<date>2026</date></programme>
   <programme start="20261027113029 +0000" stop="20261027115806 +0000" channel="Red Bull TV.en"><title>Natural Heights</title>
 <sub-title>Janja Garnbret vs her 10th world title</sub-title>
 <desc>Janja Garnbret is chasing her 10th world title, and the pressure is unlike anything she’s faced before. Will shifting to the outdoors for new motivation help her, or push her closer to cracking?</desc>
@@ -3091,6 +2957,71 @@
 <category>Movie</category>
 <icon src="https://resources.redbull.tv/rrn:content:films:24ad6d48-1a91-4275-a35e-d2488def5847/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
 </programme>
+  <programme start="20261028042102 +0000" stop="20261028050347 +0000" channel="Red Bull TV.en"><title>Paved</title>
+<sub-title>An unfiltered snow odyssey two years in the making</sub-title>
+<desc>Part history lesson, part hangout, part backcountry odyssey, Paved – a Burton and Red Bull Media House co-production – celebrates the passion and soul of snowboarding in raw, wry and light-hearted style.</desc>
+<category>Movie</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:518d59a1-abe6-47df-ad17-6f71d0ef7a0b/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="themoviedb.org">movie/1734146</episode-num>
+</programme>
+  <programme start="20261028050347 +0000" stop="20261028053502 +0000" channel="Red Bull TV.en"><title>Milestone</title>
+<sub-title>An intimate portrayal of snowboarder Eero Ettala</sub-title>
+<desc>Follow professional snowboarder Eero Ettala behind the scenes as he works on a video part while balancing family life. The film reflects on his achievements throughout his career.</desc>
+<date>2024</date>
+<category>Movie</category>
+<icon src="https://image.tmdb.org/t/p/original/3bTpJmuQKYuiJuhPq3vEHBisbJM.jpg"/>
+<episode-num system="themoviedb.org">movie/1639512</episode-num>
+</programme>
+  <programme start="20261028053502 +0000" stop="20261028060000 +0000" channel="Red Bull TV.en"><title>Greetings From</title>
+<sub-title>San Francisco</sub-title>
+<desc>Modern skateboarding owes a big thank you to the Bay Area skate scene. With more than its fair share of iconic spots and hills, San Francisco is a legendary skate destination like no other.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:371e9a7f-6e8e-4dc2-8db1-abc96ae6c2d1/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">1.3.0</episode-num>
+<episode-num system="original-air-date">2026-10-28 05:35:02</episode-num>
+<date>2026</date></programme>
+  <programme start="20261028060000 +0000" stop="20261028061558 +0000" channel="Red Bull TV.en"><title>Skate Tales</title>
+<sub-title>Hill bombing San Francisco with Nico Hiraga</sub-title>
+<desc>Madars Apse joins Nico Hiraga and a local crew to bomb hills and skate iconic San Francisco spots, exploring how the city’s chaotic energy shaped one of skateboarding’s most influential scenes.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/bW09nvJQX66vIH0OpuJ3IIrue4i.jpg"/>
+<episode-num system="xmltv_ns">4.0.0</episode-num>
+<episode-num system="themoviedb.org">series/217740</episode-num>
+<episode-num system="original-air-date">2026-10-28 06:00:00</episode-num>
+</programme>
+  <programme start="20261028061558 +0000" stop="20261028064959 +0000" channel="Red Bull TV.en"><title>Red Bull Drop In Tour</title>
+<sub-title>South America Tour</sub-title>
+<desc>Skaters Ryan Sheckler, Jamie Foy, Torey Pudwill, Felipe Gustavo, Ryan Decenzo, Alex Sorgente, Angelo Caro, Gustavo Ribeiro, Gavin Bottger and friends rip right through Brazil, Argentina and Chile.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:daaded1a-97a0-48d8-8136-a64224913a29/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.3.0</episode-num>
+<episode-num system="original-air-date">2026-10-28 06:15:58</episode-num>
+<date>2026</date></programme>
+  <programme start="20261028064959 +0000" stop="20261028071024 +0000" channel="Red Bull TV.en"><title>Greetings From</title>
+<sub-title>Johannesburg</sub-title>
+<desc>Explore the skateboarding scenes thriving throughout Jo'burg in 2023, from Westdene DIY to the Island Gals and the mighty Skate Society Soweto.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:a799e2a1-9428-472b-b272-7733ab5fa6dd/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">1.0.0</episode-num>
+<episode-num system="original-air-date">2026-10-28 06:49:59</episode-num>
+<date>2026</date></programme>
+  <programme start="20261028071024 +0000" stop="20261028073325 +0000" channel="Red Bull TV.en"><title>Greetings From</title>
+<sub-title>San Francisco</sub-title>
+<desc>Modern skateboarding owes a big thank you to the Bay Area skate scene. With more than its fair share of iconic spots and hills, San Francisco is a legendary skate destination like no other.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:371e9a7f-6e8e-4dc2-8db1-abc96ae6c2d1/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">1.3.0</episode-num>
+<episode-num system="original-air-date">2026-10-28 07:10:24</episode-num>
+<date>2026</date></programme>
+  <programme start="20261028073325 +0000" stop="20261028080000 +0000" channel="Red Bull TV.en"><title>Natural Heights</title>
+<sub-title>Jakob Schubert sends a 9c route</sub-title>
+<desc>Join Jakob Schubert in Flatanger, Norway, as he battles for the first ascent of 'B.I.G.' (9c), relying on experience, creativity and relentless commitment to unlock this historic line.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:f95fb031-0cda-4134-803c-9879e012d813/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.1.0</episode-num>
+<episode-num system="original-air-date">2026-10-28 07:33:25</episode-num>
+<date>2026</date></programme>
+  <programme start="20261028080000 +0000" stop="20261028094627 +0000" channel="Red Bull TV.en"><title>Red Bull Bridge Bars 2026</title>
+<sub-title>Red Bull Bridge Bars</sub-title>
+<desc>Thomas Van Tonder makes history with Red Bull Bridge Bars, an incredible display of strength and skill in a breathtaking challenge that pushes the limits of human performance sky-high.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:live-videos:ccddb815-85fa-4312-8e29-c1dfa711664c/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="original-air-date">2026-10-28 08:00:00</episode-num>
+<date>2026</date></programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
   </channel>
@@ -4499,34 +4430,6 @@
   <channel id="RTLTeleLuxembourg.lu">
     <display-name>RTL Télé Lëtzebuerg</display-name>
   </channel>
-  <programme start="20261026070000 +0000" stop="20261026080000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Rediffusioun vu Magazin a Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261026080000 +0000" stop="20261026200000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261026200000 +0000" stop="20261026200200 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Meteoflash</title>
-    <desc>Nachrichten</desc>
-  </programme>
-  <programme start="20261026200200 +0000" stop="20261026203000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Gol</title>
-    <desc>Magazin</desc>
-  </programme>
-  <programme start="20261026203000 +0000" stop="20261026205600 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261026205600 +0000" stop="20261026210000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Meteo</title>
-    <desc>Nachrichten</desc>
-  </programme>
-  <programme start="20261026210000 +0000" stop="20261027070000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Rediffusioun vu Magazin a Journal</title>
-    <desc>Info</desc>
-  </programme>
   <programme start="20261027070000 +0000" stop="20261027080000 +0000" channel="RTLTeleLuxembourg.lu">
     <title>Rediffusioun vu Magazin a Journal</title>
     <desc>Info</desc>
@@ -4535,12 +4438,8 @@
     <title>RTL Radio Web TV</title>
     <desc>Info</desc>
   </programme>
-  <programme start="20261027193000 +0000" stop="20261027194700 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Musekbox</title>
-    <desc>Unterhaltung</desc>
-  </programme>
-  <programme start="20261027194700 +0000" stop="20261027200000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Invité vun der Redaktioun</title>
+  <programme start="20261027193000 +0000" stop="20261027200000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Invité vun der Redaktioun: Face à Face</title>
     <desc>Gespräch</desc>
   </programme>
   <programme start="20261027200000 +0000" stop="20261027200200 +0000" channel="RTLTeleLuxembourg.lu">
@@ -4575,42 +4474,50 @@
     <title>RTL Radio Web TV</title>
     <desc>Info</desc>
   </programme>
+  <programme start="20261028193000 +0000" stop="20261028194700 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Musekbox</title>
+    <desc>Unterhaltung</desc>
+  </programme>
+  <programme start="20261028194700 +0000" stop="20261028200000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Invité vun der Redaktioun</title>
+    <desc>Gespräch</desc>
+  </programme>
+  <programme start="20261028200000 +0000" stop="20261028200200 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Meteoflash</title>
+    <desc>Nachrichten</desc>
+  </programme>
+  <programme start="20261028200200 +0000" stop="20261028201500 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>De Magazin</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261028201500 +0000" stop="20261028203000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Magazin Interview</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261028203000 +0000" stop="20261028205600 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>De Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261028205600 +0000" stop="20261028210000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Meteo</title>
+    <desc>Nachrichten</desc>
+  </programme>
+  <programme start="20261028210000 +0000" stop="20261029070000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Rediffusioun vu Magazin a Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261029070000 +0000" stop="20261029080000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Rediffusioun vu Magazin a Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261029080000 +0000" stop="20261029193000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
+  </programme>
   <channel id="RTL.Zwee.lu">
     <display-name>RTL Zwee</display-name>
     <icon src="https://iptv-epg.org/images/oHSmItP6WtPBct623O8G2WwY1UUKinaauYHEqQcVkJSEsQDupbBGhIXVqycpGDDKb6tbS71i4meL--qsxVwayBEazAz7nFhF2bF3ODnkZwi2DIDY"/>
   </channel>
-  <programme start="20261026070000 +0000" stop="20261026080000 +0000" channel="RTL.Zwee.lu">
-    <title>Rediffusioun vu Magazin a Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261026080000 +0000" stop="20261026193000 +0000" channel="RTL.Zwee.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261026193000 +0000" stop="20261026200000 +0000" channel="RTL.Zwee.lu">
-    <title>Musekbox</title>
-    <desc>Unterhaltung</desc>
-  </programme>
-  <programme start="20261026200000 +0000" stop="20261026200200 +0000" channel="RTL.Zwee.lu">
-    <title>Meteoflash</title>
-    <desc>Nachrichten</desc>
-  </programme>
-  <programme start="20261026200200 +0000" stop="20261026203000 +0000" channel="RTL.Zwee.lu">
-    <title>Gol</title>
-    <desc>Magazin</desc>
-  </programme>
-  <programme start="20261026203000 +0000" stop="20261026205600 +0000" channel="RTL.Zwee.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261026205600 +0000" stop="20261026210000 +0000" channel="RTL.Zwee.lu">
-    <title>Meteo</title>
-    <desc>Nachrichten</desc>
-  </programme>
-  <programme start="20261026210000 +0000" stop="20261027070000 +0000" channel="RTL.Zwee.lu">
-    <title>Rediffusioun vu Magazin a Journal</title>
-    <desc>Info</desc>
-  </programme>
   <programme start="20261027070000 +0000" stop="20261027080000 +0000" channel="RTL.Zwee.lu">
     <title>Rediffusioun vu Magazin a Journal</title>
     <desc>Info</desc>
@@ -4659,30 +4566,45 @@
     <title>RTL Radio Web TV</title>
     <desc>Info</desc>
   </programme>
-  <programme start="20261026060000 +0000" stop="20261026070000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">Rediffusioun vu Magazin a Journal.</desc>
-    <title lang="en">Rediffusioun vu Magazin a Journal</title>
+  <programme start="20261028193000 +0000" stop="20261028194700 +0000" channel="RTL.Zwee.lu">
+    <title>Musekbox</title>
+    <desc>Unterhaltung</desc>
   </programme>
-  <programme start="20261026183000 +0000" stop="20261026190000 +0000" channel="RTL.Zwee.lu"><category lang="en">Unterhaltung</category>
-    <date>2026</date>
-    <desc lang="en">Musekbox.</desc>
-    <title lang="en">Musekbox</title>
+  <programme start="20261028194700 +0000" stop="20261028200000 +0000" channel="RTL.Zwee.lu">
+    <title>Invité vun der Redaktioun</title>
+    <desc>Gespräch</desc>
   </programme>
-  <programme start="20261026190000 +0000" stop="20261026190200 +0000" channel="RTL.Zwee.lu"><category lang="en">Nachrichten</category>
-    <date>2026</date>
-    <desc lang="en">Meteoflash.</desc>
-    <title lang="en">Meteoflash</title>
+  <programme start="20261028200000 +0000" stop="20261028200200 +0000" channel="RTL.Zwee.lu">
+    <title>Meteoflash</title>
+    <desc>Nachrichten</desc>
   </programme>
-  <programme start="20261026190200 +0000" stop="20261026193000 +0000" channel="RTL.Zwee.lu"><category lang="en">Magazin</category>
-    <date>2026</date>
-    <desc lang="en">Gol.</desc>
-    <title lang="en">Gol</title>
+  <programme start="20261028200200 +0000" stop="20261028201500 +0000" channel="RTL.Zwee.lu">
+    <title>De Magazin</title>
+    <desc>Info</desc>
   </programme>
-  <programme start="20261026195600 +0000" stop="20261026200000 +0000" channel="RTL.Zwee.lu"><category lang="en">Nachrichten</category>
-    <date>2026</date>
-    <desc lang="en">Meteo.</desc>
-    <title lang="en">Meteo</title>
+  <programme start="20261028201500 +0000" stop="20261028203000 +0000" channel="RTL.Zwee.lu">
+    <title>Magazin Interview</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261028203000 +0000" stop="20261028205600 +0000" channel="RTL.Zwee.lu">
+    <title>De Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261028205600 +0000" stop="20261028210000 +0000" channel="RTL.Zwee.lu">
+    <title>Meteo</title>
+    <desc>Nachrichten</desc>
+  </programme>
+  <programme start="20261028210000 +0000" stop="20261029070000 +0000" channel="RTL.Zwee.lu">
+    <title>Rediffusioun vu Magazin a Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261029070000 +0000" stop="20261029080000 +0000" channel="RTL.Zwee.lu">
+    <title>Rediffusioun vu Magazin a Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261029080000 +0000" stop="20261029193000 +0000" channel="RTL.Zwee.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
   </programme>
   <programme start="20261027060000 +0000" stop="20261027070000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
     <date>2026</date>
@@ -4749,30 +4671,15 @@
     <desc lang="en">Magazin Interview.</desc>
     <title lang="en">Magazin Interview</title>
   </programme>
-  <programme start="20261028193000 +0000" stop="20261028195600 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">De Journal.</desc>
-    <title lang="en">De Journal</title>
-  </programme>
   <programme start="20261028195600 +0000" stop="20261028200000 +0000" channel="RTL.Zwee.lu"><category lang="en">Nachrichten</category>
     <date>2026</date>
     <desc lang="en">Meteo.</desc>
     <title lang="en">Meteo</title>
   </programme>
-  <programme start="20261028200000 +0000" stop="20261029060000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">Rediffusioun vu Magazin a Journal.</desc>
-    <title lang="en">Rediffusioun vu Magazin a Journal</title>
-  </programme>
   <programme start="20261029060000 +0000" stop="20261029070000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
     <date>2026</date>
     <desc lang="en">Rediffusioun vu Magazin a Journal.</desc>
     <title lang="en">Rediffusioun vu Magazin a Journal</title>
-  </programme>
-  <programme start="20261029070000 +0000" stop="20261029183000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">RTL Radio Web TV.</desc>
-    <title lang="en">RTL Radio Web TV</title>
   </programme>
   <programme start="20261029183000 +0000" stop="20261029184700 +0000" channel="RTL.Zwee.lu"><category lang="en">Unterhaltung</category>
     <date>2026</date>
@@ -4968,5 +4875,45 @@
     <date>2026</date>
     <desc lang="en">Hightech, Speed an ëmmer um Limitt. De ganze Weekend, vum Qualifying samsdes bis bei d'Course sonndes, d'Formel 1 ass elo live op RTL ZWEE.</desc>
     <title lang="en">FORMULA 1 GRAN PREMIO DE LA CIUDAD DE MEXICO 2026 Course</title>
+  </programme>
+  <programme start="20261102060000 +0000" stop="20261102070000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">Rediffusioun vu Magazin a Journal.</desc>
+    <title lang="en">Rediffusioun vu Magazin a Journal</title>
+  </programme>
+  <programme start="20261102070000 +0000" stop="20261102183000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">RTL Radio Web TV.</desc>
+    <title lang="en">RTL Radio Web TV</title>
+  </programme>
+  <programme start="20261102184000 +0000" stop="20261102190000 +0000" channel="RTL.Zwee.lu"><category lang="en">Gespräch</category>
+    <date>2026</date>
+    <desc lang="en">Invité vun der Redaktioun.</desc>
+    <title lang="en">Invité vun der Redaktioun</title>
+  </programme>
+  <programme start="20261102190000 +0000" stop="20261102190200 +0000" channel="RTL.Zwee.lu"><category lang="en">Nachrichten</category>
+    <date>2026</date>
+    <desc lang="en">Meteoflash.</desc>
+    <title lang="en">Meteoflash</title>
+  </programme>
+  <programme start="20261102190200 +0000" stop="20261102193000 +0000" channel="RTL.Zwee.lu"><category lang="en">Magazin</category>
+    <date>2026</date>
+    <desc lang="en">Gol.</desc>
+    <title lang="en">Gol</title>
+  </programme>
+  <programme start="20261102193000 +0000" stop="20261102195600 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">De Journal.</desc>
+    <title lang="en">De Journal</title>
+  </programme>
+  <programme start="20261102195600 +0000" stop="20261102200000 +0000" channel="RTL.Zwee.lu"><category lang="en">Nachrichten</category>
+    <date>2026</date>
+    <desc lang="en">Meteo.</desc>
+    <title lang="en">Meteo</title>
+  </programme>
+  <programme start="20261102200000 +0000" stop="20261103060000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">Rediffusioun vu Magazin a Journal.</desc>
+    <title lang="en">Rediffusioun vu Magazin a Journal</title>
   </programme>
 </tv>
