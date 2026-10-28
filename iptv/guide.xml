@@ -2809,121 +2809,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20261028080000 +0000" stop="20261028091900 +0000" channel="Red Bull TV.en"><title>Red Bull Bridge Bars 2026</title>
-<sub-title>Red Bull Bridge Bars</sub-title>
-<desc>Thomas Van Tonder makes history with Red Bull Bridge Bars, an incredible display of strength and skill in a breathtaking challenge that pushes the limits of human performance sky-high.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:live-videos:ccddb815-85fa-4312-8e29-c1dfa711664c/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="original-air-date">2026-10-28 08:00:00</episode-num>
-<date>2026</date></programme>
-  <programme start="20261028091900 +0000" stop="20261028094500 +0000" channel="Red Bull TV.en"><title>For Reals</title>
-<sub-title>From skydiving with skis to flying into a volcano</sub-title>
-<desc>Flying a plane 245kph through a tunnel. A wingsuit flight across the crater of an active volcano. A record-breaking truck jump in a ghost town. It's all in a day's work for Red Bull athletes!</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:f2cb2ce7-09e1-4656-a37f-a10c80b56502/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.3.0</episode-num>
-<episode-num system="original-air-date">2026-10-28 09:19:00</episode-num>
-<date>2026</date></programme>
-  <programme start="20261028094500 +0000" stop="20261028100003 +0000" channel="Red Bull TV.en"><title>Skate Tales</title>
-<sub-title>From the streets to global skate icon: Tiago Lemos</sub-title>
-<desc>Madars Apse travels to Brazil to trace Tiago Lemos’s journey from the streets to global skate stardom. Watch how he chased a bigger dream and rose from one of skateboarding’s toughest scenes.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/bW09nvJQX66vIH0OpuJ3IIrue4i.jpg"/>
-<episode-num system="xmltv_ns">4.1.0</episode-num>
-<episode-num system="themoviedb.org">series/217740</episode-num>
-<episode-num system="original-air-date">2026-10-28 09:45:00</episode-num>
-</programme>
-  <programme start="20261028100003 +0000" stop="20261028101524 +0000" channel="Red Bull TV.en"><title>Skate Tales</title>
-<sub-title>Inside the Dime Glory Challenge</sub-title>
-<desc>Madars Apse heads to Montréal for the Dime Glory Challenge. With Alexis Lacroix and Ryan Decenzo he explores the city’s skate scene before stepping into the chaos of skateboarding's most fun event.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/bW09nvJQX66vIH0OpuJ3IIrue4i.jpg"/>
-<episode-num system="xmltv_ns">4.2.0</episode-num>
-<episode-num system="themoviedb.org">series/217740</episode-num>
-<episode-num system="original-air-date">2026-10-28 10:00:03</episode-num>
-</programme>
-  <programme start="20261028101524 +0000" stop="20261028103241 +0000" channel="Red Bull TV.en"><title>Skate Tales</title>
-<sub-title>Breaking the YouTube algorithm with the Dern Bros</sub-title>
-<desc>Madars Apse along with Bam Margera and Jamie Thomas track the Dern Brothers from Florida to California to see how they built one of skateboarding’s biggest YouTube channels.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/bW09nvJQX66vIH0OpuJ3IIrue4i.jpg"/>
-<episode-num system="xmltv_ns">4.4.0</episode-num>
-<episode-num system="themoviedb.org">series/217740</episode-num>
-<episode-num system="original-air-date">2026-10-28 10:15:24</episode-num>
-</programme>
-  <programme start="20261028103241 +0000" stop="20261028104604 +0000" channel="Red Bull TV.en"><title>Greetings From</title>
-<sub-title>Virginia</sub-title>
-<desc>Gilbert Crockett and friends show us around the stores, brands and DIY skate spots that make for a uniquely homegrown skateboarding scene in the state capital of Virginia, USA.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:b7aa3de4-f539-42dd-97f0-804320369c65/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">1.2.0</episode-num>
-<episode-num system="original-air-date">2026-10-28 10:32:41</episode-num>
-<date>2026</date></programme>
-  <programme start="20261028104604 +0000" stop="20261028111004 +0000" channel="Red Bull TV.en"><title>Take the Title</title>
-<sub-title>South African street dance culture</sub-title>
-<desc>Exploring South Africa's vibrant dance culture and how Red Bull Dance Your Style was established, featuring disciplines like Amapiano, Sbujwa, Loxion Bhenga, and Pantsula.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:b1310ea3-eb22-4285-804a-95f8dce3fadd/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.0.0</episode-num>
-<episode-num system="original-air-date">2026-10-28 10:46:04</episode-num>
-<date>2026</date></programme>
-  <programme start="20261028111004 +0000" stop="20261028113404 +0000" channel="Red Bull TV.en"><title>Take the Title</title>
-<sub-title>Can't stop us</sub-title>
-<desc>Look into Red Bull Dance Your Style 2021, what happened during the country tour, the national finals and the dramatic cancellation of the World Final due to Covid-19.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:301a9162-ddfd-423b-9ea7-b720f5dd1bc8/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.1.0</episode-num>
-<episode-num system="original-air-date">2026-10-28 11:10:04</episode-num>
-<date>2026</date></programme>
-  <programme start="20261028113404 +0000" stop="20261028115804 +0000" channel="Red Bull TV.en"><title>Take the Title</title>
-<sub-title>The next generation part 1</sub-title>
-<desc>It's the comeback episode! Red Bull Dance Your Style is back for 2023 and we now follow the new journey of the dancers' country tour and regional competitions while getting to know the key characters.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:a62fac73-4a3e-49fa-8468-c5f5a3edac71/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.2.0</episode-num>
-<episode-num system="original-air-date">2026-10-28 11:34:04</episode-num>
-<date>2026</date></programme>
-  <programme start="20261028115804 +0000" stop="20261028122240 +0000" channel="Red Bull TV.en"><title>Take the Title</title>
-<sub-title>The next generation part 2</sub-title>
-<desc>We take a deep dive behind the scenes of the National Final, follow the top 16 dancers in the country and find out who will be representing South Africa at the World Final event in December.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:32e54bec-9e73-4ddb-9edf-bbf2accd1a23/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.3.0</episode-num>
-<episode-num system="original-air-date">2026-10-28 11:58:04</episode-num>
-<date>2026</date></programme>
-  <programme start="20261028122240 +0000" stop="20261028123714 +0000" channel="Red Bull TV.en"><title>What it Takes to Break</title>
-<sub-title>Original moves</sub-title>
-<desc>B-Boys Phil Wizard and Lee learn the secrets of Menno's creativity before participating in a battle to test their originality and ability to create on the fly.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:70839843-7cff-419d-b527-d933ee408762/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.0.0</episode-num>
-<episode-num system="original-air-date">2026-10-28 12:22:40</episode-num>
-<date>2026</date></programme>
-  <programme start="20261028123714 +0000" stop="20261028130230 +0000" channel="Red Bull TV.en"><title>What it Takes to Break</title>
-<sub-title>Unlimited rounds</sub-title>
-<desc>B-Boy Hong 10 teaches Phil Wizard how he's mastered the skills of endurance and stamina before challenging him to an unlimited rounds break battle in Seoul, South Korea.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:3e173197-bf53-465c-a4c5-f24460534d75/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.2.0</episode-num>
-<episode-num system="original-air-date">2026-10-28 12:37:14</episode-num>
-<date>2026</date></programme>
-  <programme start="20261028130230 +0000" stop="20261028133049 +0000" channel="Red Bull TV.en"><title>Return of the Lords</title>
-<sub-title>The iconic breaking event returned after 20 years</sub-title>
-<desc>From history-making veterans to the next generation, go beyond the battles of Red Bull Lords of the Floor 2024 as the world's best breaking crews battled it out in Seattle, USA.</desc>
-<category>Movie</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:45524e2c-6a9b-4370-9d10-c02058a4587d/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-</programme>
-  <programme start="20261028133049 +0000" stop="20261028135409 +0000" channel="Red Bull TV.en"><title>Paradigm</title>
-<sub-title>Mountain biking taken to new heights</sub-title>
-<desc>From the precision of slopestyle to the massive airs of freeride and the raw speed of downhill, Thomas Genon, Szymon Godziek, Emil Johansson and Kade Edwards deliver raw MTB talent and nonstop action.</desc>
-<date>2025</date>
-<category>Movie</category>
-<icon src="https://image.tmdb.org/t/p/original/xcZonwPFynraospKrWt3gqf6p9r.jpg"/>
-<episode-num system="themoviedb.org">movie/1583569</episode-num>
-</programme>
-  <programme start="20261028135409 +0000" stop="20261028144849 +0000" channel="Red Bull TV.en"><title>Hard Enduro 2025: The Hardest Season Yet?</title>
-<sub-title>Hard Enduro is the toughest motorsport on Earth</sub-title>
-<desc>Go behind the scenes of Red Bull Erzbergrodeo, Red Bull Romaniacs and Red Bull Outliers as the toughest Hard Enduro riders on Earth did battle across the world in 2025.</desc>
-<category>Movie</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:86711783-60f2-4fe9-9498-0a7790e5d765/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-</programme>
-  <programme start="20261028144849 +0000" stop="20261028154125 +0000" channel="Red Bull TV.en"><title>Red Bull Rampage 2025</title>
-<sub-title>Red Bull Rampage: Men's highlights</sub-title>
-<desc>Watch the 18 male mountain bike athletes compete in this invitation-only freeride event. After creating their own lines in the red-rock landscape of Utah, see them showcase their skill and creativity.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:videos:f156cda7-0538-42a6-bd15-11aeaca9ebb4/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="original-air-date">2026-10-28 14:48:49</episode-num>
-<date>2026</date></programme>
   <programme start="20261028154125 +0000" stop="20261028163325 +0000" channel="Red Bull TV.en"><title>Red Bull Rampage 2025</title>
 <sub-title>Red Bull Rampage: Women's highlights</sub-title>
 <desc>A dozen female mountain bike athletes competed in this invitation-only freeride event. After creating their own lines in the red-rock landscape of Utah, watch them showcase their skill and creativity.</desc>
@@ -3086,6 +2971,124 @@
 <desc>A dozen female mountain bike athletes competed in this invitation-only freeride event. After creating their own lines in the red-rock landscape of Utah, watch them showcase their skill and creativity.</desc>
 <icon src="https://resources.redbull.tv/rrn:content:videos:b8cf7394-4fe6-42a0-bfce-097ff7270904/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
 <episode-num system="original-air-date">2026-10-29 03:56:41</episode-num>
+<date>2026</date></programme>
+  <programme start="20261029044917 +0000" stop="20261029054357 +0000" channel="Red Bull TV.en"><title>Hard Enduro 2025: The Hardest Season Yet?</title>
+<sub-title>Hard Enduro is the toughest motorsport on Earth</sub-title>
+<desc>Go behind the scenes of Red Bull Erzbergrodeo, Red Bull Romaniacs and Red Bull Outliers as the toughest Hard Enduro riders on Earth did battle across the world in 2025.</desc>
+<category>Movie</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:86711783-60f2-4fe9-9498-0a7790e5d765/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+</programme>
+  <programme start="20261029054357 +0000" stop="20261029060000 +0000" channel="Red Bull TV.en"><title>Red Bull Soapbox Race</title>
+<sub-title>2017's fan-favourite teams</sub-title>
+<desc>As 2017's fan favourites teach us, two-wheeled designs never work, and everyone loves a pop culture referencing racer – especially if they self-destruct.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
+<episode-num system="xmltv_ns">3.3.0</episode-num>
+<episode-num system="themoviedb.org">series/287622</episode-num>
+<episode-num system="original-air-date">2026-10-29 05:43:57</episode-num>
+</programme>
+  <programme start="20261029060000 +0000" stop="20261029062737 +0000" channel="Red Bull TV.en"><title>Natural Heights</title>
+<sub-title>Janja Garnbret vs her 10th world title</sub-title>
+<desc>Janja Garnbret is chasing her 10th world title, and the pressure is unlike anything she’s faced before. Will shifting to the outdoors for new motivation help her, or push her closer to cracking?</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:b205052d-66f5-41ad-8f4b-4d4ea76f80ab/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.0.0</episode-num>
+<episode-num system="original-air-date">2026-10-29 06:00:00</episode-num>
+<date>2026</date></programme>
+  <programme start="20261029062737 +0000" stop="20261029065142 +0000" channel="Red Bull TV.en"><title>Natural Heights</title>
+<sub-title>Jakob Schubert sends a 9c route</sub-title>
+<desc>Join Jakob Schubert in Flatanger, Norway, as he battles for the first ascent of 'B.I.G.' (9c), relying on experience, creativity and relentless commitment to unlock this historic line.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:f95fb031-0cda-4134-803c-9879e012d813/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.1.0</episode-num>
+<episode-num system="original-air-date">2026-10-29 06:27:37</episode-num>
+<date>2026</date></programme>
+  <programme start="20261029065142 +0000" stop="20261029071546 +0000" channel="Red Bull TV.en"><title>Natural Heights</title>
+<sub-title>Nika Potapova: nothing to lose, but a lot to prove</sub-title>
+<desc>Nika Potapova is chasing the dream of becoming a pro climber, no matter the cost. The sacrifices are real, the pressure is constant and the outcome is far from guaranteed.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:33e76f0e-f60d-4f2f-b364-5eb0b75de5f4/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.2.0</episode-num>
+<episode-num system="original-air-date">2026-10-29 06:51:42</episode-num>
+<date>2026</date></programme>
+  <programme start="20261029071546 +0000" stop="20261029085432 +0000" channel="Red Bull TV.en"><title>Fine Lines</title>
+<sub-title>Life lessons from adventurous athletes</sub-title>
+<desc>The world’s most elite group of mountain adventurers take to life-threatening risks. At times brutally honest, other times pensive, these athletes’ stories reveal the triumph of the human spirit.</desc>
+<date>2019</date>
+<category>Movie</category>
+<icon src="https://image.tmdb.org/t/p/original/5deEji7C9HuBsQSenuik2RGWHg1.jpg"/>
+<episode-num system="themoviedb.org">movie/666061</episode-num>
+</programme>
+  <programme start="20261029085432 +0000" stop="20261029091832 +0000" channel="Red Bull TV.en"><title>Take the Title</title>
+<sub-title>South African street dance culture</sub-title>
+<desc>Exploring South Africa's vibrant dance culture and how Red Bull Dance Your Style was established, featuring disciplines like Amapiano, Sbujwa, Loxion Bhenga, and Pantsula.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:b1310ea3-eb22-4285-804a-95f8dce3fadd/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.0.0</episode-num>
+<episode-num system="original-air-date">2026-10-29 08:54:32</episode-num>
+<date>2026</date></programme>
+  <programme start="20261029091832 +0000" stop="20261029094232 +0000" channel="Red Bull TV.en"><title>Take the Title</title>
+<sub-title>Can't stop us</sub-title>
+<desc>Look into Red Bull Dance Your Style 2021, what happened during the country tour, the national finals and the dramatic cancellation of the World Final due to Covid-19.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:301a9162-ddfd-423b-9ea7-b720f5dd1bc8/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.1.0</episode-num>
+<episode-num system="original-air-date">2026-10-29 09:18:32</episode-num>
+<date>2026</date></programme>
+  <programme start="20261029094232 +0000" stop="20261029100632 +0000" channel="Red Bull TV.en"><title>Take the Title</title>
+<sub-title>The next generation part 1</sub-title>
+<desc>It's the comeback episode! Red Bull Dance Your Style is back for 2023 and we now follow the new journey of the dancers' country tour and regional competitions while getting to know the key characters.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:a62fac73-4a3e-49fa-8468-c5f5a3edac71/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.2.0</episode-num>
+<episode-num system="original-air-date">2026-10-29 09:42:32</episode-num>
+<date>2026</date></programme>
+  <programme start="20261029100632 +0000" stop="20261029103108 +0000" channel="Red Bull TV.en"><title>Take the Title</title>
+<sub-title>The next generation part 2</sub-title>
+<desc>We take a deep dive behind the scenes of the National Final, follow the top 16 dancers in the country and find out who will be representing South Africa at the World Final event in December.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:32e54bec-9e73-4ddb-9edf-bbf2accd1a23/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.3.0</episode-num>
+<episode-num system="original-air-date">2026-10-29 10:06:32</episode-num>
+<date>2026</date></programme>
+  <programme start="20261029103108 +0000" stop="20261029104542 +0000" channel="Red Bull TV.en"><title>What it Takes to Break</title>
+<sub-title>Original moves</sub-title>
+<desc>B-Boys Phil Wizard and Lee learn the secrets of Menno's creativity before participating in a battle to test their originality and ability to create on the fly.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:70839843-7cff-419d-b527-d933ee408762/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.0.0</episode-num>
+<episode-num system="original-air-date">2026-10-29 10:31:08</episode-num>
+<date>2026</date></programme>
+  <programme start="20261029104542 +0000" stop="20261029111058 +0000" channel="Red Bull TV.en"><title>What it Takes to Break</title>
+<sub-title>Unlimited rounds</sub-title>
+<desc>B-Boy Hong 10 teaches Phil Wizard how he's mastered the skills of endurance and stamina before challenging him to an unlimited rounds break battle in Seoul, South Korea.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:3e173197-bf53-465c-a4c5-f24460534d75/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.2.0</episode-num>
+<episode-num system="original-air-date">2026-10-29 10:45:42</episode-num>
+<date>2026</date></programme>
+  <programme start="20261029111058 +0000" stop="20261029113917 +0000" channel="Red Bull TV.en"><title>Return of the Lords</title>
+<sub-title>The iconic breaking event returned after 20 years</sub-title>
+<desc>From history-making veterans to the next generation, go beyond the battles of Red Bull Lords of the Floor 2024 as the world's best breaking crews battled it out in Seattle, USA.</desc>
+<category>Movie</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:45524e2c-6a9b-4370-9d10-c02058a4587d/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+</programme>
+  <programme start="20261029113917 +0000" stop="20261029120237 +0000" channel="Red Bull TV.en"><title>Paradigm</title>
+<sub-title>Mountain biking taken to new heights</sub-title>
+<desc>From the precision of slopestyle to the massive airs of freeride and the raw speed of downhill, Thomas Genon, Szymon Godziek, Emil Johansson and Kade Edwards deliver raw MTB talent and nonstop action.</desc>
+<date>2025</date>
+<category>Movie</category>
+<icon src="https://image.tmdb.org/t/p/original/xcZonwPFynraospKrWt3gqf6p9r.jpg"/>
+<episode-num system="themoviedb.org">movie/1583569</episode-num>
+</programme>
+  <programme start="20261029120237 +0000" stop="20261029125717 +0000" channel="Red Bull TV.en"><title>Hard Enduro 2025: The Hardest Season Yet?</title>
+<sub-title>Hard Enduro is the toughest motorsport on Earth</sub-title>
+<desc>Go behind the scenes of Red Bull Erzbergrodeo, Red Bull Romaniacs and Red Bull Outliers as the toughest Hard Enduro riders on Earth did battle across the world in 2025.</desc>
+<category>Movie</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:86711783-60f2-4fe9-9498-0a7790e5d765/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+</programme>
+  <programme start="20261029125717 +0000" stop="20261029134953 +0000" channel="Red Bull TV.en"><title>Red Bull Rampage 2025</title>
+<sub-title>Red Bull Rampage: Men's highlights</sub-title>
+<desc>Watch the 18 male mountain bike athletes compete in this invitation-only freeride event. After creating their own lines in the red-rock landscape of Utah, see them showcase their skill and creativity.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:videos:f156cda7-0538-42a6-bd15-11aeaca9ebb4/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="original-air-date">2026-10-29 12:57:17</episode-num>
+<date>2026</date></programme>
+  <programme start="20261029134953 +0000" stop="20261029144153 +0000" channel="Red Bull TV.en"><title>Red Bull Rampage 2025</title>
+<sub-title>Red Bull Rampage: Women's highlights</sub-title>
+<desc>A dozen female mountain bike athletes competed in this invitation-only freeride event. After creating their own lines in the red-rock landscape of Utah, watch them showcase their skill and creativity.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:videos:b8cf7394-4fe6-42a0-bfce-097ff7270904/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="original-air-date">2026-10-29 13:49:53</episode-num>
 <date>2026</date></programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
