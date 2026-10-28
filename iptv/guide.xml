@@ -2752,47 +2752,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20261027213643 +0000" stop="20261027222051 +0000" channel="Red Bull TV.en"><title>More Than Machine</title>
-<sub-title>Cause and effect</sub-title>
-<desc>Reigning champ Kalle Rovanperä fights a defiant car, while Takamoto Katsuta battles to save his career. Tension explodes when young challenger Oliver Solberg is given an opportunity to prove himself.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/3a21THcb014mLbHz4GNUgX9T2Cq.jpg"/>
-<episode-num system="xmltv_ns">0.4.0</episode-num>
-<episode-num system="themoviedb.org">series/304114</episode-num>
-<episode-num system="original-air-date">2026-10-27 21:36:43</episode-num>
-</programme>
-  <programme start="20261027222051 +0000" stop="20261027230614 +0000" channel="Red Bull TV.en"><title>More Than Machine</title>
-<sub-title>Fortune favours the brave</sub-title>
-<desc>The 2025 season concludes with a dramatic double-header in Japan and Saudi Arabia. From heart-stopping crashes to a stunning run in the Saudi dunes, it all comes down to one final Power Stage.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/3a21THcb014mLbHz4GNUgX9T2Cq.jpg"/>
-<episode-num system="xmltv_ns">0.6.0</episode-num>
-<episode-num system="themoviedb.org">series/304114</episode-num>
-<episode-num system="original-air-date">2026-10-27 22:20:51</episode-num>
-</programme>
-  <programme start="20261027230614 +0000" stop="20261027234556 +0000" channel="Red Bull TV.en"><title>More Than Machine</title>
-<sub-title>Resilience</sub-title>
-<desc>Can Latvian superstar Mārtiņš Sesks bounce back from his lost podium in 2024 to prove he belongs at rally sport's highest level?</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/3a21THcb014mLbHz4GNUgX9T2Cq.jpg"/>
-<episode-num system="xmltv_ns">0.3.0</episode-num>
-<episode-num system="themoviedb.org">series/304114</episode-num>
-<episode-num system="original-air-date">2026-10-27 23:06:14</episode-num>
-</programme>
-  <programme start="20261027234556 +0000" stop="20261028000735 +0000" channel="Red Bull TV.en"><title>Michelle Khare's Great World Race</title>
-<sub-title>Pt. 3: I ran 7 marathons in 7 days on 7 continents</sub-title>
-<desc>Michelle faces Colombia’s brutal heat and humidity in the final stretch of the Great World Race. With everything on the line, will she make it to the final finish?</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:be4f126f-3667-4156-b2fd-069bdfc645d5/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.2.0</episode-num>
-<episode-num system="original-air-date">2026-10-27 23:45:56</episode-num>
-<date>2026</date></programme>
-  <programme start="20261028000735 +0000" stop="20261028004820 +0000" channel="Red Bull TV.en"><title>Michelle Khare's Great World Race</title>
-<sub-title>Pt. 1: I ran 7 marathons in 7 days on 7 continents</sub-title>
-<desc>After months of elite training Michelle begins The Great World Race, racing from Cape Town to the blistering cold of Antarctica, where she must finish in 8 hours or be left behind.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:a3931605-32cb-413b-980f-3811cc8a263a/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.0.0</episode-num>
-<episode-num system="original-air-date">2026-10-28 00:07:35</episode-num>
-<date>2026</date></programme>
   <programme start="20261028004820 +0000" stop="20261028012038 +0000" channel="Red Bull TV.en"><title>Michelle Khare's Great World Race</title>
 <sub-title>Pt. 2: I ran 7 marathons in 7 days on 7 continents</sub-title>
 <desc>Michelle battles extreme heat in Australia and Abu Dhabi, forming powerful bonds with fellow racers as injuries and exhaustion threaten the race.</desc>
@@ -3081,6 +3040,27 @@
 <icon src="https://resources.redbull.tv/rrn:content:episode-videos:3633c16e-98e3-4450-80c8-5268d578951c/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
 <episode-num system="xmltv_ns">0.1.0</episode-num>
 <episode-num system="original-air-date">2026-10-28 21:10:35</episode-num>
+<date>2026</date></programme>
+  <programme start="20261028214253 +0000" stop="20261028220929 +0000" channel="Red Bull TV.en"><title>Fort Worth, Texas</title>
+<sub-title>Red Bull Rancher Strong 2025 Recap</sub-title>
+<desc>In Red Bull Rancher Strong competitors compete for the best time on an obstacle course designed around the rancher lifestyle, testing strength and endurance, to determine WHO is Rancher Strong.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:videos:0dbd4bbc-c885-4a74-b473-0e0a7c25b924/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="original-air-date">2026-10-28 21:42:53</episode-num>
+<date>2026</date></programme>
+  <programme start="20261028220929 +0000" stop="20261028230435 +0000" channel="Red Bull TV.en"><title>Resilience</title>
+<sub-title>Triathlete Els Visser's story</sub-title>
+<desc>How does surviving a ship wreck lead to someone becoming a successful triathlete? Learn about Els Visser's journey from medical student to sporting success via a life-threatening disaster at sea.</desc>
+<date>2025</date>
+<category>Movie</category>
+<icon src="https://image.tmdb.org/t/p/original/BqCdIC5VlKKixbKQrn0wxpmODr.jpg"/>
+<episode-num system="themoviedb.org">movie/1483648</episode-num>
+</programme>
+  <programme start="20261028230435 +0000" stop="20261028233900 +0000" channel="Red Bull TV.en"><title>Beyond the ROX</title>
+<sub-title>Ambitions realised: the rookie vs the legends</sub-title>
+<desc>After years of hard work and dedicated training, Jake Dearden finally reaches the Elite 15 race. How will the rookie stack up against the world's best in the 2024/25 season?</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:70a3fd36-20cd-452a-bf03-a6045436c3e9/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.4.0</episode-num>
+<episode-num system="original-air-date">2026-10-28 23:04:35</episode-num>
 <date>2026</date></programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
