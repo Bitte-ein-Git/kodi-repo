@@ -2809,53 +2809,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20261028202914 +0000" stop="20261028211035 +0000" channel="Red Bull TV.en"><title>Michelle Khare's Great World Race</title>
-<sub-title>Pt. 1: I ran 7 marathons in 7 days on 7 continents</sub-title>
-<desc>After months of elite training Michelle begins The Great World Race, racing from Cape Town to the blistering cold of Antarctica, where she must finish in 8 hours or be left behind.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:a3931605-32cb-413b-980f-3811cc8a263a/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.0.0</episode-num>
-<episode-num system="original-air-date">2026-10-28 20:29:14</episode-num>
-<date>2026</date></programme>
-  <programme start="20261028211035 +0000" stop="20261028214253 +0000" channel="Red Bull TV.en"><title>Michelle Khare's Great World Race</title>
-<sub-title>Pt. 2: I ran 7 marathons in 7 days on 7 continents</sub-title>
-<desc>Michelle battles extreme heat in Australia and Abu Dhabi, forming powerful bonds with fellow racers as injuries and exhaustion threaten the race.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:3633c16e-98e3-4450-80c8-5268d578951c/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.1.0</episode-num>
-<episode-num system="original-air-date">2026-10-28 21:10:35</episode-num>
-<date>2026</date></programme>
-  <programme start="20261028214253 +0000" stop="20261028220929 +0000" channel="Red Bull TV.en"><title>Fort Worth, Texas</title>
-<sub-title>Red Bull Rancher Strong 2025 Recap</sub-title>
-<desc>In Red Bull Rancher Strong competitors compete for the best time on an obstacle course designed around the rancher lifestyle, testing strength and endurance, to determine WHO is Rancher Strong.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:videos:0dbd4bbc-c885-4a74-b473-0e0a7c25b924/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="original-air-date">2026-10-28 21:42:53</episode-num>
-<date>2026</date></programme>
-  <programme start="20261028220929 +0000" stop="20261028230435 +0000" channel="Red Bull TV.en"><title>Resilience</title>
-<sub-title>Triathlete Els Visser's story</sub-title>
-<desc>How does surviving a ship wreck lead to someone becoming a successful triathlete? Learn about Els Visser's journey from medical student to sporting success via a life-threatening disaster at sea.</desc>
-<date>2025</date>
-<category>Movie</category>
-<icon src="https://image.tmdb.org/t/p/original/BqCdIC5VlKKixbKQrn0wxpmODr.jpg"/>
-<episode-num system="themoviedb.org">movie/1483648</episode-num>
-</programme>
-  <programme start="20261028230435 +0000" stop="20261028233900 +0000" channel="Red Bull TV.en"><title>Beyond the ROX</title>
-<sub-title>Ambitions realised: the rookie vs the legends</sub-title>
-<desc>After years of hard work and dedicated training, Jake Dearden finally reaches the Elite 15 race. How will the rookie stack up against the world's best in the 2024/25 season?</desc>
-<icon src="https://resources.redbull.tv/rrn:content:episode-videos:70a3fd36-20cd-452a-bf03-a6045436c3e9/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="xmltv_ns">0.4.0</episode-num>
-<episode-num system="original-air-date">2026-10-28 23:04:35</episode-num>
-<date>2026</date></programme>
-  <programme start="20261028233900 +0000" stop="20261028235949 +0000" channel="Red Bull TV.en"><title>Natural Selection Tour 2026</title>
-<sub-title>NST Snow Super Sessions – Utah</sub-title>
-<desc>NST Snow announces Super Sessions, the new first stage of the 2026 YETI Natural Selection Snow season. The results determine who advances to compete at YETI Natural Selection Snow in Revelstoke.</desc>
-<icon src="https://resources.redbull.tv/rrn:content:videos:f241ce4d-6d2e-47d5-8bee-5bec73b3b508/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-<episode-num system="original-air-date">2026-10-28 23:39:00</episode-num>
-<date>2026</date></programme>
-  <programme start="20261028235949 +0000" stop="20261029004353 +0000" channel="Red Bull TV.en"><title>Volare: Valentino Guseli</title>
-<sub-title>The life of an Australian snowboarding prodigy</sub-title>
-<desc>Valentino Guseli shares his journey mastering big air, slopestyle and halfpipe, an achievement no snowboarder has accomplished – and reveals why family is at the heart of everything he does.</desc>
-<category>Movie</category>
-<icon src="https://resources.redbull.tv/rrn:content:films:24ad6d48-1a91-4275-a35e-d2488def5847/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
-</programme>
   <programme start="20261029004353 +0000" stop="20261029012637 +0000" channel="Red Bull TV.en"><title>Paved</title>
 <sub-title>An unfiltered snow odyssey two years in the making</sub-title>
 <desc>Part history lesson, part hangout, part backcountry odyssey, Paved – a Burton and Red Bull Media House co-production – celebrates the passion and soul of snowboarding in raw, wry and light-hearted style.</desc>
@@ -3098,6 +3051,54 @@
 <episode-num system="xmltv_ns">0.1.0</episode-num>
 <episode-num system="original-air-date">2026-10-29 19:19:03</episode-num>
 <date>2026</date></programme>
+  <programme start="20261029195121 +0000" stop="20261029201757 +0000" channel="Red Bull TV.en"><title>Fort Worth, Texas</title>
+<sub-title>Red Bull Rancher Strong 2025 Recap</sub-title>
+<desc>In Red Bull Rancher Strong competitors compete for the best time on an obstacle course designed around the rancher lifestyle, testing strength and endurance, to determine WHO is Rancher Strong.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:videos:0dbd4bbc-c885-4a74-b473-0e0a7c25b924/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="original-air-date">2026-10-29 19:51:21</episode-num>
+<date>2026</date></programme>
+  <programme start="20261029201757 +0000" stop="20261029211228 +0000" channel="Red Bull TV.en"><title>Resilience</title>
+<sub-title>Triathlete Els Visser's story</sub-title>
+<desc>How does surviving a ship wreck lead to someone becoming a successful triathlete? Learn about Els Visser's journey from medical student to sporting success via a life-threatening disaster at sea.</desc>
+<date>2025</date>
+<category>Movie</category>
+<icon src="https://image.tmdb.org/t/p/original/BqCdIC5VlKKixbKQrn0wxpmODr.jpg"/>
+<episode-num system="themoviedb.org">movie/1483648</episode-num>
+</programme>
+  <programme start="20261029211228 +0000" stop="20261029214652 +0000" channel="Red Bull TV.en"><title>Beyond the ROX</title>
+<sub-title>Ambitions realised: the rookie vs the legends</sub-title>
+<desc>After years of hard work and dedicated training, Jake Dearden finally reaches the Elite 15 race. How will the rookie stack up against the world's best in the 2024/25 season?</desc>
+<icon src="https://resources.redbull.tv/rrn:content:episode-videos:70a3fd36-20cd-452a-bf03-a6045436c3e9/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="xmltv_ns">0.4.0</episode-num>
+<episode-num system="original-air-date">2026-10-29 21:12:28</episode-num>
+<date>2026</date></programme>
+  <programme start="20261029214652 +0000" stop="20261029220742 +0000" channel="Red Bull TV.en"><title>Natural Selection Tour 2026</title>
+<sub-title>NST Snow Super Sessions – Utah</sub-title>
+<desc>NST Snow announces Super Sessions, the new first stage of the 2026 YETI Natural Selection Snow season. The results determine who advances to compete at YETI Natural Selection Snow in Revelstoke.</desc>
+<icon src="https://resources.redbull.tv/rrn:content:videos:f241ce4d-6d2e-47d5-8bee-5bec73b3b508/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="original-air-date">2026-10-29 21:46:52</episode-num>
+<date>2026</date></programme>
+  <programme start="20261029220742 +0000" stop="20261029225145 +0000" channel="Red Bull TV.en"><title>Volare: Valentino Guseli</title>
+<sub-title>The life of an Australian snowboarding prodigy</sub-title>
+<desc>Valentino Guseli shares his journey mastering big air, slopestyle and halfpipe, an achievement no snowboarder has accomplished – and reveals why family is at the heart of everything he does.</desc>
+<category>Movie</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:24ad6d48-1a91-4275-a35e-d2488def5847/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+</programme>
+  <programme start="20261029225145 +0000" stop="20261029233430 +0000" channel="Red Bull TV.en"><title>Paved</title>
+<sub-title>An unfiltered snow odyssey two years in the making</sub-title>
+<desc>Part history lesson, part hangout, part backcountry odyssey, Paved – a Burton and Red Bull Media House co-production – celebrates the passion and soul of snowboarding in raw, wry and light-hearted style.</desc>
+<category>Movie</category>
+<icon src="https://resources.redbull.tv/rrn:content:films:518d59a1-abe6-47df-ad17-6f71d0ef7a0b/rbtv_display_art_portrait/{im}?namespace=rbtv&amp;refresh=true"/>
+<episode-num system="themoviedb.org">movie/1734146</episode-num>
+</programme>
+  <programme start="20261029233430 +0000" stop="20261030004252 +0000" channel="Red Bull TV.en"><title>Pressure Drop</title>
+<sub-title>Born from a dream, this is TGR’s 30th annual film</sub-title>
+<desc>Follow the world’s best skiers and snowboarders in a cinematic ride through risk, beauty and the pursuit of perfection.</desc>
+<date>2025</date>
+<category>Movie</category>
+<icon src="https://image.tmdb.org/t/p/original/a0bQqVs7F8d7K5fmY6WSl5Ed0v3.jpg"/>
+<episode-num system="themoviedb.org">movie/1581361</episode-num>
+</programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
   </channel>
