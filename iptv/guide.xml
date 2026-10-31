@@ -2978,52 +2978,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20261030191157 +0000" stop="20261030195600 +0000" channel="Red Bull TV.en"><title>SNOWBOARDING: Volare: Valentino Guseli – A Prodigy</title>
-<desc>Valentino Guseli shares his journey mastering three snowboard disciplines: big air, slopestyle and halfpipe.</desc>
-<icon src="https://img.liiift.io/v1/DAM/FORPUCKX6AP71HNWT884.jpeg/a:p/im/MI202508210332_Artwork_2_3_SI202602240180.jpeg"/>
-<episode-num system="original-air-date">2026-10-25 12:51:54</episode-num>
-<date>2026</date></programme>
-  <programme start="20261030195600 +0000" stop="20261030203845 +0000" channel="Red Bull TV.en"><title>SNOWBOARDING: Paved – Burton &amp; Red Bull Media House</title>
-<desc>A history lesson, a hangout and a backcountry odyssey co-produced by Burton and Red Bull Media House.</desc>
-<icon src="https://img.liiift.io/v1/DAM/FO9BAIJFDPIJJH4NYUKP.jpeg/a:p/im/MI202410140478_Artwork_2_3_SI202510300993.jpeg"/>
-<episode-num system="themoviedb.org">series/1734146</episode-num>
-<episode-num system="original-air-date">2026-07-03 13:11:51</episode-num>
-<date>2026</date></programme>
-  <programme start="20261030203845 +0000" stop="20261030214707 +0000" channel="Red Bull TV.en"><title>SNOW: Pressure Drop – Cinematic Skiing and Snowboarding</title>
-<desc>Follow elite skiers and snowboarders in a cinematic ride through risk, beauty and the pursuit of perfection.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/a0bQqVs7F8d7K5fmY6WSl5Ed0v3.jpg"/>
-<episode-num system="themoviedb.org">series/1581361</episode-num>
-<episode-num system="original-air-date">2026-10-24 06:55:00</episode-num>
-</programme>
-  <programme start="20261030214707 +0000" stop="20261030220306 +0000" channel="Red Bull TV.en"><title>SKATE: Skate Tales – Madars Apse's Global Journey</title>
-<desc>Madars and Nico Hiraga explore how San Francisco is shaping skateboarding’s new generation.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/bW09nvJQX66vIH0OpuJ3IIrue4i.jpg"/>
-<episode-num system="themoviedb.org">series/217740</episode-num>
-<episode-num system="original-air-date">2026-07-25 12:05:12</episode-num>
-</programme>
-  <programme start="20261030220306 +0000" stop="20261030221809 +0000" channel="Red Bull TV.en"><title>SKATE: Skate Tales – Madars Apse's Global Journey</title>
-<desc>Madars travels to Brazil to uncover Tiago Lemos’s rise from the streets to global skate stardom.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/bW09nvJQX66vIH0OpuJ3IIrue4i.jpg"/>
-<episode-num system="themoviedb.org">series/217740</episode-num>
-<episode-num system="original-air-date">2026-07-25 12:21:11</episode-num>
-</programme>
-  <programme start="20261030221809 +0000" stop="20261030223330 +0000" channel="Red Bull TV.en"><title>SKATE: Skate Tales – Madars Apse's Global Journey</title>
-<desc>Madars heads to Montréal to experience the chaos and creativity of the legendary Dime Glory Challenge.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/bW09nvJQX66vIH0OpuJ3IIrue4i.jpg"/>
-<episode-num system="themoviedb.org">series/217740</episode-num>
-<episode-num system="original-air-date">2026-07-25 12:36:50</episode-num>
-</programme>
-  <programme start="20261030223330 +0000" stop="20261030225047 +0000" channel="Red Bull TV.en"><title>SKATE: Skate Tales – Madars Apse's Global Journey</title>
-<desc>Madars follows the Dern Brothers from Florida to California to see how they cracked skateboarding on YouTube.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/bW09nvJQX66vIH0OpuJ3IIrue4i.jpg"/>
-<episode-num system="themoviedb.org">series/217740</episode-num>
-<episode-num system="original-air-date">2026-07-25 13:09:02</episode-num>
-</programme>
   <programme start="20261030225047 +0000" stop="20261030232447 +0000" channel="Red Bull TV.en"><title>SKATE: Red Bull Drop In Tour</title>
 <desc>Friends ride South America’s vibrant streets and ramps, showing the raw energy of the country's skate culture.</desc>
 <icon src="https://img.liiift.io/v1/DAM/FOWC36992JTCR24KA8HG.png/a:p/im/SI202409300013%3AArtwork%3AVertical%3A2.3.png"/>
@@ -3195,6 +3149,77 @@
 <episode-num system="themoviedb.org">series/1483648</episode-num>
 <episode-num system="original-air-date">2026-10-03 03:33:53</episode-num>
 </programme>
+  <programme start="20261031153158 +0000" stop="20261031160623 +0000" channel="Red Bull TV.en"><title>FITNESS: Beyond the ROX – Strength in Motion</title>
+<desc>After years of training, Jake Dearden reaches the Elite 15. Can he prove he belongs in the 2024/25 season?</desc>
+<icon src="https://img.liiift.io/v1/DAM/FO3AIMUIPWS3PH4VJSCN.jpeg/a:p/im/MI202409250431_Artwork_2_3_SI202411230251.jpeg"/>
+<episode-num system="original-air-date">2026-10-26 08:55:48</episode-num>
+<date>2026</date></programme>
+  <programme start="20261031160623 +0000" stop="20261031162712 +0000" channel="Red Bull TV.en"><title>SNOW: NST Snow Super Sessions 2026 – Utah</title>
+<desc>Results from three NST Snow Super Sessions determine who goes on to YETI Natural Selection Snow in Revelstoke.</desc>
+<icon src="https://img.liiift.io/v1/DAM/FORLS7XXQCNJUPVFM5FB.jpeg/a:p/im/MI202602100619_Artwork_2_3_SuperSessions.jpeg"/>
+<episode-num system="original-air-date">2026-10-26 09:30:13</episode-num>
+<date>2026</date></programme>
+  <programme start="20261031162712 +0000" stop="20261031171115 +0000" channel="Red Bull TV.en"><title>SNOWBOARDING: Volare: Valentino Guseli – A Prodigy</title>
+<desc>Valentino Guseli shares his journey mastering three snowboard disciplines: big air, slopestyle and halfpipe.</desc>
+<icon src="https://img.liiift.io/v1/DAM/FORPUCKX6AP71HNWT884.jpeg/a:p/im/MI202508210332_Artwork_2_3_SI202602240180.jpeg"/>
+<episode-num system="original-air-date">2026-10-25 12:51:54</episode-num>
+<date>2026</date></programme>
+  <programme start="20261031171115 +0000" stop="20261031175400 +0000" channel="Red Bull TV.en"><title>SNOWBOARDING: Paved – Burton &amp; Red Bull Media House</title>
+<desc>A history lesson, a hangout and a backcountry odyssey co-produced by Burton and Red Bull Media House.</desc>
+<icon src="https://img.liiift.io/v1/DAM/FO9BAIJFDPIJJH4NYUKP.jpeg/a:p/im/MI202410140478_Artwork_2_3_SI202510300993.jpeg"/>
+<episode-num system="themoviedb.org">series/1734146</episode-num>
+<episode-num system="original-air-date">2026-07-03 13:11:51</episode-num>
+<date>2026</date></programme>
+  <programme start="20261031175400 +0000" stop="20261031190222 +0000" channel="Red Bull TV.en"><title>SNOW: Pressure Drop – Cinematic Skiing and Snowboarding</title>
+<desc>Follow elite skiers and snowboarders in a cinematic ride through risk, beauty and the pursuit of perfection.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/a0bQqVs7F8d7K5fmY6WSl5Ed0v3.jpg"/>
+<episode-num system="themoviedb.org">series/1581361</episode-num>
+<episode-num system="original-air-date">2026-10-24 06:55:00</episode-num>
+</programme>
+  <programme start="20261031190222 +0000" stop="20261031191821 +0000" channel="Red Bull TV.en"><title>SKATE: Skate Tales – Madars Apse's Global Journey</title>
+<desc>Madars and Nico Hiraga explore how San Francisco is shaping skateboarding’s new generation.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/bW09nvJQX66vIH0OpuJ3IIrue4i.jpg"/>
+<episode-num system="themoviedb.org">series/217740</episode-num>
+<episode-num system="original-air-date">2026-07-25 12:05:12</episode-num>
+</programme>
+  <programme start="20261031191821 +0000" stop="20261031193324 +0000" channel="Red Bull TV.en"><title>SKATE: Skate Tales – Madars Apse's Global Journey</title>
+<desc>Madars travels to Brazil to uncover Tiago Lemos’s rise from the streets to global skate stardom.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/bW09nvJQX66vIH0OpuJ3IIrue4i.jpg"/>
+<episode-num system="themoviedb.org">series/217740</episode-num>
+<episode-num system="original-air-date">2026-07-25 12:21:11</episode-num>
+</programme>
+  <programme start="20261031193324 +0000" stop="20261031194845 +0000" channel="Red Bull TV.en"><title>SKATE: Skate Tales – Madars Apse's Global Journey</title>
+<desc>Madars heads to Montréal to experience the chaos and creativity of the legendary Dime Glory Challenge.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/bW09nvJQX66vIH0OpuJ3IIrue4i.jpg"/>
+<episode-num system="themoviedb.org">series/217740</episode-num>
+<episode-num system="original-air-date">2026-07-25 12:36:50</episode-num>
+</programme>
+  <programme start="20261031194845 +0000" stop="20261031200602 +0000" channel="Red Bull TV.en"><title>SKATE: Skate Tales – Madars Apse's Global Journey</title>
+<desc>Madars follows the Dern Brothers from Florida to California to see how they cracked skateboarding on YouTube.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/bW09nvJQX66vIH0OpuJ3IIrue4i.jpg"/>
+<episode-num system="themoviedb.org">series/217740</episode-num>
+<episode-num system="original-air-date">2026-07-25 13:09:02</episode-num>
+</programme>
+  <programme start="20261031200602 +0000" stop="20261031204002 +0000" channel="Red Bull TV.en"><title>SKATE: Red Bull Drop In Tour</title>
+<desc>Friends ride South America’s vibrant streets and ramps, showing the raw energy of the country's skate culture.</desc>
+<icon src="https://img.liiift.io/v1/DAM/FOWC36992JTCR24KA8HG.png/a:p/im/SI202409300013%3AArtwork%3AVertical%3A2.3.png"/>
+<episode-num system="original-air-date">2026-07-26 10:59:16</episode-num>
+<date>2026</date></programme>
+  <programme start="20261031204002 +0000" stop="20261031210028 +0000" channel="Red Bull TV.en"><title>SKATE: Greetings From – International Lines</title>
+<desc>Meet Brandon Valjalo and 30 more top dogs from South Africa's biggest skate scene in our super city report.</desc>
+<icon src="https://img.liiift.io/v1/DAM/FO7YAKGVNCYSM66KIHYW.jpeg/a:p/im/SI202301170447_Portrait.jpeg"/>
+<episode-num system="original-air-date">2026-07-10 09:48:50</episode-num>
+<date>2026</date></programme>
+  <programme start="20261031210028 +0000" stop="20261031211350 +0000" channel="Red Bull TV.en"><title>SKATE: Greetings From – International Lines</title>
+<desc>Enjoy a different side of American skateboarding culture, ripping up the Virginia skate scene with the locals.</desc>
+<icon src="https://img.liiift.io/v1/DAM/FOATL4QE62SDCRW18WYQ.png/a:p/im:i:c_limit,w_1920,h_1080/SI202304100427_portrait.png"/>
+<episode-num system="original-air-date">2026-10-26 14:24:18</episode-num>
+<date>2026</date></programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
   </channel>
@@ -4664,11 +4689,6 @@
   <programme start="20261101080000 +0000" stop="20261101120000 +0000" channel="RTL.Zwee.lu">
     <title>RTL Radio Web TV</title>
     <desc>Info</desc>
-  </programme>
-  <programme start="20261030010000 +0000" stop="20261030060000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">RTL Radio Web TV.</desc>
-    <title lang="en">RTL Radio Web TV</title>
   </programme>
   <programme start="20261030060000 +0000" stop="20261030113500 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
     <date>2026</date>
