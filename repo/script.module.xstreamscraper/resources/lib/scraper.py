@@ -1,21 +1,106 @@
 # -*- coding: utf-8 -*-
-import os, sys, xbmc, xbmcplugin, xbmcgui, xbmcaddon, requests, concurrent.futures, urllib3
-from urllib.parse import parse_qsl
-from resources.lib import settings
+import os, socket, sys, time, xbmc, xbmcplugin, xbmcgui, xbmcaddon, concurrent.futures, urllib3
+from resources.lib import settings, streamTest
+from resources.lib.streamTest import Cancelled, StreamTimeout
 from resources.lib.xstreamBridge import sourcesFolder
+from resources.lib import streamHistory
 from resources.lib.gui.gui import cGui
 from resources.lib.handler.requestHandler import cRequestHandler, quietWindows
 from resources.lib.logger import logger
 from resources.lib.tools import cParser
 settings.init()
 api_key = "86dd18b04874d9c94afadde7993d94e3"
-session = requests.session()
-dialog = xbmcgui.DialogProgress()
+PRIORITY_SITE = "serienstream"
+MAX_FAILOVERS = 5
+
+class ProgressDialog:
+	"""Fortschritt als normales Fenster oder, je nach Einstellung, im Hintergrund.
+	Das Hintergrund-Fenster kennt keinen Abbrechen-Knopf und zeigt nur eine Zeile."""
+	def __init__(self):
+		self._dialog = None
+		self._background = False
+		self._heading = ""
+
+	def create(self, heading, message=""):
+		self.close()
+		self._background = xbmcaddon.Addon().getSetting("progress_background") == "true"
+		self._heading = heading
+		self._dialog = xbmcgui.DialogProgressBG() if self._background else xbmcgui.DialogProgress()
+		self._dialog.create(heading, message)
+
+	def update(self, percent, message=""):
+		if not self._dialog: return
+		if self._background: self._dialog.update(percent, self._heading, message.replace("\n", " | "))
+		else: self._dialog.update(percent, message)
+
+	def iscanceled(self):
+		return bool(self._dialog) and not self._background and self._dialog.iscanceled()
+
+	def close(self):
+		if self._dialog: self._dialog.close()
+		self._dialog = None
+
+dialog = ProgressDialog()
+
+class PlaybackWatcher(xbmc.Player):
+	"""Beobachtet, ob ein Stream in Kodi wirklich startet. Der Test kann bestehen und das Oeffnen trotzdem scheitern."""
+	def __init__(self):
+		super().__init__()
+		self.state = None
+
+	def reset(self):
+		self.state = None
+
+	def onAVStarted(self):
+		self.state = "started"
+
+	def onPlayBackError(self):
+		self.state = "error"
+
+	def onPlayBackStopped(self):
+		self.state = self.state or "stopped"
+
+	def onPlayBackEnded(self):
+		self.state = self.state or "stopped"
+
+	def _wait(self, seconds):
+		monitor = xbmc.Monitor()
+		end = time.monotonic() + seconds
+		while self.state is None and time.monotonic() < end:
+			if monitor.waitForAbort(0.1): return
+
+	def failed(self):
+		"""True, wenn der naechste Stream dran ist. Stoppt der Nutzer die Wiedergabe, bleibt es dabei."""
+		self._wait(streamTest.LIMIT)
+		if self.state == "error":
+			# Kodi kann nach einem Fehler selbst weitermachen, etwa mit der naechsten Folge der Playlist.
+			if self.isPlaying(): return False
+			_close_error_dialog()
+			return True
+		if self.state is None and not xbmc.Monitor().abortRequested():
+			logger.info("Stream startet nicht innerhalb von %s Sekunden" % streamTest.LIMIT)
+			self.stop()
+			self._wait(3)
+			return True
+		return False
+
+def _close_error_dialog():
+	monitor = xbmc.Monitor()
+	end = time.monotonic() + 2
+	while time.monotonic() < end:
+		if xbmc.getCondVisibility("Window.IsActive(okdialog)"):
+			xbmc.executebuiltin("Dialog.Close(okdialog,true)")
+			return
+		if monitor.waitForAbort(0.1): return
+
+resolved = False
 urllib3.disable_warnings()
 
 def showFailedNotification(msg="Keine Streams gefunden"):
 	logger.info(msg)
 	xbmc.executebuiltin("Notification(%s,%s,%s,%s)" % ("xStream Scraper",msg,5000,xbmcaddon.Addon().getAddonInfo("icon")))
+	# Laeuft schon ein Nachfolge-Versuch, ist der Aufruf von Kodi laengst beantwortet.
+	if resolved: return
 	o = xbmcgui.ListItem(xbmc.getInfoLabel("ListItem.Label"))
 	xbmcplugin.setResolvedUrl(int(sys.argv[1]), False, o)
 
@@ -44,7 +129,7 @@ def get_episodes(sources, s, e):
 		try:
 			site = source["site"]
 			dialog.update(int(count * 25 /len(sources)+50), "Filtere Seite %s..." % site)
-			if dialog.iscanceled(): return showFailedNotification("Abgebrochen")
+			if dialog.iscanceled(): raise Cancelled()
 			logger.info("Filtere %s" % site)
 			for result in plugin(source) or []:
 				if "pisode" in result.keys() or result.get("mediaType") == "episode":
@@ -70,13 +155,15 @@ def get_hosters(sources, isSerie, season, episode):
 	if isSerie: newsources = get_episodes(sources, season, episode)
 	for count, source in enumerate(newsources, 1):
 		site = source["site"]
-		if dialog.iscanceled(): return showFailedNotification("Abgebrochen")
+		if dialog.iscanceled(): raise Cancelled()
 		dialog.update(int(count * 25 /len(newsources)+75), "Suche nach Hostern auf %s" % source["site"])
 		p = plugin(source, True)
 		if p:
 			function = p[-1]
 			del p[-1]
 			for a in p:
+				# Die Seite liefert jede Folge auch auf Englisch und als Ger-Sub, unter demselben Hosternamen.
+				if site == PRIORITY_SITE and a.get("languageCode") != "(DE)": continue
 				a["site"] = site
 				a["function"] = function
 				if a["link"] not in temp:
@@ -114,7 +201,7 @@ def plugin(source, force = False):
 		import traceback
 		logger.error(traceback.format_exc())
 
-def searchGlobal(sSearchText, searchtitles, isSerie, _type, _id, season, episode, searchYear):
+def searchGlobal(sSearchText, searchtitles, isSerie, _type, _id, season, episode, searchYear, siteFilter=None):
     multi = 25 if isSerie else 50
     sources = []
     aPlugins = []
@@ -123,7 +210,7 @@ def searchGlobal(sSearchText, searchtitles, isSerie, _type, _id, season, episode
     ntitle = ""
 
     for w in [str(filename[:-3]) for filename in os.listdir(sourcesFolder) if " vod" not in filename and not filename.startswith('__') and filename.endswith('.py')]:
-        if xbmcaddon.Addon().getSetting(w) == "true":
+        if xbmcaddon.Addon().getSetting(w) == "true" and (not siteFilter or siteFilter(w)):
             if isSerie:
                 aPlugins.append({'id': w, 'name': w.capitalize()})
             elif w != "serienstream":
@@ -144,14 +231,14 @@ def searchGlobal(sSearchText, searchtitles, isSerie, _type, _id, season, episode
                 logger.info("Searching for %s at %s" % (sSearchText, plugin_name))
                 dialog.update(int(count * 25 / len(aPlugins)), "%s %s" % (plugin_name, " Suche abgeschlossen"))
                 if dialog.iscanceled():
-                    return showFailedNotification("Abgebrochen")
+                    raise Cancelled()
             except Exception as e:
                 logger.error(f"Fehler bei Plugin {pluginEntry['name']}: {e}")
 
     settings.collectMode = False
     total = len(oGui.searchResults)
     if total == 0:
-        return showFailedNotification("Nichts gefunden")
+        return []
 
     for count, result in enumerate(oGui.searchResults, 1):
         settings.skip = "Ok"
@@ -175,7 +262,7 @@ def searchGlobal(sSearchText, searchtitles, isSerie, _type, _id, season, episode
                 year = aYear[0][1]
 
         if dialog.iscanceled():
-            return showFailedNotification("Abgebrochen")
+            raise Cancelled()
 
         if language and language.lower() not in ["ger", "de", "deutsch"]:
             set_skip(" Wrong Language")
@@ -227,69 +314,157 @@ def get_details(_type, _id):
 def play(_type, _id, season, episode):
 	# Keine blockierenden Fehlerfenster von xStream, solange der Scraper automatisch sucht.
 	with quietWindows():
-		return _search_and_play(_type, _id, season, episode)
+		try:
+			return _search_and_play(_type, _id, season, episode)
+		except Cancelled:
+			dialog.close()
+			return showFailedNotification("Abgebrochen")
+
+def _cancelled():
+	return dialog.iscanceled() or xbmc.Monitor().abortRequested()
+
+def _vavoo_param(_type, _id, name, season, episode):
+	if _type == "movie": return {"id": "movie.%s" %_id, "n":name, "find":"true"}
+	return {"id": "series.%s" %_id, "n":name, "s": season, "e": episode, "find":"true"}
+
+def _vavoo_mirrors(param):
+	from vavoo import vjackson
+	try:
+		mirrors = streamTest.runLimited(lambda: vjackson.get_mirrors(param), cancelled=_cancelled) or []
+	except Exception as e:
+		logger.error("VAVOO: %s" % e)
+		return []
+	return [{"site": "vavoo", "name": a["hoster"], "link": a["url"], "mirror": a} for a in mirrors]
+
+def _manual_vavoo():
+	# Stream-Auswahl von Hand in den VAVOO-Einstellungen: dann entscheidet der Nutzer, nicht die Reihenfolge.
+	return xbmcaddon.Addon("plugin.video.vavooto").getSetting("stream_select") == "0"
+
+def _resolve(candidate):
+	if candidate.get("mirror"):
+		from vavoo import vjackson
+		return vjackson.resolve(candidate["mirror"])
+	if candidate.get("resolved"): return candidate["link"]
+	stream = plugin(candidate, True)[0]
+	if stream.get("resolved"): return stream["streamUrl"]
+	import resolveurl as resolver
+	return resolver.resolve(stream["streamUrl"])
+
+def _test(candidate):
+	"""Aufloesen und pruefen teilen sich dasselbe Zeitlimit. Liefert die spielbare URL oder None."""
+	deadline = time.monotonic() + streamTest.LIMIT
+	url = _resolve(candidate)
+	if not isinstance(url, str) or not url: return None
+	streamTest.check(url, deadline)
+	return url
+
+def _first_working(queue, tried, failures, skipFailed=False):
+	"""Testet die Warteschlange der Reihe nach und liefert (Kandidat, URL) des ersten funktionierenden.
+	Getestete Kandidaten verlassen die Schlange, ein zweiter Aufruf macht also beim naechsten weiter.
+	skipFailed laesst kuerzlich gescheiterte aus, sie kommen spaeter ueber die Gesamtliste dran."""
+	total = len(queue)
+	if not total: return None, None
+	dialog.create("Suche gestartet ...", "Teste Streams")
+	import resolveurl # Der erste Import dauert und soll nicht vom Limit des ersten Streams abgehen.
+	timeout = socket.getdefaulttimeout()
+	socket.setdefaulttimeout(streamTest.LIMIT) # Damit auch aufgegebene Tests von selbst enden.
+	try:
+		count = 0
+		while queue:
+			candidate = queue.pop(0)
+			count += 1
+			if skipFailed and failures.has(candidate): continue
+			tried.append(candidate)
+			dialog.update(int(count/total*100), "Teste Stream %s/%s\nSeite: %s\nLink: %s" % (count, total, candidate["site"], candidate["link"]))
+			if _cancelled(): raise Cancelled()
+			try:
+				url = streamTest.runLimited(lambda c=candidate: _test(c), cancelled=_cancelled)
+			except StreamTimeout as e:
+				logger.info("Stream uebersprungen (%s): %s" % (e, candidate["link"]))
+				failures.timedOut(candidate)
+				# Denselben Hoster nicht noch einmal abwarten, solange es andere Streams gibt.
+				queue.sort(key=failures.has)
+				continue
+			except Exception as e:
+				logger.info("Stream defekt (%s): %s" % (e, candidate["link"]))
+				failures.broken(candidate)
+				continue
+			if url: return candidate, url
+			logger.info("Stream nicht aufloesbar (%s): %s" % (candidate["site"], candidate["link"]))
+			failures.broken(candidate)
+	finally:
+		socket.setdefaulttimeout(timeout)
+		dialog.close()
+	return None, None
 
 def _search_and_play(_type, _id, season, episode):
 	data = get_details(_type, _id)
 	if not data: return showFailedNotification("TMDB nicht erreichbar")
 	if _type == "tv": isSerie, name, releaseDate = True, data["name"], data["first_air_date"]
 	else: isSerie, name, releaseDate = False, data["title"], data["release_date"]
+	mirrors = []
 	if xbmcaddon.Addon().getSetting('vavoo') == 'true':
-		from vavoo import vjackson
-		#url = xbmc.executebuiltin('RunPlugin(plugin://plugin.video.vavooto/?action=get&id=movie.%s&find=true)' % _id) if _type == "movie" else xbmc.executebuiltin('RunPlugin(plugin://plugin.video.vavooto/?action=get&id=%s.%s&s=%s&e=%s&find=true)' %(_type, _id,season, episode))
-		param = {"id": "movie.%s" %_id, "n":name, "find":"true"} if _type == "movie" else {"id": "series.%s" %_id, "n":name, "s": season, "e": episode,  "find":"true"}
-		url = vjackson.get(param)
-		if url: return _play(url)
-	searchYear=int(releaseDate[:4])
+		param = _vavoo_param(_type, _id, name, season, episode)
+		if _manual_vavoo():
+			from vavoo import vjackson
+			url = vjackson.get(param)
+			if url: return _play(url)
+		else:
+			mirrors = _vavoo_mirrors(param)
+	# Pro Film bzw. Folge: nur wer genau denselben Titel noch einmal startet, bekommt einen anderen Stream.
+	key = "tv.%s.%s.%s" % (_id, season, episode) if isSerie else "movie.%s" % _id
+	usedStreams = streamHistory.used(key)
+	tried = []
 	results = data.get("alternative_titles", {}).get("results")
 	searchtitles = [a["title"] for a in results] if results else []
 	searchtitles.append(name)
+	# Der deutsche TMDb-Titel kann einen Zusatz haben ("MobLand: Familie bis aufs Blut"), die Seite fuehrt das Original.
+	original = data.get("original_name") or data.get("original_title")
+	if original: searchtitles.append(original)
 	titles = [cleantitle(a) for a in searchtitles]
-	sources = searchGlobal(name.split(":")[0], titles, isSerie, _type, _id, season, episode, searchYear)
-	if not sources: return showFailedNotification("keine Quellen")
-	hosters = get_hosters(sources, isSerie, season, episode)
-	if not hosters: return showFailedNotification("keine Hoster")
-	total = len(hosters)
-	dialog.create("Suche gestartet ...", "Teste Streams")
-	for count, k in enumerate(hosters, 1):
-		dialog.update(int(count/total*100), "Teste Stream %s/%s\nSeite: %s\nLink: %s" % (count, total, k["site"], k["link"]))
-		if dialog.iscanceled(): return showFailedNotification("Abgebrochen")
-		import resolveurl as resolver
-		try:
-			if k.get("resolved"): url = k["link"]
-			else:
-				stream = plugin(k, True)[0]
-				url =  resolver.resolve(stream["streamUrl"])
-			if not isinstance(url, str): 
-				continue
-				#raise Exception("kein Link")
-			headers = {}; params = {}
-			newurl = url
-			if "|" in newurl:
-				newurl, headers = newurl.split("|")
-				headers = dict(parse_qsl(headers))
-			if "?" in newurl:
-				newurl, params = newurl.split("?")
-				params = dict(parse_qsl(params))
-			res = session.get(newurl, headers=headers, params=params, stream=True)
-			if not res.ok: raise Exception("Kann Seite nicht erreichen")
-			if "text" in res.headers.get("Content-Type","text"): raise Exception("Keine Videodatei")
-		except Exception as e:
-			logger.error(e)
-			import traceback
-			logger.error(traceback.format_exc())
-			continue
-		else:
-			logger.info("Spiele :%s" % url)
-			del resolver
-			dialog.close()
-			return _play(url)
-	del resolver
-	dialog.close()
-	return showFailedNotification()
+	def find(siteFilter):
+		sources = searchGlobal(name.split(":")[0], titles, isSerie, _type, _id, season, episode, int(releaseDate[:4]), siteFilter)
+		hosters = get_hosters(sources, isSerie, season, episode) if sources else []
+		dialog.close()
+		return sources, hosters
+	def fresh(candidates):
+		return [c for c in candidates if streamHistory.streamId(c) not in usedStreams]
+	hasPriority = isSerie and xbmcaddon.Addon().getSetting(PRIORITY_SITE) == "true"
+	failure = ["Keine Streams gefunden"]
+	failures = streamHistory.Failures(key)
+	def streams():
+		priority = find(lambda site: site == PRIORITY_SITE)[1] if hasPriority else []
+		# Erst die ungespielten Streams der Vorrang-Seite und von VAVOO, das spart die langsame Suche auf allen Seiten.
+		queue = fresh(priority) + fresh(mirrors)
+		while True:
+			candidate, url = _first_working(queue, tried, failures, True)
+			if not url: break
+			yield candidate, url
+		sources, hosters = find((lambda site: site != PRIORITY_SITE) if hasPriority else None)
+		queue = streamHistory.order(hosters + [c for c in priority + mirrors if c not in tried], usedStreams, failures.has)
+		if not queue and not tried: failure[0] = "keine Hoster" if sources else "keine Quellen"
+		while True:
+			candidate, url = _first_working(queue, tried, failures)
+			if not url: break
+			yield candidate, url
+	label = xbmc.getInfoLabel("ListItem.Label")
+	watcher = PlaybackWatcher()
+	attempts = 0
+	for candidate, url in streams():
+		logger.info("Spiele :%s" % url)
+		watcher.reset()
+		if attempts: _replay(watcher, url, label)
+		else: _play(url)
+		streamHistory.remember(key, candidate)
+		failures.worked(candidate)
+		attempts += 1
+		if not watcher.failed(): return
+		logger.info("Stream startet nicht in Kodi (%s): %s" % (candidate["site"], candidate["link"]))
+		if attempts > MAX_FAILOVERS: break
+	showFailedNotification(failure[0])
 
-def _play(url):
-	o = xbmcgui.ListItem(xbmc.getInfoLabel("ListItem.Label"))
+def _listitem(url, label):
+	o = xbmcgui.ListItem(label)
 	o.setProperty("IsPlayable", "true")
 	if ".m3u8" in url:
 		o.setProperty("inputstream", "inputstream.adaptive")
@@ -298,8 +473,16 @@ def _play(url):
 			url, headers = url.split("|")
 			o.setProperty('inputstream.adaptive.common_headers', headers)
 			o.setProperty('inputstream.adaptive.stream_headers', headers)
-		#if "?" in url:
-			#url, params = url.split("?")
-			#o.setProperty('inputstream.adaptive.stream_params', params)
 	o.setPath(url)
+	return o, url
+
+def _play(url):
+	global resolved
+	o, _ = _listitem(url, xbmc.getInfoLabel("ListItem.Label"))
+	resolved = True
 	xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, o)
+
+def _replay(player, url, label):
+	# Der Aufruf von Kodi ist schon mit dem gescheiterten Stream beantwortet, also direkt abspielen.
+	o, path = _listitem(url, label)
+	player.play(path, o)

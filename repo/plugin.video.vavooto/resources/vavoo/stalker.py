@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import re
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import unicodedata
 
 from vavoo.utils import *
@@ -314,7 +315,7 @@ class StalkerPortal:
 			if not account_info or not isinstance(account_info, dict):
 				if getattr(self, "_net_error", False):
 					return "NETWORK"
-				setSetting("account_info", ""); return "ACCOUNT Infos Empty"
+				setSetting("account_info", ""); self.last_reason = "keine Account-Infos"; return "ACCOUNT Infos Empty"
 			log(account_info)
 			phone = account_info.get("phone")
 			if phone:
@@ -323,7 +324,7 @@ class StalkerPortal:
 				except Exception:
 					expired = False
 				if expired:
-					self._blacklist(); setSetting("account_info", ""); return "ACCOUNT Expired"
+					self._blacklist(); setSetting("account_info", ""); self.last_reason = "Account abgelaufen"; return "ACCOUNT Expired"
 			setSetting("account_info", ",".join("%s:%s" % (k, v) for k, v in account_info.items()))
 
 			chans = self.channels()
@@ -335,6 +336,7 @@ class StalkerPortal:
 				# Handshake + Account gingen durch -> MAC/Token ok, leere Senderliste =
 				# Portal gedrosselt/ueberlastet. MAC NICHT verbrennen.
 				log("Stalker check: Account ok, aber Senderliste leer (Portal gedrosselt?)")
+				self.last_reason = "leere Senderliste (Portal gedrosselt?)"
 				return "No Channels"
 			set_cache("sta_channels", chans, int(getSetting("stalk_cache")))
 
@@ -342,7 +344,8 @@ class StalkerPortal:
 			if g == "IP BLOCKED":
 				self._blocked(); return "IP BLOCKED"
 			if not g:
-				return "NETWORK" if getattr(self, "_net_error", False) else "No Genres"
+				if getattr(self, "_net_error", False): return "NETWORK"
+				self.last_reason = "keine Sendergruppen"; return "No Genres"
 
 			# Stream-Test: bis zu 5 zufaellige Sender - EINER muss echte Daten liefern.
 			# Login + Senderliste + Gruppen sind ok -> die MAC ist gueltig; scheitert nur
@@ -370,6 +373,8 @@ class StalkerPortal:
 						return "NETWORK"
 			if not stream_ok:
 				log("Stalker check: Portal/Login ok, aber kein Test-Stream abspielbar (%s)" % repr(last_err)[:120])
+				detail = last_err if isinstance(last_err, str) else (type(last_err).__name__ if last_err else "kein Stream")
+				self.last_reason = "Stream nicht abspielbar (%s)" % detail
 				return "No Stream"
 
 			setSetting("portal_ok", "Status OK")
@@ -470,23 +475,36 @@ def new_mac(silent=False):
 		return False
 	return check_portal(url, maclist, silent)
 	
+def _stalker_pace():
+	"""Sekunden Pause zwischen Portal-Anfragen, damit das Portal nicht drosselt. Leer = 2."""
+	try:
+		return max(0.0, float(getSetting("stalker_pace")))
+	except (TypeError, ValueError):
+		return 2.0
+
 def _probe_one(url, mac):
 	try:
 		return mac, StalkerPortal(url, mac, persist=False).probe()
 	except Exception as exc:
 		return mac, ("NETWORK" if _stalker_net_error(exc) else "INVALID")
 
-def prefilter_macs(url, maclist, faultymaclist, limit=12):
-	"""Paralleler Handshake-Schnelltest. Rueckgabe: (status, good, expired, probed)."""
+def prefilter_macs(url, maclist, faultymaclist, limit=12, prog=None):
+	"""Handshake-Schnelltest, sortiert schnell die toten MACs aus. Rueckgabe: (status, good, expired, probed).
+	Laeuft mit wenigen Threads parallel, damit das Fenster nicht minutenlang auf einer MAC steht;
+	die eigentliche Entzerrung gegen Drosselung passiert ueber die Pause bei den vollen Pruefungen."""
 	pool = [m for m in maclist if m not in faultymaclist]
 	random.shuffle(pool)
 	pool = pool[:limit]
 	if not pool:
 		return "EMPTY", [], [], []
+	results = []
 	try:
-		# schonend: nur 2 gleichzeitig, sonst blockt das Portal die IP
-		with ThreadPoolExecutor(max_workers=min(2, len(pool))) as ex:
-			results = list(ex.map(lambda m: _probe_one(url, m), pool))
+		with ThreadPoolExecutor(max_workers=min(3, len(pool))) as ex:
+			futures = [ex.submit(_probe_one, url, m) for m in pool]
+			for fut in as_completed(futures):
+				results.append(fut.result())
+				if prog is not None:
+					prog.update(min(35, int(len(results) * 35 / len(pool))), "Pruefe Mac Adressen %s/%s" % (len(results), len(pool)))
 	except Exception:
 		log(format_exc())
 		results = [_probe_one(url, m) for m in pool]
@@ -522,29 +540,31 @@ def check_portal(url, maclist, silent=False):
 		progress.create("TESTE STALKER MAC ADRESSEN", "Pruefe Mac Adressen ...")
 	setSetting("portal_ok", "Teste Mac Adressen ...")
 	try:
-		budget = max(10, int(getSetting("stalker_retry")))
+		budget = max(1, int(getSetting("stalker_retry")))
 	except (TypeError, ValueError):
 		budget = 10
-	batch_size = min(24, max(8, budget))
-	# "Login ok, kein Stream" weiter durchprobieren: manuell grosszuegig, im Hintergrund knapp
-	stream_budget = min(len(maclist), budget if silent else max(30, budget * 2))
+	batch_size = min(12, max(8, budget))
+	# Jede vollstaendig getestete MAC zaehlt, egal woran sie scheitert: die Einstellung ist die Obergrenze.
+	budget = min(len(maclist), budget)
 
 	tried = set(faultymaclist)
+	pace = _stalker_pace()
 	checks = 0
-	hard_checks = 0
+	reason = ""
+	REASON_FALLBACK = {"No Stream": "Stream nicht abspielbar", "No Channels": "leere Senderliste", "No Genres": "keine Sendergruppen", "ACCOUNT Expired": "Account abgelaufen", "ACCOUNT Infos Empty": "keine Account-Infos"}
 	no_stream_macs = []
 	nochan = 0
 	saw_expired = False
 
 	for _round in range(6):
-		if hard_checks >= budget or checks >= stream_budget or monitor.abortRequested():
+		if checks >= budget or monitor.abortRequested():
 			break
 		if silent == False and progress.iscanceled():
 			progress.close(); return False
 		pool = [m for m in maclist if m not in tried]
 		if not pool:
 			break
-		status, good, expired, probed = prefilter_macs(url, pool, faultymaclist, batch_size)
+		status, good, expired, probed = prefilter_macs(url, pool, faultymaclist, batch_size, prog=(None if silent else progress))
 		tried.update(probed)
 		tried.update(faultymaclist)
 		faultymac[url] = faultymaclist
@@ -566,18 +586,21 @@ def check_portal(url, maclist, silent=False):
 			continue
 
 		for mac in good:
-			if hard_checks >= budget or checks >= stream_budget or monitor.abortRequested():
+			if checks >= budget or monitor.abortRequested():
 				break
 			if silent == False and progress.iscanceled():
 				progress.close(); return False
 			checks += 1
 			if silent == False:
-				_lim = stream_budget if no_stream_macs else budget
-				progress.update(min(99, int(checks * 100 / max(_lim, 1))), "Vollstaendiger Test %s/%s\n%s" % (checks, _lim, mac))
-			setSetting("portal_ok", "Vollstaendiger Test %s/%s" % (checks, (stream_budget if no_stream_macs else budget)))
+				detail = ("\nvorige MAC: %s" % reason) if reason else ""
+				progress.update(min(99, int(checks * 100 / max(budget, 1))), "Teste MAC %s/%s\n%s%s" % (checks, budget, mac, detail))
+			setSetting("portal_ok", "Teste MAC %s/%s%s" % (checks, budget, (" - zuvor: %s" % reason) if reason else ""))
 			setSetting("mac", mac)
 			set_cache("mac", mac)
-			chk = StalkerPortal(url, mac).check()
+			if checks > 1 and pace and monitor.waitForAbort(pace):
+				break
+			portal = StalkerPortal(url, mac)
+			chk = portal.check()
 			if chk == True:
 				if silent == False: progress.close()
 				execute("Container.Refresh")
@@ -593,16 +616,16 @@ def check_portal(url, maclist, silent=False):
 					dialog.notification("VAVOO.TO", "Stalker-Portal nicht erreichbar", xbmcgui.NOTIFICATION_WARNING, 3000)
 				setSetting("portal_ok", "Portal nicht erreichbar")
 				return False
+			reason = getattr(portal, "last_reason", "") or REASON_FALLBACK.get(chk, chk)
 			if chk in ("No Stream", "No Channels"):
 				# MAC/Login ok, aber Portal liefert nicht (Stream gesperrt / Senderliste leer)
 				# -> weiter mit der naechsten MAC, MAC NICHT verbrennen
 				no_stream_macs.append(mac)
 				if chk == "No Channels": nochan += 1
 				if silent == False:
-					progress.update(min(99, int(checks * 100 / max(stream_budget, 1))), "Login ok, Stream gesperrt - weiter  %s/%s" % (checks, stream_budget))
+					progress.update(min(99, int(checks * 100 / max(budget, 1))), "Login ok - weiter: %s  %s/%s" % (reason, checks, budget))
 				continue
 			# No Channels / No Genres / ACCOUNT Expired  (check() hat ggf. schon geblacklistet)
-			hard_checks += 1
 			if mac not in faultymaclist:
 				faultymaclist.append(mac)
 			faultymac[url] = faultymaclist
