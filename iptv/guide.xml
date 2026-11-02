@@ -3181,38 +3181,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20261101221510 +0000" stop="20261101223946 +0000" channel="Red Bull TV.en"><title>DANCE: Take the Title – South Africa's Elite Talent</title>
-<desc>Watch the Red Bull Dance Your Style National Final as the 16 top compete for a spot at the World Final.</desc>
-<icon src="https://img.liiift.io/v1/DAM/FOY60RG04XI2RN67IKWE.png/a:p/im/Artwork%3AVertical.png"/>
-<episode-num system="original-air-date">2026-08-25 11:30:18</episode-num>
-<date>2026</date></programme>
-  <programme start="20261101223946 +0000" stop="20261101225420 +0000" channel="Red Bull TV.en"><title>DANCE: What it Takes to Break – Phil Wizard's Skills</title>
-<desc>B-Boys Phil Wizard and Lee learn the secrets of Menno's creativity before battling in a test of originality.</desc>
-<icon src="https://img.liiift.io/v1/DAM/FONTNRGEGAB319WKI674.png/a:p/im:i:c_limit,w_1920,h_1080/WhatItTakesToBreak_portrait.png"/>
-<episode-num system="original-air-date">2026-08-25 12:23:16</episode-num>
-<date>2026</date></programme>
-  <programme start="20261101225420 +0000" stop="20261101231936 +0000" channel="Red Bull TV.en"><title>DANCE: What it Takes to Break – Phil Wizard's Skills</title>
-<desc>B-Boy Hong 10 trains Phil before challenging him to an unlimited rounds break battle in Seoul, South Korea.</desc>
-<icon src="https://img.liiift.io/v1/DAM/FO629S393TR8NPP86U5C.png/a:p/im:i:c_limit,w_1920,h_1080/WhatItTakesToBreak_portrait.png"/>
-<episode-num system="original-air-date">2026-08-25 12:37:50</episode-num>
-<date>2026</date></programme>
-  <programme start="20261101231936 +0000" stop="20261101234755 +0000" channel="Red Bull TV.en"><title>DANCE: Return of the Lords – An Iconic Breaking Event</title>
-<desc>From veterans to the next generation, see the best breaking crews battle at Red Bull Lords of the Floor 2024.</desc>
-<icon src="https://img.liiift.io/v1/DAM/FOBA1A2N1Q4Y0N6HH2RS.png/a:p/im:i:c_limit,w_1920,h_1080/RedBullLordsOfTheFloor_portrait.png"/>
-<episode-num system="original-air-date">2026-10-25 22:51:46</episode-num>
-<date>2026</date></programme>
-  <programme start="20261101234755 +0000" stop="20261102001115 +0000" channel="Red Bull TV.en"><title>BIKE: Paradigm – Raw MTB Talent Reaching New Heights</title>
-<desc>The precision of slopestyle, massive airs of freeride and the raw speed of downhill mean nonstop MTB action.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/xcZonwPFynraospKrWt3gqf6p9r.jpg"/>
-<episode-num system="themoviedb.org">series/1583569</episode-num>
-<episode-num system="original-air-date">2026-10-11 21:44:13</episode-num>
-</programme>
-  <programme start="20261102001115 +0000" stop="20261102010555 +0000" channel="Red Bull TV.en"><title>BIKE: Hard Enduro 2025: The Hardest Season Yet?</title>
-<desc>Go behind the scenes of the 2025 season of Red Bull Erzbergrodeo, Red Bull Romaniacs and Red Bull Outliers.</desc>
-<icon src="https://img.liiift.io/v1/DAM/FOU454XDH2G87JHX3958.jpeg/a:p/im/MI202508190203_Artwork_2_3_HardEnduro.jpeg"/>
-<episode-num system="original-air-date">2026-08-25 08:26:03</episode-num>
-<date>2026</date></programme>
   <programme start="20261102010555 +0000" stop="20261102015831 +0000" channel="Red Bull TV.en"><title>BIKE: Men's Red Bull Rampage 2025 Utah – Highlights</title>
 <desc>Watch the 18 male mountain bike athletes showcase skill and creativity in this invitation-only freeride event.</desc>
 <icon src="https://img.liiift.io/v1/DAM/FOLI0YMV4I39LUM6FEUM.jpeg/a:p/im/MI202510090897_Artwork_2_3_SI202510200106.jpeg"/>
@@ -3479,6 +3447,31 @@
 <desc>Meet exceptional people who've made life-altering decisions to race Dakar, making sacrifices for a dream.</desc>
 <icon src="https://img.liiift.io/v1/DAM/FOYD334V20PJAYQM2BED.jpeg/a:p/im/MI202312070984_Artwork_2_3_InTheDust.jpeg"/>
 <episode-num system="original-air-date">2026-07-06 16:09:49</episode-num>
+<date>2026</date></programme>
+  <programme start="20261102215751 +0000" stop="20261102223039 +0000" channel="Red Bull TV.en"><title>MOTORSPORT: In the Dust – Dakar Rally</title>
+<desc>Nasser Al-Attiyah and Carlos Sainz join us to share a unique insight into their friendship and rivalry.</desc>
+<icon src="https://img.liiift.io/v1/DAM/FO2FHFA5S39BLMKXNWB6.jpeg/a:p/im/MI202312070957_Artwork_2_3_SI202401110548.jpeg"/>
+<episode-num system="original-air-date">2026-07-06 16:49:00</episode-num>
+<date>2026</date></programme>
+  <programme start="20261102223039 +0000" stop="20261102225653 +0000" channel="Red Bull TV.en"><title>MOTORSPORT: In the Dust – Dakar Rally 2024</title>
+<desc>Kevin and Luciano Benavides are on rival teams (KTM and Husqvarna). Do team orders overrule family ties?</desc>
+<icon src="https://img.liiift.io/v1/DAM/FO7GKVIT0IGYICTT9G32.png/a:p/im/InTheDust_portrait.png"/>
+<episode-num system="original-air-date">2026-07-06 17:22:24</episode-num>
+<date>2026</date></programme>
+  <programme start="20261102225653 +0000" stop="20261102233535 +0000" channel="Red Bull TV.en"><title>MOTORSPORT: In the Dust – Dakar Rally</title>
+<desc>We explore the physical and mental stamina required for the brutal 9,000km journey of the Dakar Rally.</desc>
+<icon src="https://img.liiift.io/v1/DAM/FONRR32YMSPT2UZ3NBFD.jpeg/a:p/im/MI202312070915_Artwork_2_3_InTheDust.jpeg"/>
+<episode-num system="original-air-date">2026-07-06 17:48:38</episode-num>
+<date>2026</date></programme>
+  <programme start="20261102233535 +0000" stop="20261103000531 +0000" channel="Red Bull TV.en"><title>MOTORSPORT: In the Dust – Dakar Rally</title>
+<desc>Uncover the brutal 48-hour solo marathon stage through the story of first-time Dakar competitor Tobias Ebster.</desc>
+<icon src="https://img.liiift.io/v1/DAM/FOPRPTMGNNHQMLF03AWK.jpeg/a:p/im/MI202312070958_Artwork_2_3_SI202401160988.jpeg"/>
+<episode-num system="original-air-date">2026-07-06 18:27:20</episode-num>
+<date>2026</date></programme>
+  <programme start="20261103000531 +0000" stop="20261103003840 +0000" channel="Red Bull TV.en"><title>MOTORSPORT: In the Dust – Dakar Rally</title>
+<desc>Finding your way from point A to point B in the desert becomes a huge challenge for Dakar competitors.</desc>
+<icon src="https://img.liiift.io/v1/DAM/FORMPLTPMFK0GVJY0MTF.jpeg/a:p/im/MI202312070951_Artwork_2_3_InTheDust.jpeg"/>
+<episode-num system="original-air-date">2026-07-06 18:57:16</episode-num>
 <date>2026</date></programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
