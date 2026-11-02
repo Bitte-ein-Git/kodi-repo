@@ -1,13 +1,11 @@
 # -*- coding: utf-8 -*-
 # Python 3
 
-import sys, xbmc, xbmcgui , xbmcplugin
-from resources.lib.tools import logger, cParser
-from resources.lib import common, settings
+import xbmc, xbmcgui
+from resources.lib.tools import cParser
+from resources.lib import settings
 from resources.lib.config import cConfig
-from resources.lib.gui.guiElement import cGuiElement
 from resources.lib.handler.parameterHandler import ParameterHandler
-from six.moves.urllib.parse import quote_plus, urlencode
 
 
 class cGui:
@@ -29,8 +27,12 @@ class cGui:
 			return
 		settings.aDirectory.append(self.__createItemUrl(oGuiElement,bIsFolder, copy.deepcopy(params)))
 
-	def addNextPage(self, site, function, params=''):
+	def addNextPage(self, site, function, params='', sPageInfo=''):
 		pass
+
+	@staticmethod
+	def pageInfo(iCurrent, iLast):
+		return ''
 
 	def createListItem(self, oGuiElement):
 		pass
@@ -86,9 +88,9 @@ class cGui:
 		return params.getAllParameters()
 
 	@staticmethod
-	def showKeyBoard(sDefaultText=""):
+	def showKeyBoard(sDefaultText="", sHeading=""):
 		# Create the keyboard object and display it modal
-		oKeyboard = xbmc.Keyboard(sDefaultText)
+		oKeyboard = xbmc.Keyboard(sDefaultText, sHeading)
 		oKeyboard.doModal()
 		# If key board is confirmed and there was text entered return the text
 		if oKeyboard.isConfirmed():
@@ -118,7 +120,7 @@ class cGui:
 			iSeconds = 1000
 		else:
 			iSeconds = iSeconds * 1000
-		xbmc.executebuiltin("Notification(%s,%s,%s,%s)" % (str(sTitle), (str(sDescription)), iSeconds, common.addon.getAddonInfo('icon')))
+		xbmc.executebuiltin("Notification(%s,%s,%s,%s)" % (str(sTitle), (str(sDescription)), iSeconds, cConfig().getAddonInfo('icon')))
 
 	@staticmethod
 	def showInfo(sTitle='xStream', sDescription=cConfig().getLocalizedString(30253), iSeconds=0):
@@ -130,4 +132,4 @@ class cGui:
 			iSeconds = 1000
 		else:
 			iSeconds = iSeconds * 1000
-		xbmc.executebuiltin("Notification(%s,%s,%s,%s)" % (str(sTitle), (str(sDescription)), iSeconds, common.addon.getAddonInfo('icon')))
+		xbmc.executebuiltin("Notification(%s,%s,%s,%s)" % (str(sTitle), (str(sDescription)), iSeconds, cConfig().getAddonInfo('icon')))

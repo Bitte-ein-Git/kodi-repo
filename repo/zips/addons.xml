@@ -764,16 +764,15 @@ CI &amp; build changes
             <icon>icon.png</icon>
         </assets>
 	</extension>
-</addon><addon id="script.module.xstreamscraper" name="[COLOR darkorange]» Autom. Quellen-Suche[/COLOR]" provider-name="Bitte-ein-Git!" version="fordy-2026.08.24">
+</addon><addon id="script.module.xstreamscraper" name="[COLOR darkorange]» Autom. Quellen-Suche[/COLOR]" provider-name="Bitte-ein-Git!" version="fordy-2026.11.01.2">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="plugin.video.vavooto" />
         <import addon="script.module.requests" />
-        <import addon="script.module.six" />
         <import addon="script.module.resolveurl" />
         <import addon="plugin.video.xstream" />
+        
         <import addon="script.module.pyaes" />
-        <import addon="script.module.pydevd" optional="true" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="main.py">
         <provides>video</provides>
