@@ -2864,48 +2864,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20261104060000 +0000" stop="20261104064357 +0000" channel="Red Bull TV.en"><title>ACTION: Red Bull Soapbox Race – Crazy Obstacle Courses</title>
-<desc>From amazing driving to wild crashes, watch this weird and wonderful events' best from around the globe.</desc>
-<icon src="https://img.liiift.io/v1/DAM/FOH755BC4W30851X961I.jpeg/a:p/im/MI201801050037_Artwork_2_3_%20SI201307150218.jpeg"/>
-<episode-num system="original-air-date">2026-11-02 12:09:45</episode-num>
-<date>2026</date></programme>
-  <programme start="20261104064357 +0000" stop="20261104072737 +0000" channel="Red Bull TV.en"><title>ACTION: Red Bull Soapbox Race – Crazy Obstacle Courses</title>
-<desc>Wild homemade cars race downhill in Cincinnati with action, laughs and crazy spills you won’t want to miss!</desc>
-<icon src="https://img.liiift.io/v1/DAM/FO-1ZJ956GR95N11.jpg/a:p/im:i:c_limit,w_1920,h_1080/soapboxrace_s6e2_ohio-display_portrait.jpg"/>
-<episode-num system="original-air-date">2026-07-25 09:09:56</episode-num>
-<date>2026</date></programme>
-  <programme start="20261104072737 +0000" stop="20261104073639 +0000" channel="Red Bull TV.en"><title>ACTION: Red Bull Soapbox Race – Crazy Obstacle Courses</title>
-<desc>From flying bodywork to broken steering and fast rides, competition brings wild moments across seven stops.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
-<episode-num system="themoviedb.org">series/287622</episode-num>
-<episode-num system="original-air-date">2026-07-04 05:30:41</episode-num>
-</programme>
-  <programme start="20261104073639 +0000" stop="20261104074652 +0000" channel="Red Bull TV.en"><title>ACTION: Red Bull Soapbox Race – Crazy Obstacle Courses</title>
-<desc>In 2018, the soapbox cars looked better than ever. See the crowd favourites and best roll to the finish!</desc>
-<icon src="https://image.tmdb.org/t/p/original/3hXoGBcSLabu2ViQDOMV1r0ejSN.jpg"/>
-<episode-num system="themoviedb.org">series/337165</episode-num>
-<episode-num system="original-air-date">2026-08-30 06:08:37</episode-num>
-<date>2026</date></programme>
-  <programme start="20261104074652 +0000" stop="20261104075737 +0000" channel="Red Bull TV.en"><title>MOTORSPORT: Red Bull Racing Road Trips – Off the Grid</title>
-<desc>Max Verstappen and Sergio Pérez race Yuki Tsunoda and Daniel Ricciardo in wild home-made soapbox cars!</desc>
-<icon src="https://img.liiift.io/v1/DAM/FO8A5DK28I9D84Q0IXB4.jpeg/a:p/im:i:c_limit,w_1920,h_1080/MI202406040873_Artwork_2_3_SI202406070316_UnseriousRace.jpeg"/>
-<episode-num system="original-air-date">2026-08-01 05:35:04</episode-num>
-<date>2026</date></programme>
-  <programme start="20261104075737 +0000" stop="20261104080610 +0000" channel="Red Bull TV.en"><title>ACTION: Red Bull Soapbox Race – Crazy Obstacle Courses</title>
-<desc>Top soapbox designers aim for nothing less than infinity and beyond with their pop culture-inspired creations!</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
-<episode-num system="themoviedb.org">series/287622</episode-num>
-<episode-num system="original-air-date">2026-08-02 05:42:42</episode-num>
-</programme>
-  <programme start="20261104080610 +0000" stop="20261104081625 +0000" channel="Red Bull TV.en"><title>ACTION: Red Bull Soapbox Race – Crazy Obstacle Courses</title>
-<desc>Speed may win the race, but quirky designs, big shows and huge crashes win the crowd in 2016.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
-<episode-num system="themoviedb.org">series/287622</episode-num>
-<episode-num system="original-air-date">2026-10-04 00:23:26</episode-num>
-</programme>
   <programme start="20261104081625 +0000" stop="20261104082644 +0000" channel="Red Bull TV.en"><title>ACTION: Red Bull Soapbox Race – Crazy Obstacle Courses</title>
 <desc>Red Bull Soapbox racers get faster each year, and in 2017 one team built the fastest musical drum set ever.</desc>
 <icon src="https://image.tmdb.org/t/p/original/3hXoGBcSLabu2ViQDOMV1r0ejSN.jpg"/>
@@ -3184,6 +3142,47 @@
 <icon src="https://image.tmdb.org/t/p/original/3hXoGBcSLabu2ViQDOMV1r0ejSN.jpg"/>
 <episode-num system="themoviedb.org">series/337165</episode-num>
 <episode-num system="original-air-date">2026-07-04 08:54:58</episode-num>
+<date>2026</date></programme>
+  <programme start="20261105054200 +0000" stop="20261105055103 +0000" channel="Red Bull TV.en"><title>ACTION: Red Bull Soapbox Race – Crazy Obstacle Courses</title>
+<desc>From flying bodywork to broken steering and fast rides, competition brings wild moments across seven stops.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
+<episode-num system="themoviedb.org">series/287622</episode-num>
+<episode-num system="original-air-date">2026-07-04 05:30:41</episode-num>
+</programme>
+  <programme start="20261105055103 +0000" stop="20261105060000 +0000" channel="Red Bull TV.en"><title>ACTION: Red Bull Soapbox Race – Crazy Obstacle Courses</title>
+<desc>Meet fearless teams who race fast and push their soapbox cars beyond the limits… and sometimes rules.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
+<episode-num system="themoviedb.org">series/287622</episode-num>
+<episode-num system="original-air-date">2026-07-04 05:22:41</episode-num>
+</programme>
+  <programme start="20261105060000 +0000" stop="20261105060800 +0000" channel="Red Bull TV.en"><title>ACTION: Red Bull Soapbox Race – Crazy Obstacle Courses</title>
+<desc>Meet fearless teams who race fast and push their soapbox cars beyond the limits… and sometimes rules.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
+<episode-num system="themoviedb.org">series/287622</episode-num>
+<episode-num system="original-air-date">2026-07-04 05:22:41</episode-num>
+</programme>
+  <programme start="20261105060800 +0000" stop="20261105064556 +0000" channel="Red Bull TV.en"><title>SNOWBOARD: Cake – Pros Celebrating Creativity and Joy</title>
+<desc>Experience the joy and creativity of how pros ride and inspire others to hit the slopes.</desc>
+<icon src="https://img.liiift.io/v1/DAM/FO6U37WJEEMWBCS0VQQA.jpeg/a:p/im/MI202310021090_Artwork_2_3_SI202103120679.jpeg"/>
+<episode-num system="original-air-date">2026-11-02 15:09:16</episode-num>
+<date>2026</date></programme>
+  <programme start="20261105064556 +0000" stop="20261105065803 +0000" channel="Red Bull TV.en"><title>SNOW: RND at Natural Selection Snow Super Sessions 2026</title>
+<desc>Women snowboarders compete at Research &amp; Development (RND) for a slot at YETI Natural Selection Revelstoke.</desc>
+<icon src="https://img.liiift.io/v1/DAM/FO6D9563QWHN6Z6GPIUM.jpeg/a:p/im/MI202602100627_Artwork_2_3_SuperSessions.jpeg.jpeg"/>
+<episode-num system="original-air-date">2026-11-02 15:47:12</episode-num>
+<date>2026</date></programme>
+  <programme start="20261105065803 +0000" stop="20261105073421 +0000" channel="Red Bull TV.en"><title>SNOWBOARDING: Echoes of Impact – Marcus Kleveland</title>
+<desc>See how Marcus Kleveland battles with injury, pressure and the passion that fuels his snowboarding journey.</desc>
+<icon src="https://img.liiift.io/v1/DAM/FO9Z4PNCSW138GSZ7YC6.jpeg/a:p/im/MI202503180457_Artwork_2_3_SI202510090432.jpeg"/>
+<episode-num system="original-air-date">2026-11-02 15:59:19</episode-num>
+<date>2026</date></programme>
+  <programme start="20261105073421 +0000" stop="20261105084011 +0000" channel="Red Bull TV.en"><title>SNOWBOARDING: Beyond the Fantasy – Making Dreams Real</title>
+<desc>Wild snow dreams and improbable visions come alive as athletes turn imagination into reality on the slopes.</desc>
+<icon src="https://img.liiift.io/v1/DAM/FOWWW7CI91I6C89LYXDS.png/a:p/im:i:c_limit,w_1920,h_1080/BeyondtheFantasy_portrait.png"/>
+<episode-num system="original-air-date">2026-11-02 16:35:37</episode-num>
 <date>2026</date></programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
@@ -4635,50 +4634,6 @@
   <channel id="RTLTeleLuxembourg.lu">
     <display-name>RTL Télé Lëtzebuerg</display-name>
   </channel>
-  <programme start="20261103070000 +0000" stop="20261103080000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Rediffusioun vu Magazin a Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261103080000 +0000" stop="20261103100000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261103100000 +0000" stop="20261103103000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Kannerserie: Klincus</title>
-    <desc>An der faszinéierender Welt vu Klincus treffen Technologie, Fantasie an Natur openeen. Eng industriell Revolutioun verännert d'Welt an erméiglecht ëmmer nei technesch Innovatiounen – mee dobäi geréit d'Gläichgewiicht mat der Natur a Gefor.br /Klincus erzielt vun engem éiwege Konflikt: tëscht Modernitéit an Traditioun, tëscht dem Fortschrëtt an den ale Gesetzer vun der Natur. Eng spannend Fantasiegeschicht, déi net nëmmen an enger fiktiver Welt spillt, mee och Froen opwerft, déi eis haut méi wéi jee beschäftegen</desc>
-  </programme>
-  <programme start="20261103103000 +0000" stop="20261103193000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261103193000 +0000" stop="20261103200000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Kannerserie: Klincus</title>
-    <desc>An der faszinéierender Welt vu Klincus treffen Technologie, Fantasie an Natur openeen. Eng industriell Revolutioun verännert d'Welt an erméiglecht ëmmer nei technesch Innovatiounen – mee dobäi geréit d'Gläichgewiicht mat der Natur a Gefor.br /Klincus erzielt vun engem éiwege Konflikt: tëscht Modernitéit an Traditioun, tëscht dem Fortschrëtt an den ale Gesetzer vun der Natur. Eng spannend Fantasiegeschicht, déi net nëmmen an enger fiktiver Welt spillt, mee och Froen opwerft, déi eis haut méi wéi jee beschäftegenbr /br /</desc>
-  </programme>
-  <programme start="20261103200000 +0000" stop="20261103200200 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Meteoflash</title>
-    <desc>Nachrichten</desc>
-  </programme>
-  <programme start="20261103200200 +0000" stop="20261103201500 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Magazin</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261103201500 +0000" stop="20261103203000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Magazin Interview</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261103203000 +0000" stop="20261103205600 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261103205600 +0000" stop="20261103210000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Meteo</title>
-    <desc>Nachrichten</desc>
-  </programme>
-  <programme start="20261103210000 +0000" stop="20261104070000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Rediffusioun vu Magazin a Journal</title>
-    <desc>Info</desc>
-  </programme>
   <programme start="20261104070000 +0000" stop="20261104080000 +0000" channel="RTLTeleLuxembourg.lu">
     <title>Rediffusioun vu Magazin a Journal</title>
     <desc>Info</desc>
@@ -4731,54 +4686,50 @@
     <title>RTL Radio Web TV</title>
     <desc>Info</desc>
   </programme>
+  <programme start="20261105100000 +0000" stop="20261105103000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Kannerserie: Klincus</title>
+    <desc>An der faszinéierender Welt vu Klincus treffen Technologie, Fantasie an Natur openeen. Eng industriell Revolutioun verännert d'Welt an erméiglecht ëmmer nei technesch Innovatiounen – mee dobäi geréit d'Gläichgewiicht mat der Natur a Gefor.br /Klincus erzielt vun engem éiwege Konflikt: tëscht Modernitéit an Traditioun, tëscht dem Fortschrëtt an den ale Gesetzer vun der Natur. Eng spannend Fantasiegeschicht, déi net nëmmen an enger fiktiver Welt spillt, mee och Froen opwerft, déi eis haut méi wéi jee beschäftegen</desc>
+  </programme>
+  <programme start="20261105103000 +0000" stop="20261105193000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261105193000 +0000" stop="20261105200000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Kannerserie: Klincus</title>
+    <desc>An der faszinéierender Welt vu Klincus treffen Technologie, Fantasie an Natur openeen. Eng industriell Revolutioun verännert d'Welt an erméiglecht ëmmer nei technesch Innovatiounen – mee dobäi geréit d'Gläichgewiicht mat der Natur a Gefor.br /Klincus erzielt vun engem éiwege Konflikt: tëscht Modernitéit an Traditioun, tëscht dem Fortschrëtt an den ale Gesetzer vun der Natur. Eng spannend Fantasiegeschicht, déi net nëmmen an enger fiktiver Welt spillt, mee och Froen opwerft, déi eis haut méi wéi jee beschäftegenbr /br /</desc>
+  </programme>
+  <programme start="20261105200000 +0000" stop="20261105200200 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Meteoflash</title>
+    <desc>Nachrichten</desc>
+  </programme>
+  <programme start="20261105200200 +0000" stop="20261105203000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Schrëtt fir Schrëtt</title>
+    <desc>Et ginn Amenter am Liewen, do brauch et Courage fir weiderzegoen. Iwwert en halleft Joer hu mir siwe Leit an hirem Alldag begleet. Schrëtt fir Schrëtt – d'Dokuserie, elo ëmmer Donneschdes um 19 Auer.br /br /</desc>
+  </programme>
+  <programme start="20261105203000 +0000" stop="20261105205600 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>De Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261105205600 +0000" stop="20261105210000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Meteo</title>
+    <desc>Nachrichten</desc>
+  </programme>
+  <programme start="20261105210000 +0000" stop="20261106070000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Rediffusioun vu Magazin a Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261106070000 +0000" stop="20261106080000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Rediffusioun vu Magazin a Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261106080000 +0000" stop="20261106100000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
+  </programme>
   <channel id="RTL.Zwee.lu">
     <display-name>RTL Zwee</display-name>
     <icon src="https://iptv-epg.org/images/oHSmItP6WtPBct623O8G2WwY1UUKinaauYHEqQcVkJSEsQDupbBGhIXVqycpGDDKb6tbS71i4meL--qsxVwayBEazAz7nFhF2bF3ODnkZwi2DIDY"/>
   </channel>
-  <programme start="20261103070000 +0000" stop="20261103080000 +0000" channel="RTL.Zwee.lu">
-    <title>Rediffusioun vu Magazin a Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261103080000 +0000" stop="20261103193000 +0000" channel="RTL.Zwee.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261103193000 +0000" stop="20261103194700 +0000" channel="RTL.Zwee.lu">
-    <title>Musekbox</title>
-    <desc>Unterhaltung</desc>
-  </programme>
-  <programme start="20261103194700 +0000" stop="20261103200000 +0000" channel="RTL.Zwee.lu">
-    <title>Invité vun der Redaktioun</title>
-    <desc>Gespräch</desc>
-  </programme>
-  <programme start="20261103200000 +0000" stop="20261103200200 +0000" channel="RTL.Zwee.lu">
-    <title>Meteoflash</title>
-    <desc>Nachrichten</desc>
-  </programme>
-  <programme start="20261103200200 +0000" stop="20261103201500 +0000" channel="RTL.Zwee.lu">
-    <title>De Magazin</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261103201500 +0000" stop="20261103203000 +0000" channel="RTL.Zwee.lu">
-    <title>Magazin Interview</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261103203000 +0000" stop="20261103205600 +0000" channel="RTL.Zwee.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261103205600 +0000" stop="20261103210000 +0000" channel="RTL.Zwee.lu">
-    <title>Meteo</title>
-    <desc>Nachrichten</desc>
-  </programme>
-  <programme start="20261103210000 +0000" stop="20261103214500 +0000" channel="RTL.Zwee.lu">
-    <title>Rediffusioun vu Magazin a Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261103214500 +0000" stop="20261104070000 +0000" channel="RTL.Zwee.lu">
-    <title>Champions League</title>
-    <desc>Magazin</desc>
-  </programme>
   <programme start="20261104070000 +0000" stop="20261104080000 +0000" channel="RTL.Zwee.lu">
     <title>Rediffusioun vu Magazin a Journal</title>
     <desc>Info</desc>
@@ -4827,40 +4778,37 @@
     <title>RTL Radio Web TV</title>
     <desc>Info</desc>
   </programme>
-  <programme start="20261103060000 +0000" stop="20261103070000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">Rediffusioun vu Magazin a Journal.</desc>
-    <title lang="en">Rediffusioun vu Magazin a Journal</title>
+  <programme start="20261105194700 +0000" stop="20261105200000 +0000" channel="RTL.Zwee.lu">
+    <title>Invité vun der Redaktioun</title>
+    <desc>Gespräch</desc>
   </programme>
-  <programme start="20261103183000 +0000" stop="20261103184700 +0000" channel="RTL.Zwee.lu"><category lang="en">Unterhaltung</category>
-    <date>2026</date>
-    <desc lang="en">Musekbox.</desc>
-    <title lang="en">Musekbox</title>
+  <programme start="20261105200000 +0000" stop="20261105200200 +0000" channel="RTL.Zwee.lu">
+    <title>Meteoflash</title>
+    <desc>Nachrichten</desc>
   </programme>
-  <programme start="20261103184700 +0000" stop="20261103190000 +0000" channel="RTL.Zwee.lu"><category lang="en">Gespräch</category>
-    <date>2026</date>
-    <desc lang="en">Invité vun der Redaktioun.</desc>
-    <title lang="en">Invité vun der Redaktioun</title>
+  <programme start="20261105200200 +0000" stop="20261105203000 +0000" channel="RTL.Zwee.lu">
+    <title>Schrëtt fir Schrëtt</title>
+    <desc>Et ginn Amenter am Liewen, do brauch et Courage fir weiderzegoen. Iwwert en halleft Joer hu mir siwe Leit an hirem Alldag begleet. Schrëtt fir Schrëtt – d'Dokuserie, elo ëmmer Donneschdes um 19 Auer.br /br /</desc>
   </programme>
-  <programme start="20261103190000 +0000" stop="20261103190200 +0000" channel="RTL.Zwee.lu"><category lang="en">Nachrichten</category>
-    <date>2026</date>
-    <desc lang="en">Meteoflash.</desc>
-    <title lang="en">Meteoflash</title>
+  <programme start="20261105203000 +0000" stop="20261105205600 +0000" channel="RTL.Zwee.lu">
+    <title>De Journal</title>
+    <desc>Info</desc>
   </programme>
-  <programme start="20261103190200 +0000" stop="20261103191500 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">De Magazin.</desc>
-    <title lang="en">De Magazin</title>
+  <programme start="20261105205600 +0000" stop="20261105210000 +0000" channel="RTL.Zwee.lu">
+    <title>Meteo</title>
+    <desc>Nachrichten</desc>
   </programme>
-  <programme start="20261103191500 +0000" stop="20261103193000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">Magazin Interview.</desc>
-    <title lang="en">Magazin Interview</title>
+  <programme start="20261105210000 +0000" stop="20261106020000 +0000" channel="RTL.Zwee.lu">
+    <title>Rediffusioun vu Magazin a Journal</title>
+    <desc>Info</desc>
   </programme>
-  <programme start="20261103195600 +0000" stop="20261103200000 +0000" channel="RTL.Zwee.lu"><category lang="en">Nachrichten</category>
-    <date>2026</date>
-    <desc lang="en">Meteo.</desc>
-    <title lang="en">Meteo</title>
+  <programme start="20261106020000 +0000" stop="20261106070000 +0000" channel="RTL.Zwee.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261106070000 +0000" stop="20261106123500 +0000" channel="RTL.Zwee.lu">
+    <title>Rediffusioun vu Magazin a Journal</title>
+    <desc>Info</desc>
   </programme>
   <programme start="20261104060000 +0000" stop="20261104070000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
     <date>2026</date>
@@ -4931,11 +4879,6 @@
     <date>2026</date>
     <desc lang="en">Meteo.</desc>
     <title lang="en">Meteo</title>
-  </programme>
-  <programme start="20261105200000 +0000" stop="20261106010000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">Rediffusioun vu Magazin a Journal.</desc>
-    <title lang="en">Rediffusioun vu Magazin a Journal</title>
   </programme>
   <programme start="20261106010000 +0000" stop="20261106060000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
     <date>2026</date>
@@ -5087,6 +5030,56 @@
     <title lang="en">Meteo</title>
   </programme>
   <programme start="20261109200000 +0000" stop="20261110060000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">Rediffusioun vu Magazin a Journal.</desc>
+    <title lang="en">Rediffusioun vu Magazin a Journal</title>
+  </programme>
+  <programme start="20261110060000 +0000" stop="20261110070000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">Rediffusioun vu Magazin a Journal.</desc>
+    <title lang="en">Rediffusioun vu Magazin a Journal</title>
+  </programme>
+  <programme start="20261110070000 +0000" stop="20261110183000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">RTL Radio Web TV.</desc>
+    <title lang="en">RTL Radio Web TV</title>
+  </programme>
+  <programme start="20261110183000 +0000" stop="20261110184700 +0000" channel="RTL.Zwee.lu"><category lang="en">Unterhaltung</category>
+    <date>2026</date>
+    <desc lang="en">Musekbox.</desc>
+    <title lang="en">Musekbox</title>
+  </programme>
+  <programme start="20261110184700 +0000" stop="20261110190000 +0000" channel="RTL.Zwee.lu"><category lang="en">Gespräch</category>
+    <date>2026</date>
+    <desc lang="en">Invité vun der Redaktioun.</desc>
+    <title lang="en">Invité vun der Redaktioun</title>
+  </programme>
+  <programme start="20261110190000 +0000" stop="20261110190200 +0000" channel="RTL.Zwee.lu"><category lang="en">Nachrichten</category>
+    <date>2026</date>
+    <desc lang="en">Meteoflash.</desc>
+    <title lang="en">Meteoflash</title>
+  </programme>
+  <programme start="20261110190200 +0000" stop="20261110191500 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">De Magazin.</desc>
+    <title lang="en">De Magazin</title>
+  </programme>
+  <programme start="20261110191500 +0000" stop="20261110193000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">Magazin Interview.</desc>
+    <title lang="en">Magazin Interview</title>
+  </programme>
+  <programme start="20261110193000 +0000" stop="20261110195600 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">De Journal.</desc>
+    <title lang="en">De Journal</title>
+  </programme>
+  <programme start="20261110195600 +0000" stop="20261110200000 +0000" channel="RTL.Zwee.lu"><category lang="en">Nachrichten</category>
+    <date>2026</date>
+    <desc lang="en">Meteo.</desc>
+    <title lang="en">Meteo</title>
+  </programme>
+  <programme start="20261110200000 +0000" stop="20261111060000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
     <date>2026</date>
     <desc lang="en">Rediffusioun vu Magazin a Journal.</desc>
     <title lang="en">Rediffusioun vu Magazin a Journal</title>
