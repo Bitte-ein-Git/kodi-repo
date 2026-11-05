@@ -2978,325 +2978,267 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20261104081625 +0000" stop="20261104082644 +0000" channel="Red Bull TV.en"><title>ACTION: Red Bull Soapbox Race – Crazy Obstacle Courses</title>
-<desc>Red Bull Soapbox racers get faster each year, and in 2017 one team built the fastest musical drum set ever.</desc>
-<icon src="https://image.tmdb.org/t/p/original/3hXoGBcSLabu2ViQDOMV1r0ejSN.jpg"/>
-<episode-num system="themoviedb.org">series/337165</episode-num>
-<episode-num system="original-air-date">2026-07-04 08:54:58</episode-num>
-<date>2026</date></programme>
-  <programme start="20261104082644 +0000" stop="20261104084013 +0000" channel="Red Bull TV.en"><title>ACTION: Red Bull Soapbox Race – Crazy Obstacle Courses</title>
-<desc>Red Bull Soapbox 2017 fan-favourite teams are some of wildest and wackiest homemade gravity-powered vehicles.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
-<episode-num system="themoviedb.org">series/287622</episode-num>
-<episode-num system="original-air-date">2026-09-20 05:35:00</episode-num>
-</programme>
-  <programme start="20261104084013 +0000" stop="20261104085130 +0000" channel="Red Bull TV.en"><title>ACTION: Red Bull Soapbox Race – Crazy Obstacle Courses</title>
-<desc>Not every clever design creates a stable soapbox, as 2017’s crash-filled highlights prove!</desc>
-<icon src="https://img.liiift.io/v1/DAM/FOL0RMP06KV5NUR7SUWA.jpeg/a:p/im:i:c_limit,w_1920,h_1080/fo-1m8qb1qa51w11-featuremedia.jpeg"/>
-<episode-num system="original-air-date">2026-08-30 13:47:09</episode-num>
-<date>2026</date></programme>
-  <programme start="20261104085130 +0000" stop="20261104085931 +0000" channel="Red Bull TV.en"><title>ACTION: Red Bull Soapbox Race – Crazy Obstacle Courses</title>
-<desc>Meet fearless teams who race fast and push their soapbox cars beyond the limits… and sometimes rules.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
-<episode-num system="themoviedb.org">series/287622</episode-num>
-<episode-num system="original-air-date">2026-07-04 05:22:41</episode-num>
-</programme>
-  <programme start="20261104085931 +0000" stop="20261104093727 +0000" channel="Red Bull TV.en"><title>SNOWBOARD: Cake – Pros Celebrating Creativity and Joy</title>
-<desc>Experience the joy and creativity of how pros ride and inspire others to hit the slopes.</desc>
-<icon src="https://img.liiift.io/v1/DAM/FO6U37WJEEMWBCS0VQQA.jpeg/a:p/im/MI202310021090_Artwork_2_3_SI202103120679.jpeg"/>
-<episode-num system="original-air-date">2026-11-02 15:09:16</episode-num>
-<date>2026</date></programme>
-  <programme start="20261104093727 +0000" stop="20261104094934 +0000" channel="Red Bull TV.en"><title>SNOW: RND at Natural Selection Snow Super Sessions 2026</title>
-<desc>Women snowboarders compete at Research &amp; Development (RND) for a slot at YETI Natural Selection Revelstoke.</desc>
-<icon src="https://img.liiift.io/v1/DAM/FO6D9563QWHN6Z6GPIUM.jpeg/a:p/im/MI202602100627_Artwork_2_3_SuperSessions.jpeg.jpeg"/>
-<episode-num system="original-air-date">2026-11-02 15:47:12</episode-num>
-<date>2026</date></programme>
-  <programme start="20261104094934 +0000" stop="20261104102552 +0000" channel="Red Bull TV.en"><title>SNOWBOARDING: Echoes of Impact – Marcus Kleveland</title>
-<desc>See how Marcus Kleveland battles with injury, pressure and the passion that fuels his snowboarding journey.</desc>
-<icon src="https://img.liiift.io/v1/DAM/FO9Z4PNCSW138GSZ7YC6.jpeg/a:p/im/MI202503180457_Artwork_2_3_SI202510090432.jpeg"/>
-<episode-num system="original-air-date">2026-11-02 15:59:19</episode-num>
-<date>2026</date></programme>
-  <programme start="20261104102552 +0000" stop="20261104113142 +0000" channel="Red Bull TV.en"><title>SNOWBOARDING: Beyond the Fantasy – Making Dreams Real</title>
-<desc>Wild snow dreams and improbable visions come alive as athletes turn imagination into reality on the slopes.</desc>
-<icon src="https://img.liiift.io/v1/DAM/FOWWW7CI91I6C89LYXDS.png/a:p/im:i:c_limit,w_1920,h_1080/BeyondtheFantasy_portrait.png"/>
-<episode-num system="original-air-date">2026-11-02 16:35:37</episode-num>
-<date>2026</date></programme>
-  <programme start="20261104113142 +0000" stop="20261104120448 +0000" channel="Red Bull TV.en"><title>SNOWBOARDING: Schnitzel Time 2 – No Return</title>
-<desc>Riders push the limits of performance and personality in a high-energy ode to the sport's skill and passion.</desc>
-<icon src="https://img.liiift.io/v1/DAM/FO5TG6SNDF6W7HDUHZRT.png/a:p/im:i:c_limit,w_1920,h_1080/Schnitzel%20Time%202_portrait.png"/>
-<episode-num system="original-air-date">2026-11-02 17:41:27</episode-num>
-<date>2026</date></programme>
-  <programme start="20261104120448 +0000" stop="20261104122732 +0000" channel="Red Bull TV.en"><title>BIKE: Paradigm – Raw MTB Talent Reaching New Heights</title>
+  <programme start="20261105091317 +0000" stop="20261105093601 +0000" channel="Red Bull TV.en"><title>BIKE: Paradigm – Raw MTB Talent Reaching New Heights</title>
 <desc>The precision of slopestyle, massive airs of freeride and the raw speed of downhill mean nonstop MTB action.</desc>
 <date>2026</date>
 <icon src="https://image.tmdb.org/t/p/original/xcZonwPFynraospKrWt3gqf6p9r.jpg"/>
 <episode-num system="themoviedb.org">series/1583569</episode-num>
 <episode-num system="original-air-date">2026-10-11 21:44:13</episode-num>
 </programme>
-  <programme start="20261104122732 +0000" stop="20261104125422 +0000" channel="Red Bull TV.en"><title>BIKE: Red Bull Valparaíso Cerro Abajo 2026 – Highlights</title>
+  <programme start="20261105093601 +0000" stop="20261105100251 +0000" channel="Red Bull TV.en"><title>BIKE: Red Bull Valparaíso Cerro Abajo 2026 – Highlights</title>
 <desc>Relive the action as the world's best MTB riders took on the UNESCO World Heritage port city of Valparaíso.</desc>
 <icon src="https://img.liiift.io/v1/DAM/FO58WJ7805BUJ9WHYYC6.jpeg/a:p/im/MI202511240343_Artwork_2_3_SI202602160203.jpeg"/>
 <episode-num system="original-air-date">2026-07-07 06:53:06</episode-num>
 <date>2026</date></programme>
-  <programme start="20261104125422 +0000" stop="20261104132000 +0000" channel="Red Bull TV.en"><title>BIKE: Asa Vermette's Ascent – A Breakout Year in MTB</title>
+  <programme start="20261105100251 +0000" stop="20261105102829 +0000" channel="Red Bull TV.en"><title>BIKE: Asa Vermette's Ascent – A Breakout Year in MTB</title>
 <desc>Follow young rising star Asa Vermette on his debut at Red Bull Hardline, downhill MTB's toughest race.</desc>
 <icon src="https://img.liiift.io/v1/DAM/FOH1I1XSA520FFA7YLPZ.jpeg/a:p/im/MI202509250622_Artwork_2_3_AsaVermette%27sAscent.jpeg"/>
 <episode-num system="original-air-date">2026-07-03 13:11:51</episode-num>
 <date>2026</date></programme>
-  <programme start="20261104132000 +0000" stop="20261104134655 +0000" channel="Red Bull TV.en"><title>BIKE: Red Bull Romaniacs 2025 – Highlights</title>
+  <programme start="20261105102829 +0000" stop="20261105105524 +0000" channel="Red Bull TV.en"><title>BIKE: Red Bull Romaniacs 2025 – Highlights</title>
 <desc>The toughest Hard Enduro riders race over four gruelling days in Romania’s rugged mountain terrain.</desc>
 <icon src="https://img.liiift.io/v1/DAM/FOYB0Q38SWSK2RMUPJQ6.jpeg/a:p/im/MI202503190422_Artwork_2_3_SI202507230826.jpeg"/>
 <episode-num system="original-air-date">2026-08-01 09:03:12</episode-num>
 <date>2026</date></programme>
-  <programme start="20261104134655 +0000" stop="20261104142749 +0000" channel="Red Bull TV.en"><title>BIKE: Red Bull Rampage MTB – 100 Wildest Rides</title>
+  <programme start="20261105105524 +0000" stop="20261105113618 +0000" channel="Red Bull TV.en"><title>BIKE: Red Bull Rampage MTB – 100 Wildest Rides</title>
 <desc>Check out the 100 wildest moments from Red Bull Rampage, the big mountain freeride event that pushes limits.</desc>
 <icon src="https://img.liiift.io/v1/DAM/FORGZGN7HK1MDLR1F6VN.jpeg/a:p/im/MI202508070043_Artwork_2_3_SI202510171868.jpeg"/>
 <episode-num system="original-air-date">2026-11-02 19:56:40</episode-num>
 <date>2026</date></programme>
-  <programme start="20261104142749 +0000" stop="20261104150819 +0000" channel="Red Bull TV.en"><title>BIKE: Matt Jones: The Impossible Gap – Extreme MTB</title>
+  <programme start="20261105113618 +0000" stop="20261105121648 +0000" channel="Red Bull TV.en"><title>BIKE: Matt Jones: The Impossible Gap – Extreme MTB</title>
 <desc>MTB rider Matt Jones aims to jump between two moving trucks in a nano-second. Watch him prepare for the feat.</desc>
 <icon src="https://img.liiift.io/v1/DAM/FO55LX6CSH5X40AV4893.jpeg/a:p/im/MI202511210258_Artwork_2_3_TheImpossibleGap.jpeg"/>
 <episode-num system="original-air-date">2026-10-11 21:44:13</episode-num>
 <date>2026</date></programme>
-  <programme start="20261104150819 +0000" stop="20261104154806 +0000" channel="Red Bull TV.en"><title>MOTORSPORT: In the Dust – Dakar Rally</title>
+  <programme start="20261105121648 +0000" stop="20261105125635 +0000" channel="Red Bull TV.en"><title>MOTORSPORT: In the Dust – Dakar Rally</title>
 <desc>Meet exceptional people who've made life-altering decisions to race Dakar, making sacrifices for a dream.</desc>
 <icon src="https://img.liiift.io/v1/DAM/FOYD334V20PJAYQM2BED.jpeg/a:p/im/MI202312070984_Artwork_2_3_InTheDust.jpeg"/>
 <episode-num system="original-air-date">2026-07-06 16:09:49</episode-num>
 <date>2026</date></programme>
-  <programme start="20261104154806 +0000" stop="20261104162053 +0000" channel="Red Bull TV.en"><title>MOTORSPORT: In the Dust – Dakar Rally</title>
+  <programme start="20261105125635 +0000" stop="20261105132923 +0000" channel="Red Bull TV.en"><title>MOTORSPORT: In the Dust – Dakar Rally</title>
 <desc>Nasser Al-Attiyah and Carlos Sainz join us to share a unique insight into their friendship and rivalry.</desc>
 <icon src="https://img.liiift.io/v1/DAM/FO2FHFA5S39BLMKXNWB6.jpeg/a:p/im/MI202312070957_Artwork_2_3_SI202401110548.jpeg"/>
 <episode-num system="original-air-date">2026-07-06 16:49:00</episode-num>
 <date>2026</date></programme>
-  <programme start="20261104162053 +0000" stop="20261104164708 +0000" channel="Red Bull TV.en"><title>MOTORSPORT: In the Dust – Dakar Rally 2024</title>
+  <programme start="20261105132923 +0000" stop="20261105135537 +0000" channel="Red Bull TV.en"><title>MOTORSPORT: In the Dust – Dakar Rally 2024</title>
 <desc>Kevin and Luciano Benavides are on rival teams (KTM and Husqvarna). Do team orders overrule family ties?</desc>
-<icon src="https://img.liiift.io/v1/DAM/FO7GKVIT0IGYICTT9G32.png/a:p/im/InTheDust_portrait.png"/>
+<icon src="https://img.liiift.io/v1/DAM/FO5GIFQNVPMA9MRF415P.png/a:p/im:i:c_limit,w_1920,h_1080/InTheDust.png"/>
 <episode-num system="original-air-date">2026-07-06 17:22:24</episode-num>
 <date>2026</date></programme>
-  <programme start="20261104164708 +0000" stop="20261104172549 +0000" channel="Red Bull TV.en"><title>MOTORSPORT: In the Dust – Dakar Rally</title>
+  <programme start="20261105135537 +0000" stop="20261105143419 +0000" channel="Red Bull TV.en"><title>MOTORSPORT: In the Dust – Dakar Rally</title>
 <desc>We explore the physical and mental stamina required for the brutal 9,000km journey of the Dakar Rally.</desc>
 <icon src="https://img.liiift.io/v1/DAM/FONRR32YMSPT2UZ3NBFD.jpeg/a:p/im/MI202312070915_Artwork_2_3_InTheDust.jpeg"/>
 <episode-num system="original-air-date">2026-07-06 17:48:38</episode-num>
 <date>2026</date></programme>
-  <programme start="20261104172549 +0000" stop="20261104175545 +0000" channel="Red Bull TV.en"><title>MOTORSPORT: In the Dust – Dakar Rally</title>
+  <programme start="20261105143419 +0000" stop="20261105150415 +0000" channel="Red Bull TV.en"><title>MOTORSPORT: In the Dust – Dakar Rally</title>
 <desc>Uncover the brutal 48-hour solo marathon stage through the story of first-time Dakar competitor Tobias Ebster.</desc>
 <icon src="https://img.liiift.io/v1/DAM/FOPRPTMGNNHQMLF03AWK.jpeg/a:p/im/MI202312070958_Artwork_2_3_SI202401160988.jpeg"/>
 <episode-num system="original-air-date">2026-07-06 18:27:20</episode-num>
 <date>2026</date></programme>
-  <programme start="20261104175545 +0000" stop="20261104182854 +0000" channel="Red Bull TV.en"><title>MOTORSPORT: In the Dust – Dakar Rally</title>
+  <programme start="20261105150415 +0000" stop="20261105153723 +0000" channel="Red Bull TV.en"><title>MOTORSPORT: In the Dust – Dakar Rally</title>
 <desc>Finding your way from point A to point B in the desert becomes a huge challenge for Dakar competitors.</desc>
 <icon src="https://img.liiift.io/v1/DAM/FORMPLTPMFK0GVJY0MTF.jpeg/a:p/im/MI202312070951_Artwork_2_3_InTheDust.jpeg"/>
 <episode-num system="original-air-date">2026-07-06 18:57:16</episode-num>
 <date>2026</date></programme>
-  <programme start="20261104182854 +0000" stop="20261104185454 +0000" channel="Red Bull TV.en"><title>ACTION: Pushing Progression – Innovating Extreme Sports</title>
+  <programme start="20261105153723 +0000" stop="20261105160323 +0000" channel="Red Bull TV.en"><title>ACTION: Pushing Progression – Innovating Extreme Sports</title>
 <desc>Hear top stars like share what drives them to dive and take the world’s oldest extreme sport to new heights.</desc>
 <icon src="https://img.liiift.io/v1/DAM/FONW0LDIT8I9L4HWKESW.jpeg/a:p/im/MI202112150389_Artwork_2_3_SI201906200360.jpeg"/>
 <episode-num system="original-air-date">2026-07-04 11:42:04</episode-num>
 <date>2026</date></programme>
-  <programme start="20261104185454 +0000" stop="20261104192054 +0000" channel="Red Bull TV.en"><title>ACTION: For Reals – Legendary Red Bull Moments</title>
+  <programme start="20261105160323 +0000" stop="20261105162923 +0000" channel="Red Bull TV.en"><title>ACTION: For Reals – Legendary Red Bull Moments</title>
 <desc>Flying a plane through a tunnel, a wingsuit flight over a volcano and a record-breaking ghost town truck jump.</desc>
 <icon src="https://img.liiift.io/v1/DAM/FOK3UF4406H7JNG7NU95.jpeg/a:p/im:i:c_limit,w_1920,h_1080/MI202309070647_Artwork_2_3_SI202109040337.jpeg"/>
 <episode-num system="original-air-date">2026-07-07 02:47:14</episode-num>
 <date>2026</date></programme>
-  <programme start="20261104192054 +0000" stop="20261104194730 +0000" channel="Red Bull TV.en"><title>ACTION: For Reals – Legendary Red Bull Moments</title>
+  <programme start="20261105162923 +0000" stop="20261105165559 +0000" channel="Red Bull TV.en"><title>ACTION: For Reals – Legendary Red Bull Moments</title>
 <desc>Red Bull athletes do it all—snowboard deserts, race on ice, race soapboxes and skydive with motocross bikes.</desc>
 <icon src="https://img.liiift.io/v1/DAM/FO3YRC2NF16CFT5K10UK.jpeg/a:p/im:i:c_limit,w_1920,h_1080/MI202309070663_Artwork_2_3_SI202408180952.jpeg"/>
 <episode-num system="original-air-date">2026-07-07 03:39:14</episode-num>
 <date>2026</date></programme>
-  <programme start="20261104194730 +0000" stop="20261104201330 +0000" channel="Red Bull TV.en"><title>ACTION: For Reals – Legendary Red Bull Moments</title>
+  <programme start="20261105165559 +0000" stop="20261105172159 +0000" channel="Red Bull TV.en"><title>ACTION: For Reals – Legendary Red Bull Moments</title>
 <desc>Red Bull athletes ride on a shipping container, race the Streif at night and enduro ride on a volcano.</desc>
 <icon src="https://img.liiift.io/v1/DAM/FOH8ECR36GN1THIEEEUM.jpeg/a:p/im:i:c_limit,w_1920,h_1080/MI202309070629_Artwork_2_3_SI202107060339.jpeg"/>
 <episode-num system="original-air-date">2026-07-07 01:54:38</episode-num>
 <date>2026</date></programme>
-  <programme start="20261104201330 +0000" stop="20261104203930 +0000" channel="Red Bull TV.en"><title>ACTION: For Reals – Legendary Red Bull Moments</title>
+  <programme start="20261105172159 +0000" stop="20261105174759 +0000" channel="Red Bull TV.en"><title>ACTION: For Reals – Legendary Red Bull Moments</title>
 <desc>Red Bull athletes fly through Tower Bridge, swing from balloons and slackline epic heights just for thrills.</desc>
 <icon src="https://img.liiift.io/v1/DAM/FOJHQ3L8PIS4PSS9WKEG.jpeg/a:p/im:i:c_limit,w_1920,h_1080/MI202309070659_Artwork_2_3_SI201607290067.jpeg"/>
 <episode-num system="original-air-date">2026-07-12 15:05:22</episode-num>
 <date>2026</date></programme>
-  <programme start="20261104203930 +0000" stop="20261104210530 +0000" channel="Red Bull TV.en"><title>ACTION: For Reals – Legendary Red Bull Moments</title>
+  <programme start="20261105174759 +0000" stop="20261105181435 +0000" channel="Red Bull TV.en"><title>ACTION: For Reals – Legendary Red Bull Moments</title>
 <desc>Red Bull athletes race swamp buggies, have a paper plane contest, dive off ancient ruins and chase waves.</desc>
 <icon src="https://img.liiift.io/v1/DAM/FOPUHW91CQY5B5LBGJK1.jpeg/a:p/im:i:c_limit,w_1920,h_1080/MI202309070614_Artwork_2_3_SI202205050025.jpeg"/>
 <episode-num system="original-air-date">2026-07-07 04:05:14</episode-num>
 <date>2026</date></programme>
-  <programme start="20261104210530 +0000" stop="20261104213100 +0000" channel="Red Bull TV.en"><title>ACTION: ABC of… Climbing</title>
+  <programme start="20261105181435 +0000" stop="20261105184005 +0000" channel="Red Bull TV.en"><title>ACTION: ABC of… Climbing</title>
 <desc>Join Sasha DiGiulian as she takes you on an expedition around the globe with some of the world's top climbers.</desc>
 <date>2026</date>
 <icon src="https://image.tmdb.org/t/p/original/vqael6A2gLqMJqCeV1v8QZVeY15.jpg"/>
 <episode-num system="themoviedb.org">series/205043</episode-num>
 <episode-num system="original-air-date">2026-10-03 15:18:12</episode-num>
 </programme>
-  <programme start="20261104213100 +0000" stop="20261104215548 +0000" channel="Red Bull TV.en"><title>CLIMBING: Reel Rock – Pure Thrills and Defying Limits</title>
+  <programme start="20261105184005 +0000" stop="20261105190453 +0000" channel="Red Bull TV.en"><title>CLIMBING: Reel Rock – Pure Thrills and Defying Limits</title>
 <desc>Shauna Coxsey goes from dominating the competition circuit to sending elite boulders with her toddler in tow.</desc>
 <icon src="https://img.liiift.io/v1/DAM/FOX934ECCVYR25UIAJVB.jpeg/a:p/im/MI202509240410_Artwork_2_3_SI202601140604.jpeg"/>
 <episode-num system="original-air-date">2026-11-02 06:25:30</episode-num>
 <date>2026</date></programme>
-  <programme start="20261104215548 +0000" stop="20261104221651 +0000" channel="Red Bull TV.en"><title>CLIMBING: Reel Rock – Pure Thrills and Defying Limits</title>
+  <programme start="20261105190453 +0000" stop="20261105192556 +0000" channel="Red Bull TV.en"><title>CLIMBING: Reel Rock – Pure Thrills and Defying Limits</title>
 <desc>No strangers to sufferfests, Alex Honnold and Cedar Wright now tackle massive granite towers in Antarctica.</desc>
 <icon src="https://img.liiift.io/v1/DAM/FO4EWQKPRD0TTS8J2ETF.jpeg/a:p/im/MI202509240417_Artwork_2_3_SI202301050452.jpeg"/>
 <episode-num system="original-air-date">2026-11-02 06:50:18</episode-num>
 <date>2026</date></programme>
-  <programme start="20261104221651 +0000" stop="20261104223841 +0000" channel="Red Bull TV.en"><title>CLIMBING: Reel Rock – Pure Thrills and Defying Limits</title>
+  <programme start="20261105192556 +0000" stop="20261105194746 +0000" channel="Red Bull TV.en"><title>CLIMBING: Reel Rock – Pure Thrills and Defying Limits</title>
 <desc>Will Moss solidifies the ‘Gunks’ as a top destination for hard trad climbing with his groundbreaking ascent.</desc>
 <icon src="https://img.liiift.io/v1/DAM/FO9R12CUKEBPX99IU14W.jpeg/a:p/im/MI202509240411_Artwork_2_3_ReelRock.jpeg"/>
 <episode-num system="original-air-date">2026-11-02 07:11:21</episode-num>
 <date>2026</date></programme>
-  <programme start="20261104223841 +0000" stop="20261104225630 +0000" channel="Red Bull TV.en"><title>CLIMBING: Reel Rock – Pure Thrills and Defying Limits</title>
+  <programme start="20261105194746 +0000" stop="20261105200536 +0000" channel="Red Bull TV.en"><title>CLIMBING: Reel Rock – Pure Thrills and Defying Limits</title>
 <desc>Siebe Vanhee, Sean Villanueva O'Driscoll and Nico Favresse attempt an alpine big wall in Patagonia, Argentina.</desc>
 <icon src="https://img.liiift.io/v1/DAM/FOAWQJL7EUSTZ35PH7T6.jpeg/a:p/im/MI202509240414_Artwork_2_3_ReelRock.jpeg"/>
 <episode-num system="original-air-date">2026-11-02 07:33:11</episode-num>
 <date>2026</date></programme>
-  <programme start="20261104225630 +0000" stop="20261104231358 +0000" channel="Red Bull TV.en"><title>CLIMBING: Reel Rock – Pure Thrills and Defying Limits</title>
+  <programme start="20261105200536 +0000" stop="20261105202303 +0000" channel="Red Bull TV.en"><title>CLIMBING: Reel Rock – Pure Thrills and Defying Limits</title>
 <desc>Belgian big-wallers must endure a raging storm and their inner demons on an eighteen-day quest for the summit.</desc>
 <icon src="https://img.liiift.io/v1/DAM/FO1BEPHH38NMFM8NZNSC.jpeg/a:p/im/MI202509240407_Artwork_2_3_ReelRock.jpeg.jpeg"/>
 <episode-num system="original-air-date">2026-11-02 07:51:00</episode-num>
 <date>2026</date></programme>
-  <programme start="20261104231358 +0000" stop="20261104234030 +0000" channel="Red Bull TV.en"><title>CLIMBING: Reel Rock – Pure Thrills and Defying Limits</title>
+  <programme start="20261105202303 +0000" stop="20261105204935 +0000" channel="Red Bull TV.en"><title>CLIMBING: Reel Rock – Pure Thrills and Defying Limits</title>
 <desc>Maureen Beck may have been born missing her lower left arm, but that hasn’t stopped her from going hard.</desc>
 <icon src="https://img.liiift.io/v1/DAM/FO1GY0N9R2FZJRHCERFJ.jpeg/a:p/im/MI202509240406_Artwork_2_3_ReelRock.jpeg"/>
 <episode-num system="original-air-date">2026-11-02 08:08:27</episode-num>
 <date>2026</date></programme>
-  <programme start="20261104234030 +0000" stop="20261105000200 +0000" channel="Red Bull TV.en"><title>CLIMBING: Reel Rock – Pure Thrills and Defying Limits</title>
+  <programme start="20261105204935 +0000" stop="20261105211106 +0000" channel="Red Bull TV.en"><title>CLIMBING: Reel Rock – Pure Thrills and Defying Limits</title>
 <desc>As he chases what may be the world's first E12, James Pearson has a reckoning with self-acceptance.</desc>
 <icon src="https://img.liiift.io/v1/DAM/FO3CQIXG1S0Q6LZU1GL0.jpeg/a:p/im/MI202509240405_Artwork_2_3_SI202504110376.jpeg"/>
 <episode-num system="original-air-date">2026-11-02 08:35:00</episode-num>
 <date>2026</date></programme>
-  <programme start="20261105000200 +0000" stop="20261105002144 +0000" channel="Red Bull TV.en"><title>CLIMBING: Reel Rock – Pure Thrills and Defying Limits</title>
+  <programme start="20261105211106 +0000" stop="20261105213050 +0000" channel="Red Bull TV.en"><title>CLIMBING: Reel Rock – Pure Thrills and Defying Limits</title>
 <desc>An intimate look beneath the success of legendary climber Beth Rodden, and her struggles and transformation.</desc>
 <icon src="https://img.liiift.io/v1/DAM/FO9AS6S1GHLCB7XDFNEP.jpeg/a:p/im/MI202205130690_Artwork_2_3_ReelRock.jpeg"/>
 <episode-num system="original-air-date">2026-07-03 20:40:31</episode-num>
 <date>2026</date></programme>
-  <programme start="20261105002144 +0000" stop="20261105004712 +0000" channel="Red Bull TV.en"><title>ACTION: ABC of… Skateboarding</title>
+  <programme start="20261105213050 +0000" stop="20261105215617 +0000" channel="Red Bull TV.en"><title>ACTION: ABC of… Skateboarding</title>
 <desc>Take a look at the history of skateboarding, from the pioneers of sidewalk surfing to today's skateboarders.</desc>
 <date>2026</date>
 <icon src="https://image.tmdb.org/t/p/original/x2uEzpoVHKwLriUyUMSmEkBYW7L.jpg"/>
 <episode-num system="themoviedb.org">series/218377</episode-num>
 <episode-num system="original-air-date">2026-07-10 08:23:55</episode-num>
 </programme>
-  <programme start="20261105004712 +0000" stop="20261105012112 +0000" channel="Red Bull TV.en"><title>SKATE: Red Bull Drop In Tour</title>
+  <programme start="20261105215617 +0000" stop="20261105223017 +0000" channel="Red Bull TV.en"><title>SKATE: Red Bull Drop In Tour</title>
 <desc>Friends ride South America’s vibrant streets and ramps, showing the raw energy of the country's skate culture.</desc>
 <icon src="https://img.liiift.io/v1/DAM/FOWC36992JTCR24KA8HG.png/a:p/im/SI202409300013%3AArtwork%3AVertical%3A2.3.png"/>
 <episode-num system="original-air-date">2026-07-26 10:59:16</episode-num>
 <date>2026</date></programme>
-  <programme start="20261105012112 +0000" stop="20261105015401 +0000" channel="Red Bull TV.en"><title>SKATE: Red Bull Drop In Tour</title>
+  <programme start="20261105223017 +0000" stop="20261105230306 +0000" channel="Red Bull TV.en"><title>SKATE: Red Bull Drop In Tour</title>
 <desc>The skateboard demo tour hits Melbourne, Brisbane, Gold Coast and Sydney with Jamie Foy, TJ Rogers and more.</desc>
 <icon src="https://img.liiift.io/v1/DAM/FOM2CII1LUXD3UPRDBNV.png/a:p/im/SI202310280363%3AArtwork%3AVertical%3A2.3.png"/>
 <episode-num system="original-air-date">2026-11-02 10:15:42</episode-num>
 <date>2026</date></programme>
-  <programme start="20261105015401 +0000" stop="20261105020904 +0000" channel="Red Bull TV.en"><title>SKATE: Skate Tales – Madars Apse's Global Journey</title>
+  <programme start="20261105230306 +0000" stop="20261105231809 +0000" channel="Red Bull TV.en"><title>SKATE: Skate Tales – Madars Apse's Global Journey</title>
 <desc>Andy Anderson skates with his own bold style, while Madars Apse meets the rider who can't be boxed in.</desc>
 <icon src="https://img.liiift.io/v1/DAM/FOD9AHHNNTFE7N3P25II.jpeg/a:p/im/MI202310051133_Artwork_2_3_SI202405290581.jpeg"/>
 <episode-num system="original-air-date">2026-07-26 11:33:16</episode-num>
 <date>2026</date></programme>
-  <programme start="20261105020904 +0000" stop="20261105022527 +0000" channel="Red Bull TV.en"><title>SKATE: Skate Tales – Madars Apse's Global Journey</title>
+  <programme start="20261105231809 +0000" stop="20261105233432 +0000" channel="Red Bull TV.en"><title>SKATE: Skate Tales – Madars Apse's Global Journey</title>
 <desc>Follow Milton Martinez from Argentina to the US and see how he returns to his roots to make his mark.</desc>
 <icon src="https://img.liiift.io/v1/DAM/FOXPBDNE6EY6Y33WT8T2.jpeg/a:p/im/MI202310051140_Artwork_2_3_SI202408120334.jpeg"/>
 <episode-num system="original-air-date">2026-07-26 11:48:19</episode-num>
 <date>2026</date></programme>
-  <programme start="20261105022527 +0000" stop="20261105023952 +0000" channel="Red Bull TV.en"><title>SKATE: Skate Tales – Madars Apse's Global Journey</title>
+  <programme start="20261105233432 +0000" stop="20261105234857 +0000" channel="Red Bull TV.en"><title>SKATE: Skate Tales – Madars Apse's Global Journey</title>
 <desc>Madars Apse visits legend Peter Hewitt in San Diego, for his raw creativity in vert skating and pool riding.</desc>
 <icon src="https://img.liiift.io/v1/DAM/FOKRLPW9ZESIER01DKC1.jpeg/a:p/im/MI202310051156_Artwork_2_3_SI202405300191.jpeg"/>
 <episode-num system="original-air-date">2026-11-02 11:19:56</episode-num>
 <date>2026</date></programme>
-  <programme start="20261105023952 +0000" stop="20261105025445 +0000" channel="Red Bull TV.en"><title>SKATE: Skate Tales – Madars Apse's Global Journey</title>
+  <programme start="20261105234857 +0000" stop="20261106000350 +0000" channel="Red Bull TV.en"><title>SKATE: Skate Tales – Madars Apse's Global Journey</title>
 <desc>Evan Mock mixes with New York’s A-list and reshapes skate style with his unique flair.</desc>
 <icon src="https://img.liiift.io/v1/DAM/FOEAH4DTQED7M8X88PNW.jpeg/a:p/im/MI202310051146_Artwork_2_3_SkateTales.jpeg"/>
 <episode-num system="original-air-date">2026-11-02 11:34:21</episode-num>
 <date>2026</date></programme>
-  <programme start="20261105025445 +0000" stop="20261105031516 +0000" channel="Red Bull TV.en"><title>SKATE: Red Bull Building Drop – Sandro Dias's Records</title>
+  <programme start="20261106000350 +0000" stop="20261106002421 +0000" channel="Red Bull TV.en"><title>SKATE: Red Bull Building Drop – Sandro Dias's Records</title>
 <desc>Urban legend no more, Sandro Dias sets two new world records skating a quarter pipe-shaped 22-storey building.</desc>
 <icon src="https://img.liiift.io/v1/DAM/FORUXK1P7UNIST3WG5CN.jpeg/a:p/im:i:c_limit,w_1920,h_1080/MI202509160366_Artwork_2_3_BuildingDrop.jpeg"/>
 <episode-num system="original-air-date">2026-07-25 13:26:55</episode-num>
 <date>2026</date></programme>
-  <programme start="20261105031516 +0000" stop="20261105035914 +0000" channel="Red Bull TV.en"><title>ACTION: Red Bull Soapbox Race – Crazy Obstacle Courses</title>
+  <programme start="20261106002421 +0000" stop="20261106010819 +0000" channel="Red Bull TV.en"><title>ACTION: Red Bull Soapbox Race – Crazy Obstacle Courses</title>
 <desc>From amazing driving to wild crashes, watch this weird and wonderful events' best from around the globe.</desc>
 <icon src="https://img.liiift.io/v1/DAM/FOH755BC4W30851X961I.jpeg/a:p/im/MI201801050037_Artwork_2_3_%20SI201307150218.jpeg"/>
 <episode-num system="original-air-date">2026-11-02 12:09:45</episode-num>
 <date>2026</date></programme>
-  <programme start="20261105035914 +0000" stop="20261105044253 +0000" channel="Red Bull TV.en"><title>ACTION: Red Bull Soapbox Race – Crazy Obstacle Courses</title>
+  <programme start="20261106010819 +0000" stop="20261106015158 +0000" channel="Red Bull TV.en"><title>ACTION: Red Bull Soapbox Race – Crazy Obstacle Courses</title>
 <desc>Wild homemade cars race downhill in Cincinnati with action, laughs and crazy spills you won’t want to miss!</desc>
 <icon src="https://img.liiift.io/v1/DAM/FO-1ZJ956GR95N11.jpg/a:p/im:i:c_limit,w_1920,h_1080/soapboxrace_s6e2_ohio-display_portrait.jpg"/>
 <episode-num system="original-air-date">2026-07-25 09:09:56</episode-num>
 <date>2026</date></programme>
-  <programme start="20261105044253 +0000" stop="20261105045155 +0000" channel="Red Bull TV.en"><title>ACTION: Red Bull Soapbox Race – Crazy Obstacle Courses</title>
+  <programme start="20261106015158 +0000" stop="20261106020101 +0000" channel="Red Bull TV.en"><title>ACTION: Red Bull Soapbox Race – Crazy Obstacle Courses</title>
 <desc>From flying bodywork to broken steering and fast rides, competition brings wild moments across seven stops.</desc>
 <date>2026</date>
 <icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
 <episode-num system="themoviedb.org">series/287622</episode-num>
 <episode-num system="original-air-date">2026-07-04 05:30:41</episode-num>
 </programme>
-  <programme start="20261105045155 +0000" stop="20261105050208 +0000" channel="Red Bull TV.en"><title>ACTION: Red Bull Soapbox Race – Crazy Obstacle Courses</title>
-<desc>In 2018, the soapbox cars looked better than ever. See the crowd favourites and best roll to the finish!</desc>
-<icon src="https://image.tmdb.org/t/p/original/3hXoGBcSLabu2ViQDOMV1r0ejSN.jpg"/>
-<episode-num system="themoviedb.org">series/337165</episode-num>
-<episode-num system="original-air-date">2026-08-30 06:08:37</episode-num>
-<date>2026</date></programme>
-  <programme start="20261105050208 +0000" stop="20261105051253 +0000" channel="Red Bull TV.en"><title>MOTORSPORT: Red Bull Racing Road Trips – Off the Grid</title>
+  <programme start="20261106020101 +0000" stop="20261106021024 +0000" channel="Red Bull TV.en"><title>ACTION: Red Bull Soapbox Race – Crazy Obstacle Courses</title>
+<desc>Flying bagpipes and a fast Stone Age racer are just two wild rides from the best runs of 2018.</desc>
+<date>2026</date>
+<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
+<episode-num system="themoviedb.org">series/287622</episode-num>
+<episode-num system="original-air-date">2026-07-04 09:05:18</episode-num>
+</programme>
+  <programme start="20261106021024 +0000" stop="20261106022110 +0000" channel="Red Bull TV.en"><title>MOTORSPORT: Red Bull Racing Road Trips – Off the Grid</title>
 <desc>Max Verstappen and Sergio Pérez race Yuki Tsunoda and Daniel Ricciardo in wild home-made soapbox cars!</desc>
 <icon src="https://img.liiift.io/v1/DAM/FO8A5DK28I9D84Q0IXB4.jpeg/a:p/im:i:c_limit,w_1920,h_1080/MI202406040873_Artwork_2_3_SI202406070316_UnseriousRace.jpeg"/>
 <episode-num system="original-air-date">2026-08-01 05:35:04</episode-num>
 <date>2026</date></programme>
-  <programme start="20261105051253 +0000" stop="20261105052126 +0000" channel="Red Bull TV.en"><title>ACTION: Red Bull Soapbox Race – Crazy Obstacle Courses</title>
+  <programme start="20261106022110 +0000" stop="20261106022943 +0000" channel="Red Bull TV.en"><title>ACTION: Red Bull Soapbox Race – Crazy Obstacle Courses</title>
 <desc>Top soapbox designers aim for nothing less than infinity and beyond with their pop culture-inspired creations!</desc>
 <date>2026</date>
 <icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
 <episode-num system="themoviedb.org">series/287622</episode-num>
 <episode-num system="original-air-date">2026-08-02 05:42:42</episode-num>
 </programme>
-  <programme start="20261105052126 +0000" stop="20261105053141 +0000" channel="Red Bull TV.en"><title>ACTION: Red Bull Soapbox Race – Crazy Obstacle Courses</title>
+  <programme start="20261106022943 +0000" stop="20261106023957 +0000" channel="Red Bull TV.en"><title>ACTION: Red Bull Soapbox Race – Crazy Obstacle Courses</title>
 <desc>Speed may win the race, but quirky designs, big shows and huge crashes win the crowd in 2016.</desc>
 <date>2026</date>
 <icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
 <episode-num system="themoviedb.org">series/287622</episode-num>
 <episode-num system="original-air-date">2026-10-04 00:23:26</episode-num>
 </programme>
-  <programme start="20261105053141 +0000" stop="20261105054200 +0000" channel="Red Bull TV.en"><title>ACTION: Red Bull Soapbox Race – Crazy Obstacle Courses</title>
+  <programme start="20261106023957 +0000" stop="20261106025017 +0000" channel="Red Bull TV.en"><title>ACTION: Red Bull Soapbox Race – Crazy Obstacle Courses</title>
 <desc>Red Bull Soapbox racers get faster each year, and in 2017 one team built the fastest musical drum set ever.</desc>
 <icon src="https://image.tmdb.org/t/p/original/3hXoGBcSLabu2ViQDOMV1r0ejSN.jpg"/>
 <episode-num system="themoviedb.org">series/337165</episode-num>
 <episode-num system="original-air-date">2026-07-04 08:54:58</episode-num>
 <date>2026</date></programme>
-  <programme start="20261105054200 +0000" stop="20261105055103 +0000" channel="Red Bull TV.en"><title>ACTION: Red Bull Soapbox Race – Crazy Obstacle Courses</title>
-<desc>From flying bodywork to broken steering and fast rides, competition brings wild moments across seven stops.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
-<episode-num system="themoviedb.org">series/287622</episode-num>
-<episode-num system="original-air-date">2026-07-04 05:30:41</episode-num>
-</programme>
-  <programme start="20261105055103 +0000" stop="20261105060000 +0000" channel="Red Bull TV.en"><title>ACTION: Red Bull Soapbox Race – Crazy Obstacle Courses</title>
+  <programme start="20261106025017 +0000" stop="20261106030241 +0000" channel="Red Bull TV.en"><title>ACTION: Red Bull Soapbox Race – Crazy Obstacle Courses</title>
+<desc>Catch the seven greatest crashes at race of pure fun, incredible costumes and brilliant designs.</desc>
+<icon src="https://img.liiift.io/v1/DAM/FO2EBSJEVSFZXIBI0C5F.png/a:p/im:i:c_limit,w_1920,h_1080/SI202210030130_portrait.png"/>
+<episode-num system="original-air-date">2026-10-16 05:46:40</episode-num>
+<date>2026</date></programme>
+  <programme start="20261106030241 +0000" stop="20261106031041 +0000" channel="Red Bull TV.en"><title>ACTION: Red Bull Soapbox Race – Crazy Obstacle Courses</title>
 <desc>Meet fearless teams who race fast and push their soapbox cars beyond the limits… and sometimes rules.</desc>
 <date>2026</date>
 <icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
 <episode-num system="themoviedb.org">series/287622</episode-num>
 <episode-num system="original-air-date">2026-07-04 05:22:41</episode-num>
 </programme>
-  <programme start="20261105060000 +0000" stop="20261105060800 +0000" channel="Red Bull TV.en"><title>ACTION: Red Bull Soapbox Race – Crazy Obstacle Courses</title>
-<desc>Meet fearless teams who race fast and push their soapbox cars beyond the limits… and sometimes rules.</desc>
-<date>2026</date>
-<icon src="https://image.tmdb.org/t/p/original/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg"/>
-<episode-num system="themoviedb.org">series/287622</episode-num>
-<episode-num system="original-air-date">2026-07-04 05:22:41</episode-num>
-</programme>
-  <programme start="20261105060800 +0000" stop="20261105064556 +0000" channel="Red Bull TV.en"><title>SNOWBOARD: Cake – Pros Celebrating Creativity and Joy</title>
+  <programme start="20261106031041 +0000" stop="20261106034837 +0000" channel="Red Bull TV.en"><title>SNOWBOARD: Cake – Pros Celebrating Creativity and Joy</title>
 <desc>Experience the joy and creativity of how pros ride and inspire others to hit the slopes.</desc>
 <icon src="https://img.liiift.io/v1/DAM/FO6U37WJEEMWBCS0VQQA.jpeg/a:p/im/MI202310021090_Artwork_2_3_SI202103120679.jpeg"/>
 <episode-num system="original-air-date">2026-11-02 15:09:16</episode-num>
 <date>2026</date></programme>
-  <programme start="20261105064556 +0000" stop="20261105065803 +0000" channel="Red Bull TV.en"><title>SNOW: RND at Natural Selection Snow Super Sessions 2026</title>
+  <programme start="20261106034837 +0000" stop="20261106040120 +0000" channel="Red Bull TV.en"><title>SNOW: RND at Natural Selection Snow Super Sessions 2026</title>
 <desc>Women snowboarders compete at Research &amp; Development (RND) for a slot at YETI Natural Selection Revelstoke.</desc>
 <icon src="https://img.liiift.io/v1/DAM/FO6D9563QWHN6Z6GPIUM.jpeg/a:p/im/MI202602100627_Artwork_2_3_SuperSessions.jpeg.jpeg"/>
 <episode-num system="original-air-date">2026-11-02 15:47:12</episode-num>
 <date>2026</date></programme>
-  <programme start="20261105065803 +0000" stop="20261105073421 +0000" channel="Red Bull TV.en"><title>SNOWBOARDING: Echoes of Impact – Marcus Kleveland</title>
+  <programme start="20261106040120 +0000" stop="20261106043702 +0000" channel="Red Bull TV.en"><title>SNOWBOARDING: Echoes of Impact – Marcus Kleveland</title>
 <desc>See how Marcus Kleveland battles with injury, pressure and the passion that fuels his snowboarding journey.</desc>
 <icon src="https://img.liiift.io/v1/DAM/FO9Z4PNCSW138GSZ7YC6.jpeg/a:p/im/MI202503180457_Artwork_2_3_SI202510090432.jpeg"/>
 <episode-num system="original-air-date">2026-11-02 15:59:19</episode-num>
 <date>2026</date></programme>
-  <programme start="20261105073421 +0000" stop="20261105084011 +0000" channel="Red Bull TV.en"><title>SNOWBOARDING: Beyond the Fantasy – Making Dreams Real</title>
-<desc>Wild snow dreams and improbable visions come alive as athletes turn imagination into reality on the slopes.</desc>
-<icon src="https://img.liiift.io/v1/DAM/FOWWW7CI91I6C89LYXDS.png/a:p/im:i:c_limit,w_1920,h_1080/BeyondtheFantasy_portrait.png"/>
-<episode-num system="original-air-date">2026-11-02 16:35:37</episode-num>
+  <programme start="20261106043702 +0000" stop="20261106051458 +0000" channel="Red Bull TV.en"><title>SNOWBOARD: Cake – Pros Celebrating Creativity and Joy</title>
+<desc>Experience the joy and creativity of how pros ride and inspire others to hit the slopes.</desc>
+<icon src="https://img.liiift.io/v1/DAM/FO6U37WJEEMWBCS0VQQA.jpeg/a:p/im/MI202310021090_Artwork_2_3_SI202103120679.jpeg"/>
+<episode-num system="original-air-date">2026-11-02 15:09:16</episode-num>
 <date>2026</date></programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
@@ -4776,50 +4718,6 @@
   <channel id="RTLTeleLuxembourg.lu">
     <display-name>RTL Télé Lëtzebuerg</display-name>
   </channel>
-  <programme start="20261104070000 +0000" stop="20261104080000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Rediffusioun vu Magazin a Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261104080000 +0000" stop="20261104100000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261104100000 +0000" stop="20261104103000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Kannerserie: Klincus</title>
-    <desc>An der faszinéierender Welt vu Klincus treffen Technologie, Fantasie an Natur openeen. Eng industriell Revolutioun verännert d'Welt an erméiglecht ëmmer nei technesch Innovatiounen – mee dobäi geréit d'Gläichgewiicht mat der Natur a Gefor.br /Klincus erzielt vun engem éiwege Konflikt: tëscht Modernitéit an Traditioun, tëscht dem Fortschrëtt an den ale Gesetzer vun der Natur. Eng spannend Fantasiegeschicht, déi net nëmmen an enger fiktiver Welt spillt, mee och Froen opwerft, déi eis haut méi wéi jee beschäftegen</desc>
-  </programme>
-  <programme start="20261104103000 +0000" stop="20261104193000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261104193000 +0000" stop="20261104200000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Kannerserie: Klincus</title>
-    <desc>An der faszinéierender Welt vu Klincus treffen Technologie, Fantasie an Natur openeen. Eng industriell Revolutioun verännert d'Welt an erméiglecht ëmmer nei technesch Innovatiounen – mee dobäi geréit d'Gläichgewiicht mat der Natur a Gefor.br /Klincus erzielt vun engem éiwege Konflikt: tëscht Modernitéit an Traditioun, tëscht dem Fortschrëtt an den ale Gesetzer vun der Natur. Eng spannend Fantasiegeschicht, déi net nëmmen an enger fiktiver Welt spillt, mee och Froen opwerft, déi eis haut méi wéi jee beschäftegenbr /br /</desc>
-  </programme>
-  <programme start="20261104200000 +0000" stop="20261104200200 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Meteoflash</title>
-    <desc>Nachrichten</desc>
-  </programme>
-  <programme start="20261104200200 +0000" stop="20261104201500 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Magazin</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261104201500 +0000" stop="20261104203000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Magazin Interview</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261104203000 +0000" stop="20261104205600 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261104205600 +0000" stop="20261104210000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Meteo</title>
-    <desc>Nachrichten</desc>
-  </programme>
-  <programme start="20261104210000 +0000" stop="20261105070000 +0000" channel="RTLTeleLuxembourg.lu">
-    <title>Rediffusioun vu Magazin a Journal</title>
-    <desc>Info</desc>
-  </programme>
   <programme start="20261105070000 +0000" stop="20261105080000 +0000" channel="RTLTeleLuxembourg.lu">
     <title>Rediffusioun vu Magazin a Journal</title>
     <desc>Info</desc>
@@ -4868,50 +4766,50 @@
     <title>RTL Radio Web TV</title>
     <desc>Info</desc>
   </programme>
+  <programme start="20261106100000 +0000" stop="20261106103000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Kannerserie: Klincus</title>
+    <desc>An der faszinéierender Welt vu Klincus treffen Technologie, Fantasie an Natur openeen. Eng industriell Revolutioun verännert d'Welt an erméiglecht ëmmer nei technesch Innovatiounen – mee dobäi geréit d'Gläichgewiicht mat der Natur a Gefor.br /Klincus erzielt vun engem éiwege Konflikt: tëscht Modernitéit an Traditioun, tëscht dem Fortschrëtt an den ale Gesetzer vun der Natur. Eng spannend Fantasiegeschicht, déi net nëmmen an enger fiktiver Welt spillt, mee och Froen opwerft, déi eis haut méi wéi jee beschäftegen</desc>
+  </programme>
+  <programme start="20261106103000 +0000" stop="20261106193000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261106193000 +0000" stop="20261106200000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Kannerserie: Klincus</title>
+    <desc>An der faszinéierender Welt vu Klincus treffen Technologie, Fantasie an Natur openeen. Eng industriell Revolutioun verännert d'Welt an erméiglecht ëmmer nei technesch Innovatiounen – mee dobäi geréit d'Gläichgewiicht mat der Natur a Gefor.br /Klincus erzielt vun engem éiwege Konflikt: tëscht Modernitéit an Traditioun, tëscht dem Fortschrëtt an den ale Gesetzer vun der Natur. Eng spannend Fantasiegeschicht, déi net nëmmen an enger fiktiver Welt spillt, mee och Froen opwerft, déi eis haut méi wéi jee beschäftegenbr /br /</desc>
+  </programme>
+  <programme start="20261106200000 +0000" stop="20261106200200 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Meteoflash</title>
+    <desc>Nachrichten</desc>
+  </programme>
+  <programme start="20261106200200 +0000" stop="20261106203000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Documentaire: I love graffiti</title>
+    <desc>E Bléck op d'Originen an d'Entwécklung vun der Graffiti-Szen op engem ganz besonnesche Lëtzebuerger Site: dem ale Schluechthaus.br /Des Plaz ass zanter méi wéi 25 Joer e wichtege Pilier vun der lokaler Graffiti-Kultur. Den Documentaire erzielt d'Geschicht vun dësem emblematesche Site a weist, wéi sech Graffiti do iwwer d'Joren entwéckelt huet. br /</desc>
+  </programme>
+  <programme start="20261106203000 +0000" stop="20261106205600 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>De Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261106205600 +0000" stop="20261106210000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Meteo</title>
+    <desc>Nachrichten</desc>
+  </programme>
+  <programme start="20261106210000 +0000" stop="20261107070000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Rediffusioun vu Magazin a Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261107070000 +0000" stop="20261107080000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>Rediffusioun vu Magazin a Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261107080000 +0000" stop="20261107100000 +0000" channel="RTLTeleLuxembourg.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
+  </programme>
   <channel id="RTL.Zwee.lu">
     <display-name>RTL Zwee</display-name>
     <icon src="https://iptv-epg.org/images/oHSmItP6WtPBct623O8G2WwY1UUKinaauYHEqQcVkJSEsQDupbBGhIXVqycpGDDKb6tbS71i4meL--qsxVwayBEazAz7nFhF2bF3ODnkZwi2DIDY"/>
   </channel>
-  <programme start="20261104070000 +0000" stop="20261104080000 +0000" channel="RTL.Zwee.lu">
-    <title>Rediffusioun vu Magazin a Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261104080000 +0000" stop="20261104194700 +0000" channel="RTL.Zwee.lu">
-    <title>RTL Radio Web TV</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261104194700 +0000" stop="20261104200000 +0000" channel="RTL.Zwee.lu">
-    <title>Invité vun der Redaktioun</title>
-    <desc>Gespräch</desc>
-  </programme>
-  <programme start="20261104200000 +0000" stop="20261104200200 +0000" channel="RTL.Zwee.lu">
-    <title>Meteoflash</title>
-    <desc>Nachrichten</desc>
-  </programme>
-  <programme start="20261104200200 +0000" stop="20261104201500 +0000" channel="RTL.Zwee.lu">
-    <title>De Magazin</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261104201500 +0000" stop="20261104203000 +0000" channel="RTL.Zwee.lu">
-    <title>Magazin Interview</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261104203000 +0000" stop="20261104205600 +0000" channel="RTL.Zwee.lu">
-    <title>De Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261104205600 +0000" stop="20261104210000 +0000" channel="RTL.Zwee.lu">
-    <title>Meteo</title>
-    <desc>Nachrichten</desc>
-  </programme>
-  <programme start="20261104210000 +0000" stop="20261104214500 +0000" channel="RTL.Zwee.lu">
-    <title>Rediffusioun vu Magazin a Journal</title>
-    <desc>Info</desc>
-  </programme>
-  <programme start="20261104214500 +0000" stop="20261105070000 +0000" channel="RTL.Zwee.lu">
-    <title>Champions League</title>
-    <desc>Magazin</desc>
-  </programme>
   <programme start="20261105070000 +0000" stop="20261105080000 +0000" channel="RTL.Zwee.lu">
     <title>Rediffusioun vu Magazin a Journal</title>
     <desc>Info</desc>
@@ -4952,45 +4850,49 @@
     <title>Rediffusioun vu Magazin a Journal</title>
     <desc>Info</desc>
   </programme>
-  <programme start="20261104060000 +0000" stop="20261104070000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">Rediffusioun vu Magazin a Journal.</desc>
-    <title lang="en">Rediffusioun vu Magazin a Journal</title>
+  <programme start="20261106123500 +0000" stop="20261106172500 +0000" channel="RTL.Zwee.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
   </programme>
-  <programme start="20261104183000 +0000" stop="20261104184700 +0000" channel="RTL.Zwee.lu"><category lang="en">Unterhaltung</category>
-    <date>2026</date>
-    <desc lang="en">Musekbox.</desc>
-    <title lang="en">Musekbox</title>
+  <programme start="20261106172500 +0000" stop="20261106183500 +0000" channel="RTL.Zwee.lu">
+    <title>FORMULA 1 MSC CRUISES GRANDE PREMIO DE SAO PAULO 2026 FP1</title>
+    <desc>Hightech, Speed an ëmmer um Limitt. De ganze Weekend, vum Qualifying samsdes bis bei d'Course sonndes, d'Formel 1 ass elo live op RTL ZWEE.</desc>
   </programme>
-  <programme start="20261104184700 +0000" stop="20261104190000 +0000" channel="RTL.Zwee.lu"><category lang="en">Gespräch</category>
-    <date>2026</date>
-    <desc lang="en">Invité vun der Redaktioun.</desc>
-    <title lang="en">Invité vun der Redaktioun</title>
+  <programme start="20261106183500 +0000" stop="20261106194700 +0000" channel="RTL.Zwee.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
   </programme>
-  <programme start="20261104190000 +0000" stop="20261104190200 +0000" channel="RTL.Zwee.lu"><category lang="en">Nachrichten</category>
-    <date>2026</date>
-    <desc lang="en">Meteoflash.</desc>
-    <title lang="en">Meteoflash</title>
+  <programme start="20261106194700 +0000" stop="20261106200000 +0000" channel="RTL.Zwee.lu">
+    <title>Invité vun der Redaktioun</title>
+    <desc>Gespräch</desc>
   </programme>
-  <programme start="20261104190200 +0000" stop="20261104191500 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">De Magazin.</desc>
-    <title lang="en">De Magazin</title>
+  <programme start="20261106200000 +0000" stop="20261106200200 +0000" channel="RTL.Zwee.lu">
+    <title>Meteoflash</title>
+    <desc>Nachrichten</desc>
   </programme>
-  <programme start="20261104191500 +0000" stop="20261104193000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">Magazin Interview.</desc>
-    <title lang="en">Magazin Interview</title>
+  <programme start="20261106200200 +0000" stop="20261106205500 +0000" channel="RTL.Zwee.lu">
+    <title>De Magazin</title>
+    <desc>Info</desc>
   </programme>
-  <programme start="20261104193000 +0000" stop="20261104195600 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">De Journal.</desc>
-    <title lang="en">De Journal</title>
+  <programme start="20261106205500 +0000" stop="20261106220500 +0000" channel="RTL.Zwee.lu">
+    <title>FORMULA 1 MSC CRUISES GRANDE PREMIO DE SAO PAULO 2026 FP2</title>
+    <desc>Hightech, Speed an ëmmer um Limitt. De ganze Weekend, vum Qualifying samsdes bis bei d'Course sonndes, d'Formel 1 ass elo live op RTL ZWEE.</desc>
   </programme>
-  <programme start="20261104195600 +0000" stop="20261104200000 +0000" channel="RTL.Zwee.lu"><category lang="en">Nachrichten</category>
-    <date>2026</date>
-    <desc lang="en">Meteo.</desc>
-    <title lang="en">Meteo</title>
+  <programme start="20261106220500 +0000" stop="20261107020000 +0000" channel="RTL.Zwee.lu">
+    <title>Rediffusioun vu Magazin a Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261107020000 +0000" stop="20261107070000 +0000" channel="RTL.Zwee.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261107070000 +0000" stop="20261107080000 +0000" channel="RTL.Zwee.lu">
+    <title>Rediffusioune vu Journal</title>
+    <desc>Info</desc>
+  </programme>
+  <programme start="20261107080000 +0000" stop="20261107162500 +0000" channel="RTL.Zwee.lu">
+    <title>RTL Radio Web TV</title>
+    <desc>Info</desc>
   </programme>
   <programme start="20261105060000 +0000" stop="20261105070000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
     <date>2026</date>
@@ -5083,11 +4985,6 @@
     <date>2026</date>
     <desc lang="en">Rediffusioune vu Journal.</desc>
     <title lang="en">Rediffusioune vu Journal</title>
-  </programme>
-  <programme start="20261107070000 +0000" stop="20261107152500 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
-    <date>2026</date>
-    <desc lang="en">RTL Radio Web TV.</desc>
-    <title lang="en">RTL Radio Web TV</title>
   </programme>
   <programme start="20261107152500 +0000" stop="20261107185500 +0000" channel="RTL.Zwee.lu"><category lang="en">Motorsport</category>
     <category>Sports</category>
@@ -5222,6 +5119,51 @@
     <title lang="en">Meteo</title>
   </programme>
   <programme start="20261110200000 +0000" stop="20261111060000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">Rediffusioun vu Magazin a Journal.</desc>
+    <title lang="en">Rediffusioun vu Magazin a Journal</title>
+  </programme>
+  <programme start="20261111060000 +0000" stop="20261111070000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">Rediffusioun vu Magazin a Journal.</desc>
+    <title lang="en">Rediffusioun vu Magazin a Journal</title>
+  </programme>
+  <programme start="20261111070000 +0000" stop="20261111184700 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">RTL Radio Web TV.</desc>
+    <title lang="en">RTL Radio Web TV</title>
+  </programme>
+  <programme start="20261111184700 +0000" stop="20261111190000 +0000" channel="RTL.Zwee.lu"><category lang="en">Gespräch</category>
+    <date>2026</date>
+    <desc lang="en">Invité vun der Redaktioun.</desc>
+    <title lang="en">Invité vun der Redaktioun</title>
+  </programme>
+  <programme start="20261111190000 +0000" stop="20261111190200 +0000" channel="RTL.Zwee.lu"><category lang="en">Nachrichten</category>
+    <date>2026</date>
+    <desc lang="en">Meteoflash.</desc>
+    <title lang="en">Meteoflash</title>
+  </programme>
+  <programme start="20261111190200 +0000" stop="20261111191500 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">De Magazin.</desc>
+    <title lang="en">De Magazin</title>
+  </programme>
+  <programme start="20261111191500 +0000" stop="20261111193000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">Magazin Interview.</desc>
+    <title lang="en">Magazin Interview</title>
+  </programme>
+  <programme start="20261111193000 +0000" stop="20261111195600 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
+    <date>2026</date>
+    <desc lang="en">De Journal.</desc>
+    <title lang="en">De Journal</title>
+  </programme>
+  <programme start="20261111195600 +0000" stop="20261111200000 +0000" channel="RTL.Zwee.lu"><category lang="en">Nachrichten</category>
+    <date>2026</date>
+    <desc lang="en">Meteo.</desc>
+    <title lang="en">Meteo</title>
+  </programme>
+  <programme start="20261111200000 +0000" stop="20261112060000 +0000" channel="RTL.Zwee.lu"><category lang="en">Info</category>
     <date>2026</date>
     <desc lang="en">Rediffusioun vu Magazin a Journal.</desc>
     <title lang="en">Rediffusioun vu Magazin a Journal</title>
