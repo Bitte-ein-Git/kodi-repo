@@ -2911,21 +2911,6 @@
     <display-name>Red Bull TV (English) FHD</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png"/>
   </channel>
-  <programme start="20261116183706 +0000" stop="20261116185413 +0000" channel="Red Bull TV.en"><title>CLIMBING: Reel Rock – Pure Thrills and Defying Limits</title>
-<desc>The climbing stars team faces fears as they climb solo, proving the toughest routes test mind as well as body.</desc>
-<icon src="https://img.liiift.io/v1/DAM/FO804IR3N2KCMCLDAUXH.png/a:p/im:i:f_jpg/Reel%20Rock_Portrait_Art%20Work.jpg"/>
-<episode-num system="original-air-date">2026-11-16 18:37:06</episode-num>
-<date>2026</date></programme>
-  <programme start="20261116185413 +0000" stop="20261116191450 +0000" channel="Red Bull TV.en"><title>CLIMBING: Reel Rock – Pure Thrills and Defying Limits</title>
-<desc>A blind adventure athlete takes on a towering rock face in a bold journey of trust, grit and courage.</desc>
-<icon src="https://img.liiift.io/v1/DAM/FO7ISIZ18I36ZHXPB1VZ.png/a:p/im:i:c_limit,w_1920,h_1080,f_jpg/ReelRockSeason10Episode3_portrait.jpg"/>
-<episode-num system="original-air-date">2026-11-16 18:54:13</episode-num>
-<date>2026</date></programme>
-  <programme start="20261116191450 +0000" stop="20261116193920 +0000" channel="Red Bull TV.en"><title>CLIMBING: Reel Rock – Pure Thrills and Defying Limits</title>
-<desc>A climbing legend and leaves titles behind to take on a bold first ascent of Japan's Mt. Mizugaki.</desc>
-<icon src="https://img.liiift.io/v1/DAM/FOQMMMG5PEXT0ZCAJBYS.png/a:p/im:i:f_jpg/Artwork%3AVertical%3A2.3.jpg"/>
-<episode-num system="original-air-date">2026-11-16 19:14:50</episode-num>
-<date>2026</date></programme>
   <programme start="20261116193920 +0000" stop="20261116201011 +0000" channel="Red Bull TV.en"><title>CLIMBING: Reel Rock – Pure Thrills and Defying Limits</title>
 <desc>No rope means no room for error. Watch Chris Sharma pushes the limits of deep water soloing in Mallorca.</desc>
 <icon src="https://img.liiift.io/v1/DAM/FOZ2JLZ60TXPTVV6YCPV.png/a:p/im:i:f_jpg/Artwork%3AVertical%3A2.3.jpg"/>
@@ -2968,7 +2953,7 @@
 <date>2026</date></programme>
   <programme start="20261116224801 +0000" stop="20261116225912 +0000" channel="Red Bull TV.en"><title>SNOW: Glimpse/ – BTS with Scotty James</title>
 <desc>After six months of no snowboarding, an empty halfpipe was a sight for Scotty James's sore eyes.</desc>
-<icon src="https://img.liiift.io/v1/DAM/FOJZILXJVE3GQ8RBHPMD.jpeg/a:h/im:i:c_limit,w_1920,h_1080,f_jpg/glimpse-cover-art.jpeg?ht=exp=1795366098+hmac=5e1d51c74dc4fda9a7e2d03b35d2bfdc"/>
+<icon src="https://img.liiift.io/v1/DAM/FOJZILXJVE3GQ8RBHPMD.jpeg/a:h/im:i:c_limit,w_1920,h_1080,f_jpg/glimpse-cover-art.jpeg?ht=exp=1795453418+hmac=87ce7e2d2002c6cd9d1b1bd8493afaab"/>
 <episode-num system="original-air-date">2026-11-16 22:48:01</episode-num>
 <date>2026</date></programme>
   <programme start="20261116225912 +0000" stop="20261117001217 +0000" channel="Red Bull TV.en"><title>SKI: La Liste: Everything or Nothing – Higher Peaks</title>
@@ -3175,6 +3160,16 @@
 <desc>The Red Bull Dance Your Style 2021 country tour, national finals and cancelled World Final were unique!</desc>
 <icon src="https://img.liiift.io/v1/DAM/FOEYF3A7HBE50U15SE42.png/a:p/im:i:f_jpg/Artwork%3AVertical.jpg"/>
 <episode-num system="original-air-date">2026-11-10 14:48:25</episode-num>
+<date>2026</date></programme>
+  <programme start="20261117182937 +0000" stop="20261117185337 +0000" channel="Red Bull TV.en"><title>DANCE: Take the Title – South Africa's Elite Talent</title>
+<desc>Follow the Red Bull Dance Your Style competitors on the 2023 tour as they compete and share their stories.</desc>
+<icon src="https://img.liiift.io/v1/DAM/FOGM89Y78LZ6UXE9Z0FY.png/a:p/im:i:f_jpg/Artwork%3AVertical.jpg"/>
+<episode-num system="original-air-date">2026-11-10 15:12:25</episode-num>
+<date>2026</date></programme>
+  <programme start="20261117185337 +0000" stop="20261117191737 +0000" channel="Red Bull TV.en"><title>DANCE: Take the Title – South Africa's Elite Talent</title>
+<desc>Watch the Red Bull Dance Your Style National Final as the 16 top compete for a spot at the World Final.</desc>
+<icon src="https://img.liiift.io/v1/DAM/FOY60RG04XI2RN67IKWE.png/a:p/im:i:f_jpg/Artwork%3AVertical.jpg"/>
+<episode-num system="original-air-date">2026-11-10 15:36:25</episode-num>
 <date>2026</date></programme>
   <channel id="More Than Sports TV.de">
     <display-name>More Than Sports TV FHD</display-name>
