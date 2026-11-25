@@ -72,11 +72,52 @@ class LivePlayer(player):
 
     def __init__(self):
         player.__init__(self)
+        self.reset()
+
+    def reset(self):
+        """Zustand fuer die naechste Quelle zuruecksetzen."""
         self.ended = False
         self.stopped = False
+        self.error = False
+        # Pfad des eigenen Streams, festgehalten beim ersten echten Bild. Spielt
+        # Kodi danach etwas anderes, hat der Nutzer gewechselt -> nicht eingreifen.
+        self.own_file = None
+
+    def _playing_file(self):
+        try:
+            return self.getPlayingFile()
+        except Exception:
+            return None
+
+    def _foreign_playback(self):
+        if not self.own_file or not self.isPlaying():
+            return False
+        current = self._playing_file()
+        return bool(current) and current != self.own_file
+
+    def stop_and_settle(self, timeout=3.0):
+        """Eigenen Stream stoppen und das Stopp-Event abwarten.
+
+        Ohne das Warten kaeme das Event der alten Quelle erst waehrend der
+        naechsten an und wuerde dort als Nutzer-Stopp gewertet. Gibt False
+        zurueck, wenn der Player in der Zeit nicht zur Ruhe kam.
+        """
+        if self.isPlaying():
+            self.stop()
+            deadline = time.time() + timeout
+            while time.time() < deadline and not monitor.abortRequested():
+                if not self.isPlaying() and (self.stopped or self.ended or self.error):
+                    break
+                monitor.waitForAbort(0.1)
+        settled = not self.isPlaying()
+        self.reset()
+        return settled
 
     def onPlayBackEnded(self):
         self.ended = True
+
+    def onPlayBackError(self):
+        self.error = True
 
     def onPlayBackStopped(self):
         self.stopped = True
@@ -94,7 +135,7 @@ class LivePlayer(player):
         except Exception:
             return 1
 
-    def _confirm_stall(self, grace):
+    def _confirm_stall(self, grace, check=None):
         """Vor einem Stillstand-Urteil kurz auf onPlayBackStopped/Ended warten.
 
         Beim Druck auf Stopp friert getTime() ein bzw. isPlayingVideo() wird False,
@@ -103,28 +144,47 @@ class LivePlayer(player):
         """
         deadline = time.time() + grace
         while not monitor.abortRequested():
+            if check:
+                reason = check()
+                if reason:
+                    return reason
             if self.stopped:
                 return "stopped"
-            if self.ended:
+            if self.ended or self.error:
                 return "ended"
             if time.time() >= deadline:
                 return "stalled"
             monitor.waitForAbort(0.1)
         return "abort"
 
-    def wait_for_failure(self, stall_seconds=0.5, startup_seconds=12):
+    def wait_for_failure(self, stall_seconds=0.5, startup_seconds=12, check=None, on_started=None):
+        """Wiedergabe ueberwachen, bis sie endet oder abreisst.
+
+        check: Funktion ohne Argumente; liefert sie einen Grund ("cancelled",
+        "replaced"), endet die Ueberwachung sofort mit diesem Ergebnis.
+        on_started: wird einmal aufgerufen, sobald das erste echte Bild laeuft.
+        """
         started = time.time()
         last_progress = started
         last_time = None
         progressed = False          # getTime() ist mindestens einmal echt weitergelaufen
 
         while not monitor.abortRequested():
-            if self.stopped or self.ended:
-                # Stop/End OHNE dass je ein Bild lief -> Quelle taugt nicht, naechste probieren.
-                # (Kodi feuert onPlayBackStopped auch, wenn ffmpeg selbst abbricht.)
-                if not progressed:
-                    return "startup_failed"
-                return "ended" if self.ended else "stopped"
+            if check:
+                reason = check()
+                if reason:
+                    return reason
+            if self._foreign_playback():
+                # Kodi spielt etwas anderes als unseren Stream -> Nutzer hat gewechselt
+                return "replaced"
+            if self.stopped:
+                # onPlayBackStopped kommt nur bei aktivem Stopp (Nutzer) - auch
+                # waehrend des Starts kein Wechsel. Quellfehler melden sich ueber
+                # onPlayBackError bzw. onPlayBackEnded.
+                return "stopped"
+            if self.error or self.ended:
+                # Fehler/Ende OHNE dass je ein Bild lief -> Quelle taugt nicht, naechste probieren.
+                return "ended" if progressed else "startup_failed"
 
             if self.isPlayingVideo():
                 try:
@@ -134,9 +194,17 @@ class LivePlayer(player):
                     elif current - last_time > 0.1:
                         last_time = current
                         last_progress = time.time()
-                        progressed = True
+                        if not progressed:
+                            progressed = True
+                            if not self.own_file:
+                                self.own_file = self._playing_file()
+                            if on_started:
+                                try:
+                                    on_started()
+                                except Exception:
+                                    log(format_exc())
                     elif progressed and self._speed() != 0 and time.time() - last_progress >= stall_seconds:
-                        result = self._confirm_stall(1.0)
+                        result = self._confirm_stall(1.0, check)
                         if result != "stalled" or self.isPlayingVideo():
                             return result
                         # Player waehrend der Wartezeit verschwunden -> wie unten behandeln
@@ -149,7 +217,7 @@ class LivePlayer(player):
                 # lief schon, Bild jetzt ohne Event weg -> meist Nutzer-Stopp, dessen
                 # Event noch unterwegs ist; daher laenger auf das Event warten.
                 if time.time() - last_progress >= stall_seconds:
-                    return self._confirm_stall(3.0)
+                    return self._confirm_stall(3.0, check)
             elif time.time() - started >= startup_seconds:
                 return "startup_failed"
 
